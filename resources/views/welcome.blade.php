@@ -36,6 +36,7 @@
         </style>
     </head>
     <body>
+    <?php \Log::info("first page"); ?>
         <div class="container">
             <div class="content">
                 <div class="title">Eco-nomix</div>

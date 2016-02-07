@@ -2,9 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Data/Hardcover_bullet_black-13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Index.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Metadata/BuildVersionHistory.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Metadata/DocumentIdentifier" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Metadata/Properties.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/preview-micro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/preview-web.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/04.jpg" afterPath="$PROJECT_DIR$/public/images/04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/1.jpg" afterPath="$PROJECT_DIR$/public/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/1.png" afterPath="$PROJECT_DIR$/public/images/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/1_1.jpg" afterPath="$PROJECT_DIR$/public/images/1_1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2 (1).png" afterPath="$PROJECT_DIR$/public/images/2 (1).png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2.jpg" afterPath="$PROJECT_DIR$/public/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2.png" afterPath="$PROJECT_DIR$/public/images/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2_2.png" afterPath="$PROJECT_DIR$/public/images/2_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/3.jpg" afterPath="$PROJECT_DIR$/public/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/3.png" afterPath="$PROJECT_DIR$/public/images/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_1007908_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_1007908_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_1007908_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_1007908_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_10579325_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_10579325_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11044053_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11044053_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11161786_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11161786_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11782315_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11782315_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11962688_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11962688_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_13120746_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_13120746_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_14197789_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_14197789_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_14696309_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_14696309_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_15642717_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_15642717_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_16370783_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_16370783_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_17652191_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_17652191_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_1814306_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_1814306_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_18173453_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_18173453_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_18173585_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_18173585_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_18831617_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_18831617_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_22326387_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_22326387_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_24971323_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_24971323_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_26437437_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_26437437_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_2657114_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_2657114_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_27495089_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_27495089_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_27893937_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_27893937_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_33947723_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_33947723_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_34475483_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_34475483_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35021413_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35021413_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35115045_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35115045_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35443629_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35443629_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35578983_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35578983_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_3803453_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_3803453_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_4063062_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_4063062_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_50477883_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_50477883_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_50480711_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_50480711_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_51893127_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_51893127_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_54859039_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_54859039_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_5637724_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_5637724_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_5706720_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_5706720_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_58267431_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_58267431_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_6475031_original.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_6475031_original.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_6714226_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_6714226_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_70515177_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_70515177_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_7251301_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_7251301_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_74405729_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_74405729_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_74773211_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_74773211_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_75199569_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_75199569_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_8069840_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_8069840_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_82268712_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_82268712_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_8668111_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_8668111_m-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_87601056_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_87601056_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_9241329_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_9241329_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_9901391_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_9901391_l-2015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Economix3731.jpg" afterPath="$PROJECT_DIR$/public/images/Economix3731.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Economix3732.jpg" afterPath="$PROJECT_DIR$/public/images/Economix3732.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Economix3733.jpg" afterPath="$PROJECT_DIR$/public/images/Economix3733.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100106795.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100106795.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100155497.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100155497.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100199862.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100199862.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100207093.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100207093.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100207415.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100207415.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100211644.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100211644.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100212478.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100212478.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100213755.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100213755.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100214192.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100214192.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10021473.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10021473.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100255091.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100255091.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100272250.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100272250.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100278760.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100278760.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100288771.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100288771.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100295395.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100295395.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100296635.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100296635.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100303307.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100303307.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100304083.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100304083.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100355774 (1).jpg" afterPath="$PROJECT_DIR$/public/images/ID-100355774 (1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100355774.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100355774.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100370155.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100370155.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100380047.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100380047.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10047973.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10047973.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10049186.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10049186.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10053450.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10053450.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10086148.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10086148.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10086320.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10086320.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/a.png" afterPath="$PROJECT_DIR$/public/images/a.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 3.txt" afterPath="$PROJECT_DIR$/public/images/eco-nomix logo info 3.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info.doc" afterPath="$PROJECT_DIR$/public/images/eco-nomix logo info.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo1.jpg" afterPath="$PROJECT_DIR$/public/images/logo1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo1.png" afterPath="$PROJECT_DIR$/public/images/logo1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo2.jpg" afterPath="$PROJECT_DIR$/public/images/logo2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo2.png" afterPath="$PROJECT_DIR$/public/images/logo2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/navigation.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/articles/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/articles/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,38 +144,40 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="4" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="navigation.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/navigation.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/navigation.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31784582" vertical-offset="311" max-vertical-offset="1258">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.5687732" vertical-offset="306" max-vertical-offset="1360">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="24.538462" vertical-offset="109880" max-vertical-offset="323034">
+              <caret line="3213" column="23" selection-start-line="3213" selection-start-column="23" selection-end-line="3213" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1564">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1292">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1434" max-vertical-offset="2550">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -74,62 +186,53 @@
       <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1564">
+              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Users.php">
+      <file leaf-file-name="Depositphotos_2657114_l-2015.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/Depositphotos_2657114_l-2015.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Depositphotos_11044053_l-2015.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/Depositphotos_11044053_l-2015.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WithdrawalReasons.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/WithdrawalReasons.php">
+      <file leaf-file-name="cba.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/cba.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18938">
+              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Withdrawals.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Withdrawals.php">
+      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="13311" max-vertical-offset="22712">
+              <caret line="397" column="21" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="2006">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flash.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/flash.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1122">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -147,12 +250,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vendor/vhost" />
         <option value="$PROJECT_DIR$/resources/views/layout.blade.php.html" />
         <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/public/css/editable.css" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/app/Article.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/articles/index.blade.php" />
@@ -190,10 +290,17 @@
         <option value="$PROJECT_DIR$/app/Models/Users.php" />
         <option value="$PROJECT_DIR$/app/Models/WithdrawalReasons.php" />
         <option value="$PROJECT_DIR$/app/Models/Withdrawals.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/flash.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/navigation.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/test.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/app.css" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" />
       </list>
     </option>
   </component>
@@ -207,8 +314,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6.2" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3777" />
-    <option name="y" value="-21" />
+    <option name="x" value="-1868" />
+    <option name="y" value="-217" />
     <option name="width" value="1797" />
     <option name="height" value="1090" />
   </component>
@@ -343,11 +450,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,9 +554,12 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/resources/views/layouts" />
       <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
@@ -460,52 +602,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3777" y="-21" width="1797" height="1090" extended-state="0" />
-    <editor active="false" />
+    <frame x="-1868" y="-217" width="1797" height="1090" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40981963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25527066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25527066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25527066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -528,70 +648,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/editable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3824" max-vertical-offset="4794">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="970">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
@@ -883,21 +939,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="2006">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/flash.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1122">
           <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,22 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="4" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
@@ -934,11 +966,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/navigation.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/test.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31784582" vertical-offset="311" max-vertical-offset="1258">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="947">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12342">
+          <caret line="0" column="1125" selection-start-line="0" selection-start-column="1125" selection-end-line="0" selection-end-column="1125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cba.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18938">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13311" max-vertical-offset="22712">
+          <caret line="397" column="21" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.538462" vertical-offset="109880" max-vertical-offset="323034">
+          <caret line="3213" column="23" selection-start-line="3213" selection-start-column="23" selection-end-line="3213" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/Depositphotos_11044053_l-2015.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/Depositphotos_2657114_l-2015.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1564">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="2550">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/navigation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5687732" vertical-offset="306" max-vertical-offset="1360">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

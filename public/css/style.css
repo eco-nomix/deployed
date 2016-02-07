@@ -1,3 +1,70 @@
-body {
+.economixbody {
     background:lightblue;
+}
+
+.navigation-center{
+    vertical-align:middle;
+}
+.navigation-height{
+    height:52px;
+}
+#navcontainer {
+    background:darkgreen;
+    height:52px;
+    top:0;
+    width:100%;
+    position:fixed;
+}
+
+ul.navigation  {
+
+    margin:5,0,0,0;
+    list-style-type:none;
+    overflow:hidden;
+}
+
+ul.navigation  li{
+    float:left;
+
+}
+
+
+ul.navigation li a{
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding: 17px 16px;
+    color:#DDDDDD;
+
+}
+
+ul.navigation li a:hover:not(.active){
+    color:#000000;
+    background-color:lightgreen;
+}
+
+ul.navigation a.active{
+    background-color:#086ca9;
+}
+
+ul.navigation ul.right{
+    float:right;
+    list-style-type:none;
+}
+
+.message {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width:800px;
+    font-weight:bold;
+    color:#c0c0c0;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+
+
 }

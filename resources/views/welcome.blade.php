@@ -1,9 +1,11 @@
-@extends('layout')
+@extends('layouts.default')
 
-@section('header')
-    <h2>header stuff</h2>
-@stop
+
 
 @section('content')
-    <h1>The Welcome Page Goes here</h1>
+   <div style="height:1400px; background-attachment:fixed; background-size:100% 100%; background-image:  url({{$imageUrl}});">
+   </div>
+   <div class="message">
+       <p>{{$message}}</p>
+   </div>
 @stop

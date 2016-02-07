@@ -2,121 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Data/Hardcover_bullet_black-13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Index.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Metadata/BuildVersionHistory.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Metadata/DocumentIdentifier" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/Metadata/Properties.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/preview-micro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/preview-web.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 2.pages/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/04.jpg" afterPath="$PROJECT_DIR$/public/images/04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/1.jpg" afterPath="$PROJECT_DIR$/public/images/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/1.png" afterPath="$PROJECT_DIR$/public/images/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/1_1.jpg" afterPath="$PROJECT_DIR$/public/images/1_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2 (1).png" afterPath="$PROJECT_DIR$/public/images/2 (1).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2.jpg" afterPath="$PROJECT_DIR$/public/images/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2.png" afterPath="$PROJECT_DIR$/public/images/2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/2_2.png" afterPath="$PROJECT_DIR$/public/images/2_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/3.jpg" afterPath="$PROJECT_DIR$/public/images/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/3.png" afterPath="$PROJECT_DIR$/public/images/3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_1007908_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_1007908_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_1007908_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_1007908_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_10579325_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_10579325_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11044053_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11044053_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11161786_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11161786_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11782315_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11782315_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_11962688_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_11962688_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_13120746_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_13120746_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_14197789_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_14197789_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_14696309_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_14696309_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_15642717_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_15642717_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_16370783_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_16370783_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_17652191_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_17652191_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_1814306_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_1814306_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_18173453_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_18173453_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_18173585_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_18173585_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_18831617_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_18831617_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_22326387_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_22326387_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_24971323_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_24971323_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_26437437_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_26437437_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_2657114_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_2657114_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_27495089_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_27495089_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_27893937_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_27893937_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_33947723_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_33947723_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_34475483_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_34475483_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35021413_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35021413_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35115045_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35115045_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35443629_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35443629_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_35578983_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_35578983_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_3803453_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_3803453_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_4063062_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_4063062_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_50477883_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_50477883_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_50480711_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_50480711_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_51893127_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_51893127_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_54859039_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_54859039_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_5637724_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_5637724_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_5706720_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_5706720_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_58267431_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_58267431_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_6475031_original.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_6475031_original.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_6714226_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_6714226_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_70515177_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_70515177_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_7251301_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_7251301_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_74405729_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_74405729_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_74773211_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_74773211_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_75199569_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_75199569_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_8069840_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_8069840_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_82268712_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_82268712_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_8668111_m-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_8668111_m-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_87601056_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_87601056_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_9241329_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_9241329_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Depositphotos_9901391_l-2015.jpg" afterPath="$PROJECT_DIR$/public/images/Depositphotos_9901391_l-2015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Economix3731.jpg" afterPath="$PROJECT_DIR$/public/images/Economix3731.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Economix3732.jpg" afterPath="$PROJECT_DIR$/public/images/Economix3732.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/Economix3733.jpg" afterPath="$PROJECT_DIR$/public/images/Economix3733.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100106795.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100106795.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100155497.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100155497.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100199862.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100199862.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100207093.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100207093.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100207415.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100207415.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100211644.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100211644.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100212478.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100212478.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100213755.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100213755.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100214192.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100214192.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10021473.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10021473.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100255091.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100255091.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100272250.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100272250.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100278760.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100278760.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100288771.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100288771.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100295395.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100295395.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100296635.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100296635.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100303307.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100303307.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100304083.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100304083.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100355774 (1).jpg" afterPath="$PROJECT_DIR$/public/images/ID-100355774 (1).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100355774.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100355774.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100370155.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100370155.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-100380047.jpg" afterPath="$PROJECT_DIR$/public/images/ID-100380047.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10047973.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10047973.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10049186.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10049186.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10053450.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10053450.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10086148.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10086148.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/ID-10086320.jpg" afterPath="$PROJECT_DIR$/public/images/ID-10086320.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/a.png" afterPath="$PROJECT_DIR$/public/images/a.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info 3.txt" afterPath="$PROJECT_DIR$/public/images/eco-nomix logo info 3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/eco-nomix logo info.doc" afterPath="$PROJECT_DIR$/public/images/eco-nomix logo info.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo1.jpg" afterPath="$PROJECT_DIR$/public/images/logo1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo1.png" afterPath="$PROJECT_DIR$/public/images/logo1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo2.jpg" afterPath="$PROJECT_DIR$/public/images/logo2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/logo2.png" afterPath="$PROJECT_DIR$/public/images/logo2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/navigation.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/articles/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/articles/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -154,8 +40,8 @@
       <file leaf-file-name="navigation.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/navigation.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5687732" vertical-offset="306" max-vertical-offset="1360">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.5687732" vertical-offset="170" max-vertical-offset="1394">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -166,8 +52,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="24.538462" vertical-offset="109880" max-vertical-offset="323034">
-              <caret line="3213" column="23" selection-start-line="3213" selection-start-column="23" selection-end-line="3213" selection-end-column="23" />
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="109344" max-vertical-offset="323034">
+              <caret line="3221" column="0" selection-start-line="3221" selection-start-column="0" selection-end-line="3221" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1006,14 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="24.538462" vertical-offset="109880" max-vertical-offset="323034">
-          <caret line="3213" column="23" selection-start-line="3213" selection-start-column="23" selection-end-line="3213" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/Depositphotos_11044053_l-2015.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1048,10 +926,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="109344" max-vertical-offset="323034">
+          <caret line="3221" column="0" selection-start-line="3221" selection-start-column="0" selection-end-line="3221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/navigation.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5687732" vertical-offset="306" max-vertical-offset="1360">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.5687732" vertical-offset="170" max-vertical-offset="1394">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>

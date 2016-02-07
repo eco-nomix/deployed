@@ -11,9 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/','PagesController@home');
+
+Route::get('about','PagesController@about');
+
+Route::get('foo',function(){
+    return 'bar';
 });
+
+Route::get('articles','ArticlesController@index');
 
 /*
 |--------------------------------------------------------------------------

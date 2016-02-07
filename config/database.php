@@ -26,6 +26,7 @@ return [
     |
     */
 
+  //  'default' => env('DB_CONNECTION', 'mysql'),
     'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
@@ -65,12 +66,34 @@ return [
             'engine'    => null,
         ],
 
+        'services' => array(
+            'driver'    => 'mysql',
+            'host'      => getenv('SERVICES_DB_HOST'),
+            'database'  => getenv('SERVICES_DB_DATABASE'),
+            'username'  => getenv('SERVICES_DB_USERNAME'),
+            'password'  => getenv('SERVICES_DB_PASSWORD'),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+
+        'geonames' => array(
+            'driver'    => 'mysql',
+            'host'      => getenv('GEONAMES_DB_HOST'),
+            'database'  => getenv('GEONAMES_DB_DATABASE'),
+            'username'  => getenv('GEONAMES_DB_USERNAME'),
+            'password'  => getenv('GEONAMES_DB_PASSWORD'),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+
         'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => env('DB_HOST', 'localhost'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'password' => env('DB_PASSWORD', 'jZ2TprFXETSTcpfwTkQg'),
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
@@ -81,7 +104,7 @@ return [
             'host'     => env('DB_HOST', 'localhost'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'password' => env('DB_PASSWORD', 'jZ2TprFXETSTcpfwTkQg'),
             'charset'  => 'utf8',
             'prefix'   => '',
         ],

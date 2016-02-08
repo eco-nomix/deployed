@@ -16,7 +16,7 @@
 //});
 
 Route::get('/','PagesController@home');
-
+Route::get('/test','PagesController@test');
 Route::get('about','PagesController@about');
 
 Route::get('foo',function(){

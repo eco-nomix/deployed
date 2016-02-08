@@ -68,3 +68,34 @@ ul.navigation ul.right{
 
 
 }
+
+.message2 {
+    margin:10px;
+    font-weight:bold;
+    color:#000000;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+
+
+}
+.navdropdown {
+    position: relative;
+    display:inline-block;
+}
+
+.navdropdown-content{
+    display:none;
+    position: absolute;
+    backgroud-color: #f9f9f9;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.navdropdown:hover .navdropdown-content {
+    display:block;
+}

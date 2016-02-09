@@ -10,7 +10,7 @@
     @yield('header')
 </head>
 <body class="economixbody">
-    @include('layouts.navigation')
+    @include('layouts.navigation2')
     @yield('content')
     @yield('footer')
 

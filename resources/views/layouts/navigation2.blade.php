@@ -3,61 +3,61 @@
     {{--<div class="container-fluid">--}}
 
         <div class="navbar-brand brand-image">
-                <img src="/images/Economix3731_Fotor.jpg" width="150" height="24" />{!! $pageHeader or '' !!}
+                <a href="/test/"><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
         </div>
 
 
         <div style="padding:5,0,0,0">
 
 <ul id="drop-nav" ">
-  <li><a href="#">Products</a>
+  <li><a href="/products">Products</a>
       <ul>
-        <li><a href="#">Food Production</a></li>
-        <li><a href="#">Water Purification</a></li>
-        <li><a href="#">Energy Production</a></li>
-        <li><a href="#">Recycling</a></li>
-        <li><a href="#">Survival, Camping</a></li>
-        <li><a href="#">Cooking Systems</a></li>
-        <li><a href="#">Home Health</a></li>
-        <li><a href="#">Books and Guides</a></li>
-        <li><a href="#">Training</a></li>
+        <li><a href="/food">Food Production</a></li>
+        <li><a href="/water">Water Purification</a></li>
+        <li><a href="/energy">Energy Production</a></li>
+        <li><a href="/recycling">Recycling</a></li>
+        <li><a href="/camping">Survival, Camping</a></li>
+        <li><a href="/cooking">Cooking Systems</a></li>
+        <li><a href="/health">Home Health</a></li>
+        <li><a href="/books">Books and Guides</a></li>
+        <li><a href="/training">Training</a></li>
       </ul>
     </li>
-  <li><a href="#">People</a>
+  <li><a href="/people">People</a>
       <ul>
-        <li><a href="#">Founders</a></li>
-        <li><a href="#">Members</a></li>
-        <li><a href="#">Charities</a></li>
-        <li><a href="#">Sponsored Groups</a></li>
+        <li><a href="/founders">Founders</a></li>
+        <li><a href="/members">Members</a></li>
+        <li><a href="/charities">Charities</a></li>
+        <li><a href="/groups">Sponsored Groups</a></li>
       </ul>
     </li>
-  <li><a href="#">Purpose</a>
+  <li><a href="/purpose">Purpose</a>
     <ul>
-      <li><a href="#">Physically</a></li>
-      <li><a href="#">Emotionally</a></li>
-      <li><a href="#">Spiritually</a></li>
-      <li><a href="#">Economically</a></li>
+      <li><a href="/physically">Physically</a></li>
+      <li><a href="/emotionally">Emotionally</a></li>
+      <li><a href="/spiritually">Spiritually</a></li>
+      <li><a href="/economically">Economically</a></li>
     </ul>
   </li>
-  <li><a href="#">Plans</a>
+  <li><a href="/plans">Plans</a>
     <ul>
-      <li><a href="#">Member Discount</a></li>
-      <li><a href="#">Referral Fees</a></li>
-      <li><a href="#">Donations</a></li>
+      <li><a href="/discount">Member Discount</a></li>
+      <li><a href="/referral">Referral Fees</a></li>
+      <li><a href="/donations">Donations</a></li>
     </ul>
   </li>
   <ul class="pull-right">
-  <li><a href="#">About</a></li>
-  <li><a href="#">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/contact">Contact</a></li>
   @if($user_name == '')
-  <li><a href="#">Login</a></li>
+  <li><a href="/login">Login</a></li>
   @else
 
-  <li><a href="#">{!! $user_name !!}</a>
+  <li><a href="/homepage/{{$user_home}}">{!! $user_name !!}</a>
       <ul>
-        <li><a href="#">Home Page</a></li>
-        <li><a href="#">Got Money</a></li>
-        <li><a href="#">Logout</a></li>
+        <li><a href="/homepage/{{$user_home}}">Home Page</a></li>
+        <li><a href="/money/{{$user_money}}">Got Money</a></li>
+        <li><a href="/logout">Logout</a></li>
       </ul>
     </li>
   @endif
@@ -66,3 +66,6 @@
         </div>
 
 </div>
+<br>
+<br>
+hhhh

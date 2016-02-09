@@ -16,14 +16,38 @@
 //});
 
 Route::get('/','PagesController@home');
-Route::get('/test','PagesController@test');
-Route::get('about','PagesController@about');
+Route::get('/test',array('as' => 'test','uses'=>'PagesController@test'));
+Route::get('/about',array('as' => 'about','uses'=>'PagesController@about'));
+Route::get('/products',array('as' => 'products','uses'=>'PagesController@products'));
+Route::get('/food',array('as' => 'food','uses'=>'PagesController@food'));
+Route::get('/water',array('as' => 'water','uses'=>'PagesController@water'));
+Route::get('/energy',array('as' => 'energy','uses'=>'PagesController@energy'));
+Route::get('/recycling',array('as' => 'recycling','uses'=>'PagesController@recycling'));
+Route::get('/camping',array('as' => 'camping','uses'=>'PagesController@camping'));
+Route::get('/cooking',array('as' => 'cooking','uses'=>'PagesController@cooking'));
+Route::get('/health',array('as' => 'health','uses'=>'PagesController@health'));
+Route::get('/books',array('as' => 'books','uses'=>'PagesController@books'));
+Route::get('/training',array('as' => 'training','uses'=>'PagesController@training'));
+Route::get('/people',array('as' => 'people','uses'=>'PagesController@people'));
+Route::get('/founders',array('as' => 'founders','uses'=>'PagesController@founders'));
+Route::get('/members',array('as' => 'members','uses'=>'PagesController@members'));
+Route::get('/charities',array('as' => 'charities','uses'=>'PagesController@charities'));
+Route::get('/groups',array('as' => 'groups','uses'=>'PagesController@groups'));
+ROute::get('/purpose',array('as' => 'purpose','uses'=>'PagesController@purpose'));
+Route::get('/physically',array('as' => 'physically','uses'=>'PagesController@physically'));
+Route::get('/emotionally',array('as' => 'emotionally','uses'=>'PagesController@emotionally'));
+Route::get('/spiritually',array('as' => 'spiritually','uses'=>'PagesController@spiritually'));
+Route::get('/economically',array('as' => 'economically','uses'=>'PagesController@economically'));
+Route::get('/plans',array('as' => 'plans','uses'=>'PagesController@plans'));
+Route::get('/discount',array('as' => 'discount','uses'=>'PagesController@discount'));
+Route::get('/referral',array('as' => 'referral','uses'=>'PagesController@referral'));
+Route::get('/donations',array('as' => 'donations','uses'=>'PagesController@donations'));
+Route::get('/contact',array('as' => 'contact','uses'=>'PagesController@contact'));
+Route::get('/homepage/{userId}',array('as' => 'homepage','uses'=>'PagesController@homepage'));
+Route::get('/money/{userId}',array('as' => 'money','uses'=>'PagesController@money'));
+Route::get('/logout/',array('as' => 'logout','uses'=>'PagesController@logout'));
 
-Route::get('foo',function(){
-    return 'bar';
-});
 
-Route::get('articles','ArticlesController@index');
 
 /*
 |--------------------------------------------------------------------------

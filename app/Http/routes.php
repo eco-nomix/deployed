@@ -13,7 +13,10 @@
 
 //Route::get('/', function () {
 //    return view('welcome');
-//}); 
+//});
+Route::get('/jaylogs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
+
 Route::group(['middleware' => ['web']], function () {
 
 
@@ -26,7 +29,7 @@ Route::get('/register',['as' => 'register','uses'=>'AuthenticationController@reg
 
 
 Route::get('/','PagesController@home');
-Route::get('/jaylogs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
 Route::get('/test',['as' => 'test','uses'=>'PagesController@test']);
 Route::get('/about',['as' => 'about','uses'=>'PagesController@about']);
 Route::get('/products',['as' => 'products','uses'=>'PagesController@products']);

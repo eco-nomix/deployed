@@ -17,6 +17,7 @@
 Route::get('/jaylogs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 
 
+
 Route::group(['middleware' => ['web']], function () {
 
 

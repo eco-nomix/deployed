@@ -64,7 +64,7 @@ class AuthenticationController extends Controller
         }
 
         \Log::info("reset=$reset");
-        $data = $this->userData($user);
+        $data = $this->baseData();
         $data['user_name'] = '';
         $data['user_id'] = '';
         $data['errors'] = 'Password or Username incorrect';

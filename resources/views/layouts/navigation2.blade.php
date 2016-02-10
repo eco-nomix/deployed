@@ -50,7 +50,7 @@
   <li><a href="/about">About</a></li>
   <li><a href="/contact">Contact</a></li>
 
-  @if ($user_name == '' )
+  @if ($user_name == '' or $user_name == null )
     <li><a href="/login">Login</a></li>
     <li><a href="/register">Register</a></li>
   @else

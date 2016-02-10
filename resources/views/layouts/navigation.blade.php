@@ -14,7 +14,7 @@
                 <li ><a  href="/marketing/">Purpose</a></li>
                 <li ><a  href="/marketing/">Plans</a></li>
 
-                @if($user_name == '')
+                @if(\Session::get('user_name') == '')
                     <ul class="navigation pull-right">
                         <li><a href="/about/">About</a></li>
                         <li><a href="/contact/">Contact</a></li>
@@ -27,7 +27,7 @@
                         <li><a href="/contact/">Contact</a></li>
                         <li class = "dropdown">
                             <a href="#" class="navdropdown"  >
-                                 {!! $user_name !!}<span class="caret"></span>
+                                 {!! \Session::get('user_name') !!}<span class="caret"></span>
                             </a>
                             <ul class="navigation navdropdown-content">
                                 <li><a href="/{{ $route }}/dashboard"><i class="icon-home"></i>Home</a></li>

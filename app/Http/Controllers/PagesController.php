@@ -9,22 +9,26 @@ use App\Http\Controllers\Controller;
 
 class PagesController extends Controller
 {
+
+
+
+
     //
-    public function userData()
+    public function userData($request)
     {
+        $data['user_name'] =$request->session()->get('user_name');
+        $username = $request->session()->get('user_name');
+        \Log::info("username = $username");
+        $data['user_id'] =$request->session()->get('user_id');
         $data['errors'] = [];
-        $data['route'] = 'test';
-        $data['user_name'] = 'Jay Potter';
-        $data['user_home'] = '1';
-        $data['user_money'] = '1';
         $data['economix_url'] = 'test';
         $data['homePage'] = 'homePage';
         return $data;
     }
 
-    public function home()
+    public function home(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
 
         $random = rand(0,3);
         if($random == 0) {
@@ -50,10 +54,10 @@ class PagesController extends Controller
 
         return view('welcome',$data);
     }
-    public function test()
+    public function test(Request $request)
     {
 
-        $data = $this->userData();
+        $data = $this->userData($request);
         $random = rand(1,4);
         if($random == 1) {
             $data['imageUrl'] = '../images/EarthRise.jpg';
@@ -77,154 +81,154 @@ class PagesController extends Controller
         }
         return view('welcome2',$data);
     }
-    public function about()
+    public function about(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('about',$data);
     }
 
-    public function books()
+    public function books(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('books',$data);
     }
-    public function camping()
+    public function camping(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('camping',$data);
     }
-    public function charities()
+    public function charities(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('charities',$data);
     }
-    public function cooking()
+    public function cooking(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('cooking',$data);
     }
-    public function contact()
+    public function contact(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('contact',$data);
     }
 
-    public function discount()
+    public function discount(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('discount',$data);
     }
 
-    public function donations()
+    public function donations(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('donations',$data);
     }
-    public function economically()
+    public function economically(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('economically',$data);
     }
-    public function emotionally()
+    public function emotionally(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('emotionally',$data);
     }
-    public function energy()
+    public function energy(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('energy',$data);
     }
-    public function food()
+    public function food(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('food',$data);
     }
-    public function founders()
+    public function founders(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('founders',$data);
     }
-    public function groups()
+    public function groups(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('groups',$data);
     }
-    public function health()
+    public function health(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('health',$data);
     }
-    public function homepage()
+    public function homepage(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('homepage',$data);
     }
-    public function logout()
+    public function logout(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('logout',$data);
     }
-    public function members()
+    public function members(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('members',$data);
     }
-    public function money()
+    public function money(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('money',$data);
     }
 
-    public function people()
+    public function people(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('people',$data);
     }
-    public function physically()
+    public function physically(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('physically',$data);
     }
-    public function plans()
+    public function plans(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('plans',$data);
     }
 
-    public function products()
+    public function products(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('products',$data);
     }
-    public function purpose()
+    public function purpose(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('purpose',$data);
     }
-    public function recycling()
+    public function recycling(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('recycling',$data);
     }
-    public function referral()
+    public function referral(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('referral',$data);
     }
-    public function spiritually()
+    public function spiritually(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('spiritually',$data);
     }
-    public function training()
+    public function training(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('training',$data);
     }
-    public function water()
+    public function water(Request $request)
     {
-        $data = $this->userData();
+        $data = $this->userData($request);
         return view('water',$data);
     }
 

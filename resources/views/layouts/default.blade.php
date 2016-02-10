@@ -2,6 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>@section('head_title')</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/app.css">

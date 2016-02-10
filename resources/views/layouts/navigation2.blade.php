@@ -9,8 +9,8 @@
 
         <div style="padding:5,0,0,0">
 
-<ul id="drop-nav" ">
-  <li><a href="/products">Products</a>
+<ul id="drop-nav" >
+  <li><a href="/products">Products<span class="caret"></span></a>
       <ul>
         <li><a href="/food">Food Production</a></li>
         <li><a href="/water">Water Purification</a></li>
@@ -23,7 +23,7 @@
         <li><a href="/training">Training</a></li>
       </ul>
     </li>
-  <li><a href="/people">People</a>
+  <li><a href="/people">People<span class="caret"></span></a>
       <ul>
         <li><a href="/founders">Founders</a></li>
         <li><a href="/members">Members</a></li>
@@ -31,7 +31,7 @@
         <li><a href="/groups">Sponsored Groups</a></li>
       </ul>
     </li>
-  <li><a href="/purpose">Purpose</a>
+  <li><a href="/purpose">Purpose<span class="caret"></span></a>
     <ul>
       <li><a href="/physically">Physically</a></li>
       <li><a href="/emotionally">Emotionally</a></li>
@@ -39,7 +39,7 @@
       <li><a href="/economically">Economically</a></li>
     </ul>
   </li>
-  <li><a href="/plans">Plans</a>
+  <li><a href="/plans">Plans<span class="caret"></span></a>
     <ul>
       <li><a href="/discount">Member Discount</a></li>
       <li><a href="/referral">Referral Fees</a></li>
@@ -49,15 +49,17 @@
   <ul class="pull-right">
   <li><a href="/about">About</a></li>
   <li><a href="/contact">Contact</a></li>
-  @if($user_name == '')
-  <li><a href="/login">Login</a></li>
+
+  @if ($user_name == '' )
+    <li><a href="/login">Login</a></li>
+    <li><a href="/register">Register</a></li>
   @else
 
-  <li><a href="/homepage/{{$user_home}}">{!! $user_name !!}</a>
+  <li><a href="/homepage/{{$user_id}}">{{$user_name}}<span class="caret"></span></a>
       <ul>
-        <li><a href="/homepage/{{$user_home}}">Home Page</a></li>
-        <li><a href="/money/{{$user_money}}">Got Money</a></li>
-        <li><a href="/logout">Logout</a></li>
+        <li><a href="/homepage/{{$user_id}}">Home Page</a></li>
+        <li><a href="/money/{{$user_id}}">Got Money</a></li>
+        <li><a href="/logout2">Logout</a></li>
       </ul>
     </li>
   @endif

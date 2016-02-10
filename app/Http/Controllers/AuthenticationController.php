@@ -45,7 +45,9 @@ class AuthenticationController extends Controller
         \Log::info("userName=$userName  password=$password");
         $user = Users::where('user_name', $userName)
             ->where('password',$password)->first();
+
         if ($user){
+            \Log::info("ok first=$user->first_name");
             $username = $user->first_name.' '.$user->last_name;
             $request->session()->set('user_name', $username);
             $request->session()->set('user_id', $user->id);
@@ -56,6 +58,9 @@ class AuthenticationController extends Controller
             $data['user_name'] = $username;
             $data['user_id'] = $user->id;
             return view('welcome2',$data);
+        }
+        else{
+            \Log::info("didnt find it");
         }
 
         \Log::info("reset=$reset");

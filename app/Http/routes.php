@@ -48,7 +48,6 @@ Route::get('/money/{userId}',array('as' => 'money','uses'=>'PagesController@mone
 Route::get('/logout/',array('as' => 'logout','uses'=>'PagesController@logout'));
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -59,6 +58,12 @@ Route::get('/logout/',array('as' => 'logout','uses'=>'PagesController@logout'));
 | kernel and includes session state, CSRF protection, and more.
 |
 */
+
+
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
+]);
 
 Route::group(['middleware' => ['web']], function () {
     //

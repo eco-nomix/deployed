@@ -6,6 +6,12 @@
 <div style="position:absolute; top:52px; z-index:-1">
     <h1>Member Benefits</h1>
     <div class="form-group benefits">
+                <div class="col-md-12">
+                   <p>Eco-nomix is a unique company dedicated in delivering the highest quality products to its customers that will help them improve their lives physically, emotionally, spiritually and economically.
+                   </p>
+                </div>
+            </div>
+    <div class="form-group benefits">
          <div class="col-md-12">
             <p>1. A member typically receives a 30% discount from the suggested retail price.  The membership fee is usually recovered in just the first few purchases of products.</p>
          </div>
@@ -87,11 +93,6 @@
            </p>
         </div>
     </div>
-    <div class="form-group benefits">
-            <div class="col-md-12">
-               <p>Eco-nomix is a unique company dedicated in delivering the highest quality products to its customers that will help them improve their lives physically, emotionally, spiritually and economically.
-               </p>
-            </div>
-        </div>
+
 </div>
 @stop

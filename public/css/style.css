@@ -51,7 +51,15 @@ ul.navigation ul.right{
     float:right;
     list-style-type:none;
 }
-
+.benefits {
+    font-weight:bold;
+    color:#000000;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
 .message {
     position: absolute;
     left: 100px;

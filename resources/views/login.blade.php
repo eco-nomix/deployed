@@ -20,7 +20,7 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label">UserName</label>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="user_name" value="{{ $user_name }}">
+                                    <input type="text" class="form-control" name="username" value="{{ $username }}">
                                 </div>
                             </div>
 
@@ -37,7 +37,9 @@
                                      <button type="submit" class="btn btn-primary">
                                           Submit
                                      </button>
-                                     <input name="Reset" class="btn btn-primary pull-right" type="submit" value="Reset Password">
+                                     @if($reset == 'yes')
+                                        <input name="Reset" class="btn btn-primary pull-right" type="submit" value="Reset Password">
+                                     @endif
                                 </div>
                             </div>
                        </form>

@@ -87,6 +87,12 @@ class PagesController extends Controller
         return view('about',$data);
     }
 
+    public function benefits(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('benefits',$data);
+    }
+
     public function books(Request $request)
     {
         $data = $this->userData($request);

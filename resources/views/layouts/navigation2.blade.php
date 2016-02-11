@@ -44,6 +44,7 @@
       <li><a href="/discount">Member Discount</a></li>
       <li><a href="/referral">Referral Fees</a></li>
       <li><a href="/donations">Donations</a></li>
+      <li><a href="/benefits">Member Benefits</a></li>
     </ul>
   </li>
   <ul class="pull-right">

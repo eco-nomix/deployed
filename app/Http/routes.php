@@ -37,6 +37,7 @@ Route::get('/food',['as' => 'food','uses'=>'PagesController@food']);
 Route::get('/water',['as' => 'water','uses'=>'PagesController@water']);
 Route::get('/energy',['as' => 'energy','uses'=>'PagesController@energy']);
 Route::get('/recycling',['as' => 'recycling','uses'=>'PagesController@recycling']);
+Route::get('/benefits',['as' => 'about','uses'=>'PagesController@benefits']);
 Route::get('/camping',['as' => 'camping','uses'=>'PagesController@camping']);
 Route::get('/cooking',['as' => 'cooking','uses'=>'PagesController@cooking']);
 Route::get('/health',['as' => 'health','uses'=>'PagesController@health']);

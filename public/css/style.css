@@ -167,3 +167,8 @@ li:hover li a:hover {
     font-weight: 700;
     line-height: 24px;
 }
+
+.hangingindent {
+    padding-left: 30px ;
+    text-indent: -30px ;
+}

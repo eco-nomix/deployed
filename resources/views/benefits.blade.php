@@ -7,7 +7,7 @@
     <h1>Member Benefits</h1>
     <div class="form-group benefits">
                 <div class="col-md-12">
-                   <p>Eco-nomix is a unique company dedicated in delivering the highest quality products to its customers that will help them improve their lives physically, emotionally, spiritually and economically.
+                   <p>Eco-nomix is a unique company dedicated in delivering the highest quality products to its customers.  This purpose will help them improve their lives <a href="\physically">physically</a>, <a href="\emotionally">emotionally</a>, <a href="\spiritually">spiritually</a> and <a href="\economically">economically</a>.
                    </p>
                 </div>
             </div>

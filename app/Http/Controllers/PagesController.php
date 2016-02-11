@@ -86,11 +86,27 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('about',$data);
     }
+    public function accounting(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('accounting',$data);
+    }
+
+    public function autoship(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('autoship',$data);
+    }
 
     public function benefits(Request $request)
     {
         $data = $this->userData($request);
         return view('benefits',$data);
+    }
+    public function businesscards(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('businesscards',$data);
     }
 
     public function books(Request $request)
@@ -113,10 +129,21 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('cooking',$data);
     }
+
+    public function comparison(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('comparison',$data);
+    }
     public function contact(Request $request)
     {
         $data = $this->userData($request);
         return view('contact',$data);
+    }
+    public function debitcards(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('debitcards',$data);
     }
 
     public function discount(Request $request)
@@ -145,6 +172,11 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('energy',$data);
     }
+    public function experiences(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('experiences',$data);
+    }
     public function food(Request $request)
     {
         $data = $this->userData($request);
@@ -165,10 +197,21 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('health',$data);
     }
+
+    public function house(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('house',$data);
+    }
     public function homepage(Request $request)
     {
         $data = $this->userData($request);
         return view('homepage',$data);
+    }
+    public function limitations(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('limitations',$data);
     }
     public function logout(Request $request)
     {
@@ -179,6 +222,12 @@ class PagesController extends Controller
     {
         $data = $this->userData($request);
         return view('members',$data);
+    }
+
+    public function membercost(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('membercost',$data);
     }
     public function money(Request $request)
     {
@@ -202,6 +251,12 @@ class PagesController extends Controller
         return view('plans',$data);
     }
 
+    public function potential(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('potential',$data);
+    }
+
     public function products(Request $request)
     {
         $data = $this->userData($request);
@@ -222,6 +277,17 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('referral',$data);
     }
+    public function requirements(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('requirements',$data);
+    }
+
+    public function selection(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('selection',$data);
+    }
     public function spiritually(Request $request)
     {
         $data = $this->userData($request);
@@ -231,6 +297,12 @@ class PagesController extends Controller
     {
         $data = $this->userData($request);
         return view('training',$data);
+    }
+
+    public function transfers(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('transfers',$data);
     }
     public function water(Request $request)
     {

@@ -112,14 +112,35 @@ class AuthenticationController extends Controller
         \Log::info("exit 1");
         return view('welcome2',$data);
     }
-    public function finishRegistering($user, Request $request)
+    public function finishRegistering(Request $request)
     {
         $data = $this->basedata();
-        $data['username'] = $username;
+        $data['username'] = '';
         $data['user_name'] = '';
-        $data['user_id'] = $user->id;
+        $data['user_id'] = '';
         \Log::info("exit 1");
         return view('register2',$data);
+    }
+
+    public function prepayment(Request $request)
+    {
+        $data = $this->basedata();
+        $data['username'] = '';
+        $data['user_name'] = '';
+        $data['user_id'] = '';
+        \Log::info("exit 1");
+        return view('payment',$data);
+    }
+
+    public function payment(Request $request)
+    {
+        $data = $this->basedata();
+        $data['username'] = '';
+        $data['user_name'] = '';
+        $data['cardnumber'] = 'ending with 1036';
+        $data['user_id'] = '';
+        \Log::info("exit 1");
+        return view('thankyou',$data);
     }
 
 

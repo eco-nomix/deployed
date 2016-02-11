@@ -25,6 +25,9 @@ Route::get('/login',['as' => 'login','uses'=>'AuthenticationController@login']);
 Route::post('/login',['as' => 'login','uses'=>'AuthenticationController@verify']);
 Route::get('/logout2',['as' => 'logout2','uses'=>'AuthenticationController@logout2']);
 Route::get('/register',['as' => 'register','uses'=>'AuthenticationController@register']);
+Route::post('/register',['as' => 'register2','uses'=>'AuthenticationController@finishRegistering']);
+Route::post('/register2',['as' => 'register2','uses'=>'AuthenticationController@prepayment']);
+Route::post('/payment',['as' => 'register2','uses'=>'AuthenticationController@payment']);
 
 
 

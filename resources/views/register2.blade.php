@@ -9,7 +9,7 @@
                 <div class="panel-heading">Register Contact Info</div>
                 <div class="panel-body">
                        <form class="form-horizontal" role="form" method="POST" action="/register2">
-
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group">
                             <label class="col-md-4 control-label">Home Phone</label>
                             <div class="col-md-6">
@@ -73,7 +73,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
-                                    Register
+                                    Continue
                                 </button>
                             </div>
                         </div>

@@ -49,14 +49,14 @@ class AuthenticationController extends Controller
         \Log::info("userName=$userName  password=$password");
 
         if ($user){
-            return  $this->finishMemberLogin($user);
+            return  $this->finishMemberLogin($user, $request);
         }
         else{
             \Log::info("not a member -didnt find it");
         }
         $user = $this->registered($userName, $password);
         if ($user){
-            return $this->finishRegistering($user);
+            return $this->finishRegistering($user, $request);
         }
         $data = $this->baseData();
         $user = Users::where('user_name', $userName)
@@ -96,7 +96,7 @@ class AuthenticationController extends Controller
         return $user;
 
     }
-    public function finishMemberLogin($user)
+    public function finishMemberLogin($user, Request $request)
     {
 
         \Log::info("ok first=$user->first_name");
@@ -112,7 +112,7 @@ class AuthenticationController extends Controller
         \Log::info("exit 1");
         return view('welcome2',$data);
     }
-    public function finishRegistering($user)
+    public function finishRegistering($user, Request $request)
     {
         $data = $this->basedata();
         $data['username'] = $username;

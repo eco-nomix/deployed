@@ -33,7 +33,7 @@ class PagesController extends Controller
         $random = rand(0,3);
         if($random == 0) {
             $data['imageUrl'] = '../images/Depositphotos_15642717_l-2015.jpg';
-            $data['message'] = 'Eco-nomix System\'s purpose is to provide the highest
+            $data['message'] = 'Eco-nomix\'s purpose is to provide the highest
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
         }elseif ($random == 1){
@@ -61,7 +61,7 @@ class PagesController extends Controller
         $random = rand(1,4);
         if($random == 1) {
             $data['imageUrl'] = '../images/EarthRise.jpg';
-            $data['message'] = 'Eco-nomix System\'s purpose is to provide the highest
+            $data['message'] = 'Eco-nomix\'s purpose is to provide the highest
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
         }elseif ($random == 2){

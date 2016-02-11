@@ -1,5 +1,6 @@
 .economixbody {
     background:lightblue;
+
 }
 
 .navigation-center{
@@ -10,8 +11,10 @@
 }
 #navcontainer {
     background:darkgreen;
+
     height:52px;
     top:0;
+    z-index:10;
     width:100%;
     position:fixed;
 }
@@ -36,15 +39,18 @@ ul.navigation li a{
     padding: 17px 16px;
     color:#DDDDDD;
 
+
 }
 
 ul.navigation li a:hover:not(.active){
     color:#000000;
     background-color:lightgreen;
+
 }
 
 ul.navigation a.active{
     background-color:#086ca9;
+
 }
 
 ul.navigation ul.right{
@@ -73,6 +79,8 @@ ul.navigation ul.right{
     font-variant: normal;
     font-weight: 500;
     line-height: 23px;
+
+
 
 
 }

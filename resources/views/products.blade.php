@@ -4,9 +4,7 @@
 
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
-    <h1>Products</h1>
-
-</div>
+   </div>
 
 
 

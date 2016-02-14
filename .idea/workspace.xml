@@ -30,8 +30,8 @@
       <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.29262674" vertical-offset="8516" max-vertical-offset="15402">
-              <caret line="243" column="88" selection-start-line="243" selection-start-column="88" selection-end-line="243" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.8824885" vertical-offset="4436" max-vertical-offset="15436">
+              <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
               <folding>
                 <element signature="e#39#48#0#PHP" expanded="true" />
               </folding>
@@ -653,7 +653,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php</url>
-          <line>240</line>
+          <line>241</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -1075,8 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29262674" vertical-offset="8516" max-vertical-offset="15402">
-          <caret line="243" column="88" selection-start-line="243" selection-start-column="88" selection-end-line="243" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.8824885" vertical-offset="4436" max-vertical-offset="15436">
+          <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
           <folding>
             <element signature="e#39#48#0#PHP" expanded="true" />
           </folding>

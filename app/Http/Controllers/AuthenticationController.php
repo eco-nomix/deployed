@@ -117,40 +117,41 @@ class AuthenticationController extends Controller
         $userId = $request->session()->get('user_id');
         if($userId){
             $user = Users::find($userId);
-            if ($user->member == 2){
-                $data = $this->basedata();
-                $data['username'] = '';
-                $data['user_name'] = '';
-                $data['user_id'] = $userId;
-                \Log::info("exit 1");
-                return view('register2',$data);
-            }
-            if ($user->member == 3){
-                $data = $this->basedata();
-                $data['username'] = '';
-                $data['user_name'] = '';
-                $data['user_id'] = $userId;
-                \Log::info("exit 1");
-                return view('payment',$data);
-            }
-            if ($user->member == 4){
-                $data = $this->basedata();
-                $data['username'] = '';
-                $data['user_name'] = '';
-                $data['user_id'] = $userId;
-                \Log::info("exit 1");
-                return view('awaiting_payment',$data);
-            }
-            if ($user->member == 5){
+            if ($user) {
+                if ($user->member == 2) {
+                    $data = $this->basedata();
+                    $data['username'] = '';
+                    $data['user_name'] = '';
+                    $data['user_id'] = $userId;
+                    \Log::info("exit 1");
+                    return view('register2', $data);
+                }
+                if ($user->member == 3) {
+                    $data = $this->basedata();
+                    $data['username'] = '';
+                    $data['user_name'] = '';
+                    $data['user_id'] = $userId;
+                    \Log::info("exit 1");
+                    return view('payment', $data);
+                }
+                if ($user->member == 4) {
+                    $data = $this->basedata();
+                    $data['username'] = '';
+                    $data['user_name'] = '';
+                    $data['user_id'] = $userId;
+                    \Log::info("exit 1");
+                    return view('awaiting_payment', $data);
+                }
+                if ($user->member == 5) {
 
-                $data = $this->basedata();
-                $data['username'] = '';
-                $data['user_name'] = '';
-                $data['user_id'] = $userId;
-                \Log::info("exit 1");
-                return view('registration_complete',$data);
+                    $data = $this->basedata();
+                    $data['username'] = '';
+                    $data['user_name'] = '';
+                    $data['user_id'] = $userId;
+                    \Log::info("exit 1");
+                    return view('registration_complete', $data);
+                }
             }
-
 
         }
 

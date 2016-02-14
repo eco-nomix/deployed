@@ -7,6 +7,6 @@
     Thank you for registering with Eco-nomix
 </div>
 <div>
-    To verify your email click on the following Link :  <a href="eco-nomix.org/emailverified/{{$user->user_link}}"
+    To verify your email click on the following Link :  <a href="eco-nomix.org/emailverified/{{$user->user_link}}">Verify Email</a>
 </div>
     </body>

@@ -42,8 +42,8 @@
       <file leaf-file-name="email_verification.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/emails/email_verification.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10920771" vertical-offset="0" max-vertical-offset="934">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.32762313" vertical-offset="0" max-vertical-offset="934">
+              <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -206,8 +206,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6.2" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1684" />
-    <option name="y" value="-112" />
+    <option name="x" value="-1849" />
+    <option name="y" value="-145" />
     <option name="width" value="1797" />
     <option name="height" value="1054" />
   </component>
@@ -601,7 +601,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1684" y="-112" width="1797" height="1054" extended-state="0" />
+    <frame x="-1849" y="-145" width="1797" height="1054" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1067,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/email_verification.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10920771" vertical-offset="0" max-vertical-offset="934">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.32762313" vertical-offset="0" max-vertical-offset="934">
+          <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
           <folding />
         </state>
       </provider>

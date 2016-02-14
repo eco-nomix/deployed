@@ -241,7 +241,7 @@ class AuthenticationController extends Controller
         $role = 2;
         $productId = 1;
         $payBonus = 1;
-        $transaction->loadProductInTransaction($newTrans, $user->id, $role, $productId)
+        $transaction->loadProductInTransaction($newTrans, $user->id, $role, $productId);
 
     }
 

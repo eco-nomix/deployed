@@ -51,12 +51,7 @@
                                 <input type="password" class="form-control" name="password_confirmation">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Notice</label>
-                            <div class="col-md-6">
-                                To Complete your registration you will be charged $35.00. <br> <a href="/benefits">See membership benefits under the Plans Tab above.</a>
-                            </div>
-                        </div>
+
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">

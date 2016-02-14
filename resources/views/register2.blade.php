@@ -20,7 +20,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Cell Phone</label>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="last_name" value="">
+                                <input type="text" class="form-control" name="cell_phone" value="">
                             </div>
                         </div>
 
@@ -72,9 +72,18 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Notice</label>
                             <div class="col-md-6">
-                                To Complete your registration you will be charged $35.00. <br> <a href="/benefits">See membership benefits under the Plans Tab above.</a>
+                                To Complete your registration as a member you will be charged $35.00. <br> <a href="/benefits">See membership benefits under the Plans Tab above.</a>
                             </div>
                         </div>
+
+                         <div class="form-group">
+                              <label class="col-md-4 control-label">Payment Method</label>
+                              <div class="col-md-6">
+                                  <input type="radio" name="paymethod" value="CreditCard" checked>Credit Card<br>
+                                  <input type="radio" name="paymethod" value="Mail" >By Mail<br>
+                              </div>
+                         </div>
+
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">

@@ -38,7 +38,29 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Expiration Date</label>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="Ex Date">
+                                Month: <select name="month">
+                                    <option value="01">Jan</option>
+                                    <option value="02">Feb</option>
+                                    <option value="03">Mar</option>
+                                    <option value="04">Apr</option>
+                                    <option value="05">May</option>
+                                    <option value="06">Jun</option>
+                                    <option value="07">Jul</option>
+                                    <option value="08">Aug</option>
+                                    <option value="09">Sep</option>
+                                    <option value="10">Oct</option>
+                                    <option value="11">Nov</option>
+                                    <option value="12">Dec</option>
+                                </select>
+
+                                Year: <select name="year">
+                                    <option value="16">2016</option>
+                                    <option value="17">2017</option>
+                                    <option value="18">2018</option>
+                                    <option value="19">2019</option>
+                                    <option value="20">2020</option>
+                                    <option value="21">2021</option>
+                                    </select>
                             </div>
                         </div>
                         <div class="form-group">

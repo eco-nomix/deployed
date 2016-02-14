@@ -257,7 +257,7 @@ class AuthenticationController extends Controller
         if($userId) {
             $user = Users::find($userId);
             $cc = $this->saveCardInfo($request,$user);
-
+            $productId = 1;
 
             $pp = $this->processPayment($user,$cc,$productId);
             $user->member = 5;

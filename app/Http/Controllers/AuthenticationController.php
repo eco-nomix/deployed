@@ -247,9 +247,9 @@ class AuthenticationController extends Controller
 
         Mail::send('emails.email_verification', ['user' => $user,'image'=>$image], function ($message) use ($user, $image) {
             $pathToImage = "/images/Economix3731_Fotor.jpg";
-            $message->from('admin@eco-nomix.com', 'Admin');
+            $message->from('admin@eco-nomix.org', 'Admin');
             $message->subject('Email Verification');
-            $message->sender('admin@eco-nomix.com');
+            $message->sender('admin@eco-nomix.org');
             $username=$user->first_name.' '.$user->last_name;
             $message->to($user->email, $username);
             $message->subject('Email Verification!');

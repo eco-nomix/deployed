@@ -236,7 +236,7 @@ class AuthenticationController extends Controller
     public function emailVerified($userId,$key,Request $request)
     {
         $memberId = $userId;
-        \Log::info("memberId = $UserId   key=$key");
+        \Log::info("memberId = $userId   key=$key");
         $user = Users::find($userId);
         if($user){
             if($user->user_link == $key){

@@ -242,10 +242,10 @@ class AuthenticationController extends Controller
     public function emailConfirmation($user)
     {
         \Log::info("in email Confirmation ");
-        $user->put('image','/images/Economix3731_Fotor.jpg');
-        dd($user);
-        \Log::info("key being sent=$key");
-        Mail::send('emails.email_verification', ['user' => $user], function ($message) use ($user, $key) {
+        $image = '/images/Economix3731_Fotor.jpg';
+
+
+        Mail::send('emails.email_verification', ['user' => $user,'image'=>$image], function ($message) use ($user, $image) {
             $pathToImage = "/images/Economix3731_Fotor.jpg";
             $message->from('admin@eco-nomix.com', 'Admin');
             $message->subject('Email Verification');

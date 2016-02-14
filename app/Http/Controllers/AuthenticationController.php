@@ -162,9 +162,23 @@ class AuthenticationController extends Controller
     public function register(Request $request)
     {
         \Log::info('in register');
+
         $data['user_name']='';
         $data['user_id'] = '';
         $data['errors']= [] ;
+        $userId = $request->session()->get('user_id');
+        if($userId){
+            $user = Users::find($userId);
+            if ($user->member >1 && $user->member<5){
+                $data = $this->basedata();
+                $data['username'] = '';
+                $data['user_name'] = '';
+                $data['user_id'] = $userId;
+                \Log::info("exit 1");
+                return view('register2',$data);
+            }
+
+        }
 
         return view('register',$data);
     }
@@ -247,6 +261,8 @@ class AuthenticationController extends Controller
                 $data['username'] = '';
                 $data['user_name'] = '';
                 $data['user_id'] = '';
+                $request->session()->set('user_id', $user->id);
+                $request->session()->save();
                 return view('email_verification_continue',$data);
             }
             else{

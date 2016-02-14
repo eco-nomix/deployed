@@ -281,7 +281,7 @@ class AuthenticationController extends Controller
         $cc = new CustomerCreditCards;
         $cc->name_on_card = $request->input('billing_name');
         $cc->credit_card_number = $request->input('credit_card');
-        $cc->ex_month = $request->input('month');
+        $cc->exp_month = $request->input('month');
         $cc->exp_year = $request->input('year');
         $cc->security_code = $request->input('security_code');
         $cc->user_id = $user->id;

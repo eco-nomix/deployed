@@ -5,6 +5,11 @@ use Mail;
 use Crypt;
 use Illuminate\Http\Request;
 use App\Models\Users;
+use App\Models\Products;
+use App\Models\SalesTransactions;
+use App\Models\SalesTransactionDetails;
+use App\Models\CustomerCreditCards;
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -237,12 +242,12 @@ class AuthenticationController extends Controller
 
     public function processPayment($user, $cc, $productId)
     {
-        $transaction = new Transactions;
-        $newTrans = $transaction->newTransaction($user->id);
+
+        $newTrans = $this->newTransaction($user->id);
         $role = 2;
         $productId = 1;
         $payBonus = 1;
-        $transaction->loadProductInTransaction($newTrans, $user->id, $role, $productId);
+        $this->loadProductInTransaction($newTrans, $user->id, $role, $productId);
 
     }
 
@@ -273,7 +278,7 @@ class AuthenticationController extends Controller
 
     public function saveCardInfo($request,$user)
     {
-        $cc = new \CustomerCreditCards;
+        $cc = new CustomerCreditCards;
         $cc->name_on_card = $request->input('billing_name');
         $cc->credit_card_number = $request->input('credit_card');
         $cc->ex_month = $request->input('month');
@@ -443,6 +448,57 @@ class AuthenticationController extends Controller
         $data['user_id'] = '';
         $data['email'] = $user->email;
         return view('email_verification',$data);
+    }
+
+
+    public function loadProductInTransaction($newTrans, $userId, $role, $productId)
+    {
+        $product = Products::find($productId);
+        if ($role ==1){
+            $cost = $product->member;
+        }
+        else{
+            $cost = $product->non_member;
+        }
+
+        $pay_bonus = $product->pay_bonus;
+        $detail = new SalesTransactionDetails;
+        $detail->transaction_id = $newTrans->id;
+        $detail->date = now();
+        $detail->purchased_by = $userId;
+        $detail->amount = $cost;
+        $detail->product_id = $productId;
+        $detail->pay_bonus = $pay_bonus;
+        $detail->shipping = $product->shipping_handling;
+        $detail->save();
+        $this->updateTransaction($newTrans,$detail);
+        return $newTrans;
+    }
+
+    public function updateTransaction($trans, $detail)
+    {
+        $trans->total_items += $detail->amount;
+        $trans->total_shipping += $detail->shipping;
+        $trans->total_order =  $trans->total_items + $trans->total_shipping;
+        if ($detail->pay_bonus ==1){
+            $trans->pay_bonus_on_amt += $detail->amount;
+        }
+        $trans->save();
+
+    }
+
+    public function NewTransaction($userId)
+    {
+        $sales_transaction = new SalesTransactions;
+        $sales_transaction->purchased_by = $userId;
+        $sales_transaction->date = now();
+        $sales_transaction->total_items = 0;
+        $sales_transaction->shipping = 0;
+        $sales_transaction->total_order = 0;
+        $sales_transaction->pay_bonus_on_amt = 0;
+        $sales_transaction->save();
+        return $sales_transaction;
+
     }
 
 }

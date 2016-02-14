@@ -21,7 +21,7 @@ class Transactions
         }
 
         $pay_bonus = $product->pay_bonus;
-        $detail = new SalesTransactionDetails;
+        $detail = new \SalesTransactionDetails;
         $detail->transaction_id = $newTrans->id;
         $detail->date = now();
         $detail->purchased_by = $userId;
@@ -48,7 +48,7 @@ class Transactions
 
     public function NewTransaction($userId)
     {
-        $sales_transaction = new SalesTransactions;
+        $sales_transaction = new \SalesTransactions;
         $sales_transaction->purchased_by = $userId;
         $sales_transaction->date = now();
         $sales_transaction->total_items = 0;

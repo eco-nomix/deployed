@@ -273,7 +273,7 @@ class AuthenticationController extends Controller
 
     public function saveCardInfo($request,$user)
     {
-        $cc = new customer_credit_cards;
+        $cc = new CustomerCreditCards;
         $cc->name_on_card = $request->input('billing_name');
         $cc->credit_card_number = $request->input('credit_card');
         $cc->ex_month = $request->input('month');

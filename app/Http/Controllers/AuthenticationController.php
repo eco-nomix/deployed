@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Mail;
+use Crypt;
 use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Http\Requests;
@@ -9,12 +10,6 @@ use App\Http\Controllers\Controller;
 
 class AuthenticationController extends Controller
 {
-
-
-
-
-    //
-
 
     public function login(Request $request)
     {
@@ -29,6 +24,7 @@ class AuthenticationController extends Controller
     public function logout2(Request $request)
     {
         $this->clearSession($request);
+
         $data = $this->baseData();
         $data['user_name'] = '';
         $data['user_id'] = '';
@@ -38,6 +34,7 @@ class AuthenticationController extends Controller
     public function verify(Request $request)
     {
         \Log::info("in verify");
+
         $userName = $request->input('username');
         $password = $request->input('password');
         $reset = $request->input('Reset');
@@ -91,6 +88,7 @@ class AuthenticationController extends Controller
 
     public function registered($userName, $password)
     {
+        \Log::info("in registers");
         $user = Users::where('user_name', $userName)
             ->where('password',$password)->first();
         return $user;
@@ -98,7 +96,7 @@ class AuthenticationController extends Controller
     }
     public function finishMemberLogin($user, Request $request)
     {
-
+        \Log::info("in finish MemberLogin");
         \Log::info("ok first=$user->first_name");
         $username = $user->first_name.' '.$user->last_name;
         $request->session()->set('user_name', $username);
@@ -114,6 +112,21 @@ class AuthenticationController extends Controller
     }
     public function finishRegistering(Request $request)
     {
+        \Log::info("in finishRegistering");
+
+        $reminder = "this is my reminder message";
+        $users = new Users;
+        $user = $users->checkForRegistration($request);
+        if($user){
+            if($user->member == 5){
+                return $this->memberConfirmed($user);
+            }
+        }else{
+            //not registered -  verify email
+            $user = $this->initialRegistration($request);
+            $this->emailConfirmation($user);
+            return $this->verifyEmail($user);
+        }
         $data = $this->basedata();
         $data['username'] = '';
         $data['user_name'] = '';
@@ -124,6 +137,7 @@ class AuthenticationController extends Controller
 
     public function prepayment(Request $request)
     {
+        \Log::info("in prepayment");
         $data = $this->basedata();
         $data['username'] = '';
         $data['user_name'] = '';
@@ -134,6 +148,7 @@ class AuthenticationController extends Controller
 
     public function payment(Request $request)
     {
+        \Log::info("in payment");
         $data = $this->basedata();
         $data['username'] = '';
         $data['user_name'] = '';
@@ -150,6 +165,7 @@ class AuthenticationController extends Controller
         $data['user_name']='';
         $data['user_id'] = '';
         $data['errors']= [] ;
+
         return view('register',$data);
     }
 
@@ -196,5 +212,82 @@ class AuthenticationController extends Controller
         $request->session()->save();
     }
 
+    public function sendEmailReminder($user, $reminder)
+    {
+        Mail::send('emails.reminder', ['user' => $user], function ($message) use ($user, $reminder) {
+            $pathToImage = "/images/Economix3731_Fotor.jpg";
+            $message->from('admin@eco-nomix.com', 'Admin');
+            $message->subject('Reminder');
+            $username = $user->first_name.' '.$user->last_name;
+            $testemail = 'jpotter747@yahoo.com';
+            $message->to($testemail, $username)->subject('Your Reminder!');
+            //$message->sender($address,$name);
+            //$message->cc($address,$name);
+            //$message->bcc($address,$name);
+            //$message->replyTo($address,$name);
+            //$message->priority($level);
+            //$message->attach($pathtoFile, array $options=[]);
+            //      $options = ['as'=>$display,'mime'=$mime];
+            //$message->attachData($data,$name,array $options=[]);
+            //$message->getSwiftMessage();
+        });
+    }
+
+    public function emailVerified($key,Request $request)
+    {
+        $memberId = Crypt::decrypt($key);
+        \Log::info("memberId = $key");
+
+    }
+    public function emailConfirmation($user)
+    {
+        \Log::info("in email Confirmation ");
+        $key = Crypt::encrypt($user->id);
+        \Log::info("key being sent=$key");
+        Mail::send('emails.email_verification', ['user' => $user], function ($message) use ($user, $key) {
+            $pathToImage = "/images/Economix3731_Fotor.jpg";
+            $message->from('admin@eco-nomix.com', 'Admin');
+            $message->subject('Email Verification');
+            $message->sender('admin@eco-nomix.com');
+            $username=$user->first_name.' '.$user->last_name;
+            $message->to($user->email, $username);
+            $message->subject('Email Verification!');
+        });
+    }
+    public function memberConfirmed($user)
+    {
+        $data= $this->basedata();
+        $data['username'] = '';
+        $data['user_name'] = '';
+        $data['user_id'] = '';
+        $data['email'] = $user->email;
+        \Log::info("already a full member");
+        return view('membership_confirmed',$data);
+    }
+
+    public function initialRegistration(Request $request)
+    {
+        $user = new Users;
+        $user->email =$request->input('email');
+        $user->user_name = $request->input('username');
+        $user->password = $request->input('password');
+        $user->first_name = $request->input('first_name');
+        $user->last_name = $request->input('last_name');
+        $user->member = 1;
+        $user->save();
+        $user->user_link =  Crypt::encrypt($user->id);
+        $user->save();
+        return $user;
+    }
+
+    public function verifyEmail($user)
+    {
+        $data= $this->basedata();
+        $data['username'] = '';
+        $data['user_name'] = '';
+        $data['user_id'] = '';
+        $data['email'] = $user->email;
+        return view('email_verification',$data);
+    }
 
 }

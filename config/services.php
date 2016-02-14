@@ -20,7 +20,7 @@ return [
     ],
 
     'mandrill' => [
-        'secret' => env('MANDRILL_SECRET'),
+        'secret' => 'HkmQ8iez5FirW5RCEcP2UA',
     ],
 
     'ses' => [

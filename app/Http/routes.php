@@ -14,13 +14,18 @@
 //    return view('welcome');
 //});
 Route::get('/jaylogs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
-
+Route::get('/testmail',function()
+{
+    Mail::send('emails.test',[],function($message){
+       $message->to('jpotter747@yahoo.com')->subject('laracasts Email');
+    });
+});
 
 
 Route::group(['middleware' => ['web']], function () {
 
 
-
+Route::get('/emailverified/{key}',['as' => 'emailverified','uses'=>'AuthenticationController@emailVerified']);
 Route::get('/login',['as' => 'login','uses'=>'AuthenticationController@login']);
 Route::post('/login',['as' => 'login','uses'=>'AuthenticationController@verify']);
 Route::get('/logout2',['as' => 'logout2','uses'=>'AuthenticationController@logout2']);

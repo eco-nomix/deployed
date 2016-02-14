@@ -1,7 +1,7 @@
 
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
-             <a href="/test/"><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
+             <a href="/test/"><img src="{{getenv('ECONOMIX_LOGO')}}" width="150" height="24" /></a>
         </div>
         <div style="padding:13px;">
             <ul>

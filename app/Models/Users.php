@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
 
 class Users extends Model
@@ -14,6 +15,12 @@ class Users extends Model
     protected $primaryKey = 'id';
 
     protected $hidden = ['password','remember_token'];
+
+    public function checkForRegistration(Request $request)
+    {
+        return Users::where('email',$request->input('email'))
+            ->first();
+    }
 
 
 }

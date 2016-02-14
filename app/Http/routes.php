@@ -25,7 +25,7 @@ Route::get('/testmail',function()
 Route::group(['middleware' => ['web']], function () {
 
 
-Route::get('/emailverified/{key}',['as' => 'emailverified','uses'=>'AuthenticationController@emailVerified']);
+Route::get('/emailverified/{userId}/{key}',['as' => 'emailverified','uses'=>'AuthenticationController@emailVerified']);
 Route::get('/login',['as' => 'login','uses'=>'AuthenticationController@login']);
 Route::post('/login',['as' => 'login','uses'=>'AuthenticationController@verify']);
 Route::get('/logout2',['as' => 'logout2','uses'=>'AuthenticationController@logout2']);

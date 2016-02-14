@@ -233,10 +233,39 @@ class AuthenticationController extends Controller
         });
     }
 
-    public function emailVerified($key,Request $request)
+    public function emailVerified($userId,$key,Request $request)
     {
-        $memberId = Crypt::decrypt($key);
-        \Log::info("memberId = $key");
+        $memberId = $userId;
+        \Log::info("memberId = $UserId   key=$key");
+        $user = Users::find($userId);
+        if($user){
+            if($user->user_link == $key){
+                // email was verified
+                $user->member = 2;
+                $user->save();
+                $data= $this->basedata();
+                $data['username'] = '';
+                $data['user_name'] = '';
+                $data['user_id'] = '';
+                return view('email_verification_continue',$data);
+            }
+            else{
+                //email link tweaked
+                $data= $this->basedata();
+                $data['username'] = '';
+                $data['user_name'] = '';
+                $data['user_id'] = '';
+                return view('email_verification_bad',$data);
+            }
+        }
+        else{
+            //email link tweaked
+            $data= $this->basedata();
+            $data['username'] = '';
+            $data['user_name'] = '';
+            $data['user_id'] = '';
+            return view('email_verification_bad',$data);
+        }
 
     }
     public function emailConfirmation($user)
@@ -276,7 +305,7 @@ class AuthenticationController extends Controller
         $user->last_name = $request->input('last_name');
         $user->member = 1;
         $user->save();
-        $user->user_link =  Crypt::encrypt($user->id);
+        $user->user_link =  md5($user->id);
         $user->save();
         return $user;
     }

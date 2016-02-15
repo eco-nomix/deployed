@@ -21,6 +21,10 @@ class Users extends Model
         return Users::where('email',$request->input('email'))
             ->first();
     }
-
+    public function checkForUserName(Request $request)
+    {
+        return Users::where('user_name',$request->input('username'))
+            ->first();
+    }
 
 }

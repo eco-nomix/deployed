@@ -215,6 +215,16 @@ class AuthenticationController extends Controller
                 return $this->memberConfirmed($user, $request);
             }
         }else{
+            $user = $users->checkForUserName($request);
+            if($user){
+                $data['errors'] = 'Username has already been used';
+                $data = $this->basedata();
+                $data['username'] = '';
+                $data['user_name'] = '';
+                $data['userRoles'] = [];
+                $data['user_id'] = '';
+                return view('register',$data);
+            }
             //not registered -  verify email
             $user = $this->initialRegistration($request);
             $this->emailConfirmation($user);
@@ -493,7 +503,12 @@ class AuthenticationController extends Controller
         $user->password = $request->input('password');
         $user->first_name = $request->input('first_name');
         $user->last_name = $request->input('last_name');
-        $user->sponsor_id = $request->session()->get('referralId');
+        $referralId = $request->session()->get('referralId');
+        if($referralId <1){
+            $refUser = Users::select('id')->where('member',5)->orderByRaw("RAND()")->first();
+            $referralId = $refUser->id;
+        }
+        $user->sponsor_id = $referralId;
         $user->member = 1;
         $user->save();
         $user->user_link =  md5($user->id);

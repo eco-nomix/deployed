@@ -508,6 +508,7 @@ class AuthenticationController extends Controller
             $refUser = Users::select('id')->where('member',5)->orderByRaw("RAND()")->first();
             $referralId = $refUser->id;
         }
+        $request->session()->set('referralId','');
         $user->sponsor_id = $referralId;
         $user->member = 1;
         $user->save();

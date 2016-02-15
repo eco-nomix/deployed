@@ -16,15 +16,7 @@ use App\Http\Controllers\Controller;
 
 class AuthenticationController extends Controller
 {
-    public function referral($referredId,Request $request)
-    {
-        $userId = $referredId;
-        $data = $this->baseData($request);
-        $data['username']='';
-        $data['reset'] = '';
-        $data['user_name']='';
-        return view('about',$data);
-    }
+
 
     public function login(Request $request)
     {
@@ -408,6 +400,16 @@ class AuthenticationController extends Controller
             //$message->attachData($data,$name,array $options=[]);
             //$message->getSwiftMessage();
         });
+    }
+
+    public function referred($userId,Request $request)
+    {
+        $user = Users::find($userId);
+        $data = $this->baseData($request);
+        $data['username']='';
+        $data['reset'] = '';
+        $data['user_name']='';
+        return view('about',$data);
     }
 
     public function emailVerified($userId,$key,Request $request)

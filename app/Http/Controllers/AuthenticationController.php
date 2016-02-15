@@ -223,9 +223,10 @@ class AuthenticationController extends Controller
                 $user->save();
             }
             if($payMethod == 'Mail'){
-                $data['username'] = '';
+                $data['username'] = $user->first_name.' '.$user->last_name;
                 $data['user_name'] = '';
                 $data['user_id'] = '';
+                $data['userId'] = $user->id;
                 \Log::info("exit 1");
                 $user->member = 4;
                 $user->save();

@@ -27,7 +27,7 @@
                             <label class="col-md-10  text-center">we accept cash, checks or money orders</label>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-10  text-center">Be sure to include with your remittance your member number  of #{{$user->id}} and your Username of {{$username}}</label>
+                            <label class="col-md-10  text-center">Be sure to include with your remittance your member number  of #{{$userId}} and your Username of {{$username}}</label>
                         </div>
 
                 </div>

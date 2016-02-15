@@ -35,6 +35,7 @@ class AuthenticationController extends Controller
 
         $data = $this->baseData();
         $data['user_name'] = '';
+        $data['reset'] = '';
         $data['username'] = '';
         $data['userRoles'] = [];
         $data['user_id'] = '';

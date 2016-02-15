@@ -195,7 +195,7 @@ class AuthenticationController extends Controller
     {
         \Log::info("in prepayment");
         $userId = $request->session()->get('user_id');
-        $payMethod = $request->session()->get('paymethod');
+        $payMethod = $request->input('paymethod');
 
 
         if($userId){

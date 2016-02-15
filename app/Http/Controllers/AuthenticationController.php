@@ -6,6 +6,7 @@ use Crypt;
 use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Models\Products;
+use App\Models\UserRoles;
 use App\Models\SalesTransactions;
 use App\Models\SalesTransactionDetails;
 use App\Models\CustomerCreditCards;

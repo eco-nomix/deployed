@@ -141,7 +141,7 @@ class AuthenticationController extends Controller
                 }
                 if ($user->member == 4) {
                     $data = $this->basedata();
-                    $data['username'] = '';
+                    $data['username'] = $user->first_name.' '.$user->last_name;
                     $data['user_name'] = '';
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");

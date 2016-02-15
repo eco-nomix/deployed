@@ -26,6 +26,9 @@
                             The member will receive a debit-card for payment of any referral fees and business cards which will have their referral link printed on them.
                         </div>
                         <div class="form-group col-md-12 ">
+                            As a member, you are entitled to purchase products at the member price, which is typically discounted by 10-30% from suggested Retail Price.  This discount will help the member recover their cost of being a member rather quickly.   
+                        </div>
+                        <div class="form-group col-md-12 ">
                             The member will can authorize the transfer of accrued referral fees to their eco-nomix debit card as often as their as referral fees yet to be paid out.
                         </div>
                 </div>

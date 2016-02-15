@@ -144,6 +144,7 @@ class AuthenticationController extends Controller
                     $data['username'] = $user->first_name.' '.$user->last_name;
                     $data['user_name'] = '';
                     $data['user_id'] = $userId;
+                    $data['userId'] = $user->id;
                     \Log::info("exit 1");
                     return view('awaiting_payment', $data);
                 }

@@ -117,7 +117,7 @@ class PagesController extends Controller
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
         if($user){
-            $referralLink = "eco-nomix.org/referred/{{user_id}}";
+            $referralLink = "eco-nomix.org/referred/$user->id";
         }else{
             $referralLink = "Need to login to see your referral link";
         }

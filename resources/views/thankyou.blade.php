@@ -15,7 +15,7 @@
 
                         </div>
                         <div class="form-group">
-                             <label class="col-md-10  text-center">You may now Login</label>
+                             <label class="col-md-10  text-center">You are now Logged in for this session</label>
 
                         </div>
 

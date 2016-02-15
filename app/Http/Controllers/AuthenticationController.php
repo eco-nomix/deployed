@@ -61,9 +61,8 @@ class AuthenticationController extends Controller
         if ($user){
             $username = $user->first_name.' '.$user->last_name;
             $request->session()->set('username', $username);
-            if($user->member>1){
-                $request->session()->set('user_id', $user->id);
-            }
+            $request->session()->set('user_id', $user->id);
+
             if($user->member == 5) {
                 return $this->finishMemberLogin($user, $request);
             }
@@ -336,6 +335,9 @@ class AuthenticationController extends Controller
 
     public function saveCardInfo($request,$user)
     {
+        if(!$user){
+
+        }
         $cc = new CustomerCreditCards;
         $cc->name_on_card = $request->input('billing_name');
         $cc->credit_card_number = $request->input('credit_card');
@@ -522,6 +524,8 @@ class AuthenticationController extends Controller
         $user->save();
         $user->user_link =  md5($user->id);
         $user->save();
+        $request->session()->set('user_id',$user->id);
+        $request->session()->set('username',$user->first_name.' '.$user->last_name);
         return $user;
     }
 

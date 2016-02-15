@@ -30,8 +30,8 @@
       <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5638418" vertical-offset="8307" max-vertical-offset="20230">
-              <caret line="259" column="9" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="7593" max-vertical-offset="20366">
+              <caret line="232" column="46" selection-start-line="232" selection-start-column="27" selection-end-line="232" selection-end-column="46" />
               <folding>
                 <element signature="e#39#48#0#PHP" expanded="true" />
               </folding>
@@ -660,12 +660,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php</url>
-          <line>302</line>
+          <line>301</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php</url>
-          <line>129</line>
+          <line>128</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -1096,8 +1096,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5638418" vertical-offset="8307" max-vertical-offset="20230">
-          <caret line="259" column="9" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="7593" max-vertical-offset="20366">
+          <caret line="232" column="46" selection-start-line="232" selection-start-column="27" selection-end-line="232" selection-end-column="46" />
           <folding>
             <element signature="e#39#48#0#PHP" expanded="true" />
           </folding>

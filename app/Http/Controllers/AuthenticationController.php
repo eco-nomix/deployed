@@ -409,7 +409,7 @@ class AuthenticationController extends Controller
             $request->session()->set('referral', $user->id);
         }
         $pages = new PagesController;
-        $pages->test($request);
+        return $pages->test($request);
 
     }
 

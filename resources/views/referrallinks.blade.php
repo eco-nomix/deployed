@@ -10,7 +10,7 @@
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <div class="form-group col-md-12  display">
+                        <div class="form-group col-md-12 ">
                             All registered Eco-nomix users have the opportunity to refer new clients to the Eco-nomix family whether you are a full member or not.  However only full members can receive compensation from the <a href="/referral">Referral Fees</a>.  If the Register tab is visible above, you are not yet a full member.
                         </div>
 
@@ -20,16 +20,15 @@
                                 {{$ReferralLink}}
                             </div>
                         </div>
-                        <br/>
-                        <br/>
-                        <div class="form-group col-md-12">
+                </div>
+                <div class="form-group col-md-12 standout">
                             Suggestions:  These links can be placed on business cards, added to emails,  facebook, tweets,  anyway you want to get the word out.  If anyone uses one of these links.  You get the credit
 
-                        </div>
-
-
-
                 </div>
+
+
+
+
             </div>
         </div>
     </div>

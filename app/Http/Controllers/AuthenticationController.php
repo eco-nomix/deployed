@@ -515,6 +515,7 @@ class AuthenticationController extends Controller
         $user->password = $request->input('password');
         $user->first_name = $request->input('first_name');
         $user->last_name = $request->input('last_name');
+        $user->sponsor_id = $request->session()->get('referralId');
         $user->member = 1;
         $user->save();
         $user->user_link =  md5($user->id);

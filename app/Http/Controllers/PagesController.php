@@ -126,6 +126,12 @@ class PagesController extends Controller
         return view('referrallinks',$data);
     }
 
+    public function selfreliance(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('self_reliance',$data);
+    }
+
     public function books(Request $request)
     {
         $data = $this->userData($request);

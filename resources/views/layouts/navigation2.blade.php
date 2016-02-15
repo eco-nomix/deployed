@@ -36,6 +36,7 @@
                         <li><a href="/emotionally">Emotionally</a></li>
                         <li><a href="/spiritually">Spiritually</a></li>
                         <li><a href="/economically">Economically</a></li>
+                        <li><a href="/selfreliance">Self-Reliance</a></li>
                     </ul>
                 </li>
                 <li><a href="/plans">Plans<span class="caret"></span></a>

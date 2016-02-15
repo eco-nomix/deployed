@@ -74,6 +74,7 @@ Route::get('/requirements',['as' => 'requirements','uses'=>'PagesController@requ
 Route::get('/referrallinks',['as' => 'requirements','uses'=>'PagesController@referrallinks']);
 Route::get('/emotionally',['as' => 'emotionally','uses'=>'PagesController@emotionally']);
 Route::get('/selection',['as' => 'selection','uses'=>'PagesController@selection']);
+Route::get('/selfreliance',['as' => 'selfreliance','uses'=>'PagesController@selfreliance']);
 Route::get('/spiritually',['as' => 'spiritually','uses'=>'PagesController@spiritually']);
 Route::get('/economically',['as' => 'economically','uses'=>'PagesController@economically']);
 Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans']);

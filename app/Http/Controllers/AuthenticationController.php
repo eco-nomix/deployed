@@ -62,7 +62,13 @@ class AuthenticationController extends Controller
             if($user->member ==1){
                 return $this->verificationSent($user,$request);
             }
-
+            $data = $this->basedata();
+            $data['username'] = '';
+            $data['user_name'] = '';
+            $data['user_id'] = '';
+            $data['userId'] = $user->id;
+            \Log::info("exit 1");
+            return view('welcome2',$data);
         }
     }
 

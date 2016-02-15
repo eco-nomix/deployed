@@ -418,6 +418,9 @@ class AuthenticationController extends Controller
         if($user){
             $request->session()->set('referralId', $user->id);
         }
+        else{
+            $request->session()->set('referralId', '');
+        }
         $pages = new PagesController;
         return $pages->test($request);
 

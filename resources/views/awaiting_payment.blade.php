@@ -15,7 +15,7 @@
 
                         </div>
                         <div class="form-group">
-                             <label class="col-md-10  text-center">Please send $35.00 to:  Eco-nomix</label>
+                             <label class="col-md-10 col-md-offset-1 text-left">Please send $35.00 to:  Eco-nomix</label>
                             </div>
                             <div class="form-group">
                                  <label class="col-md-10 col-md-offset-2 text-left">Eco-nomix</label>
@@ -30,7 +30,7 @@
                             <label class="col-md-10  text-left">we accept cash, checks or money orders</label>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-10  text-left">Be sure to include with your remittance your member number  of #{{$userId}} and your Username of {{$username}}</label>
+                            <label class="col-md-10  text-left">Be sure to include with your remittance your member number  of #{{$userId}} and your Registered Name of {{$username}}</label>
                         </div>
 
                 </div>

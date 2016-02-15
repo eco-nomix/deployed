@@ -16,9 +16,9 @@ use App\Http\Controllers\Controller;
 
 class AuthenticationController extends Controller
 {
-    public function referral($referralId,Request $request)
+    public function referral($referredId,Request $request)
     {
-        $userId = $referralId;
+        $userId = $referredId;
         $data = $this->baseData($request);
         $data['username']='';
         $data['reset'] = '';

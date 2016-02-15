@@ -17,6 +17,7 @@ class PagesController extends Controller
     public function userData($request)
     {
         $data['user_name'] =$request->session()->get('user_name');
+        $data['username'] =$request->session()->get('username');
         $username = $request->session()->get('user_name');
         $roles = $request->session()->get('userRoles');
         \Log::info("username = $username");

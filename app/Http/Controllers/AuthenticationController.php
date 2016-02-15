@@ -464,7 +464,7 @@ class AuthenticationController extends Controller
         $pay_bonus = $product->pay_bonus;
         $detail = new SalesTransactionDetails;
         $detail->transaction_id = $newTrans->id;
-        $detail->date = \now();
+        $detail->date = time();
         $detail->purchased_by = $userId;
         $detail->amount = $cost;
         $detail->product_id = $productId;
@@ -491,7 +491,7 @@ class AuthenticationController extends Controller
     {
         $sales_transaction = new SalesTransactions;
         $sales_transaction->purchased_by = $userId;
-        $sales_transaction->date = \now();
+        $sales_transaction->date = time();
         $sales_transaction->total_items = 0;
         $sales_transaction->shipping = 0;
         $sales_transaction->total_order = 0;

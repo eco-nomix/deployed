@@ -12,7 +12,7 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            There are two types of registrations statuses for clients of Eco-nomix.  Registered and Member.
+                            There are two types of registration statuses for clients of Eco-nomix.  Registered and Member.
                         </div>
                         <div class="form-group col-md-12 ">
                             The Registered status has no up-front costs, no monthly or annual dues - nothing at all.  A Registered customer is entitled purchase products at the non-member price.  This price is discounted from the suggested retail value by 5-10%.  Registered members may also use the referral link to recruit new registrations and members for Eco-nomix.
@@ -26,7 +26,7 @@
                             The member will receive a debit-card for payment of any referral fees and business cards which will have their referral link printed on them.
                         </div>
                         <div class="form-group col-md-12 ">
-                            As a member, you are entitled to purchase products at the member price, which is typically discounted by 10-30% from suggested Retail Price.  This discount will help the member recover their cost of being a member rather quickly.   
+                            As a member, you are entitled to purchase products at the member price, which is typically discounted by 10-30% from suggested Retail Price.  This discount will help the member recover their cost of being a member rather quickly.
                         </div>
                         <div class="form-group col-md-12 ">
                             The member will can authorize the transfer of accrued referral fees to their eco-nomix debit card as often as their as referral fees yet to be paid out.

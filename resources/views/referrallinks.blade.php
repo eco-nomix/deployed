@@ -22,7 +22,6 @@
                         </div>
                 </div>
             </div>
-            <br/>
             <div class="form-group col-md-12 standout">
                             Suggestions:  These links can be placed on business cards, added to emails,  facebook, tweets,  anyway you want to get the word out.  If anyone uses one of these links.  You get the credit
             </div>

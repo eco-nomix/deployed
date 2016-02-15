@@ -64,7 +64,7 @@
                     @if($username == '')
                         <li><a href="/login">Login</a></li>
                     @else
-                        <li>{{$username}}<span class="caret"></a>
+                        <li><a href="#">{{$username}}<span class="caret"></a>
                            <ul>
                                <l1><a href="/logout2">Logout</a></l1>
                            </ul>

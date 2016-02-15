@@ -1,4 +1,4 @@
-
+<?php  $userRoles = $request->session()->get('userRoles');  ?>
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
              <a href="/test/"><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
@@ -70,6 +70,16 @@
                             <li><a href="/homepage/{{$user_id}}">Home Page</a></li>
                             <li><a href="/money/{{$user_id}}">Got Money</a></li>
                             <li><a href="/logout2">Logout</a></li>
+                            @if($userRoles[6]=='yes')
+                                <li><a href="/admin/financial">Finance</a></li>
+                            @elseif($userRoles[5]=='yes')
+                                <li><a href="/admin/management">Management</a></li>
+                            @elseif($userRoles[7]=='yes')
+                                <li><a href="/admin/config">Config</a></li>
+                            @elseif($userRoles[10]=='yes')
+                                <li><a href="/admin/gensales">General Sales</a></li>
+                            @endif
+
                         </ul>
                     </li>
                 @endif

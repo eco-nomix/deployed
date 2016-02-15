@@ -22,6 +22,7 @@ class AuthenticationController extends Controller
         $data['username']=$userName;
         $data['reset'] = '';
         $data['user_name']='';
+
         $data['errors'] = '';
         return view('login',$data);
     }
@@ -32,6 +33,7 @@ class AuthenticationController extends Controller
 
         $data = $this->baseData();
         $data['user_name'] = '';
+
         $data['user_id'] = '';
         return view('welcome2',$data);
     }
@@ -65,6 +67,7 @@ class AuthenticationController extends Controller
             $data = $this->basedata();
             $data['username'] = '';
             $data['user_name'] = '';
+
             $data['user_id'] = '';
             $data['userId'] = $user->id;
             \Log::info("exit 1");
@@ -84,6 +87,7 @@ class AuthenticationController extends Controller
         }
         $data['user_name'] = '';
         $data['username'] = $userName;
+
         $data['user_id'] = '';
         $data['errors'] = 'Password or Username incorrect';
         \Log::info("exit 2");
@@ -108,14 +112,34 @@ class AuthenticationController extends Controller
     public function finishMemberLogin($user, Request $request)
     {
         $username = $user->first_name.' '.$user->last_name;
+        $roles = $this->getUserRoles($user);
         $request->session()->set('user_name', $username);
         $request->session()->set('user_id', $user->id);
+        $request->session()->set('userRoles',$roles);
         $request->session()->save();
+
         $data = $this->basedata();
         $data['user_name'] = $username;
+
         $data['user_id'] = $user->id;
         \Log::info("exit 1");
         return view('welcome2',$data);
+    }
+
+    public function getUserRoles($user)
+    {
+        $roles = UserRoles::select('role_id')->where('user_id',$user->id);
+            ->orderby('role_id')->get();
+        $userRoles=[];
+        for($x=1;$x<15;$x++)
+        {
+            $userRoles[$x]='';
+        }
+        foreach($roles as $role)
+        {
+            $userRoles[$role->role_id]='yes';
+        }
+        return $userRoles;
     }
 
     public function register(Request $request)
@@ -124,6 +148,7 @@ class AuthenticationController extends Controller
 
         $data['user_name']='';
         $data['user_id'] = '';
+
         $data['errors']= [] ;
         $userId = $request->session()->get('user_id');
         if($userId){

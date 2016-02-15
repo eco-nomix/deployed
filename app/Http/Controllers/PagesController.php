@@ -18,9 +18,11 @@ class PagesController extends Controller
     {
         $data['user_name'] =$request->session()->get('user_name');
         $username = $request->session()->get('user_name');
+        $roles = $request->session()->get('userRoles');
         \Log::info("username = $username");
         $data['user_id'] =$request->session()->get('user_id');
         $data['errors'] = [];
+        $data['userRoles'] = $roles;
         $data['economix_url'] = 'test';
         $data['homePage'] = 'homePage';
         return $data;

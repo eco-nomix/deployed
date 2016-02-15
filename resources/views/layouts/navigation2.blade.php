@@ -1,4 +1,4 @@
-<?php  $userRoles = $request->session()->get('userRoles');  ?>
+
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
              <a href="/test/"><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>

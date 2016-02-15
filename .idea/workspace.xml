@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/benefits.blade.php" afterPath="$PROJECT_DIR$/resources/views/benefits.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/self_reliance.blade.php" afterPath="$PROJECT_DIR$/resources/views/self_reliance.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,6 +28,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="benefits.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/benefits.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38419318" vertical-offset="24" max-vertical-offset="3230">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,21 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="self_reliance.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="self_reliance.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/self_reliance.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41053787" vertical-offset="0" max-vertical-offset="911">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register2.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/register2.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="3604">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -162,7 +161,6 @@
         <option value="$PROJECT_DIR$/resources/views/comparison.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/products.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/selection.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/benefits.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/NotificationController.php" />
         <option value="$PROJECT_DIR$/resources/views/member_confirmed.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/reminder.blade.php" />
@@ -197,6 +195,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/self-reliance.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/self_reliance.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/benefits.blade.php" />
       </list>
     </option>
   </component>
@@ -754,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/benefits.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="602" max-vertical-offset="3230">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NotificationController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
@@ -1112,7 +1103,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/self_reliance.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41053787" vertical-offset="0" max-vertical-offset="911">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/benefits.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38419318" vertical-offset="24" max-vertical-offset="3230">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>

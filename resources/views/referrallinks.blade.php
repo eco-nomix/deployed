@@ -13,6 +13,8 @@
                         <div class="form-group col-md-12 ">
                             All registered Eco-nomix users have the opportunity to refer new clients to the Eco-nomix family whether you are a full member or not.  However only full members can receive compensation from the <a href="/referral">Referral Fees</a>.  If the Register tab is visible above, you are not yet a full member.
                         </div>
+                        <div class="form-group col-md-12 ">
+                            Use the Referral Link below to help grow your organization and your income possibilities.  Simply encourage potential clients to access the site using your referral link.  When they do, the site knows who referred them and if they register, you will receive the credit.                   </div>
 
                         <div class="form-group">
                             <label class="col-md-4 control-label">Referral Link</label>

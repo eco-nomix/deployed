@@ -30,8 +30,8 @@
       <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5947136" vertical-offset="13434" max-vertical-offset="19414">
-              <caret line="411" column="15" selection-start-line="411" selection-start-column="15" selection-end-line="411" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.48237884" vertical-offset="13434" max-vertical-offset="19414">
+              <caret line="408" column="48" selection-start-line="408" selection-start-column="48" selection-end-line="408" selection-end-column="48" />
               <folding>
                 <element signature="e#39#48#0#PHP" expanded="true" />
               </folding>
@@ -1091,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5947136" vertical-offset="13434" max-vertical-offset="19414">
-          <caret line="411" column="15" selection-start-line="411" selection-start-column="15" selection-end-line="411" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.48237884" vertical-offset="13434" max-vertical-offset="19414">
+          <caret line="408" column="48" selection-start-line="408" selection-start-column="48" selection-end-line="408" selection-end-column="48" />
           <folding>
             <element signature="e#39#48#0#PHP" expanded="true" />
           </folding>

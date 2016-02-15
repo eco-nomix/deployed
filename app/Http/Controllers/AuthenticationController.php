@@ -406,7 +406,7 @@ class AuthenticationController extends Controller
     {
         $user = Users::find($userId);
         if($user){
-            $request->session()->set('referral', $user->id);
+            $request->session()->set('referralId', $user->id);
         }
         $pages = new PagesController;
         return $pages->test($request);

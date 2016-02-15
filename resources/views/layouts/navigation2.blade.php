@@ -61,7 +61,15 @@
                 <li><a href="/contact">Contact</a></li>
 
                 @if ($user_name == '' or $user_name == null )
-                    <li><a href="/login">Login</a></li>
+                    @if($username == '')
+                        <li><a href="/login">Login</a></li>
+                    @else
+                        <li>{{$username}}<span class="caret"></a>
+                           <ul>
+                               <l1><a href="/logout2">Logout</a></l1>
+                           </ul>
+                        </li>
+                    @endif
                     <li><a href="/register">Register</a></li>
                 @else
 

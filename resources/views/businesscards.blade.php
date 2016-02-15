@@ -2,16 +2,16 @@
 
 
 
-     @section('content')
-     <div style="position:absolute; top:52px; z-index:-1">
-         <h1>Business Cards</h1>
+@section('content')
+<div style="position:absolute; top:52px; z-index:-1">
+    <h1>Business Cards</h1>
 
-     </div>
-
-
+</div>
 
 
 
 
 
-     @stop
+
+
+@stop

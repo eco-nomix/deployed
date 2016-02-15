@@ -111,6 +111,20 @@ class PagesController extends Controller
         return view('businesscards',$data);
     }
 
+    public function referrallinks(Request $request)
+    {
+        $userId = $request->session()->get('user_id');
+        $user = Users::find($userId);
+        if($user){
+            $referralLink = "eco-nomix.org/referred/{{user_id}}";
+        }else{
+            $referralLink = "Need to login to see your referral link";
+        }
+        $data = $this->userData($request);
+        $data['referralLink'] = $referralLink;
+        return view('referrallinks',$data);
+    }
+
     public function books(Request $request)
     {
         $data = $this->userData($request);

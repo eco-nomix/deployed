@@ -79,8 +79,8 @@
                          <div class="form-group">
                               <label class="col-md-4 control-label">Payment Method</label>
                               <div class="col-md-6">
-                                  <input type="radio" name="paymethod" value="CreditCard" checked>Credit Card<br>
-                                  <input type="radio" name="paymethod" value="Mail" >By Mail<br>
+                                  {{--<input type="radio" name="paymethod" value="CreditCard" checked>Credit Card<br>--}}
+                                  <input type="radio" name="paymethod" value="Mail" checked>By Mail<br>
                               </div>
                          </div>
 

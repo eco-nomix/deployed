@@ -405,11 +405,12 @@ class AuthenticationController extends Controller
     public function referred($userId,Request $request)
     {
         $user = Users::find($userId);
-        $data = $this->baseData($request);
-        $data['username']='';
-        $data['reset'] = '';
-        $data['user_name']='';
-        return view('about',$data);
+        if($user){
+            $request->session()->set('referral', $user->id);
+        }
+        $pages = new PagesController;
+        $pages->test($request);
+
     }
 
     public function emailVerified($userId,$key,Request $request)

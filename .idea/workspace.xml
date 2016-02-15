@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231" vertical-offset="13498" max-vertical-offset="19380">
-              <caret line="406" column="37" selection-start-line="406" selection-start-column="37" selection-end-line="406" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.5947136" vertical-offset="13434" max-vertical-offset="19414">
+              <caret line="411" column="30" selection-start-line="411" selection-start-column="30" selection-end-line="411" selection-end-column="30" />
               <folding>
                 <element signature="e#39#48#0#PHP" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="10812">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="10812">
               <caret line="88" column="35" selection-start-line="87" selection-start-column="7" selection-end-line="88" selection-end-column="35" />
               <folding />
             </state>
@@ -125,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69164884" vertical-offset="238" max-vertical-offset="3536">
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="3536">
               <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
               <folding />
             </state>
@@ -197,8 +197,8 @@
         <option value="$PROJECT_DIR$/resources/views/awaiting_payment.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" />
       </list>
     </option>
   </component>
@@ -1073,6 +1073,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="3536">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="10812">
@@ -1083,19 +1091,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="13498" max-vertical-offset="19380">
-          <caret line="406" column="37" selection-start-line="406" selection-start-column="37" selection-end-line="406" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.5947136" vertical-offset="13434" max-vertical-offset="19414">
+          <caret line="411" column="30" selection-start-line="411" selection-start-column="30" selection-end-line="411" selection-end-column="30" />
           <folding>
             <element signature="e#39#48#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69164884" vertical-offset="238" max-vertical-offset="3536">
-          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>

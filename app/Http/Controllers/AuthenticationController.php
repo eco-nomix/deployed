@@ -113,7 +113,6 @@ class AuthenticationController extends Controller
     {
         $username = $user->first_name.' '.$user->last_name;
         $roles = $this->getUserRoles($user);
-        dd($roles);
         $request->session()->set('user_name', $username);
         $request->session()->set('user_id', $user->id);
         $request->session()->set('userRoles',$roles);

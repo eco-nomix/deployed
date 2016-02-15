@@ -59,6 +59,8 @@ class AuthenticationController extends Controller
             return $this->notValidLogin($request);
         }
         if ($user){
+            $username = $user->first_name.' '.$user->last_name;
+            $request->session()->set('username', $username);
             if($user->member>1){
                 $request->session()->set('user_id', $user->id);
             }

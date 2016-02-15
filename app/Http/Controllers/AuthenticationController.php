@@ -247,8 +247,8 @@ class AuthenticationController extends Controller
         $role = 2;
         $productId = 1;
         $payBonus = 1;
-        $this->loadProductInTransaction($newTrans, $user->id, $role, $productId);
-
+        $newTrans = $this->loadProductInTransaction($newTrans, $user->id, $role, $productId);
+        return $newTrans;
     }
 
     public function payment(Request $request)
@@ -259,7 +259,7 @@ class AuthenticationController extends Controller
             $cc = $this->saveCardInfo($request,$user);
             $productId = 1;
 
-            $pp = $this->processPayment($user,$cc,$productId);
+            $trans = $this->processPayment($user,$cc,$productId);
             $user->member = 5;
             $user->save();
             $data = $this->basedata();
@@ -269,6 +269,8 @@ class AuthenticationController extends Controller
             $request->session()->save();
             $data = $this->basedata();
             $data['user_name'] = $username;
+            $data['charge'] = $trans->total_order;
+            $data['cardnumber'] = "xxx...".substr($cc->credit_card_number,-4);
             $data['user_id'] = $user->id;
             $data['username'] = $username;
             $data['email'] = $user->email;

@@ -4,7 +4,7 @@
 
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
-    <h1>Contact Econonix</h1>
+    <h1>Contact Eco-nomix</h1>
 </div>
 
 

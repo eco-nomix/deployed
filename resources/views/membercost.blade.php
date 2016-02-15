@@ -19,7 +19,7 @@
                             Referral fees from sales of the downline organization will be credited, but will not be paid out until the registered customer upgrades their status to 'Member'.
                         </div>
                         <div class="form-group col-md-12 ">
-                           As a Registered client.  You may build your organization, as quickly as you like,  The same referral fees are earned as though you were a full member.  But are on 'hold' for payment, until you receive your eco-nomix debit card.
+                           As a Registered client.  You may build your organization, as quickly as you like,  The same referral fees are earned as though you were a full member.  But are on 'hold' for payment, until you become a member and receive your eco-nomix debit card.
                         </div>
                         <div class="form-group col-md-12 ">
                             To become a member, the registered customer needs to upgrade their status.  There is a one-time charge for this upgrade of $35.00.  There are no additional fees or dues associated with membership, ever.

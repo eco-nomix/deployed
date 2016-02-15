@@ -253,7 +253,7 @@ class AuthenticationController extends Controller
 
         if($userId){
             $user = Users::find($userId);
-            if ($user->member >2 && $user->member<5){
+            if ($user->member >1 && $user->member<5){
                 $homePhone = $request->input('home_phone');
                 $cellPhone = $request->input('cell_phone');
                 $addr1 = $request->input('addr1');

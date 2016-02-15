@@ -71,7 +71,7 @@ Route::get('/potential',['as' => 'potential','uses'=>'PagesController@potential'
 Route::get('/purpose',['as' => 'purpose','uses'=>'PagesController@purpose']);
 Route::get('/physically',['as' => 'physically','uses'=>'PagesController@physically']);
 Route::get('/requirements',['as' => 'requirements','uses'=>'PagesController@requirements']);
-Route::get('/refferallinks',['as' => 'requirements','uses'=>'PagesController@referrallinks']);
+Route::get('/referrallinks',['as' => 'requirements','uses'=>'PagesController@referrallinks']);
 Route::get('/emotionally',['as' => 'emotionally','uses'=>'PagesController@emotionally']);
 Route::get('/selection',['as' => 'selection','uses'=>'PagesController@selection']);
 Route::get('/spiritually',['as' => 'spiritually','uses'=>'PagesController@spiritually']);

@@ -18,37 +18,11 @@ class AuthenticationController extends Controller
 {
     public function referral($referralId,Request $request)
     {
-        $referral = Users::find($referralId);
-        if($referral){
-            $request->session()->set('referralId', $referralId);
-        }
         $data = $this->baseData($request);
-        $random = rand(1,4);
-        if($random == 1) {
-            $data['imageUrl'] = '../images/EarthRise.jpg';
-            $data['message'] = 'Eco-nomix\'s purpose is to provide the highest
-            quality products to its customers that will help them improve
-            their lives physically, emotionally, spirtually and economically.';
-        }elseif ($random == 2){
-            $data['imageUrl'] = '../images/MustardTree.jpg';
-            $data['message'] = 'What we choose to do today will start out small
-            like a seedling, but over time can become great for all the world to
-            see.';
-        }elseif($random == 3){
-            $data['imageUrl'] = '../images/HandsPlant.jpg';
-            $data['message'] = 'Our future is something to be planned for, prepared
-            for and even nutured.  ';
-        }else{
-            $data['imageUrl'] = '../images/Grass.jpg';
-            $data['message'] = 'The decisions we make daily in what products
-            that we choose to purchase will impact not only our own lives, but
-            the lives of all the people on this planet.';
-        }
-        $data['user_name'] = '';
-        $data['user_id'] = '';
-        $data['username'] = '';
-        return view('welcome2',$data);
-
+        $data['username']='';
+        $data['reset'] = '';
+        $data['user_name']='';
+        return view('about',$data);
     }
 
     public function login(Request $request)

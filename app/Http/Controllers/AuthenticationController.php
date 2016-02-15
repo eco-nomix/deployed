@@ -18,6 +18,7 @@ class AuthenticationController extends Controller
 {
     public function referral($referralId,Request $request)
     {
+        $userId = $referralId;
         $data = $this->baseData($request);
         $data['username']='';
         $data['reset'] = '';

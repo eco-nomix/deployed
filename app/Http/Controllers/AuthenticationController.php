@@ -394,7 +394,10 @@ class AuthenticationController extends Controller
     public function clearSession(Request $request)
     {
         $request->session()->set('user_name', '');
+        $request->session()->set('username', '');
         $request->session()->set('user_id','');
+        $request->session()->set('referralId', '');
+        $request->session()->set('userRoles','');
         $request->session()->save();
     }
 

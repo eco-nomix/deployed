@@ -17,17 +17,20 @@
                         <div class="form-group">
                              <label class="col-md-10  text-center">Please send $35.00 to:  Eco-nomix</label>
                             </div>
+                            <div class="form-group">
+                                 <label class="col-md-10 col-md-offset-2 text-left">Eco-nomix</label>
+                            </div>
                         <div class="form-group">
-                              <label class="col-md-10 col-md-offset-2 text-center">8029 Highway 641 S.</label>
+                              <label class="col-md-10 col-md-offset-2 text-left">8029 Highway 641 S.</label>
                         </div>
                         <div class="form-group">
-                              <label class="col-md-10 col-md-offset-2 text-center">Paris,  Tennessee   38242</label>
+                              <label class="col-md-10 col-md-offset-2 text-left">Paris,  Tennessee   38242</label>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-10  text-center">we accept cash, checks or money orders</label>
+                            <label class="col-md-10  text-left">we accept cash, checks or money orders</label>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-10  text-center">Be sure to include with your remittance your member number  of #{{$userId}} and your Username of {{$username}}</label>
+                            <label class="col-md-10  text-left">Be sure to include with your remittance your member number  of #{{$userId}} and your Username of {{$username}}</label>
                         </div>
 
                 </div>

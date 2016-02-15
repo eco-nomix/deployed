@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/awaiting_payment.blade.php" afterPath="$PROJECT_DIR$/resources/views/awaiting_payment.blade.php" />
     </list>
     <ignored path="economix.iws" />
@@ -28,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8029954" vertical-offset="7089" max-vertical-offset="17442">
+            <state vertical-scroll-proportion="-26.807692" vertical-offset="7089" max-vertical-offset="17442">
               <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
               <folding>
                 <element signature="e#39#48#0#PHP" expanded="true" />
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="awaiting_payment.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="awaiting_payment.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/awaiting_payment.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1496">
-              <caret line="29" column="138" selection-start-line="29" selection-start-column="138" selection-end-line="29" selection-end-column="138" />
+            <state vertical-scroll-proportion="0.16331096" vertical-offset="534" max-vertical-offset="1598">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#55#102#0#HTML" expanded="true" />
               </folding>
@@ -196,8 +195,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Transaction.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Transactions.php" />
         <option value="$PROJECT_DIR$/resources/views/thankyou.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/awaiting_payment.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/awaiting_payment.blade.php" />
       </list>
     </option>
   </component>
@@ -1070,22 +1069,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/awaiting_payment.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1496">
-          <caret line="29" column="138" selection-start-line="29" selection-start-column="138" selection-end-line="29" selection-end-column="138" />
+        <state vertical-scroll-proportion="-26.807692" vertical-offset="7089" max-vertical-offset="17442">
+          <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
           <folding>
-            <element signature="e#55#102#0#HTML" expanded="true" />
+            <element signature="e#39#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/awaiting_payment.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8029954" vertical-offset="7089" max-vertical-offset="17442">
-          <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.16331096" vertical-offset="534" max-vertical-offset="1598">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
-            <element signature="e#39#48#0#PHP" expanded="true" />
+            <element signature="e#55#102#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

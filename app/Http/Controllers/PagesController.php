@@ -121,7 +121,7 @@ class PagesController extends Controller
             $referralLink = "Need to login to see your referral link";
         }
         $data = $this->userData($request);
-        $data['referralLink'] = $referralLink;
+        $data['ReferralLink'] = $referralLink;
         return view('referrallinks',$data);
     }
 

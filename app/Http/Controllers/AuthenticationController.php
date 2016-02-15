@@ -152,6 +152,7 @@ class AuthenticationController extends Controller
         \Log::info('in register');
 
         $data['user_name']='';
+        $data['username']='';
         $data['user_id'] = '';
         $data['userRoles'] = [];
         $data['errors']= [] ;

@@ -72,13 +72,13 @@
                             <li><a href="/logout2">Logout</a></li>
                             @if($userRoles[6]=='yes')
                                 <li><a href="/admin/financial">Finance</a></li>
-                            @end
+                            @endif
                             @if($userRoles[5]=='yes')
                                 <li><a href="/admin/management">Management</a></li>
-                            @end
+                            @endif
                             @if($userRoles[7]=='yes')
                                 <li><a href="/admin/config">Config</a></li>
-                            @end
+                            @endif
                             @if($userRoles[10]=='yes')
                                 <li><a href="/admin/gensales">General Sales</a></li>
                             @endif

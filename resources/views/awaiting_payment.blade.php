@@ -15,7 +15,7 @@
 
                         </div>
                         <div class="form-group">
-                             <label class="col-md-10 col-md-offset-1 text-left">Please send $35.00 to:  Eco-nomix</label>
+                             <label class="col-md-10 col-md-offset-1 text-left">Please send $35.00 to:</label>
                             </div>
                             <div class="form-group">
                                  <label class="col-md-10 col-md-offset-2 text-left">Eco-nomix</label>

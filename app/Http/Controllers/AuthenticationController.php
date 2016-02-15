@@ -493,7 +493,7 @@ class AuthenticationController extends Controller
         $sales_transaction->purchased_by = $userId;
         $sales_transaction->date = time();
         $sales_transaction->total_items = 0;
-        $sales_transaction->shipping = 0;
+        $sales_transaction->total_shipping = 0;
         $sales_transaction->total_order = 0;
         $sales_transaction->pay_bonus_on_amt = 0;
         $sales_transaction->save();

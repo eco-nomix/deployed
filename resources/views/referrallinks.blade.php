@@ -5,7 +5,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
+            <div class="panel panel-default display">
                 <div class="panel-heading">Referral Links</div>
                 <div class="panel-body">
 
@@ -21,7 +21,10 @@
                             </div>
                         </div>
 
+                        <div class="form-group col-md-12">
+                            Suggestions:  These links can be placed on business cards, added to emails,  facebook, tweets,  anyway you want to get the word out.  If anyone uses one of these links.  You get the credit
 
+                        </div>
 
 
 

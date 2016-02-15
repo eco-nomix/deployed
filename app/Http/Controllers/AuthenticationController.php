@@ -127,7 +127,7 @@ class AuthenticationController extends Controller
 
     public function getUserRoles($user)
     {
-        $roles = UserRoles::select('role_id')->where('user_id',$user->id);
+        $roles = UserRoles::select('role_id')->where('user_id',$user->id)
             ->orderby('role_id')->get();
         $userRoles=[];
         for($x=1;$x<15;$x++)

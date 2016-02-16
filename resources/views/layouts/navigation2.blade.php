@@ -50,7 +50,7 @@
                         <li><a href="/requirements">Requirements for Bonuses</a></li>
                         <li><a href="/limitations">Limitations on Recruiting</a></li>
                         <li><a href="/accounting">On-line Accounting</a></li>
-                        <li><a href="/transfers">Instant Transfers</a></li>
+                        <li><a href="/transfers">Immediate Transfers</a></li>
                         <li><a href="/potential">Potentials</a></li>
                         <li><a href="/donations">Donations</a></li>
                         <li><a href="/comparison">Eco-nomix compared to Multi-Level</a></li>

@@ -53,7 +53,7 @@
                                     <li>No purchasing of product you don't want or need</li>
                                     <li>No confusing Marketing plan</li>
                                     <li>No waiting for check's in the mail</li>
-                                    <l1>No Hidden Fees</l1>
+                                    <li>No Hidden Fees</li>
                                     <li>No hard sell - hand out a business card, let the site do the work for you</li>
                                </ul>
                          </div>

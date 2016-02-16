@@ -43,7 +43,7 @@
                     <ul>
                         <li><a href="/membercost">Membership Cost</a></li>
                         <li><a href="/discount">Member Discount</a></li>
-                        <li><a href="/referral">Referral Fees</a></li>
+                        <li><a href="/referral">Referral Bonuses</a></li>
                         <li><a href="/debitcards">Debit Card</a></li>
                         <li><a href="/businesscards">Business Cards</a></li>
                          <li><a href="/referrallinks">Referral Links</a></li>

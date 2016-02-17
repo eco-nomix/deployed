@@ -517,12 +517,18 @@ class AuthenticationController extends Controller
         $user->first_name = $request->input('first_name');
         $user->last_name = $request->input('last_name');
         $referralId = $request->session()->get('referralId');
+
         if($referralId <1){
             $refUser = Users::select('id')->where('member',5)->orderByRaw("RAND()")->first();
             $referralId = $refUser->id;
         }
+        $referrer = Users::find($referralId);
         $request->session()->set('referralId','');
-        $user->sponsor_id = $referralId;
+        $user->sponsor_id = $referrer->id;
+        $user->second_id = $referrer->sponsor_id;
+        $user->third_id = $referrer->second_id;
+        $user->fouth_id = $referrer->third_id;
+        $user->fifth_id = $referrer->fouth_id;
         $user->member = 1;
         $user->save();
         $user->user_link =  md5($user->id);

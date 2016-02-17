@@ -13,7 +13,7 @@
 
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
                           <div class="form-group col-md-12 ">
-                              One the major factors that impact nearly every company the utilizes multi-level payment schemes is member 'churn'.  Churn is the description of the process where
+                              One the major factors that impact nearly every company the utilizes multi-level compensation systems is member 'churn'.  Churn is the description of the process where
                               member joins the marketing multi-level program for the sake of the opportunity.  The new members are initially excited to purchase their monthly subscriptions of products, so they
                               can too earn the big bucks.  But reality starts to show pretty early,  monthly costs keep accumulating, many times to hundreds of dollars every month for purchases.  But the
                               income just doesn't come in like it shows on the charts.  Their organization is always too small for the bonus that is always just around the corner.  And eventually the vast majority of new recruits

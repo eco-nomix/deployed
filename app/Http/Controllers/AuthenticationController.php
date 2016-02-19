@@ -616,7 +616,7 @@ class AuthenticationController extends Controller
         if($user){
             // real person
                $data = $this->memberData($user,$request);
-                $
+         
                 return view('organization',$data);
         }
         else{

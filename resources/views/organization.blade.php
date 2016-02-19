@@ -20,7 +20,7 @@
                 <tr>
                     <td class="level" colspan="3">1st level</td>
                 </tr>
-                <tr class="white">
+                <tr class="back-white">
                      <td>
                         {!!$firstLevelSelect['select']!!}
                      </td>

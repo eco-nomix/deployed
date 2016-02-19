@@ -616,7 +616,7 @@ class AuthenticationController extends Controller
         if($user){
             // real person
                $data = $this->memberData($user,$request);
-
+                $
                 return view('organization',$data);
         }
         else{
@@ -636,10 +636,10 @@ class AuthenticationController extends Controller
         $request->session()->set('user_id', $user->id);
         $request->session()->set('userRoles',$roles);
         $request->session()->save();
-        $organization = new Organization;
+
 
         $data = [];
-        $data['firstLevelList'] = $organization->getLevel1($user);
+
         $data['firstId'] = 0;
         $data['errors'] = [];
         $data['userRoles'] = $roles;
@@ -648,6 +648,13 @@ class AuthenticationController extends Controller
         $data['username'] = $username;
         $data['email'] = $user->email;
         return $data;
+    }
+
+    public function getLevel1($user)
+    {
+        $results = '';
+        \Log::info("getLevel1");
+        return $results;
     }
 
 }

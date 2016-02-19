@@ -8,7 +8,6 @@
     <div style="width:100%">
 
         <div style="width:100%" class="text-center display">Organization for {{$user_name}}</div>
-         {!! Form::open(['url' => 'organization', 'id'=>'OrganForm','name'=>'OrganForm', 'method' => 'POST', 'class' => 'form-horizontal','files'=>true]) !!}
 
         <form class="form-horizontal" role="form" method="POST" action="/organization">
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -22,9 +21,14 @@
                     <td class="level" colspan="3">1st level</td>
                 </tr>
                 <tr>
-                    <td>
-                        {!! Form::select('FirstLevel',$firstLevelList, $firstId,['title' =>'First Level Selection','class' => 'form-control change-level1']) !!}
-                    </td>
+                     <td>
+                        <select>
+                            <option>All</option>
+                            <option>Jay Potter</option>
+                            <option>Reed Davis</option>
+                            <option>excentric</option>
+                        </select>
+                     </td>
                     <td>number 1</td>
                     <td>sales 1</td>
                 </tr>

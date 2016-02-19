@@ -25,64 +25,48 @@
                         {!!$firstLevelSelect['select']!!}
                      </td>
                     <td>{{$firstLevelSelect['count']}}</td>
-                    <td>sales 1</td>
+                    <td>{{$firstLevelSelect['sales']}}</td>
                 </tr>
                 <tr>
                     <td class="level"  colspan="3">2st level</td>
                 </tr>
                 <tr>
-                    <td><select>
-                            <option>All</option>
-                            <option>Jay Potter</option>
-                            <option>Reed Davis</option>
-                            <option>excentric</option>
-                        </select>
+                    <td>
+                        {!!$secondLevelSelect['select']!!}
                     </td>
-                    <td>number 2</td>
-                    <td>sales 2</td>
+                    <td>{{$secondLevelSelect['count']}}</td>
+                    <td>{{$secondLevelSelect['sales']}}</td>
                 </tr>
                 <tr>
                     <td class="level" colspan="3">3rd level</td>
                 </tr>
                 <tr>
-                    <td><select>
-                            <option>All</option>
-                            <option>Jay Potter</option>
-                            <option>Reed Davis</option>
-                            <option>excentric</option>
-                        </select>
+                    <td>
+                        {!!$thirdLevelSelect['select']!!}
                     </td>
-                    <td>number 3</td>
-                    <td>sales 3</td>
+                    <td>{{$thirdLevelSelect['count']}}</td>
+                    <td>{{$thirdLevelSelect['sales']}}</td>
                 </tr>
                 <tr>
                     <td class="level" colspan="3">4rd level</td>
                 </tr>
                 <tr>
-                    <td><select>
-                            <option>All</option>
-                            <option>Jay Potter</option>
-                            <option>Reed Davis</option>
-                            <option>excentric</option>
-                        </select>
+                    <td>
+                        {!!$fourthLevelSelect['select']!!}
                     </td>
-                    <td>number 4</td>
-                    <td>sales </td>
+                    <td>{{$fourthLevelSelect['count']}}</td>
+                    <td>{{$fourthLevelSelect['sales']}}</td>
                 </tr>
                 <tr>
                     <td class="level" colspan="3">5th level</td>
                 </tr>
                 <tr>
-                    <td><select>
-                            <option>All</option>
-                            <option>Jay Potter</option>
-                            <option>Reed Davis</option>
-                            <option>excentric</option>
-                        </select>
-                    </td>
-                    <td>number 5</td>
-                    <td>sales 5</td>
-                </tr>
+                       <td>
+                           {!!$fifthLevelSelect['select']!!}
+                       </td>
+                       <td>{{$fifthLevelSelect['count']}}</td>
+                       <td>{{$fifthLevelSelect['sales']}}</td>
+             </tr>
             </table>
         </form>
     </div>

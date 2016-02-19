@@ -617,6 +617,10 @@ class AuthenticationController extends Controller
             // real person
                $data = $this->memberData($user,$request);
                 $data['firstLevelSelect'] = $this->getLevel1($user);
+                $data['secondLevelSelect'] = $this->getLevel2($user);
+                $data['thirdLevelSelect'] = $this->getLevel3($user);
+                $data['fourthLevelSelect'] = $this->getLevel4($user);
+                $data['fifthLevelSelect'] = $this->getLevel5($user);
                 return view('organization',$data);
         }
         else{
@@ -656,8 +660,47 @@ class AuthenticationController extends Controller
         $users = $this->getGeneration($user,'sponsor_id');
         $results['select'] = $this->prepareSelect($users, 1);
         $results['count'] = count($users);
+        $results['sales'] = 0;
         return $results;
     }
+
+    public function getLevel2($user)
+    {
+        $results = '';
+        $users = $this->getGeneration($user,'second_id');
+        $results['select'] = $this->prepareSelect($users, 2);
+        $results['count'] = count($users);
+        $results['sales'] = 0;
+        return $results;
+    }
+    public function getLevel3($user)
+    {
+        $results = '';
+        $users = $this->getGeneration($user,'third_id');
+        $results['select'] = $this->prepareSelect($users, 3);
+        $results['count'] = count($users);
+        $results['sales'] = 0;
+        return $results;
+    }
+    public function getLevel4($user)
+    {
+        $results = '';
+        $users = $this->getGeneration($user,'fourth_id');
+        $results['select'] = $this->prepareSelect($users, 4);
+        $results['count'] = count($users);
+        $results['sales'] = 0;
+        return $results;
+    }
+    public function getLevel5($user)
+    {
+        $results = '';
+        $users = $this->getGeneration($user,'fifth_id');
+        $results['select'] = $this->prepareSelect($users, 5);
+        $results['count'] = count($users);
+        $results['sales'] = 0;
+        return $results;
+    }
+
 
     public function getGeneration($user,$field)
     {

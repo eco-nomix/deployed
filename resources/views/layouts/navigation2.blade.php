@@ -78,7 +78,7 @@
                     <li><a href="/homepage/{{$user_id}}">{{$user_name}}<span class="caret"></span></a>
                         <ul>
                             <li><a href="/homepage/{{$user_id}}">Home Page</a></li>
-                            <li><a href="/money/{{$user_id}}">Got Money</a></li>
+                            <li><a href="/organization/{{$user_id}}">Organization</a></li>
                             <li><a href="/logout2">Logout</a></li>
                             @if($userRoles[6]=='yes')
                                 <li><a href="/admin/financial">Finance</a></li>

@@ -609,19 +609,20 @@ class AuthenticationController extends Controller
     }
     public function organization(Request $request)
     {
-
         $user_id = $request->session()->get('user_id');
         \Log::info("memberId = $user_id");
         $user = Users::find($user_id);
         if($user){
             // real person
                $data = $this->memberData($user,$request);
-                $data['firstLevelSelect'] = $this->getLevel1($user);
-                $data['secondLevelSelect'] = $this->getLevel2($user);
-                $data['thirdLevelSelect'] = $this->getLevel3($user);
-                $data['fourthLevelSelect'] = $this->getLevel4($user);
-                $data['fifthLevelSelect'] = $this->getLevel5($user);
-                return view('organization',$data);
+               $levelList = $this->levelList($user,$request);
+
+               $data['firstLevelSelect'] = $this->getLevel($levelList[1],1);
+               $data['secondLevelSelect'] = $this->getLevel($levelList[2],2);
+               $data['thirdLevelSelect'] = $this->getLevel($levelList[3],3);
+               $data['fourthLevelSelect'] = $this->getLevel($levelList[4],4);
+               $data['fifthLevelSelect'] = $this->getLevel($levelList[5],5);
+               return view('organization',$data);
         }
         else{
                 //email link tweaked
@@ -629,6 +630,93 @@ class AuthenticationController extends Controller
         }
     }
 
+    public function levelList($user,$request)
+    {
+        $levelList = [];
+        if($request->input('Level1') == 0){
+            $levelList[1]['user'] = $user;
+            $levelList[1]['selected'] = 0;
+            $levelList[1]['level'] = 1;
+            $levelList[2]['user'] = $user;
+            $levelList[2]['selected'] = 0;
+            $levelList[2]['level'] = 2;
+            $levelList[3]['user'] = $user;
+            $levelList[3]['selected'] = 0;
+            $levelList[3]['level'] = 3;
+            $levelList[4]['user'] = $user;
+            $levelList[4]['selected'] = 0;
+            $levelList[4]['level'] = 4;
+            $levelList[5]['user'] = $user;
+            $levelList[5]['selected'] = 0;
+            $levelList[5]['level'] = 5;
+            $downuser = $user;
+        }
+        else{
+            $downuserId = $request->input('Level1');
+            $levelList[1]['user'] = $user;
+            $levelList[1]['selected'] = $downuserId;
+            $levelList[1]['level'] = 1;
+            $downuser = Users::find($downuserId);
+            $levelList[2]['user'] = $downuser;
+            $levelList[2]['selected'] = 0;
+            $levelList[2]['level'] = 1;
+            $levelList[3]['user'] = $downuser;
+            $levelList[3]['selected'] = 0;
+            $levelList[3]['level'] = 2;
+            $levelList[4]['user'] = $downuser;
+            $levelList[4]['selected'] = 0;
+            $levelList[4]['level'] = 3;
+            $levelList[5]['user'] = $downuser;
+            $levelList[5]['selected'] = 0;
+            $levelList[5]['level'] = 4;
+        }
+        if($request->input('Level2') > 0){
+            $downuserId = $request->input('Level2');
+            $levelList[2]['user'] = $downuser;
+            $levelList[2]['selected'] = $downuserId;
+            $levelList[2]['level'] = 1;
+            $downuser = Users::find($downuserId);
+            $levelList[3]['user'] = $downuser;
+            $levelList[3]['selected'] = 0;
+            $levelList[3]['level'] = 1;
+            $levelList[4]['user'] = $downuser;
+            $levelList[4]['selected'] = 0;
+            $levelList[4]['level'] = 2;
+            $levelList[5]['user'] = $downuser;
+            $levelList[5]['selected'] = 0;
+            $levelList[5]['level'] = 3;
+        }
+        if($request->input('Level3') >0){
+            $downuserId = $request->input('Level3');
+            $levelList[3]['user'] = $downuser;
+            $levelList[3]['selected'] = $downuserId;
+            $levelList[3]['level'] = 1;
+            $downuser = Users::find($downuserId);
+            $levelList[4]['user'] = $downuser;
+            $levelList[4]['selected'] = 0;
+            $levelList[4]['level'] = 1;
+            $levelList[5]['user'] = $downuser;
+            $levelList[5]['selected'] = 0;
+            $levelList[5]['level'] = 2;
+        }
+        if($request->input('Level4') >0){
+            $downuserId = $request->input('Level4');
+            $levelList[4]['user'] = $downuser;
+            $levelList[4]['selected'] = $downuserId;
+            $levelList[4]['level'] = 1;
+            $downuser = Users::find($downuserId);
+            $levelList[5]['user'] = $downuser;
+            $levelList[5]['selected'] = 0;
+            $levelList[5]['level'] = 1;
+        }
+        if($request->input('Level5') >0){
+            $downuserId = $request->input('Level5');
+            $levelList[5]['user'] = $downuser;
+            $levelList[5]['selected'] = $downuserId;
+            $levelList[5]['level'] = 1;
+        }
+        return $levelList;
+    }
 
 
     public function memberData($user,Request $request)
@@ -640,10 +728,7 @@ class AuthenticationController extends Controller
         $request->session()->set('user_id', $user->id);
         $request->session()->set('userRoles',$roles);
         $request->session()->save();
-
-
         $data = [];
-
         $data['firstId'] = 0;
         $data['errors'] = [];
         $data['userRoles'] = $roles;
@@ -654,66 +739,47 @@ class AuthenticationController extends Controller
         return $data;
     }
 
-    public function getLevel1($user)
+    public function getLevel($levelList,$level)
     {
         $results = '';
-        $users = $this->getGeneration($user,'sponsor_id');
-        $results['select'] = $this->prepareSelect($users, 1);
-        $results['count'] = count($users);
-        $results['sales'] = 0;
-        return $results;
-    }
-
-    public function getLevel2($user)
-    {
-        $results = '';
-        $users = $this->getGeneration($user,'second_id');
-        $results['select'] = $this->prepareSelect($users, 2);
-        $results['count'] = count($users);
-        $results['sales'] = 0;
-        return $results;
-    }
-    public function getLevel3($user)
-    {
-        $results = '';
-        $users = $this->getGeneration($user,'third_id');
-        $results['select'] = $this->prepareSelect($users, 3);
-        $results['count'] = count($users);
-        $results['sales'] = 0;
-        return $results;
-    }
-    public function getLevel4($user)
-    {
-        $results = '';
-        $users = $this->getGeneration($user,'fourth_id');
-        $results['select'] = $this->prepareSelect($users, 4);
-        $results['count'] = count($users);
-        $results['sales'] = 0;
-        return $results;
-    }
-    public function getLevel5($user)
-    {
-        $results = '';
-        $users = $this->getGeneration($user,'fifth_id');
-        $results['select'] = $this->prepareSelect($users, 5);
+        $users = $this->getGeneration($levelList['user'],$levelList['level']);
+        $results['select'] = $this->prepareSelect($users, $level, $levelList['selected']);
         $results['count'] = count($users);
         $results['sales'] = 0;
         return $results;
     }
 
 
-    public function getGeneration($user,$field)
+    public function getGeneration($user,$level)
     {
+        $field = $this->levelToField($level);
         $users = Users::where($field,$user->id)->get();
         return $users;
     }
 
-    public function prepareSelect($users, $level)
+    public function levelToField($level)
     {
-        $results = "<select style='width:300px;'> ";
-        $results .= "<option value = '0'>All Users</option>";
+        if ($level == 1)
+            $field = 'sponsor_id';
+        elseif($level == 2)
+            $field = 'second_id';
+        elseif($level == 3)
+            $field = 'third_id';
+        elseif($level == 4)
+            $field = 'fourth_id';
+        elseif($level == 5)
+            $field = 'fifth_id';
+        return $field;
+    }
+
+    public function prepareSelect($users, $level, $selected)
+    {
+        $results = "<select name='Level".$level."' style='width:300px;' onchange='this.form.submit()' > ";
+        $selectField = ($selected == 0)?'selected':'';
+        $results .= "<option value = '0' $selectField>All Users</option>";
         foreach($users as $user){
-            $results .= "<option value ='".$user->id."'>".$user->first_name.' '.$user->last_name.'</option>';
+            $selectField = ($user->id == $selected)?'selected':'';
+            $results .= "<option value ='".$user->id."' $selectField>".$user->first_name.' '.$user->last_name.'</option>';
         }
         $results .="</select>";
         return $results;

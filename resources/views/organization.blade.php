@@ -24,7 +24,7 @@
                      <td>
                         {!!$firstLevelSelect['select']!!}
                      </td>
-                    <td>$firstLevelSelect['count']</td>
+                    <td>{{$firstLevelSelect['count']}}</td>
                     <td>sales 1</td>
                 </tr>
                 <tr>

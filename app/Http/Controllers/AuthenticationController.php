@@ -654,7 +654,8 @@ class AuthenticationController extends Controller
     {
         $results = '';
         $users = $this->getGeneration($user,'sponsor_id');
-        $results = $this->prepareSelect($users, 1);
+        $results['select'] = $this->prepareSelect($users, 1);
+        $results['count'] = count($users);
         return $results;
     }
 

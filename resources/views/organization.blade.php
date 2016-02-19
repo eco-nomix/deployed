@@ -22,9 +22,9 @@
                 </tr>
                 <tr>
                      <td>
-                        {!!$firstLevelSelect!!}
+                        {!!$firstLevelSelect['select']!!}
                      </td>
-                    <td>number 1</td>
+                    <td>$firstLevelSelect['count']</td>
                     <td>sales 1</td>
                 </tr>
                 <tr>

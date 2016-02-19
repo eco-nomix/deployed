@@ -710,7 +710,7 @@ class AuthenticationController extends Controller
 
     public function prepareSelect($users, $level)
     {
-        $results = "<select> ";
+        $results = "<select class='W300'> ";
         $results .= "<option value = '0'>All Users</option>";
         foreach($users as $user){
             $results .= "<option value ='".$user->id."'>".$user->first_name.' '.$user->last_name.'</option>';

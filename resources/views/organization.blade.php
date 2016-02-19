@@ -3,7 +3,7 @@
 
 
 @section('content')
-<div style="position:absolute; top:52px; z-index:-1; width:100%; border:1px solid blue">
+<div style="position:absolute; top:52px; z-index:-1; width:100%; ">
 
     <div style="width:100%">
 

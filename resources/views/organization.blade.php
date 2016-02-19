@@ -22,7 +22,7 @@
                 </tr>
                 <tr>
                      <td>
-                        {{$firstLevelSelect}}
+                        {!!$firstLevelSelect!!}
                      </td>
                     <td>number 1</td>
                     <td>sales 1</td>

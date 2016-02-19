@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 use Mail;
 use Crypt;
@@ -10,9 +9,10 @@ use App\Models\UserRoles;
 use App\Models\SalesTransactions;
 use App\Models\SalesTransactionDetails;
 use App\Models\CustomerCreditCards;
-
+use App\http\Controllers\Organization;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Cookie;
 
 class AuthenticationController extends Controller
 {
@@ -24,7 +24,7 @@ class AuthenticationController extends Controller
         $data['username']=$userName;
         $data['reset'] = '';
         $data['user_name']='';
-        $data['userRoles'] = [];
+        $data['userRoles'] = $this->getUserRoles('x');
         $data['errors'] = '';
         return view('login',$data);
     }
@@ -37,7 +37,7 @@ class AuthenticationController extends Controller
         $data['user_name'] = '';
         $data['reset'] = '';
         $data['username'] = '';
-        $data['userRoles'] = [];
+        $data['userRoles'] = $this->getUserRoles('x');
         $data['user_id'] = '';
         return view('welcome2',$data);
     }
@@ -59,9 +59,11 @@ class AuthenticationController extends Controller
             return $this->notValidLogin($request);
         }
         if ($user){
+            \Log::info("  userId=$user->id  member=$user->member");
             $username = $user->first_name.' '.$user->last_name;
             $request->session()->set('username', $username);
             $request->session()->set('user_id', $user->id);
+            $request->session()->set('user_link',$user->user_link);
 
             if($user->member == 5) {
                 return $this->finishMemberLogin($user, $request);
@@ -91,7 +93,7 @@ class AuthenticationController extends Controller
         }
         $data['user_name'] = '';
         $data['username'] = $userName;
-        $data['userRoles'] = [];
+        $data['userRoles'] = $this->getUserRoles('x');
         $data['user_id'] = '';
         $data['errors'] = 'Password or Username incorrect';
         \Log::info("exit 2");
@@ -102,6 +104,7 @@ class AuthenticationController extends Controller
 
     public function verificationSent($user,$request)
     {
+
         \Log::info("email was Sent");
 
     }
@@ -115,8 +118,9 @@ class AuthenticationController extends Controller
 
     public function finishMemberLogin($user, Request $request)
     {
+        \Log::info("in finishMemberLogin");
         $username = $user->first_name.' '.$user->last_name;
-        $roles = $this->getUserRoles($user);
+        $roles = $this->getUserRoles($user->id);
         $request->session()->set('user_name', $username);
         $request->session()->set('user_id', $user->id);
         $request->session()->set('userRoles',$roles);
@@ -130,9 +134,9 @@ class AuthenticationController extends Controller
         return view('welcome2',$data);
     }
 
-    public function getUserRoles($user)
+    public function getUserRoles($userId)
     {
-        $roles = UserRoles::select('role_id')->where('user_id',$user->id)
+        $roles = UserRoles::select('role_id')->where('user_id',$userId)
             ->orderby('role_id')->get();
         $userRoles=[];
         for($x=1;$x<15;$x++)
@@ -153,7 +157,7 @@ class AuthenticationController extends Controller
         $data['user_name']='';
         $data['username']='';
         $data['user_id'] = '';
-        $data['userRoles'] = [];
+        $data['userRoles'] = $this->getUserRoles('x');
         $data['errors']= [] ;
         $userId = $request->session()->get('user_id');
         if($userId){
@@ -163,7 +167,7 @@ class AuthenticationController extends Controller
                     $data = $this->basedata();
                     $data['username'] = '';
                     $data['user_name'] = '';
-                    $data['userRoles'] = [];
+
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
                     return view('register2', $data);
@@ -172,7 +176,7 @@ class AuthenticationController extends Controller
                     $data = $this->basedata();
                     $data['username'] = '';
                     $data['user_name'] = '';
-                    $data['userRoles'] = [];
+
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
                     return view('payment', $data);
@@ -182,7 +186,7 @@ class AuthenticationController extends Controller
                     $data['username'] = $user->first_name.' '.$user->last_name;
                     $data['user_name'] = '';
                     $data['user_id'] = $userId;
-                    $data['userRoles'] = [];
+                    $data['userRoles'] = $this->getUserRoles($user->id);
                     $data['userId'] = $user->id;
                     \Log::info("exit 1");
                     return view('awaiting_payment', $data);
@@ -192,7 +196,7 @@ class AuthenticationController extends Controller
                     $data = $this->basedata();
                     $data['username'] = '';
                     $data['user_name'] = '';
-                    $data['userRoles'] = [];
+                    $data['userRoles'] = $this->getUserRoles($user->id);
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
                     return view('registration_complete', $data);
@@ -225,7 +229,7 @@ class AuthenticationController extends Controller
                 $data = $this->basedata();
                 $data['username'] = '';
                 $data['user_name'] = '';
-                $data['userRoles'] = [];
+                $data['userRoles'] = $this->getUserRoles('x');
                 $data['user_id'] = '';
                 return view('register',$data);
             }
@@ -237,7 +241,7 @@ class AuthenticationController extends Controller
         $data = $this->basedata();
         $data['username'] = '';
         $data['user_name'] = '';
-        $data['userRoles'] = [];
+        $data['userRoles'] = $this->getUserRoles('x');
         $data['user_id'] = '';
         \Log::info("exit 1");
         return view('register2',$data);
@@ -276,9 +280,9 @@ class AuthenticationController extends Controller
             }
             if($payMethod == 'Mail'){
                 $data['username'] = $user->first_name.' '.$user->last_name;
-                $data['user_name'] = '';
-                $data['user_id'] = '';
-                $data['userRoles'] = [];
+                $data['user_name'] = $user->first_name.' '.$user->last_name;
+                $data['user_id'] = $user->id;
+                $data['userRoles'] = $this->getUserRoles($user->id);
                 $data['userId'] = $user->id;
                 \Log::info("exit 1");
                 $user->member = 4;
@@ -288,7 +292,7 @@ class AuthenticationController extends Controller
             $data = $this->basedata();
             $data['username'] = '';
             $data['user_name'] = '';
-            $data['userRoles'] = [];
+            $data['userRoles'] = $this->getUserRoles('x');
             $data['user_id'] = '';
             \Log::info("exit 1");
             return view('payment',$data);
@@ -362,7 +366,7 @@ class AuthenticationController extends Controller
             \Log::info("email=$email");
             $data['email'] = $email;
             $data['user_name'] = '';
-            $data['userRoles'] = [];
+            $data['userRoles'] = $this->getUserRoles('x');
             $data['user_id'] = '';
             \Log::info("exit 3");
             return view('reset',$data);
@@ -371,7 +375,7 @@ class AuthenticationController extends Controller
             \Log::info("No matching username = $userName");
             $data['user_name'] = '';
             $data['user_id'] = '';
-            $data['userRoles'] = [];
+            $data['userRoles'] = $this->getUserRoles('x');
             $data['username']=$userName;
             $data['errors'] = 'UserName not in system';
             \Log::info("exit 4");
@@ -382,8 +386,7 @@ class AuthenticationController extends Controller
 
     public function baseData()
     {
-        $data['errors'] = [];
-        $data['userRoles'] = [];
+
         $data['imageUrl'] = '../images/EarthRise.jpg';
         $data['message'] = 'Eco-nomix System\'s purpose is to provide the highest
             quality products to its customers that will help them improve
@@ -425,6 +428,10 @@ class AuthenticationController extends Controller
     public function referred($userId,Request $request)
     {
         $user = Users::find($userId);
+        $ecosponsor    = $request->cookie('ecosponsor');
+        if ($ecosponsor == '') {
+            Cookie::queue('ecosponsor', $userId, 2628000);
+        }
         if($user){
             $request->session()->set('referralId', $user->id);
         }
@@ -432,6 +439,7 @@ class AuthenticationController extends Controller
             $request->session()->set('referralId', '');
         }
         $pages = new PagesController;
+        \Log::info("cookie set to $userId");
         return $pages->test($request);
 
     }
@@ -517,7 +525,8 @@ class AuthenticationController extends Controller
         $user->first_name = $request->input('first_name');
         $user->last_name = $request->input('last_name');
         $referralId = $request->session()->get('referralId');
-
+        $ecosponsor = $request->cookie('ecosponsor');
+        if($referralId == '') $referralId = $ecosponsor;
         if($referralId <1){
             $refUser = Users::select('id')->where('member',5)->orderByRaw("RAND()")->first();
             $referralId = $refUser->id;
@@ -527,8 +536,8 @@ class AuthenticationController extends Controller
         $user->sponsor_id = $referrer->id;
         $user->second_id = $referrer->sponsor_id;
         $user->third_id = $referrer->second_id;
-        $user->fouth_id = $referrer->third_id;
-        $user->fifth_id = $referrer->fouth_id;
+        $user->fourth_id = $referrer->third_id;
+        $user->fifth_id = $referrer->fourth_id;
         $user->member = 1;
         $user->save();
         $user->user_link =  md5($user->id);
@@ -597,6 +606,48 @@ class AuthenticationController extends Controller
         $sales_transaction->save();
         return $sales_transaction;
 
+    }
+    public function organization(Request $request)
+    {
+
+        $user_id = $request->session()->get('user_id');
+        \Log::info("memberId = $user_id");
+        $user = Users::find($user_id);
+        if($user){
+            // real person
+               $data = $this->memberData($user,$request);
+
+                return view('organization',$data);
+        }
+        else{
+                //email link tweaked
+                return $this->hack($request);
+        }
+    }
+
+
+
+    public function memberData($user,Request $request)
+    {
+        \Log::info('memberData');
+        $username = $user->first_name.' '.$user->last_name;
+        $roles = $this->getUserRoles($user->id);
+        $request->session()->set('user_name', $username);
+        $request->session()->set('user_id', $user->id);
+        $request->session()->set('userRoles',$roles);
+        $request->session()->save();
+        $organization = new Organization;
+
+        $data = [];
+        $data['firstLevelList'] = $organization->getLevel1($user);
+        $data['firstId'] = 0;
+        $data['errors'] = [];
+        $data['userRoles'] = $roles;
+        $data['user_name'] = $username;
+        $data['user_id'] = $user->id;
+        $data['username'] = $username;
+        $data['email'] = $user->email;
+        return $data;
     }
 
 }

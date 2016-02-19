@@ -16,6 +16,11 @@ class PagesController extends Controller
     //
     public function userData($request)
     {
+
+
+        $ecosponsor    = $request->cookie('ecosponsor');
+        $data['ecosponsor'] = $ecosponsor;
+        \Log::info("ecosponsor = $ecosponsor");
         $data['user_name'] =$request->session()->get('user_name');
         $data['username'] =$request->session()->get('username');
         $username = $request->session()->get('user_name');

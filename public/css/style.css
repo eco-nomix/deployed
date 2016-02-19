@@ -117,8 +117,23 @@
 .navcontainer ul .top10{
     margin:10px;
 }
+.level {
+    background:lightgrey;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
 
+.header {
 
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
 .standout {
     background: aliceblue;
     color:#0000FF;

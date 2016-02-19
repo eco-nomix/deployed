@@ -34,6 +34,8 @@ Route::post('/register',['as' => 'register2','uses'=>'AuthenticationController@f
 Route::post('/register2',['as' => 'register2','uses'=>'AuthenticationController@prepayment']);
 Route::post('/payment',['as' => 'register2','uses'=>'AuthenticationController@payment']);
 Route::get('/referred/{userId}',['as'=>'referred','uses'=>'AuthenticationController@referred']);
+Route::get('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
+
 
 
 

@@ -30,7 +30,7 @@
                 <tr>
                     <td class="level"  colspan="3">2st level</td>
                 </tr>
-                <tr>
+                <tr class="back-white">
                     <td>
                         {!!$secondLevelSelect['select']!!}
                     </td>
@@ -40,7 +40,7 @@
                 <tr>
                     <td class="level" colspan="3">3rd level</td>
                 </tr>
-                <tr>
+                <tr class="back-white">
                     <td>
                         {!!$thirdLevelSelect['select']!!}
                     </td>
@@ -50,7 +50,7 @@
                 <tr>
                     <td class="level" colspan="3">4rd level</td>
                 </tr>
-                <tr>
+                <tr class="back-white">
                     <td>
                         {!!$fourthLevelSelect['select']!!}
                     </td>
@@ -60,7 +60,7 @@
                 <tr>
                     <td class="level" colspan="3">5th level</td>
                 </tr>
-                <tr>
+                <tr class="back-white">
                        <td>
                            {!!$fifthLevelSelect['select']!!}
                        </td>

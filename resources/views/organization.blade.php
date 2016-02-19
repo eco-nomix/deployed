@@ -11,7 +11,7 @@
 
         <form class="form-horizontal" role="form" method="POST" action="/organization">
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
-            <table style="width:100%" border="1" class="text-center">
+            <table style="width:100%" class="text-center">
                <tr class="header">
                     <td>Members Name</td>
                     <td>Number in Level</td>
@@ -22,12 +22,7 @@
                 </tr>
                 <tr>
                      <td>
-                        <select>
-                            <option>All</option>
-                            <option>Jay Potter</option>
-                            <option>Reed Davis</option>
-                            <option>excentric</option>
-                        </select>
+                        {{$firstLevelSelect}}
                      </td>
                     <td>number 1</td>
                     <td>sales 1</td>

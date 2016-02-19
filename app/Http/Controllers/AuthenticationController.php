@@ -616,7 +616,7 @@ class AuthenticationController extends Controller
         if($user){
             // real person
                $data = $this->memberData($user,$request);
-
+                $data['firstLevelSelect'] = $this->getLevel1($user);
                 return view('organization',$data);
         }
         else{
@@ -653,8 +653,28 @@ class AuthenticationController extends Controller
     public function getLevel1($user)
     {
         $results = '';
-        \Log::info("getLevel1");
+        $users = $this->getGeneration($user,'sponsor_id');
+        $results = $this->prepareSelect($users, 1);
         return $results;
     }
+
+    public function getGeneration($user,$field)
+    {
+        $users = Users::where($field,$user->id)->get();
+        return $users;
+    }
+
+    public function prepareSelect($users, $level)
+    {
+        $results = "<select> ";
+        $results .= "<option value = '0'>All Users</option>";
+        foreach($users as $user){
+            $results .= "<option value ='".$user->id."'>".$user->first_name.' '.$user->last_name.'</option>';
+        }
+        $results .="</select>";
+        return $results;
+    }
+
+
 
 }

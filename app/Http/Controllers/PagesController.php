@@ -157,7 +157,7 @@ class PagesController extends Controller
     public function books(Request $request)
     {
         $data = $this->userData($request);
-        $subGroup = $request->input('ProductGroupList')?:22;
+        $subGroup = $request->input('ProductGroupList')?:23;
         $data['Categories'] = $this->productCategories(7,$subGroup);
         $data['productSummary'] = $this->productSummary($subGroup);
 

@@ -67,10 +67,42 @@
     line-height: 24px;
 }
 
+.eighth {
+    width: 12%;
+    max-width: 12%;
+}
+
+.summary {
+    color:black;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight:normal;
+    line-height: 16px;
+}
+
+.author {
+    color:darkgreen;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight:normal;
+    line-height: 19px;
+}
+
+td {
+    padding: 4px;
+}
+
 .back-white {
     background-color:#FFFFFF;
 }
 
+.my200{
+    width:200px;
+    min-width:200px;
+    max-width:200px;
+}
 
 
 .navcontainer ul {

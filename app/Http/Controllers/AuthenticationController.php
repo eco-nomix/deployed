@@ -625,8 +625,8 @@ class AuthenticationController extends Controller
                return view('organization',$data);
         }
         else{
-                //email link tweaked
-                return $this->hack($request);
+
+                return $this->logout($request);
         }
     }
 

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Users;
+use App\Models\ProductGroups;
+use App\Models\Products;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -136,10 +138,29 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('self_reliance',$data);
     }
+    public function addBlanks($results,$modd)
+    {
+        if($modd >0){
+            for($modd;$modd<6;$modd++){
+               // if($modd % 2){
+               //     $cl = "class = 'eighth'";
+              //  }else{
+                    $cl = '';
+               // }
+
+                $results .= "<td $cl>";
+            }
+        }
+        return $results;
+    }
 
     public function books(Request $request)
     {
         $data = $this->userData($request);
+        $subGroup = $request->input('ProductGroupList')?:22;
+        $data['Categories'] = $this->productCategories(7,$subGroup);
+        $data['productSummary'] = $this->productSummary($subGroup);
+
         return view('books',$data);
     }
     public function camping(Request $request)
@@ -285,10 +306,68 @@ class PagesController extends Controller
         return view('potential',$data);
     }
 
+    public function product($productId, Request $request)
+    {
+        $data = $this->userData($request);
+        $product = Products::find($productId);
+        $data['Product'] = $product;
+        return view($product->display_page,$data);
+    }
     public function products(Request $request)
     {
         $data = $this->userData($request);
         return view('products',$data);
+    }
+    public function prepareSelect($productGroups, $selected)
+    {
+        $results = "<select name='ProductGroupList' style='width:300px;' onchange='this.form.submit()' > ";
+        $selectField = ($selected == 0)?'selected':'';
+      //  $results .= "<option value = '0' $selectField>All Users</option>";
+
+        foreach($productGroups as $id=>$productGroup){
+            $selectField = ($id == $selected)?'selected':'';
+            $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
+        }
+        $results .="</select>";
+        return $results;
+    }
+
+    public function productCategories($productGroup, $selected)
+    {
+        $productGroups= ProductGroups::where('Parent_id',$productGroup)->orderBy('group_order')->lists('name','id');
+        $select = $this->prepareSelect($productGroups, $selected);
+        return $select;
+    }
+
+    public function productSummary($subGroup)
+    {
+        $results = '';
+
+        $products = Products::where('product_group',$subGroup)->orderBy('group_order')->get();
+        $results = '<tr>';
+        $ctr= 0;
+        $modd=0;
+        if(count($products)==0){
+            $results .= "<td>No books in this category, Coming Soon</td>";
+            $ctr = 8;
+        }
+
+        foreach($products as $product){
+            $results .= "<td class='eighth'><a href=\"product/$product->id\"><img src=\"images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td ><a href=\"product/$product->id\">";
+            $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->Author."</b><br>".$product->display_description;
+            $results .= substr($description,0,260)."...</a></td>";
+            $ctr++;
+            $ctr++;
+            $modd = $ctr % 6;
+            \Log::info("ctr=$ctr  mod=$modd");
+            if($modd == 0){
+                $results .= "</tr><tr>";
+            }
+        }
+        $results = $this->addBlanks($results,$modd);
+        $results .= "</tr>";
+        return $results;
     }
     public function purpose(Request $request)
     {

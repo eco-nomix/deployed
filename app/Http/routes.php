@@ -46,9 +46,11 @@ Route::get('/test',['as' => 'test','uses'=>'PagesController@test']);
 Route::get('/about',['as' => 'about','uses'=>'PagesController@about']);
 Route::get('/accounting',['as' => 'accounting','uses'=>'PagesController@accounting']);
 Route::get('/products',['as' => 'products','uses'=>'PagesController@products']);
+Route::get('/product/{productId}',['as' => 'product','uses'=>'PagesController@product']);
 Route::get('/food',['as' => 'food','uses'=>'PagesController@food']);
 Route::get('/autoship',['as' => 'autoship','uses'=>'PagesController@autoship']);
 Route::get('/books',['as' => 'books','uses'=>'PagesController@books']);
+Route::post('/books',['as' => 'books','uses'=>'PagesController@books']);
 
 Route::get('/energy',['as' => 'energy','uses'=>'PagesController@energy']);
 Route::get('/recycling',['as' => 'recycling','uses'=>'PagesController@recycling']);

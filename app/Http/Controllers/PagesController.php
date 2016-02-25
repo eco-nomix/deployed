@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Models\ProductGroups;
 use App\Models\Products;
+use App\Models\ShoppingCarts;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -257,6 +258,13 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('homepage',$data);
     }
+
+    public function itemCount(Request $request)
+    {
+        $userId = $request->session()->get('user_id');
+        $shoppingCart = new ShoppingCarts;
+        return $shoppingCart->getItemCount($userId);
+    }
     public function limitations(Request $request)
     {
         $data = $this->userData($request);
@@ -310,6 +318,7 @@ class PagesController extends Controller
     {
         $data = $this->userData($request);
         $product = Products::find($productId);
+        $data['ItemCount'] = $this->itemCount($request);
         $data['Product'] = $product;
         return view($product->display_page,$data);
     }

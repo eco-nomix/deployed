@@ -162,6 +162,13 @@ td {
     line-height: 20px;
 }
 
+.addcart:hover {
+    background-color: #A0A0A0;
+    cursor:pointer;
+}
+
+
+
 .header {
 
     font-size: 22px;
@@ -187,4 +194,10 @@ td {
 
 .indent {
     padding-left:30px;
+}
+
+.w70 {
+    min-width:70px;
+    width:70px;
+    max-width:70px;
 }

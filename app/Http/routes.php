@@ -37,8 +37,8 @@ Route::get('/referred/{userId}',['as'=>'referred','uses'=>'AuthenticationControl
 Route::get('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
 Route::post('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
 
-
-
+Route::post('/addcart',['as'=>'addcart','uses'=>'CartController@addToCart']);
+Route::get('/shoppingcart',['as'=>'shoppingcart','uses'=>'CartController@viewCart']);
 
 Route::get('/','PagesController@home');
 

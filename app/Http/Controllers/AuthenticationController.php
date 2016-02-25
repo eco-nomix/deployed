@@ -83,6 +83,7 @@ class AuthenticationController extends Controller
 
     public function notValidLogin($request)
     {
+        $userName = $request->input('username');
         $user = Users::where('user_name', $userName)
         ->first();
         if ($user){

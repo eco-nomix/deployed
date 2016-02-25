@@ -7,7 +7,7 @@
      <div class="row">
          <div class="col-md-11 col-md-offset-1">
              <div class="panel panel-default display">
-                 <div class="panel-heading">{{$Product->product_name}}<span data-id="{{$Product->id}}" data-userid="{{$user_id}}" class="pull-right addcart">+<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span></div>
+                 <div class="panel-heading">{{$Product->product_name}}<span title="single-click to add; double-click to view" data-id="{{$Product->id}}" data-userid="{{$user_id}}" class="pull-right addcart">+<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span></div>
                  <div class="panel-body">
                         <div class="form-group col-md-12 ">
                              {{$Product->description}}

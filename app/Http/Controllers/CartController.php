@@ -82,9 +82,9 @@ class CartController extends Controller
 
             $result .= '<tr>';
             $result .=   "<td class='w70'><img src='/images/".$item->image."' width='70px'></td>";
-            $result .=   "<td colspan='2'><b>$item->product_name</b><br>$item->description<br>$item->Author</td>";
+            $result .=   "<td title='Enter 0 in quantity to remove item' colspan='2'><b>$item->product_name</b><br>$item->description<br>$item->Author</td>";
           //  $result .=   "<td>$item->quantity</td>";
-            $result .=   "<td class='text-center'><input class='quantity' type='text' data-id='$item->id' value='$item->quantity'></td>";
+            $result .=   "<td class='text-center'><input title='Enter 0 to remove item' class='quantity' type='text' data-id='$item->id' value='$item->quantity'></td>";
             $result .=   "<td class='text-center'>$price</td>";
             $result .=   "<td class='text-center'>$disExtPrice</td>";
             $result .=   "<td class='text-center'>$extWeight</td>";

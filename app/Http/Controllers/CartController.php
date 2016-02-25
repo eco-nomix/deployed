@@ -66,7 +66,7 @@ class CartController extends Controller
 
     public function loadShoppingCart($userId,$data)
     {
-        $result = '<tr><td></td><td colspan="2">item</td><td>quantity</td><td>Unit Price</td><td>Ext. Price</td><td>Weight</td></tr>';
+        $result = "<tr><td></td><td colspan='2'  class='text-center'>item</td><td  class='text-center'>quantity</td><td  class='text-center'>Unit Price</td><td  class='text-center'>Ext. Price</td><td class='text-center'>Weight</td></tr>";
         \Log::info("userid=$userId");
         $userRoles = $data['userRoles'];
         $shoppingCart = ShoppingCarts::where('user_id',$userId)->first();

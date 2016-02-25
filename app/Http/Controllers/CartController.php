@@ -82,7 +82,7 @@ class CartController extends Controller
 
             $result .= '<tr>';
             $result .=   "<td class='w70'><img src='/images/".$item->image."' width='70px'></td>";
-            $result .=   "<td><b>$item->product_name</b><br>$item->description<br>$item->Author</td>";
+            $result .=   "<td colspan='2'><b>$item->product_name</b><br>$item->description<br>$item->Author</td>";
           //  $result .=   "<td>$item->quantity</td>";
             $result .=   "<td class='text-center'><input class='quantity' type='text' data-id='$item->id' value='$item->quantity'></td>";
             $result .=   "<td class='text-center'>$price</td>";
@@ -95,7 +95,7 @@ class CartController extends Controller
         }
         $result .= "<tr>";
         $displayTotal = number_format($totalPrice,2);
-        $result .= "<td>Total</td><td></td><td class='text-center'>$totalItems</td><td></td><td class='text-center'>$ $displayTotal</td><td class='text-center'>$totalWeight lbs</td>";
+        $result .= "<td>Total</td><td colspan='2'></td><td class='text-center'>$totalItems</td><td></td><td class='text-center'>$ $displayTotal</td><td class='text-center'>$totalWeight lbs</td>";
         $result .= "</tr>";
         $data['shoppingCart'] = $result;
         $data['totalPrice'] = $totalPrice;
@@ -130,21 +130,21 @@ class CartController extends Controller
     {
         $user = Users::find($userId);
         $results = "<tr>";
-        $results .= "<td>Shipping Address:</td>";
-        $results .= "<td>";
+        $results .= "<td class='noBorder'>Shipping Address:</td>";
+        $results .= "<td class='noBorder'><div class='inline'>";
         $results .= "$user->first_name $user->last_name<br>$user->addr1<br>";
         if($user->addr2>''){
             $results .= "$user->addr2<br>";
         }
         $results .= "$user->city, $user->state<br>$user->postal_code";
-        $results .= "</td>";
-        $results .= "<td><div class='btn-default'>Change Address</div></td>";
-        $results .= "<td>".$this->shippingMethod()."</td>";
-        $results .= "<td>Shipping Amount:</td><td class='text-right'>$ 5.99</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>";
+        $results .= "</div></td>";
+        $results .= "<td class='noBorder'>Change Address</td>";
+        $results .= "<td class='noBorder'>".$this->shippingMethod()."</td>";
+        $results .= "<td class='text-center noBorder'>Shipping Amount:</td><td class='text-center noBorder'>$ 5.99</td><td class='noBorder'>&nbsp;</td>";
 
         $results  .=  "</tr>";
         $total = $data['totalPrice'] + 5.99;
-        $results  .=  "<tr><td colspan='4'></td><td>Grand Total</td><td class='text-right'>$ $total</td><td>&nbsp;</td>";
+        $results  .=  "<tr><td  class='noBorder'colspan='4'></td><td class='noBorder text-center'>Grand Total</td><td class='noBorder text-center'>$ $total</td><td  class='noBorder'>&nbsp;</td>";
 
         $data['shipping'] = $results;
         return $data;

@@ -187,6 +187,12 @@ td {
     line-height: 24px;
 }
 
+.noBorder {
+    border:0;
+}
+
+
+
 .hangingindent {
     padding-left: 30px ;
     text-indent: -30px ;

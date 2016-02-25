@@ -20,7 +20,9 @@ class CartController extends Controller
         \Log::info("addto cart for $userId");
         $productId = $request->input('productId');
         $shoppingCart = $this->getShoppingCart($userId);
+        \Log::info("shoppingcart = $shoppingCart->id");
         $itemCount = $shoppingCart->addToCart($userId,$productId);
+        \Log::info("itemCount=$itemCount");
         return json_encode(['itemCount' =>$itemCount]);
     }
 
@@ -38,7 +40,9 @@ class CartController extends Controller
     public function viewCart(Request $request)
     {
         $data = $this->userData($request);
-        $data['shoppingCart'] = $this->loadShoppingCart($data['user_id'],$data);
+        $data = $this->loadShoppingCart($data['user_id'],$data);
+        $data = $this->loadShipping($data['user_id'],$data);
+
         return view('shoppingcart',$data);
     }
 
@@ -71,35 +75,92 @@ class CartController extends Controller
         $totalWeight = 0;
         $totalItems = 0;
         foreach($items as $item){
-
             $price = ($userRoles[1] == 'yes')?$item->member:$item->non_member;
             $extPrice = $price * $item->quantity;
+            $disExtPrice = number_format($extPrice,2);
             $extWeight = $item->shipping_weight * $item->quantity;
 
             $result .= '<tr>';
             $result .=   "<td class='w70'><img src='/images/".$item->image."' width='70px'></td>";
-            $result .=   "<td>$item->product_name</td>";
-            $result .=   "<td>$item->quantity</td>";
-            $result .=   "<td>$price</td>";
-            $result .=   "<td>$extPrice</td>";
-            $result .=   "<td>$extWeight</td>";
+            $result .=   "<td><b>$item->product_name</b><br>$item->description<br>$item->Author</td>";
+          //  $result .=   "<td>$item->quantity</td>";
+            $result .=   "<td class='text-center'><input class='quantity' type='text' data-id='$item->id' value='$item->quantity'></td>";
+            $result .=   "<td class='text-center'>$price</td>";
+            $result .=   "<td class='text-center'>$disExtPrice</td>";
+            $result .=   "<td class='text-center'>$extWeight</td>";
             $result .=   "</tr>";
             $totalPrice += $extPrice;
             $totalWeight += $extWeight;
             $totalItems += $item->quantity;
         }
         $result .= "<tr>";
-        $result .= "<td>Total</td><td></td><td>$totalItems</td><td></td><td>$ $totalPrice</td><td>$totalWeight lbs</td>";
+        $displayTotal = number_format($totalPrice,2);
+        $result .= "<td>Total</td><td></td><td class='text-center'>$totalItems</td><td></td><td class='text-center'>$ $displayTotal</td><td class='text-center'>$totalWeight lbs</td>";
         $result .= "</tr>";
-        return $result;
+        $data['shoppingCart'] = $result;
+        $data['totalPrice'] = $totalPrice;
+        $data['totalWeight'] = $totalWeight;
+        return $data;
     }
 
     public function getProducts($shoppingCart)
     {
-        return ShoppingCartItems::query()
+        return ShoppingCartItems::select('shopping_cart_items.*','products.member','products.non_member','products.shipping_weight','products.image','products.product_name','products.description','products.Author')
             ->join('products','products.id','=','shopping_cart_items.product_id')
             ->where('shopping_cart_items.shopping_cart_id',$shoppingCart->id)
             ->get();
+    }
+
+    public function updateQuantity(Request $request)
+    {
+        $itemId = $request->input('itemId');
+        $quantity = $request->input('quantity');
+        \Log::info("itemId=$itemId  quantity=$quantity");
+        if($quantity > 0) {
+            $item = ShoppingCartItems::find($itemId);
+            $item->quantity = $quantity;
+            $item->save();
+        }else{
+            $item = ShoppingCartItems::find($itemId)->delete();
+        }
+        return json_encode('ok');
+    }
+
+    public function loadShipping($userId, $data)
+    {
+        $user = Users::find($userId);
+        $results = "<tr>";
+        $results .= "<td>Shipping Address:</td>";
+        $results .= "<td>";
+        $results .= "$user->first_name $user->last_name<br>$user->addr1<br>";
+        if($user->addr2>''){
+            $results .= "$user->addr2<br>";
+        }
+        $results .= "$user->city, $user->state<br>$user->postal_code";
+        $results .= "</td>";
+        $results .= "<td><div class='btn-default'>Change Address</div></td>";
+        $results .= "<td>".$this->shippingMethod()."</td>";
+        $results .= "<td>Shipping Amount:</td><td class='text-right'>$ 5.99</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>";
+
+        $results  .=  "</tr>";
+        $total = $data['totalPrice'] + 5.99;
+        $results  .=  "<tr><td colspan='4'></td><td>Grand Total</td><td class='text-right'>$ $total</td><td>&nbsp;</td>";
+
+        $data['shipping'] = $results;
+        return $data;
+    }
+
+
+    public function shippingMethod()
+    {
+        $results = "<select>";
+        $results .=    "<option value='upsground'>UPS Ground</option>";
+        $results .=    "<option value='ups3day'>UPS 3 Day Select</option>";
+        $results .=    "<option value='upsNextAir'>UPS Next Day Air</option>";
+        $results .=    "<option value='FedEx'>FedEx</option>";
+        $results .=    "<option value='USPS'>USPS</option>";
+        $results .= "</select>";
+        return $results;
     }
 
 }

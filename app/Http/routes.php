@@ -39,7 +39,7 @@ Route::post('/organization',['as'=>'organization','uses'=>'AuthenticationControl
 
 Route::post('/addcart',['as'=>'addcart','uses'=>'CartController@addToCart']);
 Route::get('/shoppingcart',['as'=>'shoppingcart','uses'=>'CartController@viewCart']);
-
+Route::post('/changecartquantity',['as'=>'changequantity','uses'=>'CartController@updateQuantity']);
 Route::get('/','PagesController@home');
 
 Route::get('/test',['as' => 'test','uses'=>'PagesController@test']);

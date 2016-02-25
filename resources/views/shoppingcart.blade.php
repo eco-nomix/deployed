@@ -15,6 +15,9 @@
                           <table width="100%" border="1" class="summary">
                             {!!$shoppingCart!!}
                           </table>
+                          <table width="100%"  class="summary">
+                          {!!$shipping!!}
+                          </table>
                      </form>
                   </div>
                </div>

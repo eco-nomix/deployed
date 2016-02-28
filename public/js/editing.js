@@ -63,3 +63,8 @@ $(document).ready(function(){
     });
 
 });
+
+function updateAddress(sel)
+{
+    window.location.href = "/changeshippingaddress/"+sel.value;
+}

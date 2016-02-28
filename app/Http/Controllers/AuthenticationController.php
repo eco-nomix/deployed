@@ -264,6 +264,13 @@ class AuthenticationController extends Controller
                 $addr2 = $request->input('addr2');
                 $city = $request->input('city');
                 $state = $request->input('state');
+                $region = RegionStates::where('state',$state)->first();
+                if(!$region)
+                    $region = RegionStates::where('state_name','like',$state.'%')->first();
+                if(!$region)
+                    $regionId = 0;
+                else
+                    $regionId = $region->id;
                 $country = $request->input('country');
                 $postalCode = $request->input('postal_code');
                 $socialSecurity = $request->input('social_security');
@@ -277,6 +284,7 @@ class AuthenticationController extends Controller
                 $user->postal_code = $postalCode;
                 $user->social_security = $socialSecurity;
                 $user->member = 3;
+                $user->region_id = $regionId;
                 $user->save();
             }
             if($payMethod == 'Mail'){

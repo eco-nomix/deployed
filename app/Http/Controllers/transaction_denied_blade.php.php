@@ -165,7 +165,7 @@ class CartController extends Controller
 
         $items = ShoppingCartItems::where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
             ->where('shopping_cart_items.transaction_processing', '=', 3)
-            ->delete();
+            ->update(['transaction_processing'=>4]);
 
         return $items;
     }
@@ -197,8 +197,7 @@ class CartController extends Controller
         }
         $results .= "$user->city, $user->state<br>$user->postal_code";
         $results .= "</div></td>";
-        $shippingadd = $request->input('shippingadd');
-        $results .= "<td class='noBorder'>" . $this->shippingAddresses($user,$shippingadd) . "</td>";
+        $results .= "<td class='noBorder'>" . $this->shippingAddresses($user) . "</td>";
         $results .= "<td class='noBorder'>" . $this->shippingMethod($request) . "</td>";
         $totalWeightShipping = $this->shippingAmount($request);
         $results .= "<td class='text-center noBorder'>Shipping Amount:</td><td class='text-center noBorder'>$" . $totalWeightShipping . "</td><td class='noBorder'>&nbsp;</td>";
@@ -227,101 +226,15 @@ class CartController extends Controller
         if ($shippingMethod == 'USPS') return 7.99;
     }
 
-    public function addShippingAddress(Request $request)
+    public function shippingAddresses($user)
     {
-        $userId = $request->session()->get('user_id');
-        $shipping = new ShippingAddresses;
-        $shipping->user_id = $userId;
-        $shipping->shipping_name = $request->input('shipping_name');
-        $shipping->shipping_addr1 = $request->input('shipping_addr1');
-        $shipping->shipping_addr2 = $request->input('shipping_addr2');
-        $shipping->city = $request->input('shipping_city');
-        $shipping->state = $request->input('shipping_state');
-        $shipping->postal_code = $request->input('shipping_postal_code');
-        $shipping->save();
-        $data = $this->userData($request);
-        $roles = $request->session()->get('userRoles');
-        $data['userRoles'] = $roles;
-        $data = $this->loadShoppingCart($data['user_id'], $data);
-        $request->session()->set('shippingId',$shipping->id);
-        $data = $this->loadSelShipping($data['user_id'], $data, $request, $shipping->id);
-        $request->session()->set('totalPrice', $data['totalPrice']);
-        $request->session()->set('totalWeight', $data['totalWeight']);
-        $request->session()->set('totalWeightShipping', $data['totalWeightShipping']);
-        $request->session()->set('payPrice', $data['payPrice']);
-        $request->session()->set('totalShipping', $data['totalShipping']);
-        $request->session()->set('grandTotal', $data['grandTotal']);
-        return view('shoppingcart', $data);
-    }
-
-    public function loadSelShipping($userId, $data, $request, $shipping_id)
-    {
-        $user = Users::find($userId);
-        $shipping = ShippingAddresses::find($shipping_id);
-        $results = "<tr>";
-        $results .= "<td class='noBorder'>Shipping Address:</td>";
-        $results .= "<td class='noBorder'><div class='inline'>";
-        $results .= "$shipping->shipping_name<br>$shipping->shipping_addr1<br>";
-        if ($shipping->shipping_addr2 > '') {
-            $results .= "$shipping->shipping_addr2<br>";
-        }
-        $results .= "$shipping->city, $shipping->state<br>$shipping->postal_code";
-        $results .= "</div></td>";
-
-        $results .= "<td class='noBorder'>" . $this->shippingAddresses($user,$shipping_id) . "</td>";
-        $results .= "<td class='noBorder'>" . $this->shippingMethod($request) . "</td>";
-        $totalWeightShipping = $this->shippingAmount($request);
-        $results .= "<td class='text-center noBorder'>Shipping Amount:</td><td class='text-center noBorder'>$" . $totalWeightShipping . "</td><td class='noBorder'>&nbsp;</td>";
-
-        $results .= "</tr>";
-        $data['totalWeightShipping'] = $totalWeightShipping;
-        $total = $data['totalPrice'] + $totalWeightShipping + $data['totalShipping'];
-        $data['grandTotal'] = $total;
-        $results .= "<tr><td  class='noBorder'colspan='4'></td><td class='noBorder text-center'>Grand Total</td><td class='noBorder text-center'>$ $total</td>";
-        $results .= "<td class='noBorder'><input type='submit' value='Continue'></td></tr>";
-        $data['shipping'] = $results;
-
-        return $data;
-    }
-
-    public function changeShippingAddress($shippingId,Request $request)
-    {
-        if($shippingId == -1)
-        {
-            $data = $this->userData($request);
-            return view('new_shipping_address', $data);
-
-        }
-
-            $data = $this->userData($request);
-            $data = $this->loadShoppingCart($data['user_id'], $data);
-            if($shippingId == 0) {
-                $data = $this->loadShipping($data['user_id'], $data, $request);
-            }else{
-                $data = $this->loadSelShipping($data['user_id'], $data, $request, $shippingId);
-            }
-            $request->session()->set('shippingId',$shippingId);
-            $request->session()->set('totalPrice', $data['totalPrice']);
-            $request->session()->set('totalWeight', $data['totalWeight']);
-            $request->session()->set('totalWeightShipping', $data['totalWeightShipping']);
-            $request->session()->set('payPrice', $data['payPrice']);
-            $request->session()->set('totalShipping', $data['totalShipping']);
-            $request->session()->set('grandTotal', $data['grandTotal']);
-            return view('shoppingcart', $data);
-
-    }
-
-    public function shippingAddresses($user, $shippingadd)
-    {
-
-        $results = "<select name='ShippingAddress' onchange='updateAddress(this)'>";;
+        $results = "<select>";;
         if ($user->addr1 > '') {
             $results .= "<option value='0'>User Address</option>";
         }
         $shippingaddresses = ShippingAddresses::where('user_id', $user->id)->get();
         foreach ($shippingaddresses as $shippingaddress) {
-            $selected = ($shippingaddress->id == $shippingadd)?'selected':'';
-            $results .= "<option value='$shippingaddress->id' $selected>$shippingaddress->shipping_name $shippingaddress->city</option>";
+            $results .= "<option value='$shippingaddress->id'>$shippingaddress->shipping_name $shippingaddress->city</option>";
         }
         $results .= "<option value='-1'>Add New Address</option>";
         return $results;
@@ -368,7 +281,6 @@ class CartController extends Controller
 
     public function checkPurchase(Request $request)
     {
-
         $grandTotal = $request->session()->get('grandTotal');
         $billingName = $request->input('billingName');
         $creditCard = $request->input('credit_card');
@@ -391,13 +303,7 @@ class CartController extends Controller
             $data['error_code'] = $approved['error'];
             $data['credit_card'] = $approved['credit_card'];
             $data['pay_method'] = $approved['pay_method'];
-            $data['transaction'] = $this->updateSales($request, $approved);
-            $request->session()->set('shippingId',0);
-            $request->session()->set('transactionPayPrice', 0);
-            $request->session()->set('transactionTotalPrice', 0);
-            $request->session()->set('transactionGrandTotal', 0);
-            $request->session()->set('transactionTotalWeightShipping', 0);
-            $request->session()->set('transactionTotalShipping', 0);
+            $this->updateSales($request, $approved);
             return view('transaction_approved', $data);
         }
     }
@@ -429,12 +335,10 @@ class CartController extends Controller
         $salesTransaction->third_id = $user->third_id;
         $salesTransaction->fourth_id = $user->fourth_id;
         $salesTransaction->fifth_id = $user->fifth_id;
-        $salesTransaction->shipping_id = $request->session()->get('shippingId');
         $salesTransaction->save();
         $this->updateSalesDetails($salesTransaction, $items, $roles);
         $this->updateBonuses($salesTransaction, $user,$roles);
         $items = $this->processPaidItems($shoppingCart);
-        return 1000000+$salesTransaction->id;
     }
 
     public function updateBonuses($sales, $user)
@@ -490,8 +394,8 @@ class CartController extends Controller
         $transaction_date = time();
         $ccType = 'Visa';//  get actual type from API
         $approved = ['date'=>$transaction_date,'approval_code'=>'12345abcded','error'=>'','credit_card'=>$creditCard, 'pay_method'=>$ccType];
-        $disapproved = ['date'=>$transaction_date,'approval_code'=>'denied','error'=>'website in development - not a problem with your card','credit_card'=>$creditCard,'pay_method'=>$ccType];
-        return $disapproved;
+        $disapproved = ['date'=>$transaction_date,'approval_code'=>'denied','error'=>'insufficient funds','credit_card'=>$creditCard,'pay_method'=>$ccType];
+        return $approved;
 
     }
 

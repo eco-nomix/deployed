@@ -40,6 +40,11 @@ Route::post('/organization',['as'=>'organization','uses'=>'AuthenticationControl
 Route::post('/addcart',['as'=>'addcart','uses'=>'CartController@addToCart']);
 Route::get('/shoppingcart',['as'=>'shoppingcart','uses'=>'CartController@viewCart']);
 Route::post('/changecartquantity',['as'=>'changequantity','uses'=>'CartController@updateQuantity']);
+Route::post('/purchase',['as'=>'purchase','uses'=>'CartController@purchase']);
+Route::post('/checkpurchase',['as'=>'checkpurchase','uses'=>'CartController@checkPurchase']);
+Route::get('/changeshippingaddress/{shippingId}',['as'=>'changeshipping','uses'=>'CartController@changeShippingAddress']);
+Route::post('/changeshippingaddress',['as'=>'changeshipping','uses'=>'CartController@addShippingAddress']);
+
 Route::get('/','PagesController@home');
 
 Route::get('/test',['as' => 'test','uses'=>'PagesController@test']);

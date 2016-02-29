@@ -313,7 +313,7 @@ class CartController extends Controller
 
     public function shippingAddresses($user, $shippingadd)
     {
-
+        //huh?
         $results = "<select name='ShippingAddress' onchange='updateAddress(this)'>";;
         if ($user->addr1 > '') {
             $results .= "<option value='0'>User Address</option>";

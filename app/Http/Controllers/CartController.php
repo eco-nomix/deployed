@@ -125,16 +125,17 @@ class CartController extends Controller
 
     public function getProducts($shoppingCart)
     {
+
         $items = ShoppingCartItems::select('shopping_cart_items.*', 'products.member', 'products.non_member', 'products.shipping_weight', 'products.image', 'products.product_name', 'products.description', 'products.Author', 'products.pay_bonus')
             ->join('products', 'products.id', '=', 'shopping_cart_items.product_id')
             ->where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
-            ->where('shopping_cart_items.transaction_processing', '<', 2)
+            ->where('shopping_cart_items.transaction_processing', '<', 3)
             ->get();
         foreach ($items as $item) {
             $item->transaction_processing = 1;
             $item->save();
         }
-
+       
         return $items;
     }
 

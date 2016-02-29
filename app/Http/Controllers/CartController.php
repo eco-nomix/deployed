@@ -383,6 +383,7 @@ class CartController extends Controller
             $data['error_code'] = $approved['error'];
             $data['credit_card'] = $approved['credit_card'];
             $data['pay_method'] = $approved['pay_method'];
+            $this->reloadSales($request);
             return view('transaction_denied', $data);
 
         } else {
@@ -400,6 +401,14 @@ class CartController extends Controller
             $request->session()->set('transactionTotalShipping', 0);
             return view('transaction_approved', $data);
         }
+    }
+
+    public function reloadSales(Request $request)
+    {
+        $userId = $request->session()->get('user_id');
+        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
+        $items = ShoppingCartItems::where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
+            ->update(['transaction_processing'=>1]);
     }
 
     public function updateSales(Request $request, $approved)

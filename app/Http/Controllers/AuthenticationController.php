@@ -9,6 +9,7 @@ use App\Models\UserRoles;
 use App\Models\SalesTransactions;
 use App\Models\SalesTransactionDetails;
 use App\Models\CustomerCreditCards;
+use App\Models\CommissionLevel;
 use App\http\Controllers\Organization;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -631,7 +632,14 @@ class AuthenticationController extends Controller
                $data['thirdLevelSelect'] = $this->getLevel($levelList[3],3);
                $data['fourthLevelSelect'] = $this->getLevel($levelList[4],4);
                $data['fifthLevelSelect'] = $this->getLevel($levelList[5],5);
-               return view('organization',$data);
+               $data['total']['count'] = number_format($data['firstLevelSelect']['count']+$data['secondLevelSelect']['count']+
+                   $data['thirdLevelSelect']['count']+$data['fourthLevelSelect']['count']+$data['fifthLevelSelect']['count'],0);
+               $data['total']['sales'] = number_format($data['firstLevelSelect']['sales']+$data['secondLevelSelect']['sales']+
+                   $data['thirdLevelSelect']['sales']+$data['fourthLevelSelect']['sales']+$data['fifthLevelSelect']['sales'],2);
+               $data['total']['bonuses'] = number_format($data['firstLevelSelect']['bonuses']+$data['secondLevelSelect']['bonuses']+
+                   $data['thirdLevelSelect']['bonuses']+$data['fourthLevelSelect']['bonuses']+$data['fifthLevelSelect']['bonuses'],2);
+
+            return view('organization',$data);
         }
         else{
 
@@ -659,13 +667,16 @@ class AuthenticationController extends Controller
             $levelList[5]['selected'] = 0;
             $levelList[5]['level'] = 5;
             $downuser = $user;
+            $downuserbase = 1;
         }
         else{
             $downuserId = $request->input('Level1');
-            $levelList[1]['user'] = $user;
-            $levelList[1]['selected'] = $downuserId;
-            $levelList[1]['level'] = 1;
             $downuser = Users::find($downuserId);
+            $levelList[1]['user'] = $downuser;
+            $levelList[1]['selected'] = $downuserId;
+            $levelList[1]['level'] = 0;
+            $downuser = Users::find($downuserId);
+            $downuserbase = 0;
             $levelList[2]['user'] = $downuser;
             $levelList[2]['selected'] = 0;
             $levelList[2]['level'] = 1;
@@ -681,10 +692,11 @@ class AuthenticationController extends Controller
         }
         if($request->input('Level2') > 0){
             $downuserId = $request->input('Level2');
+            $downuser = Users::find($downuserId);
             $levelList[2]['user'] = $downuser;
             $levelList[2]['selected'] = $downuserId;
-            $levelList[2]['level'] = 1;
-            $downuser = Users::find($downuserId);
+            $levelList[2]['level'] = 0;
+
             $levelList[3]['user'] = $downuser;
             $levelList[3]['selected'] = 0;
             $levelList[3]['level'] = 1;
@@ -697,10 +709,12 @@ class AuthenticationController extends Controller
         }
         if($request->input('Level3') >0){
             $downuserId = $request->input('Level3');
+            $downuser = Users::find($downuserId);
             $levelList[3]['user'] = $downuser;
             $levelList[3]['selected'] = $downuserId;
-            $levelList[3]['level'] = 1;
-            $downuser = Users::find($downuserId);
+            $levelList[3]['level'] = 0;
+
+
             $levelList[4]['user'] = $downuser;
             $levelList[4]['selected'] = 0;
             $levelList[4]['level'] = 1;
@@ -710,19 +724,21 @@ class AuthenticationController extends Controller
         }
         if($request->input('Level4') >0){
             $downuserId = $request->input('Level4');
+            $downuser = Users::find($downuserId);
             $levelList[4]['user'] = $downuser;
             $levelList[4]['selected'] = $downuserId;
-            $levelList[4]['level'] = 1;
-            $downuser = Users::find($downuserId);
+            $levelList[4]['level'] = 0;
+
             $levelList[5]['user'] = $downuser;
             $levelList[5]['selected'] = 0;
             $levelList[5]['level'] = 1;
         }
         if($request->input('Level5') >0){
             $downuserId = $request->input('Level5');
+            $downuser = Users::find($downuserId);
             $levelList[5]['user'] = $downuser;
             $levelList[5]['selected'] = $downuserId;
-            $levelList[5]['level'] = 1;
+            $levelList[5]['level'] = 0;
         }
         return $levelList;
     }
@@ -750,17 +766,54 @@ class AuthenticationController extends Controller
 
     public function getLevel($levelList,$level)
     {
+        \Log::info("getlevel for $level");
         $results = '';
         $users = $this->getGeneration($levelList['user'],$levelList['level']);
         $results['select'] = $this->prepareSelect($users, $level, $levelList['selected']);
         $results['count'] = count($users);
-        $results['sales'] = 0;
+        $results['sales'] = $this->totalTransactions($users);
+        $results['bonuses'] = $this->totalBonuses($users, $level);
         return $results;
     }
 
+    public function totalTransactions($users)
+    {
+        \Log::info("in totalTransactions");
+        $total = 0;
+        foreach($users as $user){
+            \Log::info("userId=$user->id");
+            $sales = SalesTransactions::where('purchased_by',$user->id)
+              //  ->where('date','>=',$begDate)->where('date',"<=",$endDate)
+            ->get();
+            foreach($sales as $sale){
+                $total += $sale->total_items;
+            }
+            \Log::info("total=$total");
+        }
+        return number_format($total,2);
+    }
+
+    public function totalBonuses($users, $level)
+    {
+        \Log::info("in totalBonuses");
+        $commission = CommissionLevel::where('sales_level',$level)->first();
+        $total = 0;
+        foreach($users as $user){
+            \Log::info("userId=$user->id");
+            $sales = SalesTransactions::where('purchased_by',$user->id)
+                //  ->where('date','>=',$begDate)->where('date',"<=",$endDate)
+                ->get();
+            foreach($sales as $sale){
+                $total += $sale->pay_bonus_on_amt * $commission->percentage * .01;
+            }
+            \Log::info("total=$total");
+        }
+        return number_format($total,2);
+    }
 
     public function getGeneration($user,$level)
     {
+        \Log::info("id= $user->id  level=$level");
         $field = $this->levelToField($level);
         $users = Users::where($field,$user->id)->get();
         return $users;
@@ -768,6 +821,7 @@ class AuthenticationController extends Controller
 
     public function levelToField($level)
     {
+        \Log::info("level=$level");
         if ($level == 1)
             $field = 'sponsor_id';
         elseif($level == 2)
@@ -778,6 +832,8 @@ class AuthenticationController extends Controller
             $field = 'fourth_id';
         elseif($level == 5)
             $field = 'fifth_id';
+        elseif($level == 0)
+            $field = 'id';
         return $field;
     }
 

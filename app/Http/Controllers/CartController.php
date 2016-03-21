@@ -79,6 +79,7 @@ class CartController extends Controller
         $result = "<tr><td></td><td colspan='2'  class='text-center'>item</td><td  class='text-center'>quantity</td><td  class='text-center'>Unit Price</td><td  class='text-center'>Ext. Price</td><td class='text-center'>Weight</td></tr>";
         \Log::info("userid=$userId");
         $userRoles = $data['userRoles'];
+
         $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
         $items = $this->getProducts($shoppingCart);
         $totalPrice = 0;
@@ -135,7 +136,7 @@ class CartController extends Controller
             $item->transaction_processing = 1;
             $item->save();
         }
-       
+
         return $items;
     }
 
@@ -501,7 +502,7 @@ class CartController extends Controller
         $ccType = 'Visa';//  get actual type from API
         $approved = ['date'=>$transaction_date,'approval_code'=>'12345abcded','error'=>'','credit_card'=>$creditCard, 'pay_method'=>$ccType];
         $disapproved = ['date'=>$transaction_date,'approval_code'=>'denied','error'=>'website in development - not a problem with your card','credit_card'=>$creditCard,'pay_method'=>$ccType];
-        return $disapproved;
+        return $approved;
 
     }
 

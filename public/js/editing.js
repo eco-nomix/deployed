@@ -38,6 +38,13 @@ $(document).ready(function(){
         };
     });
 
+    $('#NameSearch').change(function(event){
+        var userId = $(this).val();
+        if(userId > 0) {
+            window.location.href = "/xy/admin/edituser/" + userId;
+        }
+    })
+
     $('.quantity').change(function(event){
         var itemId = $(this).attr('data-id');
         var quantity = $(this).val();

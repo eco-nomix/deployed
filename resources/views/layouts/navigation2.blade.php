@@ -81,16 +81,16 @@
                             <li><a href="/organization">Organization</a></li>
                             <li><a href="/logout2">Logout</a></li>
                             @if($userRoles[6]=='yes')
-                                <li><a href="/admin/financial">Finance</a></li>
+                                <li><a href="/xy/admin/financial">Finance</a></li>
                             @endif
                             @if($userRoles[5]=='yes')
-                                <li><a href="/admin/management">Management</a></li>
+                                <li><a href="/xy/admin/management">Management</a></li>
                             @endif
                             @if($userRoles[7]=='yes')
-                                <li><a href="/admin/config">Config</a></li>
+                                <li><a href="/xy/admin/config">Config</a></li>
                             @endif
                             @if($userRoles[10]=='yes')
-                                <li><a href="/admin/gensales">General Sales</a></li>
+                                <li><a href="/xy/admin/gensales">General Sales</a></li>
                             @endif
 
                         </ul>

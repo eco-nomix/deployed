@@ -30,7 +30,7 @@
                              Eco-nomix's system of bonuses is designed so that the normal person can make enough money to get the things they need to become more self-sufficient.  This is not a get rich scheme, but a way to suppliment your income, so that your goals can come quicker.  There will be some that will work dilligently to build the organization and their income will grow proportionately.
                            </div>
                             <div class="form-group col-md-12 ">
-                             Could it grow to be a full-time job?  Sure!!  As we add more and more products to the system, There will be more ways to earn bonuses, and add on top of that the large potential organization size that an individual can build, and the potential becomes quite attractive.  But it will not happen overnight, without effort on your part.
+                             Could it grow to be a full-time job?  Sure!!  As we add more and more products to the system, There will be more ways to earn bonuses, and add on top of that the large potential organization size that an individual can build, and the potential becomes quite attractive.  But it will not happen overnight, not without effort on your part.
                           </div>
                  </div>
              </div>

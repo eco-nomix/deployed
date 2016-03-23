@@ -7,6 +7,7 @@ use App\Models\Users;
 use App\Models\ProductGroups;
 use App\Models\Products;
 use App\Models\ShoppingCarts;
+use App\Models\RegistrationStatus;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -29,25 +30,40 @@ class AdminController extends Controller
     {
         $data = $this->userData($request);
         $editUser = Users::find($userId);
+        if($editUser) {
+            $data['user_id'] = $userId;
+            $data['username'] = $editUser->user_name;
+            $data['password'] = $editUser->password;
+            $data['first_name'] = $editUser->first_name;
+            $data['last_name'] = $editUser->last_name;
+            $data['email'] = $editUser->email;
+            $data['home_phone'] = $editUser->home_phone;
+            $data['cell_phone'] = $editUser->cell_phone;
+            $data['addr1'] = $editUser->addr1;
+            $data['addr2'] = $editUser->addr2;
+            $data['city'] = $editUser->city;
+            $data['state'] = $editUser->state;
+            $data['postal_code'] = $editUser->postal_code;
+            $data['country'] = $editUser->country;
+            $data['social_security'] = $editUser->social_security;
+            $statuses = RegistrationStatus::orderBy('member_status')->get();
 
-        $data['user_id'] = $userId;
-        $data['username'] = $editUser->user_name;
-        $data['password'] = $editUser->password;
-        $data['first_name'] = $editUser->first_name;
-        $data['last_name'] = $editUser->last_name;
-        $data['email'] = $editUser->email;
-        $data['home_phone']= $editUser->home_phone;
-        $data['cell_phone'] = $editUser->cell_phone;
-        $data['addr1'] = $editUser->addr1;
-        $data['addr2'] = $editUser->addr2;
-        $data['city'] = $editUser->city;
-        $data['state'] = $editUser->state;
-        $data['postal_code'] = $editUser->postal_code;
-        $data['country'] = $editUser->country;
-        $data['social_security'] = $editUser->social_security;
 
-
-        return view('editUser',$data);
+            $result = "<option value=''>select Status</option>";
+            foreach ($statuses as $status) {
+                if ($status->member_status == $editUser->member) {
+                    $selected = "selected";
+                } else {
+                    $selected = '';
+                }
+                $result .= "<option value='$status->member_status' $selected>$status->description</option>";
+            }
+            $data['MemberStatus'] = $result;
+            return view('editUser', $data);
+        }else{
+            $data['selectNames'] = '';
+            return view('management',$data);
+        }
     }
 
     public function updateUser($userId,Request $request)
@@ -68,6 +84,7 @@ class AdminController extends Controller
         $editUser->postal_code = $request->input('postal_code');
         $editUser->country = $request->input('country');
         $editUser->social_security = $request->input('social_security');
+        $editUser->member = $request->input('member_status');
         $editUser->save();
         $data = $this->userData($request);
         $data['selectNames'] = '';

@@ -112,6 +112,14 @@
                                     <input type="text" class="form-control" name="social_security"  value="{{$social_security}}">
                                 </div>
                             </div>
+                            <div class="form-group col-md-12 ">
+                                <label class="col-md-4 control-label">Member Status</label>
+                                <div class="col-md-6">
+                                <select id="Status" name="member_status">
+                                    {!! $MemberStatus !!}
+                                </select>
+                                </div>
+                            </div>
 
 
                             <div class="form-group">

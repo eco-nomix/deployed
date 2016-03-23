@@ -41,7 +41,7 @@ $(document).ready(function(){
     $('#NameSearch').change(function(event){
         var userId = $(this).val();
         if(userId > 0) {
-            alert("going");
+          
             window.location.href = "/xy/admin/edituser/" + userId;
         }
     })

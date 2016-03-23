@@ -79,7 +79,10 @@ class AdminController extends Controller
         \Log::info("in search");
         $lastName = $request->input('last_name');
         \Log::info("lastname=$lastName");
-        $users = Users::where('last_name','like',$lastName.'%')->get();
+        $users = Users::where('last_name','like',$lastName.'%')
+                    ->orWhere('first_name',$lastName)
+                    ->get();
+
 
         $result = "<option value=''>select User</option>";
         foreach($users as $user){

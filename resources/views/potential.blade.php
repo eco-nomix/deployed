@@ -64,8 +64,8 @@
 
                           </div>
                           <div class="form-group col-md-12 ">
-                             And you are at that point by handing out 1 business card a month that turns into a member.
-                             In all the other multi-levels, people are dropping out as fast as you can recruit them.  In ours they stay as they have nothing to loose.
+                             And you got to that point by handing out 1 business card a month that turns into a member.
+                             In all the other multi-levels, people are dropping out as fast as you can recruit them.  In ours they stay as they have nothing to loose, causing amazing growth potential.
                           </div>
 
                            <div class="form-group col-md-12 ">

@@ -14,9 +14,9 @@
                           <input type="hidden" name="_token" value="{{ csrf_token() }}">
                           <div class="form-group col-md-12 ">
                               <div class="col-md-2">
-                                 Select Categories:
+                                 Select book Category:
                               </div>
-                              <div class="col-md-8">
+                              <div class="col-md-4">
                                 {!!$Categories!!}
                               </div>
                           </div>

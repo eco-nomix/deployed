@@ -18,7 +18,7 @@
                              When a purchase is made the received funds are deposited immediately in the Eco-nomix main account.
                          </div>
                          <div class="form-group col-md-12 ">
-                             The portion of the sale designated for Referral Bonuses is immediately transferred in to the Eco-nomix reserve account.
+                             The portion of the sale designated for Referral Bonuses is immediately transferred into the Eco-nomix reserve account.
                          </div>
                          <div class="form-group col-md-12 ">
                              Credit is immediately given to the 5 generations of Referring members for their personal balance within the Eco-nomix reserve account.
@@ -30,7 +30,7 @@
 
                          </div>
                          <div class="form-group col-md-12 ">
-                              The debit-card balance is incremented by the member's request, and is immediately available for purchases at any location that will accept credit cards.
+                              The debit-card balance is incremented by the member's request, and is immediately available for purchases at any location that will accept credit or debit cards, worldwide.
                               No waiting for checks in the mail.
                          </div>
                          <div class="form-group col-md-12 ">

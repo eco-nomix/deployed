@@ -37,9 +37,10 @@
                             </ul>
                         </div>
                          <div class="form-group col-md-12 ">
-                             Obviously, your organizations size alone will not create any income to you.  All bonuses are paid from sales that are made,  so encourage your down-line to know what products are available, and to discover how they can be utilized to become more independent and self-suffient.
+                             Obviously, your organizations size alone will not create any income for you.  All bonuses are paid from sales that are made,  so encourage your down-line to know what products are available, and to discover how they can be utilized to become more independent and self-suffient.
                           </div>
                          <div class="form-group col-md-12 ">
+                             Remember that a great many people are highly motivated to become self-sufficient and independent.  As these perilous times further unfold, more and more people will want to become such.
                          </div>
 
                          <div class="form-group col-md-12 ">

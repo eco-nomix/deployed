@@ -39,7 +39,9 @@
                          <div class="form-group col-md-12 ">
                             That's right at least a 4% referral bonus on all the purchases made by 5 generations of referrals.
                          </div>
-
+                         <div class="form-group col-md-12 ">
+                            Now when you consider the magic of exponential growth that is possible with the Eco-nomix system.  If each person recruited 5 others, you would have over 3000 members in 5 generations.  That obviously is not going to happen so nice and neat, but it does show the potential.  Look at the potential tab under the Plans section for further information.
+                         </div>
                 </div>
             </div>
 

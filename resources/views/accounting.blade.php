@@ -13,7 +13,7 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                          <div class="form-group col-md-12 ">
-                            When Members login they will have a special item in their personal pull down menus -  Organization and Accounting.
+                            When Members login they have a couple special items in their personal pull down menus -  Organization and Accounting.
                          </div>
                          <div class="form-group col-md-12 ">
                            The Organization Module contains a number of sections that you will find very interesting

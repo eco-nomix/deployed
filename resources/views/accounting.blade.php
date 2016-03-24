@@ -13,10 +13,10 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                          <div class="form-group col-md-12 ">
-                            When Members login they will have a special item in their personal pull down menus -  Accounting
+                            When Members login they will have a special item in their personal pull down menus -  Organization and Accounting.
                          </div>
                          <div class="form-group col-md-12 ">
-                           The Accounting Module contains a number of sections that you will find very interesting
+                           The Organization Module contains a number of sections that you will find very interesting
                          </div>
                          <div class="form-group col-md-12 ">
                                1.  The ability to see who is in your complete down-line of referrals.  Over time this could grow to be thousands of individuals.  And if any one of those individuals makes a purchase, no matter how big or small, that will result in a referral bonus to you.
@@ -26,13 +26,14 @@
                          </div>
 
                          <div class="form-group col-md-12 ">
-                              3.  The ability to contact via email those in your downline - through the eco-nomix messaging system.
+                              3.  The ability to contact via email those in your down-line - through the eco-nomix messaging system.
+                         </div>
+                         The Accounting Module allows you to:
+                         <div class="form-group col-md-12 ">
+                              1.  The ability to check balances in your reserve account, debit-card, and donations from sales.
                          </div>
                          <div class="form-group col-md-12 ">
-                              4.  The ability to check balances in your reserve account, debit-card, and donations from sales.
-                         </div>
-                         <div class="form-group col-md-12 ">
-                             5.  A history of all sales in your organization over time, income, and spending.
+                             2.  A history of all sales in your organization over time, income, and spending.
                          </div>
 
 

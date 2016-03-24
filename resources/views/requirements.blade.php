@@ -18,7 +18,7 @@
                             Both types are eligible to earn bonuses by referring clients to Eco-nomix.  However, to receive the bonuses, you must be a member and have received the Eco-nomix debit card.
                          </div>
                          <div class="form-group col-md-12 ">
-                               what do you have to do to receive a referral bonus.
+                               What do you have to do to receive a referral bonus.
                          </div>
                          <div class="form-group col-md-12 ">
                                 <ul>
@@ -47,7 +47,9 @@
                                     <li>No hard sell - hand out a business card, let the site do the work for you</li>
                                </ul>
                          </div>
-
+                         <div class="form-group col-md-12 ">
+                                About the only way to not succeed with Eco-nomix is to do nothing at all.
+                         </div>
 
                 </div>
             </div>

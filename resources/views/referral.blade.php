@@ -37,7 +37,7 @@
                             A 4% referral bonus is paid on all the purchases of eco-nomix products by 5th Generation Registered or Member Clients. (Wow!!!)
                          </div>
                          <div class="form-group col-md-12 ">
-                            That's right at least a 4% referral fee on all the purchases made by 5 generations of referrals.
+                            That's right at least a 4% referral bonus on all the purchases made by 5 generations of referrals.
                          </div>
 
                 </div>

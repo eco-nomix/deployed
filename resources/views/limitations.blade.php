@@ -17,47 +17,35 @@
                             There are no limits to the number of clients you can personally sponsor.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Both types are eligible to earn bonuses by referring clients to Eco-nomix.  However, to receive the bonuses, you must be a member and have received the Eco-nomix debit card.
-
+                            Your personal organization is limited to 5 generations.
                         </div>
                         <div class="form-group col-md-12 ">
-                           A 10% referral bonus is paid on all the purchases of eco-nomix products by Registered or Member clients that you have personally referred.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                           A 4% referral bonus is paid on all the purchases of eco-nomix products by 2nd Generation Registered or Member Clients. (Those that were referred by your personally referred clients.)
-                        </div>
-                        <div class="form-group col-md-12 ">
-                           A 4% referral bonus is paid on all the purchases of eco-nomix products by 3rd Generation Registered or Member Clients. (You've got the idea!)
-
-                        </div>
-                        <div class="form-group col-md-12 ">
-                            A 4% referral bonus is paid on all the purchases of eco-nomix products by 4th Generation Registered or Member Clients. (Now this is getting interesting)
-
-                        </div>
-                         <div class="form-group col-md-12 ">
-                            A 4% referral bonus is paid on all the purchases of eco-nomix products by 5th Generation Registered or Member Clients. (Wow!!!)
+                            There are no limitations to your total number of people in your organization.
                          </div>
+                        <div class="form-group col-md-12 ">
+                            Since there is no on-going costs to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            Over time, your organization's total membership could become in the thousands of members.  Now how fast that is, is determined by:
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ul>
+                                <li>How well you understand the opportunity of Eco-nomix. Read and understand the contents of the web-site.</li>
+                                <li>How consistent you are in spreading the word.</li>
+                                <li>How many business cards and referral links you hand out.</li>
+                                <li>If you encourage your downline to do the same.</li>
+                            </ul>
+                        </div>
                          <div class="form-group col-md-12 ">
-                            That's right at least a 4% referral fee on all the purchases made by 5 generations of referrals.
+                             Obviously, your organizations size alone will not create any income to you.  All bonuses are paid from sales that are made,  so encourage your down-line to know what products are available, and to discover how they can be utilized to become more independent and self-suffient.
+                          </div>
+                         <div class="form-group col-md-12 ">
                          </div>
 
                          <div class="form-group col-md-12 ">
-                                Now lets let you know what you don't have to do.
-                         </div>
+                          </div>
                          <div class="form-group col-md-12 ">
-                               <ul>
-                                    <li>No minimum personal sales requirements</li>
-                                    <li>No direct selling of products - all sales are done through the site</li>
-                                    <li>No collecting of money</li>
-                                    <li>No required marketing meetings</li>
-                                    <li>No minimum number in your organization to 'qualify'</li>
-                                    <li>No stocking of inventory</li>
-                                    <li>No purchasing of product you don't want or need</li>
-                                    <li>No confusing Marketing plan</li>
-                                    <li>No waiting for check's in the mail</li>
-                                    <li>No Hidden Fees</li>
-                                    <li>No hard sell - hand out a business card, let the site do the work for you</li>
-                               </ul>
+
                          </div>
 
 

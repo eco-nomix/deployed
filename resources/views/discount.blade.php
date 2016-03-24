@@ -19,8 +19,8 @@
                             Both types will receive a discount on products from the Suggested Retail Price.  The Registered client will receive between 5-10% discount from the suggested Retail Price.  The Member will receive between 10-30% discount from the suggested Retail Price.
                         </div>
                         <div class="form-group col-md-12 ">
-                            At Eco-nomix we are focused on giving the best discounts possible on our products to our members.  There is a limitation because we are also paying out a high percentage of the sales price in referral fees.  At Eco-nomix, we feel it will be much more financially beneficial to the member to give a high referral fee from the sales from the member's organization.
-                            When you consider that we are paying out referral fees for 5 generations, the amount in discounts and referral fees is pretty amazing.
+                            At Eco-nomix we are focused on giving the best discounts possible on our products to our members.  There is a limitation because we are also paying out a high percentage of the sales price in referral bonuses.  At Eco-nomix, we feel it will be much more financially beneficial to the member to give a high referral bonus from the sales from the member's organization.
+                            When you consider that we are paying out referral bonuses for 5 generations, the amount in discounts and referral bonuses is pretty amazing.
 
                         </div>
                         <div class="form-group col-md-12 ">

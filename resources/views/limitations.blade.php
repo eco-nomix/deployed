@@ -31,7 +31,7 @@
                         <div class="form-group col-md-12 ">
                             <ul>
                                 <li>How well you understand the opportunity of Eco-nomix. Read and understand the contents of the web-site.</li>
-                                <li>How consistent you are in spreading the word.</li>
+                                <li>How consistent you are in spreading the word. Keep your business cards with you.</li>
                                 <li>How many business cards and referral links you hand out.</li>
                                 <li>If you encourage your downline to do the same.</li>
                             </ul>

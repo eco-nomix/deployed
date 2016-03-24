@@ -15,7 +15,7 @@
                          <div class="form-group col-md-12 ">
                            Coming Soon
                          </div>
-                         
+
                          <div class="form-group col-md-12 ">
                           The Accounting Module allows you to:
                          </div>

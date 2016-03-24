@@ -41,7 +41,7 @@
                               The effect is, that your organization keeps growing and growing, and that should represent an ever larger potential income.  This type of growth can be exponential in nature.
                           </div>
                           <div class="form-group col-md-12 ">
-                              Let's look at a slow growth model.  If each member succeeded in recruiting one new member a month.  Let's see what would happen.  Month 1 -  just you.   Month 2 -  you and your 1st recruit.  Month 3 -  you + 2 recruits.  But here is the magic.  The 1 recruit from last month, also recruited 1 so you have 1 on the 2nd generation.  This is where the exponential growth starts to kick in.<br>
+                              Let's look at a slow growth model.  If each member succeeded in recruiting one new member a month.  Let's see what would happen.  Month 1 -  just you.   Month 2 -  you and your 1st recruit.  Month 3 -  you + 2 recruits.  But here is the magic.  The 1 recruit from last month, also recruited 1 so you have 1 on the 2nd generation.  This is where the exponential growth starts to kick in.<br><br>
                               <ul>
                                 <li>Month 1 - 1 total</li>
                                 <li>Month 2 - 2 total</li>

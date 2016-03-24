@@ -43,7 +43,7 @@ Route::post('/payment',['as' => 'register2','uses'=>'AuthenticationController@pa
 Route::get('/referred/{userId}',['as'=>'referred','uses'=>'AuthenticationController@referred']);
 Route::get('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
 Route::post('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
-
+Route::get('/myaccounting',['as'=>'accounting','uses'=>'AuthenticationController@accounting']);
 Route::post('/addcart',['as'=>'addcart','uses'=>'CartController@addToCart']);
 Route::get('/shoppingcart',['as'=>'shoppingcart','uses'=>'CartController@viewCart']);
 Route::post('/changecartquantity',['as'=>'changequantity','uses'=>'CartController@updateQuantity']);

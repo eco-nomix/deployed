@@ -850,6 +850,16 @@ class AuthenticationController extends Controller
         return $results;
     }
 
+    public function accounting()
+    {
+        $data= $this->basedata();
+        $data['username'] = '';
+
+        $data['user_name'] = '';
+        $data['user_id'] = '';
+        return view('myaccounting',$data);
+    }
+
 
 
 }

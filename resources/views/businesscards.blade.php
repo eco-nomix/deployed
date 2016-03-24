@@ -31,7 +31,7 @@
                             <img src="/images/business_card.png">
                         </div>
                         <div class="form-group col-md-12 ">
-                            Your business card will be extremely helpful in helping you build your organization.  By simply handing out your card to interested individuals, when they log in using the Referral Link on the card, you will automatically be given the sponsorship credit for the new registration and/or member.  This allow you to individually sponsor many individuals creating a very wide organization.
+                            Your business card will be extremely helpful in helping you build your organization.  By simply handing out your card to interested individuals, when they log in using the Referral Link on the card, you will automatically be given the sponsorship credit for the new registration and/or member.  This allows you to individually sponsor many individuals creating a very wide organization.
                             Once the new member follows your example by handing out their cards, you will find your organization will also grow deep quickly, resulting in a very large downline organization, which can lead to significant bonuses.
                         </div>
                 </div>

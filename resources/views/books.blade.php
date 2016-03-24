@@ -13,7 +13,12 @@
                      <form class="form-horizontal" role="form" method="POST" action="/books">
                           <input type="hidden" name="_token" value="{{ csrf_token() }}">
                           <div class="form-group col-md-12 ">
+                              <div class="col-md-4">
+                                 Select Categories:
+                              </div>
+                              <div class="col-md-8">
                                 {!!$Categories!!}
+                              </div>
                           </div>
                           <table width="100%" border="1" class="summary">
                             {!!$productSummary!!}

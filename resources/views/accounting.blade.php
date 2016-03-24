@@ -26,9 +26,11 @@
                          </div>
 
                          <div class="form-group col-md-12 ">
-                              3.  The ability to contact via email those in your down-line - through the eco-nomix messaging system.
+                              3.  The ability to contact via email those in your down-line - through the Eco-nomix messaging system.
                          </div>
-                         The Accounting Module allows you to:
+                         <div class="form-group col-md-12 ">
+                          The Accounting Module allows you to:
+                         </div>
                          <div class="form-group col-md-12 ">
                               1.  The ability to check balances in your reserve account, debit-card, and donations from sales.
                          </div>

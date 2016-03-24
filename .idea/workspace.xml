@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/accounting.blade.php" afterPath="$PROJECT_DIR$/resources/views/accounting.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/businesscards.blade.php" afterPath="$PROJECT_DIR$/resources/views/businesscards.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/debitcards.blade.php" afterPath="$PROJECT_DIR$/resources/views/debitcards.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/discount.blade.php" afterPath="$PROJECT_DIR$/resources/views/discount.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/limitations.blade.php" afterPath="$PROJECT_DIR$/resources/views/limitations.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/referral.blade.php" afterPath="$PROJECT_DIR$/resources/views/referral.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/requirements.blade.php" afterPath="$PROJECT_DIR$/resources/views/requirements.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +72,8 @@
       <file leaf-file-name="accounting.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/accounting.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8589474" vertical-offset="374" max-vertical-offset="1768">
-              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.1431579" vertical-offset="816" max-vertical-offset="1836">
+              <caret line="28" column="106" selection-start-line="28" selection-start-column="106" selection-end-line="28" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -565,7 +559,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19351351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19351351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46985647" sideWeight="0.5002849" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -995,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/accounting.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8589474" vertical-offset="374" max-vertical-offset="1768">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.1431579" vertical-offset="816" max-vertical-offset="1836">
+          <caret line="28" column="106" selection-start-line="28" selection-start-column="106" selection-end-line="28" selection-end-column="106" />
           <folding />
         </state>
       </provider>

@@ -28,7 +28,7 @@
                           When the Referral link is used, the referring member will be recorded in all transactions and future transactions performed by the referred member.
                         </div>
                         <div class="form-group col-md-12 ">
-
+                            <img src="/images/business_card.png">
                         </div>
                         <div class="form-group col-md-12 ">
                         </div>

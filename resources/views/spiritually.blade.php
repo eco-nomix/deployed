@@ -21,7 +21,7 @@
                           </div>
                           <div class="form-group col-md-12 ">
                               I have found many people that have achieved a sense of 'peace' as they have explored the universe that goes beyond their sense of touch and smell.  I don't think it matters so much
-                              how you go about this exploration, but that you do it.  It may be expressed within a religeous belief, a sense of wonder as you walk in the forest, or even a ceremonial dance, any way, your life is enhanced by a spiritual path.
+                              how you go about this exploration, but that you do it.  It may be expressed within a religeous belief, or a sense of wonder as you walk in the forest, or even a ceremonial dance, any way, your life is enhanced by a spiritual path.
                           </div>
                           <div class="form-group col-md-12 ">
                               Eliminating many of the world's distractions is one of the purposes of Eco-nomix, so that you can explore your inner self and arrive at a true peace, not at some point in the indefinite future, but now.

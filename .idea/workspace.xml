@@ -73,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/spiritually.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3936842" vertical-offset="408" max-vertical-offset="1428">
-              <caret line="23" column="214" selection-start-line="23" selection-start-column="214" selection-end-line="23" selection-end-column="214" />
+              <caret line="23" column="136" selection-start-line="23" selection-start-column="136" selection-end-line="23" selection-end-column="136" />
               <folding />
             </state>
           </provider>
@@ -997,7 +997,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/spiritually.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3936842" vertical-offset="408" max-vertical-offset="1428">
-          <caret line="23" column="214" selection-start-line="23" selection-start-column="214" selection-end-line="23" selection-end-column="214" />
+          <caret line="23" column="136" selection-start-line="23" selection-start-column="136" selection-end-line="23" selection-end-column="136" />
           <folding />
         </state>
       </provider>

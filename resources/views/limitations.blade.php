@@ -17,16 +17,16 @@
                             There are no limits to the number of clients you can personally sponsor.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Your personal organization is limited to 5 generations.
+                            Your personal organization depth is limited to 5 generations.
                         </div>
                         <div class="form-group col-md-12 ">
                             There are no limitations to your total number of people in your organization.
                          </div>
                         <div class="form-group col-md-12 ">
-                            Since there is no on-going costs to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
+                            Since there are no on-going costs to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Over time, your organization's total membership could become in the thousands of members.  Now how fast that is, is determined by:
+                            Over time, your organization's total membership could become in the thousands of members.  Now how fast that occurs is determined by:
                         </div>
                         <div class="form-group col-md-12 ">
                             <ul>

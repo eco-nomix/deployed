@@ -7,6 +7,8 @@ use App\Models\Users;
 use App\Models\ProductGroups;
 use App\Models\Products;
 use App\Models\ShoppingCarts;
+use App\Models\Roles;
+use App\Models\UserRoles;
 use App\Models\RegistrationStatus;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -22,10 +24,158 @@ class AdminController extends Controller
     public function addProduct($productId, Request $request)
     {
         $data = $this->userData($request);
-
-
         return view('addProduct',$data);
     }
+    public function config(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['selectNames'] = '';
+        return view('configuration',$data);
+    }
+
+    public function configSearch(Request $request)
+    {
+
+        \Log::info("in search");
+        $lastName = $request->input('last_name');
+        \Log::info("lastname=$lastName");
+        $users = Users::where('last_name','like',$lastName.'%')
+            ->orWhere('first_name',$lastName)
+            ->get();
+
+
+        $result = "<option value=''>select User</option>";
+        foreach($users as $user){
+            $result .= "<option value='$user->id'>$user->first_name $user->last_name</option>";
+        }
+
+        $data = $this->userData($request);
+        $data['selectNames'] = $result;
+        return view('configuration',$data);
+    }
+
+    public function configUser($userId,Request $request)
+    {
+        $data = $this->userData($request);
+        $editUser = Users::find($userId);
+        \Log::info("inside configUser for $userId");
+        $userRoles = UserRoles::where('user_id',$userId)->get();
+        if($editUser) {
+            $data['user_id'] = $userId;
+            $data['first_name'] = $editUser->first_name;
+            $data['last_name'] = $editUser->last_name;
+            $roles = Roles::orderBy('id')->get();
+
+
+            $result = "<option value=''>select Roles</option>";
+            foreach ($roles as $role) {
+                $selected = '';
+                foreach ($userRoles as $userRole){
+                    if ($role->id == $userRole->role_id){
+                        $selected = 'selected';
+                    }
+                }
+                $result .= "<option value='$role->id' $selected>$role->role_name</option>";
+            }
+            $data['MemberRoles'] = $result;
+            $data['SponsorId'] = $editUser->sponsor_id;
+            return view('configUser', $data);
+        }else{
+            $data['selectNames'] = '';
+            return view('configuration',$data);
+        }
+    }
+
+    public function updateConfigUser($userId,Request $request)
+    {
+
+
+        $memberRoles =   $request->input('member_roles');
+        $newSponserId = $request->input('sponsor_id');
+        $editUser = Users::find($userId);
+        $editRoles = UserRoles::where('user_id',$userId)->delete();
+        foreach($memberRoles as $memberRole){
+            $userRole = new UserRoles;
+            $userRole->user_id = $userId;
+            $userRole->role_id = $memberRole;
+            $userRole->region_id = 0;
+            $userRole->save();
+        }
+        $sponsor = Users::find($newSponserId);
+        \Log::info("updating $userId for sponsor $newSponserId");
+        $editUser->sponsor_id = $sponsor->id;
+        $editUser->second_id = $sponsor->sponsor_id;
+        $editUser->third_id = $sponsor->second_id;
+        $editUser->fourth_id = $sponsor->third_id;
+        $editUser->fifth_id = $sponsor->fourth_id;
+        $editUser->save();
+        $this->updateDownStream($userId);
+        $data = $this->userData($request);
+        $data['selectNames'] = '';
+        return view('configuration',$data);
+    }
+
+    public function updateDownStream($userId)
+    {
+        $editUser = Users::find($userId);
+        $seconds = Users::where('sponsor_id',$userId)->get();
+        foreach($seconds as $second){
+            $second->second_id = $editUser->sponsor_id;
+            $second->third_id = $editUser->second_id;
+            $second->fourth_id = $editUser->third_id;
+            $second->fifth_id = $editUser->fourth_id;
+            $second->save();
+            $this->updateDownStream($second->id);
+        }
+    }
+
+    public function updateDownStream2($userId)
+    {
+        $editUser = Users::find($userId);
+        $seconds = Users::where('sponsor_id',$userId)->get();
+        foreach($seconds as $second){
+            \Log::info("updating second=$second->id");
+            $second->second_id = $editUser->sponsor_id;
+            $second->third_id = $editUser->second_id;
+            $second->fourth_id = $editUser->third_id;
+            $second->fifth_id = $editUser->fourth_id;
+            $second->save();
+            $thirds = Users::where('sponsor_id',$second->id)->get();
+            if(!$thirds) \Log::info("didn't find any thirds");
+            foreach($thirds as $third){
+                \Log::info("third=$third->id");
+                $third->second_id = $second->sponsor_id;
+                $third->third_id = $second->second_id;
+                $third->fourth_id = $second->third_id;
+                $third->fifth_id = $second->fourth_id;
+                $third->save();
+                $fourths = Users::where('sponsor_id',$third->id)->get();
+                if(!$fourths) \Log::info("didn't find any fourths");
+                foreach($fourths as $fourth){
+                    \Log::info("fourth=$fourth->id");
+                    $fourth->second_id = $third->sponsor_id;
+                    $fourth->third_id = $third->second_id;
+                    $fourth->fourth_id = $third->third_id;
+                    $fourth->fifth_id = $third->fourth_id;
+                    $fourth->save();
+                    $fifths = Users::where('sponsor_id',$fourth->id)->get();
+                    if(!$fifths) \Log::info("didn't find any fifths");
+                    foreach($fifths as $fifth){
+                        \Log::info("fifth=$fifth->id");
+                        $fifth->second_id = $fourth->sponsor_id;
+                        $fifth->third_id = $fourth->second_id;
+                        $fifth->fourth_id = $fourth->third_id;
+                        $fifth->fifth_id = $fourth->fourth_id;
+                        $fifth->save();
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
     public function editUser($userId,Request $request)
     {
         $data = $this->userData($request);

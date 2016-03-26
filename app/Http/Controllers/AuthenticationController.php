@@ -7,6 +7,7 @@ use App\Models\Users;
 use App\Models\Products;
 use App\Models\UserRoles;
 use App\Models\SalesTransactions;
+use App\Models\RegionStates;
 use App\Models\SalesTransactionDetails;
 use App\Models\CustomerCreditCards;
 use App\Models\CommissionLevel;

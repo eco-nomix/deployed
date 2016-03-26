@@ -22,10 +22,10 @@
                           Can you imagine what can happen to an organization over time, that is continually growing?  Eco-nomix has effectively harnessed the potential of exponential growth.
                         </div>
                         <div class="form-group col-md-12 ">
-                          People will get involved because they are interested in the products the Eco-nomix carries and the referral bonus program is a no-risk benefit.
+                          People will get involved because they are interested in the products that Eco-nomix carries and the referral bonus program is a no-risk benefit.
                         </div>
                         <div class="form-group col-md-12 ">
-                          Over time a given member's organization can grow very wide, with the same potential be available to each member of the organization.
+                          Over time a given member's organization can grow very wide, with the same potential being0 available to each member of the organization.
                         </div>
                         <div class="form-group col-md-12 ">
                           Success isn't limited to just the few at the 'top' of the organization, as each person is always qualified to receive their bonuses.  People aren't skipped over to enrich the elite.

@@ -44,6 +44,14 @@ $(document).ready(function(){
 
             window.location.href = "/xy/admin/edituser/" + userId;
         }
+    });
+
+    $('#ConfigSearch').change(function(event){
+        var userId = $(this).val();
+        if(userId > 0) {
+
+            window.location.href = "/xy/admin/configuser/" + userId;
+        }
     })
 
     $('.quantity').change(function(event){

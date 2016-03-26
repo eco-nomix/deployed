@@ -25,11 +25,15 @@ Route::get('/testmail',function()
 Route::group(['middleware' => ['web']], function () {
 Route::get('/xy/admin/edituser/{userId}',['as' => 'edituser','uses'=>'AdminController@editUser']);
 Route::post('/xy/admin/edituser/{userId}',['as' => 'edituser','uses'=>'AdminController@updateUser']);
+Route::get('/xy/admin/configuser/{userId}',['as' => 'edituser','uses'=>'AdminController@configUser']);
+Route::post('/xy/admin/configuser/{userId}',['as' => 'edituser','uses'=>'AdminController@updateConfigUser']);
+
 Route::get('/xy/admin/addproduct/{productId}',['as' => 'addproduct','uses'=>'AdminController@addproduct']);
 Route::get('/xy/admin/financial',['as' => 'addproduct','uses'=>'AdminController@financial']);
 Route::get('/xy/admin/management',['as' => 'management','uses'=>'AdminController@management']);
 Route::post('/xy/admin/management',['as' => 'search','uses'=>'AdminController@search']);
-Route::get('/xy/admin/config',['as' => 'addproduct','uses'=>'AdminController@config']);
+Route::get('/xy/admin/config',['as' => 'config','uses'=>'AdminController@config']);
+Route::post('/xy/admin/config',['as' => 'configsearch','uses'=>'AdminController@configsearch']);
 Route::get('/xy/admin/gensales',['as' => 'addproduct','uses'=>'AdminController@gensales']);
 
 Route::get('/emailverified/{userId}/{key}',['as' => 'emailverified','uses'=>'AuthenticationController@emailVerified']);

@@ -27,11 +27,14 @@ Route::get('/xy/admin/edituser/{userId}',['as' => 'edituser','uses'=>'AdminContr
 Route::post('/xy/admin/edituser/{userId}',['as' => 'edituser','uses'=>'AdminController@updateUser']);
 Route::get('/xy/admin/configuser/{userId}',['as' => 'edituser','uses'=>'AdminController@configUser']);
 Route::post('/xy/admin/configuser/{userId}',['as' => 'edituser','uses'=>'AdminController@updateConfigUser']);
-
 Route::get('/xy/admin/addproduct/{productId}',['as' => 'addproduct','uses'=>'AdminController@addproduct']);
 Route::get('/xy/admin/financial',['as' => 'addproduct','uses'=>'AdminController@financial']);
 Route::get('/xy/admin/management',['as' => 'management','uses'=>'AdminController@management']);
 Route::post('/xy/admin/management',['as' => 'search','uses'=>'AdminController@search']);
+Route::get('/xy/admin/products',['as' => 'products','uses'=>'AdminController@productsStart']);
+Route::get('/xy/admin/products/{productGroup}/{subGroup}',['as' => 'products','uses'=>'AdminController@products']);
+Route::post('/xy/admin/products/{productGroup}/{subGroup}',['as' => 'productsearch','uses'=>'AdminController@productsearch']);
+
 Route::get('/xy/admin/config',['as' => 'config','uses'=>'AdminController@config']);
 Route::post('/xy/admin/config',['as' => 'configsearch','uses'=>'AdminController@configsearch']);
 Route::get('/xy/admin/gensales',['as' => 'addproduct','uses'=>'AdminController@gensales']);
@@ -106,8 +109,14 @@ Route::get('/contact',['as' => 'contact','uses'=>'PagesController@contact']);
 Route::get('/water',['as' => 'water','uses'=>'PagesController@water']);
 Route::get('/homepage/{userId}',['as' => 'homepage','uses'=>'PagesController@homepage']);
 Route::get('/money/{userId}',['as' => 'money','uses'=>'PagesController@money']);
-
-
+Route::get('/linksfood',['as' => 'linksfood','uses'=>'PagesController@linksfood']);
+Route::get('/linkswater',['as' => 'linkswater','uses'=>'PagesController@linkswater']);
+Route::get('/linksenergy',['as' => 'linksenergy','uses'=>'PagesController@linksenergy']);
+Route::get('/linksrecycling',['as' => 'linksrecycling','uses'=>'PagesController@linksrecycling']);
+Route::get('/linkscamping',['as' => 'linkscamping','uses'=>'PagesController@linkscamping']);
+Route::get('/linkscooking',['as' => 'linkscooking','uses'=>'PagesController@linkscooking']);
+Route::get('/linkshealth',['as' => 'linkshealth','uses'=>'PagesController@linkshealth']);
+Route::get('/linkshouse',['as' => 'linkshouse','uses'=>'PagesController@linkshouse']);
 /*
 |--------------------------------------------------------------------------
 | Application Routes

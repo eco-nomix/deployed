@@ -425,5 +425,46 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('water',$data);
     }
+    public function linksfood(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksfood',$data);
+    }
+    public function linkswater(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linkswater',$data);
+    }
+    public function linksenergy(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksenergy',$data);
+    }
+    public function linksrecycling(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksrecycling',$data);
+    }
+    public function linkscamping(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linkscamping',$data);
+    }
+    public function linkscooking(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linkscooking',$data);
+    }
+    public function linkshealth(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linkshealth',$data);
+    }
+    public function linkshouse(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linkshouse',$data);
+    }
+
 
 }

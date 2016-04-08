@@ -84,3 +84,23 @@ function updateAddress(sel)
 {
     window.location.href = "/changeshippingaddress/"+sel.value;
 }
+
+function updateyoutube(src)
+{
+
+   // var vidsrc = "https://www.youtube.com/embed/"+src+"?rel=0";
+   // alert(vidsrc);
+    var iframe = document.getElementById('video_iframe');
+    iframe.src = "https://www.youtube.com/embed/"+src+"?rel=0";
+
+}
+
+function updateyouvimeo(src)
+{
+
+    // var vidsrc = "https://www.youtube.com/embed/"+src+"?rel=0";
+    // alert(vidsrc);
+    var iframe = document.getElementById('video_iframe');
+    iframe.src = "https://player.vimeo.com/video/"+src+"?color=e6d9c3&byine=0&portrait=0";
+
+}

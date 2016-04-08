@@ -21,6 +21,18 @@
                         <li><a href="/autoship">Auto-Ship Policy</a></li>
                     </ul>
                 </li>
+                <li><a href="/trainingLinks">Training Links<span class="caret"></span></a>
+                    <ul>
+                        <li><a href="/linksfood">Food Production</a></li>
+                        <li><a href="/linkswater">Water Purification</a></li>
+                        <li><a href="/linksenergy">Energy Production</a></li>
+                        <li><a href="/linksrecycling">Recycling</a></li>
+                        <li><a href="/linkscamping">Survival, Camping</a></li>
+                        <li><a href="/linkscooking">Cooking Systems</a></li>
+                        <li><a href="/linkshealth">Home Health</a></li>
+                        <li><a href="/linkshouse">Household Products</a></li>
+                    </ul>
+                </li>
                 <li><a href="/people">People<span class="caret"></span></a>
                     <ul>
                         <li><a href="/founders">Founders</a></li>
@@ -85,7 +97,8 @@
                                 <li><a href="/xy/admin/financial">Finance</a></li>
                             @endif
                             @if($userRoles[5]=='yes')
-                                <li><a href="/xy/admin/management">Management</a></li>
+                                <li><a href="/xy/admin/management">User Management</a></li>
+                                <li><a href="/xy/admin/products">Product Management</a></li>
                             @endif
                             @if($userRoles[7]=='yes')
                                 <li><a href="/xy/admin/config">Config</a></li>

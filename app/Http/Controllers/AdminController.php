@@ -88,9 +88,7 @@ class AdminController extends Controller
 
     public function updateConfigUser($userId,Request $request)
     {
-
-
-        $memberRoles =   $request->input('member_roles');
+      $memberRoles =   $request->input('member_roles');
         $newSponserId = $request->input('sponsor_id');
         $editUser = Users::find($userId);
         $editRoles = UserRoles::where('user_id',$userId)->delete();
@@ -171,8 +169,6 @@ class AdminController extends Controller
                 }
             }
         }
-
-
     }
 
 
@@ -287,4 +283,58 @@ class AdminController extends Controller
         $data['homePage'] = 'homePage';
         return $data;
     }
+    public function productsStart(Request $request)
+    {
+          return $this->products(0,0,$request);
+    }
+    public function products(Request $request)
+    {
+        $data = $this->userData($request);
+        $productGroup = $request->input('ProductGroupList')?:1;
+        $data['ProductGroups'] = $this->productGroups($productGroup);
+        $subGroup = $request->input('SubGroupList')?:9;
+        $data['ProductSubgroups'] = $this->productSubgroups($productGroup,$subGroup);
+        return view('books',$data);
+    }
+
+    public function productGroups($selected)
+    {
+        $productGroups= ProductGroups::where('Parent_id',$productGroup)->orderBy('group_order')->lists('name','id');
+        $select = $this->groupSelect($productGroups,$selected);
+        return $select;
+    }
+
+    public function productSubgroups($productGroup, $selected)
+    {
+        $productGroups= ProductGroups::where('Parent_id',$productGroup)->orderBy('group_order')->lists('name','id');
+        $select = $this->prepareSelect($productGroups, $selected);
+        return $select;
+    }
+    public function groupSelect($productGroups, $selected)
+    {
+        $results = "<select name='ProductGroupList' style='width:300px;' onchange='this.form.submit()' > ";
+        $selectField = ($selected == 0)?'selected':'';
+        foreach($productGroups as $id=>$productGroup){
+            $selectField = ($id == $selected)?'selected':'';
+            $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
+        }
+        $results .="</select>";
+        return $results;
+    }
+
+    public function prepareSelect($productGroups, $selected)
+    {
+        $results = "<select name='SubGroupList' style='width:300px;' onchange='this.form.submit()' > ";
+        $selectField = ($selected == 0)?'selected':'';
+        $results .= "<option value = '99999' $selectField>New SubGroup</option>";
+
+        foreach($productGroups as $id=>$productGroup){
+            $selectField = ($id == $selected)?'selected':'';
+            $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
+        }
+        $results .="</select>";
+        return $results;
+    }
+
+
 }

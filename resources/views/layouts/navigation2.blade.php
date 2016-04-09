@@ -69,6 +69,9 @@
                         <li><a href="/benefits">Member Benefits</a></li>
                     </ul>
                 </li>
+                <li>
+                    <a href="/intro">Introduction<span class="caret"></span></a>
+                </li>
             </ul>
             <ul class="pull-right">
                 <li><a href="/about">About</a></li>

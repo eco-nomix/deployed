@@ -117,6 +117,7 @@ Route::get('/linkscamping',['as' => 'linkscamping','uses'=>'PagesController@link
 Route::get('/linkscooking',['as' => 'linkscooking','uses'=>'PagesController@linkscooking']);
 Route::get('/linkshealth',['as' => 'linkshealth','uses'=>'PagesController@linkshealth']);
 Route::get('/linkshouse',['as' => 'linkshouse','uses'=>'PagesController@linkshouse']);
+Route::get('/intro',['as'=>'introduction','uses'=>'PagesController@introduction']);
 /*
 |--------------------------------------------------------------------------
 | Application Routes

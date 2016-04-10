@@ -15,16 +15,16 @@
                         The Goal of Eco-nomix is to provide the products, training and service that will enable individuals, families and communities to become more prepared for the tough times ahead of us.  We anticipate major changes in society around us, and most of what we see concerns us.
                     </div>
                     <div class="form-group col-md-12 ">
-                        To reach the greatest number of people possible a new form of multi-level marketing was created, one that eliminated all of the negative aspects of multi-level marketing, but preserving the essential ability of impacting in a positive way the maximum number of people.
+                        Our present economic situation is a house of cards that has been stacked carefully of the last 100 years, but with removal of a few essential cards, the whole situation could come crashing down.  If it does, life as we know it, especially in the United States will change and it could change literally overnight.
                     </div>
                     <div class="form-group col-md-12 ">
-                        No investment, no monthly purchase of products, and no hard sell.
+                        The economic down-turn that could result would be radically different then anything experienced in the last century including the great depression, not necessary worse, but very different.  During the Great Depression, much of the population was tied to the small farm, they may have been broke, but they still produced food for themselves and others.  Today it is much different.
                     </div>
                     <div class="form-group col-md-12 ">
-                        Investigate each of the sections below to see the difference in detail.
+                        If the same type of changes took place today, it would have much greater effect as few have the skills necessary to support themselves or their families.
                     </div>
                     <div class="form-group col-md-12 ">
-                        The introduction tab will give a nice overview of how Eco-nomix marketing is different.
+                        There is still time to prepare and make a major difference in how the future plays out for your family.
                     </div>
                     <div class="form-group col-md-12 ">
 

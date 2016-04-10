@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-6 col-md-offset-6">
             <div class="panel panel-default display">
-                <div class="panel-heading">Links for Survival / Camping</div>
+                <div class="panel-heading">Links for Survival / Camping  - click to view</div>
                 <div class="panel-body">
                                                                                                                                                                                              {{--</div>                                                                                                                                                                                  </div>--}}
                     <div class="form-group col-md-12 " onclick="updateyoutube('5PqKuPzbQNs')">

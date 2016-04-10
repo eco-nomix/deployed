@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-6 col-md-offset-6">
             <div class="panel panel-default display">
-                <div class="panel-heading">Links for Home Health</div>
+                <div class="panel-heading">Links for Home Health - click to view</div>
                 <div class="panel-body">
                                                                                                                                                                                              {{--</div>                                                                                                                                                                                  </div>--}}
                     <div class="form-group col-md-12 " onclick="updateyoutube('wxzc_2c6GMg')">

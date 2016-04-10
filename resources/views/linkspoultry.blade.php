@@ -15,10 +15,10 @@
     <div class="row">
         <div class="col-md-6 col-md-offset-6">
             <div class="panel panel-default display">
-                <div class="panel-heading">Links for Food Production - click to view</div>
+                <div class="panel-heading">Links for Poultry - click to view</div>
                 <div class="panel-body">
-                    <div class="form-group col-md-12 " onclick="updateyoutube('wpGwK81tOIs')">
-                        Backyard Urban Aquaponics Farm Grow 3000 heads of Lettuce A Month
+                     <div class="form-group col-md-12 " onclick="updateyoutube('')">
+
                     </div>
                 </div>
             </div>

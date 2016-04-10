@@ -21,16 +21,23 @@
                         <li><a href="/autoship">Auto-Ship Policy</a></li>
                     </ul>
                 </li>
-                <li><a href="/trainingLinks">Training Links<span class="caret"></span></a>
+                <li><a href="/traininglinks">Training Links<span class="caret"></span></a>
                     <ul>
-                        <li><a href="/linksfood">Food Production</a></li>
-                        <li><a href="/linkswater">Water Purification</a></li>
-                        <li><a href="/linksenergy">Energy Production</a></li>
-                        <li><a href="/linksrecycling">Recycling</a></li>
-                        <li><a href="/linkscamping">Survival, Camping</a></li>
-                        <li><a href="/linkscooking">Cooking Systems</a></li>
-                        <li><a href="/linkshealth">Home Health</a></li>
-                        <li><a href="/linkshouse">Household Products</a></li>
+                        <li><a href="/links/gardening">Gardening</a></li>
+                        <li><a href="/links/orchards">Orchards</a></li>
+                        <li><a href="/links/greenhouses">Greenhouses</a></li>
+                        <li><a href="/links/food">Food Production/Preservation</a></li>
+                        <li><a href="/links/aquaponics">Aquaponics</a></li>
+                        <li><a href="/links/poultry">Poultry</a></li>
+                        <li><a href="/links/livestock">Livestock</a></li>
+                        <li><a href="/links/water">Water</a></li>
+                        <li><a href="/links/energy">Energy Production</a></li>
+                        <li><a href="/links/recycling">Recycling</a></li>
+                        <li><a href="/links/camping">Survival, Camping</a></li>
+                        <li><a href="/links/cooking">Cooking Systems</a></li>
+                        <li><a href="/links/health">Home Health</a></li>
+                        <li><a href="/links/house">Household Products</a></li>
+                        <li><a href="/links/protection">Protection</a></li>
                     </ul>
                 </li>
                 <li><a href="/people">People<span class="caret"></span></a>
@@ -51,7 +58,7 @@
                         <li><a href="/selfreliance">Self-Reliance</a></li>
                     </ul>
                 </li>
-                <li><a href="/plans">Plans<span class="caret"></span></a>
+                <li><a href="/plans">Business Plan<span class="caret"></span></a>
                     <ul>
                         <li><a href="/membercost">Membership Cost</a></li>
                         <li><a href="/discount">Member Discount</a></li>
@@ -70,7 +77,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/intro">Introduction<span class="caret"></span></a>
+                    <a href="/intro">Introduction</a>
                 </li>
             </ul>
             <ul class="pull-right">

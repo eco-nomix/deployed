@@ -475,5 +475,40 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('introduction',$data);
     }
+    public function linksgardening(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksgardening',$data);
+    }
+    public function linksgreenhouses(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksgreenhouses',$data);
+    }
 
+    public function linkspoultry(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linkspoultry',$data);
+    }
+    public function linkslivestock(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linkslivestock',$data);
+    }
+    public function linksprotection(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksprotection',$data);
+    }
+    public function linksorchards(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksorchards',$data);
+    }
+    public function linksaquaponics(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksaquaponics',$data);
+    }
 }

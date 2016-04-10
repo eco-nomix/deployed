@@ -465,6 +465,11 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('linkshouse',$data);
     }
+    public function traininglinks(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('traininglinks',$data);
+    }
     public function introduction(Request $request)
     {
         $data = $this->userData($request);

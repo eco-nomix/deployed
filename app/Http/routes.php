@@ -109,6 +109,7 @@ Route::get('/contact',['as' => 'contact','uses'=>'PagesController@contact']);
 Route::get('/water',['as' => 'water','uses'=>'PagesController@water']);
 Route::get('/homepage/{userId}',['as' => 'homepage','uses'=>'PagesController@homepage']);
 Route::get('/money/{userId}',['as' => 'money','uses'=>'PagesController@money']);
+Route::get('/traininglinks',['as' => 'traininglinks','uses'=>'PagesController@traininglinks']);
 Route::get('/linksfood',['as' => 'linksfood','uses'=>'PagesController@linksfood']);
 Route::get('/linkswater',['as' => 'linkswater','uses'=>'PagesController@linkswater']);
 Route::get('/linksenergy',['as' => 'linksenergy','uses'=>'PagesController@linksenergy']);

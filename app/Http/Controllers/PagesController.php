@@ -511,4 +511,15 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('linksaquaponics',$data);
     }
+
+    public function linksbeekeeping(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksbeekeeping',$data);
+    }
+    public function linksbiogas(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('linksbiogas',$data);
+    }
 }

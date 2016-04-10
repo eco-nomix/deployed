@@ -17,9 +17,26 @@
             <div class="panel panel-default display">
                 <div class="panel-heading">Links for Poultry - click to view</div>
                 <div class="panel-body">
-                     <div class="form-group col-md-12 " onclick="updateyoutube('')">
-
+                     <div class="form-group col-md-12 " onclick="updateyoutube('3EE5WKQMBek')">
+                        My "Secret" Chicken Feed Mix!
                     </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('B5VAYqtQRro')">
+                        Raising Chickens for Eggs
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('WsZM6DG7Qxw')">
+                        How to Raise Chickens Made Easy - Gathering Eggs
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('msko6-fbLoE')">
+                        How to raise Chickens, incubation, rearing, feeding, houseing, Chicks Hatching
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('3uWLKeEf-jI')">
+                        First Time Butchering Chickens
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('PJxwCkOaL9E')">
+                        How I Built My Chicken Coop Step by Step- DIY
+                    </div>
+
+
                 </div>
             </div>
 

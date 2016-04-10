@@ -18,17 +18,17 @@
                 <div class="panel-heading">Links for Cooking Systems - click to view</div>
                 <div class="panel-body">
                                                                                                                                                                                              {{--</div>                                                                                                                                                                                  </div>--}}
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        1
+                    <div class="form-group col-md-12 " onclick="updateyoutube('P0qDmHA1zHI')">
+                       JetBoil Flash - Personal Cooking System
                     </div>
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        2
+                    <div class="form-group col-md-12 " onclick="updateyoutube('M8Nb39ADBqQ')">
+                        Rice Cooking Systems
                     </div>
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        3
+                    <div class="form-group col-md-12 " onclick="updateyoutube('TPcLn4ZKAtw')">
+                       NuWave PIC
                     </div>
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        4
+                    <div class="form-group col-md-12 " onclick="updateyoutube('TX7kwfE3cJQ')">
+                       How Cooking Can Change Your Life - Michael Pollan
                     </div>
 
                 </div>

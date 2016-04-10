@@ -125,6 +125,8 @@ Route::get('/links/poultry',['as' => 'linkshouse','uses'=>'PagesController@links
 Route::get('/links/livestock',['as' => 'linkshouse','uses'=>'PagesController@linkslivestock']);
 Route::get('/links/protection',['as' => 'linkshouse','uses'=>'PagesController@linksprotection']);
 Route::get('/links/orchards',['as' => 'linkshouse','uses'=>'PagesController@linksorchards']);
+Route::get('/links/beekeeping',['as' => 'linkshouse','uses'=>'PagesController@linksbeekeeping']);
+Route::get('/links/biogas',['as' => 'linkshouse','uses'=>'PagesController@linksbiogas']);
 Route::get('/intro',['as'=>'introduction','uses'=>'PagesController@introduction']);
 /*
 |--------------------------------------------------------------------------

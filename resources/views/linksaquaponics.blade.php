@@ -29,6 +29,13 @@
                     <div class="form-group col-md-12 " onclick="updateyoutube('wpGwK81tOIs')">
                         Backyard Urban Aquaponics Farm Grow 3000 heads of Lettuce A Month
                     </div>
+                    <div class="form-group col-md-12 " onclick="updateyoutube('G_rW_UNhmfQ')">
+                        Aquaponics System Design - Tips and Tricks
+                    </div>
+                    <div class="form-group col-md-12 " onclick="updateyoutube('J4i-jZoynUs')">
+                        Automatic Bell Siphon Aquaponics Tips & Tricks
+                    </div>
+
                 </div>
             </div>
 

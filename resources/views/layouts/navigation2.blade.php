@@ -30,8 +30,10 @@
                         <li><a href="/links/aquaponics">Aquaponics</a></li>
                         <li><a href="/links/poultry">Poultry</a></li>
                         <li><a href="/links/livestock">Livestock</a></li>
+                        <li><a href="/links/beekeeping">Beekeeping</a></li>
                         <li><a href="/links/water">Water</a></li>
                         <li><a href="/links/energy">Energy Production</a></li>
+                        <li><a href="/links/biogas">Biogas</a></li>
                         <li><a href="/links/recycling">Recycling</a></li>
                         <li><a href="/links/camping">Survival, Camping</a></li>
                         <li><a href="/links/cooking">Cooking Systems</a></li>

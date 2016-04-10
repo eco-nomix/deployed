@@ -18,17 +18,17 @@
                 <div class="panel-heading">Links for Recycling - click to view</div>
                 <div class="panel-body">
                                                                                                                                                                                              {{--</div>                                                                                                                                                                                  </div>--}}
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        1
+                    <div class="form-group col-md-12 " onclick="updateyoutube('eym10GGidQU')">
+                       How This Town Produces No Trash
                     </div>
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        2
+                    <div class="form-group col-md-12 " onclick="updateyoutube('4xEVsrwmPTY')">
+                        Scrap Metal - How to make money Scraping & Recycling Metal, Tricks and Tips
                     </div>
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        3
+                    <div class="form-group col-md-12 " onclick="updateyoutube('jHx95PQIl4k')">
+                        Aluminum Recycling
                     </div>
-                    <div class="form-group col-md-12 " onclick="updateyoutube('')">
-                        4
+                    <div class="form-group col-md-12 " onclick="updateyoutube('TJqpXdMHNTM')">
+                        20 Ideas of How to Reuse and Recycle Old Tires
                     </div>
 
                 </div>

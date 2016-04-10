@@ -17,9 +17,28 @@
             <div class="panel panel-default display">
                 <div class="panel-heading">Links for Livestock - click to view</div>
                 <div class="panel-body">
-                     <div class="form-group col-md-12 " onclick="updateyoutube('')">
-
+                     <div class="form-group col-md-12 " onclick="updateyoutube('-8OrvLeUVl4')">
+                        Small Scale Integrated Livestock Farm
                     </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('swyyZgXkr9E')">
+                        Livestock Fence Bracing and Stretching
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('K1sEpGxeTsg')">
+                        Urban Survival Livestock:  Raising Rabbits
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('3kQ27JlEEls')">
+                        How to Choose Livestock For Your Homestead
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('z9EGqv-5Wbc')">
+                        Finding Free Livestock Food
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('oqdw2uoAa4k')">
+                        Quit Your Job and Become a Farmer 7 Small Farm Ideas
+                    </div>
+                     <div class="form-group col-md-12 " onclick="updateyoutube('SmH9FsnTrTQ')">
+                        A Basic Introduction to Raising Goats
+                    </div>
+
                 </div>
             </div>
 

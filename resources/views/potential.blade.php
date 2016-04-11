@@ -58,7 +58,7 @@
                               </ul>
                           </div>
                           <div class="form-group col-md-12 ">
-                            At this point lets say they were averaging $20 per month in purchases.  (Within a year I expect to have over 1000 products, so I hope this average is a bit higher)
+                            At this point lets say your downline members were averaging $20 per month in purchases from Eco-nomix.  (Within a year I expect to have over 1000 products, so I hope this average is a bit higher)
                                That would be a total of $20,480 in purchases across your organization, but that would be over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,
                                but most people if they are interested will recruit not just 1 per month but higher.  Then the numbers get really crazy.
 
@@ -74,7 +74,7 @@
                            </div>
 
                            <div class="form-group col-md-12 ">
-                               What are you willing to put into it to help your organization grow?  Maybe two business cards per month?  How about more,  especially if you can teach those that you recruit that work ethic.  Make it happen,  It really is possible.
+                               What are you willing to put into it to help your organization grow?  Maybe two business cards per month?  How about more,  especially if you can teach those that you recruit that same work ethic.  Make it happen,  It really is possible.
                            </div>
 
                  </div>

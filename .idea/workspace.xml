@@ -3,21 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/energy.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksaquaponics.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksaquaponics.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linkscooking.blade.php" afterPath="$PROJECT_DIR$/resources/views/linkscooking.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksenergy.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksenergy.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksfood.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksfood.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksgardening.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksgardening.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksgreenhouses.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksgreenhouses.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linkslivestock.blade.php" afterPath="$PROJECT_DIR$/resources/views/linkslivestock.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksorchards.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksorchards.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linkspoultry.blade.php" afterPath="$PROJECT_DIR$/resources/views/linkspoultry.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksprotection.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksprotection.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linksrecycling.blade.php" afterPath="$PROJECT_DIR$/resources/views/linksrecycling.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/linkswater.blade.php" afterPath="$PROJECT_DIR$/resources/views/linkswater.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/plans.blade.php" afterPath="$PROJECT_DIR$/resources/views/plans.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/potential.blade.php" afterPath="$PROJECT_DIR$/resources/views/potential.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,31 +50,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkspoultry.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/linkspoultry.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="1972">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linksenergy.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linksenergy.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/linksenergy.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6611111" vertical-offset="544" max-vertical-offset="1768">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1768">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkslivestock.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/linkslivestock.blade.php">
+      <file leaf-file-name="plans.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/plans.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="2040">
-              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1496">
+              <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="potential.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51944447" vertical-offset="2210" max-vertical-offset="3128">
+              <caret line="76" column="215" selection-start-line="76" selection-start-column="215" selection-end-line="76" selection-end-column="215" />
               <folding />
             </state>
           </provider>
@@ -171,7 +159,6 @@
         <option value="$PROJECT_DIR$/resources/views/limitations.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/accounting.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/transfers.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/potential.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/comparison.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" />
         <option value="$PROJECT_DIR$/app/Models/Roles.php" />
@@ -186,7 +173,6 @@
         <option value="$PROJECT_DIR$/resources/views/linksrecooking.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/introduction.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/traininglinks.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/plans.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/purpose.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/products.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/people.blade.php" />
@@ -210,6 +196,8 @@
         <option value="$PROJECT_DIR$/resources/views/linksprotection.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/linkswater.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/linksenergy.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/plans.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/potential.blade.php" />
       </list>
     </option>
   </component>
@@ -576,7 +564,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46985647" sideWeight="0.5002849" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -847,14 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/plans.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1496">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/purpose.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1496">
@@ -1055,8 +1035,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/linksenergy.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6611111" vertical-offset="544" max-vertical-offset="1768">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1768">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/plans.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1496">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51944447" vertical-offset="2210" max-vertical-offset="3128">
+          <caret line="76" column="215" selection-start-line="76" selection-start-column="215" selection-end-line="76" selection-end-column="215" />
           <folding />
         </state>
       </provider>

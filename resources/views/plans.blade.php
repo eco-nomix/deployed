@@ -15,7 +15,7 @@
                         The Goal of Eco-nomix is to provide the products, training and service that will enable individuals, families and communities to become more prepared for the tough times ahead of us.  We anticipate major changes in society around us, and most of what we see concerns us.
                     </div>
                     <div class="form-group col-md-12 ">
-                        To reach the greatest number of people possible a new form of multi-level marketing was created, one that eliminated all of the negative aspects of multi-level marketing, but preserving the essential ability of impacting in a positive way the maximum number of people.
+                        To reach the greatest number of people possible, a new form of multi-level marketing was created, one that eliminated all of the negative aspects of multi-level marketing, but preserving the essential ability of impacting in a positive way the maximum number of people.
                     </div>
                     <div class="form-group col-md-12 ">
                         No investment, no monthly purchase of products, and no hard sell.

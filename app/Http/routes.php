@@ -13,6 +13,15 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
+
+Route::get('/sitemap', function()
+{
+    $file = public_path(). "/download/sitemap.xml";  // <- Replace with the path to your .xml file
+    if (file_exists($file)) {
+        $content = file_get_contents($file);
+       return Response::make($content, 200, array('content-type'=>'application/xml'));
+    }
+});
 Route::get('/jaylogs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 Route::get('/testmail',function()
 {
@@ -128,6 +137,7 @@ Route::get('/links/orchards',['as' => 'linkshouse','uses'=>'PagesController@link
 Route::get('/links/beekeeping',['as' => 'linkshouse','uses'=>'PagesController@linksbeekeeping']);
 Route::get('/links/biogas',['as' => 'linkshouse','uses'=>'PagesController@linksbiogas']);
 Route::get('/intro',['as'=>'introduction','uses'=>'PagesController@introduction']);
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

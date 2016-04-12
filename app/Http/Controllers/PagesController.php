@@ -522,4 +522,5 @@ class PagesController extends Controller
         $data = $this->userData($request);
         return view('linksbiogas',$data);
     }
+
 }

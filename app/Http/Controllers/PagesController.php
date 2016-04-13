@@ -34,6 +34,8 @@ class PagesController extends Controller
         $data['userRoles'] = $roles;
         $data['economix_url'] = 'test';
         $data['homePage'] = 'homePage';
+        $data['title'] = '';
+        $data['description'] = '';
         return $data;
     }
 
@@ -62,7 +64,8 @@ class PagesController extends Controller
             that we choose to purchase will impact not only our own lives, but
             the lives of all the people on this planet.';
         }
-
+        $data['title'] = 'Economix';
+        $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
         return view('welcome',$data);
     }
     public function test(Request $request)
@@ -90,33 +93,51 @@ class PagesController extends Controller
             that we choose to purchase will impact not only our own lives, but
             the lives of all the people on this planet.';
         }
+        $data['title'] = 'Economix';
+        $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
+
         return view('welcome2',$data);
     }
     public function about(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix';
+        $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
+
         return view('about',$data);
     }
     public function accounting(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Accounting';
+        $data['description'] = 'Accounting';
+
         return view('accounting',$data);
     }
 
     public function autoship(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Autoship';
+        $data['description'] = 'Autoship Policy';
+
         return view('autoship',$data);
     }
 
     public function benefits(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Member Benefits';
+        $data['description'] = 'Economix Member Benefits';
+
         return view('benefits',$data);
     }
     public function businesscards(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Business Cards';
+        $data['description'] = 'Economix Business Cards';
+
         return view('businesscards',$data);
     }
 
@@ -131,12 +152,18 @@ class PagesController extends Controller
         }
         $data = $this->userData($request);
         $data['ReferralLink'] = $referralLink;
+        $data['title'] = 'Economix Referral Links';
+        $data['description'] = 'Economix Referral Links';
+
         return view('referrallinks',$data);
     }
 
     public function selfreliance(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Self Reliance';
+        $data['description'] = 'Economix Self Reliance';
+
         return view('self_reliance',$data);
     }
     public function addBlanks($results,$modd)
@@ -161,101 +188,157 @@ class PagesController extends Controller
         $subGroup = $request->input('ProductGroupList')?:23;
         $data['Categories'] = $this->productCategories(7,$subGroup);
         $data['productSummary'] = $this->productSummary($subGroup);
+        $data['title'] = 'Economix Books';
+        $data['description'] = 'Economix Books';
 
         return view('books',$data);
     }
     public function camping(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Camping Products';
+        $data['description'] = 'Economix Camping Products';
+
         return view('camping',$data);
     }
     public function charities(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Charitable Donations';
+        $data['description'] = 'Economix Charitable Donations';
+
         return view('charities',$data);
     }
     public function cooking(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Cooking Products';
+        $data['description'] = 'Economix Cooking Products';
+
         return view('cooking',$data);
     }
 
     public function comparison(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Multi-Level Comparison';
+        $data['description'] = 'Economix Multi-Level Comparison';
+
         return view('comparison',$data);
     }
     public function contact(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Contact';
+        $data['description'] = 'Economix Contact';
+
         return view('contact',$data);
     }
     public function debitcards(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Payroll Cards';
+        $data['description'] = 'Economix Payroll Cards';
+
         return view('debitcards',$data);
     }
 
     public function discount(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Member Discount';
+        $data['description'] = 'Economix Member Discount';
+
         return view('discount',$data);
     }
 
     public function donations(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Charitable Donations';
+        $data['description'] = 'Economix Charitable Donations';
+
         return view('donations',$data);
     }
     public function economically(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix economical benefit';
+        $data['description'] = 'Economix Business Cards';
+
         return view('economically',$data);
     }
     public function emotionally(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Emotional Benefits';
+        $data['description'] = 'Economix Emotional Benefits';
+
         return view('emotionally',$data);
     }
     public function energy(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Energy Products';
+        $data['description'] = 'Economix Energy Products';
+
         return view('energy',$data);
     }
     public function experiences(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Member Experiences';
+        $data['description'] = 'Economix Member Experiences';
+
         return view('experiences',$data);
     }
     public function food(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Food Products';
+        $data['description'] = 'Economix Food Products';
+
         return view('food',$data);
     }
     public function founders(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Founders';
+        $data['description'] = 'Economix Founders';
+
         return view('founders',$data);
     }
     public function groups(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Sponsored Groups';
+        $data['description'] = 'Economix Sponsored Groups';
+
         return view('groups',$data);
     }
     public function health(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Health Products';
+        $data['description'] = 'Economix Health Products';
+
         return view('health',$data);
     }
 
     public function house(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Household Products';
+        $data['description'] = 'Economix Household Products';
+
         return view('house',$data);
     }
     public function homepage(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Member Homepage';
+        $data['description'] = 'Economix Member Homepage';
+
         return view('homepage',$data);
     }
 
@@ -268,6 +351,9 @@ class PagesController extends Controller
     public function limitations(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Limitations on Marketing';
+        $data['description'] = 'Economix Limitations on Marketing';
+
         return view('limitations',$data);
     }
     public function logout(Request $request)
@@ -278,12 +364,18 @@ class PagesController extends Controller
     public function members(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Members';
+        $data['description'] = 'Economix Members';
+
         return view('members',$data);
     }
 
     public function membercost(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Member Cost';
+        $data['description'] = 'Economix Member Cost';
+
         return view('membercost',$data);
     }
     public function money(Request $request)
@@ -295,22 +387,34 @@ class PagesController extends Controller
     public function people(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix People Involved';
+        $data['description'] = 'Economix People Involved';
+
         return view('people',$data);
     }
     public function physically(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Physical Benefits';
+        $data['description'] = 'Economix Physical Benefits';
+
         return view('physically',$data);
     }
     public function plans(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Business Plan';
+        $data['description'] = 'Economix Business Plan';
+
         return view('plans',$data);
     }
 
     public function potential(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Potential Income';
+        $data['description'] = 'Economix Potential Income';
+
         return view('potential',$data);
     }
 
@@ -320,11 +424,17 @@ class PagesController extends Controller
         $product = Products::find($productId);
         $data['ItemCount'] = $this->itemCount($request);
         $data['Product'] = $product;
+        $data['title'] = $product->product_name;
+        $data['description'] = $product->description;
+
         return view($product->display_page,$data);
     }
     public function products(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Products';
+        $data['description'] = 'Economix Products';
+
         return view('products',$data);
     }
     public function prepareSelect($productGroups, $selected)
@@ -381,145 +491,229 @@ class PagesController extends Controller
     public function purpose(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Purpose';
+        $data['description'] = 'Spiritual, Economic, Physical, Emotional';
+
         return view('purpose',$data);
     }
     public function recycling(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Recycling Products';
+        $data['description'] = 'Economix Recycling Products';
+
         return view('recycling',$data);
     }
     public function referral(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Referral Bonuses';
+        $data['description'] = 'Economix Referral Bonuses';
+
         return view('referral',$data);
     }
     public function requirements(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Requirements for Bonuses';
+        $data['description'] = 'Economix Requirements for Bonuses';
+
         return view('requirements',$data);
     }
 
     public function selection(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Product Selection';
+        $data['description'] = 'Economix Product Selection';
+
         return view('selection',$data);
     }
     public function spiritually(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Spiritual Benefits';
+        $data['description'] = 'Economix Spiritual Benefits';
+
         return view('spiritually',$data);
     }
     public function training(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Training Products';
+        $data['description'] = 'Economix Training Products';
+
         return view('training',$data);
     }
 
     public function transfers(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Immediate Transfer of Funds';
+        $data['description'] = 'Economix Immediate Transfer of Funds';
+
         return view('transfers',$data);
     }
     public function water(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Water Purification Products';
+        $data['description'] = 'Economix Water Purification Products';
+
         return view('water',$data);
     }
     public function linksfood(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Food Production';
+        $data['description'] = 'Economix Video Food Production';
+
         return view('linksfood',$data);
     }
     public function linkswater(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Water Purification';
+        $data['description'] = 'Economix Video Water Purification';
+
         return view('linkswater',$data);
     }
     public function linksenergy(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Energy Production';
+        $data['description'] = 'Solar, Water, Bio-gas Videos';
+
         return view('linksenergy',$data);
     }
     public function linksrecycling(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Recycling';
+        $data['description'] = 'Economix Video Recycling';
+
         return view('linksrecycling',$data);
     }
     public function linkscamping(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Camping and Survival';
+        $data['description'] = 'Video Camping and Survival';
+
         return view('linkscamping',$data);
     }
     public function linkscooking(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Cooking Systems';
+        $data['description'] = 'Cooking Systems';
+
         return view('linkscooking',$data);
     }
     public function linkshealth(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Healthy Lifestyles';
+        $data['description'] = 'Video Health Lifestyles';
+
         return view('linkshealth',$data);
     }
     public function linkshouse(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Household Products';
+        $data['description'] = 'Video Household Products';
+
         return view('linkshouse',$data);
     }
     public function traininglinks(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Training Links';
+        $data['description'] = 'Video Training Links';
+
         return view('traininglinks',$data);
     }
     public function introduction(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Introduction to Marketing Plan';
+        $data['description'] = 'Introduction to Marketing Plan';
+
         return view('introduction',$data);
     }
     public function linksgardening(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Gardening';
+        $data['description'] = 'Video Gardening';
+
         return view('linksgardening',$data);
     }
     public function linksgreenhouses(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Greenhouses';
+        $data['description'] = 'Video Greenhouses';
+
         return view('linksgreenhouses',$data);
     }
 
     public function linkspoultry(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Poultry Raising';
+        $data['description'] = 'Video Poultry Raising';
+
         return view('linkspoultry',$data);
     }
     public function linkslivestock(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Raising Livestock';
+        $data['description'] = 'Raising Livestock';
+
         return view('linkslivestock',$data);
     }
     public function linksprotection(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Home Protection';
+        $data['description'] = 'Video Home Protection';
+
         return view('linksprotection',$data);
     }
     public function linksorchards(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Orchard Management';
+        $data['description'] = 'Video Orchard Management';
+
         return view('linksorchards',$data);
     }
     public function linksaquaponics(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Aquaponics Systems';
+        $data['description'] = 'Video Aquaponics Systems';
+
         return view('linksaquaponics',$data);
     }
 
     public function linksbeekeeping(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Beekeeping';
+        $data['description'] = 'Video Beekeeping';
+
         return view('linksbeekeeping',$data);
     }
     public function linksbiogas(Request $request)
     {
         $data = $this->userData($request);
+        $data['title'] = 'Economix Video Bio-Gas Digestors';
+        $data['description'] = 'Video Bio-Gas Digestors';
+
         return view('linksbiogas',$data);
     }
 

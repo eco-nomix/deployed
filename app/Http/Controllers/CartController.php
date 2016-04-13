@@ -71,6 +71,7 @@ class CartController extends Controller
         $data['userRoles'] = $roles;
         $data['economix_url'] = 'test';
         $data['homePage'] = 'homePage';
+        $data['title'] = '';
         return $data;
     }
 

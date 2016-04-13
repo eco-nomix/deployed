@@ -3,7 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <title>@section('head_title')</title>
+    <title>{{ $title }}</title>
+    <meta name="description" content="@if($description){{$description}}@endif">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" type="text/css" href="/css/editable.css">

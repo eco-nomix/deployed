@@ -28,6 +28,7 @@ class AuthenticationController extends Controller
         $data['user_name']='';
         $data['userRoles'] = $this->getUserRoles('x');
         $data['errors'] = '';
+        $data['title'] = '';
         return view('login',$data);
     }
 
@@ -41,6 +42,7 @@ class AuthenticationController extends Controller
         $data['username'] = '';
         $data['userRoles'] = $this->getUserRoles('x');
         $data['user_id'] = '';
+        $data['title'] = '';
         return view('welcome2',$data);
     }
 
@@ -78,6 +80,7 @@ class AuthenticationController extends Controller
             $data['user_name'] = '';
             $data['user_id'] = '';
             $data['userId'] = $user->id;
+            $data['title'] = '';
             \Log::info("exit 1");
             return view('welcome2',$data);
         }
@@ -99,6 +102,7 @@ class AuthenticationController extends Controller
         $data['userRoles'] = $this->getUserRoles('x');
         $data['user_id'] = '';
         $data['errors'] = 'Password or Username incorrect';
+        $data['title'] = '';
         \Log::info("exit 2");
     return view('login',$data);
     }
@@ -133,6 +137,7 @@ class AuthenticationController extends Controller
         $data['user_name'] = $username;
         $data['userRoles'] = $roles;
         $data['user_id'] = $user->id;
+        $data['title'] = '';
         \Log::info("exit 1");
         return view('welcome2',$data);
     }
@@ -162,6 +167,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = '';
         $data['userRoles'] = $this->getUserRoles('x');
         $data['errors']= [] ;
+        $data['title'] = '';
         $userId = $request->session()->get('user_id');
         if($userId){
             $user = Users::find($userId);
@@ -232,6 +238,7 @@ class AuthenticationController extends Controller
                 $data = $this->basedata();
                 $data['username'] = '';
                 $data['user_name'] = '';
+                $data['title'] = '';
                 $data['userRoles'] = $this->getUserRoles('x');
                 $data['user_id'] = '';
                 return view('register',$data);
@@ -246,6 +253,7 @@ class AuthenticationController extends Controller
         $data['user_name'] = '';
         $data['userRoles'] = $this->getUserRoles('x');
         $data['user_id'] = '';
+        $data['title'] = '';
         \Log::info("exit 1");
         return view('register2',$data);
     }
@@ -295,6 +303,7 @@ class AuthenticationController extends Controller
                 $data['user_id'] = $user->id;
                 $data['userRoles'] = $this->getUserRoles($user->id);
                 $data['userId'] = $user->id;
+                $data['title'] = '';
                 \Log::info("exit 1");
                 $user->member = 4;
                 $user->save();
@@ -305,6 +314,7 @@ class AuthenticationController extends Controller
             $data['user_name'] = '';
             $data['userRoles'] = $this->getUserRoles('x');
             $data['user_id'] = '';
+            $data['title'] = '';
             \Log::info("exit 1");
             return view('payment',$data);
         }
@@ -344,6 +354,7 @@ class AuthenticationController extends Controller
             $data['user_id'] = $user->id;
             $data['username'] = $username;
             $data['email'] = $user->email;
+            $data['title'] = '';
             return view('thankyou', $data);
         }
     }
@@ -379,6 +390,7 @@ class AuthenticationController extends Controller
             $data['user_name'] = '';
             $data['userRoles'] = $this->getUserRoles('x');
             $data['user_id'] = '';
+            $data['title'] = '';
             \Log::info("exit 3");
             return view('reset',$data);
         }
@@ -389,6 +401,7 @@ class AuthenticationController extends Controller
             $data['userRoles'] = $this->getUserRoles('x');
             $data['username']=$userName;
             $data['errors'] = 'UserName not in system';
+            $data['title'] = '';
             \Log::info("exit 4");
             return view('login',$data);
         }
@@ -402,6 +415,7 @@ class AuthenticationController extends Controller
         $data['message'] = 'Eco-nomix System\'s purpose is to provide the highest
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
+        $data['title'] = '';
         return $data;
     }
 
@@ -470,6 +484,7 @@ class AuthenticationController extends Controller
                 $data['user_name'] = '';
 
                 $data['user_id'] = '';
+                $data['title'] = '';
                 $request->session()->set('user_id', $user->id);
                 $request->session()->save();
                 return view('email_verification_continue',$data);
@@ -479,7 +494,7 @@ class AuthenticationController extends Controller
                 $data= $this->basedata();
                 $data['username'] = '';
                 $data['user_name'] = '';
-
+                $data['title'] = '';
                 $data['user_id'] = '';
                 return view('email_verification_bad',$data);
             }
@@ -488,7 +503,7 @@ class AuthenticationController extends Controller
             //email link tweaked
             $data= $this->basedata();
             $data['username'] = '';
-
+            $data['title'] = '';
             $data['user_name'] = '';
             $data['user_id'] = '';
             return view('email_verification_bad',$data);
@@ -564,6 +579,7 @@ class AuthenticationController extends Controller
         $data['username'] = '';
         $data['user_name'] = '';
         $data['user_id'] = '';
+        $data['title'] = '';
         $data['email'] = $user->email;
         return view('email_verification',$data);
     }
@@ -762,6 +778,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = $user->id;
         $data['username'] = $username;
         $data['email'] = $user->email;
+        $data['title'] = '';
         return $data;
     }
 
@@ -857,6 +874,7 @@ class AuthenticationController extends Controller
         $data['user_name'] = $request->session()->get('user_name');
         $data['userRoles'] = $request->session()->get('userRoles');
         $data['user_id'] = $request->session()->get('user_id');
+        $data['title'] = '';
         return view('myaccounting',$data);
     }
 

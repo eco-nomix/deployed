@@ -424,7 +424,7 @@ class PagesController extends Controller
         $product = Products::find($productId);
         $data['ItemCount'] = $this->itemCount($request);
         $data['Product'] = $product;
-        $data['title'] = $product->product_name;
+        $data['title'] = $product->product_name.' - '.$product->Author;
         $data['description'] = $product->description;
 
         return view($product->display_page,$data);

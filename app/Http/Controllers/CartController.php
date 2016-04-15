@@ -72,6 +72,7 @@ class CartController extends Controller
         $data['economix_url'] = 'test';
         $data['homePage'] = 'homePage';
         $data['title'] = '';
+        $data['description'] = 'Cart';
         return $data;
     }
 

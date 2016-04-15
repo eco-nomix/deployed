@@ -281,6 +281,7 @@ class AdminController extends Controller
         $data['userRoles'] = $roles;
         $data['economix_url'] = 'test';
         $data['homePage'] = 'homePage';
+        $data['description'] = 'Admin';
         return $data;
     }
     public function productsStart(Request $request)

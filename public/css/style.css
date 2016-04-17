@@ -44,6 +44,35 @@
 
 }
 
+.action {
+     position: absolute;
+     left: 200px;
+     top: 50px;
+     width:800px;
+     font-weight:bold;
+     color:#c0c0c0;
+     font-family: 'Brush Script MT', cursive;
+     font-size: 35px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 500;
+     line-height: 23px;
+ }
+.action2 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width:700px;
+    font-weight:bold;
+    color:#c0c0c0;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
 .message2 {
     margin:10px;
     font-weight:bold;
@@ -56,6 +85,9 @@
     line-height: 23px;
 
 
+}
+.center {
+   text-align:center;
 }
 
 .display {

@@ -472,9 +472,25 @@ class AuthenticationController extends Controller
         else{
             $request->session()->set('referralId', '');
         }
-        $pages = new PagesController;
-        \Log::info("cookie set to $userId");
-        return $pages->test($request);
+        $userName = $request->input('user_name');
+        $data['username']=$userName;
+        $data['reset'] = '';
+        $data['user_name']='';
+        $data['userRoles'] = $this->getUserRoles('x');
+        $data['errors'] = '';
+        $data['title'] = 'Opportunity';
+        $data['description'] = 'Opportunity to Change Your Life';
+        $data['imageUrl'] = '../images/Depositphotos_16370783_l-2015.jpg';
+        $data['message'] = 'An Opportunity to Change Your Life! ';
+        $data['message2'] = 'What we choose to do today will start out small
+            like a seedling, but over time can become great for all the world to
+            see.';
+        $data['image2'] = '../images/red_down_arrow.png';
+        return view('action',$data);
+
+     //   $pages = new PagesController;
+     //   \Log::info("cookie set to $userId");
+     //   return $pages->test($request);
 
     }
 

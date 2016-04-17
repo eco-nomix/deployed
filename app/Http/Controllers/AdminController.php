@@ -51,6 +51,8 @@ class AdminController extends Controller
 
         $data = $this->userData($request);
         $data['selectNames'] = $result;
+        $data['title'] = 'Admin';
+        $data['description'] = 'Admin';
         return view('configuration',$data);
     }
 
@@ -79,9 +81,13 @@ class AdminController extends Controller
             }
             $data['MemberRoles'] = $result;
             $data['SponsorId'] = $editUser->sponsor_id;
+            $data['title'] = 'Admin';
+            $data['description'] = 'Admin';
             return view('configUser', $data);
         }else{
             $data['selectNames'] = '';
+            $data['title'] = 'Admin';
+            $data['description'] = 'Admin';
             return view('configuration',$data);
         }
     }
@@ -110,6 +116,8 @@ class AdminController extends Controller
         $this->updateDownStream($userId);
         $data = $this->userData($request);
         $data['selectNames'] = '';
+        $data['title'] = 'Admin';
+        $data['description'] = 'Admin';
         return view('configuration',$data);
     }
 
@@ -205,9 +213,13 @@ class AdminController extends Controller
                 $result .= "<option value='$status->member_status' $selected>$status->description</option>";
             }
             $data['MemberStatus'] = $result;
+            $data['title'] = 'Admin';
+            $data['description'] = 'Admin';
             return view('editUser', $data);
         }else{
             $data['selectNames'] = '';
+            $data['title'] = 'Admin';
+            $data['description'] = 'Admin';
             return view('management',$data);
         }
     }
@@ -234,6 +246,8 @@ class AdminController extends Controller
         $editUser->save();
         $data = $this->userData($request);
         $data['selectNames'] = '';
+        $data['title'] = 'Admin';
+        $data['description'] = 'Admin';
         return view('management',$data);
     }
 
@@ -254,6 +268,8 @@ class AdminController extends Controller
 
         $data = $this->userData($request);
         $data['selectNames'] = $result;
+        $data['title'] = 'Admin';
+        $data['description'] = 'Admin';
         return view('management',$data);
     }
 
@@ -261,6 +277,8 @@ class AdminController extends Controller
     {
         $data = $this->userData($request);
         $data['selectNames'] = '';
+        $data['title'] = 'Admin';
+        $data['description'] = 'Admin';
         return view('management',$data);
     }
 
@@ -296,6 +314,8 @@ class AdminController extends Controller
         $data['ProductGroups'] = $this->productGroups($productGroup);
         $subGroup = $request->input('SubGroupList')?:9;
         $data['ProductSubgroups'] = $this->productSubgroups($productGroup,$subGroup);
+        $data['title'] = 'Admin';
+        $data['description'] = 'Admin';
         return view('books',$data);
     }
 

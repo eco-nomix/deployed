@@ -2,7 +2,7 @@
 
 @section('content')
 
-        <div style="z-index:-5; top:0px; left:0px; position:absolute; border:black 2px solid; height:500px; width:900px; background-attachment:fixed; background-size:60% 55%; background-image:  url({{$imageUrl}}); ">
+        <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px; background-attachment:fixed; background-size:60% 55%; background-image:  url({{$imageUrl}}); ">
             <div class="action ">
               <p>{{$message}}</p>
             </div>
@@ -15,11 +15,11 @@
             </div>
         <div style=" height:800px;width:602px; top:0px; left:900px; position:absolute;">
 
-            <div style="border:blue 2px solid; height:355px;width:600px;   position:relative; top:0px; font-size:24pt;">
-                   <img src="{{$image2}}" height="350px">
+            <div style=" height:385px;width:600px;   position:relative; left:-50px; top:0px;">
+                   <img src="{{$image2}}" height="430px">
 
             </div>
-            <div style="border:green 2px solid; height:445px;width:600px;   position:relative;">
+            <div style=" height:445px;width:600px;   position:relative;">
               <div class="container-fluid">
                   <div class="row">
                       <div style="width:600px; ">
@@ -88,11 +88,12 @@
             </div>
 
         </div>
-        <div style="z-index:10; border:blue 2px solid; height:300px;width:900px; top:500px; left:0px; position:absolute;">
+        <div style="z-index:10; border:blue 2px solid; height:330px;width:900px; top:500px; left:0px; position:absolute; background:white;">
 
             <div style="z-index:12; font-size:16pt; color:Blue; left:250px; position:relative;">Success is designed into the System</div>
-            <div style="z-index:12; left:150px; position:relative;">
+            <div style="z-index:12; left:50px; width:750px; position:relative;">
              <ul style="font-size:12pt; font-weight:bold;">
+                    <li>Great Products to help you become More Self-Sufficient, improve your gardening experience, produce 100% organic foods, generate your own power, Free Video Training</li>
                     <li>No minimum personal sales requirements</li>
                     <li>No direct selling of products - all sales are done through the site</li>
                     <li>No collecting of money</li>

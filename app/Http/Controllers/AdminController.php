@@ -227,23 +227,27 @@ class AdminController extends Controller
     public function updateUser($userId,Request $request)
     {
 
-        $editUser = Users::find($userId);
-        $editUser->user_name = $request->input('username');
-        $editUser->password = $request->input('password');
-        $editUser->first_name = $request->input('first_name');
-        $editUser->last_name = $request->input('last_name');
-        $editUser->email = $request->input('email');
-        $editUser->home_phone = $request->input('home_phone');
-        $editUser->cell_phone = $request->input('cell_phone');
-        $editUser->addr1 = $request->input('addr1');
-        $editUser->addr2 = $request->input('addr2');
-        $editUser->city = $request->input('city');
-        $editUser->state = $request->input('state');
-        $editUser->postal_code = $request->input('postal_code');
-        $editUser->country = $request->input('country');
-        $editUser->social_security = $request->input('social_security');
-        $editUser->member = $request->input('member_status');
-        $editUser->save();
+        if($request->input('Delete')){
+            Users::find($userId)->delete();
+        }else {
+            $editUser = Users::find($userId);
+            $editUser->user_name = $request->input('username');
+            $editUser->password = $request->input('password');
+            $editUser->first_name = $request->input('first_name');
+            $editUser->last_name = $request->input('last_name');
+            $editUser->email = $request->input('email');
+            $editUser->home_phone = $request->input('home_phone');
+            $editUser->cell_phone = $request->input('cell_phone');
+            $editUser->addr1 = $request->input('addr1');
+            $editUser->addr2 = $request->input('addr2');
+            $editUser->city = $request->input('city');
+            $editUser->state = $request->input('state');
+            $editUser->postal_code = $request->input('postal_code');
+            $editUser->country = $request->input('country');
+            $editUser->social_security = $request->input('social_security');
+            $editUser->member = $request->input('member_status');
+            $editUser->save();
+        }
         $data = $this->userData($request);
         $data['selectNames'] = '';
         $data['title'] = 'Admin';

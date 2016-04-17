@@ -127,6 +127,9 @@
                                     <button type="submit" class="btn btn-primary">
                                         Update
                                     </button>
+                                     <button name='Delete' type="submit" value="Delete" class="btn btn-primary">
+                                         Delete
+                                     </button>
                                 </div>
                             </div>
                        </form>

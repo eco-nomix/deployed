@@ -1,4 +1,4 @@
-<?php
+public $timestamps = false;<?php
 
 namespace App\Models;
 
@@ -11,5 +11,5 @@ class CompanyPurchases extends Model
 
     protected $primaryKey = 'id';
 
-
+    public $timestamps = false;
 }

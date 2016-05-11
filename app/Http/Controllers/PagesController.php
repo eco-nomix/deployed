@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Models\ProductGroups;
 use App\Models\Products;
+use App\Models\Boutiques;
 use App\Models\ShoppingCarts;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -192,6 +193,16 @@ class PagesController extends Controller
         $data['description'] = 'Economix Books';
 
         return view('books',$data);
+    }
+
+    public function boutiques(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['boutiques'] = $this->boutiqueList();
+        $data['title'] = 'Boutiques';
+        $data['description'] = 'Member Boutiques';
+
+        return view('boutiques',$data);
     }
     public function camping(Request $request)
     {
@@ -458,6 +469,7 @@ class PagesController extends Controller
         return $select;
     }
 
+
     public function productSummary($subGroup)
     {
         $results = '';
@@ -715,6 +727,16 @@ class PagesController extends Controller
         $data['description'] = 'Video Bio-Gas Digestors';
 
         return view('linksbiogas',$data);
+    }
+
+    public function boutiqueList()
+    {
+//        $data = $this->userData($request);
+//        $data['title'] = 'Economix Video Bio-Gas Digestors';
+//        $data['description'] = 'Video Bio-Gas Digestors';
+//
+//        return view('linksbiogas',$data);
+        return Boutiques::orderBy('name')->get();
     }
 
 }

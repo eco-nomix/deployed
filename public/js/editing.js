@@ -104,3 +104,8 @@ function updateyouvimeo(src)
     iframe.src = "https://player.vimeo.com/video/"+src+"?color=e6d9c3&byine=0&portrait=0";
 
 }
+
+function editBoutique(sel){
+    var value = sel.value;
+    window.location = "/boutique/edit/"+value;
+}

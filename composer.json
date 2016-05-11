@@ -7,12 +7,15 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
+        "laravelcollective/html": "5.2.*",
         "rap2hpoutre/laravel-log-viewer": "^0.5.3",
-        "guzzlehttp/guzzle": "^6.1"
+        "guzzlehttp/guzzle": "^6.1",
+        "laracasts/flash": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
+        "laravelcollective/html": "^5.2",
         "phpunit/phpunit": "~4.0",
         "symfony/css-selector": "2.8.*|3.0.*",
         "symfony/dom-crawler": "2.8.*|3.0.*"

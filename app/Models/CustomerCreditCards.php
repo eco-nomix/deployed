@@ -11,5 +11,5 @@ class CustomerCreditCards extends Model
 
     protected $primaryKey = 'id';
 
-
+    public $timestamps = false;
 }

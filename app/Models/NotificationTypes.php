@@ -10,6 +10,6 @@ class NotificationTypes extends Model
     protected $table = 'notification_types';
 
     protected $primaryKey = 'id';
-
+    public $timestamps = false;
 
 }

@@ -11,5 +11,5 @@ class CommissionLevel extends Model
 
     protected $primaryKey = 'id';
 
-
+    public $timestamps = false;
 }

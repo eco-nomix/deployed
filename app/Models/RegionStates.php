@@ -11,5 +11,5 @@ class RegionStates extends Model
 
     protected $primaryKey = 'id';
 
-
+    public $timestamps = false;
 }

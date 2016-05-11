@@ -133,3 +133,16 @@ h2 {
     color:red;
     font-weight:bold;
 }
+
+.inline{
+    float:left;
+}
+.inline-right{
+    float:right;
+}
+
+.details{
+    color:black;
+    font-weight:normal;
+    font-size:12pt;
+}

@@ -14,4 +14,5 @@ class Bonuses extends Model
     protected $fillable = [
         'purchaser_id','transaction_id','transaction_details_id','payee_user_id','amount','level'
     ];
+    public $timestamps = false;
 }

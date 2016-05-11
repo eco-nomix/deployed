@@ -11,5 +11,5 @@ class ShoppingCartItems extends Model
 
     protected $primaryKey = 'id';
 
-
+    public $timestamps = false;
 }

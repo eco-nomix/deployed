@@ -95,6 +95,7 @@ Route::get('/food',['as' => 'food','uses'=>'PagesController@food']);
 Route::get('/autoship',['as' => 'autoship','uses'=>'PagesController@autoship']);
 Route::get('/books',['as' => 'books','uses'=>'PagesController@books']);
 Route::post('/books',['as' => 'books','uses'=>'PagesController@books']);
+Route::get('/boutiques',['as'=>'boutiques','uses'=>'PagesController@boutiques']);
 
 Route::get('/energy',['as' => 'energy','uses'=>'PagesController@energy']);
 Route::get('/recycling',['as' => 'recycling','uses'=>'PagesController@recycling']);
@@ -154,16 +155,28 @@ Route::get('/links/beekeeping',['as' => 'linkshouse','uses'=>'PagesController@li
 Route::get('/links/biogas',['as' => 'linkshouse','uses'=>'PagesController@linksbiogas']);
 Route::get('/intro',['as'=>'introduction','uses'=>'PagesController@introduction']);
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| This route group applies the "web" middleware group to every route
-| it contains. The "web" middleware group is defined in your HTTP
-| kernel and includes session state, CSRF protection, and more.
-|
-*/
+Route::get('/boutique/add',['as' => 'login','uses'=>'AuthenticationController@login']);
+Route::get('/boutique/add/{userId}',['as'=>'boutiqueadd','uses'=>'BoutiqueController@addboutique']);
+Route::post('/boutique/add/{userId}',['as'=>'boutiqueadd','uses'=>'BoutiqueController@saveboutique']);
+Route::get('/boutique/{boutiqueId}',['as'=>'boutique','uses'=>'BoutiqueController@boutique']);
+Route::get('/boutique/edit/{boutiqueId}',['as'=>'boutique','uses'=>'BoutiqueController@editboutique']);
+Route::post('/boutique/edit/{boutiqueId}',['as'=>'boutique','uses'=>'BoutiqueController@saveeditboutique']);
+Route::get('/boutique/addproduct/{boutiqueId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@addproducts']);
+Route::post('/boutique/addproduct/{boutiqueId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@addproduct']);
+Route::get('/boutique/{boutiqueId}/product/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@displayproduct']);
+Route::get('/boutique/{boutiqueId}/productedit/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@editproduct']);
+Route::post('/boutique/{boutiqueId}/productedit/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@saveeditproduct']);
+Route::get('/boutique/{boutiqueId}/delete_product/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@deleteproduct']);
+    /*
+    |--------------------------------------------------------------------------
+    | Application Routes
+    |--------------------------------------------------------------------------
+    |
+    | This route group applies the "web" middleware group to every route
+    | it contains. The "web" middleware group is defined in your HTTP
+    | kernel and includes session state, CSRF protection, and more.
+    |
+    */
 
 /*
 Route::controllers([

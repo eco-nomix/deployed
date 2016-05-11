@@ -10,7 +10,7 @@ class ShoppingCarts extends Model
     protected $table = 'shopping_carts';
 
     protected $primaryKey = 'id';
-
+    public $timestamps = false;
     public function addToCart($userId, $productId)
     {
         $item = ShoppingCartItems::where('shopping_cart_id', $this->id)

@@ -11,5 +11,5 @@ class WithdrawalReasons extends Model
 
     protected $primaryKey = 'id';
 
-
+    public $timestamps = false;
 }

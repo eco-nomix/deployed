@@ -11,5 +11,5 @@ class ShippingAddresses extends Model
 
     protected $primaryKey = 'id';
 
-
+    public $timestamps = false;
 }

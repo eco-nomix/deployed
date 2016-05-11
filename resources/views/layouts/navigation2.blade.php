@@ -102,7 +102,7 @@
 
                     <li><a href="/homepage/{{$user_id}}">{{$user_name}}<span class="caret"></span></a>
                         <ul>
-                            <li><a href="/homepage/{{$user_id}}">Home Page</a></li>
+                            <li><a href="/homepage/{{$user_id}}">Personal Info</a></li>
                             <li><a href="/organization">Organization</a></li>
                             <li><a href="/myaccounting">Accounting</a></li>
                             <li><a href="/logout2">Logout</a></li>

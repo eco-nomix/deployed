@@ -25,6 +25,7 @@
                                     <table width="100%" style="margin:4px;">
                                         <tr>
                                             <td>Botique: {{$boutique->name}}</td>
+                                            <td><img src="/images/{{$user->picture}}" width="200"></td>
                                         </tr>
                                         <tr>
                                             <td>&nbsp;</td>

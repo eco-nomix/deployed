@@ -168,6 +168,9 @@ Route::get('/boutique/{boutiqueId}/product/{productId}',['as'=>'boutiqueproduct'
 Route::get('/boutique/{boutiqueId}/productedit/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@editproduct']);
 Route::post('/boutique/{boutiqueId}/productedit/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@saveeditproduct']);
 Route::get('/boutique/{boutiqueId}/delete_product/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@deleteproduct']);
+
+Route::get('/onekind',['as'=>'onekind','uses'=>'BoutiqueController@onekind']);
+Route::get('/onekind/{productId}',['as'=>'onekind','uses'=>'BoutiqueController@onekindproduct']);
     /*
     |--------------------------------------------------------------------------
     | Application Routes

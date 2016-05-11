@@ -97,8 +97,8 @@
                                 <label class="col-md-4 control-label">One of a Kind</label>
                                 <div class="col-md-6">
                                     <select name="one_of_a_kind">
-                                        <option value="0">NO</option>
-                                        <option value="1">YES</option>
+                                        <option value="0" @if($Product->one_of_a_kind == 0) Selected @endif>NO</option>
+                                        <option value="1" @if($Product->one_of_a_kind == 1) Selected @endif>YES</option>
                                     </select>
                                 </div>
                             </div>

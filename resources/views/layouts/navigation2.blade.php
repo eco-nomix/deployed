@@ -9,6 +9,7 @@
                     <ul>
                         <li><a href="/selection">Product Selection</a></li>
                         <li><a href="/boutiques">Boutiques</a></li>
+                        <li><a href="/onekind">One of Kind</a></li>
                         <li><a href="/food">Food Production</a></li>
                         <li><a href="/water">Water Purification</a></li>
                         <li><a href="/energy">Energy Production</a></li>

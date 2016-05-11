@@ -58,6 +58,36 @@ class BoutiqueController extends Controller
         $results .= "</tr>";
         return $results;
     }
+    public function oneKindSummary()
+    {
+        $results = '';
+
+        $products = Products::where('one_of_a_kind',1)->orderBy('product_name')->get();
+        $results = '<tr>';
+        $ctr= 0;
+        $modd=0;
+        if(count($products)==0){
+            $results .= "<td>No Products in One of a Kind, Coming Soon</td>";
+            $ctr = 8;
+        }
+
+        foreach($products as $product){
+            $results .= "<td class='eighth'><a href=\"/onekind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td class='fifth' ><a href=\"/onekind/$product->id\">";
+            $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
+            $results .= substr($description,0,260)."...</a></td>";
+            $ctr++;
+            $ctr++;
+            $modd = $ctr % 6;
+            \Log::info("ctr=$ctr  mod=$modd");
+            if($modd == 0){
+                $results .= "</tr><tr>";
+            }
+        }
+        $results = $this->addBlanks($results,$modd);
+        $results .= "</tr>";
+        return $results;
+    }
     public function addBlanks($results,$modd)
     {
         if($modd >0){
@@ -74,9 +104,23 @@ class BoutiqueController extends Controller
         return $results;
     }
     public function displayproduct($boutiqueId, $productId, Request $request)
+{
+    $boutique = Boutiques::find($boutiqueId);
+    $product = Products::find($productId);
+    $user = Users::find($boutique->user_id);
+    $data = $this->userData($request);
+    $data['boutique'] = $boutique;
+    $data['user'] = $user;
+    $data['ItemCount'] = $this->itemCount($request);
+    $data['title'] = $boutique->product_name;
+    $data['Product'] = $product;
+    return view('boutique_product',$data);
+}
+    public function onekindproduct($productId, Request $request)
     {
-        $boutique = Boutiques::find($boutiqueId);
+
         $product = Products::find($productId);
+        $boutique = Boutiques::find($product->boutique_id);
         $user = Users::find($boutique->user_id);
         $data = $this->userData($request);
         $data['boutique'] = $boutique;
@@ -363,6 +407,16 @@ class BoutiqueController extends Controller
         $data['title'] = '';
         $data['description'] = '';
         return $data;
+    }
+
+    public function oneKind(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['productSummary'] = $this->oneKindSummary();
+        $data['title'] = 'One of a Kind Products';
+        $data['description'] = 'From All the Boutiques';
+
+        return view('one_of_a_kind',$data);
     }
 
 }

@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Smith_J_Russell-Tree_Crops_A_Permanent_Agriculture.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Models/Boutiques.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/boutiques.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Bonuses.php" afterPath="$PROJECT_DIR$/app/Models/Bonuses.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Charities.php" afterPath="$PROJECT_DIR$/app/Models/Charities.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CommissionLevel.php" afterPath="$PROJECT_DIR$/app/Models/CommissionLevel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Companies.php" afterPath="$PROJECT_DIR$/app/Models/Companies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CompanyPurchases.php" afterPath="$PROJECT_DIR$/app/Models/CompanyPurchases.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CompanyTypes.php" afterPath="$PROJECT_DIR$/app/Models/CompanyTypes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CurrentBalances.php" afterPath="$PROJECT_DIR$/app/Models/CurrentBalances.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CurrentBalancesDetails.php" afterPath="$PROJECT_DIR$/app/Models/CurrentBalancesDetails.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CustomerCreditCards.php" afterPath="$PROJECT_DIR$/app/Models/CustomerCreditCards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/EcoDebitCards.php" afterPath="$PROJECT_DIR$/app/Models/EcoDebitCards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/LaunchPages.php" afterPath="$PROJECT_DIR$/app/Models/LaunchPages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/NotificationTypes.php" afterPath="$PROJECT_DIR$/app/Models/NotificationTypes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/ProductGroups.php" afterPath="$PROJECT_DIR$/app/Models/ProductGroups.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Products.php" afterPath="$PROJECT_DIR$/app/Models/Products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/RegionStates.php" afterPath="$PROJECT_DIR$/app/Models/RegionStates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Regions.php" afterPath="$PROJECT_DIR$/app/Models/Regions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/RegistrationStatus.php" afterPath="$PROJECT_DIR$/app/Models/RegistrationStatus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/ReserveAcctSummary.php" afterPath="$PROJECT_DIR$/app/Models/ReserveAcctSummary.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Roles.php" afterPath="$PROJECT_DIR$/app/Models/Roles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/SalesTransactionDetails.php" afterPath="$PROJECT_DIR$/app/Models/SalesTransactionDetails.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/SalesTransactions.php" afterPath="$PROJECT_DIR$/app/Models/SalesTransactions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/ShippingAddresses.php" afterPath="$PROJECT_DIR$/app/Models/ShippingAddresses.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/ShoppingCartItems.php" afterPath="$PROJECT_DIR$/app/Models/ShoppingCartItems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/ShoppingCarts.php" afterPath="$PROJECT_DIR$/app/Models/ShoppingCarts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/TimeZones.php" afterPath="$PROJECT_DIR$/app/Models/TimeZones.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/UserRoles.php" afterPath="$PROJECT_DIR$/app/Models/UserRoles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Users.php" afterPath="$PROJECT_DIR$/app/Models/Users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/WithdrawalReasons.php" afterPath="$PROJECT_DIR$/app/Models/WithdrawalReasons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Withdrawals.php" afterPath="$PROJECT_DIR$/app/Models/Withdrawals.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/economix.iml" afterPath="$PROJECT_DIR$/.idea/economix.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/editable.css" afterPath="$PROJECT_DIR$/public/css/editable.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/editing.js" afterPath="$PROJECT_DIR$/public/js/editing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/boutique_edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/boutique_edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/boutique_product.blade.php" afterPath="$PROJECT_DIR$/resources/views/boutique_product.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boutique_edit.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="boutique_edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/boutique_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32161686" vertical-offset="3081" max-vertical-offset="4148">
-              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3081" max-vertical-offset="4148">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boutique_product.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="boutique_product.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/boutique_product.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2822">
-              <caret line="52" column="75" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.6572935" vertical-offset="1088" max-vertical-offset="2856">
+              <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -234,12 +192,12 @@
         <option value="$PROJECT_DIR$/app/Models/Boutiques.php" />
         <option value="$PROJECT_DIR$/resources/views/boutiqueedit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/boutique.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/boutique_product.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/boutique_edit_product.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/boutique_add.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BoutiqueController.php" />
         <option value="$PROJECT_DIR$/resources/views/boutique_edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/boutique_product.blade.php" />
       </list>
     </option>
   </component>
@@ -1062,14 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/boutique_product.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="2822">
-          <caret line="52" column="75" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/boutique_edit_product.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="4556">
@@ -1082,8 +1032,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/boutique_edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32161686" vertical-offset="3081" max-vertical-offset="4148">
-          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3081" max-vertical-offset="4148">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/boutique_product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6572935" vertical-offset="1088" max-vertical-offset="2856">
+          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
           <folding />
         </state>
       </provider>

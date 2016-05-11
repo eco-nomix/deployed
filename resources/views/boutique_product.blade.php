@@ -34,14 +34,15 @@
                                               {!!$Product->display_description!!}
                                             </th>
                                             <td class="my200">
-                                                Retail :<br>
-                                                Non-Member:<br>
-                                                Member:
+                                               Member Price:
+                                               Shipping:
+                                               Handling:
                                             </td>
                                             <td>
                                                 ${{$Product->retail}}<br>
-                                                ${{$Product->non_member}}<br>
-                                                ${{$Product->member}}
+                                                ${{$Product->cost_shipping}}<br>
+                                                ${{$Product->shipping_handling}}
+
                                             </td>
 
                                         </tr>

@@ -94,7 +94,7 @@
                                  <button type="submit" class="btn btn-primary">
                                      Update Boutique
                                  </button>
-                                
+
                              </div>
                          </div>
                      {{--{!! Form::close() !!}--}}

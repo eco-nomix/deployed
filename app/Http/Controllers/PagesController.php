@@ -8,6 +8,7 @@ use App\Models\ProductGroups;
 use App\Models\Products;
 use App\Models\Boutiques;
 use App\Models\ShoppingCarts;
+use App\Models\RegistrationStatus;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -344,13 +345,65 @@ class PagesController extends Controller
 
         return view('house',$data);
     }
+    public function editHomepage(Request $request)
+    {
+        $userId = $request->session()->get('user_id');
+        $editUser = Users::find($userId);
+        $editUser->password = $request->input('password');
+        $editUser->first_name = $request->input('first_name');
+        $editUser->last_name = $request->input('last_name');
+        $editUser->email= $request->input('email');
+        $editUser->home_phone = $request->input('home_phone');
+        $editUser->cell_phone = $request->input('cell_phone');
+        $editUser->addr1 = $request->input('addr1');
+        $editUser->addr2 = $request->input('addr2');
+        $editUser->city = $request->input('city');
+        $editUser->state = $request->input('state');
+        $editUser->postal_code = $request->input('postal_code');
+        $editUser->country = $request->input('country');
+        $editUser->social_security = $request->input('social_security');
+        $picture = $this->addImage($userId, $request);
+        if($picture > '') {
+            $editUser->picture = $picture;
+        }
+        $editUser->save();
+        return $this->homepage($request);
+    }
     public function homepage(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Member Homepage';
-        $data['description'] = 'Economix Member Homepage';
+        $userId = $request->session()->get('user_id');
+        $editUser = Users::find($userId);
+        $data['title'] = 'Economix Member Personal Information';
+        $data['description'] = 'Economix Personal Information';
+        $data = $this->userData($request);
+        if($editUser) {
+            $data['user_id'] = $userId;
+            $data['username'] = $editUser->user_name;
+            $data['password'] = $editUser->password;
+            $data['first_name'] = $editUser->first_name;
+            $data['last_name'] = $editUser->last_name;
+            $data['email'] = $editUser->email;
+            $data['home_phone'] = $editUser->home_phone;
+            $data['cell_phone'] = $editUser->cell_phone;
+            $data['addr1'] = $editUser->addr1;
+            $data['addr2'] = $editUser->addr2;
+            $data['city'] = $editUser->city;
+            $data['state'] = $editUser->state;
+            $data['postal_code'] = $editUser->postal_code;
+            $data['country'] = $editUser->country;
+            $data['social_security'] = $editUser->social_security;
+            $data['picture'] = $editUser->picture;
+            $status = RegistrationStatus::where('member_status', $editUser->member)->first();
+            $data['MemberStatus'] = $status->description;
+            return view('homepage',$data);
+        }else{
+            $data['selectNames'] = '';
+            $data['title'] = 'Admin';
+            $data['description'] = 'Admin';
+            return view('management',$data);
+        }
 
-        return view('homepage',$data);
     }
 
     public function itemCount(Request $request)
@@ -737,6 +790,24 @@ class PagesController extends Controller
 //
 //        return view('linksbiogas',$data);
         return Boutiques::orderBy('name')->get();
+    }
+    public function addImage($userId, Request $request)
+    {
+
+        $file = $request->file('file');
+        if(!is_object($file)) return 0;
+        $fileIsValid = $request->file('file')->isValid();
+        if(!$fileIsValid) return 0;
+        $mimeType = $file->getMimeType();
+        if($mimeType != 'image/jpeg' and $mimeType != 'image/png') return 0;
+        //  dd($mimeType);
+        $extension = ($mimeType == 'image/jpeg')?'.jpeg':'.png';
+
+        $destination = 'images';
+        $name = 'user'.$userId.$extension;
+        $file->move($destination, $name);
+
+        return $name;
     }
 
 }

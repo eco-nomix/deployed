@@ -134,6 +134,7 @@ Route::get('/donations',['as' => 'donations','uses'=>'PagesController@donations'
 Route::get('/contact',['as' => 'contact','uses'=>'PagesController@contact']);
 Route::get('/water',['as' => 'water','uses'=>'PagesController@water']);
 Route::get('/homepage/{userId}',['as' => 'homepage','uses'=>'PagesController@homepage']);
+Route::post('/homepage/{userId}',['as' => 'homepage','uses'=>'PagesController@editHomepage']);
 Route::get('/money/{userId}',['as' => 'money','uses'=>'PagesController@money']);
 Route::get('/traininglinks',['as' => 'traininglinks','uses'=>'PagesController@traininglinks']);
 Route::get('/links/food',['as' => 'linksfood','uses'=>'PagesController@linksfood']);

@@ -115,10 +115,16 @@
                              </div>
                          </div>
                          <div class="form-group col-md-12 ">
-                             <label class="col-md-4 control-label">Member Status</label>
+                             <label class="col-md-4 control-label">Member Story</label>
                              <div class="col-md-6">
-                                 {!! $MemberStatus !!}
+                                   <textarea rows="4" cols="80" class="form-control" name="member_story" >{{$member_story}}</textarea>
                              </div>
+                         </div>
+                         <div class="form-group col-md-12 ">
+                            <label class="col-md-4 control-label">Member Status</label>
+                                                         <div class="col-md-6">
+                                                             {!! $MemberStatus !!}
+                                                         </div>
                          </div>
                          <div class="form-group">
                                 <label class="col-md-4 control-label">Current Picture</label>

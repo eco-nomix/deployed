@@ -2,32 +2,41 @@
 
 @section('content')
 
-        <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px; background-attachment:fixed; background-size:60% 55%; background-image:  url({{$imageUrl}}); ">
-            <div class="action ">
-              <p>{{$message}}</p>
-            </div>
-            <div class="action2 ">
-                <p>{{$message2}}</p>
-            </div>
+
+       <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px;" >
+          <img src="{{$imageUrl}}" width="900">
+          <div class="action " style="z-index:10; ">
+               <p>{{$message}}</p>
+          </div>
+          <div class="action2 " style="z-index:10; ">
+               <p>{{$message2}}</p>
+          </div>
        </div>
-            <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:1220px; width:300px">
+
+            <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:1280px; width:300px">
                 Free Information   Instant Access
             </div>
         <div style=" height:800px;width:602px; top:0px; left:900px; position:absolute;">
 
-            <div style=" height:385px;width:600px;   position:relative; left:-50px; top:0px;">
-                   <img src="{{$image2}}" height="430px">
+            <div style=" height:500px;width:600px;   position:relative; left:-50px; top:0px;">
+                   <img src="{{$image2}}" height="530px">
 
             </div>
-            <div style=" height:445px;width:600px;   position:relative;">
+            <div style=" height:490px;width:600px;   position:relative;">
               <div class="container-fluid">
                   <div class="row">
-                      <div style="width:600px; ">
+                      <div style="width:600px; height:508px;border:black 2px solid; ">
                           <div class="panel panel-default">
                               <div class="panel-heading message2 center" >Get Started Today!</div>
                               <div class="panel-body">
+
                                   <form class="form-horizontal" role="form" method="POST" action="/register">
                                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                      <div class="form-group">
+                                           <div class="col-md-6">
+                                               &nbsp;
+                                           </div>
+                                      </div>
                                       <div class="form-group">
                                           <label class="col-md-4 control-label">First Name</label>
                                           <div class="col-md-6">
@@ -69,7 +78,12 @@
                                               <input type="password" class="form-control" name="password_confirmation">
                                           </div>
                                       </div>
+                                      <div class="form-group">
 
+                                          <div class="col-md-6">
+                                               &nbsp;
+                                          </div>
+                                      </div>
                                       <div class="form-group">
                                           <div class="col-md-6 col-md-offset-4">
                                               <button type="submit" class="btn btn-primary">
@@ -88,7 +102,19 @@
             </div>
 
         </div>
-        <div style="z-index:10; border:blue 2px solid; height:330px;width:900px; top:500px; left:0px; position:absolute; background:white;">
+         <div style="z-index:10; height:160px;width:900px; top:500px; left:0px; position:absolute; background:white;">
+            <div style="z-index:12; height:160px; width:160px; top:0px; left:0px; position:relative; ">
+               <img src="../images/{{$user_pic}}" width="160">
+            </div>
+            <div style="z-index:14; border:black 2px solid;height:160px; width:740px; top:0px; left:160px; position:absolute; ">
+                 <div class="form-group">
+                      <div class="col-md-12">
+                         {{$member_story}}
+                      </div>
+                 </div>
+            </div>
+         </div>
+        <div style="z-index:10; border:black 2px solid; height:348px;width:900px; top:660px; left:0px; position:absolute; background:white;">
 
             <div style="z-index:12; font-size:16pt; color:Blue; left:250px; position:relative;">Success is designed into the System</div>
             <div style="z-index:12; left:50px; width:750px; position:relative;">

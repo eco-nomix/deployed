@@ -347,6 +347,7 @@ class PagesController extends Controller
     }
     public function editHomepage(Request $request)
     {
+
         $userId = $request->session()->get('user_id');
         $editUser = Users::find($userId);
         $editUser->password = $request->input('password');
@@ -361,12 +362,14 @@ class PagesController extends Controller
         $editUser->state = $request->input('state');
         $editUser->postal_code = $request->input('postal_code');
         $editUser->country = $request->input('country');
+        $editUser->member_story = $request->input('member_story');
         $editUser->social_security = $request->input('social_security');
         $picture = $this->addImage($userId, $request);
         if($picture > '') {
             $editUser->picture = $picture;
         }
         $editUser->save();
+
         return $this->homepage($request);
     }
     public function homepage(Request $request)
@@ -392,6 +395,7 @@ class PagesController extends Controller
             $data['state'] = $editUser->state;
             $data['postal_code'] = $editUser->postal_code;
             $data['country'] = $editUser->country;
+            $data['member_story'] = $editUser->member_story;
             $data['social_security'] = $editUser->social_security;
             $data['picture'] = $editUser->picture;
             $status = RegistrationStatus::where('member_status', $editUser->member)->first();

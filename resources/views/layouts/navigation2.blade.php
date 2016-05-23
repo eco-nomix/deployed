@@ -8,8 +8,11 @@
                 <li><a href="/products">Products<span class="caret"></span></a>
                     <ul>
                         <li><a href="/selection">Product Selection</a></li>
-                        <li><a href="/boutiques">Boutiques</a></li>
-                        <li><a href="/onekind">One of Kind</a></li>
+                        <li><a href="/stores/39">Art Galleries</a></li>
+                        <li><a href="/stores/38">Boutiques</a></li>
+                        <li><a href="/stores/40">Estate Sales</a></li>
+                           <li><a href="/onekind">One of Kind</a></li>
+                        <li><a href="/stores/41">Services</a></li>
                         <li><a href="/food">Food Production</a></li>
                         <li><a href="/water">Water Purification</a></li>
                         <li><a href="/energy">Energy Production</a></li>

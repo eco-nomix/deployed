@@ -8,12 +8,12 @@
      <div class="row">
          <div class="col-md-11 col-md-offset-1">
              <div class="panel panel-default display">
-              <div class="panel-heading">Boutique - {{$boutique->name}} </div>
+              <div class="panel-heading">{{$store_type}} - {{$store->name}} </div>
                  <div class="panel-body">
                     <div class="inline">
 
                         <div >
-                            <img src="/images/{{$boutique->logo}}" width="300">
+                            <img src="/images/{{$store->logo}}" width="300">
                         </div>
                     </div>
                     <div class="inline" style="width:30px;">
@@ -25,16 +25,16 @@
                         @endif
                     </div>
                     <div class="inline-right" style="width:700px;">
-                        <div>{{$boutique->gen_description}}</div>
+                        <div>{{$store->gen_description}}</div>
                         <br>
-                        <div>{{$boutique->detailed_description}}</div>
+                        <div>{{$store->detailed_description}}</div>
                         <br>
-                        <div>{{$boutique->owner_description}}</div>
-                        @if($boutique->user_id == $user->id)
+                        <div>{{$store->owner_description}}</div>
+                        @if($store->user_id == $user_id)
                         <br>
                         <br>
                         <div>
-                           <a href="/boutique/addproduct/{{$boutique->id}}" class="btn btn-primary">Add Product</a>
+                           <a href="/store/addproduct/{{$store->id}}" class="btn btn-primary">Add Product</a>
                         </div>
                         @endif
                     </div>

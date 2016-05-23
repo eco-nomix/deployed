@@ -8,24 +8,24 @@
      <div class="row">
          <div class="col-md-12 col-md-offset-1">
              <div class="panel panel-default display">
-                 <div class="panel-heading">Add New Boutique</div>
+                 <div class="panel-heading">Add New {{$store_type}}</div>
                  <div class="panel-body">
-                    {{--{!! Form::open(['url'=>"/boutique/add/$user_id",'method'=>'POST','files'=>true]) !!}--}}
-                     <form id='Upload' class="form-horizontal" role="form" method="POST" action="/boutique/add/{{$user_id}}" enctype="multipart/form-data">
+
+                     <form id='Upload' class="form-horizontal" role="form" method="POST" action="/store/{{$product_group}}/add/{{$user_id}}" enctype="multipart/form-data">
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
                          <div class="form-group">
-                             <label class="col-md-3 control-label">Your existing Boutiques</label>
+                             <label class="col-md-3 control-label">Your existing {{$store_type}}</label>
                               <div class="col-md-7">
                                   <select name="edit" onchange="editBoutique(this)">
-                                      <option value="0">Choose to Edit Existing Boutique</option>
-                                      @foreach($boutiques as $key=>$boutique)
-                                          <option value="{{$key}}">{{$boutique}}</option>
+                                      <option value="0">Choose to Edit Existing {{$store_type}}</option>
+                                      @foreach($stores as $key=>$store)
+                                          <option value="{{$key}}">{{$store}}</option>
                                       @endforeach
                                   </select>
                               </div>
                          </div>
                          <div class="form-group">
-                             <label class="col-md-3 control-label">Name of Boutique</label>
+                             <label class="col-md-3 control-label">Name of {{$store_type}}</label>
                              <div class="col-md-9">
                                  <input type="text" class="form-control" name="name" value="">
                              </div>
@@ -83,7 +83,7 @@
                          <div class="form-group">
                              <div class="col-md-6 col-md-offset-3">
                                  <button type="submit" class="btn btn-primary">
-                                     Add Boutique
+                                     Add Store
                                  </button>
                              </div>
                          </div>

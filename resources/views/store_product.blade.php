@@ -8,8 +8,8 @@
          <div class="col-md-11 col-md-offset-1">
              <div class="panel panel-default display">
                  <div class="panel-heading">{{$Product->product_name}}
-                        @if($user_id == $boutique->user_id)
-                            <a href="/boutique/{{$boutique->id}}/productedit/{{$Product->id}}" class="btn btn-primary" >Edit</a>
+                        @if($user_id == $store->user_id)
+                            <a href="/store/{{$store->id}}/productedit/{{$Product->id}}" class="btn btn-primary" >Edit</a>
                             @endif
                         <span title="single-click to add; double-click to view" data-id="{{$Product->id}}" data-userid="{{$user->id}}" class="pull-right addcart">+<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span>
                  </div>
@@ -24,7 +24,7 @@
                                  <td>
                                     <table width="100%" style="margin:4px;">
                                         <tr>
-                                            <td>Botique: {{$boutique->name}}</td>
+                                            <td>Botique: {{$store->name}}</td>
                                             <td><img src="/images/{{$user->picture}}" width="200"></td>
                                         </tr>
                                         <tr>
@@ -48,11 +48,11 @@
 
                                         </tr>
                                         <tr>
-                                            {{--<td colspan="2" class="summary">xx{!! $boutique->owner_description !!}</td>--}}
+
                                         </tr>
                                         <tr><td>&nbsp;</td></tr>
                                         <tr>
-                                            <td colspan="3" class="author">{!! $boutique->owner_description !!}</td>
+                                            <td colspan="3" class="author">{!! $store->owner_description !!}</td>
                                         </tr>
 
                                     </table>

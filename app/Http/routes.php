@@ -95,7 +95,7 @@ Route::get('/food',['as' => 'food','uses'=>'PagesController@food']);
 Route::get('/autoship',['as' => 'autoship','uses'=>'PagesController@autoship']);
 Route::get('/books',['as' => 'books','uses'=>'PagesController@books']);
 Route::post('/books',['as' => 'books','uses'=>'PagesController@books']);
-Route::get('/boutiques',['as'=>'boutiques','uses'=>'PagesController@boutiques']);
+Route::get('/stores/{product_group}',['as'=>'storess','uses'=>'PagesController@stores']);
 
 Route::get('/energy',['as' => 'energy','uses'=>'PagesController@energy']);
 Route::get('/recycling',['as' => 'recycling','uses'=>'PagesController@recycling']);
@@ -156,21 +156,21 @@ Route::get('/links/beekeeping',['as' => 'linkshouse','uses'=>'PagesController@li
 Route::get('/links/biogas',['as' => 'linkshouse','uses'=>'PagesController@linksbiogas']);
 Route::get('/intro',['as'=>'introduction','uses'=>'PagesController@introduction']);
 
-Route::get('/boutique/add',['as' => 'login','uses'=>'AuthenticationController@login']);
-Route::get('/boutique/add/{userId}',['as'=>'boutiqueadd','uses'=>'BoutiqueController@addboutique']);
-Route::post('/boutique/add/{userId}',['as'=>'boutiqueadd','uses'=>'BoutiqueController@saveboutique']);
-Route::get('/boutique/{boutiqueId}',['as'=>'boutique','uses'=>'BoutiqueController@boutique']);
-Route::get('/boutique/edit/{boutiqueId}',['as'=>'boutique','uses'=>'BoutiqueController@editboutique']);
-Route::post('/boutique/edit/{boutiqueId}',['as'=>'boutique','uses'=>'BoutiqueController@saveeditboutique']);
-Route::get('/boutique/addproduct/{boutiqueId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@addproducts']);
-Route::post('/boutique/addproduct/{boutiqueId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@addproduct']);
-Route::get('/boutique/{boutiqueId}/product/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@displayproduct']);
-Route::get('/boutique/{boutiqueId}/productedit/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@editproduct']);
-Route::post('/boutique/{boutiqueId}/productedit/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@saveeditproduct']);
-Route::get('/boutique/{boutiqueId}/delete_product/{productId}',['as'=>'boutiqueproduct','uses'=>'BoutiqueController@deleteproduct']);
+Route::get('/store/{productGroup}/add',['as' => 'login','uses'=>'AuthenticationController@login']);
+Route::get('/store/{productGroup}/add/{userId}',['as'=>'storeadd','uses'=>'StoreController@addStore']);
+Route::post('/store/{productGroup}/add/{userId}',['as'=>'storeadd','uses'=>'StoreController@saveStore']);
+Route::get('/store/{storeId}',['as'=>'store','uses'=>'StoreController@store']);
+Route::get('/store/edit/{storeId}',['as'=>'store','uses'=>'StoreController@editStore']);
+Route::post('/store/edit/{storeId}',['as'=>'store','uses'=>'StoreController@saveeditStore']);
+Route::get('/store/addproduct/{storeId}',['as'=>'storeproduct','uses'=>'StoreController@addproducts']);
+Route::post('/store/addproduct/{storeId}',['as'=>'storeproduct','uses'=>'StoreController@addproduct']);
+Route::get('/store/{storeId}/product/{productId}',['as'=>'storeproduct','uses'=>'StoreController@displayproduct']);
+Route::get('/store/{storeId}/productedit/{productId}',['as'=>'storeproduct','uses'=>'StoreController@editproduct']);
+Route::post('/store/{storeId}/productedit/{productId}',['as'=>'storeproduct','uses'=>'StoreController@saveeditproduct']);
+Route::get('/store/{storeId}/delete_product/{productId}',['as'=>'storeproduct','uses'=>'StoreController@deleteproduct']);
 
-Route::get('/onekind',['as'=>'onekind','uses'=>'BoutiqueController@onekind']);
-Route::get('/onekind/{productId}',['as'=>'onekind','uses'=>'BoutiqueController@onekindproduct']);
+Route::get('/onekind',['as'=>'onekind','uses'=>'StoreController@onekind']);
+Route::get('/onekind/{productId}',['as'=>'onekind','uses'=>'StoreController@onekindproduct']);
     /*
     |--------------------------------------------------------------------------
     | Application Routes

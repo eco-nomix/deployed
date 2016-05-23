@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Models\ProductGroups;
 use App\Models\Products;
-use App\Models\Boutiques;
+use App\Models\UserStores;
 use App\Models\ShoppingCarts;
 use App\Models\RegistrationStatus;
 use App\Http\Requests;
@@ -196,14 +196,32 @@ class PagesController extends Controller
         return view('books',$data);
     }
 
-    public function boutiques(Request $request)
+    public function stores($productGroup, Request $request)
     {
         $data = $this->userData($request);
-        $data['boutiques'] = $this->boutiqueList();
-        $data['title'] = 'Boutiques';
-        $data['description'] = 'Member Boutiques';
-
-        return view('boutiques',$data);
+        $data['stores'] = $this->storeList($productGroup);
+        $data['product_group'] = $productGroup;
+        if($productGroup == 38) {
+            $data['title'] = 'Boutiques';
+            $data['store_type'] = 'Boutique';
+            $data['description'] = 'Member Boutiques';
+        }
+        elseif($productGroup == 39){
+            $data['title'] = 'Art Galleries';
+            $data['store_type'] = 'Art Gallery';
+            $data['description'] = 'Member Art Galleries';
+        }
+        elseif($productGroup == 40){
+            $data['title'] = 'Estate Sales';
+            $data['store_type'] = 'Estate Sale';
+            $data['description'] = 'Estate Sales';
+        }
+        elseif($productGroup == 41){
+            $data['title'] = 'Services';
+            $data['store_type'] = 'Services';
+            $data['description'] = 'Member Services';
+        }
+        return view('stores',$data);
     }
     public function camping(Request $request)
     {
@@ -786,14 +804,14 @@ class PagesController extends Controller
         return view('linksbiogas',$data);
     }
 
-    public function boutiqueList()
+    public function storeList($productGroup)
     {
 //        $data = $this->userData($request);
 //        $data['title'] = 'Economix Video Bio-Gas Digestors';
 //        $data['description'] = 'Video Bio-Gas Digestors';
 //
 //        return view('linksbiogas',$data);
-        return Boutiques::orderBy('name')->get();
+        return UserStores::where('product_group',$productGroup)->orderBy('name')->get();
     }
     public function addImage($userId, Request $request)
     {

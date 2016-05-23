@@ -10,23 +10,23 @@
              <div class="panel panel-default display">
                  <div class="panel-heading">Edit {{$name}} </div>
                  <div class="panel-body">
-                    {{--{!! Form::open(['url'=>"/boutique/add/$user_id",'method'=>'POST','files'=>true]) !!}--}}
-                     <form id='Upload' class="form-horizontal" role="form" method="POST" action="/boutique/edit/{{$id}}" enctype="multipart/form-data">
+
+                     <form id='Upload' class="form-horizontal" role="form" method="POST" action="/store/edit/{{$id}}" enctype="multipart/form-data">
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                         <input type="hidden" boutique_id = "$boutiqueId">
+                         <input type="hidden" store_id = "{{$storeId}}">
                          <div class="form-group">
-                             <label class="col-md-3 control-label">Your existing Boutiques</label>
+                             <label class="col-md-3 control-label">Your existing {{$store_type}}</label>
                               <div class="col-md-7">
                                   <select name="edit" onchange="editBoutique(this)">
-                                      <option value="0">Choose to Edit Existing Boutique</option>
-                                      @foreach($boutiques as $key=>$boutique)
-                                          <option value="{{$key}}">{{$boutique}} </option>
+                                      <option value="0">Choose to Edit Existing Store</option>
+                                      @foreach($stores as $key=>$store)
+                                          <option value="{{$key}}">{{$store}} </option>
                                       @endforeach
                                   </select>
                               </div>
                          </div>
                          <div class="form-group">
-                             <label class="col-md-3 control-label">Name of Boutique</label>
+                             <label class="col-md-3 control-label">Name of {{$store_type}}</label>
                              <div class="col-md-9">
                                  <input type="text" class="form-control" name="name" value="{{$name}}">
                              </div>
@@ -80,7 +80,6 @@
                             <label class="col-md-3 control-label">Current Logo</label>
                                <div class="col-md-9">
                                     <div align="center" style="border:black solid 1px; display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;"><img src="/images/{{$logo}}" width="150"  ></div>
-
                                </div>
                          </div>
                          <div class="form-group">
@@ -92,7 +91,10 @@
                          <div class="form-group">
                              <div class="col-md-3 col-md-offset-3">
                                  <button type="submit" class="btn btn-primary">
-                                     Update Boutique
+                                     Update {{$store_type}}
+                                 </button>
+                                 <button name="Delete" type="submit" class="btn btn-warning" value="Yes">
+                                     Delete {{$store_type}}
                                  </button>
 
                              </div>

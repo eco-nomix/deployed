@@ -8,12 +8,10 @@
      <div class="row">
          <div class="col-md-11 col-md-offset-1">
              <div class="panel panel-default display">
-                <div class="panel-heading">Edit Product  @if($user_id==$user->id)<a href="/boutique/{{$boutique->id}}/delete_product/{{$Product->id}}" class='btn btn-primary'>Delete</a> @endif </div>
+                <div class="panel-heading">Add Product</div>
                     <div class="panel-body">
+                         <form id='Upload' class="form-horizontal" role="form" method="POST" action="/store/addproduct/{{$store->id}}" enctype="multipart/form-data">
 
-                         <form id='Upload' class="form-horizontal" role="form" method="POST" action="/boutique/{{$boutique->id}}/productedit/{{$Product->id}}" enctype="multipart/form-data">
-
-                         {{--<form class="form-horizontal" role="form" method="POST" action="/boutique/addproduct/{{$boutique->id}}">--}}
                             <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                             <input type="hidden" name="user_id" value="{{ $user->id }}" />
                             <div class="form-group">
@@ -39,47 +37,38 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Product Name</label>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="product_name" value="{{$Product->product_name}}">
+                                    <input type="text" class="form-control" name="product_name" value="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Short Description</label>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="description" value="{{$Product->description}}">
+                                    <input type="text" class="form-control" name="description" value="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Long Description</label>
                                 <div class="col-md-6">
-                                    <textarea class="form-control" name="display_description" value="">{{$Product->display_description}}</textarea>
+                                    <textarea class="form-control" name="display_description" value=""></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Retail Price</label>
                                 <div class="col-md-6">
-                                    <input type="number" class="form-control" name="retail" value="{{$Product->retail}}" step="any">
+                                    <input type="number" class="form-control" name="retail" value="" step="any">
                                 </div>
                             </div>
                             <div class="form-group">
                                <label class="col-md-4 control-label">Shipping (if known)</label>
                                <div class="col-md-6">
-                                   <input type="number" class="form-control" name="cost_shipping" value="{{$Product->cost_shipping}}" step="any">
+                                   <input type="number" class="form-control" name="cost_shipping" value="" step="any">
                                </div>
                             </div>
                             <div class="form-group">
                                <label class="col-md-4 control-label">Weight (to calculate shipping cost)</label>
                                <div class="col-md-6">
-                                   <input type="number" class="form-control" name="shipping_weight" value="{{$Product->shipping_weight}}" step="any">
+                                   <input type="number" class="form-control" name="shipping_handling" value="" step="any">
                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">Current Picture</label>
-                                <div class="col-md-6">
-                                    <div align="center" style="border:black solid 1px; display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;">
-                                         <img src="/images/{{$Product->image}}" width="150"  >
-                                    </div>
-
-                                </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Product Picture</label>
@@ -90,22 +79,22 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Physical Description</label>
                                 <div class="col-md-6">
-                                   <input type="text" class="form-control" name="physical_description" value="{{$Product->physical_description}}" >
+                                   <input type="text" class="form-control" name="physical_description" value="" step="any">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-4 control-label">One of a Kind</label>
                                 <div class="col-md-6">
                                     <select name="one_of_a_kind">
-                                        <option value="0" @if($Product->one_of_a_kind == 0) Selected @endif>NO</option>
-                                        <option value="1" @if($Product->one_of_a_kind == 1) Selected @endif>YES</option>
+                                        <option value="0">NO</option>
+                                        <option value="1">YES</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-6 col-md-offset-4">
                                     <button type="submit" class="btn btn-primary">
-                                        Update
+                                        Save
                                     </button>
 
                                 </div>

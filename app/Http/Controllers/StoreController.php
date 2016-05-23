@@ -6,44 +6,46 @@ use Mail;
 use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Http\Requests;
-use App\Models\Boutiques;
+use App\Models\UserStores;
 use App\Models\Products;
 use App\Models\ShippingTypes;
 use App\Models\ShoppingCarts;
+use App\Models\ProductGroups;
 use App\Http\Controllers\Controller;
 
-class BoutiqueController extends Controller
+class StoreController extends Controller
 {
-    public function boutique($boutiqueId, Request $request)
+    public function store($storeId, Request $request)
     {
-        $boutique = Boutiques::find($boutiqueId);
-        $user = Users::find($boutique->user_id);
+        $userStore = UserStores::find($storeId);
+        $user = Users::find($userStore->user_id);
         $data = $this->userData($request);
-        $data['boutique'] = $boutique;
+        $data['store'] = $userStore;
         $data['user'] = $user;
-        $data['productSummary'] = $this->boutiqueSummary($boutiqueId);
-        $data['title'] = $boutique->name;
-        $data['owner'] = $boutique->owner_description;
-        $data['description'] = 'Member Boutiques';
+        $data['productSummary'] = $this->storeSummary($storeId);
+        $data['title'] = $userStore->name;
+        $data['store_type'] = $userStore->store_type;
+        $data['owner'] = $userStore->owner_description;
+        $data['description'] = 'Member Stores';
 
-        return view('boutique',$data);
+        return view('store',$data);
     }
-    public function boutiqueSummary($boutiqueId)
+    public function storeSummary($storeId)
     {
         $results = '';
 
-        $products = Products::where('boutique_id',$boutiqueId)->orderBy('product_name')->get();
+        $products = Products::where('store_id',$storeId)->orderBy('product_name')->get();
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
         if(count($products)==0){
-            $results .= "<td>No Products in this Boutique, Coming Soon</td>";
+            $results .= "<td>No Products in this Store, Coming Soon</td>";
             $ctr = 8;
         }
 
         foreach($products as $product){
-            $results .= "<td class='eighth'><a href=\"$boutiqueId/product/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
-            $results .= "<td class='fifth' ><a href=\"$boutiqueId/product/$product->id\">";
+            $results .= "<td class='eighth'><a href=\"$storeId/product/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td class='fifth' ><a href=\"$storeId/product/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
             $results .= substr($description,0,260)."...</a></td>";
             $ctr++;
@@ -103,39 +105,39 @@ class BoutiqueController extends Controller
         }
         return $results;
     }
-    public function displayproduct($boutiqueId, $productId, Request $request)
+    public function displayproduct($storeId, $productId, Request $request)
 {
-    $boutique = Boutiques::find($boutiqueId);
+    $userStore = UserStores::find($storeId);
     $product = Products::find($productId);
-    $user = Users::find($boutique->user_id);
+    $user = Users::find($userStore->user_id);
     $data = $this->userData($request);
-    $data['boutique'] = $boutique;
+    $data['store'] = $userStore;
     $data['user'] = $user;
     $data['ItemCount'] = $this->itemCount($request);
-    $data['title'] = $boutique->product_name;
+    $data['title'] = $userStore->product_name;
     $data['Product'] = $product;
-    return view('boutique_product',$data);
+    return view('store_product',$data);
 }
     public function onekindproduct($productId, Request $request)
     {
 
         $product = Products::find($productId);
-        $boutique = Boutiques::find($product->boutique_id);
-        $user = Users::find($boutique->user_id);
+        $store = UserStores::find($product->store_id);
+        $user = Users::find($store->user_id);
         $data = $this->userData($request);
-        $data['boutique'] = $boutique;
+        $data['store'] = $store;
         $data['user'] = $user;
         $data['ItemCount'] = $this->itemCount($request);
-        $data['title'] = $boutique->product_name;
+        $data['title'] = $store->product_name;
         $data['Product'] = $product;
-        return view('boutique_product',$data);
+        return view('store_product',$data);
     }
-    public function saveeditproduct($boutiqueId, $productId, Request $request)
+    public function saveeditproduct($storeId, $productId, Request $request)
     {
-        $boutique = Boutiques::find($boutiqueId);
+        $store = UserStores::find($storeId);
         $product = Products::find($productId);
-        $user = Users::find($boutique->user_id);
-        $image = $this->addImage($user->id, $request, $boutique->id);
+        $user = Users::find($store->user_id);
+        $image = $this->addProductImage( $request,$productId);
         if($image > '') {
             $product->image = $image;
         }
@@ -151,132 +153,157 @@ class BoutiqueController extends Controller
         $product->one_of_a_kind = $request->input('one_of_a_kind');
         $product->save();
         $data = $this->userData($request);
-        $data['boutique'] = $boutique;
+        $data['store'] = $store;
         $data['Product'] = $product;
         $data['user'] = $user;
-        $data['name']=$boutique->name;
-        $data['logo'] = $boutique->logo;
+        $data['name']=$store->name;
+        $data['logo'] = $store->logo;
 
-        return view('boutique_edit_product',$data);
+        return view('store_edit_product',$data);
     }
-    public function editproduct($boutiqueId, $productId, Request $request)
+    public function editproduct($storeId, $productId, Request $request)
     {
 
-        $boutique = Boutiques::find($boutiqueId);
+        $store = UserStores::find($storeId);
         $product = Products::find($productId);
-        $user = Users::find($boutique->user_id);
+        $user = Users::find($store->user_id);
         $data = $this->userData($request);
-        $data['boutique'] = $boutique;
+        $data['store'] = $store;
         $data['Product'] = $product;
         $data['user'] = $user;
-        $data['name']=$boutique->name;
-        $data['logo'] = $boutique->logo;
+        $data['name']=$store->name;
+        $data['logo'] = $store->logo;
 
-        return view('boutique_edit_product',$data);
+        return view('store_edit_product',$data);
     }
 
-    public function addboutique($userId,Request $request)
+    public function addStore($productGroup,$userId,Request $request)
     {
 
         $user = Users::find($userId);
-        $boutiques = Boutiques::where('user_id',$userId)->orderBy('name')->lists('name','id');
+        \Log::info("in add store pg=$productGroup  UserId=$userId");
+        $stores = UserStores::where('product_group',$productGroup)->where('user_id',$userId)->orderBy('name')->lists('name','id');
         $data = $this->userData($request);
-        $data['boutiques'] = $boutiques;
+        $data['stores'] = $stores;
         $data['shippingTypes'] = $this->shipping();
-        $data['title'] = 'Add New Boutique';
-        $data['description'] = 'Add New Boutique';
-        return view('boutique_add',$data);
+        $data['title'] = 'Add New Store';
+        $data['product_group'] = $productGroup;
+        $data['store_type'] = $this->storeType($productGroup);
+        $data['description'] = 'Add New Store';
+        return view('store_add',$data);
     }
 
-    public function saveboutique($userId, Request $request)
+    public function storeType($productGroup)
     {
 
-        $boutique = Boutiques::create(['name'=>$request->input('name'),
+        $storeType= ProductGroups::find($productGroup);
+        return $storeType->name;
+    }
+
+    public function saveStore($productGroup,$userId, Request $request)
+    {
+        if ($request->input('name')==''){
+            return $this->addStore($productGroup,$userId,$request);
+        }
+        $store = UserStores::create(['name'=>$request->input('name'),
             'gen_description'=>$request->input('gen_description'),
             'user_id'=>$userId,
             'detailed_description'=>$request->input('detailed_description'),
             'allow_custom_requests'=>$request->input('allow_custom_requests'),
             'shipping_id'=>$request->input('shipping_id'),
             'owner_description' => $request->input('owner_description'),
+            'product_group' => $productGroup,
+            'store_type'=> $this->storeType($productGroup),
             'handling_charge'=>$request->input('handling')]);
 
-        $name = $this->addImage($userId, $request, $boutique->id);
-        $boutique->logo = $name;
-        $boutique->save();
-        return $this->addboutique($userId,$request);
+        $name = $this->addImage($userId, $request, $store->id);
+        $store->logo = $name;
+        $store->save();
+        return $this->addStore($productGroup,$userId,$request);
     }
 
-    public function editboutique($boutiqueId,Request $request)
+    public function editStore($storeId,Request $request)
     {
-        $boutique = Boutiques::find($boutiqueId);
-        $user = Users::find($boutique->user_id);
-        $boutiques = Boutiques::where('user_id',$user->id)->orderBy('name')->lists('name','id');
+        $store = UserStores::find($storeId);
+        $user = Users::find($store->user_id);
+        $stores = UserStores::where('user_id',$user->id)->orderBy('name')->lists('name','id');
         $data = $this->userData($request);
 
-        $data['boutiques'] = $boutiques;
+        $data['stores'] = $stores;
+        $data['storeId'] = $store->id;
         $data['shippingTypes'] = $this->shipping();
-        $data['title'] = 'Add New Boutique';
-        $data['description'] = 'Add New Boutique';
-        $data['name']=$boutique->name;
-        $data['gen_description'] = $boutique->gen_description;
-        $data['logo'] = $boutique->logo;
-        $data['id'] = $boutique->id;
-        $data['detailed_description'] = $boutique->detailed_description;
-        $data['shipping_id'] = $boutique->shipping_id;
-        $data['owner_description'] = $boutique->owner_description;
-        $data['allow_custom_requests'] = $boutique->allow_custom_requests;
-        $data['handling_charge'] = $boutique->handling_charge;
-        return view('boutique_edit',$data);
+        $data['title'] = 'Add New Store';
+        $data['description'] = 'Add New Store';
+        $data['name']=$store->name;
+        $data['gen_description'] = $store->gen_description;
+        $data['logo'] = $store->logo;
+        $data['id'] = $store->id;
+        $data['detailed_description'] = $store->detailed_description;
+        $data['shipping_id'] = $store->shipping_id;
+        $data['store_type'] = $store->store_type;
+        $data['owner_description'] = $store->owner_description;
+        $data['allow_custom_requests'] = $store->allow_custom_requests;
+        $data['handling_charge'] = $store->handling_charge;
+        return view('store_edit',$data);
 
     }
 
-    public function saveeditboutique($boutiqueId,Request $request)
+    public function saveeditStore($storeId,Request $request)
     {
-
         $addProducts = $request->input('addProducts');
         \Log::info("addProducts = $addProducts");
-        $boutique = Boutiques::find($boutiqueId);
-        $user = Users::find($boutique->user_id);
-        $logo = $this->addImage($user->id, $request, $boutique->id);
+        \Log::info("storeId=$storeId");
+        $store = UserStores::find($storeId);
+        if($request->input('Delete')){
+            $productGroup = $store->product_group;
+            $userId = $store->user_id;
+            $store->delete();
+            return $this->addStore($productGroup,$userId,$request);
+        }
+
+        $user = Users::find($store->user_id);
+        $logo = $this->addImage($user->id, $request, $store->id);
         if($logo > '') {
-            $boutique->logo = $logo;
+            $store->logo = $logo;
         }
         if($request->input('name')> '') {
-            $boutique->name = $request->input('name');
+            $store->name = $request->input('name');
         }
         if ($request->input('gen_description')> '') {
-            $boutique->gen_description = $request->input('gen_description');
+            $store->gen_description = $request->input('gen_description');
         }
         if ($request->input('detailed_description')>'') {
-            $boutique->detailed_description = $request->input('detailed_description');
+            $store->detailed_description = $request->input('detailed_description');
         }
         if ($request->input('owner_description')>'') {
-            $boutique->owner_description = $request->input('owner_description');
+            $store->owner_description = $request->input('owner_description');
         }
-        $boutique->allow_custom_requests = $request->input('allow_custom_requests');
-        $boutique->shipping_id = $request->input('shipping_id');
-        $boutique->handling_charge = $request->input('handling');
-        $boutique->save();
+        $store->allow_custom_requests = $request->input('allow_custom_requests');
+        $store->shipping_id = $request->input('shipping_id');
+        $store->handling_charge = $request->input('handling');
+        $store->save();
         if ($addProducts) {
-            return $this->addProducts($boutiqueId, $request);
+            return $this->addProducts($storeId, $request);
         }
-        $boutiques = Boutiques::where('user_id',$user->id)->orderBy('name')->lists('name','id');
+        $stores = UserStores::where('user_id',$user->id)->orderBy('name')->lists('name','id');
         $data = $this->userData($request);
-        $data['boutiques'] = $boutiques;
+        $data['stores'] = $stores;
         $data['shippingTypes'] = $this->shipping();
-        $data['title'] = 'Add New Boutique';
-        $data['description'] = 'Add New Boutique';
-        $data['name']=$boutique->name;
-        $data['gen_description'] = $boutique->gen_description;
-        $data['logo'] = $boutique->logo;
-        $data['id'] = $boutique->id;
-        $data['detailed_description'] = $boutique->detailed_description;
-        $data['owner_description'] = $boutique->owner_description;
-        $data['shipping_id'] = $boutique->shipping_id;
-        $data['allow_custom_requests'] = $boutique->allow_custom_requests;
-        $data['handling_charge'] = $boutique->handling_charge;
+        $data['title'] = 'Add New Store';
+        $data['description'] = 'Add New Store';
+        $data['name']=$store->name;
+        $data['gen_description'] = $store->gen_description;
+        $data['logo'] = $store->logo;
+        $data['id'] = $store->id;
+        $data['detailed_description'] = $store->detailed_description;
+        $data['owner_description'] = $store->owner_description;
+        $data['shipping_id'] = $store->shipping_id;
+        $data['storeId'] = $store->id;
+        $data['store_type'] = $store->store_type;
+        $data['allow_custom_requests'] = $store->allow_custom_requests;
+        $data['handling_charge'] = $store->handling_charge;
 
-        return view('boutique_edit',$data);
+        return view('store_edit',$data);
 
     }
     public function itemCount(Request $request)
@@ -285,28 +312,24 @@ class BoutiqueController extends Controller
         $shoppingCart = new ShoppingCarts;
         return $shoppingCart->getItemCount($userId);
     }
-    public function addProduct($boutiqueId,Request $request)
+    public function addProduct($storeId,Request $request)
     {
-        $boutique = Boutiques::find($boutiqueId);
-        $user = Users::find($boutique->user_id);
-        $picture = $this->addProductImage($request, $boutique->id);
+        $store = UserStores::find($storeId);
+        $user = Users::find($store->user_id);
+
         $product = new Products;
         $product->product_name = $request->input('product_name');
         $product->description = $request->input('description');
         $product->display_description = $request->input('display_description');
-        $product->Author = $boutique->name;
+        $product->Author = $store->name;
         $product->retail = $request->input('retail');
         $product->non_member = $request->input('retail');
         $product->shipping_weight = $request->input('shipping_weight');
         $product->member = $request->input('retail');
         $product->cost_shipping = $request->input('cost_shipping');
         $product->pay_bonus = 1;
-
-        if($picture > '') {
-            $product->image = $picture;
-        }
         $product->physical_description = $request->input('physical_description');
-        $product->boutique_id = $boutique->id;
+        $product->store_id = $store->id;
         $product->one_of_a_kind = $request->input('one_of_a_kind');
         $product->save();
         $picture = $this->addProductImage($request, $product->id);
@@ -314,30 +337,30 @@ class BoutiqueController extends Controller
             $product->image = $picture;
             $product->save();
         }
-        return redirect("boutique/$boutique->id");
+        return redirect("store/$store->id");
     }
 
-    Public function deleteProduct($boutiqueId,$productId, Request $request)
+    Public function deleteProduct($storeId,$productId, Request $request)
     {
         $product = Products::find($productId)->delete();
-        return redirect("boutique/$boutiqueId");
+        return redirect("store/$storeId");
     }
 
-    Public function addProducts($boutiqueId, Request $request)
+    Public function addProducts($storeId, Request $request)
     {
-        $boutique = Boutiques::find($boutiqueId);
-        $user = Users::find($boutique->user_id);
+        $store = UserStores::find($storeId);
+        $user = Users::find($store->user_id);
         $data = $this->userData($request);
-        $data['boutique'] = $boutique;
+        $data['store'] = $store;
         $data['user'] = $user;
-        $data['name']=$boutique->name;
-        $data['logo'] = $boutique->logo;
-        $data['products'] = $this->boutiqueProducts($boutiqueId);
-        return view('boutique_products',$data);
+        $data['name']=$store->name;
+        $data['logo'] = $store->logo;
+        $data['products'] = $this->storeProducts($storeId);
+        return view('store_products',$data);
 
     }
 
-    public function addProductImage(Request $request, $boutiqueId)
+    public function addProductImage(Request $request, $productId)
     {
 
         $file = $request->file('file');
@@ -350,12 +373,12 @@ class BoutiqueController extends Controller
         $extension = ($mimeType == 'image/jpeg')?'.jpeg':'.png';
 
         $destination = 'images';
-        $name = 'botique_product_'.$boutiqueId.$extension;
+        $name = 'store_product_'.$productId.$extension;
         $file->move($destination, $name);
         return $name;
     }
 
-    public function addImage($userId, Request $request,$boutiqueId)
+    public function addImage($userId, Request $request,$storeId)
     {
 
         $file = $request->file('file');
@@ -368,7 +391,7 @@ class BoutiqueController extends Controller
         $extension = ($mimeType == 'image/jpeg')?'.jpeg':'.png';
 
         $destination = 'images';
-        $name = 'botique_logo_'.$boutiqueId.$extension;
+        $name = 'store_logo_'.$storeId.$extension;
         $file->move($destination, $name);
 
        return $name;
@@ -379,13 +402,13 @@ class BoutiqueController extends Controller
         return ShippingTypes::orderBy('description')->lists('description','id');
     }
 
-    public function boutiqueProducts($boutiqueId)
+    public function storeProducts($storeId)
     {
-        return Products::where('boutique_id',$boutiqueId)->orderBy('product_name')->get();
+        return Products::where('store_id',$storeId)->orderBy('product_name')->get();
 
     }
 
-    public function addbotiqueproduct($boutiqueId)
+    public function addStoreProduct($storeId)
     {
 
     }
@@ -414,7 +437,7 @@ class BoutiqueController extends Controller
         $data = $this->userData($request);
         $data['productSummary'] = $this->oneKindSummary();
         $data['title'] = 'One of a Kind Products';
-        $data['description'] = 'From All the Boutiques';
+        $data['description'] = 'From All the Stores';
 
         return view('one_of_a_kind',$data);
     }

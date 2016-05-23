@@ -10,7 +10,7 @@
              <div class="panel panel-default display">
                  <div class="panel-heading">Personal Information</div>
                  <div class="panel-body">
-                    {{--{!! Form::open(['url'=>"/boutique/add/$user_id",'method'=>'POST','files'=>true]) !!}--}}
+
                      <form id='Upload' class="form-horizontal" role="form" method="POST" action="/homepage/{{$user_id}}" enctype="multipart/form-data">
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
 

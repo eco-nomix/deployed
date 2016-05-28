@@ -27,6 +27,7 @@ class AuthenticationController extends Controller
         $data['reset'] = '';
         $data['user_name']='';
         $data['userRoles'] = $this->getUserRoles('x');
+        $data['referral_link'] = 'Not logged in';
         $data['errors'] = '';
         $data['title'] = '';
         $data['description'] = 'Login';
@@ -37,11 +38,12 @@ class AuthenticationController extends Controller
     {
         $this->clearSession($request);
 
-        $data = $this->baseData();
+        $data = $this->baseData($request);
         $data['user_name'] = '';
         $data['reset'] = '';
         $data['username'] = '';
         $data['userRoles'] = $this->getUserRoles('x');
+        $data['referral_link'] = 'Not logged in';
         $data['user_id'] = '';
         $data['title'] = '';
         $data['description'] = 'Login';
@@ -77,7 +79,7 @@ class AuthenticationController extends Controller
             if($user->member ==1){
                 return $this->verificationSent($user,$request);
             }
-            $data = $this->basedata();
+            $data = $this->basedata($request);
             $data['username'] = $user->first_name.' '.$user->last_name;
             $data['user_name'] = '';
             $data['user_id'] = '';
@@ -137,7 +139,7 @@ class AuthenticationController extends Controller
         $request->session()->set('userRoles',$roles);
         $request->session()->save();
 
-        $data = $this->basedata();
+        $data = $this->basedata($request);
         $data['user_name'] = $username;
         $data['userRoles'] = $roles;
         $data['user_id'] = $user->id;
@@ -178,7 +180,7 @@ class AuthenticationController extends Controller
             $user = Users::find($userId);
             if ($user) {
                 if ($user->member == 2) {
-                    $data = $this->basedata();
+                    $data = $this->basedata($request);
                     $data['username'] = '';
                     $data['user_name'] = '';
 
@@ -187,7 +189,7 @@ class AuthenticationController extends Controller
                     return view('register2', $data);
                 }
                 if ($user->member == 3) {
-                    $data = $this->basedata();
+                    $data = $this->basedata($request);
                     $data['username'] = '';
                     $data['user_name'] = '';
 
@@ -196,7 +198,7 @@ class AuthenticationController extends Controller
                     return view('payment', $data);
                 }
                 if ($user->member == 4) {
-                    $data = $this->basedata();
+                    $data = $this->basedata($request);
                     $data['username'] = $user->first_name.' '.$user->last_name;
                     $data['user_name'] = '';
                     $data['user_id'] = $userId;
@@ -207,7 +209,7 @@ class AuthenticationController extends Controller
                 }
                 if ($user->member == 5) {
 
-                    $data = $this->basedata();
+                    $data = $this->basedata($request);
                     $data['username'] = '';
                     $data['user_name'] = '';
                     $data['userRoles'] = $this->getUserRoles($user->id);
@@ -240,7 +242,7 @@ class AuthenticationController extends Controller
             $user = $users->checkForUserName($request);
             if($user){
                 $data['errors'] = 'Username has already been used';
-                $data = $this->basedata();
+                $data = $this->basedata($request);
                 $data['username'] = '';
                 $data['user_name'] = '';
                 $data['title'] = '';
@@ -253,7 +255,7 @@ class AuthenticationController extends Controller
             $this->emailConfirmation($user);
             return $this->verifyEmail($user);
         }
-        $data = $this->basedata();
+        $data = $this->basedata($request);
         $data['username'] = '';
         $data['user_name'] = '';
         $data['userRoles'] = $this->getUserRoles('x');
@@ -315,7 +317,7 @@ class AuthenticationController extends Controller
                 $user->save();
                 return view('awaiting_payment',$data);
             }
-            $data = $this->basedata();
+            $data = $this->basedata($request);
             $data['username'] = '';
             $data['user_name'] = '';
             $data['userRoles'] = $this->getUserRoles('x');
@@ -348,12 +350,12 @@ class AuthenticationController extends Controller
             $trans = $this->processPayment($user,$cc,$productId);
             $user->member = 5;
             $user->save();
-            $data = $this->basedata();
+            $data = $this->basedata( $request);
             $username = $user->first_name . ' ' . $user->last_name;
             $request->session()->set('user_name', $username);
             $request->session()->set('user_id', $user->id);
             $request->session()->save();
-            $data = $this->basedata();
+            $data = $this->basedata($request);
             $data['user_name'] = $username;
             $data['charge'] = $trans->total_order;
             $data['cardnumber'] = "xxx...".substr($cc->credit_card_number,-4);
@@ -416,7 +418,7 @@ class AuthenticationController extends Controller
 
     }
 
-    public function baseData()
+    public function baseData($request)
     {
 
         $data['imageUrl'] = '../images/EarthRise.jpg';
@@ -424,6 +426,15 @@ class AuthenticationController extends Controller
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
         $data['title'] = '';
+        $data['user_id'] =$request->session()->get('user_id');
+
+        $user = Users::find($data['user_id'] );
+        if($user){
+            $referralLink = "http://eco-nomix.org/referred/$user->id";
+        }else{
+            $referralLink = "Not Logged in";
+        }
+        $data['referral_link'] = $referralLink;
         $data['description'] = 'Authentication';
         return $data;
     }
@@ -506,7 +517,7 @@ class AuthenticationController extends Controller
                 // email was verified
                 $user->member = 2;
                 $user->save();
-                $data= $this->basedata();
+                $data= $this->basedata($request);
                 $data['username'] = '';
                 $data['user_name'] = '';
 
@@ -518,7 +529,7 @@ class AuthenticationController extends Controller
             }
             else{
                 //email link tweaked
-                $data= $this->basedata();
+                $data= $this->basedata($request);
                 $data['username'] = '';
                 $data['user_name'] = '';
                 $data['title'] = '';
@@ -528,7 +539,7 @@ class AuthenticationController extends Controller
         }
         else{
             //email link tweaked
-            $data= $this->basedata();
+            $data= $this->basedata($request);
             $data['username'] = '';
             $data['title'] = '';
             $data['user_name'] = '';
@@ -555,12 +566,12 @@ class AuthenticationController extends Controller
     }
     public function memberConfirmed($user, $request)
     {
-        $data= $this->basedata();
+        $data= $this->basedata($request);
         $username = $user->first_name.' '.$user->last_name;
         $request->session()->set('user_name', $username);
         $request->session()->set('user_id', $user->id);
         $request->session()->save();
-        $data = $this->basedata();
+        $data = $this->basedata($request);
         $data['user_name'] = $username;
         $data['user_id'] = $user->id;
         $data['username'] = $username;
@@ -602,7 +613,7 @@ class AuthenticationController extends Controller
 
     public function verifyEmail($user)
     {
-        $data= $this->basedata();
+        $data= $this->basedata($request);
         $data['username'] = '';
         $data['user_name'] = '';
         $data['user_id'] = '';
@@ -897,7 +908,7 @@ class AuthenticationController extends Controller
 
     public function accounting(Request $request)
     {
-        $data= $this->basedata();
+        $data= $this->basedata($request);
         $data['user_name'] = $request->session()->get('user_name');
         $data['userRoles'] = $request->session()->get('userRoles');
         $data['user_id'] = $request->session()->get('user_id');

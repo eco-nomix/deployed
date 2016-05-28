@@ -3,7 +3,11 @@
         <div class="navbar-brand brand-image">
              <a href="/test/"><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
         </div>
-        <div style="padding:13px;">
+        <div class="referral" >
+            Referral Link: <br>
+            {{$referral_link}}
+        </div>
+        <div style="padding:15px;">
             <ul>
                 <li><a href="/products">Products<span class="caret"></span></a>
                     <ul>
@@ -87,6 +91,7 @@
                     <a href="/intro">Introduction</a>
                 </li>
             </ul>
+
             <ul class="pull-right">
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>

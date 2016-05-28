@@ -134,6 +134,14 @@ h2 {
     font-weight:bold;
 }
 
+.referral{
+    float:left;
+    font-weight:bold;
+    color:white;
+    padding:5px;
+    margin-top:2px;
+}
+
 .inline{
     float:left;
 }

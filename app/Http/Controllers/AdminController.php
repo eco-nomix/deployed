@@ -299,6 +299,14 @@ class AdminController extends Controller
         $roles = $request->session()->get('userRoles');
         \Log::info("username = $username");
         $data['user_id'] =$request->session()->get('user_id');
+
+        $user = Users::find($data['user_id'] );
+        if($user){
+            $referralLink = "http://eco-nomix.org/referred/$user->id";
+        }else{
+            $referralLink = "Not Logged in";
+        }
+        $data['referral_link'] = $referralLink;
         $data['errors'] = [];
         $data['userRoles'] = $roles;
         $data['economix_url'] = 'test';

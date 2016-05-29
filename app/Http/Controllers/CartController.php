@@ -67,7 +67,7 @@ class CartController extends Controller
         $roles = $request->session()->get('userRoles');
         \Log::info("username = $username");
         $data['user_id'] = $request->session()->get('user_id');
-        $user = Users::find($userId);
+        $user = Users::find($data['user_id']);
         if($user){
             $referralLink = "http://eco-nomix.org/referred/$user->id";
         }else{

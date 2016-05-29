@@ -15,9 +15,10 @@
                         <li><a href="/stores/39">Art Galleries</a></li>
                         <li><a href="/stores/38">Boutiques</a></li>
                         <li><a href="/stores/40">Estate Sales</a></li>
-                           <li><a href="/onekind">One of Kind</a></li>
-                        <li><a href="/stores/41">Services</a></li>
                         <li><a href="/stores/42">Stores</a></li>
+                        <li><a href="/stores/41">Services</a></li>
+                        <li><a href="/onekind">One of Kind</a></li>
+                        <li><a href="/multikind">Member Products</a></li>
                         <li><a href="/food">Food Production</a></li>
                         <li><a href="/water">Water Purification</a></li>
                         <li><a href="/energy">Energy Production</a></li>
@@ -28,7 +29,7 @@
                         <li><a href="/house">Household Products</a></li>
                         <li><a href="/books">Books and Guides</a></li>
                         <li><a href="/training">Training</a></li>
-                        <li><a href="/autoship">Auto-Ship Policy</a></li>
+
                     </ul>
                 </li>
                 <li><a href="/traininglinks">Training Links<span class="caret"></span></a>
@@ -86,6 +87,7 @@
                         <li><a href="/donations">Donations</a></li>
                         <li><a href="/comparison">Eco-nomix compared to Multi-Level</a></li>
                         <li><a href="/benefits">Member Benefits</a></li>
+                        <li><a href="/autoship">Auto-Ship Policy</a></li>
                     </ul>
                 </li>
                 <li>

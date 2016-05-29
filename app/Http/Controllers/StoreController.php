@@ -508,5 +508,105 @@ class StoreController extends Controller
 
         return view('one_of_a_kind',$data);
     }
+    public function multiKind(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['productSummary'] = $this->multiKindSummary();
+        $data['title'] = 'One of a Kind Products';
+        $data['categories']  = $this->storeCategories();
+        $data['description'] = 'From All the Stores';
+        $data['productCategory'] = 0;
+        return view('multi_of_a_kind',$data);
+    }
+    public function multikindSub($productCategory,Request $request)
+    {
+        $data = $this->userData($request);
+        $data['productSummary'] = $this->multiKindSummarySub($productCategory);
+        $data['title'] = 'One of a Kind Products';
+        $data['categories']  = $this->storeCategories();
+        $data['description'] = 'From All the Stores';
+        $data['productCategory'] = $productCategory;
 
+        return view('multi_of_a_kind',$data);
+    }
+    public function multiKindSummary()
+    {
+        $results = '';
+
+        $products = Products::where('store_id','>',0)->orderBy('product_name')->get();
+        $results = '<tr>';
+        $ctr= 0;
+        $modd=0;
+        if(count($products)==0){
+            $results .= "<td>No Products, Coming Soon</td>";
+            $ctr = 8;
+        }
+
+        foreach($products as $product){
+            $results .= "<td class='eighth'><a href=\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td class='fifth' ><a href=\"/multikind/$product->id\">";
+            $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
+            $results .= substr($description,0,260)."...</a></td>";
+            $ctr++;
+            $ctr++;
+            $modd = $ctr % 6;
+            \Log::info("ctr=$ctr  mod=$modd");
+            if($modd == 0){
+                $results .= "</tr><tr>";
+            }
+        }
+        $results = $this->addBlanks($results,$modd);
+        $results .= "</tr>";
+        return $results;
+    }
+
+    public function multiKindSummarySub($productCategory)
+    {
+        $results = '';
+        if ($productCategory > 0) {
+            $products = Products::where('store_id','>',0)->where('product_category', $productCategory)->orderBy('product_name')->get();
+        }
+        else{
+            $products = Products::where('store_id','>',0)->orderBy('product_name')->get();
+
+        }
+        $results = '<tr>';
+        $ctr= 0;
+        $modd=0;
+        if(count($products)==0){
+            $results .= "<td>No Products in Product Category, Coming Soon</td>";
+            $ctr = 8;
+        }
+
+        foreach($products as $product){
+            $results .= "<td class='eighth'><a href=\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td class='fifth' ><a href=\"/multikind/$product->id\">";
+            $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
+            $results .= substr($description,0,260)."...</a></td>";
+            $ctr++;
+            $ctr++;
+            $modd = $ctr % 6;
+            \Log::info("ctr=$ctr  mod=$modd");
+            if($modd == 0){
+                $results .= "</tr><tr>";
+            }
+        }
+        $results = $this->addBlanks($results,$modd);
+        $results .= "</tr>";
+        return $results;
+    }
+    public function multikindproduct($productId, Request $request)
+    {
+
+        $product = Products::find($productId);
+        $store = UserStores::find($product->store_id);
+        $user = Users::find($store->user_id);
+        $data = $this->userData($request);
+        $data['store'] = $store;
+        $data['user'] = $user;
+        $data['ItemCount'] = $this->itemCount($request);
+        $data['title'] = $store->product_name;
+        $data['Product'] = $product;
+        return view('store_product',$data);
+    }
 }

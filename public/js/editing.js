@@ -114,3 +114,8 @@ function onekind(sel){
     var value = sel.value;
     window.location = '/onekind/sub/'+value;
 }
+
+function multikind(sel){
+    var value = sel.value;
+    window.location = '/multikind/sub/'+value;
+}

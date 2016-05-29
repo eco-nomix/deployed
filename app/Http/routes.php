@@ -172,16 +172,19 @@ Route::get('/store/{storeId}/delete_product/{productId}',['as'=>'storeproduct','
 Route::get('/onekind',['as'=>'onekind','uses'=>'StoreController@onekind']);
 Route::get('/onekind/sub/{productCategory}',['as'=>'onekind','uses'=>'StoreController@onekindSub']);
 Route::get('/onekind/{productId}',['as'=>'onekind','uses'=>'StoreController@onekindproduct']);
+Route::get('/multikind',['as'=>'onekind','uses'=>'StoreController@multikind']);
+Route::get('/multikind/sub/{productCategory}',['as'=>'onekind','uses'=>'StoreController@multikindSub']);
+Route::get('/multikind/{productId}',['as'=>'onekind','uses'=>'StoreController@multikindproduct']);
     /*
-    |--------------------------------------------------------------------------
-    | Application Routes
-    |--------------------------------------------------------------------------
-    |
-    | This route group applies the "web" middleware group to every route
-    | it contains. The "web" middleware group is defined in your HTTP
-    | kernel and includes session state, CSRF protection, and more.
-    |
-    */
+  |--------------------------------------------------------------------------
+  | Application Routes
+  |--------------------------------------------------------------------------
+  |
+  | This route group applies the "web" middleware group to every route
+  | it contains. The "web" middleware group is defined in your HTTP
+  | kernel and includes session state, CSRF protection, and more.
+  |
+  */
 
 /*
 Route::controllers([

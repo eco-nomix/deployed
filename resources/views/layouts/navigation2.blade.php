@@ -4,7 +4,7 @@
              <a href="/test/"><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
         </div>
         <div class="referral" >
-            Referral Link: <br>
+            Your Referral Link: <br>
             {{$referral_link}}
         </div>
         <div style="padding:15px;">

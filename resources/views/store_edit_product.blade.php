@@ -69,6 +69,12 @@
                                 </div>
                             </div>
                             <div class="form-group">
+                                <label class="col-md-4 control-label">Wholesale Price (you receive)</label>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" name="wholesale" value="{{number_format($Product->retail * .6,2)}}" step="any" Readonly>
+                                </div>
+                            </div>
+                            <div class="form-group">
                                <label class="col-md-4 control-label">Shipping (if known)</label>
                                <div class="col-md-6">
                                    <input type="number" class="form-control" name="cost_shipping" value="{{$Product->cost_shipping}}" step="any">

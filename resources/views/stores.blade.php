@@ -39,7 +39,7 @@
                                      </a>
                                  </td>
                                  <td>
-                                      <a href=\store/add/{{$user_id}}>
+                                      <a href=\store/{{$product_group}}/add/{{$user_id}}>
                                           <div align="center" >Create or Edit your Own {{$store_type}} using Eco-nomix.  You can carry any product/service that you like,  get to set your own price,<br> shipping procedure. You can even take orders for custom products. Set it up the way you want.</div>
                                       </a>
                                  </td>

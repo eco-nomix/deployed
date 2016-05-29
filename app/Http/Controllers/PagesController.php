@@ -229,6 +229,11 @@ class PagesController extends Controller
             $data['store_type'] = 'Services';
             $data['description'] = 'Member Services';
         }
+        elseif($productGroup == 42){
+            $data['title'] = 'Stores';
+            $data['store_type'] = 'Stores';
+            $data['description'] = 'Member Stores';
+        }
         return view('stores',$data);
     }
     public function camping(Request $request)

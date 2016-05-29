@@ -170,6 +170,7 @@ Route::post('/store/{storeId}/productedit/{productId}',['as'=>'storeproduct','us
 Route::get('/store/{storeId}/delete_product/{productId}',['as'=>'storeproduct','uses'=>'StoreController@deleteproduct']);
 
 Route::get('/onekind',['as'=>'onekind','uses'=>'StoreController@onekind']);
+Route::get('/onekind/sub/{productCategory}',['as'=>'onekind','uses'=>'StoreController@onekindSub']);
 Route::get('/onekind/{productId}',['as'=>'onekind','uses'=>'StoreController@onekindproduct']);
     /*
     |--------------------------------------------------------------------------

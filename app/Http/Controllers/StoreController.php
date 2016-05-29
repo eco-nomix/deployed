@@ -11,6 +11,7 @@ use App\Models\Products;
 use App\Models\ShippingTypes;
 use App\Models\ShoppingCarts;
 use App\Models\ProductGroups;
+use App\Models\ProductCategories;
 use App\Http\Controllers\Controller;
 
 class StoreController extends Controller
@@ -65,6 +66,42 @@ class StoreController extends Controller
         $results = '';
 
         $products = Products::where('one_of_a_kind',1)->orderBy('product_name')->get();
+        $results = '<tr>';
+        $ctr= 0;
+        $modd=0;
+        if(count($products)==0){
+            $results .= "<td>No Products in One of a Kind, Coming Soon</td>";
+            $ctr = 8;
+        }
+
+        foreach($products as $product){
+            $results .= "<td class='eighth'><a href=\"/onekind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td class='fifth' ><a href=\"/onekind/$product->id\">";
+            $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
+            $results .= substr($description,0,260)."...</a></td>";
+            $ctr++;
+            $ctr++;
+            $modd = $ctr % 6;
+            \Log::info("ctr=$ctr  mod=$modd");
+            if($modd == 0){
+                $results .= "</tr><tr>";
+            }
+        }
+        $results = $this->addBlanks($results,$modd);
+        $results .= "</tr>";
+        return $results;
+    }
+
+    public function oneKindSummarySub($productCategory)
+    {
+        $results = '';
+        if ($productCategory > 0) {
+            $products = Products::where('one_of_a_kind', 1)->where('product_category', $productCategory)->orderBy('product_name')->get();
+        }
+        else{
+            $products = Products::where('one_of_a_kind', 1)->orderBy('product_name')->get();
+
+        }
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
@@ -151,12 +188,14 @@ class StoreController extends Controller
         $product->display_description = $request->input('display_description');
         $product->physical_description = $request->input('physical_description');
         $product->one_of_a_kind = $request->input('one_of_a_kind');
+        $product->product_category = $request->input('product_category');
         $product->save();
         $data = $this->userData($request);
         $data['store'] = $store;
         $data['Product'] = $product;
         $data['user'] = $user;
         $data['name']=$store->name;
+        $data['categories']  = $this->storeCategories();
         $data['logo'] = $store->logo;
 
         return view('store_edit_product',$data);
@@ -173,6 +212,7 @@ class StoreController extends Controller
         $data['user'] = $user;
         $data['name']=$store->name;
         $data['logo'] = $store->logo;
+        $data['categories']  = $this->storeCategories();
 
         return view('store_edit_product',$data);
     }
@@ -331,6 +371,7 @@ class StoreController extends Controller
         $product->physical_description = $request->input('physical_description');
         $product->store_id = $store->id;
         $product->one_of_a_kind = $request->input('one_of_a_kind');
+        $product->product_category = $request->input('product_category');
         $product->save();
         $picture = $this->addProductImage($request, $product->id);
         if($picture > '') {
@@ -356,8 +397,15 @@ class StoreController extends Controller
         $data['name']=$store->name;
         $data['logo'] = $store->logo;
         $data['products'] = $this->storeProducts($storeId);
+        $data['categories']  = $this->storeCategories();
+
         return view('store_products',$data);
 
+    }
+
+    public function storeCategories()
+    {
+        return ProductCategories::orderBy('display_order')->lists('name','id');
     }
 
     public function addProductImage(Request $request, $productId)
@@ -444,7 +492,19 @@ class StoreController extends Controller
         $data = $this->userData($request);
         $data['productSummary'] = $this->oneKindSummary();
         $data['title'] = 'One of a Kind Products';
+        $data['categories']  = $this->storeCategories();
         $data['description'] = 'From All the Stores';
+        $data['productCategory'] = 0;
+        return view('one_of_a_kind',$data);
+    }
+    public function onekindSub($productCategory,Request $request)
+    {
+        $data = $this->userData($request);
+        $data['productSummary'] = $this->oneKindSummarySub($productCategory);
+        $data['title'] = 'One of a Kind Products';
+        $data['categories']  = $this->storeCategories();
+        $data['description'] = 'From All the Stores';
+        $data['productCategory'] = $productCategory;
 
         return view('one_of_a_kind',$data);
     }

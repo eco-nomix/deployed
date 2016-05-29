@@ -8,7 +8,14 @@
      <div class="row">
          <div class="col-md-11 col-md-offset-1">
              <div class="panel panel-default display">
-              <div class="panel-heading">One of a Kind Products</div>
+              <div class="panel-heading">One of a Kind Products
+                    <select name="product_category" onchange="onekind(this)">
+                        <option value="0">All Categories</option>
+                        @foreach($categories as $key=>$category)
+                            <option value="{{$key}}" @if($productCategory == $key) Selected @endif >{{$category}}</option>
+                        @endforeach
+                    </select>
+              </div>
 
                  <div class="panel-body">
 

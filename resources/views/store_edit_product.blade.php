@@ -41,6 +41,16 @@
                                 </div>
                             </div>
                             <div class="form-group">
+                                <label class="col-md-4 control-label">Product Category</label>
+                                <div class="col-md-6">
+                                    <select name="product_category">
+                                        @foreach($categories as $key=>$category)
+                                            <option value="{{$key}}" @if($Product->product_category == $key) Selected @endif>{{$category}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
                                 <label class="col-md-4 control-label">Short Description</label>
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" name="description" value="{{$Product->description}}">

@@ -109,3 +109,8 @@ function editBoutique(sel){
     var value = sel.value;
     window.location = "/store/edit/"+value;
 }
+
+function onekind(sel){
+    var value = sel.value;
+    window.location = '/onekind/sub/'+value;
+}

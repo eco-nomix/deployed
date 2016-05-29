@@ -17,6 +17,7 @@
                         <li><a href="/stores/40">Estate Sales</a></li>
                            <li><a href="/onekind">One of Kind</a></li>
                         <li><a href="/stores/41">Services</a></li>
+                        <li><a href="/stores/42">Stores</a></li>
                         <li><a href="/food">Food Production</a></li>
                         <li><a href="/water">Water Purification</a></li>
                         <li><a href="/energy">Energy Production</a></li>

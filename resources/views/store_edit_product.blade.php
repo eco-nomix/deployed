@@ -21,7 +21,7 @@
                                    <p>All products sold through Eco-nomix will be participating in the multi-level bonus program commonly referred to as the '10-4 Good Buddy Program'.</p>
                                    <p>The 10-4 Good Buddy program pays out a total of 26% bonuses, plus an additional 4% is reserved for charitable contributions and selected programs that deserve funding.</p>
                                    <p>Eco-nomix will receive 10% profit on the sale, out of which credit card charges, bank charges for payroll system, accounting and maintenance of the website will be paid.</p>
-                                   <p>You will be paid 60% of the Retail Price you set below.</p>
+                                   <p>You will be paid the wholesale price you set below. The member price and non-member price will be calculated for you.</p>
                                    <p>Payment for product will be made through the Eco-nomix payroll debit card.</p>
                                    </div>
                                 </div>
@@ -63,15 +63,22 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-md-4 control-label">Retail Price</label>
+                                <label class="col-md-4 control-label">Non-Member Price</label>
                                 <div class="col-md-6">
-                                    <input type="number" class="form-control" name="retail" value="{{$Product->retail}}" step="any">
+                                    <input type="number" class="form-control" name="nonmember" value="{{$Product->non_member}}" step="any" Readonly>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Member Price</label>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" name="member" value="{{$Product->member}}" step="any" Readonly>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Wholesale Price (you receive)</label>
                                 <div class="col-md-6">
-                                    <input type="number" class="form-control" name="wholesale" value="{{number_format($Product->retail * .6,2)}}" step="any" Readonly>
+                                    <input type="number" class="form-control" name="wholesale" value="{{$wholesale}}" step="any">
                                 </div>
                             </div>
                             <div class="form-group">

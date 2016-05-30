@@ -166,7 +166,9 @@ class StoreController extends Controller
         $data['user'] = $user;
         $data['ItemCount'] = $this->itemCount($request);
         $data['title'] = $store->product_name;
+
         $data['Product'] = $product;
+        $data['wholesale'] = number_format($product->member*.6,2);
         return view('store_product',$data);
     }
     public function saveeditproduct($storeId, $productId, Request $request)
@@ -180,9 +182,13 @@ class StoreController extends Controller
         }
         $product->product_name = $request->input('product_name');
         $product->description = $request->input('description');
-        $product->retail = $request->input('retail');
-        $product->non_member = $request->input('retail');
-        $product->member = $request->input('retail');
+        $wholesale = $request->input('wholesale');
+        $member = str_replace(',','',number_format(($wholesale/.6),2));
+        $nonmember = str_replace(',','',number_format(($wholesale/.55),2));
+      //  dd($wholesale, $member, $nonmember);
+        $product->member = $member;
+        $product->non_member = $nonmember;
+        $product->retail = $product->non_member;
         $product->shipping_weight = $request->input('shipping_weight');
         $product->cost_shipping = $request->input('cost_shipping');
         $product->display_description = $request->input('display_description');
@@ -193,6 +199,7 @@ class StoreController extends Controller
         $data = $this->userData($request);
         $data['store'] = $store;
         $data['Product'] = $product;
+        $data['wholesale'] = str_replace(',','',number_format($wholesale,2));
         $data['user'] = $user;
         $data['name']=$store->name;
         $data['categories']  = $this->storeCategories();
@@ -209,6 +216,7 @@ class StoreController extends Controller
         $data = $this->userData($request);
         $data['store'] = $store;
         $data['Product'] = $product;
+        $data['wholesale'] = str_replace(',','',number_format($product->member*.6,2));
         $data['user'] = $user;
         $data['name']=$store->name;
         $data['logo'] = $store->logo;

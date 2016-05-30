@@ -35,12 +35,14 @@
                                               {!!$Product->display_description!!}
                                             </th>
                                             <td class="my200">
+                                               Non-Member Price:
                                                Member Price:
                                                Shipping:
                                                Handling:
                                             </td>
                                             <td>
-                                                ${{$Product->retail}}<br>
+                                                ${{$Product->non_member}}<br>
+                                                ${{$Product->member}}<br>
                                                 ${{$Product->cost_shipping}}<br>
                                                 ${{$Product->shipping_handling}}
 

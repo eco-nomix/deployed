@@ -184,7 +184,7 @@ class StoreController extends Controller
         $product->description = $request->input('description');
         $wholesale = $request->input('wholesale');
         $member = str_replace(',','',number_format(($wholesale/.6),2));
-        $nonmember = str_replace(',','',number_format(($wholesale/.55),2));
+        $nonmember = str_replace(',','',number_format(($wholesale/.5454),2));
       //  dd($wholesale, $member, $nonmember);
         $product->member = $member;
         $product->non_member = $nonmember;

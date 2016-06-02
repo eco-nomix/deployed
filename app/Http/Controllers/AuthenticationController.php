@@ -93,6 +93,7 @@ class AuthenticationController extends Controller
 
     public function notValidLogin($request)
     {
+        \Log::info("notvalidlogin ");
         $userName = $request->input('username');
         $user = Users::where('user_name', $userName)
         ->first();
@@ -101,12 +102,14 @@ class AuthenticationController extends Controller
             \Log::info("found username");
         }else{
             $data['reset'] = '';
+            $data['referral_link'] = 'Not Logged In';
         }
         $data['user_name'] = '';
         $data['username'] = $userName;
         $data['userRoles'] = $this->getUserRoles('x');
         $data['user_id'] = '';
         $data['errors'] = 'Password or Username incorrect';
+
         $data['title'] = '';
         $data['description'] = 'Invalid';
         \Log::info("exit 2");
@@ -140,6 +143,8 @@ class AuthenticationController extends Controller
         $request->session()->save();
 
         $data = $this->basedata($request);
+        $refLink = $data['referral_link'];
+        \Log::info("referralLink=$refLink");
         $data['user_name'] = $username;
         $data['userRoles'] = $roles;
         $data['user_id'] = $user->id;
@@ -172,10 +177,12 @@ class AuthenticationController extends Controller
         $data['description'] = 'Registration';
         $data['username']='';
         $data['user_id'] = '';
+        $data['referral_link']= 'Not Logged In';
         $data['userRoles'] = $this->getUserRoles('x');
         $data['errors']= [] ;
         $data['title'] = '';
         $userId = $request->session()->get('user_id');
+        \Log::info("userId in register=$userId");
         if($userId){
             $user = Users::find($userId);
             if ($user) {

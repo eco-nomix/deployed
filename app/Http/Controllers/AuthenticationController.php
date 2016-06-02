@@ -99,7 +99,7 @@ class AuthenticationController extends Controller
         ->first();
         if ($user){
             $data['reset'] = 'yes';
-            $data['referral_link'] = "http://eco-nomix.org/referred/$user->id";
+            $data['referral_link'] = 'Not Logged In';
             \Log::info("found username");
         }else{
             $data['reset'] = '';
@@ -404,8 +404,10 @@ class AuthenticationController extends Controller
             \Log::info("email=$email");
             $data['email'] = $email;
             $data['user_name'] = '';
+            $data['username'] = '';
             $data['userRoles'] = $this->getUserRoles('x');
-            $data['user_id'] = '';
+
+            $data['referral_link'] = 'Not logged in';
             $data['title'] = '';
             $data['description'] = 'Reset';
             \Log::info("exit 3");
@@ -417,6 +419,8 @@ class AuthenticationController extends Controller
             $data['user_id'] = '';
             $data['userRoles'] = $this->getUserRoles('x');
             $data['username']=$userName;
+            $data['referral_link'] = 'Not Logged In';
+            $data['username'] = '';
             $data['errors'] = 'UserName not in system';
             $data['title'] = '';
             $data['description'] = 'Login';

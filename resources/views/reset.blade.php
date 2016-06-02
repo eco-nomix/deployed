@@ -16,7 +16,7 @@
 
                                 <div class="form-group">
                                      <div class="col-md-8 col-md-offset-3">
-                                        A email was sent to {{$email}}  click on the link in your Email to reset your password
+                                        A email was sent to {{$email}}  <br> click on the link in your Email to reset your password
                                     </div>
                                 </div>
 

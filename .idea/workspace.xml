@@ -42,8 +42,8 @@
       <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3325527" vertical-offset="5802" max-vertical-offset="32062">
-              <caret line="179" column="48" selection-start-line="179" selection-start-column="48" selection-end-line="179" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="3283" max-vertical-offset="32096">
+              <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
               <folding>
                 <element signature="e#38#47#0#PHP" expanded="true" />
               </folding>
@@ -51,11 +51,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="xdg-open" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browser-sync/node_modules/opn/xdg-open">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.9666667" vertical-offset="7705" max-vertical-offset="29478">
+              <caret line="231" column="4" selection-start-line="231" selection-start-column="4" selection-end-line="231" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.923077" vertical-offset="1110" max-vertical-offset="29036">
-              <caret line="41" column="46" selection-start-line="34" selection-start-column="4" selection-end-line="41" selection-end-column="46" />
+            <state vertical-scroll-proportion="-5.6923075" vertical-offset="1110" max-vertical-offset="29036">
+              <caret line="37" column="70" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="70" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
                 <marker date="1464538886000" expanded="false" signature="18729:18741" placeholder="..." />
@@ -128,16 +141,6 @@
                 <marker date="1464631570000" expanded="true" signature="22561:22753" placeholder="..." />
                 <marker date="1464631570000" expanded="true" signature="22661:22749" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store_edit_product.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/store_edit_product.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="5270">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -664,7 +667,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44444445" sideWeight="0.4997151" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44444445" sideWeight="0.4997151" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -725,17 +728,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php</url>
-          <line>337</line>
+          <line>338</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php</url>
-          <line>144</line>
+          <line>145</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php</url>
-          <line>788</line>
+          <line>789</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -764,14 +767,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/UserRoles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49275362" vertical-offset="0" max-vertical-offset="897">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/TimeZones.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4548495" vertical-offset="0" max-vertical-offset="897">
@@ -1136,17 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.923077" vertical-offset="1110" max-vertical-offset="29036">
-          <caret line="41" column="46" selection-start-line="34" selection-start-column="4" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-            <marker date="1464538886000" expanded="false" signature="18729:18741" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.923077" vertical-offset="2096" max-vertical-offset="6902">
@@ -1157,10 +1141,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browser-sync/node_modules/opn/xdg-open">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9666667" vertical-offset="7705" max-vertical-offset="29478">
+          <caret line="231" column="4" selection-start-line="231" selection-start-column="4" selection-end-line="231" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6923075" vertical-offset="1110" max-vertical-offset="29036">
+          <caret line="37" column="70" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="70" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1464538886000" expanded="false" signature="18729:18741" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325527" vertical-offset="5802" max-vertical-offset="32062">
-          <caret line="179" column="48" selection-start-line="179" selection-start-column="48" selection-end-line="179" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="3283" max-vertical-offset="32096">
+          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
           <folding>
             <element signature="e#38#47#0#PHP" expanded="true" />
           </folding>

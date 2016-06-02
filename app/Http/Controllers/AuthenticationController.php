@@ -99,6 +99,7 @@ class AuthenticationController extends Controller
         ->first();
         if ($user){
             $data['reset'] = 'yes';
+            $data['referral_link'] = "http://eco-nomix.org/referred/$user->id";
             \Log::info("found username");
         }else{
             $data['reset'] = '';

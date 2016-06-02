@@ -4,8 +4,13 @@
              <a href="/test/"><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
         </div>
         <div class="referral" >
+        @if(!isset($referral_link))
+            Your Referral Link: <br>
+            Not logged in
+        @else
             Your Referral Link: <br>
             {{$referral_link}}
+        @endif
         </div>
         <div style="padding:15px;">
             <ul>

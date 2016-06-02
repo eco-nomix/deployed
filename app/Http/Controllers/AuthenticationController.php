@@ -806,11 +806,20 @@ class AuthenticationController extends Controller
         $roles = $this->getUserRoles($user->id);
         $request->session()->set('user_name', $username);
         $request->session()->set('user_id', $user->id);
+        $userId = $user->id;
+        $user = Users::find($userId);
+        if($user){
+            $referralLink = "http://eco-nomix.org/referred/$user->id";
+        }else{
+            $referralLink = "Not Logged in";
+        }
+
         $request->session()->set('userRoles',$roles);
         $request->session()->save();
         $data = [];
         $data['firstId'] = 0;
         $data['errors'] = [];
+        $data['referral_link']= $referralLink;
         $data['userRoles'] = $roles;
         $data['user_name'] = $username;
         $data['user_id'] = $user->id;

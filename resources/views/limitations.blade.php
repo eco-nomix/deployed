@@ -36,6 +36,12 @@
                                 <li>If you encourage your downline Members to do the same.</li>
                             </ul>
                         </div>
+                        <div class="form-group col-md-12 ">
+                            Become creative in how you get the word out,  your referral link is key to your success.
+                        </div>
+                         <div class="form-group col-md-12 ">
+                            Put your referral link in your email, ads, or notices.
+                         </div>
                          <div class="form-group col-md-12 ">
                              Obviously, your organizations size alone will not create any income for you.  All Referral bonuses are earned from sales that are made,  so encourage your down-line to know what products are available, and to discover how they can be utilized to become more independent and self-suffient.
                           </div>

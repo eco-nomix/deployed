@@ -25,9 +25,9 @@
                 <p>A member can promote the companies products and receive a <a href="\referral">referral fee</a> of 10% of the selling price to referred members.</p>
             </li>
             <li>
-               <p>The referral fees continue for up to 5 generations of referrals in total.  The member receives a 4% referral fee on the 2nd to 5th generations.
+               <p>The referral Bonuses continue for up to 5 generations of referrals in total.  The member receives a 4% referral fee on the 2nd to 5th generations.
                 Because the 5 generation of down-line members can grow both <a href="\limitations">extremely wide</a> and deep,  the number of people downline can be grow over time to a large organization.  Each sale through
-                5 generations will result in referral fees for the member.  This can start to add up pretty quickly.  Since there are no on-going fees to participate this could represent <a href="\potential">significant income</a>.</p>
+                5 generations will result in referral fees for the upline members.  This can start to add up pretty quickly.  Since there are no on-going fees to participate this could represent <a href="\potential">significant income</a> through a large organization over time.</p>
 
             </li>
             <li>
@@ -35,10 +35,18 @@
 
             </li>
             <li>
-                <p>All referral fees are paid through a debit card as often as <a href="\transfers">requested by the member</a>.  No waiting to the end of the month for processing, no delays due to the mail.</p>
+                <p>Referral Bonuses can be earned by all Members.</p>
+            </li>
+
+            <li>
+                <p>Referral Bonuses can be used to purchase any of the Eco-nomix products by Fully Registered Members</p>
+            </li>
+
+            <li>
+                <p>Members that own an Eco-nomix Debit card can have their referral fees transferred to that card when <a href="\transfers">requested by the member</a>.  No waiting to the end of the month for processing, no delays due to the mail.</p>
             </li>
             <li>
-                <p>All referral fees are credited immediately to the member.  The site provides <a href="\accounting">instant updates</a> so the member always is aware of makeup of their group, down through 5 generations and any fees that have been processed to their credit.  </p>
+                <p>All Referral Bonuses are credited immediately to the member.  The site provides <a href="\accounting">instant updates</a> so the member always is aware of makeup of their group, down through 5 generations and any fees that have been processed to their credit.  </p>
 
             </li>
             <li>
@@ -46,17 +54,17 @@
 
             </li>
             <li>
-                <p>The member receives 100 <a href="\businesscards">business cards</a> with their name printed on them plus a member's referring link.  This link can be delivered even using electronic links.  This enables a member to refer someone simply by given them a card.  When the prospective member receives the link, they will be directed to this site.  If they join the referral is already established so you get the credit for the referral.</p>
+                <p>The member can purchase<a href="\businesscards">business cards</a> with their name printed on them plus a member's referring link.  This link can be delivered even using electronic links.  This enables a member to refer someone simply by given them a card.  When the prospective member receives the link, they will be directed to this site.  If they join the referral is already established so you get the credit for the referral.</p>
 
             </li>
             <li>
-                <p>There are no <a href="\requirements">personal purchases</a> required to receive any referral fees from those that you refer.  All product is sold through this website.  You do not make any direct sales and collect no money from customers.</p>
+                <p>There are no <a href="\requirements">personal purchases</a> required to receive any Referral Bonuses from those that you refer.  All product is sold through this website.  You do not make any direct sales and collect no money from customers.</p>
             </li>
             <li>
                 <p>There are <a href="\membercost">no hidden fees</a> or charges.  Even a small sponsored organization can generate a positive income for the member.</p>
             </li>
             <li>
-                <p>The $35.00 <a href="\membercost">membership fee</a> is a one time fee, with no annual fees due.</p>
+                <p>The Optional $35.00 <a href="\membercost">start-up Package</a> is low cost way to get your business cards and debit card.</p>
             </li>
             <li>
                 <p>The <a href="\selection">products chosen</a> to be marketed by Eco-nomix are determined first to be priced competitively, even against the major brand stores.  The products used high quality materials and have a benefit to the ecology.  All the products are tested against the manufactures claims and can be relied upon.

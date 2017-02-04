@@ -33,7 +33,7 @@
                         <li>Training</li>
                     </ul>
                      <div class="form-group col-md-12 ">
-                        In addition you will see also some Member Stores. Each of these categories allows our Members to create their own stores with hundreds of products.  Members can also sell individual products in numerous categories.  They can be hand made, one of a kind, or anything at all.  Now there is literally no limit to the range of products that can be available.  Most of these products will be drop shipped by the owner of the store to the purchaser.
+                        In addition you will see also some example Member Stores. Each of these categories allows our Members to create their own stores with hundreds of products.  Members can also sell individual products in numerous categories.  They can be hand made, one of a kind, or anything at all.  Now there is literally no limit to the range of products that can be available.  Most of these products will be drop shipped by the owner of the store to the purchaser.
                      </div>
                      <ul>
                         <li>Art Galleries</li>

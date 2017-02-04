@@ -50,7 +50,7 @@
                      </ul>
                      </div>
                     <div class="form-group col-md-12 ">
-                    Each of the products on the Eco-nomix websites participate in the Referral Bonuses.  This expansive capability will eventually offer an Amazon range of products that can benefit our members financially.
+                    Each of the products on the Eco-nomix websites participate in the Referral Bonuses.  This expansive capability will eventually offer an "Amazon" range of products that can benefit our members financially.
                     </div>
 
 

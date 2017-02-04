@@ -81,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/benefits.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.34891677" vertical-offset="0" max-vertical-offset="3536">
-              <caret line="9" column="128" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
+              <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -1134,7 +1134,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/benefits.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34891677" vertical-offset="0" max-vertical-offset="3536">
-          <caret line="9" column="128" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
+          <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
           <folding />
         </state>
       </provider>

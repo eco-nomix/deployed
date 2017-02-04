@@ -16,6 +16,9 @@
                             There may be some products that will offer a discount for auto-shipping the product for planned consumption.  However Eco-nomix discourages using such auto-ship programs until you first determine that the auto-ship policy fits within the consumption needs for your family.
                         </div>
                         <div class="form-group col-md-12 ">
+                            Try before you commit to reoccuring purchases.
+                        </div>
+                        <div class="form-group col-md-12 ">
                            If you find that product inventory is beginning to accumulate beyond your consumption, cancel or modify the auto-ship terms immediately.
                          </div>
                        <div class="form-group col-md-12 ">

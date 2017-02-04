@@ -17,15 +17,20 @@
                             The only requirement to participate in Eco-nomix’s referral program is to register as a Member.   </div>
                         <div class="form-group col-md-12 ">
                            Because this program involves payments and bonuses, sufficient information to satisfy government requirements will be required to complete the registration.</div>
+                         <div class="form-group col-md-12 ">Registration is a two step process
+                            <ul>
+                                <li>Provide your basic information (name, email, desired username and password), </li>
+                                <li>Provide Contact Info, Tax Information (necessary for receiving Referral Bonuses)</li>
+                            </ul>
                         <div class="form-group col-md-12 ">
-                           Benefits from Registration </div>
+                           Benefits from Registration</div>
                         <div class="form-group col-md-12 ">
                            <ul>
                                <li>Registered members will typically receive a discount on products from the Suggested Retail Price.</li>
                                <li>Registered members participate in the Referral Bonus Program</li>
-                               <li>Registered members may utilize Referral Bonuses to purchase or apply payments to Eco-nomix Products.</li>
-                               <li>Using Referral Bonuses, Eco-nomix Products may be “purchased” with no out of pocket money.</li>
-                               <li>One such product is the Economics Promotion Program.</li>
+                               <li>Fully Registered members may utilize Referral Bonuses to purchase or apply payments to Eco-nomix Products.</li>
+                               <li>Fully Registered members using Referral Bonuses, Eco-nomix Products may be “purchased” with no out of pocket money.</li>
+                               <li>One such product is the Economics Start-up Package.</li>
                            </ul>
                         </div>
                 </div>

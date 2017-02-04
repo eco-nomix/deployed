@@ -545,6 +545,15 @@ class PagesController extends Controller
 
         return view('products',$data);
     }
+    public function productsSum(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Economix Products';
+        $data['description'] = 'Economix Products';
+
+        return view('productsSum',$data);
+    }
+
     public function prepareSelect($productGroups, $selected)
     {
         $results = "<select name='ProductGroupList' style='width:300px;' onchange='this.form.submit()' > ";

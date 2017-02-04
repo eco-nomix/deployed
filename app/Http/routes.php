@@ -71,7 +71,7 @@ Route::get('/logout2',['as' => 'logout2','uses'=>'AuthenticationController@logou
 Route::get('/register',['as' => 'register','uses'=>'AuthenticationController@register']);
 Route::post('/register',['as' => 'register2','uses'=>'AuthenticationController@finishRegistering']);
 Route::post('/register2',['as' => 'register2','uses'=>'AuthenticationController@prepayment']);
-Route::post('/payment',['as' => 'register2','uses'=>'AuthenticationController@payment']);
+Route::post('/productsSum',['as' => 'products','uses'=>'AuthenticationController@productsSum']);Route::post('/payment',['as' => 'register2','uses'=>'AuthenticationController@payment']);
 Route::get('/referred/{userId}',['as'=>'referred','uses'=>'AuthenticationController@referred']);
 Route::get('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
 Route::post('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);

@@ -83,6 +83,7 @@
                         <li><a href="/referral">Referral Bonuses</a></li>
                         <li><a href="/debitcards">Debit Card</a></li>
                         <li><a href="/businesscards">Business Cards</a></li>
+                         <li><a href="/startup">Start Up Pack</a></li>
                          <li><a href="/referrallinks">Referral Links</a></li>
                         <li><a href="/requirements">Requirements for Bonuses</a></li>
                         <li><a href="/limitations">Limitations on Recruiting</a></li>

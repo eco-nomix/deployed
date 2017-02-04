@@ -13,34 +13,41 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            There are two types of registration statuses for clients of Eco-nomix.  Registered and Member.
+                            There is only one type of registration status for clients of Eco-nomix, a Member.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Both types are eligible to earn bonuses by referring clients to Eco-nomix.  However, to receive the bonuses, you must be a member and have received the Eco-nomix debit card.
+                            All Members are eligible to earn bonuses by referring clients to Eco-nomix.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           A 10% referral bonus is paid on all the purchases of eco-nomix products by Members that you have personally referred.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           A 4% referral bonus is paid on all the purchases of eco-nomix products by 2nd Generation Members. (Those that were referred by your personally referred members.)
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           A 4% referral bonus is paid on all the purchases of eco-nomix products by 3rd Generation Members. (You've got the idea!)
 
                         </div>
                         <div class="form-group col-md-12 ">
-                           A 10% referral bonus is paid on all the purchases of eco-nomix products by Registered or Member clients that you have personally referred.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                           A 4% referral bonus is paid on all the purchases of eco-nomix products by 2nd Generation Registered or Member Clients. (Those that were referred by your personally referred clients.)
-                        </div>
-                        <div class="form-group col-md-12 ">
-                           A 4% referral bonus is paid on all the purchases of eco-nomix products by 3rd Generation Registered or Member Clients. (You've got the idea!)
-
-                        </div>
-                        <div class="form-group col-md-12 ">
-                            A 4% referral bonus is paid on all the purchases of eco-nomix products by 4th Generation Registered or Member Clients. (Now this is getting interesting)
+                            A 4% referral bonus is paid on all the purchases of eco-nomix products by 4th Generation Members. (Now this is getting interesting)
 
                         </div>
                          <div class="form-group col-md-12 ">
-                            A 4% referral bonus is paid on all the purchases of eco-nomix products by 5th Generation Registered or Member Clients. (Wow!!!)
+                            A 4% referral bonus is paid on all the purchases of eco-nomix products by 5th Generation Members Clients. (Wow!!!)
                          </div>
                          <div class="form-group col-md-12 ">
-                            That's right at least a 4% referral bonus on all the purchases made by 5 generations of referrals.
+                            That's right at least a 4% referral bonus on all the purchases made by 5 generations of referral Members.
                          </div>
                          <div class="form-group col-md-12 ">
                             Now when you consider the magic of exponential growth that is possible with the Eco-nomix system.  If each person recruited 5 others, you would have over 3000 members in 5 generations.  That obviously is not going to happen so nice and neat, but it does show the potential.  Look at the potential tab under the Plans section for further information.
+                         </div>
+
+                         <div class="form-group col-md-12 ">
+                              Referral Bonuses may be used to purchase any of the products offered on the Eco-nomix site.  You may apply the Referral Bonus to all or a portion of the products cost.  This means that it will be possible to get that 'dream' greenhouse or generator without taking a dime out of your pocket.
+                         </div>
+
+                         <div class="form-group col-md-12 ">
+                            Referral Bonuses may be used to purchase products outside of the Eco-nomix system or even convert to cash, If the Member obtains an Eco-nomix Debit card.  This is totally optional but sure a nice way to spend your Referral Bonuses.
                          </div>
                 </div>
             </div>

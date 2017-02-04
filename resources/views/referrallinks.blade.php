@@ -13,10 +13,7 @@
                         <div class="form-group col-md-12 ">
                             All Eco-nomix Members have the opportunity to refer new clients to the Eco-nomix family simply by registering.
                         </div>
-                        <div class="form-group col-md-12 ">
-                            If the Register tab is visible above, you have not completed your registration process.  Members that have not completed their registration, may still refer others to become sponsered members, and as a result, create an organization and earn Referral Bonuses, but they may not use those Referral Bonuses until their registration is complete.
-                        </div>
-                        <div class="form-group col-md-12 ">
+                       <div class="form-group col-md-12 ">
                             Use the Referral Link below to help grow your organization and your income possibilities.  Simply encourage potential clients to access the site using your referral link.  When they do, the site knows who referred them and if they register, you will receive the credit of 'Sponsoring' them . They will have full access to the site and can determine first if they want to complete their registeration or not. </div>
                         <div class="form-group">
                             <label class="col-md-4 control-label">Referral Link</label>
@@ -27,7 +24,7 @@
                 </div>
             </div>
             <div class="form-group col-md-12 standout">
-                            Suggestions:  These links can be placed on business cards, added to emails,  facebook, tweets,  anyway you want to get the word out.  If anyone uses one of these links.  You get the credit
+                  Suggestions:  These links can be placed on business cards, added to emails,  facebook, tweets,  anyway you want to get the word out.  If anyone uses one of these links.  You get the credit
             </div>
         </div>
     </div>

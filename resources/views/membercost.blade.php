@@ -14,7 +14,7 @@
                             There is NO membership costs for clients of Eco-nomix to participate in its Referral Bonus Program.
                         </div>
                         <div class="form-group col-md-12 ">
-                            The only requirement to participate in Eco-nomix’s referral program s to register as Member.   </div>
+                            The only requirement to participate in Eco-nomix’s referral program s to register as a Member.   </div>
                         <div class="form-group col-md-12 ">
                            Because this program involves payments and bonuses, sufficient information to satisfy government requirements will be required to complete the registration.</div>
                         <div class="form-group col-md-12 ">

@@ -26,7 +26,7 @@
                             Since there are no on-going costs required to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Over time, your organization's total membership could become in the thousands of members.  Now how fast that occurs is determined by:
+                            Over time, your organization's total membership could grow to thousands of members.  Now how fast that occurs is determined by:
                         </div>
                         <div class="form-group col-md-12 ">
                             <ul>

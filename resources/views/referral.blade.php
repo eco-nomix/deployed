@@ -33,18 +33,18 @@
                             A 4% referral bonus is paid on all the purchases of eco-nomix products by 5th Generation Members Clients. (Wow!!!)
                          </div>
                          <div class="form-group col-md-12 ">
-                            That's right at least a 4% referral bonus on all the purchases made by 5 generations of referral Members.
+                            That's right Members receive at least a 4% referral bonus on all the purchases made by 5 generations of referral Members.
                          </div>
                          <div class="form-group col-md-12 ">
                             Now when you consider the magic of exponential growth that is possible with the Eco-nomix system.  If each person recruited 5 others, you would have over 3000 members in 5 generations.  That obviously is not going to happen so nice and neat, but it does show the potential.  Look at the potential tab under the Plans section for further information.
                          </div>
 
                          <div class="form-group col-md-12 ">
-                              Referral Bonuses may be used to purchase any of the products offered on the Eco-nomix site.  You may apply the Referral Bonus to all or a portion of the products cost.  This means that it will be possible to get that 'dream' greenhouse or generator without taking a dime out of your pocket.
+                              Referral Bonuses may be used to purchase any of the products offered through the Eco-nomix system.  You may apply the Referral Bonus to all or a portion of the products cost.  This means that it will be possible to get that 'dream' greenhouse or generator without taking a dime out of your pocket.
                          </div>
 
                          <div class="form-group col-md-12 ">
-                            Referral Bonuses may be used to purchase products outside of the Eco-nomix system or even convert to cash, If the Member obtains an Eco-nomix Debit card.  This is totally optional but sure a nice way to spend your Referral Bonuses.
+                            Referral Bonuses may be used to purchase products outside of the Eco-nomix system or even convert to cash, If the Member obtains an Eco-nomix Debit card.  This is totally optional but sure is a nice way to spend your Referral Bonuses.
                          </div>
                 </div>
             </div>

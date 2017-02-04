@@ -30,8 +30,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6825054" vertical-offset="3720" max-vertical-offset="7038">
-              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.63555557" vertical-offset="3950" max-vertical-offset="7038">
+              <caret line="133" column="86" selection-start-line="133" selection-start-column="86" selection-end-line="133" selection-end-column="86" />
               <folding>
                 <element signature="e#7#385#0#PHP" expanded="true" />
               </folding>
@@ -739,11 +739,6 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/routes.php</url>
-          <line>132</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/storage/framework/views/03acd6d309ab90138a7ead5296fea113b94bb302.php</url>
           <line>18</line>
           <option name="timeStamp" value="17" />
@@ -1142,8 +1137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6825054" vertical-offset="3720" max-vertical-offset="7038">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.63555557" vertical-offset="3950" max-vertical-offset="7038">
+          <caret line="133" column="86" selection-start-line="133" selection-start-column="86" selection-end-line="133" selection-end-column="86" />
           <folding>
             <element signature="e#7#385#0#PHP" expanded="true" />
           </folding>

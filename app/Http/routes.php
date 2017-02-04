@@ -131,7 +131,7 @@ Route::get('/selfreliance',['as' => 'selfreliance','uses'=>'PagesController@self
 Route::get('/spiritually',['as' => 'spiritually','uses'=>'PagesController@spiritually']);
 Route::get('/economically',['as' => 'economically','uses'=>'PagesController@economically']);
 Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans']);
-Route::post('/productsSum',['as' => 'products','uses'=>'PagesController@productsSum']);
+Route::get('/productsSum',['as' => 'products','uses'=>'PagesController@productsSum']);
 Route::get('/discount',['as' => 'discount','uses'=>'PagesController@discount']);
 Route::get('/referral',['as' => 'referral','uses'=>'PagesController@referral']);
 Route::get('/donations',['as' => 'donations','uses'=>'PagesController@donations']);

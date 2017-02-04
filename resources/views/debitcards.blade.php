@@ -13,10 +13,14 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            Members can purchase Eco-nomix Debit Card.  This card is good at any location which accepts credit and/or debit cards.
+                            Members can purchase an Eco-nomix Debit Card.  This card is good at any location which accepts credit and/or debit cards including ATM's.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Referral Bonuses are initially placed with Eco-nomix's Reserve account and are held there until they are requested to be transferred to member's debit card by the member.
+                            Referral Bonuses are initially placed within Eco-nomix's Reserve account and are held there until
+                            <ul>
+                                <li> they are requested to be transferred to member's debit card by the member.</li>
+                                <li> they are used for a Member's purchase. </li>
+                            </ul>
                         </div>
                         <div class="form-group col-md-12 ">
                            This allows the member to control when they receive taxable income.

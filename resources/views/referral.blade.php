@@ -13,7 +13,7 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            All Members are eligible to earn bonuses by referring clients to Eco-nomix.
+                            All Members are eligible to earn Referral Bonuses by referring clients to Eco-nomix.
                         </div>
                         <div class="form-group col-md-12 ">
                            A 10% referral bonus is paid on all the purchases of eco-nomix products by Members that you have personally referred.

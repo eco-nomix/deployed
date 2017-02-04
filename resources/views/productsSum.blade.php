@@ -20,6 +20,7 @@
                     <div class="form-group col-md-12 ">
                         If you look at the categories of of Products and at the books we carry, you will get a better sense of the types of products we will be carrying.
                     </div>
+                     <div class="form-group col-md-12 ">
                     <ul>
                         <li>Food Production</li>
                         <li>Water Purification</li>
@@ -32,9 +33,11 @@
                         <li>Books and Guides</li>
                         <li>Training</li>
                     </ul>
+                    </div>
                      <div class="form-group col-md-12 ">
                         In addition you will see also some example Member Stores. Each of these categories allows our Members to create their own stores with hundreds of products.  Members can also sell individual products in numerous categories.  They can be hand made, one of a kind, or anything at all.  Now there is literally no limit to the range of products that can be available.  Most of these products will be drop shipped by the owner of the store to the purchaser.
                      </div>
+                      <div class="form-group col-md-12 ">
                      <ul>
                         <li>Art Galleries</li>
                         <li>Botiques</li>
@@ -45,6 +48,7 @@
                         <li>Member Products</li>
 
                      </ul>
+                     </div>
                     <div class="form-group col-md-12 ">
                     Each of the products on the Eco-nomix websites participate in the Referral Bonuses.  This expansive capability will eventually offer an Amazon range of products that can benefit our members financially.
                     </div>

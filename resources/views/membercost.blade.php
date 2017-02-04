@@ -12,7 +12,7 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            There are two types of registration statuses for clients of Eco-nomix.  Registered and Member.
+                            1 There are two types of registration statuses for clients of Eco-nomix.  Registered and Member.
                         </div>
                         <div class="form-group col-md-12 ">
                             The Registered status has no up-front costs, no monthly or annual dues - nothing at all. You just simply register. A Registered customer is entitled to purchase products at the non-member price.  This price is discounted from the suggested retail value by 5-10%.  Registered members may also use the referral link to recruit new clients as either Registered or Members status for Eco-nomix.

@@ -11,7 +11,7 @@
         </p>
 
         <ol>
-            <li> <p>A member typically receives a <a href="\discount">10-30% discount</a> from the suggested retail price.  The membership fee is usually recovered in just the first few purchases of products.</p>
+            <li> <p>A member typically receives a <a href="\discount">5-20% discount</a> from the suggested retail price.  The membership fee is usually recovered in just the first few purchases of products.</p>
             </li>
             <li>
                 <p>The <a href="\selection">products</a> carried by Eco-nomix are not typically carried by your local retailers.  We specialize in products that are made from recycled materials, helping you reduce your carbon footprint.  Products are also offered to help you
@@ -19,7 +19,7 @@
                 healthier living.  We also offer products to help you reduce the power demands of your home and produce your own power, including solar and wind turbines.  You will also see products to improve your existing cars mileage and reduce pollution.  In addition, we are sources for multi-fuel back-up generators, to keep your lights on, when everything else fails.  Specialty Camping and Survival
                 products are also offered.</p>
                 <p> The basic idea is to help you create a lifestyle that is in tune with nature, that is 100% sustainable and as independent as possible while helping to reduce the negative impact to the environment. Any product that can help you live better, on or off the grid, increase your spirituality, help you get through hard times and prepare for the future will eventually be available at Eco-nomix.</p>
-
+                <p> In addition to Eco-nomix's unique products, the Members are also allowed to create their own stores, boutiques and special sales of products within the Eco-nomix site.  These products also generate Referral fees that benefit all.  These products can be anything from hand made items, to garage sales specials or even custom art.  Literally anything could be listed there.</p>
             </li>
             <li>
                 <p>A member can promote the companies products and receive a <a href="\referral">referral fee</a> of 10% of the selling price to referred members.</p>

@@ -25,10 +25,10 @@
                           People will get involved because they are interested in the products that Eco-nomix carries and the referral bonus program is a no-risk benefit.
                         </div>
                         <div class="form-group col-md-12 ">
-                          Over time a given member's organization can grow very wide, with the same potential being0 available to each member of the organization.
+                          Over time a given member's organization can grow very wide, with the same potential being available to each member of the organization.
                         </div>
                         <div class="form-group col-md-12 ">
-                          Success isn't limited to just the few at the 'top' of the organization, as each person is always qualified to receive their bonuses.  People aren't skipped over to enrich the elite.
+                          Success isn't limited to just the few at the 'top' of the organization, as each person is always qualified to receive all their bonuses.  People aren't skipped over to enrich the elite.
                         </div>
                         <div class="form-group col-md-12 ">
                           Eco-nomics is a real opportunity not only for those that are seeking the best eco friendly products and to buy them at the best possible prices.  It is also an opportunity to benefit from

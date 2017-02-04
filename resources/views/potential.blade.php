@@ -13,7 +13,7 @@
 
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
                           <div class="form-group col-md-12 ">
-                              One the major factors that impact nearly every company the utilizes multi-level compensation systems is member 'churn'.  Churn is the description of the process where
+                              One of the major factors that impact nearly every company the utilizes multi-level compensation systems is member 'churn'.  Churn is the description of the process where
                               a member joins the marketing multi-level program for the sake of the opportunity.  The new members are initially excited to purchase their monthly subscriptions of products, so they
                               can too earn the big bucks.  But reality starts to show up pretty early,  monthly costs keep accumulating, many times to hundreds of dollars every month for purchases.  But the
                               income just doesn't come in like it shows on the charts.  Their organization is always too small for the bonus that is always just around the corner.  And eventually the vast majority of new recruits
@@ -58,8 +58,8 @@
                               </ul>
                           </div>
                           <div class="form-group col-md-12 ">
-                            At this point lets say your downline members were averaging $20 per month in purchases from Eco-nomix.  (Within a year I expect to have over 1000 products, so I hope this average is a bit higher)
-                               That would be a total of $20,480 in purchases across your organization, but that would be over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,
+                            At this point lets say your downline members were averaging $20 per month in purchases from Eco-nomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)
+                               That would be a total of $20,480 in purchases across your organization, and that would generate over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,
                                but most people if they are interested will recruit not just 1 per month but higher.  Then the numbers get really crazy.
 
                           </div>

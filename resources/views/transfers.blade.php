@@ -42,7 +42,7 @@
                          <div class="form-group col-md-12 ">
                              Funds can be moved from the Member's Reserve Account to the Member's debit card within minutes, Multiple times a day.
                          </div>
-                         
+
 
 
 

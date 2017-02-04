@@ -25,6 +25,9 @@
                           All auto-ship products sold through Eco-nomix allow a Member to cancel, modify the quantities and term for the auto-ship.  Please be aware that such modification may result to a change in the auto-ship price.  If the new terms are not acceptable and meet the needs of your family, please cancel the auto-ship completely.
                        </div>
                        <div class="form-group col-md-12 ">
+                            Your reoccuring products will be found under your personal menu.
+                       </div>
+                       <div class="form-group col-md-12 ">
                             Auto-ship products may be returned under the normal product return conditions.
                        </div>
                 </div>

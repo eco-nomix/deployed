@@ -62,8 +62,8 @@
       <file leaf-file-name="membercost.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/membercost.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64894795" vertical-offset="672" max-vertical-offset="1768">
-              <caret line="37" column="144" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
+            <state vertical-scroll-proportion="0.3477298" vertical-offset="672" max-vertical-offset="1768">
+              <caret line="29" column="121" selection-start-line="29" selection-start-column="121" selection-end-line="29" selection-end-column="121" />
               <folding />
             </state>
           </provider>
@@ -1134,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/membercost.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64894795" vertical-offset="672" max-vertical-offset="1768">
-          <caret line="37" column="144" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
+        <state vertical-scroll-proportion="0.3477298" vertical-offset="672" max-vertical-offset="1768">
+          <caret line="29" column="121" selection-start-line="29" selection-start-column="121" selection-end-line="29" selection-end-column="121" />
           <folding />
         </state>
       </provider>

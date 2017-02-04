@@ -27,7 +27,7 @@
                         <div class="form-group col-md-12 ">
                            <ul>
                                <li>Registered members will typically receive a discount on products from the Suggested Retail Price.</li>
-                               <li>Registered members participate in the Referral Bonus Program</li>
+                               <li>Registered members participate in the Referral Bonus Program and build an organization</li>
                                <li>Fully Registered members may utilize Referral Bonuses to purchase or apply payments to Eco-nomix Products.</li>
                                <li>Fully Registered members using Referral Bonuses, may "purchase" Eco-nomix Products with no out of pocket money.</li>
                                <li>One such product is the Economics Start-up Package.</li>

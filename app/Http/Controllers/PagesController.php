@@ -151,6 +151,15 @@ class PagesController extends Controller
         return view('businesscards',$data);
     }
 
+    public function startup(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Economix Startup Package';
+        $data['description'] = 'Economix Startup Package';
+
+        return view('startup',$data);
+    }
+
     public function referrallinks(Request $request)
     {
         $userId = $request->session()->get('user_id');

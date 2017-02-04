@@ -22,6 +22,7 @@
                                 <li> they are used for a Member's purchase. </li>
                             </ul>
                         </div>
+                        
                         <div class="form-group col-md-12 ">
                            This allows the member to control when they receive taxable income.
                         </div>

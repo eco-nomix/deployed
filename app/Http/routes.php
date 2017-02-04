@@ -71,7 +71,8 @@ Route::get('/logout2',['as' => 'logout2','uses'=>'AuthenticationController@logou
 Route::get('/register',['as' => 'register','uses'=>'AuthenticationController@register']);
 Route::post('/register',['as' => 'register2','uses'=>'AuthenticationController@finishRegistering']);
 Route::post('/register2',['as' => 'register2','uses'=>'AuthenticationController@prepayment']);
-Route::post('/productsSum',['as' => 'products','uses'=>'AuthenticationController@productsSum']);Route::post('/payment',['as' => 'register2','uses'=>'AuthenticationController@payment']);
+Route::post('/productsSum',['as' => 'products','uses'=>'AuthenticationController@productsSum']);
+Route::post('/payment',['as' => 'register2','uses'=>'AuthenticationController@payment']);
 Route::get('/referred/{userId}',['as'=>'referred','uses'=>'AuthenticationController@referred']);
 Route::get('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
 Route::post('/organization',['as'=>'organization','uses'=>'AuthenticationController@organization']);
@@ -127,7 +128,8 @@ Route::get('/emotionally',['as' => 'emotionally','uses'=>'PagesController@emotio
 Route::get('/selfreliance',['as' => 'selfreliance','uses'=>'PagesController@selfreliance']);
 Route::get('/spiritually',['as' => 'spiritually','uses'=>'PagesController@spiritually']);
 Route::get('/economically',['as' => 'economically','uses'=>'PagesController@economically']);
-Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans']);
+Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans'])
+Route::post('/productsSum',['as' => 'products','uses'=>'PagesController@productsSum']);
 Route::get('/discount',['as' => 'discount','uses'=>'PagesController@discount']);
 Route::get('/referral',['as' => 'referral','uses'=>'PagesController@referral']);
 Route::get('/donations',['as' => 'donations','uses'=>'PagesController@donations']);

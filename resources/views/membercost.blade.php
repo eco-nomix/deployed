@@ -24,7 +24,7 @@
                                <li>Registered members will typically receive a discount on products from the Suggested Retail Price.</li>
                                <li>Registered members participate in the Referral Bonus Program</li>
                                <li>Registered members may utilize Referral Bonuses to purchase or apply payments to Eco-nomix Products.</li>
-                               <li>Using Bonuses Eco-nomix Products may be “purchased” with no out of pocket money.</li>
+                               <li>Using Referral Bonuses, Eco-nomix Products may be “purchased” with no out of pocket money.</li>
                                <li>One such product is the Economics Promotion Program.</li>
                            </ul>
                         </div>

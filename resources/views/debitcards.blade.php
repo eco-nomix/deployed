@@ -37,8 +37,8 @@
                         </div>
 
                         <div class="form-group col-md-12 ">
-                            The Member cost for the Debit card is $25.00 ($40.00 for Members outside of the US).<br>
-                            Annual renewal fees are (US) $20.00  and (non-US) $35.00.
+                            The Member cost for the Debit card is $25.00 ($45.00 for Members outside of the US).<br>
+                            Annual renewal fees are (US) $20.00  and (non-US) $40.00.
                         </div>
 
                          <div class="form-group col-md-12 ">

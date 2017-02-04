@@ -13,9 +13,6 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            There is only one type of registration status for clients of Eco-nomix, a Member.
-                        </div>
-                        <div class="form-group col-md-12 ">
                             All Members are eligible to earn bonuses by referring clients to Eco-nomix.
                         </div>
                         <div class="form-group col-md-12 ">

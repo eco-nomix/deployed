@@ -38,13 +38,16 @@
                          <div class="form-group col-md-12 ">
                             Now when you consider the magic of exponential growth that is possible with the Eco-nomix system.  If each person recruited 5 others, you would have over 3000 members in 5 generations.  That obviously is not going to happen so nice and neat, but it does show the potential.  Look at the potential tab under the Plans section for further information.
                          </div>
+                         <div class="form-group col-md-12 ">
+                             If the Register tab is visible above, you have not completed your registration process.  Members that have not completed their registration, may still refer others to become sponsered members, and as a result, create an organization and earn Referral Bonuses, but they may not use those Referral Bonuses until their registration is complete.
+                          </div>
 
                          <div class="form-group col-md-12 ">
-                              Referral Bonuses may be used to purchase any of the products offered through the Eco-nomix system.  You may apply the Referral Bonus to all or a portion of the products cost.  This means that it will be possible to get that 'dream' greenhouse or generator without taking a dime out of your pocket.
+                              Referral Bonuses may be used, by Fully Registered Members, to purchase any of the products offered through the Eco-nomix system.  You may apply the Referral Bonus to all or a portion of the products cost.  This means that it will be possible to get that 'dream' greenhouse or generator without taking a dime out of your pocket.
                          </div>
 
                          <div class="form-group col-md-12 ">
-                            Referral Bonuses may be used to purchase products outside of the Eco-nomix system or even convert to cash, If the Member obtains an Eco-nomix Debit card.  This is totally optional but sure is a nice way to spend your Referral Bonuses.
+                            Referral Bonuses may be used, by Fully Registered Members, to purchase products outside of the Eco-nomix system or even convert to cash, If the Member obtains an Eco-nomix Debit card.  This is totally optional but sure is a nice way to spend your Referral Bonuses.
                          </div>
                 </div>
             </div>

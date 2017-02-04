@@ -23,7 +23,7 @@
                             There are no limitations to your total number of people in your organization.
                          </div>
                         <div class="form-group col-md-12 ">
-                            Since there are no on-going costs to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
+                            Since there are no on-going costs required to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
                         </div>
                         <div class="form-group col-md-12 ">
                             Over time, your organization's total membership could become in the thousands of members.  Now how fast that occurs is determined by:
@@ -33,14 +33,18 @@
                                 <li>How well you understand the opportunity of Eco-nomix. Read and understand the contents of the web-site.</li>
                                 <li>How consistent you are in spreading the word. Keep your business cards with you.</li>
                                 <li>How many business cards and referral links you hand out.</li>
-                                <li>If you encourage your downline to do the same.</li>
+                                <li>If you encourage your downline Members to do the same.</li>
                             </ul>
                         </div>
                          <div class="form-group col-md-12 ">
-                             Obviously, your organizations size alone will not create any income for you.  All bonuses are paid from sales that are made,  so encourage your down-line to know what products are available, and to discover how they can be utilized to become more independent and self-suffient.
+                             Obviously, your organizations size alone will not create any income for you.  All Referral bonuses are earned from sales that are made,  so encourage your down-line to know what products are available, and to discover how they can be utilized to become more independent and self-suffient.
                           </div>
                          <div class="form-group col-md-12 ">
                              Remember that a great many people are highly motivated to become self-sufficient and independent.  As these perilous times further unfold, more and more people will want to become such.
+                         </div>
+                         <div class="form-group col-md-12 ">
+                            Also Remember that all of the products offered in the individual boutique and stores are also participating in the Eco-nomix program, so there can be thousands of specialty products are also helping you to earn Referral Bonuses.
+
                          </div>
 
                          <div class="form-group col-md-12 ">

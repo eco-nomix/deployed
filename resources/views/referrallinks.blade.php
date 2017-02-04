@@ -13,6 +13,9 @@
                         <div class="form-group col-md-12 ">
                             All Eco-nomix Members have the opportunity to refer new clients to the Eco-nomix family simply by registering.
                         </div>
+                        <div class="form-group col-md-12 ">
+                            Once registered and logged in the Referral Link below will show 'Your Referral Link'.
+                        </div>
                        <div class="form-group col-md-12 ">
                             Use the Referral Link below to help grow your organization and your income possibilities.  Simply encourage potential clients to access the site using your referral link.  When they do, the site knows who referred them and if they register, you will receive the credit of 'Sponsoring' them . They will have full access to the site and can determine first if they want to complete their registeration or not. </div>
                         <div class="form-group">

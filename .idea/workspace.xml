@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/membercost.blade.php" afterPath="$PROJECT_DIR$/resources/views/membercost.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/register2.blade.php" afterPath="$PROJECT_DIR$/resources/views/register2.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="membercost.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/membercost.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64894795" vertical-offset="502" max-vertical-offset="1632">
-              <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.6112957" vertical-offset="502" max-vertical-offset="1632">
+              <caret line="31" column="118" selection-start-line="31" selection-start-column="118" selection-end-line="31" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -1134,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/membercost.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64894795" vertical-offset="502" max-vertical-offset="1632">
-          <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.6112957" vertical-offset="502" max-vertical-offset="1632">
+          <caret line="31" column="118" selection-start-line="31" selection-start-column="118" selection-end-line="31" selection-end-column="118" />
           <folding />
         </state>
       </provider>

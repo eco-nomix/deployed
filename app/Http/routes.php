@@ -103,6 +103,7 @@ Route::get('/benefits',['as' => 'about','uses'=>'PagesController@benefits']);
 Route::get('/businesscards',['as' => 'cards','uses'=>'PagesController@businesscards']);
 Route::get('/camping',['as' => 'camping','uses'=>'PagesController@camping']);
 Route::get('/cooking',['as' => 'cooking','uses'=>'PagesController@cooking']);
+
 Route::get('/comparison',['as' => 'comparison','uses'=>'PagesController@comparison']);
 Route::get('/debitcards',['as' => 'debit','uses'=>'PagesController@debitcards']);
 Route::get('/experiences',['as' => 'debit','uses'=>'PagesController@experiences']);
@@ -122,8 +123,7 @@ Route::get('/purpose',['as' => 'purpose','uses'=>'PagesController@purpose']);
 Route::get('/physically',['as' => 'physically','uses'=>'PagesController@physically']);
 Route::get('/requirements',['as' => 'requirements','uses'=>'PagesController@requirements']);
 Route::get('/referrallinks',['as' => 'requirements','uses'=>'PagesController@referrallinks']);
-Route::get('/emotionally',['as' => 'emotionally','uses'=>'PagesController@emotionally']);
-Route::get('/selection',['as' => 'selection','uses'=>'PagesController@selection']);
+Route::get('/emotionally',['as' => 'emotionally','uses'=>'PagesController@emotionally']);Route::get('/startup',['as' => 'startup','uses'=>'PagesController@startup']);Route::get('/selection',['as' => 'selection','uses'=>'PagesController@selection']);
 Route::get('/selfreliance',['as' => 'selfreliance','uses'=>'PagesController@selfreliance']);
 Route::get('/spiritually',['as' => 'spiritually','uses'=>'PagesController@spiritually']);
 Route::get('/economically',['as' => 'economically','uses'=>'PagesController@economically']);

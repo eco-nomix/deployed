@@ -11,11 +11,10 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            All registered Eco-nomix users have the opportunity to refer new clients to the Eco-nomix family whether you are a full member or not.  However only full members can receive compensation from the <a href="/referral">Referral Fees</a>.  If the Register tab is visible above, you are not yet a full member.
+                            All Eco-nomix Members have the opportunity to refer new clients to the Eco-nomix family simply by registering. If the Register tab is visible above, you have not completed your registration process.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Use the Referral Link below to help grow your organization and your income possibilities.  Simply encourage potential clients to access the site using your referral link.  When they do, the site knows who referred them and if they register, you will receive the credit. They will have full access to the site and can determine first if they want to register or not. </div>
-
+                            Use the Referral Link below to help grow your organization and your income possibilities.  Simply encourage potential clients to access the site using your referral link.  When they do, the site knows who referred them and if they register, you will receive the credit of 'Sponsoring' them . They will have full access to the site and can determine first if they want to complete their registeration or not. </div>
                         <div class="form-group">
                             <label class="col-md-4 control-label">Referral Link</label>
                             <div class="col-md-6">

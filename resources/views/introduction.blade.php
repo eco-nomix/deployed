@@ -45,6 +45,9 @@
                         But it is marking its products through MLM with a difference.
                         </div>
                         <div class="form-group col-md-12 ">
+                            First of all, there is no cost at all to become a member of Eco-nomix.  Just Register to be a Member.  Once you are a member you can earn Referral Bonuses.
+                        </div>
+                        <div class="form-group col-md-12 ">
                         All income is generated through referral bonuses. What do you have to do to receive a referral bonus?
                         </div>
                         <div class="form-group col-md-12 ">
@@ -84,13 +87,21 @@
                             </ul>
                         </div>
                         <div class="form-group col-md-12 ">
-                        Every member automatically is paid these bonuses regardless of the size of their organization or personal purchases.
+                        Every member automatically earns these bonuses regardless of the size of their organization or personal purchases.
                         </div>
                         <div class="form-group col-md-12 ">
-                        The bonuses are credited immediately at the time of sale to all 5 generations. The bonuses are transferred onto a Payroll debit card, so they can be utilized when you want, where you want,  at any location a standard debit or credit card can be used.
+                        The bonuses are credited immediately at the time of sale to all 5 generations.
                         </div>
                         <div class="form-group col-md-12 ">
-                        The payroll card and business cards are provided to members as part of the membership fee. The membership fee is a $35.00 one time fee, no annual renewals or purchase requirements. Those that register at the site (no cost) can still create an organization and earn income, but payments are made through the payroll card provided to full members only.
+                           The bonuses of Fully Registered Members (no cost to register) can be used to purchase any of Eco-nomix's products.  This means that anyone can benefit from being a member of Eco-nomix without any cost at all out of their pocket.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            In addition, Fully Registered Members may puchase an Eco-Nomix Payroll Debit Card.  The Earned Bonuses may be transferred onto the Payroll debit card, so they can be utilized when you want, where you want,  at any location a standard debit or credit card can be used.
+                            The cost of this Payroll Debit Card may be deducted from earned Referral Bonuses, therefore no risk at all.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            Business cards may also be paid for through earned Referral Bonuses.  Therefore there is NO FINANCIAL RISK to participate in the entire Eco-nomix system.<br><br>
+                            Members may elect to purchase the business cards and / or Payroll Debit Cards before there are sufficient earnings to accelerate their organization and make it more convenient for purchases, but even that is just a $35.00 fee for the products.
                         </div>
                         <div class="form-group col-md-12 ">
                         Now lets see what you don't have to do.
@@ -136,28 +147,28 @@
                         Think about it, once someone is a member there is no reason for them to quit. It costs them nothing to maintain their membership, just like the grocery store discount card and if a sales ever takes place - BONUS. They get an income. How often does that have to happen for them to maintain interest? Even if it is just a few dollars - pizza money, they will like it.
                         </div>
                         <div class="form-group col-md-12 ">
-                        People can register for free, and even build an organization with $0 out of pocket expenses. Once their income starts to come in, they can complete there membership and receive their payroll card and collect all their earnings. Once income starts would someone have a reason to quit?
+                        People can register for free, and even build an organization with $0 out of pocket expenses. Once their income starts to come in through the Referral Bonuses, they can purchase their business cards and obtain their Payroll Debit card with no out of pocket expenses. Once income starts to come in, would someone have a reason to quit?
                         </div>
                         <div class="form-group col-md-12 ">
                         Your downline doesn't go away. If they ever purchase anything from eco-nomix, you get your bonus, no exceptions, even years from now. The income doesn't flow to the top to some original member that is making an outrageous income.
                         </div>
                         <div class="form-group col-md-12 ">
-                        So how wide can you go? Unlimited. Because of the ease of becoming a member, the ability to 'test drive' with the company with no out of pocket expense, the low cost of becoming a member, the odds are significantly improved for someone willing to join your organization. Your business card contains a url that when used, automatically gives you the credit for any sale or membership that results from it, even it they don't make the decision now, but later, even if they then use the standard eco-nomix.org url.
+                        So how wide can you go? Unlimited. Because of the ease of becoming a member, the ability to 'test drive' with the company with no out of pocket expense, the zero cost of becoming a member, the odds are significantly improved for someone willing to join your organization. Your business card contains a url that when used, automatically gives you the credit for any sale or membership that results from it, even it they don't make the decision now, but later, even if they then use the standard eco-nomix.org url.
                         </div>
                         <div class="form-group col-md-12 ">
                         To start your ‘Test Drive’, simply register, as part of the process, a confirmation email will be sent to you, click on the link in that email, and you will be ready to login.
                         </div>
                         <div class="form-group col-md-12 ">
-                        Once you login, your Referral Link can be found on the website, under the PLANS tab, then select Referral Links. This can be used like an affiliate link and placed in emails, websites, or anyway you would normally promote another site, but in this case, not only do you benefit from the direct sales, but if they join and recruit others, you receive additional compensation. Can you imagine 5 generations of affiliate bonuses?
+                        Once you login, your Referral Link can be found on the website, under the Business Plans tab, then select Referral Links. This can be used like an affiliate link and placed in emails, websites, or anyway you would normally promote another site, but in this case, not only do you benefit from the direct sales, but if they join and recruit others, you receive additional compensation. Can you imagine 5 generations of affiliate bonuses?
                         </div>
                         <div class="form-group col-md-12 ">
-                        If you can go really wide, what about each of your downline? They have exactly the same opportunity that you do. With five generations in your downline, your organization can get to the thousands of members very quickly. Remember this is totally new company with unlimited growth opportunities. You are probably the first one in your area.
+                        If you can go really wide, what about each of your downline? They have exactly the same opportunity that you do. With five generations in your downline, your organization can get to the thousands of members very quickly. Remember this is a totally new company with unlimited growth opportunities. You are probably the first one in your area.
                         </div>
                         <div class="form-group col-md-12 ">
                         We all have seen the charts and potential associated with exponential growth, now become part of a company that makes that growth possible.
                         </div>
                         <div class="form-group col-md-12 ">
-                        Jay Potter, CEO    eco-nomix Inc.
+                        Jay Potter, CEO    Eco-nomix Inc.
                         </div>
                 </div>
             </div>

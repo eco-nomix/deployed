@@ -13,7 +13,7 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            Eno-nomix will provide to each of it's member's an Eco-nomix Debit Card.  This card is good at any location which accepts credit and/or debit cards.
+                            Members can purchase Eco-nomix Debit Card.  This card is good at any location which accepts credit and/or debit cards.
                         </div>
                         <div class="form-group col-md-12 ">
                             Referral Bonuses are initially placed with Eco-nomix's Reserve account and are held there until they are requested to be transferred to member's debit card by the member.

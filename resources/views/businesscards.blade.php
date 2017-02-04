@@ -35,9 +35,12 @@
                         </div>
 
                        <div class="form-group col-md-12 ">
-                            Business Cards may be purchased for $20.00 for 500 business cards.<br>
-                            Business Cards like any other Eco-nomix product may be purchased using accrued Referral Bonuses.
+                            Business Cards may be purchased for $20.00 for 500 business cards.
                        </div>
+
+                        <div class="form-group col-md-12 ">
+                            Cost for this and any Eco-Nomix product may be paid for through accrued Referral Bonuses.
+                        </div>
                 </div>
             </div>
 

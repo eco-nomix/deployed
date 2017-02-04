@@ -80,8 +80,8 @@
       <file leaf-file-name="benefits.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/benefits.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43521595" vertical-offset="1851" max-vertical-offset="3502">
-              <caret line="66" column="140" selection-start-line="66" selection-start-column="140" selection-end-line="66" selection-end-column="140" />
+            <state vertical-scroll-proportion="0.33295324" vertical-offset="694" max-vertical-offset="3536">
+              <caret line="29" column="160" selection-start-line="29" selection-start-column="157" selection-end-line="29" selection-end-column="160" />
               <folding />
             </state>
           </provider>
@@ -1133,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/benefits.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43521595" vertical-offset="1851" max-vertical-offset="3502">
-          <caret line="66" column="140" selection-start-line="66" selection-start-column="140" selection-end-line="66" selection-end-column="140" />
+        <state vertical-scroll-proportion="0.33295324" vertical-offset="694" max-vertical-offset="3536">
+          <caret line="29" column="160" selection-start-line="29" selection-start-column="157" selection-end-line="29" selection-end-column="160" />
           <folding />
         </state>
       </provider>

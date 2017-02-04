@@ -11,7 +11,7 @@
         </p>
 
         <ol>
-            <li> <p>A member typically receives a <a href="\discount">5-20% discount</a> from the suggested retail price.  The membership fee is usually recovered in just the first few purchases of products.</p>
+            <li> <p>A member typically receives a <a href="\discount">5-20% discount</a> from the suggested retail price.  Since there is no membership fee, the benefits of Membership is immediately realized without risk.</p>
             </li>
             <li>
                 <p>The <a href="\selection">products</a> carried by Eco-nomix are not typically carried by your local retailers.  We specialize in products that are made from recycled materials, helping you reduce your carbon footprint.  Products are also offered to help you
@@ -19,15 +19,15 @@
                 healthier living.  We also offer products to help you reduce the power demands of your home and produce your own power, including solar and wind turbines.  You will also see products to improve your existing cars mileage and reduce pollution.  In addition, we are sources for multi-fuel back-up generators, to keep your lights on, when everything else fails.  Specialty Camping and Survival
                 products are also offered.</p>
                 <p> The basic idea is to help you create a lifestyle that is in tune with nature, that is 100% sustainable and as independent as possible while helping to reduce the negative impact to the environment. Any product that can help you live better, on or off the grid, increase your spirituality, help you get through hard times and prepare for the future will eventually be available at Eco-nomix.</p>
-                <p> In addition to Eco-nomix's unique products, the Members are also allowed to create their own stores, boutiques and special sales of products within the Eco-nomix site.  These products also generate Referral fees that benefit all.  These products can be anything from hand made items, to garage sales specials or even custom art.  Literally anything could be listed there.</p>
+                <p> In addition to Eco-nomix's unique products, the Members are also allowed to create their own stores, boutiques and special sales of products within the Eco-nomix site.  These products also generate Referral Bonuses that benefit all.  These products can be anything from hand made items, to garage sales specials or even custom art.  Literally anything could be listed there.</p>
             </li>
             <li>
-                <p>A member can promote the companies products and receive a <a href="\referral">referral fee</a> of 10% of the selling price to referred members.</p>
+                <p>A member can promote the companies products and receive a <a href="\referral">Referral Bonus</a> of 10% of the selling price to referred members.</p>
             </li>
             <li>
-               <p>The referral Bonuses continue for up to 5 generations of referrals in total.  The member receives a 4% referral fee on the 2nd to 5th generations.
+               <p>The referral Bonuses continue for up to 5 generations of referrals in total.  The member receives a 4% Referral Bonus on the 2nd to 5th generations.
                 Because the 5 generation of down-line members can grow both <a href="\limitations">extremely wide</a> and deep,  the number of people downline can be grow over time to a large organization.  Each sale through
-                5 generations will result in referral fees for the upline members.  This can start to add up pretty quickly.  Since there are no on-going fees to participate this could represent <a href="\potential">significant income</a> through a large organization over time.</p>
+                5 generations will result in Referral Bonuses for the upline members.  This can start to add up pretty quickly.  Since there are no on-going fees to participate this could represent <a href="\potential">significant income</a> through a large organization over time.</p>
 
             </li>
             <li>
@@ -40,13 +40,14 @@
 
             <li>
                 <p>Referral Bonuses can be used to purchase any of the Eco-nomix products by Fully Registered Members</p>
+                <p> That means that Members that have created an organization and have resulting Referral Bonuses, can receive products they desire without any money out of their pocket.</p>
             </li>
 
             <li>
-                <p>Members that own an Eco-nomix Debit card can have their referral fees transferred to that card when <a href="\transfers">requested by the member</a>.  No waiting to the end of the month for processing, no delays due to the mail.</p>
+                <p>Members that own an Eco-nomix Debit card can have their Referral Bonuses transferred to that card when <a href="\transfers">requested by the member</a>.  No waiting to the end of the month for processing, no delays due to the mail.</p>
             </li>
             <li>
-                <p>All Referral Bonuses are credited immediately to the member.  The site provides <a href="\accounting">instant updates</a> so the member always is aware of makeup of their group, down through 5 generations and any fees that have been processed to their credit.  </p>
+                <p>All Referral Bonuses are credited immediately to the member.  The site provides <a href="\accounting">instant updates</a> so the member always is aware of makeup of their group, down through 5 generations and any Referral Bonuses that have been processed to their credit.  </p>
 
             </li>
             <li>
@@ -61,7 +62,7 @@
                 <p>There are no <a href="\requirements">personal purchases</a> required to receive any Referral Bonuses from those that you refer.  All product is sold through this website.  You do not make any direct sales and collect no money from customers.</p>
             </li>
             <li>
-                <p>There are <a href="\membercost">no hidden fees</a> or charges.  Even a small sponsored organization can generate a positive income for the member.</p>
+                <p>There are <a href="\membercost">no hidden fees</a> or charges.  Even a small sponsored organization can generate a positive income for the member without ever having to put up any cash.</p>
             </li>
             <li>
                 <p>The Optional $35.00 <a href="\membercost">start-up Package</a> is low cost way to get your business cards and debit card.</p>

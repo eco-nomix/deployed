@@ -24,21 +24,28 @@
                              Credit is immediately given to the 5 generations of Referring members for their personal balance within the Eco-nomix reserve account.
                               No waiting for end of the month processing.
                          </div>
+                         <div class="form-group col-md-12 ">
+                            Fully Registered Members may use their Earned Referral Bonuses to make purchase of any of the Products offered within the Eco-nomix system.
+                         </div>
 
                          <div class="form-group col-md-12 ">
-                              This makes the funds in the reserve account available for immediate transfer to the member's debit card, on their request.
+                              Fully Registered Members that have purchased an Eco-nomix Debit Card, may also transfer funds in their reserve account to their Debit Card, on their request.
 
                          </div>
                          <div class="form-group col-md-12 ">
-                              The debit-card balance is incremented by the member's request, and is immediately available for purchases at any location that will accept credit or debit cards, worldwide.
+                              The debit-card balance is incremented by the member's request, and is immediately available for purchases at any location that will accept credit or debit cards, worldwide.<br>
                               No waiting for checks in the mail.
                          </div>
                          <div class="form-group col-md-12 ">
                              Your accounting balances are updated with each transfer.
                          </div>
                          <div class="form-group col-md-12 ">
-                            Funds can be moved from the purchase to the Referrer's debit card within minutes, Multiple times a day.
+                             Funds can be moved from the Member's Reserve Account to the Member's debit card within minutes, Multiple times a day.
                          </div>
+                          <div class="form-group col-md-12 ">
+                             Referral Bonuses are swept in the Member's Reserve Account on a daily basis for on-line sales.
+                          </div>
+
 
 
                 </div>

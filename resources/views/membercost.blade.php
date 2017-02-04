@@ -9,27 +9,24 @@
             <div class="panel panel-default display">
                 <div class="panel-heading">Member Costs for Eco-nomix</div>
                 <div class="panel-body">
-
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            1 There are two types of registration statuses for clients of Eco-nomix.  Registered and Member.
+                            There is NO membership costs for clients of Eco-nomix to participate in its Referral Bonus Program.
                         </div>
                         <div class="form-group col-md-12 ">
-                            The Registered status has no up-front costs, no monthly or annual dues - nothing at all. You just simply register. A Registered customer is entitled to purchase products at the non-member price.  This price is discounted from the suggested retail value by 5-10%.  Registered members may also use the referral link to recruit new clients as either Registered or Members status for Eco-nomix.
-                            Referral bonuses from sales of the downline organization will be credited, but will not be paid out until the registered customer upgrades their status to 'Member'.
-                        </div>
+                            The only requirement to participate in Eco-nomix’s referral program s to register as Member.   </div>
                         <div class="form-group col-md-12 ">
-                           As a Registered client.  You may build your organization, as quickly as you like,  The same referral bonuses are earned as though you were a full member.  But are on 'hold' for payment, until you become a member and receive your Eco-nomix debit card.
-                        </div>
+                           Because this program involves payments and bonuses, sufficient information to satisfy government requirements will be required to complete the registration.</div>
                         <div class="form-group col-md-12 ">
-                            To become a member, the registered customer needs to upgrade their status.  There is a one-time charge for this upgrade of $35.00.  There are no additional fees or dues associated with membership, ever.
-                            The member will receive a debit-card for payment of any referral bonuses and business cards which will have their referral link printed on them.
-                        </div>
+                           Benefits from Registration </div>
                         <div class="form-group col-md-12 ">
-                            As a member, you are entitled to purchase products at the member price, which is typically discounted by 10-30% from suggested Retail Price.  This discount will help the member recover their cost of being a member rather quickly.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                            The member can authorize the transfer of accrued referral bonuses to their Eco-nomix debit card as long as there are referral bonuses yet to be paid out.
+                           <ul>
+                               <li>Registered members will typically receive a discount on products from the Suggested Retail Price.</li>
+                               <li>Registered members participate in the Referral Bonus Program</li>
+                               <l1>Registered members may utilize Referral Bonuses to purchase or apply payments to Eco-nomix Products.</l1>
+                               <li>Using Bonuses Eco-nomix Products may be “purchased” with no out of pocket money.</li>
+                               <li>One such product is the Economics Promotion Program.</li>
+                           </ul>
                         </div>
                 </div>
             </div>

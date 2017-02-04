@@ -20,7 +20,7 @@
                             Your personal organization depth is limited to 5 generations.
                         </div>
                         <div class="form-group col-md-12 ">
-                            There are no limitations to your total number of people in your organization.
+                            There are no limitations to the total number of people in your organization.
                          </div>
                         <div class="form-group col-md-12 ">
                             Since there are no on-going costs required to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.

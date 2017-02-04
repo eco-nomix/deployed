@@ -15,12 +15,12 @@
                         <div class="form-group col-md-12   ">
                             Members can OPTIONALLY purchase an Eco-nomix Start-up Package.    </div>
                         <div class="form-group col-md-12 ">
-                           The Start-up Package is comprised of
+                           The Start-up Package is comprised of:
+                            <ul>
+                                <li>The Eco-nomix Debit Card</li>
+                                <li>500 Business Cards</li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li>The Eco-nomix Debit Card</li>
-                            <li>500 Business Cards</li>
-                        </ul>
                         <div class="form-group col-md-12 ">
                            This is a special discount package to help our members get started.
                         </div>
@@ -28,7 +28,11 @@
 
                         <div class="form-group col-md-12 ">
                             The Member cost for the Eco-nomix Start-up Package is $35.00 ($55.00 for Members outside of the US).<br>
+                        </div>
+
+                        <div class="form-group col-md-12 ">
                             Normal Annual renewal fees for the Debit Card are (US) $20.00  and (non-US) $35.00.
+
                         </div>
 
                          <div class="form-group col-md-12 ">

@@ -7,9 +7,9 @@
     <h1>Member Benefits</h1>
 <div class="form-group benefits">
     <div class="col-md-12 indent">
-        <p>Eco-nomix is a unique company dedicated in delivering the highest quality products to its customers. <br><br> Eco-nomix's purposes will help them improve their lives <a href="\physically">physically</a>, <a href="\emotionally">emotionally</a>, <a href="\spiritually">spiritually</a>, <a href="\economically">economically</a> and to become more <a href="\selfreliance">self-reliant.
+        <p>Eco-nomix is a unique company dedicated in delivering the highest quality products to its customers. <br><br> Eco-nomix's purposes will help them improve their lives <a href="\physically">physically</a>, <a href="\emotionally">emotionally</a>, <a href="\spiritually">spiritually</a>, <a href="\economically">economically</a> and to become more <a href="\selfreliance">self-reliant.</a>
         <br><br>Summary of Eco-Nomix's Marketing plan.
-        </a>.
+        .
         </p>
 
         <ol>

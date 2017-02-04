@@ -85,7 +85,7 @@
                         <li><a href="/businesscards">Business Cards</a></li>
                          <li><a href="/startup">Start Up Package</a></li>
                          <li><a href="/referrallinks">Referral Links</a></li>
-                        <li><a href="/requirements">Requirements for Bonuses</a></li>
+                        <li><a href="/requirements">Requirements for Earning Bonuses</a></li>
                         <li><a href="/limitations">Limitations on Recruiting</a></li>
                         <li><a href="/accounting">On-line Accounting</a></li>
                         <li><a href="/transfers">Immediate Transfers</a></li>

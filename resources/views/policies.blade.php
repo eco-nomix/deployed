@@ -257,6 +257,7 @@
                                     <ol type="I">
                                         <li>Physically signed Eco-Nomix Member Agreement on file; or</li>
                                         <li>Electronically signed Member Agreement from a website or an Eco-Nomix Members website.</li>
+                                        <li>Was referenced by the new Member when using a Referral Link to access the site</li>
                                     </ol></li>
                                 <li>A Member Agreement that contains notations such as “by phone” or the signatures of other individuals (i.e. Sponsors, Spouses, relatives, or friends) is not valid and will not be accepted by Eco-Nomix.</li>
                                 <li>Eco-Nomix recognizes that each new prospect has the right to ultimately choose his or her own Sponsor, but Eco-Nomix will not allow Members to engage in unethical sponsoring activities.</li>

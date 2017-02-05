@@ -101,7 +101,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         To become a Member, an applicant must comply with the following requirements:
-                            <ol type="I">
+                            <ol type="A">
                                 <li>Be of the age of majority (not a minor) in his or her state of residence.</li>
                                 <li>Reside or have a valid address where materials may be sent.</li>
                                 <li>Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outside of the US.</li>
@@ -112,18 +112,15 @@
                         2.2 New Member Registration
                         </div>
                         <div class="form-group col-md-12 ">
-                            <
-                        A. A potential new Member will self-enroll on the Sponsor’s website. Eco-Nomix will accept the Web-enrollment and Member Agreement by accepting the “electronic signature” stating the new Member has accepted the Terms and Conditions of such Member Agreement. Please note that such electronic signature constitutes a legally binding agreement between the Member and Eco-Nomix.
+                            <ol type="A">
+                                <li>A potential new Member will self-enroll on the Sponsor’s website. Eco-Nomix will accept the Web-enrollment and Member Agreement by accepting the “electronic signature” stating the new Member has accepted the Terms and Conditions of such Member Agreement. Please note that such electronic signature constitutes a legally binding agreement between the Member and Eco-Nomix.</li>
+                                <li>Eco-Nomix reserves the right to require signed paperwork for any account, regardless of origin.</li>
+                                <li>If requested the signed Member Agreement must be received by Eco-Nomix within 14 days of enrollment.</li>
+                                <li>Signed documents, including, but not limited to, Member personal agreements, are legally binding contracts which must not be altered, tampered with or changed in any manner after they have been signed. False or misleading information, forged signatures or alterations to any document, including business registration forms, made after a document has been signed may lead to sanctions, up to and including involuntary termination of the Member’s position.</li>
+
+                            </ol>
                         </div>
-                        <div class="form-group col-md-12 ">
-                        B. Eco-Nomix reserves the right to require signed paperwork for any account, regardless of origin.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        C. If requested the signed Member Agreement must be received by Eco-Nomix within 14 days of enrollment.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        D. Signed documents, including, but not limited to, Member personal agreements, are legally binding contracts which must not be altered, tampered with or changed in any manner after they have been signed. False or misleading information, forged signatures or alterations to any document, including business registration forms, made after a document has been signed may lead to sanctions, up to and including involuntary termination of the Member’s position.
-                        </div>
+
                         <div class="form-group col-md-12 ">
                         2.3 Rights Granted
                         </div>

@@ -117,7 +117,7 @@ Route::get('/limitations',['as' => 'limitations','uses'=>'PagesController@limita
 Route::get('/members',['as' => 'members','uses'=>'PagesController@members']);
 Route::get('/membercost',['as' => 'membercost','uses'=>'PagesController@membercost']);
 Route::get('/mem_agreement',['as' => 'memberagreement','uses'=>'PagesController@memberagreement']);
-Route::get('/mem_terms',['as' => 'memberaterms','uses'=>'PagesController@memberaterms']);
+Route::get('/mem_terms',['as' => 'memberaterms','uses'=>'PagesController@memberterms']);
 Route::get('/charities',['as' => 'charities','uses'=>'PagesController@charities']);
 Route::get('/groups',['as' => 'groups','uses'=>'PagesController@groups']);
 Route::get('/house',['as' => 'house','uses'=>'PagesController@house']);

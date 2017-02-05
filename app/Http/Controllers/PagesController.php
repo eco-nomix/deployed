@@ -614,6 +614,13 @@ class PagesController extends Controller
 
         return view('purpose',$data);
     }
+    public function policies(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Economix Policies';
+        $data['description'] = 'Policies';
+        return view('policies',$data);
+    }
     public function recycling(Request $request)
     {
         $data = $this->userData($request);

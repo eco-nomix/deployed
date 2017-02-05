@@ -368,7 +368,7 @@
                                         </ol></li>
                                 <li>Examples of “statements of non-average earnings” include, “Our number one Member earned over a million dollars last year” or “Our average ranking Member makes five thousand per month.”</li>
                                 <li>An example of a “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end to thirty thousand dollars a month on the high end.”</li>
-                                <li></li>
+
                             </ol>
                         </div>
 

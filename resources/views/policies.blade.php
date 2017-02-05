@@ -356,8 +356,8 @@
                                 <li>A Member may not make any claims regarding products or services of any products offered by Eco-Nomix, except those contained in official Eco-Nomix literature.</li>
                                 <li>A Member may not use official Eco-Nomix material to promote the Eco-Nomix business opportunity in any country where Eco-Nomix has not established a “presence.”</li>
                                 <li>In an effort to conduct best business practices, Eco-Nomix has developed the Income Disclosure Statement (“IDS”). The Eco-Nomix IDS is designed to convey truthful, timely, and comprehensive information regarding the income that Eco-Nomix Members earn. In order to accomplish this objective, a copy of the IDS must be presented to all prospective Members.
-                                 <br>A copy of the IDS must be presented to a prospective Member anytime the Compensation Plan is presented or discussed, or any type of income claim or earnings representation is made.
-                                 <br>The terms “income claim” and/or “earnings representation” (collectively “income claim”) include;
+                                <li>A copy of the IDS must be presented to a prospective Member anytime the Compensation Plan is presented or discussed, or any type of income claim or earnings representation is made.</li>
+                                <li>The terms “income claim” and/or “earnings representation” (collectively “income claim”) include;
                                         <ol type="1">
                                             <li>statements of average earnings,</li>
                                             <li>statements of non-average earnings,</li>
@@ -365,10 +365,9 @@
                                             <li>income testimonials,</li>
                                             <li>lifestyle claims,</li>
                                             <li>hypothetical claims.</li>
-                                        </ol>
-                                        Examples of “statements of non-average earnings” include, “Our number one Member earned over a million dollars last year” or “Our average ranking Member makes five thousand per month.” An example of a “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end to thirty thousand dollars a month on the high end.”
-
-                                </li>
+                                        </ol></li>
+                                <li>Examples of “statements of non-average earnings” include, “Our number one Member earned over a million dollars last year” or “Our average ranking Member makes five thousand per month.”</li>
+                                <li>An example of a “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end to thirty thousand dollars a month on the high end.”</li>
                                 <li></li>
                             </ol>
                         </div>

@@ -12,10 +12,9 @@
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                         <div class="form-group col-md-12 ">
-                             GUARANTEED AND RETURN OF SALES AIDS
-                            </div>
+
                             <div class="form-group col-md-12 ">
+
                              <ol type="A">
                              <li>Eco-Nomix offers a one hundred percent (100%) thirty-day money back guarantee for all non customized products.</li>
                              <li>With respect to return of Sales Aids, Eco-Nomix offers various refund opportunities depending on the product or service purchased.  Shipping and handling charges incurred will not be refunded.</li>

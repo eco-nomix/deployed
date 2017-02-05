@@ -101,6 +101,7 @@
                     <a href="/policies">Policies and Procedures<span class="caret"></span></a>
                     <ul>
                         <li><a href="/mem_agreement">Membership Agreement</a></li>
+                        <li><a href="/mem_terms">Membership Terms and Conditions</a></li>
                         <li><a href="/autoship">Auto-Ship Policy</a></li>
                          <li><a href="/returns">Return Policy</a></li>
                     </ul>

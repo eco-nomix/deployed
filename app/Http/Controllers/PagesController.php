@@ -495,6 +495,14 @@ class PagesController extends Controller
 
         return view('membercost',$data);
     }
+    public function memberterms(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Economix Member Agreement Terms and Conditions';
+        $data['description'] = 'Economix Member Agreement Terms and Conditions';
+
+        return view('memberterms',$data);
+    }
     public function money(Request $request)
     {
         $data = $this->userData($request);

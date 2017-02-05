@@ -307,42 +307,71 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         3.9 Compliance with Applicable Income Tax Laws
-
-                        A. Eco-Nomix will automatically provide a complete 1099 Miscellaneous Income Tax form (nonemployee compensation) to each US Member whose earnings for the year is at least $600, or who received trips, prizes or awards valued at $600 or more. If earnings and purchases are less than stated above, IRS forms will be sent only at the request of the Member, and a minimum charge of $20 may be assessed by Eco-Nomix. Canadian T-4’s will be sent to Members who earn more than $500 or who received trips, prizes, or awards valued at $500 or more. Eco-Nomix Members are responsible for the payment of taxes on these trips, prizes, or awards provided to them by Eco-Nomix. Eco-Nomix member who reside outside of the US or Canada will be subject to reporting as required for that country.
-
-                        B. A Member accepts sole responsibility for and agrees to pay all Federal, State, Provincial and local taxes on any income generated as an independent Contractor, and further agrees to indemnify Eco-Nomix from any failure to pay such tax amounts when due.
-
-                        C. If a Member’s business is tax exempt, the Federal Tax Identification number must be provided to Eco-Nomix in writing.
-
-                        D. Eco-Nomix encourages all Members to consult with a tax advisor for additional information for their business.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Eco-Nomix will automatically provide a complete 1099 Miscellaneous Income Tax form (nonemployee compensation) to each US Member whose earnings for the year is at least $600, or who received trips, prizes or awards valued at $600 or more. If earnings and purchases are less than stated above, IRS forms will be sent only at the request of the Member, and a minimum charge of $20 may be assessed by Eco-Nomix. Canadian T-4’s will be sent to Members who earn more than $500 or who received trips, prizes, or awards valued at $500 or more. Eco-Nomix Members are responsible for the payment of taxes on these trips, prizes, or awards provided to them by Eco-Nomix. Eco-Nomix member who reside outside of the US or Canada will be subject to reporting as required for that country.</li>
+                                <li>A Member accepts sole responsibility for and agrees to pay all Federal, State, Provincial and local taxes on any income generated as an independent Contractor, and further agrees to indemnify Eco-Nomix from any failure to pay such tax amounts when due.</li>
+                                <li>If a Member’s business is tax exempt, the Federal Tax Identification number must be provided to Eco-Nomix in writing.</li>
+                                <li>Eco-Nomix encourages all Members to consult with a tax advisor for additional information for their business.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         3.10 One Eco-Nomix Business Per Household
-
-                        A Member may operate or have an ownership interest, legal or equitable, as a sole proprietorship, partner, shareholder, trustee, or beneficiary, in only one Eco-Nomix position. No individual may have, operate or receive compensation from more than one Eco-Nomix business. Individuals of the same Household may not enter into or have an interest in another Eco-Nomix position. A “Household” is defined as all individuals who are living at or doing business at the same address, and who are related by blood, marriage, domestic partnership, or adoption, or who are living together as a family unit or in a family-like setting.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        <p style="margin-left: 20px">A Member may operate or have an ownership interest, legal or equitable, as a sole proprietorship, partner, shareholder, trustee, or beneficiary, in only one Eco-Nomix position. No individual may have, operate or receive compensation from more than one Eco-Nomix business. Individuals of the same Household may not enter into or have an interest in another Eco-Nomix position. A “Household” is defined as all individuals who are living at or doing business at the same address, and who are related by blood, marriage, domestic partnership, or adoption, or who are living together as a family unit or in a family-like setting.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         3.11 Actions of Household Members or Member Parties
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         If any member of a Member’s immediate household engages in any activity which, if performed by the Member, would violate any provision of the Agreement, such activity will be deemed a violation by the Member and Eco-Nomix may take disciplinary action pursuant to these Policies and Procedures against the Member. Similarly, if any individual associated in any way with a corporation, partnership, LLC, trust or other entity (collectively “Business Entity”) violates the Agreement, such action(s) will be deemed a violation by the Business Entity, and Eco-Nomix may take disciplinary action against the Business Entity. Likewise, if a Member enrolls in Eco-Nomix as a Business Entity, each Member Party of the Business Entity shall be personally and individually bound to, and must comply with, the Terms and Conditions of the Agreement.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         3.12 Solicitation for Other Companies or Products
-
-                        A. An Eco-Nomix Member may participate in other direct sales, multilevel, network marketing or relationship marketing business ventures or marketing opportunities. However, during the Term of this Agreement and for one (1) year thereafter, an Eco-Nomix Member may not recruit any Eco-Nomix Member or Customer for any other direct sales or network marketing business, unless that Member or Customer was personally sponsored by such Member.
-
-                        B. The term “recruit” means actual or attempted solicitation, enrollment, encouragement, or effort to influence in any other way (either directly or through a third party), another Member or Customer to enroll or participate in any network marketing opportunity. This conduct represents recruiting even if the Member’s actions are in response to an inquiry made by another Member or Customer.
-
-                        C. During the term of this Agreement and for a period of six (6) months thereafter, any Eco-Nomix Member must not sell, or entice others to sell, any competing products or services, including training materials, to Eco-Nomix Customers or Members. Any product or service in the same category as an Eco-Nomix product or service is deemed to be competing (i.e., any competing product or service regardless of differences in cost or quality. This provision does not apply where professional services are the primary source of revenue and the product sales are secondary (e.g., doctor’s offices, clinics, health clubs, spas and beauty salons).
-
-                        D. However, a Member may sell non-competing products or services to Eco-Nomix Customers and Members that they personally sponsored.
-
-                        E. A Member may not display or bundle Eco-Nomix products or services, in sales literature, on a website or in sales meetings, with any other products or services to avoid confusing or misleading a prospective Customer or Member into believing there is a relationship between the Eco-Nomix and non-Eco-Nomix products and services.
-
-                        F. An Eco-Nomix Member may not offer any non-Eco-Nomix opportunity, products or services at any Eco-Nomix related meeting, seminar or convention, or immediately following an Eco-Nomix event.
-
-                        G. A violation of any of the provisions in this section shall constitute unreasonable and unwarranted contractual interference between Eco-Nomix and its Members and would inflict irreparable harm on Eco-Nomix. In such event, Eco-Nomix may, at its sole discretion, impose any sanction it deems necessary and appropriate against such Member or such Member’s positions including termination, or seek immediate injunctive relief without the necessity of posting a bond.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type = "A">
+                                <li>An Eco-Nomix Member may participate in other direct sales, multilevel, network marketing or relationship marketing business ventures or marketing opportunities. However, during the Term of this Agreement and for one (1) year thereafter, an Eco-Nomix Member may not recruit any Eco-Nomix Member or Customer for any other direct sales or network marketing business, unless that Member or Customer was personally sponsored by such Member.</li>
+                                <li>The term “recruit” means actual or attempted solicitation, enrollment, encouragement, or effort to influence in any other way (either directly or through a third party), another Member or Customer to enroll or participate in any network marketing opportunity. This conduct represents recruiting even if the Member’s actions are in response to an inquiry made by another Member or Customer.</li>
+                                <li>During the term of this Agreement and for a period of six (6) months thereafter, any Eco-Nomix Member must not sell, or entice others to sell, any competing products or services, including training materials, to Eco-Nomix Customers or Members. Any product or service in the same category as an Eco-Nomix product or service is deemed to be competing (i.e., any competing product or service regardless of differences in cost or quality. This provision does not apply where professional services are the primary source of revenue and the product sales are secondary (e.g., doctor’s offices, clinics, health clubs, spas and beauty salons).</li>
+                                <li>However, a Member may sell non-competing products or services to Eco-Nomix Customers and Members that they personally sponsored.</li>
+                                <li>A Member may not display or bundle Eco-Nomix products or services, in sales literature, on a website or in sales meetings, with any other products or services to avoid confusing or misleading a prospective Customer or Member into believing there is a relationship between the Eco-Nomix and non-Eco-Nomix products and services.</li>
+                                <li>An Eco-Nomix Member may not offer any non-Eco-Nomix opportunity, products or services at any Eco-Nomix related meeting, seminar or convention, or immediately following an Eco-Nomix event.</li>
+                                <li>A violation of any of the provisions in this section shall constitute unreasonable and unwarranted contractual interference between Eco-Nomix and its Members and would inflict irreparable harm on Eco-Nomix. In such event, Eco-Nomix may, at its sole discretion, impose any sanction it deems necessary and appropriate against such Member or such Member’s positions including termination, or seek immediate injunctive relief without the necessity of posting a bond.</li>
+                            </ol>
+                        </div>
+                       <div class="form-group col-md-12 ">
                         3.13 Presentation of the Eco-Nomix Opportunity
+                        </div>
 
-                        A. In presenting the Eco-Nomix opportunity to potential Customers and Members, a Member is required to comply with the following provisions:
+                        <div class="form-group col-md-12 ">
+                            <p style="margin-left: 20px">In presenting the Eco-Nomix opportunity to potential Customers and Members, a Member is required to comply with the following provisions:</p>
+                            <ol type="A">
+                                <li>A Member shall not misquote or omit any significant material fact about the Compensation Plan.</li>
+                                <li>A Member shall make it clear that the Compensation Plan is based upon sales of Eco-Nomix products and services and upon the sponsoring of other Members.</li>
+                                <li>A Member shall make it clear that success can be achieved only through substantial independent efforts.</li>
+                                <li>An Eco-Nomix Member shall not make unauthorized income projections, claims, or guarantees while presenting or discussing the Eco-Nomix opportunity or Compensation Plan to prospective Members or Customers.</li>
+                                <li>A Member may not make any claims regarding products or services of any products offered by Eco-Nomix, except those contained in official Eco-Nomix literature.</li>
+                                <li>A Member may not use official Eco-Nomix material to promote the Eco-Nomix business opportunity in any country where Eco-Nomix has not established a “presence.”</li>
+                                <li>In an effort to conduct best business practices, Eco-Nomix has developed the Income Disclosure Statement (“IDS”). The Eco-Nomix IDS is designed to convey truthful, timely, and comprehensive information regarding the income that Eco-Nomix Members earn. In order to accomplish this objective, a copy of the IDS must be presented to all prospective Members.
+                                 <br>A copy of the IDS must be presented to a prospective Member anytime the Compensation Plan is presented or discussed, or any type of income claim or earnings representation is made.
+                                 <br>The terms “income claim” and/or “earnings representation” (collectively “income claim”) include;
+                                        <ol type="1">
+                                            <li>statements of average earnings,</li>
+                                            <li>statements of non-average earnings,</li>
+                                            <li>statements of earnings ranges,</li>
+                                            <li>income testimonials,</li>
+                                            <li>lifestyle claims,</li>
+                                            <li>hypothetical claims.</li>
+                                        </ol>
+                                        Examples of “statements of non-average earnings” include, “Our number one Member earned over a million dollars last year” or “Our average ranking Member makes five thousand per month.” An example of a “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end to thirty thousand dollars a month on the high end.”
+
+                                </li>
+                                <li></li>
+                            </ol>
+                        </div>
 
                         I. A Member shall not misquote or omit any significant material fact about the Compensation Plan.
 

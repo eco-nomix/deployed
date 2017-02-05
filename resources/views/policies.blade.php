@@ -85,13 +85,13 @@
                         1.5 Delays
                         </div>
                         <div class="form-group col-md-12 ">
-                        Eco-Nomix shall not be responsible for delays or failures in performance of its obligations when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes, labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply, or government decrees or orders.
+                           <p style="margin-left: 20px" >Eco-Nomix shall not be responsible for delays or failures in performance of its obligations when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes, labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply, or government decrees or orders.</p>
                          </div>
                         <div class="form-group col-md-12 ">
                         1.6 Effective Date
                         </div>
                         <div class="form-group col-md-12 ">
-                        These Policies and Procedures shall become effective as of Jan 1st, 2017 and, at such time, shall automatically supersede any prior Policies and Procedures (the “old Policies and Procedures”), and, on that date, the old Policies and Procedures shall cease to have any force or effect.
+                            <p style="margin-left: 20px" > These Policies and Procedures shall become effective as of Jan 1st, 2017 and, at such time, shall automatically supersede any prior Policies and Procedures (the “old Policies and Procedures”), and, on that date, the old Policies and Procedures shall cease to have any force or effect.</p>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.0 BASIC PRINCIPLES
@@ -100,7 +100,7 @@
                         2.1 Becoming An Eco-Nomix Member
                         </div>
                         <div class="form-group col-md-12 ">
-                        To become a Member, an applicant must comply with the following requirements:
+                         <p style="margin-left: 20px" >To become a Member, an applicant must comply with the following requirements:</p>
                             <ol type="A">
                                 <li>Be of the age of majority (not a minor) in his or her state of residence.</li>
                                 <li>Reside or have a valid address where materials may be sent.</li>
@@ -125,7 +125,7 @@
                         2.3 Rights Granted
                         </div>
                         <div class="form-group col-md-12 ">
-                        Eco-Nomix hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained in the Member Agreement and these Policies and Procedures, to:
+                         <p style="margin-left: 20px" >Eco-Nomix hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained in the Member Agreement and these Policies and Procedures, to:</p>
                             <ol type="A">
                                 <li>Purchase Eco-Nomix products and services</li>
                                 <li>Promote and sell their own products and services through the Eco-Nomix website; and</li>

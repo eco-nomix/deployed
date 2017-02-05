@@ -21,14 +21,7 @@
                              <li>With respect to return of Sales Aids, Eco-Nomix offers various refund opportunities depending on the product or service purchased.  Shipping and handling charges incurred will not be refunded.</li>
                              <li>Customized products (such as business cards and or Payroll Debit Cards) may only be returned if the customized information (name, address, etc) is other than as ordered. </li>
                              <li>Upon cancellation of the Member Agreement, the Member may return all generic sales aids purchased within one (1) year from the date of cancellation for a refund if he or she is unable to sell or use the merchandise. A Member may only return sales aids he or she personally purchased from the Company under his or her Member Identification Number, and which are in Resalable condition. Any custom orders of printed sales aids (i.e. business cards, brochures, etc.) whereon the Member’s contact information is imbedded or hard printed, or has been added by the Member, are not able to be returned in resalable condition thus are nonrefundable. Upon Eco-Nomix’s receipt of the products and sales aids, the Member will be reimbursed ninety percent (90%) of the net cost of the original purchase price(s), less shipping and handling charges. If the purchases were made through a credit card, the refund will be credited back to the same credit card account. The Company shall deduct from the reimbursement paid to the Member any commissions, bonuses, rebates or other incentives received by the Member which were associated with the merchandise that is returned.</li>
-                             </ol>
-                            </div>
-
-
-
-                        <div class="form-group col-md-12 ">
-                            <ol type="A">
-                                <li>All returns, whether by a Customer, or Member, must be made as follows:
+                             <li>All returns, whether by a Customer, or Member, must be made as follows:
                                     <ol type="I">
                                         <li>Obtain Return Merchandise Authorization (“RMA”) from Eco-Nomix;</li>
                                         <li>Ship items to the address provided by Eco-Nomix Customer service when you are given your RMA.</li>

@@ -18,7 +18,7 @@
                     	1.1 Mutual Commitment Statement
                     	</div>
                     	<div class="form-group col-md-12 ">
-                        <p style="margin-left: 40px">Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.</p>
+                        <p style="margin-left: 30px">Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.</p>
                         </div>
                         <div class="form-group col-md-12 ">
                          <ol type="A">

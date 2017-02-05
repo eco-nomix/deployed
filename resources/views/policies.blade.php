@@ -57,6 +57,7 @@
                             <li>Throughout these Policies, when the term “Agreement” is used, it collectively refers to the Eco-Nomix Agreement, these Policies and Procedures, and the Eco-Nomix Compensation Plan.</li>
                             <li>The most current version of these Policies and Procedures and the Eco-Nomix Compensation Plan are available on the Eco-Nomix website and should be read by the potential member before joining.</li>
                          </ol>
+                        </div>
                         <div class="form-group col-md-12 ">
                         1.3 Purpose of Policies
                         </div>

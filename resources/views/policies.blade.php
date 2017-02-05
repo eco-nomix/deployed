@@ -21,10 +21,10 @@
                         Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.
                         </div>
                          <div class="form-group col-md-12 ">
-                         <ol>
-                            <li>A. In the spirit of mutual respect and understanding, Eco-Nomix is committed to:</li>
-                            <ol>
-                                <li> I. Provide prompt, professional and courteous service and communications to all of its Members and Customers;</li>
+                         <ol type="A">
+                            <li >A. In the spirit of mutual respect and understanding, Eco-Nomix is committed to:</li>
+                            <ol type="I">
+                                <li > I. Provide prompt, professional and courteous service and communications to all of its Members and Customers;</li>
                                 <li>  II. Provide the highest level of quality products, at fair and reasonable prices; </li>
 
                             </ol>

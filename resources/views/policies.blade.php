@@ -506,27 +506,31 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         7.3 Employee Access to Information
+                        <br><br> <p style="margin-left: 20px">Eco-Nomix limits the number of employees who have access to Customer’s and Members’ nonpublic personal information.</p>
+                        </div>
 
-                        Eco-Nomix limits the number of employees who have access to Customer’s and Members’ nonpublic personal information.
-
+                        <div class="form-group col-md-12 ">
                         8.0 PROPRIETARY INFORMATION AND TRADE SECRETS
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         8.1 Business Reports, Lists, and Proprietary Information
-
-                        By completing and signing the Eco-Nomix Member Agreement, the Member acknowledges that Business Reports, lists of Customer and Member names and contact information and any other information, which contain financial, scientific or other information both written or otherwise circulated by Eco-Nomix pertaining to the business of Eco-Nomix (collectively, “Reports”), are confidential and proprietary information and trade secrets belonging to Eco-Nomix.
-
+                        <br><br> <p style="margin-left: 20px">By completing and signing the Eco-Nomix Member Agreement, the Member acknowledges that Business Reports, lists of Customer and Member names and contact information and any other information, which contain financial, scientific or other information both written or otherwise circulated by Eco-Nomix pertaining to the business of Eco-Nomix (collectively, “Reports”), are confidential and proprietary information and trade secrets belonging to Eco-Nomix.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         8.2 Obligation of Confidentiality
-
-                        During the Term of the Eco-Nomix Member Agreement and for a period of five (5) years after the termination or expiration of the Member Agreement between the Member and Eco-Nomix, the Member shall not;
-
-                        I. Use the information in the Reports to compete with Eco-Nomix or for any purpose other than promoting his or her Eco-Nomix business;
-
-                        II. Use or disclose to any person or entity any confidential information contained in the Reports, including the replication of the genealogy in another network marketing company.
-
+                        <br><br> <p style="margin-left: 20px">During the Term of the Eco-Nomix Member Agreement and for a period of five (5) years after the termination or expiration of the Member Agreement between the Member and Eco-Nomix, the Member shall not;</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Use the information in the Reports to compete with Eco-Nomix or for any purpose other than promoting his or her Eco-Nomix business;</li>
+                                <li>Use or disclose to any person or entity any confidential information contained in the Reports, including the replication of the genealogy in another network marketing company.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         8.3 Breach and Remedies
-
-                        The Member acknowledges that such proprietary information is of such character as to render it unique and that disclosure or use thereof in violation of this provision will result in irreparable damage to Eco-Nomix and to independent Eco-Nomix businesses. Eco-Nomix and its Members will be entitled to injunctive relief or to recover damages against any Member who violates this provision in any action to enforce its rights under this section. The prevailing party shall be entitled to an award of attorney’s fees, court costs and expenses.
-
+                         <p style="margin-left: 20px">The Member acknowledges that such proprietary information is of such character as to render it unique and that disclosure or use thereof in violation of this provision will result in irreparable damage to Eco-Nomix and to independent Eco-Nomix businesses. Eco-Nomix and its Members will be entitled to injunctive relief or to recover damages against any Member who violates this provision in any action to enforce its rights under this section. The prevailing party shall be entitled to an award of attorney’s fees, court costs and expenses.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         8.4 Return of Materials
 
                         Upon demand by Eco-Nomix, any current or former Member will return the original and all copies of all “Reports” to Eco-Nomix together with any Eco-Nomix confidential information in such person’s possession.

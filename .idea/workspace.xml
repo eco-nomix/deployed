@@ -75,8 +75,8 @@
       <file leaf-file-name="policies.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4773218" vertical-offset="21284" max-vertical-offset="35054">
-              <caret line="639" column="17" selection-start-line="639" selection-start-column="17" selection-end-line="639" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.4859611" vertical-offset="33754" max-vertical-offset="34884">
+              <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
               <folding>
                 <element signature="e#792#817#0#HTML" expanded="true" />
                 <element signature="e#8135#8160#0#HTML" expanded="true" />
@@ -95,6 +95,29 @@
                 <element signature="e#62514#62539#0#HTML" expanded="true" />
                 <element signature="e#63469#63494#0#HTML" expanded="true" />
                 <element signature="e#64208#64233#0#HTML" expanded="true" />
+                <element signature="e#83524#83549#0#HTML" expanded="true" />
+                <element signature="e#86325#86350#0#HTML" expanded="true" />
+                <element signature="e#90126#90151#0#HTML" expanded="true" />
+                <element signature="e#113834#113859#0#HTML" expanded="true" />
+                <element signature="e#114952#114977#0#HTML" expanded="true" />
+                <element signature="e#115622#115647#0#HTML" expanded="true" />
+                <element signature="e#124432#124457#0#HTML" expanded="true" />
+                <element signature="e#125864#125889#0#HTML" expanded="true" />
+                <element signature="e#126186#126211#0#HTML" expanded="true" />
+                <element signature="e#126578#126603#0#HTML" expanded="true" />
+                <element signature="e#126748#126773#0#HTML" expanded="true" />
+                <element signature="e#127125#127150#0#HTML" expanded="true" />
+                <element signature="e#127315#127340#0#HTML" expanded="true" />
+                <element signature="e#127507#127532#0#HTML" expanded="true" />
+                <element signature="e#127693#127718#0#HTML" expanded="true" />
+                <element signature="e#127869#127894#0#HTML" expanded="true" />
+                <element signature="e#128234#128259#0#HTML" expanded="true" />
+                <element signature="e#128443#128468#0#HTML" expanded="true" />
+                <element signature="e#128662#128687#0#HTML" expanded="true" />
+                <element signature="e#128790#128815#0#HTML" expanded="true" />
+                <element signature="e#129251#129276#0#HTML" expanded="true" />
+                <element signature="e#129849#129874#0#HTML" expanded="true" />
+                <element signature="e#130145#130170#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1141,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4773218" vertical-offset="21284" max-vertical-offset="35054">
-          <caret line="639" column="17" selection-start-line="639" selection-start-column="17" selection-end-line="639" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.4859611" vertical-offset="33754" max-vertical-offset="34884">
+          <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
           <folding>
             <element signature="e#792#817#0#HTML" expanded="true" />
             <element signature="e#8135#8160#0#HTML" expanded="true" />
@@ -1161,6 +1184,29 @@
             <element signature="e#62514#62539#0#HTML" expanded="true" />
             <element signature="e#63469#63494#0#HTML" expanded="true" />
             <element signature="e#64208#64233#0#HTML" expanded="true" />
+            <element signature="e#83524#83549#0#HTML" expanded="true" />
+            <element signature="e#86325#86350#0#HTML" expanded="true" />
+            <element signature="e#90126#90151#0#HTML" expanded="true" />
+            <element signature="e#113834#113859#0#HTML" expanded="true" />
+            <element signature="e#114952#114977#0#HTML" expanded="true" />
+            <element signature="e#115622#115647#0#HTML" expanded="true" />
+            <element signature="e#124432#124457#0#HTML" expanded="true" />
+            <element signature="e#125864#125889#0#HTML" expanded="true" />
+            <element signature="e#126186#126211#0#HTML" expanded="true" />
+            <element signature="e#126578#126603#0#HTML" expanded="true" />
+            <element signature="e#126748#126773#0#HTML" expanded="true" />
+            <element signature="e#127125#127150#0#HTML" expanded="true" />
+            <element signature="e#127315#127340#0#HTML" expanded="true" />
+            <element signature="e#127507#127532#0#HTML" expanded="true" />
+            <element signature="e#127693#127718#0#HTML" expanded="true" />
+            <element signature="e#127869#127894#0#HTML" expanded="true" />
+            <element signature="e#128234#128259#0#HTML" expanded="true" />
+            <element signature="e#128443#128468#0#HTML" expanded="true" />
+            <element signature="e#128662#128687#0#HTML" expanded="true" />
+            <element signature="e#128790#128815#0#HTML" expanded="true" />
+            <element signature="e#129251#129276#0#HTML" expanded="true" />
+            <element signature="e#129849#129874#0#HTML" expanded="true" />
+            <element signature="e#130145#130170#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -636,385 +636,380 @@
                                 <li>Failure to comply with these Policies for conducting business online may result in the Member losing their right to advertise and market Eco-Nomix products, services and Eco-Nomix’s business opportunity online in addition to any other disciplinary action available under the Policies and Procedures.</li>
                             </ol>
                         </div>
-
-                 
-                        9.5 Advertising and Promotional Materials
-
-                        A. You may not advertise any Eco-Nomix products or services at a price LESS than the highest company published, established retail price of ONE offering of the Eco-Nomix product or service plus shipping, handling and applicable taxes. No special enticement advertising is allowed. This includes, but is not limited to, offers of free membership, free shipping, or other such offers that grant advantages beyond those available through the Company.
-
-                        B. Advertising and all forms of communications must adhere to principles of honesty and propriety.
-
-                        C. All advertising, including, but not limited to, print, Internet, computer bulletin boards, television, radio, etc., are subject to prior written approval by the Eco-Nomix Compliance Department.
-
-                        D. All requests for approvals with respect to advertising must be directed in writing to the Eco-Nomix Compliance Department.
-
-                        E. Eco-Nomix approval is not required to place blind ads that do not mention Eco-Nomix, its employees, any of its products, services, designs, symbols, programs, and trademarked, copyrighted, or otherwise protected materials.
-
-                        F. A Member may create his or her own ads or promotional materials including the development of commercials, infomercials and additional third-party websites. However, all such materials, and any subsequent changes thereto shall be submitted to the Eco-Nomix Compliance Department for approval.
-
-                        I. Members are encouraged to work with the Compliance Department prior to the production of commercials, infomercials, or websites.
-
-                        G. Eco-Nomix reserves the right to rescind its prior approval of submitted advertising or promotional materials in order to comply with changing laws and regulations, and may require the removal of such advertisements from the marketplace without obligation to the affected Member.
-
+                        <div class="form-group col-md-12 ">
+                       9.5 Advertising and Promotional Materials
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>You may not advertise any Eco-Nomix products or services at a price LESS than the highest company published, established retail price of ONE offering of the Eco-Nomix product or service plus shipping, handling and applicable taxes. No special enticement advertising is allowed. This includes, but is not limited to, offers of free membership, free shipping, or other such offers that grant advantages beyond those available through the Company.</li>
+                                <li>Advertising and all forms of communications must adhere to principles of honesty and propriety.</li>
+                                <li>All advertising, including, but not limited to, print, Internet, computer bulletin boards, television, radio, etc., are subject to prior written approval by the Eco-Nomix Compliance Department.</li>
+                                <li>All requests for approvals with respect to advertising must be directed in writing to the Eco-Nomix Compliance Department.</li>
+                                <li>Eco-Nomix approval is not required to place blind ads that do not mention Eco-Nomix, its employees, any of its products, services, designs, symbols, programs, and trademarked, copyrighted, or otherwise protected materials.</li>
+                                <li>A Member may create his or her own ads or promotional materials including the development of commercials, infomercials and additional third-party websites. However, all such materials, and any subsequent changes thereto shall be submitted to the Eco-Nomix Compliance Department for approval.</li>
+                                <li>Members are encouraged to work with the Compliance Department prior to the production of commercials, infomercials, or websites.</li>
+                                <li>Eco-Nomix reserves the right to rescind its prior approval of submitted advertising or promotional materials in order to comply with changing laws and regulations, and may require the removal of such advertisements from the marketplace without obligation to the affected Member.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         9.6 Testimonial Permission
 
-                        By signing the Eco-Nomix Member Agreement, a Member gives Eco-Nomix permission to use his or her testimonial or image and likeness in corporate sales materials, including but not limited to print media, electronic media, audio and video. In consideration of being allowed to participate in the Eco-Nomix Business Opportunity, a Member waives any right to be compensated for the use of his or her testimonial or image and likeness even though Eco-Nomix may be paid for items or sales materials containing such image and likeness. In some cases, a Member’s testimonial may appear in another Member’s advertising materials. If a Member does not wish to participate in Eco-Nomix sales and marketing materials, he or she should provide a written notice to the Eco-Nomix Compliance Department to ensure that his or her testimonial or image and likeness will not be used in any corporate materials, corporate recognition pieces, advertising or recordings of annual events.
-
+                        <br><br> <p style="margin-left: 20px">By signing the Eco-Nomix Member Agreement, a Member gives Eco-Nomix permission to use his or her testimonial or image and likeness in corporate sales materials, including but not limited to print media, electronic media, audio and video. In consideration of being allowed to participate in the Eco-Nomix Business Opportunity, a Member waives any right to be compensated for the use of his or her testimonial or image and likeness even though Eco-Nomix may be paid for items or sales materials containing such image and likeness. In some cases, a Member’s testimonial may appear in another Member’s advertising materials. If a Member does not wish to participate in Eco-Nomix sales and marketing materials, he or she should provide a written notice to the Eco-Nomix Compliance Department to ensure that his or her testimonial or image and likeness will not be used in any corporate materials, corporate recognition pieces, advertising or recordings of annual events.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         9.7 Telemarketing – Limitations
-
-                        A. An Eco-Nomix Member must not engage in telemarketing in relation to the operation of the Member’s Eco-Nomix business. The term “telemarketing” means the placing of one or more telephone calls to an individual or entity to induce the purchase of Eco-Nomix products or services, or to recruit them for the Eco-Nomix opportunity.
-
-                        B. The Federal Trade Commission (“FTC”) and the Federal Communications Commission (“FCC”) each have laws that restrict telemarketing practices. Both Federal agencies, as well as a number of States have “do not call” regulations as part of their telemarketing laws.
-
-                        C. While a Member may not consider himself or herself a “telemarketer” in the traditional sense, these regulations broadly define the term “telemarketer” and “telemarketing” so that the unintentional action of calling someone whose telephone number is listed on the Federal “Do Not Call” registry could cause the Member to violate the law. These regulations must not be taken lightly, as they carry significant penalties (up to $11,000 per violation).
-
-                        D. “Cold calls” or “state-to-state calls” made to prospective Customers, or Members that promote either Eco-Nomix products, services or the Eco-Nomix opportunity is considered telemarketing and is prohibited.
-
-                        E. Exceptions to Telemarketing Regulations:
-
-                        An Eco-Nomix Member may place telephone calls to prospective Customers, or Members under the following limited situations;
-
-                        I. If the Member has an established business relationship with the prospect;
-
-                        II. In response to the prospect’s personal inquiry or application regarding a product or service offered by the Eco-Nomix Member, within 3 months immediately before the date of such a call;
-
-                        III. If the Member receives written and signed permission from the prospect authorizing the Member to call;
-
-                        IV. If the call is to family members, personal friends, and acquaintances. However, if a Member makes a habit of collecting business cards from everyone he/she meets and subsequently calls them, the FTC may consider this a form of telemarketing that is not subject to this exemption;
-
-                        V. Eco-Nomix Members engaged in calling “acquaintances,” must make such calls on an occasional basis only and not as a routine practice.
-
-                        F. A Member shall not use automatic telephone dialing systems in the operation of his or her Eco-Nomix businesses.
-
-                        G. Failure to abide by Eco-Nomix policies or regulations as set forth by the FTC and FCC regarding telemarketing may lead to sanctions against the Member’s position, up to and including termination of the position.
-
-                        H. By signing the Member Agreement, or by accepting Referral Bonuses, other payments or awards from Eco-Nomix, a Member gives permission to Eco-Nomix and other Members to contact them as permitted under the Federal Do Not Call regulations.
-
-                        I. In the event a Member violates this section, Eco-Nomix reserves the right to institute legal proceedings to obtain monetary or equitable relief.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>An Eco-Nomix Member must not engage in telemarketing in relation to the operation of the Member’s Eco-Nomix business. The term “telemarketing” means the placing of one or more telephone calls to an individual or entity to induce the purchase of Eco-Nomix products or services, or to recruit them for the Eco-Nomix opportunity.</li>
+                                <li>The Federal Trade Commission (“FTC”) and the Federal Communications Commission (“FCC”) each have laws that restrict telemarketing practices. Both Federal agencies, as well as a number of States have “do not call” regulations as part of their telemarketing laws.</li>
+                                <li>While a Member may not consider himself or herself a “telemarketer” in the traditional sense, these regulations broadly define the term “telemarketer” and “telemarketing” so that the unintentional action of calling someone whose telephone number is listed on the Federal “Do Not Call” registry could cause the Member to violate the law. These regulations must not be taken lightly, as they carry significant penalties (up to $11,000 per violation).</li>
+                                <li>“Cold calls” or “state-to-state calls” made to prospective Customers, or Members that promote either Eco-Nomix products, services or the Eco-Nomix opportunity is considered telemarketing and is prohibited.</li>
+                                <li>Exceptions to Telemarketing Regulations:
+                                     <p style="margin-left: 20px">An Eco-Nomix Member may place telephone calls to prospective Customers, or Members under the following limited situations;</p>
+                                    <ol type="I">
+                                        <li>If the Member has an established business relationship with the prospect;</li>
+                                        <li>In response to the prospect’s personal inquiry or application regarding a product or service offered by the Eco-Nomix Member, within 3 months immediately before the date of such a call;</li>
+                                        <li>If the Member receives written and signed permission from the prospect authorizing the Member to call;</li>
+                                        <li>If the call is to family members, personal friends, and acquaintances. However, if a Member makes a habit of collecting business cards from everyone he/she meets and subsequently calls them, the FTC may consider this a form of telemarketing that is not subject to this exemption;</li>
+                                        <li>Eco-Nomix Members engaged in calling “acquaintances,” must make such calls on an occasional basis only and not as a routine practice.</li>
+                                    </ol></li>
+                                <li>A Member shall not use automatic telephone dialing systems in the operation of his or her Eco-Nomix businesses.</li>
+                                <li>Failure to abide by Eco-Nomix policies or regulations as set forth by the FTC and FCC regarding telemarketing may lead to sanctions against the Member’s position, up to and including termination of the position.</li>
+                                <li>By signing the Member Agreement, or by accepting Referral Bonuses, other payments or awards from Eco-Nomix, a Member gives permission to Eco-Nomix and other Members to contact them as permitted under the Federal Do Not Call regulations.</li>
+                                <li>In the event a Member violates this section, Eco-Nomix reserves the right to institute legal proceedings to obtain monetary or equitable relief.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         10.0 INTERNATIONAL MARKETING
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         10.1 International Marketing Policy
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>An Eco-Nomix Member is authorized to sell Eco-Nomix products and services, to Customers and Members only in the countries in which Eco-Nomix is authorized to conduct business, according to the Policies and Procedures of each country. Eco-Nomix Members may not sell products or services in any country where Eco-Nomix products and services have not received applicable government authorization or approval.</li>
+                                <li>A Member may not, in any unauthorized country, conduct sales, enrollment or training meetings, enroll or attempt to enroll potential Customers, or Members, nor conduct any other activity for the purpose of selling Eco-Nomix products and services, establishing a sales organization, or promoting the Eco-Nomix business opportunity.</li>
+                            </ol>
+                        </div>
 
-                        A. An Eco-Nomix Member is authorized to sell Eco-Nomix products and services, to Customers and Members only in the countries in which Eco-Nomix is authorized to conduct business, according to the Policies and Procedures of each country. Eco-Nomix Members may not sell products or services in any country where Eco-Nomix products and services have not received applicable government authorization or approval.
-
-                        B. A Member may not, in any unauthorized country, conduct sales, enrollment or training meetings, enroll or attempt to enroll potential Customers, or Members, nor conduct any other activity for the purpose of selling Eco-Nomix products and services, establishing a sales organization, or promoting the Eco-Nomix business opportunity.
-
+                        <div class="form-group col-md-12 ">
                         11.0 CHANGES TO A Member BUSINESS
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         11.1 Modification of the Member Agreement
 
-                        An Eco-Nomix Member may modify his or her existing Member Agreement (i.e., change a social security number to a Federal ID number, add a Spouse or partner to the account, or change the form of ownership from an individual to a Business Entity owned by the Member) by submitting a written request, accompanied by a new Member Agreement and the Business Registration Form, if applicable, completed with fresh signatures (not a “crossed out” or “white-out” version of the first Agreement), and any appropriate supporting documentation.
-
+                        <br><br> <p style="margin-left: 20px">An Eco-Nomix Member may modify his or her existing Member Agreement (i.e., change a social security number to a Federal ID number, add a Spouse or partner to the account, or change the form of ownership from an individual to a Business Entity owned by the Member) by submitting a written request, accompanied by a new Member Agreement and the Business Registration Form, if applicable, completed with fresh signatures (not a “crossed out” or “white-out” version of the first Agreement), and any appropriate supporting documentation.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         11.2 Change Sponsor or Placement for Active Members
-
-                        A. Maintaining the integrity of the organizational structure is mandatory for the success of Eco-Nomix and our independent Members. As such, under exceptional circumstances at the discretion of the Company, a request to change placement may only be made within the first 30 days of initial enrollment as a Member. Furthermore, such changes may only occur within the same organization.
-
-                        B. Sponsors may make “Placement changes” from one Member to another for personally Sponsored (frontline) Members during the first 30 days of enrollment.
-
-                        C. New Members or their original Sponsor may request a change of Sponsor or Placement within the first 30 days of enrollment for the purpose of structuring an organization. The new Member Agreement must be received within the calendar month for commission calculations to be effective with the requested change.
-
-                        D. To change or correct the Sponsor, a Member must comply with following procedures;
-
-                        I. Submit a Sponsor Placement Transfer Form;
-
-                        II. Submit an Eco-Nomix Member Agreement showing the correct Sponsor and Placement, and any appropriate supporting documentation;
-
-                        III. The Member Agreement must be a new, completed document bearing “fresh” signatures, not a “crossed-out” or “white-out” version of the first Agreement.
-
-                        E. Upon approval, the Member’s downline, if any, will transfer with the Member.
-
-                        F. If one transfer has already been made a $20 fee will be assessed for the second and for each transfer thereafter.
-
-                        G. After the first 30 days from initial enrollment, Eco-Nomix will honor the Sponsor/Placement as shown:
-
-                        I. On the most recently signed Member Agreement on file; or
-
-                        II. Self-enrolled on the website (i.e., electronically signed Web Agreement).
-
-                        H. Eco-Nomix retains the right to approve or deny any requests to change Sponsor or Placement, and to correct any errors related thereto at any time and in whatever manner it deems necessary.
-
-                        11.3 Change Sponsor or Placement for Inactive Members
-
-                        A. At the discretion of Eco-Nomix, Members who did not participate in an auto ship or have not ordered products or services for at least 12 months, and who have not tendered a letter of resignation, are eligible to re-enroll in Eco-Nomix under the Sponsor/Placement of their choice.
-
-                        B. Upon written notice to Eco-Nomix that a former Member wishes to re-enroll, Eco-Nomix will close the original account. A new Eco-Nomix ID number will then be issued to the former Member.
-
-                        C. Such Member does not retain former  downline, or rights to Referral Bonuses from his or her former organizations.
-
-                        D. Eco-Nomix reserves the right to correct Sponsor or Placement errors at any time and in whatever manner it deems necessary.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Maintaining the integrity of the organizational structure is mandatory for the success of Eco-Nomix and our independent Members. As such, under exceptional circumstances at the discretion of the Company, a request to change placement may only be made within the first 30 days of initial enrollment as a Member. Furthermore, such changes may only occur within the same organization.</li>
+                                <li>Sponsors may make “Placement changes” from one Member to another for personally Sponsored (frontline) Members during the first 30 days of enrollment.</li>
+                                <li>New Members or their original Sponsor may request a change of Sponsor or Placement within the first 30 days of enrollment for the purpose of structuring an organization. The new Member Agreement must be received within the calendar month for commission calculations to be effective with the requested change.</li>
+                                <li>To change or correct the Sponsor, a Member must comply with following procedures;
+                                    <ol type="I">
+                                        <li>Submit a Sponsor Placement Transfer Form;</li>
+                                        <li>Submit an Eco-Nomix Member Agreement showing the correct Sponsor and Placement, and any appropriate supporting documentation;</li>
+                                        <li>The Member Agreement must be a new, completed document bearing “fresh” signatures, not a “crossed-out” or “white-out” version of the first Agreement.</li>
+                                    </ol></li>
+                                <li>Upon approval, the Member’s downline, if any, will transfer with the Member.</li>
+                                <li>If one transfer has already been made a $20 fee will be assessed for the second and for each transfer thereafter.</li>
+                                <li>After the first 30 days from initial enrollment, Eco-Nomix will honor the Sponsor/Placement as shown:
+                                    <ol type="I">
+                                        <li>On the most recently signed Member Agreement on file; or</li>
+                                        <li>Self-enrolled on the website (i.e., electronically signed Web Agreement).</li>
+                                    </ol></li>
+                                <li>Eco-Nomix retains the right to approve or deny any requests to change Sponsor or Placement, and to correct any errors related thereto at any time and in whatever manner it deems necessary.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         11.3 Change Sponsor or Placement for Inactive Members
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>At the discretion of Eco-Nomix, Members who did not participate in an auto ship or have not ordered products or services for at least 12 months, and who have not tendered a letter of resignation, are eligible to re-enroll in Eco-Nomix under the Sponsor/Placement of their choice.</li>
+                                <li>Upon written notice to Eco-Nomix that a former Member wishes to re-enroll, Eco-Nomix will close the original account. A new Eco-Nomix ID number will then be issued to the former Member.</li>
+                                <li>Such Member does not retain former  downline, or rights to Referral Bonuses from his or her former organizations.</li>
+                                <li>Eco-Nomix reserves the right to correct Sponsor or Placement errors at any time and in whatever manner it deems necessary.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         11.4 Change Organizations
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>If an Eco-Nomix Member wishes to transfer organizations, he or she must submit a letter of resignation to the Eco-Nomix Customer Service Department and remain inactive (place no orders) with or in Eco-Nomix for 6 months from the receipt of the letter before being eligible to re-enroll under a different Sponsor/Placement.</li>
+                                <li>Eco-Nomix retains the right to approve or deny any request to re-enroll after a Member’s resignation.</li>
+                                <li>If re-enrollment is approved, the former Member will be issued a new Eco-Nomix ID number and will be required to submit a new Member Agreement. The Member will not be entitled to keep any former rank, downline, or rights to commission checks from any prior organization.</li>
+                            </ol>
+                        </div>
 
-                        A. If an Eco-Nomix Member wishes to transfer organizations, he or she must submit a letter of resignation to the Eco-Nomix Customer Service Department and remain inactive (place no orders) with or in Eco-Nomix for 6 months from the receipt of the letter before being eligible to re-enroll under a different Sponsor/Placement.
-
-                        B. Eco-Nomix retains the right to approve or deny any request to re-enroll after a Member’s resignation.
-
-                        C. If re-enrollment is approved, the former Member will be issued a new Eco-Nomix ID number and will be required to submit a new Member Agreement. The Member will not be entitled to keep any former rank, downline, or rights to commission checks from any prior organization.
-
+                       <div class="form-group col-md-12 ">
                         11.5 Unethical Sponsoring
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Unethical sponsoring activities include, but are not limited to, enticing, bidding or engaging in unhealthy competition in trying to acquire a prospect or new Member from another Member or influencing another Member to transfer to a different sponsor.</li>
+                                <li>Allegations of unethical sponsoring must be reported in writing to the Eco-Nomix Compliance Department within the first 90 days of enrollment. If the reports are substantiated, Eco-Nomix may transfer the Member or the Member’s downline to another sponsor, Placement or organization without approval from the current up-line Sponsor or Placement Members. Eco-Nomix remains the final authority in such cases.</li>
+                                <li>Eco-Nomix prohibits the act of “Stacking.” Stacking is the unauthorized manipulation of the Eco-Nomix compensation system and/or the marketing plan in order to trigger Referral Bonuses in an unearned manner.  Stacking is unethical and unacceptable behavior, and as such, it is a punishable offense with measures up to and including the termination of the independent consultant positions of all individuals and/or entities found to be directly involved.</li>
+                                <li>Should Members engage in solicitation and/or enticement of members of another direct sales company to sell or distribute Eco-Nomix products and services to, they bear the risk of being sued by the other direct sales company. If any lawsuit, arbitration, or mediation is brought against a Member alleging that they engaged in inappropriate recruiting activity of another company’s sales force or Customers, Eco-Nomix will not pay any of Member’s defence costs or legal fees, nor will Eco-Nomix indemnify the Member for any judgment, award, or settlement.</li>
+                            </ol>
+                        </div>
 
-                        A. Unethical sponsoring activities include, but are not limited to, enticing, bidding or engaging in unhealthy competition in trying to acquire a prospect or new Member from another Member or influencing another Member to transfer to a different sponsor.
-
-                        B. Allegations of unethical sponsoring must be reported in writing to the Eco-Nomix Compliance Department within the first 90 days of enrollment. If the reports are substantiated, Eco-Nomix may transfer the Member or the Member’s downline to another sponsor, Placement or organization without approval from the current up-line Sponsor or Placement Members. Eco-Nomix remains the final authority in such cases.
-
-                        C. Eco-Nomix prohibits the act of “Stacking.” Stacking is the unauthorized manipulation of the Eco-Nomix compensation system and/or the marketing plan in order to trigger Referral Bonuses in an unearned manner.  Stacking is unethical and unacceptable behavior, and as such, it is a punishable offense with measures up to and including the termination of the independent consultant positions of all individuals and/or entities found to be directly involved.
-
-                        C. Should Members engage in solicitation and/or enticement of members of another direct sales company to sell or distribute Eco-Nomix products and services to, they bear the risk of being sued by the other direct sales company. If any lawsuit, arbitration, or mediation is brought against a Member alleging that they engaged in inappropriate recruiting activity of another company’s sales force or Customers, Eco-Nomix will not pay any of Member’s defence costs or legal fees, nor will Eco-Nomix indemnify the Member for any judgment, award, or settlement.
-
+                        <div class="form-group col-md-12 ">
                         11.6 Sell, Assign or Delegate Ownership
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>In order to preserve the integrity of the hierarchical structure, it is necessary for Eco-Nomix to place restrictions on the transfer, assignment, or sale of a position.</li>
+                                <li>An Eco-Nomix Member may not sell or assign his or her rights or delegate his or her position as a Member without prior written approval by Eco-Nomix, which approval will not be unreasonably withheld. Any attempted sale, assignment, or delegation without such approval may be voided at the discretion of Eco-Nomix.</li>
+                                <li>Should the sale be approved by Eco-Nomix, the Buyer assumes the position of the Seller at the current time and acquires the Seller’s Downline.</li>
+                                <li>To request corporate authorization for a sale or transfer of an Eco-Nomix position, the following items must be submitted to the Eco-Nomix Compliance Department;
+                                    <ol type="I">
+                                        <li>A Sale/Transfer of position Form properly completed, with the requisite signatures.</li>
+                                        <li>A copy of the Sales Agreement signed and dated by both Buyer and Seller.</li>
+                                        <li>An Eco-Nomix Member Agreement completed and signed by the Buyer;</li>
+                                        <li>Payment of the $100 administration fee;</li>
+                                        <li>Any additional supporting documentation requested by Eco-Nomix.</li>
+                                    </ol></li>
+                                <li>Any debt obligations that either Seller or Buyer may have with Eco-Nomix must be satisfied prior to the approval of the sale or transfer by Eco-Nomix.</li>
+                                <li>An Eco-Nomix Member who sells his or her position is not eligible to re-enroll as an Eco-Nomix Member in any organization for six (6) full calendar months following the date of the sale except as otherwise expressly set forth in these Policies and Procedures.</li>
+                            </ol>
+                        </div>
 
-                        A. In order to preserve the integrity of the hierarchical structure, it is necessary for Eco-Nomix to place restrictions on the transfer, assignment, or sale of a position.
-
-                        B. An Eco-Nomix Member may not sell or assign his or her rights or delegate his or her position as a Member without prior written approval by Eco-Nomix, which approval will not be unreasonably withheld. Any attempted sale, assignment, or delegation without such approval may be voided at the discretion of Eco-Nomix.
-
-                        C. Should the sale be approved by Eco-Nomix, the Buyer assumes the position of the Seller at the current time and acquires the Seller’s Downline.
-
-                        D. To request corporate authorization for a sale or transfer of an Eco-Nomix position, the following items must be submitted to the Eco-NomixCompliance Department;
-
-                        I. A Sale/Transfer of position Form properly completed, with the requisite signatures.
-
-                        II. A copy of the Sales Agreement signed and dated by both Buyer and Seller.
-
-                        III. An Eco-Nomix Member Agreement completed and signed by the Buyer;
-
-                        IV. Payment of the $100 administration fee;
-
-                        V. Any additional supporting documentation requested by Eco-Nomix.
-
-                        E. Any debt obligations that either Seller or Buyer may have with Eco-Nomix must be satisfied prior to the approval of the sale or transfer by Eco-Nomix.
-
-                        F. An Eco-Nomix Member who sells his or her position is not eligible to re-enroll as an Eco-Nomix Member in any organization for six (6) full calendar months following the date of the sale except as otherwise expressly set forth in these Policies and Procedures.
-
+                        <div class="form-group col-md-12 ">
                         11.7 Right of First Refusal (RFR)
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>All offers for the sale of an Eco-Nomix position are subject to these rights of first refusal as described herein.</li>
+                                <li>If the Member receives a Good Faith Offer to purchase his or her interest in the position, the Member shall first offer to sell such interest to the Company on the same terms and conditions contained in the Good Faith Offer. The Member shall deliver the Good Faith Offer in writing to Eco-Nomix and Eco-Nomix shall have fifteen (15) business days in which to accept the offer. A “Good Faith Offer” is an arm’s length written offer to purchase the Eco-Nomix position reflected by way of a letter of intent or some other written document.</li>
+                                <li>If the Companty rejects or fails to exercise his or her RFR within the time allotted, the Member may complete the sale of his or her rights in the position to the third party according to the same terms and conditions contained in the Good Faith Offer, provided, however, that the Company approves of the transaction as specified in section 11.6.</li>
+                            </ol>
+                        </div>
 
-                        A. All offers for the sale of an Eco-Nomix position are subject to these rights of first refusal as described herein.
-
-                        B. If the Member receives a Good Faith Offer to purchase his or her interest in the position, the Member shall first offer to sell such interest to the Company on the same terms and conditions contained in the Good Faith Offer. The Member shall deliver the Good Faith Offer in writing to Eco-Nomix and Eco-Nomix shall have fifteen (15) business days in which to accept the offer. A “Good Faith Offer” is an arm’s length written offer to purchase the Eco-Nomix position reflected by way of a letter of intent or some other written document.
-
-                        C. If the Companty rejects or fails to exercise his or her RFR within the time allotted, the Member may complete the sale of his or her rights in the position to the third party according to the same terms and conditions contained in the Good Faith Offer, provided, however, that the Company approves of the transaction as specified in section 11.6.
-
+                        <div class="form-group col-md-12 ">
                         11.7 Separating an Eco-Nomix Business
-
-                        A. Pending a divorce or dissolution of a partnership or other business entity, the parties must adopt one of the following methods of operation;
-
-                        I. One of the parties may, with the written consent of the other(s), operate the Eco-Nomix business whereby the relinquishing Spouse, shareholders, partners, members or trustees authorize Eco-Nomix to deal directly and solely with the other Spouse, non-relinquishing shareholder, partner, member or trustee;
-
-                        II. The parties may continue to operate the Eco-Nomix business jointly on a “business as usual” basis, whereupon all compensation paid by Eco-Nomix will be paid in the name designated as the Members or in the name of the entity to be divided, as the parties may independently agree between them. If no name is stipulated, Eco-Nomix will pay compensation to the name on record and in such event, the Member named on the account shall indemnify Eco-Nomix from any claims from the other business owner(s) or the other Spouse with respect to such payment.
-
-                        B. Eco-Nomix recognizes only one Downline organization and will issue only one commission check per Eco-Nomix business per commission cycle. Under no circumstances will the Downline of an organization be divided, nor will Eco-Nomix split commission and/or bonus checks.
-
-                        C. If a relinquishing Spouse, partner or owner of the business has completely relinquished (“Relinquishing Party”), in writing, all rights to the original Eco-Nomix business, he or she may immediately thereafter re-enroll under the Sponsor and Placement of his or her choice. In such cases, however, the Relinquishing Party shall have no rights to, and shall not solicit, any Member or active Customer in the former organization, and must develop a new business in the same manner as any other new Eco-Nomix Member. A Member in the Relinquishing Party’s former Downline who wishes to transfer to the Relinquishing Party’s new organization or to any other organization, must comply with the requirements in Section 13.5.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Pending a divorce or dissolution of a partnership or other business entity, the parties must adopt one of the following methods of operation;
+                                    <ol type="I">
+                                        <li>One of the parties may, with the written consent of the other(s), operate the Eco-Nomix business whereby the relinquishing Spouse, shareholders, partners, members or trustees authorize Eco-Nomix to deal directly and solely with the other Spouse, non-relinquishing shareholder, partner, member or trustee;</li>
+                                        <li>The parties may continue to operate the Eco-Nomix business jointly on a “business as usual” basis, whereupon all compensation paid by Eco-Nomix will be paid in the name designated as the Members or in the name of the entity to be divided, as the parties may independently agree between them. If no name is stipulated, Eco-Nomix will pay compensation to the name on record and in such event, the Member named on the account shall indemnify Eco-Nomix from any claims from the other business owner(s) or the other Spouse with respect to such payment.</li>
+                                    </ol></li>
+                                <li>Eco-Nomix recognizes only one Downline organization and will issue only one commission check per Eco-Nomix business per commission cycle. Under no circumstances will the Downline of an organization be divided, nor will Eco-Nomix split commission and/or bonus checks.</li>
+                                <li>If a relinquishing Spouse, partner or owner of the business has completely relinquished (“Relinquishing Party”), in writing, all rights to the original Eco-Nomix business, he or she may immediately thereafter re-enroll under the Sponsor and Placement of his or her choice. In such cases, however, the Relinquishing Party shall have no rights to, and shall not solicit, any Member or active Customer in the former organization, and must develop a new business in the same manner as any other new Eco-Nomix Member. A Member in the Relinquishing Party’s former Downline who wishes to transfer to the Relinquishing Party’s new organization or to any other organization, must comply with the requirements in Section 13.5.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         11.8 Succession
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Upon the death or incapacity of a Member, the Member’s business may be passed on to his or her legal successors in interest (successor). Whenever an Eco-Nomix business is transferred by will or other testamentary process, the successor acquires the right to collect all Referral Bonuses of the deceased Member’s sales organization. The successor must:
+                                    <ol type="I">
+                                        <li>Complete and sign a new Eco-Nomix Member Agreement;</li>
+                                        <li>Comply with the Terms and provisions of the Member Agreement; and</li>
+                                        <li>Meet all of the qualifications for the last rank achieved by the former Member.</li>
+                                    </ol></li>
+                                <li>Referral Bonuses of an Eco-Nomix business transferred based on this section will be paid through a single Debit Card tied to the successor. The successor must provide Eco-Nomix with an “address of record” to which all Referral Bonuses will be sent. Payments will be based on the current performance of the position.</li>
+                                <li>If the business is bequeathed to joint devisees (successors), they must form a business entity and acquire a Federal taxpayer identification number. Eco-Nomix will issue all Referral Bonuses and one 1099 Miscellaneous Income Tax form to the managing business entity only.</li>
+                                <li>Appropriate legal documentation must be submitted to Eco-Nomix Compliance Department to ensure the transfer is done properly. To affect a testamentary transfer of an Eco-Nomix business, the successor must provide the following to Eco-Nomix Compliance Department;
+                                    <ol type="I">
+                                        <li>A certified copy of the death certificate; and</li>
+                                        <li>A notarized copy of the will or other appropriate legal documentation establishing the successor’s right to the Eco-Nomix business.</li>
+                                    </ol></li>
+                                <li>To complete a transfer of the Eco-Nomix business because of incapacity, the successor must provide the following to the Eco-Nomix Compliance Department;
+                                    <ol type="I">
+                                        <li>A notarized copy of an appointment as trustee;</li>
+                                        <li>A notarized copy of the trust document or other appropriate legal documentation establishing the trustee’s right to administer the Eco-Nomix business; and</li>
+                                        <li>A completed Member Agreement executed by the trustee.</li>
+                                    </ol></li>
+                                <li>If the successor is already an existing Member, Eco-Nomix will allow such Member to keep his or her own position plus the inherited position active for up to six (6) months. By the end of the 6-month period, the Member must have  sold or otherwise transferred either the existing position or the inherited position.</li>
+                                <li>If the successor wishes to terminate the Eco-Nomix position, he or she must submit a notarized statement stating the desire to terminate the position, along with a certified copy of the death certificate, appointment as trustee, and/or any other appropriate legal documentation.</li>
+                            </ol>
+                        </div>
 
-                        A. Upon the death or incapacity of a Member, the Member’s business may be passed on to his or her legal successors in interest (successor). Whenever an Eco-Nomix business is transferred by will or other testamentary process, the successor acquires the right to collect all Referral Bonuses of the deceased Member’s sales organization. The successor must:
-
-                        I. Complete and sign a new Eco-Nomix Member Agreement;
-
-                        II. Comply with the Terms and provisions of the Member Agreement; and
-
-                        III. Meet all of the qualifications for the last rank achieved by the former Member.
-
-                        B. Referral Bonuses of an Eco-Nomix business transferred based on this section will be paid through a single Debit Card tied to the successor. The successor must provide Eco-Nomix with an “address of record” to which all Referral Bonuses will be sent. Payments will be based on the current performance of the position.
-
-                        C. If the business is bequeathed to joint devisees (successors), they must form a business entity and acquire a Federal taxpayer identification number. Eco-Nomix will issue all Referral Bonuses and one 1099 Miscellaneous Income Tax form to the managing business entity only.
-
-                        D. Appropriate legal documentation must be submitted to Eco-Nomix Compliance Department to ensure the transfer is done properly. To affect a testamentary transfer of an Eco-Nomix business, the successor must provide the following to Eco-Nomix Compliance Department;
-
-                        I. A certified copy of the death certificate; and
-
-                        II. A notarized copy of the will or other appropriate legal documentation establishing the successor’s right to the Eco-Nomix business.
-
-                        E. To complete a transfer of the Eco-Nomix business because of incapacity, the successor must provide the following to the Eco-Nomix Compliance Department;
-
-                        I. A notarized copy of an appointment as trustee;
-
-                        II. A notarized copy of the trust document or other appropriate legal documentation establishing the trustee’s right to administer the Eco-Nomix business; and
-
-                        III. A completed Member Agreement executed by the trustee.
-
-                        F. If the successor is already an existing Member, Eco-Nomix will allow such Member to keep his or her own position plus the inherited position active for up to six (6) months. By the end of the 6-month period, the Member must have  sold or otherwise transferred either the existing position or the inherited position.
-
-                        G. If the successor wishes to terminate the Eco-Nomix position, he or she must submit a notarized statement stating the desire to terminate the position, along with a certified copy of the death certificate, appointment as trustee, and/or any other appropriate legal documentation.
-
+                        <div class="form-group col-md-12 ">
                         11.9 Resignation/Voluntary Termination
-
-                        A. A Member may immediately terminate his or her position by submitting a written notice or email to the Eco-Nomix Compliance Department at compliance@eco-nomix.org. The written notice must include the following;
-
-                        I. The Member’s intent to resign;
-
-                        II. Date of resignation;
-
-                        III. Eco-Nomix Identification Number;
-
-                        IV. Reason for resigning; and
-
-                        V. Signature.
-
-                        B. An Eco-Nomix Member may not use resignation as a way to immediately change Sponsor and Placement. Instead, the Member who has voluntarily resigned is not eligible to reapply for a position or have any financial interest in a or any Eco-Nomix business for 6 months from the receipt of the written notice of resignation.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A Member may immediately terminate his or her position by submitting a written notice or email to the Eco-Nomix Compliance Department at compliance@eco-nomix.org. The written notice must include the following;
+                                    <ol type="I">
+                                        <li>The Member’s intent to resign;</li>
+                                        <li>Date of resignation;</li>
+                                        <li>Eco-Nomix Identification Number;</li>
+                                        <li>Reason for resigning; and</li>
+                                        <li>Signature.</li>
+                                    </ol></li>
+                                <li>An Eco-Nomix Member may not use resignation as a way to immediately change Sponsor and Placement. Instead, the Member who has voluntarily resigned is not eligible to reapply for a position or have any financial interest in a or any Eco-Nomix business for 6 months from the receipt of the written notice of resignation.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         11.10 Involuntary Termination
-
-                        A. Eco-Nomix reserves the right to terminate a Member’s position for, but not limited to, the following reasons;
-
-                        I. Violation of any Terms or Conditions of the Member Agreement;
-
-                        II. Violation of any provision in these Policies and Procedures;
-
-                        III. Violation of any provision in the Compensation Plan;
-
-                        IV. Violation of any applicable law, ordinance, or regulation regarding the Eco-Nomix business;
-
-                        V. Engaging in unethical business practices or violating standards of fair dealing; or
-
-                        VI. Returning over $500 worth of products, services and/or sales tools for a refund within a 12 month period.
-
-                        B. Eco-Nomix will notify the Member in writing by certified mail, return receipt requested or overnight documented mail, at his or her last known address of its intent to terminate the Member’s position and the reasons for termination. The  will have 15 calendar days from the date of mailing of such notice to respond in writing to the allegations or claims constituting cause for termination as stated in the notice. Eco-Nomix will then have 30 calendar days from the date of receipt of the Member’s response to render a final decision as to termination.
-
-                        C. If a decision is made by Eco-Nomix to terminate the Member’s position, Eco-Nomix will inform the Member in writing that the position is terminated effective as of the date of the written notification. The Member will then have 15 calendar days from the date of mailing of such notice to appeal the termination in writing. Eco-Nomix must receive the Member’s written appeal within 20 calendar days of the date of the Eco-Nomix termination letter. If the written appeal is not received within this time period, the termination will be considered final.
-
-                        D. If the Member does file a timely appeal of termination, Eco-Nomix will review its decision, along with any other information it may deem relevant, reconsider any other appropriate action, and notify the Member of its decision. The decision of Eco-Nomix is then considered final and not subject to further review.
-
-                        E. If the termination is not rescinded, the termination will be effective as of the date of the original termination notice by Eco-Nomix. The former Member shall thereafter be prohibited from using the names, marks or signs, labels, stationery, advertising, or business material referring to or relating to any Eco-Nomix products or services. Eco-Nomix will notify the active Upline Sponsor within 30 days after termination. The organization of the terminated Member will “roll up” to the active Upline Sponsor on record.
-
-                        F. The Eco-Nomix Member who is involuntarily terminated by Eco-Nomix may not reapply for a position, either under his or her present name or any other name or entity, without the express written consent of an officer of Eco-Nomix, following a review by the Eco-Nomix Compliance Committee. In any event, such Member may not re-apply for a position for 12 months from the date of termination.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Eco-Nomix reserves the right to terminate a Member’s position for, but not limited to, the following reasons;
+                                    <ol type="I">
+                                        <li>Violation of any Terms or Conditions of the Member Agreement;</li>
+                                        <li>Violation of any provision in these Policies and Procedures;</li>
+                                        <li>Violation of any provision in the Compensation Plan;</li>
+                                        <li>Violation of any applicable law, ordinance, or regulation regarding the Eco-Nomix business;</li>
+                                        <li>Engaging in unethical business practices or violating standards of fair dealing; or</li>
+                                        <li>Returning over $500 worth of products, services and/or sales tools for a refund within a 12 month period.</li>
+                                    </ol></li>
+                                <li>Eco-Nomix will notify the Member in writing by certified mail, return receipt requested or overnight documented mail, at his or her last known address of its intent to terminate the Member’s position and the reasons for termination. The  will have 15 calendar days from the date of mailing of such notice to respond in writing to the allegations or claims constituting cause for termination as stated in the notice. Eco-Nomix will then have 30 calendar days from the date of receipt of the Member’s response to render a final decision as to termination.</li>
+                                <li>If a decision is made by Eco-Nomix to terminate the Member’s position, Eco-Nomix will inform the Member in writing that the position is terminated effective as of the date of the written notification. The Member will then have 15 calendar days from the date of mailing of such notice to appeal the termination in writing. Eco-Nomix must receive the Member’s written appeal within 20 calendar days of the date of the Eco-Nomix termination letter. If the written appeal is not received within this time period, the termination will be considered final.</li>
+                                <li>If the Member does file a timely appeal of termination, Eco-Nomix will review its decision, along with any other information it may deem relevant, reconsider any other appropriate action, and notify the Member of its decision. The decision of Eco-Nomix is then considered final and not subject to further review.</li>
+                                <li>If the termination is not rescinded, the termination will be effective as of the date of the original termination notice by Eco-Nomix. The former Member shall thereafter be prohibited from using the names, marks or signs, labels, stationery, advertising, or business material referring to or relating to any Eco-Nomix products or services. Eco-Nomix will notify the active Upline Sponsor within 30 days after termination. The organization of the terminated Member will “roll up” to the active Upline Sponsor on record.</li>
+                                <li>The Eco-Nomix Member who is involuntarily terminated by Eco-Nomix may not reapply for a position, either under his or her present name or any other name or entity, without the express written consent of an officer of Eco-Nomix, following a review by the Eco-Nomix Compliance Committee. In any event, such Member may not re-apply for a position for 12 months from the date of termination.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         11.11 Effect of Cancellation
+                        <br><br> <p style="margin-left: 20px">Following a Member’s cancellation for voluntary or involuntary termination (collectively, a “cancellation”) such Member;</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type = "A">
+                                <li>Shall have no right, title, claim or interest to any Referral Bonuses from the sales generated by the Member’s former organization;</li>
+                                <li>Effectively waives any and all claims to property rights or any interest in or to the Member’s former Downline organization;</li>
+                                <li>Shall receive no further Referral Bonuses from the time of termination.</li>
+                            </ol>
+                        </div>/
 
-                        A. Following a Member’s cancellation for voluntary or involuntary termination (collectively, a “cancellation”) such Member;
-
-                        I. Shall have no right, title, claim or interest to any Referral Bonuses from the sales generated by the Member’s former organization;
-
-                        II. Effectively waives any and all claims to property rights or any interest in or to the Member’s former Downline organization;
-
-                        III. Shall receive no further Referral Bonuses from the time of termination.
-
+                        <div class="form-group col-md-12 ">
                         12.0 DISCIPLINARY SANCTIONS
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         12.1 Imposition of Disciplinary Action – Purpose
 
-                        It is the spirit of Eco-Nomix that integrity and fairness should pervade among its Members, thereby providing everyone with an equal opportunity to build a successful business. Therefore, Eco-Nomix reserves the right to impose disciplinary sanctions at any time, when it has determined that a Member has violated the Agreement or any of these Policies and Procedures or the Compensation Plan as they may be amended from time to time by Eco-Nomix.
-
+                        <br><br> <p style="margin-left: 20px">It is the spirit of Eco-Nomix that integrity and fairness should pervade among its Members, thereby providing everyone with an equal opportunity to build a successful business. Therefore, Eco-Nomix reserves the right to impose disciplinary sanctions at any time, when it has determined that a Member has violated the Agreement or any of these Policies and Procedures or the Compensation Plan as they may be amended from time to time by Eco-Nomix.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         12.2 Consequences and Remedies of Breach
 
-                        Disciplinary actions may include one or more of the following;
+                        <br><br> <p style="margin-left: 20px">Disciplinary actions may include one or more of the following;</p>
+                        </div>
 
-                        I. Monitoring a Member’s conduct over a specified period of time to assure compliance;
-
-                        II. Issuance of a written warning or requiring the Member to take immediate corrective action;
-
-                        III. Imposition of a fine (which may be imposed immediately or withheld from future Referral Bonuses payments) until the matter causing the Commission Hold is resolved or until Eco-Nomix receives adequate additional assurances from the Member to ensure future compliance;
-
-                        IV. Suspension from participation in Company or Member events, rewards, or recognition;
-
-                        V. Suspension of the Eco-Nomix Member Agreement and position for one or more pay periods;
-
-                        VI. Involuntary termination of the Member’s Agreement and position;
-
-                        VII. Any other measure which Eco-Nomix deems feasible and appropriate to justly resolve injuries caused by the Member’s Policy violation or contractual breach; OR
-
-                        VIII. Legal proceedings for monetary or equitable relief.
-
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Monitoring a Member’s conduct over a specified period of time to assure compliance;</li>
+                                <li>Issuance of a written warning or requiring the Member to take immediate corrective action;</li>
+                                <li>Imposition of a fine (which may be imposed immediately or withheld from future Referral Bonuses payments) until the matter causing the Commission Hold is resolved or until Eco-Nomix receives adequate additional assurances from the Member to ensure future compliance;</li>
+                                <li>Suspension from participation in Company or Member events, rewards, or recognition;</li>
+                                <li>Suspension of the Eco-Nomix Member Agreement and position for one or more pay periods;</li>
+                                <li>Involuntary termination of the Member’s Agreement and position;</li>
+                                <li>Any other measure which Eco-Nomix deems feasible and appropriate to justly resolve injuries caused by the Member’s Policy violation or contractual breach; OR</li>
+                                <li>Legal proceedings for monetary or equitable relief.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         13.0 DISPUTE RESOLUTION
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         13.1 Grievances
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>If an Eco-Nomix Member has a grievance or complaint against another Member regarding any practice or conduct relating to their respective Eco-Nomix businesses, he or she is encouraged to resolve the issue directly with the other party. If an agreement cannot be reached, it must be reported directly to the Eco-Nomix Compliance Department as outlined below in this Section.</li>
+                                <li>The Eco-Nomix Compliance Department will be the final authority on settling such grievance or complaint and its written decision shall be final and binding on the Members involved.</li>
+                                <li>Eco-Nomix will confine its involvement to disputes regarding Eco-Nomix business matters only. Eco-Nomix will not decide issues that involve personality conflicts or unprofessional conduct by or between Members outside the context of an Eco-Nomix business. These issues go beyond the scope of Eco-Nomix and may not be used to justify a Sponsor or Placement change or a transfer to another Eco-Nomix organization.</li>
+                                <li>Eco-Nomix does not consider, enforce, or mediate third party agreements between Members, nor does it provide names, funding, or advice for obtaining outside legal counsel.</li>
+                                <li>Process for Grievances:
+                                    <ol type="I">
+                                        <li>The Eco-Nomix Member should submit a written letter of complaint (e-mail will not be accepted) directly to the Eco-Nomix Compliance Department. The letter shall set forth the details of the incident as follows;
+                                            <ol type="a">
+                                                <li>The nature of the violation;</li>
+                                                <li>Specific facts to support the allegations;</li>
+                                                <li>Dates;</li>
+                                                <li>Number of occurrences;</li>
+                                                <li>Persons involved; and</li>
+                                                <li>Supporting documentation.</li>
+                                            </ol></li>
+                                        <li>Upon receipt of the written complaint, Eco-Nomix will conduct an investigation according to the following procedures;
+                                            <ol type="a">
+                                                <li>The Compliance Department will send an acknowledgment of receipt to the complaining Member;</li>
+                                                <li>The Compliance Department will provide a verbal or written notice of the allegation to the Member under investigation. If a written notice is sent to the Member, he or she will have 10 business days from the date of the notification letter to present all information relating to the incident for review by Eco-Nomix. The Compliance Department will thoroughly investigate the complaint, consider all the submitted information it deems relevant, including information from collateral sources. Due to the unique nature of each situation, determinations of the appropriate remedy will be on a case by case basis, and the length of time to reach a resolution will vary.</li>
+                                                <li>During the course of the investigation, the Compliance Department will only provide periodic updates simply stating that the investigation is ongoing. No other information will be released during this time. Member calls, letters, and requests for “progress reports” during the course of the investigation will not be answered or returned.</li>
+                                                <li>Eco-Nomix will make a final decision and timely notify the Eco-Nomix Members involved.</li>
+                                            </ol></li>
+                                    </ol></li>
+                                <li></li>
+                            </ol>
+                        </div>
 
-                        A. If an Eco-Nomix Member has a grievance or complaint against another Member regarding any practice or conduct relating to their respective Eco-Nomix businesses, he or she is encouraged to resolve the issue directly with the other party. If an agreement cannot be reached, it must be reported directly to the Eco-Nomix Compliance Department as outlined below in this Section.
-
-                        B. The Eco-Nomix Compliance Department will be the final authority on settling such grievance or complaint and its written decision shall be final and binding on the Members involved.
-
-                        C. Eco-Nomix will confine its involvement to disputes regarding Eco-Nomix business matters only. Eco-Nomix will not decide issues that involve personality conflicts or unprofessional conduct by or between Members outside the context of an Eco-Nomix business. These issues go beyond the scope of Eco-Nomix and may not be used to justify a Sponsor or Placement change or a transfer to another Eco-Nomix organization.
-
-                        D. Eco-Nomix does not consider, enforce, or mediate third party agreements between Members, nor does it provide names, funding, or advice for obtaining outside legal counsel.
-
-                        E. Process for Grievances:
-
-                        I. The Eco-Nomix Member should submit a written letter of complaint (e-mail will not be accepted) directly to the Eco-Nomix Compliance Department. The letter shall set forth the details of the incident as follows;
-
-                        a. The nature of the violation;
-
-                        b. Specific facts to support the allegations;
-
-                        c. Dates;
-
-                        d. Number of occurrences;
-
-                        e. Persons involved; and
-
-                        f. Supporting documentation.
-
-                        II. Upon receipt of the written complaint, Eco-Nomix will conduct an investigation according to the following procedures;
-
-                        a. The Compliance Department will send an acknowledgment of receipt to the complaining Member;
-
-                        b. The Compliance Department will provide a verbal or written notice of the allegation to the Member under investigation. If a written notice is sent to the Member, he or she will have 10 business days from the date of the notification letter to present all information relating to the incident for review by Eco-Nomix. The Compliance Department will thoroughly investigate the complaint, consider all the submitted information it deems relevant, including information from collateral sources. Due to the unique nature of each situation, determinations of the appropriate remedy will be on a case by case basis, and the length of time to reach a resolution will vary.
-
-                        d. During the course of the investigation, the Compliance Department will only provide periodic updates simply stating that the investigation is ongoing. No other information will be released during this time. Member calls, letters, and requests for “progress reports” during the course of the investigation will not be answered or returned.
-
-                        F. Eco-Nomix will make a final decision and timely notify the Eco-Nomix Members involved.
-
+                        <div class="form-group col-md-12 ">
                         13.2 Arbitration
-
-                        A. Any controversy or claim arising out of or relating to the Eco-Nomix Member agreement, these Policies and Procedures, or the breach thereof, the Member’s business or any dispute between Eco-Nomix and the Member, shall be settled by binding and confidential arbitration administered by the American Arbitration Association under its commercial arbitration rules, and judgment on the award rendered by the arbitrator may be entered in any court having jurisdiction thereof. Any such arbitration shall be held in Scottsdale, Arizona. There shall be one arbitrator, who shall have expertise in business law transactions and who shall be knowledgeable in the direct selling industry, selected from a panel provided by the American Arbitration Association.
-
-                        B. The prevailing party in any such arbitration shall be entitled to receive from the losing party, all costs and expenses of arbitration, including reasonable attorney’s fees and filing fees. The decision of the arbitrator shall be final and binding on the parties and may, if necessary, be reduced to judgment in any court of competent jurisdiction.
-
-                        C. This agreement to arbitration shall survive any termination or expiration of the Member agreement.
-
-                        D. Nothing in these Policies and Procedures shall prevent Eco-Nomix from applying for or obtaining from any court having jurisdiction a writ of attachment, a temporary injunction, preliminary injunction, permanent injunction, or other relief available to safeguard and protect Eco-Nomix interests or its Confidential Information prior to, during or following the filing of an arbitration or other proceeding, or pending the rendition of a decision or award in connection with any arbitration or other proceeding.
-
-                        E. NO CLASS ACTION, OR OTHER REPRESENTATIVE ACTION OR PRIVATE ATTORNEY GENERAL ACTION OR JOINDER OR CONSOLIDATION OF ANY CLAIM WITH A CLAIM OF ANOTHER PERSON OR CLASS OF CLAIMANTS SHALL BE ALLOWABLE.
-
-                        F. These Policies and Procedures and any arbitration involving a Member and Eco-Nomix shall be governed by and construed in accordance with the laws of the state of Arizona, without reference to its principles of conflict of laws.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Any controversy or claim arising out of or relating to the Eco-Nomix Member agreement, these Policies and Procedures, or the breach thereof, the Member’s business or any dispute between Eco-Nomix and the Member, shall be settled by binding and confidential arbitration administered by the American Arbitration Association under its commercial arbitration rules, and judgment on the award rendered by the arbitrator may be entered in any court having jurisdiction thereof. Any such arbitration shall be held in Scottsdale, Arizona. There shall be one arbitrator, who shall have expertise in business law transactions and who shall be knowledgeable in the direct selling industry, selected from a panel provided by the American Arbitration Association.</li>
+                                <li>The prevailing party in any such arbitration shall be entitled to receive from the losing party, all costs and expenses of arbitration, including reasonable attorney’s fees and filing fees. The decision of the arbitrator shall be final and binding on the parties and may, if necessary, be reduced to judgment in any court of competent jurisdiction.</li>
+                                <li>This agreement to arbitration shall survive any termination or expiration of the Member agreement.</li>
+                                <li>Nothing in these Policies and Procedures shall prevent Eco-Nomix from applying for or obtaining from any court having jurisdiction a writ of attachment, a temporary injunction, preliminary injunction, permanent injunction, or other relief available to safeguard and protect Eco-Nomix interests or its Confidential Information prior to, during or following the filing of an arbitration or other proceeding, or pending the rendition of a decision or award in connection with any arbitration or other proceeding.</li>
+                                <li>NO CLASS ACTION, OR OTHER REPRESENTATIVE ACTION OR PRIVATE ATTORNEY GENERAL ACTION OR JOINDER OR CONSOLIDATION OF ANY CLAIM WITH A CLAIM OF ANOTHER PERSON OR CLASS OF CLAIMANTS SHALL BE ALLOWABLE.</li>
+                                <li>These Policies and Procedures and any arbitration involving a Member and Eco-Nomix shall be governed by and construed in accordance with the laws of the state of Arizona, without reference to its principles of conflict of laws.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         13.3 Severability
-
-                        If any provision of these Policies and Procedures is found to be invalid, or unenforceable for any reason, only the invalid provision shall be severed. The remaining terms and provisions hereof shall remain in full force and shall be construed as if such invalid or unenforceable provision never had comprised a part of these Policies and Procedures.
-
+                        <br><br> <p style="margin-left: 20px">If any provision of these Policies and Procedures is found to be invalid, or unenforceable for any reason, only the invalid provision shall be severed. The remaining terms and provisions hereof shall remain in full force and shall be construed as if such invalid or unenforceable provision never had comprised a part of these Policies and Procedures.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         13.4 Waiver
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Only an officer of Eco-Nomix can, in writing, affect a waiver of the Eco-Nomix Policies and Procedures. Eco-Nomix’s waiver of any particular breach by a Member shall not affect Eco-Nomix’s rights with respect to any subsequent breach, nor shall it affect the rights or obligations of any other Member.</li>
+                                <li>The existence of any claim or cause of action of a Member against Eco-Nomix shall not constitute a defense to Eco-Nomix’s enforcement of any term or provision of these Policies and Procedures.</li>
+                            </ol>
+                        </div>
 
-                        A. Only an officer of Eco-Nomix can, in writing, affect a waiver of the Eco-Nomix Policies and Procedures. Eco-Nomix’s waiver of any particular breach by a Member shall not affect Eco-Nomix’s rights with respect to any subsequent breach, nor shall it affect the rights or obligations of any other Member.
-
-                        B. The existence of any claim or cause of action of a Member against Eco-Nomix shall not constitute a defense to Eco-Nomix’s enforcement of any term or provision of these Policies and Procedures.
-
+                        <div class="form-group col-md-12 ">
                         13.5 Successors and Claims
 
-                        The agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
-
+                        <br><br> <p style="margin-left: 20px">The agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         14.0 GOVERNING LAW
-
-                        These Policies and Procedures shall be governed by and construed in accordance with the Laws of the State of Arizona and the exclusive jurisdiction of the United States courts.
-
+                         <br><br> <p style="margin-left: 20px">These Policies and Procedures shall be governed by and construed in accordance with the Laws of the State of Arizona and the exclusive jurisdiction of the United States courts.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         15.0 Eco-Nomix GLOSSARY OF TERMS
 
-                        ACTIVE Member: A Member who is registered and is in compliance with Eco-Nomix Policies and Procedures.
+                        <br><br> <p style="margin-left: 20px">ACTIVE Member: A Member who is registered and is in compliance with Eco-Nomix Policies and Procedures.</p>
 
-                        AGREEMENT: The contract between the Company and each Member; includes the Member Agreement, the Eco-Nomix Policies and Procedures, and theEco-Nomix Compensation Plan, all in their current form and as amended by Eco-Nomix in its sole discretion. These documents are collectively referred to as the “Agreement.”
+                        <br><br> <p style="margin-left: 20px">AGREEMENT: The contract between the Company and each Member; includes the Member Agreement, the Eco-Nomix Policies and Procedures, and theEco-Nomix Compensation Plan, all in their current form and as amended by Eco-Nomix in its sole discretion. These documents are collectively referred to as the “Agreement.”</p>
 
-                        CANCEL: The termination of a Member’s business. Cancellation may be either voluntary, involuntary, or through non-renewal.
+                        <br><br> <p style="margin-left: 20px">CANCEL: The termination of a Member’s business. Cancellation may be either voluntary, involuntary, or through non-renewal.</p>
 
-                        COMPENSATION PLAN: The guidelines and referenced literature for describing how Members can generate commissions and bonuses.
+                        <br><br> <p style="margin-left: 20px">COMPENSATION PLAN: The guidelines and referenced literature for describing how Members can generate commissions and bonuses.</p>
 
-                        CUSTOMER: A Customer who purchases Eco-Nomix products and does not engage in building a business or retailing product.
+                        <br><br> <p style="margin-left: 20px">CUSTOMER: A Customer who purchases Eco-Nomix products and does not engage in building a business or retailing product.</p>
 
-                        Member: An individual, who purchases product, generates retail sales and business building Referral Bonuses.
+                        <br><br> <p style="margin-left: 20px">Member: An individual, who purchases product, generates retail sales and business building Referral Bonuses.</p>
 
-                        LINE OF SPONSORSHIP (LOS): A report generated by Eco-Nomix that provides critical data relating to the identities of Members, sales information, and enrollment activity of each Member’s organization. This report contains confidential and trade secret information which is proprietary to Eco-Nomix.
+                        <br><br> <p style="margin-left: 20px">LINE OF SPONSORSHIP (LOS): A report generated by Eco-Nomix that provides critical data relating to the identities of Members, sales information, and enrollment activity of each Member’s organization. This report contains confidential and trade secret information which is proprietary to Eco-Nomix.</p>
 
-                        ORGANIZATION: The Customers and Members placed below a particular Member.  For purposes of Referral Bonuses this is limited to 5 generations.
+                        <br><br> <p style="margin-left: 20px">ORGANIZATION: The Customers and Members placed below a particular Member.  For purposes of Referral Bonuses this is limited to 5 generations.</p>
 
-                        OFFICIAL Eco-Nomix MATERIAL: Literature, audio or video tapes, and other materials developed, printed, published, and distributed by Eco-Nomix Members.
+                        <br><br> <p style="margin-left: 20px">OFFICIAL Eco-Nomix MATERIAL: Literature, audio or video tapes, and other materials developed, printed, published, and distributed by Eco-Nomix Members.</p>
 
-                        PLACEMENT: Your position inside your Sponsor’s organization.
+                        <br><br> <p style="margin-left: 20px">PLACEMENT: Your position inside your Sponsor’s organization.</p>
 
-                        RECRUIT: For purposes of Eco-Nomix’s Conflict of Interest Policy, the term “Recruit” means the actual or attempted solicitation, enrollment, encouragement, or effort to influence in any other way, either directly, indirectly, or through a third party, another Eco-Nomix Member or Customer to enrol or participate in another multilevel marketing, network marketing, or direct sales opportunity.
+                        <br><br> <p style="margin-left: 20px">RECRUIT: For purposes of Eco-Nomix’s Conflict of Interest Policy, the term “Recruit” means the actual or attempted solicitation, enrollment, encouragement, or effort to influence in any other way, either directly, indirectly, or through a third party, another Eco-Nomix Member or Customer to enrol or participate in another multilevel marketing, network marketing, or direct sales opportunity.</p>
 
-                        RESALABLE: Products shall be deemed “resalable” if each of the following elements is satisfied: 1) they are unopened and unused, 2) original packaging and labelling has not been altered or damaged, 3) they are in a condition such that it is a commercially reasonable practice within the trade to sell the merchandise at full price, and 4) the product contains current Eco-Nomix labelling. Any merchandise that is clearly identified at the time of sale as nonreturnable, discontinued, or as a seasonal item, shall not be resalable.
+                        <br><br> <p style="margin-left: 20px">RESALABLE: Products shall be deemed “resalable” if each of the following elements is satisfied: 1) they are unopened and unused, 2) original packaging and labelling has not been altered or damaged, 3) they are in a condition such that it is a commercially reasonable practice within the trade to sell the merchandise at full price, and 4) the product contains current Eco-Nomix labelling. Any merchandise that is clearly identified at the time of sale as nonreturnable, discontinued, or as a seasonal item, shall not be resalable.</p>
 
-                        SPONSOR: A Member who enrolls a Customer, Retailer, or another Member into the Company, and is listed as the Sponsor on the MemberAgreement. The act of enrolling others and training them to become Members is called “sponsoring.”
+                        <br><br> <p style="margin-left: 20px">SPONSOR: A Member who enrolls a Customer, Retailer, or another Member into the Company, and is listed as the Sponsor on the MemberAgreement. The act of enrolling others and training them to become Members is called “sponsoring.”</p>
 
-                        UPLINE: This term refers to the Member or Members above a particular Member in a sponsorship line up to the Company. It is the line of sponsors that links any particular Member to the Company.
+                        <br><br> <p style="margin-left: 20px">UPLINE: This term refers to the Member or Members above a particular Member in a sponsorship line up to the Company. It is the line of sponsors that links any particular Member to the Company.</p>
                         </div>
                 </div>
             </div>

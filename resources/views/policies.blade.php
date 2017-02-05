@@ -21,13 +21,17 @@
                         Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.
                         </div>
                          <div class="form-group col-md-12 ">
-                        A. In the spirit of mutual respect and understanding, Eco-Nomix is committed to:
+                         <ol>
+                            <li>A. In the spirit of mutual respect and understanding, Eco-Nomix is committed to:</li>
+                            <ol>
+                                <li> I. Provide prompt, professional and courteous service and communications to all of its Members and Customers;</li>
+                                <li>  II. Provide the highest level of quality products, at fair and reasonable prices; </li>
+
+                            </ol>
+
+                         </ol>
                         </div>
                          <div class="form-group col-md-12 ">
-                        I. Provide prompt, professional and courteous service and communications to all of its
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        Members and Customers;
                         </div>
                         <div class="form-group col-md-12 ">
                         II. Provide the highest level of quality products, at fair and reasonable prices;
@@ -39,7 +43,7 @@
                         IV. Deliver orders promptly and accurately;
                         </div>
                         <div class="form-group col-md-12 ">
-                        V. Pay Referral Fees accurately and on a timely basis;
+                        V. Pay Referral Bonuses accurately and on a timely basis;
                         </div>
                         <div class="form-group col-md-12 ">
                         VI. Expedite orders if an error or unreasonable delay occurs;
@@ -49,9 +53,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         VIII. Implement changes in the Compensation Plan or Policies and Procedures that affect the
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        Member with input from the Members;
+                             Member with input from the Members;
                         </div>
                         <div class="form-group col-md-12 ">
                         IX. Support, protect and defend the integrity of the Eco-Nomix Business Opportunity;
@@ -85,9 +87,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                          VIII. Support, protect, and defend the integrity of the Eco-Nomix Business
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        Opportunity;
+                                Opportunity;
                       </div>
                         <div class="form-group col-md-12 ">
                         IX. Accurately complete and submit the Member Agreement and any requested supporting documentation in a timely manner.

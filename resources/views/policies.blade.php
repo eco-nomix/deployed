@@ -470,36 +470,41 @@
                          <li>Upon cancellation of the Agreement, the Member may return all generic sales aids purchased within one (1) year from the date of cancellation for a refund if he or she is unable to sell or use the merchandise. A Member may only return sales aids he or she personally purchased from the Company under his or her Member Identification Number, and which are in Resalable condition. Any custom orders of printed sales aids (i.e. business cards, brochures, etc.) whereon the Member’s contact information is imbedded or hard printed, or has been added by the Member, are not able to be returned in resalable condition thus are nonrefundable. Upon Eco-Nomix’s receipt of the products and sales aids, the Member will be reimbursed ninety percent (90%) of the net cost of the original purchase price(s), less shipping and handling charges. If the purchases were made through a credit card, the refund will be credited back to the same credit card account. The Company shall deduct from the reimbursement paid to the Member any commissions, bonuses, rebates or other incentives received by the Member which were associated with the merchandise that is returned.</li>
                          </ol>
                         </div>
+                        <div class="form-group col-md-12 ">
                         6.1 Return Process
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>All returns, whether by a Customer, or Member, must be made as follows:
+                                    <ol type="I">
+                                        <li>Obtain Return Merchandise Authorization (“RMA”) from Eco-Nomix;</li>
+                                        <li>Ship items to the address provided by Eco-Nomix Customer service when you are given your RMA.</li>
+                                        <li>Provide a copy of the invoice with the returned products or service. Such invoice must reference the RMA and include the reason for the return.</li>
+                                        <li>Ship back product in manufacturer’s box exactly as it was delivered.</li>
+                                    </ol></li>
+                                <li>All returns must be shipped to Eco-Nomix pre-paid, as Eco-Nomix does not accept shipping collect packages. Eco-Nomix recommends shipping returned product by UPS or FedEx with tracking and insurance as risk of loss or damage in shipping of the returned product shall be borne solely by the Customer, or Member. If returned product is not received at Eco-Nomix Distribution Center, it is the responsibility of the Customer, or Member to trace the shipment and no credit will be applied.</li>
+                                <li>The return of $500 or more of products accompanied by a request for a refund within a calendar year, by a Member, may constitute grounds for involuntary termination.</li>
+                            </ol>
 
-                        A. All returns, whether by a Customer, or Member, must be made as follows:
-
-                        I. Obtain Return Merchandise Authorization (“RMA”) from Eco-Nomix;
-
-                        II. Ship items to the address provided by Eco-Nomix Customer service when you are given your RMA.
-
-                        III. Provide a copy of the invoice with the returned products or service. Such invoice must reference the RMA and include the reason for the return.
-
-                        IV. Ship back product in manufacturer’s box exactly as it was delivered.
-
-                        B. All returns must be shipped to Eco-Nomix pre-paid, as Eco-Nomix does not accept shipping collect packages. Eco-Nomix recommends shipping returned product by UPS or FedEx with tracking and insurance as risk of loss or damage in shipping of the returned product shall be borne solely by the Customer, or Member. If returned product is not received at Eco-Nomix Distribution Center, it is the responsibility of the Customer, or Member to trace the shipment and no credit will be applied.
-
-                        C. The return of $500 or more of products accompanied by a request for a refund within a calendar year, by a Member, may constitute grounds for involuntary termination.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         7.0 PRIVACY POLICY
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         7.1 Introduction
-
-                        This Privacy Policy is to ensure that all Customers and Members understand and adhere to the basic principles of confidentiality.
-
+                        <br> <p style="margin-left: 20px">This Privacy Policy is to ensure that all Customers and Members understand and adhere to the basic principles of confidentiality.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         7.2 Expectation of Privacy
-
-                        A. Eco-Nomix recognizes and respects the importance its Customers and Members place on the privacy of their financial and personal information. Eco-Nomix will make reasonable efforts to safeguard the privacy of, and maintain the confidentiality of its Customers’, and Members’ financial and account information and nonpublic personal information.
-
-                        B. By entering into the Member Agreement, a Member authorizes Eco-Nomix to disclose his or her name and contact information to upline Members solely for activities related to the furtherance of the Eco-Nomix business. A Member hereby agrees to maintain the confidentiality and security of such information and to use it solely for the purpose of supporting and servicing his or her downline organization and conducting the Eco-Nomix business.
-
-                        C.  Eco-Nomix will not disclose any personal information to outside third parties unless required by law.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Eco-Nomix recognizes and respects the importance its Customers and Members place on the privacy of their financial and personal information. Eco-Nomix will make reasonable efforts to safeguard the privacy of, and maintain the confidentiality of its Customers’, and Members’ financial and account information and nonpublic personal information.</li>
+                                <li>By entering into the Member Agreement, a Member authorizes Eco-Nomix to disclose his or her name and contact information to upline Members solely for activities related to the furtherance of the Eco-Nomix business. A Member hereby agrees to maintain the confidentiality and security of such information and to use it solely for the purpose of supporting and servicing his or her downline organization and conducting the Eco-Nomix business.</li>
+                                <li>Eco-Nomix will not disclose any personal information to outside third parties unless required by law.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         7.3 Employee Access to Information
 
                         Eco-Nomix limits the number of employees who have access to Customer’s and Members’ nonpublic personal information.

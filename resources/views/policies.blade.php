@@ -20,7 +20,7 @@
                     	<div class="form-group col-md-12 ">
                         Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.
                         </div>
-                         <div class="form-group col-md-12 ">
+                        <div class="form-group col-md-12 ">
                          <ol type="A">
                             <li >In the spirit of mutual respect and understanding, Eco-Nomix is committed to:</li>
                             <ol type="I">
@@ -48,43 +48,37 @@
                                 <li>Accurately complete and submit the Member Agreement and any requested supporting documentation in a timely manner.</li>
                             </ol>
                          </ol>
-                          1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member Agreement
                         </div>
                         <div class="form-group col-md-12 ">
-                        A. Throughout these Policies, when the term “Agreement” is used, it collectively refers to the Eco-Nomix Agreement, these Policies and Procedures, and the Eco-Nomix Compensation Plan.
+                        1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member Agreement
                         </div>
                         <div class="form-group col-md-12 ">
-                        B. The most current version of these Policies and Procedures and the Eco-Nomix Compensation Plan are available on the Eco-Nomix website and should be read by the potential member before joining.
-                        </div>
+                         <ol type="A">
+                            <li>Throughout these Policies, when the term “Agreement” is used, it collectively refers to the Eco-Nomix Agreement, these Policies and Procedures, and the Eco-Nomix Compensation Plan.</li>
+                            <li>The most current version of these Policies and Procedures and the Eco-Nomix Compensation Plan are available on the Eco-Nomix website and should be read by the potential member before joining.</li>
+                         </ol>
                         <div class="form-group col-md-12 ">
                         1.3 Purpose of Policies
                         </div>
                         <div class="form-group col-md-12 ">
-                        A. Eco-Nomix is a direct sales company that markets products and services through a company sponsored website. Members should refer those with questions about products or the marketing plan to the Website. To clearly define the relationship that exists between Members and Eco-Nomix, and to explicitly set a standard for acceptable business conduct, Eco-Nomix has established these Policies and Procedures.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        B. Eco-Nomix Members are required to comply with; (i) all of the Terms and Conditions set forth in the Member Agreement, which Eco-Nomix may amend from time to time in its sole discretion; (ii) all Federal, State, Provincial, Territorial, and/or local laws governing his, her and/or its Eco-Nomix business; and (iii) these Policies and Procedures.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        C. Eco-Nomix Members must review the information in these Policies and Procedures carefully. Should a Member have any questions regarding a policy or rule, the Member is encouraged to seek an answer from their Sponsor or any other upline Member. If further clarification is needed the Member may contact Eco-Nomix Customer Service.
+                          <ol type="A">
+                            <li>Eco-Nomix is a direct sales company that markets products and services through a company sponsored website. Members should refer those with questions about products or the marketing plan to the Website. To clearly define the relationship that exists between Members and Eco-Nomix, and to explicitly set a standard for acceptable business conduct, Eco-Nomix has established these Policies and Procedures.</li>
+                            <li>Eco-Nomix Members are required to comply with; (i) all of the Terms and Conditions set forth in the Member Agreement, which Eco-Nomix may amend from time to time in its sole discretion; (ii) all Federal, State, Provincial, Territorial, and/or local laws governing his, her and/or its Eco-Nomix business; and (iii) these Policies and Procedures.</li>
+                            <li>Eco-Nomix Members must review the information in these Policies and Procedures carefully. Should a Member have any questions regarding a policy or rule, the Member is encouraged to seek an answer from their Sponsor or any other upline Member. If further clarification is needed the Member may contact Eco-Nomix Customer Service.</li>
+                          </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         1.4 Changes, Amendments, and Modifications
                         </div>
                         <div class="form-group col-md-12 ">
-                        A. Because Federal, State, and local laws, as well as the business environment, periodically change, Eco-Nomix reserves the right to amend the Agreement and the prices in its Eco-Nomix Product Price List in its sole and absolute discretion. Notification of amendments shall appear in Official Eco-Nomix Materials. This provision does NOT apply to the arbitration clause found in Section 13, which can only be modified via mutual consent.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        B. Any such amendment, change, or modification shall be effective immediately upon notice by one of the following methods:
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        I. Posting on the official Eco-Nomix website;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        II. Electronic mail (e-mail); or
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        III. In writing through the Eco-Nomix newsletters or other Eco-Nomix communication channels.
+                         <ol type="A">
+                            <li>Because Federal, State, and local laws, as well as the business environment, periodically change, Eco-Nomix reserves the right to amend the Agreement and the prices in its Eco-Nomix Product Price List in its sole and absolute discretion. Notification of amendments shall appear in Official Eco-Nomix Materials. This provision does NOT apply to the arbitration clause found in Section 13, which can only be modified via mutual consent.</li>
+                            <li>Any such amendment, change, or modification shall be effective immediately upon notice by one of the following methods:</li>
+                            <ol type="I">
+                                <li>Posting on the official Eco-Nomix website;</li>
+                                <li>Electronic mail (e-mail); or</li>
+                                <li>In writing through the Eco-Nomix newsletters or other Eco-Nomix communication channels.</li>
+                         </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         1.5 Delays

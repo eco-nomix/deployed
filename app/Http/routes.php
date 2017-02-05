@@ -134,6 +134,7 @@ Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans']);
 Route::get('/productsSum',['as' => 'products','uses'=>'PagesController@productsSum']);
 Route::get('/discount',['as' => 'discount','uses'=>'PagesController@discount']);
 Route::get('/referral',['as' => 'referral','uses'=>'PagesController@referral']);
+Route::get('/returns',['as' => 'returns','uses'=>'PagesController@returns']);
 Route::get('/donations',['as' => 'donations','uses'=>'PagesController@donations']);
 Route::get('/contact',['as' => 'contact','uses'=>'PagesController@contact']);
 Route::get('/water',['as' => 'water','uses'=>'PagesController@water']);

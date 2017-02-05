@@ -630,6 +630,15 @@ class PagesController extends Controller
 
         return view('referral',$data);
     }
+
+    public function returns(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Economix Return Policy';
+        $data['description'] = 'Economix Return Policy';
+
+        return view('returns',$data);
+    }
     public function requirements(Request $request)
     {
         $data = $this->userData($request);

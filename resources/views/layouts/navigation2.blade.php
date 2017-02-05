@@ -98,6 +98,13 @@
                     </ul>
                 </li>
                 <li>
+                    Policies and Procedures
+                    <ul>
+                        <li><a href="/autoship">Auto-Ship Policy</a></li>
+                         <li><a href="/returns">Return Policy</a></li>
+                    </ul>
+                </li>
+                <li>
                     <a href="/intro">Introduction</a>
                 </li>
             </ul>

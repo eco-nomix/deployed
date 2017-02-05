@@ -18,7 +18,7 @@
                     	1.1 Mutual Commitment Statement
                     	</div>
                     	<div class="form-group col-md-12 ">
-                        Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.
+                        <p>Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.</p>
                         </div>
                         <div class="form-group col-md-12 ">
                          <ol type="A">
@@ -172,7 +172,7 @@
                                 <li>The Eco-Nomix Member is fully responsible for all of his or her verbal and written communications made regarding Eco-Nomix products, services, and the Compensation Plan that are not expressly contained within official Eco-Nomix materials. Members shall indemnify and hold harmless Eco-Nomix, its directors, officers, employees, product suppliers and agents from any and against all liability including judgments, civil penalties, refunds, attorney fees and court costs incurred by Eco-Nomix as a result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the Eco-Nomix Member Agreement.</li>
                             </ol>
                         </div>
-                       
+
                         2.8 Insurance – Business Pursuits Coverage
 
                         Eco-Nomix encourages Members to arrange insurance coverage for their business. A homeowner’s insurance policy does not cover business related injuries, or the theft of, or damage to, inventory or business equipment. Eco-Nomix Members need to contact their insurance agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit” endorsement to an existing homeowner’s policy.

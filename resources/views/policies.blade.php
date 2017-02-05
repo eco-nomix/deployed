@@ -15,85 +15,40 @@
                         <div class="form-group col-md-12 ">
                          </div>
                         <div class="form-group col-md-12 ">
-                    	  1.1 Mutual Commitment Statement
-                    	  </div>
-                    	   <div class="form-group col-md-12 ">
+                    	1.1 Mutual Commitment Statement
+                    	</div>
+                    	<div class="form-group col-md-12 ">
                         Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.
                         </div>
                          <div class="form-group col-md-12 ">
                          <ol type="A">
-                            <li >A. In the spirit of mutual respect and understanding, Eco-Nomix is committed to:</li>
+                            <li >In the spirit of mutual respect and understanding, Eco-Nomix is committed to:</li>
                             <ol type="I">
-                                <li > I. Provide prompt, professional and courteous service and communications to all of its Members and Customers;</li>
-                                <li>  II. Provide the highest level of quality products, at fair and reasonable prices; </li>
-
+                                <li >Provide prompt, professional and courteous service and communications to all of its Members and Customers.</li>
+                                <li>Provide the highest level of quality products, at fair and reasonable prices. </li>
+                                <li>Exchange or refund the purchase price of any product, service or membership as provided in our Return Policy.</li>
+                                <li>Deliver orders promptly and accurately.</li>
+                                <li>Pay Referral Bonuses accurately and on a timely basis.</li>
+                                <li>Expedite orders if an error or unreasonable delay occurs.</li>
+                                <li>Roll out new products and programs with Member input and planning.</li>
+                                <li>Implement changes in the Compensation Plan or Policies and Procedures that affect the Member with input from the Members</li>
+                                <li>Support, protect and defend the integrity of the Eco-Nomix Business Opportunity</li>
+                                <li>Offer Members an opportunity to grow with Eco-Nomix with such growth guided by the principles of Servant Leadership.</li>
                             </ol>
-
+                            <li>In return, Eco-Nomix expects that its Members will:</li>
+                            <ol type="I">
+                                <li>Conduct themselves in a professional, honest, and considerate manner.</li>
+                                <li>Present Eco-Nomix Corporate and product information in an accurate and professional manner.</li>
+                                <li>Present the Compensation Plan and Return Policy in a complete and accurate manner.</li>
+                                <li>Not make exaggerated income claims.</li>
+                                <li>Make reasonable effort(s) to support and train Members and Customers in their downline.</li>
+                                <li>Not engage in cross-line recruiting, unhealthy competition or unethical business practices.</li>
+                                <li>Provide positive guidance and training to Members and Customers in their downline while exercising caution to avoid interference with other downlines. As such, a Member is discouraged from providing cross-line training to a Member or Customer in a different organization without first obtaining consent of the Member’s or Customer’s upline sponsor.</li>
+                                <li>Support, protect, and defend the integrity of the Eco-Nomix Business Opportunity</li>
+                                <li>Accurately complete and submit the Member Agreement and any requested supporting documentation in a timely manner.</li>
+                            </ol>
                          </ol>
-                        </div>
-                         <div class="form-group col-md-12 ">
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        II. Provide the highest level of quality products, at fair and reasonable prices;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        III. Exchange or refund the purchase price of any product, service or membership as provided in our Return Policy.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        IV. Deliver orders promptly and accurately;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        V. Pay Referral Bonuses accurately and on a timely basis;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        VI. Expedite orders if an error or unreasonable delay occurs;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        VII. Roll out new products and programs with Member input and planning;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        VIII. Implement changes in the Compensation Plan or Policies and Procedures that affect the
-                             Member with input from the Members;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        IX. Support, protect and defend the integrity of the Eco-Nomix Business Opportunity;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        X. Offer Members an opportunity to grow with Eco-Nomix with such growth guided by the principles of Servant Leadership.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        B. In return, Eco-Nomix expects that its Members will:
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        I. Conduct themselves in a professional, honest, and considerate manner;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        II. Present Eco-Nomix Corporate and product information in an accurate and professional manner;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        III. Present the Compensation Plan and Return Policy in a complete and accurate manner;
-                       </div>
-                        <div class="form-group col-md-12 ">
-                        IV. Not make exaggerated income claims;
-                       </div>
-                        <div class="form-group col-md-12 ">
-                        V. Make reasonable effort(s) to support and train Members and Customers in their downline;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        VI. Not engage in cross-line recruiting, unhealthy competition or unethical business practices;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        VII. Provide positive guidance and training to Members and Customers in their downline while exercising caution to avoid interference with other downlines. As such, a Member is discouraged from providing cross-line training to a Member or Customer in a different organization without first obtaining consent of the Member’s or Customer’s upline sponsor;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                         VIII. Support, protect, and defend the integrity of the Eco-Nomix Business
-                                Opportunity;
-                      </div>
-                        <div class="form-group col-md-12 ">
-                        IX. Accurately complete and submit the Member Agreement and any requested supporting documentation in a timely manner.
-                        </div>
-                         <div class="form-group col-md-12 ">
-                        1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member Agreement
+                          1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member Agreement
                         </div>
                         <div class="form-group col-md-12 ">
                         A. Throughout these Policies, when the term “Agreement” is used, it collectively refers to the Eco-Nomix Agreement, these Policies and Procedures, and the Eco-Nomix Compensation Plan.

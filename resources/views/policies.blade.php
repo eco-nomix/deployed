@@ -274,34 +274,38 @@
                         </div>
 
                         <div class="form-group col-md-12 ">
-
                         3.6 Cross Sponsoring Prohibition
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>“Cross sponsoring” is defined as the enrollment into a different line of sponsorship of an individual, or Business Entity, that already has a signed Member Agreement. Actual or attempted cross sponsoring is not allowed. If cross sponsoring is verified by Eco-Nomix, sanctions up to and including termination of a Member’s position may be imposed.</li>
+                                <li>The use of a Spouse’s or relative’s name, trade names, assumed names, DBA names, corporation, partnership, trust, Federal ID numbers, or fictitious ID numbers to evade or circumvent this Policy is not permitted.</li>
+                                <li>This Policy does not prohibit the transfer of an Eco-Nomix business in accordance with Eco-Nomix Sale or Transfer Policy set forth in these Policies.</li>
 
-                        A. “Cross sponsoring” is defined as the enrollment into a different line of sponsorship of an individual, or Business Entity, that already has a signed Member Agreement. Actual or attempted cross sponsoring is not allowed. If cross sponsoring is verified by Eco-Nomix, sanctions up to and including termination of a Member’s position may be imposed.
-
-                        B. The use of a Spouse’s or relative’s name, trade names, assumed names, DBA names, corporation, partnership, trust, Federal ID numbers, or fictitious ID numbers to evade or circumvent this Policy is not permitted.
-
-                        C. This Policy does not prohibit the transfer of an Eco-Nomix business in accordance with Eco-Nomix Sale or Transfer Policy set forth in these Policies.
-
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         3.7 Adherence to the Eco-Nomix Compensation Plan
-
-                        A. A Member must adhere to the Terms of the Eco-Nomix Compensation Plan as set forth in these Policies and Procedures as well as in official Eco-Nomix literature. Deviation from the Compensation Plan is prohibited.
-
-                        B. A Member shall not offer the Eco-Nomix opportunity through, or in combination with, any other system, program, or method of marketing other than that specifically set forth in official Eco-Nomix literature.
-
-                        C. A Member shall not require or encourage a current or prospective Customer or Memberr to participate in Eco-Nomix in any manner that varies from the Compensation Plan as set forth in official Eco-Nomix literature.
-
-
-                        D. A Member shall not require or encourage a current or prospective Customer or Member to make a purchase from or payment to any individual or other entity as a condition to participating in the Eco-Nomix Compensation Plan, other than such purchases or payments required to naturally build their business.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A Member must adhere to the Terms of the Eco-Nomix Compensation Plan as set forth in these Policies and Procedures as well as in official Eco-Nomix literature. Deviation from the Compensation Plan is prohibited.</li>
+                                <li>A Member shall not offer the Eco-Nomix opportunity through, or in combination with, any other system, program, or method of marketing other than that specifically set forth in official Eco-Nomix literature.</li>
+                                <li>A Member shall not require or encourage a current or prospective Customer or Memberr to participate in Eco-Nomix in any manner that varies from the Compensation Plan as set forth in official Eco-Nomix literature.</li>
+                                <li>A Member shall not require or encourage a current or prospective Customer or Member to make a purchase from or payment to any individual or other entity as a condition to participating in the Eco-Nomix Compensation Plan, other than such purchases or payments required to naturally build their business.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         3.8 Adherence to Laws and Ordinances
-
-                        A. Many cities and counties have laws regulating certain home-based businesses. In most cases, these ordinances do not apply to Members because of the nature of the business.
-
-                        However, Members must check their local laws and obey the laws that do apply to them.
-
-                        B. An Eco-Nomix Member shall comply with all Federal, State, Provincial and local laws and regulations in their conduct of his or her Eco-Nomix business.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                    <li>Many cities and counties have laws regulating certain home-based businesses. In most cases, these ordinances do not apply to Members because of the nature of the business.
+                                        <br><br>However, Members must check their local laws and obey the laws that do apply to them.</li>
+                                    <li>An Eco-Nomix Member shall comply with all Federal, State, Provincial and local laws and regulations in their conduct of his or her Eco-Nomix business.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         3.9 Compliance with Applicable Income Tax Laws
 
                         A. Eco-Nomix will automatically provide a complete 1099 Miscellaneous Income Tax form (nonemployee compensation) to each US Member whose earnings for the year is at least $600, or who received trips, prizes or awards valued at $600 or more. If earnings and purchases are less than stated above, IRS forms will be sent only at the request of the Member, and a minimum charge of $20 may be assessed by Eco-Nomix. Canadian T-4’s will be sent to Members who earn more than $500 or who received trips, prizes, or awards valued at $500 or more. Eco-Nomix Members are responsible for the payment of taxes on these trips, prizes, or awards provided to them by Eco-Nomix. Eco-Nomix member who reside outside of the US or Canada will be subject to reporting as required for that country.

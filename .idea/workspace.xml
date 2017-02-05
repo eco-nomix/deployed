@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/returns.blade.php" afterPath="$PROJECT_DIR$/resources/views/returns.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5746864" vertical-offset="3542" max-vertical-offset="7174">
-              <caret line="119" column="79" selection-start-line="119" selection-start-column="79" selection-end-line="119" selection-end-column="79" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="3542" max-vertical-offset="7174">
+              <caret line="108" column="81" selection-start-line="108" selection-start-column="81" selection-end-line="108" selection-end-column="81" />
               <folding>
                 <element signature="e#7#385#0#PHP" expanded="true" />
               </folding>
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="returns.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="returns.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1734">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6777409" vertical-offset="136" max-vertical-offset="2074">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -107,8 +107,8 @@
       <file leaf-file-name="policies.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.538462" vertical-offset="1094" max-vertical-offset="34850">
-              <caret line="41" column="83" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="83" />
+            <state vertical-scroll-proportion="-18.307692" vertical-offset="15538" max-vertical-offset="34850">
+              <caret line="471" column="30" selection-start-line="461" selection-start-column="23" selection-end-line="471" selection-end-column="30" />
               <folding>
                 <element signature="e#792#817#0#HTML" expanded="true" />
                 <element signature="e#4513#4538#0#HTML" expanded="true" />
@@ -233,13 +233,13 @@
         <option value="$PROJECT_DIR$/resources/views/introduction.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/economically.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/productsSum.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/returns.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/policies.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/mem_agreement.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/memberterms.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/returns.blade.php" />
       </list>
     </option>
   </component>
@@ -1106,64 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1734">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.538462" vertical-offset="1094" max-vertical-offset="34850">
-          <caret line="41" column="83" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="83" />
-          <folding>
-            <element signature="e#792#817#0#HTML" expanded="true" />
-            <element signature="e#4513#4538#0#HTML" expanded="true" />
-            <element signature="e#8173#8198#0#HTML" expanded="true" />
-            <element signature="e#8820#8845#0#HTML" expanded="true" />
-            <element signature="e#9540#9565#0#HTML" expanded="true" />
-            <element signature="e#12029#12054#0#HTML" expanded="true" />
-            <element signature="e#18622#18647#0#HTML" expanded="true" />
-            <element signature="e#19353#19378#0#HTML" expanded="true" />
-            <element signature="e#36766#36791#0#HTML" expanded="true" />
-            <element signature="e#37708#37733#0#HTML" expanded="true" />
-            <element signature="e#42049#42074#0#HTML" expanded="true" />
-            <element signature="e#51965#51990#0#HTML" expanded="true" />
-            <element signature="e#59664#59689#0#HTML" expanded="true" />
-            <element signature="e#61328#61353#0#HTML" expanded="true" />
-            <element signature="e#61844#61869#0#HTML" expanded="true" />
-            <element signature="e#62511#62536#0#HTML" expanded="true" />
-            <element signature="e#63466#63491#0#HTML" expanded="true" />
-            <element signature="e#64205#64230#0#HTML" expanded="true" />
-            <element signature="e#83521#83546#0#HTML" expanded="true" />
-            <element signature="e#86322#86347#0#HTML" expanded="true" />
-            <element signature="e#90123#90148#0#HTML" expanded="true" />
-            <element signature="e#113831#113856#0#HTML" expanded="true" />
-            <element signature="e#114948#114973#0#HTML" expanded="true" />
-            <element signature="e#115618#115643#0#HTML" expanded="true" />
-            <element signature="e#124386#124411#0#HTML" expanded="true" />
-            <element signature="e#125818#125843#0#HTML" expanded="true" />
-            <element signature="e#126140#126165#0#HTML" expanded="true" />
-            <element signature="e#126532#126557#0#HTML" expanded="true" />
-            <element signature="e#126693#126718#0#HTML" expanded="true" />
-            <element signature="e#127061#127086#0#HTML" expanded="true" />
-            <element signature="e#127242#127267#0#HTML" expanded="true" />
-            <element signature="e#127425#127450#0#HTML" expanded="true" />
-            <element signature="e#127602#127627#0#HTML" expanded="true" />
-            <element signature="e#127769#127794#0#HTML" expanded="true" />
-            <element signature="e#128125#128150#0#HTML" expanded="true" />
-            <element signature="e#128325#128350#0#HTML" expanded="true" />
-            <element signature="e#128535#128560#0#HTML" expanded="true" />
-            <element signature="e#128654#128679#0#HTML" expanded="true" />
-            <element signature="e#129106#129131#0#HTML" expanded="true" />
-            <element signature="e#129695#129720#0#HTML" expanded="true" />
-            <element signature="e#129982#130007#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/membercost.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1768">
@@ -1211,11 +1153,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5746864" vertical-offset="3542" max-vertical-offset="7174">
-          <caret line="119" column="79" selection-start-line="119" selection-start-column="79" selection-end-line="119" selection-end-column="79" />
+        <state vertical-scroll-proportion="-5.0" vertical-offset="3542" max-vertical-offset="7174">
+          <caret line="108" column="81" selection-start-line="108" selection-start-column="81" selection-end-line="108" selection-end-column="81" />
           <folding>
             <element signature="e#7#385#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="15538" max-vertical-offset="34850">
+          <caret line="471" column="30" selection-start-line="461" selection-start-column="23" selection-end-line="471" selection-end-column="30" />
+          <folding>
+            <element signature="e#792#817#0#HTML" expanded="true" />
+            <element signature="e#4513#4538#0#HTML" expanded="true" />
+            <element signature="e#8173#8198#0#HTML" expanded="true" />
+            <element signature="e#8820#8845#0#HTML" expanded="true" />
+            <element signature="e#9540#9565#0#HTML" expanded="true" />
+            <element signature="e#12029#12054#0#HTML" expanded="true" />
+            <element signature="e#18622#18647#0#HTML" expanded="true" />
+            <element signature="e#19353#19378#0#HTML" expanded="true" />
+            <element signature="e#36766#36791#0#HTML" expanded="true" />
+            <element signature="e#37708#37733#0#HTML" expanded="true" />
+            <element signature="e#42049#42074#0#HTML" expanded="true" />
+            <element signature="e#51965#51990#0#HTML" expanded="true" />
+            <element signature="e#59664#59689#0#HTML" expanded="true" />
+            <element signature="e#61328#61353#0#HTML" expanded="true" />
+            <element signature="e#61844#61869#0#HTML" expanded="true" />
+            <element signature="e#62511#62536#0#HTML" expanded="true" />
+            <element signature="e#63466#63491#0#HTML" expanded="true" />
+            <element signature="e#64205#64230#0#HTML" expanded="true" />
+            <element signature="e#83521#83546#0#HTML" expanded="true" />
+            <element signature="e#86322#86347#0#HTML" expanded="true" />
+            <element signature="e#90123#90148#0#HTML" expanded="true" />
+            <element signature="e#113831#113856#0#HTML" expanded="true" />
+            <element signature="e#114948#114973#0#HTML" expanded="true" />
+            <element signature="e#115618#115643#0#HTML" expanded="true" />
+            <element signature="e#124386#124411#0#HTML" expanded="true" />
+            <element signature="e#125818#125843#0#HTML" expanded="true" />
+            <element signature="e#126140#126165#0#HTML" expanded="true" />
+            <element signature="e#126532#126557#0#HTML" expanded="true" />
+            <element signature="e#126693#126718#0#HTML" expanded="true" />
+            <element signature="e#127061#127086#0#HTML" expanded="true" />
+            <element signature="e#127242#127267#0#HTML" expanded="true" />
+            <element signature="e#127425#127450#0#HTML" expanded="true" />
+            <element signature="e#127602#127627#0#HTML" expanded="true" />
+            <element signature="e#127769#127794#0#HTML" expanded="true" />
+            <element signature="e#128125#128150#0#HTML" expanded="true" />
+            <element signature="e#128325#128350#0#HTML" expanded="true" />
+            <element signature="e#128535#128560#0#HTML" expanded="true" />
+            <element signature="e#128654#128679#0#HTML" expanded="true" />
+            <element signature="e#129106#129131#0#HTML" expanded="true" />
+            <element signature="e#129695#129720#0#HTML" expanded="true" />
+            <element signature="e#129982#130007#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6777409" vertical-offset="136" max-vertical-offset="2074">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>

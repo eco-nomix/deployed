@@ -98,7 +98,7 @@
                     </ul>
                 </li>
                 <li>
-                    Policies and Procedures
+                    <a href="/policies">Policies and Procedures<span class="caret"></span></a>
                     <ul>
                         <li><a href="/autoship">Auto-Ship Policy</a></li>
                          <li><a href="/returns">Return Policy</a></li>

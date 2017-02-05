@@ -608,48 +608,36 @@
                             </ol>
 
                         </div>
-
-                      
+                        <div class="form-group col-md-12 ">
                         9.4 Internet and Third-Party Website Restrictions
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A Member may not use or attempt to register any of Eco-Nomix’s trade names, trademarks, service names, service marks, product names, URLs, advertising phrases, the Company’s name or any derivative thereof, for any purpose including, but not limited to, Internet domain names (URL), third party websites, e-mail addresses, web pages, or blogs.</li>
+                                <li>An Eco-Nomix Member may not sell Eco-Nomix products, services or offer the Business Opportunity using “online auctions,” such as eBay®.</li>
+                                <li>All marketing materials used on a Member’s third-party website must be provided by Eco-Nomix or approved in writing by Eco-Nomix.</li>
+                                <li>To avoid confusion, the following three elements must also be prominently displayed at the top of every page of your third-party website:
+                                    <ol type="I">
+                                        <li>The Eco-Nomix Member Logo</li>
+                                        <li>Your Name and Title</li>
+                                        <li>Eco-Nomix Corporate Website Redirect Button</li>
+                                    </ol></li>
+                                <li>A Member may not use third-party sites that contain materials copied from corporate sources (such as Eco-Nomix brochures, CDs, videos, tapes, events, presentations, and corporate websites). This Policy ensures brand consistency, allows Customers and Members to stay up-to-date with changing products, services and information, facilitates enrollment under the correct Sponsor, and assists in compliance with government regulations.</li>
+                                <li>Eco-Nomix products may be displayed with other products or services on a Member’s third-party website so long as the other products and services are consistent with Eco-Nomix values and are not marketed or sold by a competing network-marketing company.</li>
+                                <li>Social Media sites may not be used to sell or offer to sell Eco-Nomix products or services. PROFILES A Member GENERATES IN ANY SOCIAL COMMUNITY WHERE Eco-Nomix IS DISCUSSED OR MENTIONED MUST CLEARLY IDENTIFY THE Member AS An Eco-Nomix Member, and when a Member participates in those communities, Members must avoid inappropriate conversations, comments, images, video, audio, applications or any other adult, profane, discriminatory or vulgar content. The determination of what is inappropriate is at Eco-Nomix’s sole discretion, and offending Members will be subject to disciplinary action. Banner ads and images used on these sites must be current and must come from the Eco-Nomix approved library. If a link is provided, it must link to the posting Member’s Replicated website or an approved third-party website.</li>
+                                <li>Anonymous postings or use of an alias on any Social Media site is prohibited, and offending Members will be subject to disciplinary action.</li>
+                                <li>Members may not use blog spam, spamdexing or any other mass-replicated methods to leave blog comments. Comments Members create or leave must be useful, unique, relevant and specific to the blog’s article.</li>
+                                <li>Members must disclose their full name on all Social Media postings, and conspicuously identify themselves as an independent Member for Eco-Nomix. Anonymous postings or use of an alias is prohibited.</li>
+                                <li>Postings that are false, misleading, or deceptive are prohibited. This includes, but is not limited to, false or deceptive postings relating to the Eco-Nomix income opportunity, Eco-Nomix’s products and services, and/or your biographical information and credentials.</li>
+                                <li>Members are personally responsible for their postings and all other online activity that relates to Eco-Nomix. Therefore, even if a Member does not own or operate a blog or Social Media site, if a Member posts to any such site that relates to Eco-Nomix or which can be traced to Eco-Nomix, the Member is responsible for the posting. Members are also responsible for postings which occur on any blog or Social Media site that the Member owns, operates, or controls.</li>
+                                <li>As an Eco-Nomix Member, it is important to not converse with any person who places a negative post against you, other Members, or Eco-Nomix. Report negative posts to Eco-Nomix at customerservice@Eco-Nomix.org. Responding to such negative posts often simply fuels a discussion with someone carrying a grudge that does not hold themselves to the same high standards as Eco-Nomix, and therefore damages the reputation and goodwill of Eco-Nomix.</li>
+                                <li>The distinction between a Social Media site and a website may not be clear-cut, because some Social Media sites are particularly robust, Eco-Nomix herefore reserves the sole and exclusive right to classify certain Social Media sites as third-party websites and require that Members using, or who wish to use, such sites adhere to the Eco-Nomix’s policies relating to third-party websites.</li>
+                                <li>If your Eco-Nomix business is cancelled for any reason, you must discontinue using the Eco-Nomix name, and all of Eco-Nomix’s trademarks, trade names, service marks, and other intellectual property, and all derivatives of such marks and intellectual property, in any postings and all Social Media sites that you utilize. If you post on any Social Media site on which you have previously identified yourself as an independent Eco-Nomix Member, you must conspicuously disclose that you are no longer an independent Eco-Nomix Member.</li>
+                                <li>Failure to comply with these Policies for conducting business online may result in the Member losing their right to advertise and market Eco-Nomix products, services and Eco-Nomix’s business opportunity online in addition to any other disciplinary action available under the Policies and Procedures.</li>
+                            </ol>
+                        </div>
 
-                        A. A Member may not use or attempt to register any of Eco-Nomix’s trade names, trademarks, service names, service marks, product names, URLs, advertising phrases, the Company’s name or any derivative thereof, for any purpose including, but not limited to, Internet domain names (URL), third party websites, e-mail addresses, web pages, or blogs.
-
-                        B. An Eco-Nomix Member may not sell Eco-Nomix products, services or offer the Business Opportunity using “online auctions,” such as eBay®.
-
-                        C. All marketing materials used on a Member’s third-party website must be provided by Eco-Nomix or approved in writing by Eco-Nomix.
-
-                        D. To avoid confusion, the following three elements must also be prominently displayed at the top of every page of your third-party website:
-
-                        1. The Eco-Nomix Member Logo
-
-                        2. Your Name and Title
-
-                        3. Eco-Nomix Corporate Website Redirect Button
-
-                        E. A Member may not use third-party sites that contain materials copied from corporate sources (such as Eco-Nomix brochures, CDs, videos, tapes, events, presentations, and corporate websites). This Policy ensures brand consistency, allows Customers and Members to stay up-to-date with changing products, services and information, facilitates enrollment under the correct Sponsor, and assists in compliance with government regulations.
-
-                        F. Eco-Nomix products may be displayed with other products or services on a Member’s third-party website so long as the other products and services are consistent with Eco-Nomix values and are not marketed or sold by a competing network-marketing company.
-
-                        G. Social Media sites may not be used to sell or offer to sell Eco-Nomix products or services. PROFILES A Member GENERATES IN ANY SOCIAL COMMUNITY WHERE Eco-Nomix IS DISCUSSED OR MENTIONED MUST CLEARLY IDENTIFY THE Member AS An Eco-Nomix Member, and when a Member participates in those communities, Members must avoid inappropriate conversations, comments, images, video, audio, applications or any other adult, profane, discriminatory or vulgar content. The determination of what is inappropriate is at Eco-Nomix’s sole discretion, and offending Members will be subject to disciplinary action. Banner ads and images used on these sites must be current and must come from the Eco-Nomix approved library. If a link is provided, it must link to the posting Member’s Replicated website or an approved third-party website.
-
-                        H. Anonymous postings or use of an alias on any Social Media site is prohibited, and offending Members will be subject to disciplinary action.
-
-                        I. Members may not use blog spam, spamdexing or any other mass-replicated methods to leave blog comments. Comments Members create or leave must be useful, unique, relevant and specific to the blog’s article.
-
-                        J. Members must disclose their full name on all Social Media postings, and conspicuously identify themselves as an independent Member for Eco-Nomix. Anonymous postings or use of an alias is prohibited.
-
-                        K. Postings that are false, misleading, or deceptive are prohibited. This includes, but is not limited to, false or deceptive postings relating to the Eco-Nomix income opportunity, Eco-Nomix’s products and services, and/or your biographical information and credentials.
-
-                        L. Members are personally responsible for their postings and all other online activity that relates to Eco-Nomix. Therefore, even if a Member does not own or operate a blog or Social Media site, if a Member posts to any such site that relates to Eco-Nomix or which can be traced to Eco-Nomix, the Member is responsible for the posting. Members are also responsible for postings which occur on any blog or Social Media site that the Member owns, operates, or controls.
-
-                        M. As an Eco-Nomix Member, it is important to not converse with any person who places a negative post against you, other Members, or Eco-Nomix. Report negative posts to Eco-Nomix at customerservice@Eco-Nomix.org. Responding to such negative posts often simply fuels a discussion with someone carrying a grudge that does not hold themselves to the same high standards as Eco-Nomix, and therefore damages the reputation and goodwill of Eco-Nomix.
-
-                        N. The distinction between a Social Media site and a website may not be clear-cut, because some Social Media sites are particularly robust, Eco-Nomix herefore reserves the sole and exclusive right to classify certain Social Media sites as third-party websites and require that Members using, or who wish to use, such sites adhere to the Eco-Nomix’s policies relating to third-party websites.
-
-                        O. If your Eco-Nomix business is cancelled for any reason, you must discontinue using the Eco-Nomix name, and all of Eco-Nomix’s trademarks, trade names, service marks, and other intellectual property, and all derivatives of such marks and intellectual property, in any postings and all Social Media sites that you utilize. If you post on any Social Media site on which you have previously identified yourself as an independent Eco-Nomix Member, you must conspicuously disclose that you are no longer an independent Eco-Nomix Member.
-
-                        P. Failure to comply with these Policies for conducting business online may result in the Member losing their right to advertise and market Eco-Nomix products, services and Eco-Nomix’s business opportunity online in addition to any other disciplinary action available under the Policies and Procedures.
-
+                 
                         9.5 Advertising and Promotional Materials
 
                         A. You may not advertise any Eco-Nomix products or services at a price LESS than the highest company published, established retail price of ONE offering of the Eco-Nomix product or service plus shipping, handling and applicable taxes. No special enticement advertising is allowed. This includes, but is not limited to, offers of free membership, free shipping, or other such offers that grant advantages beyond those available through the Company.

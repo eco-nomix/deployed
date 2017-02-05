@@ -126,15 +126,11 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         Eco-Nomix hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained in the Member Agreement and these Policies and Procedures, to:
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        I. Purchase Eco-Nomix products and services;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        II. Promote and sell their own products and services through the Eco-Nomix website; and
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        III. Sponsor new Members and Customers in the United States and in countries where Eco-Nomix may become established after the effective date of these Policies and Procedures.
+                            <ol type="A">
+                                <li>Purchase Eco-Nomix products and services</li>
+                                <li>Promote and sell their own products and services through the Eco-Nomix website; and</li>
+                                <li>Sponsor new Members and Customers in the United States and in countries where Eco-Nomix may become established after the effective date of these Policies and Procedures.</li>
+                            </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.4 Identification Numbers

@@ -75,8 +75,8 @@
       <file leaf-file-name="policies.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5226782" vertical-offset="12028" max-vertical-offset="35258">
-              <caret line="368" column="40" selection-start-line="368" selection-start-column="40" selection-end-line="368" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.19222462" vertical-offset="10974" max-vertical-offset="35258">
+              <caret line="328" column="895" selection-start-line="328" selection-start-column="895" selection-end-line="328" selection-end-column="895" />
               <folding>
                 <element signature="e#792#817#0#HTML" expanded="true" />
                 <element signature="e#8135#8160#0#HTML" expanded="true" />
@@ -86,7 +86,8 @@
                 <element signature="e#18584#18609#0#HTML" expanded="true" />
                 <element signature="e#19315#19340#0#HTML" expanded="true" />
                 <element signature="e#36728#36753#0#HTML" expanded="true" />
-                <element signature="e#41976#42001#0#HTML" expanded="true" />
+                <element signature="e#37670#37695#0#HTML" expanded="true" />
+                <element signature="e#42011#42036#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1133,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5226782" vertical-offset="12028" max-vertical-offset="35258">
-          <caret line="368" column="40" selection-start-line="368" selection-start-column="40" selection-end-line="368" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.19222462" vertical-offset="10974" max-vertical-offset="35258">
+          <caret line="328" column="895" selection-start-line="328" selection-start-column="895" selection-end-line="328" selection-end-column="895" />
           <folding>
             <element signature="e#792#817#0#HTML" expanded="true" />
             <element signature="e#8135#8160#0#HTML" expanded="true" />
@@ -1144,7 +1145,8 @@
             <element signature="e#18584#18609#0#HTML" expanded="true" />
             <element signature="e#19315#19340#0#HTML" expanded="true" />
             <element signature="e#36728#36753#0#HTML" expanded="true" />
-            <element signature="e#41976#42001#0#HTML" expanded="true" />
+            <element signature="e#37670#37695#0#HTML" expanded="true" />
+            <element signature="e#42011#42036#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -86,6 +86,8 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         Eco-Nomix shall not be responsible for delays or failures in performance of its obligations when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes, labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply, or government decrees or orders.
+                         </div>
+                        <div class="form-group col-md-12 ">
                         1.6 Effective Date
                         </div>
                         <div class="form-group col-md-12 ">

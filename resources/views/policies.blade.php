@@ -172,104 +172,107 @@
                                 <li>The Eco-Nomix Member is fully responsible for all of his or her verbal and written communications made regarding Eco-Nomix products, services, and the Compensation Plan that are not expressly contained within official Eco-Nomix materials. Members shall indemnify and hold harmless Eco-Nomix, its directors, officers, employees, product suppliers and agents from any and against all liability including judgments, civil penalties, refunds, attorney fees and court costs incurred by Eco-Nomix as a result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the Eco-Nomix Member Agreement.</li>
                             </ol>
                         </div>
-
+                        <div class="form-group col-md-12 ">
                         2.8 Insurance – Business Pursuits Coverage
-
-                        Eco-Nomix encourages Members to arrange insurance coverage for their business. A homeowner’s insurance policy does not cover business related injuries, or the theft of, or damage to, inventory or business equipment. Eco-Nomix Members need to contact their insurance agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit” endorsement to an existing homeowner’s policy.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px">Eco-Nomix encourages Members to arrange insurance coverage for their business. A homeowner’s insurance policy does not cover business related injuries, or the theft of, or damage to, inventory or business equipment. Eco-Nomix Members need to contact their insurance agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit” endorsement to an existing homeowner’s policy.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.9 Errors or Questions
-
-                        If a Member has questions about, or believes any errors have been made regarding Referral Fees, business reports, orders, or charges, the Member must notify Eco-Nomix in writing within 30 days of the date of the error or incident in question. Any such errors, omissions or problems not reported within 30 days shall be deemed waived by the Member.
-
-                        3.0
-
-                        Eco-Nomix’S Member RESPONSIBILITIES
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px">If a Member has questions about, or believes any errors have been made regarding Referral Fees, business reports, orders, or charges, the Member must notify Eco-Nomix in writing within 30 days of the date of the error or incident in question. Any such errors, omissions or problems not reported within 30 days shall be deemed waived by the Member.</p>
+                        </div>
+                         <div class="form-group col-md-12 ">
+                        3.0 Eco-Nomix’S Member RESPONSIBILITIES
+                        </div>
+                         <div class="form-group col-md-12 ">
                         3.1 Correct Addresses
+                        </div>
+                         <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>It is the responsibility of the Member or Customer to make sure Eco-Nomix has the correct shipping address before any orders are shipped.</li>
+                                <li>A Member or Customer will need to allow up to 30 days for processing after the notice of address change has been received by Eco-Nomix.</li>
+                                <li>A Member or Customer may be assessed a $20 fee for returned shipments due to an incorrect shipping address.</li>
 
-                        A. It is the responsibility of the Member or Customer to make sure Eco-Nomix has the correct shipping address before any orders are shipped.
-
-                        B. A Member or Customer will need to allow up to 30 days for processing after the notice of address change has been received by Eco-Nomix.
-
-                        C. A Member or Customer may be assessed a $20 fee for returned shipments due to an incorrect shipping address.
-
-                        3.2 Training and Leadership
-
-                        A. Any Eco-Nomix Member who Sponsors another Member into Eco-Nomix must perform an authentic assistance and training function to ensure his or her downline is properly operating his or her Eco-Nomix business. Sponsoring Members should have ongoing contact and communication with the Members in their downline organizations. Examples of communication may include, but are not limited to, newsletters, written correspondence, telephone, contact, team calls, voice-mail, e-mail, personal meetings, accompaniment of downline Members to Eco-Nomix meetings, training sessions and any other related functions.
-
-                        B. A Sponsoring Eco-Nomix Member should monitor the Members in his or her downline organizations to ensure that downline Members do not make improper product or business claims, or engage in any illegal or inappropriate conduct. Upon request, such Member should be able to provide documented evidence to Eco-Nomix of his or her ongoing fulfillment of the responsibilities of a Sponsor.
-
-                        C. Upline Members are encouraged to motivate and train new Members about Eco-Nomix’s products and services, effective marketing techniques, the Eco-Nomix Compensation Plan and compliance with company Policies and Procedures.
-
-                        D. As all referrals are based upon sales usage of Eco-nomix products are to be encouraged.
-
-                        E. We emphasize that ALL sales of Eco-Nomix’s products and services to Customers are handled by the website.
-
-                        F. Use of Sales Aids – To promote both the products and the opportunity Eco-Nomix offers, Members must use the sales aids and support materials produced by Eco-Nomix. If Eco-Nomix Members develop their own sales aids and promotional materials, which includes Internet advertising, notwithstanding Members’ good intentions, they may unintentionally violate any number of statutes or regulations affecting the Eco-Nomix business. These violations, although they may be relatively few in number, could jeopardize the Eco-Nomix opportunity for all Members. Accordingly, Members must submit all written sales aids, promotional materials, advertisements, websites and other literature to the Company for Company’s approval prior to use. Unless the Member receives specific written approval to use the material, the request shall be deemed denied. All Members shall safeguard and promote the good reputation of Eco-Nomix and its products. The marketing and promotion of Eco-Nomix, the Eco-Nomix opportunity, the Compensation Plan, and Eco-Nomix products and services shall be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct or practices.
-
+                            </ol>
+                        </div>
+                         <div class="form-group col-md-12 ">
+                         3.2 Training and Leadership
+                        </div>
+                         <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Any Eco-Nomix Member who Sponsors another Member into Eco-Nomix must perform an authentic assistance and training functions to ensure his or her downline is properly operating his or her Eco-Nomix business. Sponsoring Members should have ongoing contact and communication with the Members in their downline organizations. Examples of communication may include, but are not limited to, newsletters, written correspondence, telephone, contact, team calls, voice-mail, e-mail, personal meetings, accompaniment of downline Members to Eco-Nomix meetings, training sessions and any other related functions.</li>
+                                <li>A Sponsoring Eco-Nomix Member should monitor the Members in his or her downline organizations to ensure that downline Members do not make improper product or business claims, or engage in any illegal or inappropriate conduct. Upon request, such Member should be able to provide documented evidence to Eco-Nomix of his or her ongoing fulfillment of the responsibilities of a Sponsor.</li>
+                                <li>Upline Members are encouraged to motivate and train new Members about Eco-Nomix’s products and services, effective marketing techniques, the Eco-Nomix Compensation Plan and compliance with company Policies and Procedures.</li>
+                                <li>As all referrals are based upon sales usage of Eco-nomix products are to be encouraged.</li>
+                                <li>We emphasize that ALL sales of Eco-Nomix’s products and services to Customers are handled by the website.</li>
+                                <li>Use of Sales Aids – To promote both the products and the opportunity Eco-Nomix offers, Members must use the sales aids and support materials produced by Eco-Nomix. If Eco-Nomix Members develop their own sales aids and promotional materials, which includes Internet advertising, notwithstanding Members’ good intentions, they may unintentionally violate any number of statutes or regulations affecting the Eco-Nomix business. These violations, although they may be relatively few in number, could jeopardize the Eco-Nomix opportunity for all Members. Accordingly, Members must submit all written sales aids, promotional materials, advertisements, websites and other literature to the Company for Company’s approval prior to use. Unless the Member receives specific written approval to use the material, the request shall be deemed denied. All Members shall safeguard and promote the good reputation of Eco-Nomix and its products. The marketing and promotion of Eco-Nomix, the Eco-Nomix opportunity, the Compensation Plan, and Eco-Nomix products and services shall be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct or practices.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         3.3 Constructive Criticism; Ethics
+                        </div>
+                         <div class="form-group col-md-12 ">
+                              <ol type="A">
+                                <li>Eco-Nomix desires to provide its independent Members with the best products and services and Compensation Plan in the industry. Accordingly, Eco-Nomix values constructive criticism and encourages the submission of written comments addressed to Eco-Nomix Compliance Department.</li>
+                                <li>Negative and disparaging comments about Eco-Nomix, its products or Compensation Plan, by Members made to Eco-Nomix, in the Field or at Eco-Nomix meetings or events, or disruptive behavior at Eco-Nomix meetings or events, serve no purpose other than to dampen the enthusiasm of other Eco-Nomix Members. Eco-Nomix Members must not belittle Eco-Nomix, other Eco-Nomix Members,  products or services, the Compensation Plan, or Eco-Nomix directors, officers, or employees, product suppliers or agents. Such conduct represents a material breach of these Policies and Procedures and may be subject to sanctions as deemed appropriate by Eco-Nomix.</li>
+                                <li>Eco-Nomix endorses the following code of ethics:
+                                    <ol type="I">
+                                        <li>An Eco-Nomix Member must show fairness, tolerance, and respect to all people associated with Eco-Nomix, regardless of race, gender, social class or religion, thereby fostering a “positive atmosphere” of teamwork, good morale and community spirit.</li>
+                                        <li>A Member shall strive to resolve business issues, including situations with upline and downline Members, by emphasizing tact, sensitivity, good will and taking care not to create additional problems.</li>
+                                        <li>Eco-Nomix Members must be honest, responsible, professional and conduct themselves with integrity.</li>
+                                        <li>Eco-Nomix Members shall not make disparaging statements about Eco-Nomix, other Members, Eco-Nomix employees, product suppliers or agents, products, services, sales and marketing campaigns, or the Compensation Plan, or make statements that unreasonably offend, mislead or coerce others.</li>
 
-                        A. Eco-Nomix desires to provide its independent Members with the best products and services and Compensation Plan in the industry. Accordingly, Eco-Nomix values constructive criticism and encourages the submission of written comments addressed to Eco-Nomix Compliance Department.
-
-                        B. Negative and disparaging comments about Eco-Nomix, its products or Compensation Plan, by Members made to Eco-Nomix, in the Field or at Eco-Nomix meetings or events, or disruptive behavior at Eco-Nomix meetings or events, serve no purpose other than to dampen the enthusiasm of other Eco-Nomix Members. Eco-Nomix Members must not belittle Eco-Nomix, other Eco-Nomix Members,  products or services, the Compensation Plan, or Eco-Nomix directors, officers, or employees, product suppliers or agents. Such conduct represents a material breach of these Policies and Procedures and may be subject to sanctions as deemed appropriate by Eco-Nomix.
-
-                        C. Eco-Nomix endorses the following code of ethics:
-
-                        I. An Eco-Nomix Member must show fairness, tolerance, and respect to all people associated with Eco-Nomix, regardless of race, gender, social class or religion, thereby fostering a “positive atmosphere” of teamwork, good morale and community spirit.
-
-                        II. A Member shall strive to resolve business issues, including situations with upline and downline Members, by emphasizing tact, sensitivity, good will and taking care not to create additional problems.
-
-                        III. Eco-Nomix Members must be honest, responsible, professional and conduct themselves with integrity.
-
-                        IV. Eco-Nomix Members shall not make disparaging statements about Eco-Nomix, other Members, Eco-Nomix employees, product suppliers or agents, products, services, sales and marketing campaigns, or the Compensation Plan, or make statements that unreasonably offend, mislead or coerce others.
-
-                        D. Eco-Nomix may take appropriate action against a Member if it determines, in its sole discretion, that a Member’s conduct is detrimental, disruptive, or injurious to Eco-Nomix or to other Members.
-
+                                    </ol></li>
+                                <li>Eco-Nomix may take appropriate action against a Member if it determines, in its sole discretion, that a Member’s conduct is detrimental, disruptive, or injurious to Eco-Nomix or to other Members.</li>
+                              </ol>
+                         </div>
+                        <div class="form-group col-md-12 ">
                         3.4 Reporting Policy Violation
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A Member who observes a policy violation by another Member should submit a written and signed letter (e-mail will not be accepted) of the violation directly to the Eco-Nomix Corporate office. The letter shall set forth the details of the incident as follows:
+                                    <ol type="I">
+                                        <li>The nature of the violation;</li>
+                                        <li>Specific facts to support the allegations;</li>
+                                        <li>Dates;</li>
+                                        <li>Number of occurrences;</li>
+                                        <li>Persons involved; and</li>
+                                        <li>Supporting documentation</li>
+                                    </ol></li>
+                                <li>Once the matter has been presented to Eco-Nomix, it will be researched thoroughly by the Compliance Department and appropriate action will be taken if required.</li>
+                                <li>This section refers to the general reporting of Policy violations as observed by other Members for the mutual effort to support, protect, and defend the integrity of the Eco-Nomix business and opportunity. If a Member has a grievance or complaint against another Member which directly relates to his or her Eco-Nomix business, the Procedures set forth in these Policies must be followed.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                      3.5 Sponsorship
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>The Sponsor is the person who introduces a Member or Customer to Eco-Nomix, helps them complete their enrollment, and supports and trains those in their downline.</li>
+                                <li>Eco-Nomix recognizes the Sponsor as the name(s) shown on the first:
+                                    <ol type="I">
+                                        <li>Physically signed Eco-Nomix Member Agreement on file; or</li>
+                                        <li>Electronically signed Member Agreement from a website or an Eco-Nomix Members website.</li>
+                                    </ol></li>
+                                <li>A Member Agreement that contains notations such as “by phone” or the signatures of other individuals (i.e. Sponsors, Spouses, relatives, or friends) is not valid and will not be accepted by Eco-Nomix.</li>
+                                <li>Eco-Nomix recognizes that each new prospect has the right to ultimately choose his or her own Sponsor, but Eco-Nomix will not allow Members to engage in unethical sponsoring activities.</li>
+                                <li>All active Members in good standing have the right to Sponsor and enroll others into Eco-Nomix. While engaged in sponsoring activities, it is not uncommon to encounter situations when more than one Member will approach the same prospect. It is the accepted courtesy that the new prospect will be sponsored by the first Member who presented a comprehensive introduction to Eco-Nomix products or business opportunity.</li>
+                                <li>A Protected Prospect is a guest of any Eco-Nomix Member or Customer who attended an Eco-Nomix event or conference call. For 60 days following the event, a Protected Prospect cannot be solicited or sponsored by any other Eco-Nomix Member who attended the same event. An Eco-Nomix event can be defined as the following:
+                                    <ol type="I">
+                                        <li>Any Eco-Nomix training session;</li>
+                                        <li>Conference call;</li>
+                                        <li>Fly-in meeting; or</li>
+                                        <li>Presentation, including but not limited to an Eco-Nomix at home presentation, whether sponsored by Eco-Nomix, a Member, a Customer, or an agent or agency designated by Eco-Nomix.</li>
+                                    </ol></li>
 
-                        A. A Member who observes a policy violation by another Member should submit a written and signed letter (e-mail will not be accepted) of the violation directly to the Eco-Nomix Corporate office. The letter shall set forth the details of the incident as follows:
+                            </ol>
+                        </div>
 
-                        I. The nature of the violation;
-
-                        II. Specific facts to support the allegations;
-
-                        III. Dates;
-
-                        IV. Number of occurrences;
-
-                        V. Persons involved; and
-
-                        VI. Supporting documentation
-
-                        B. Once the matter has been presented to Eco-Nomix, it will be researched thoroughly by the Compliance Department and appropriate action will be taken if required.
-
-                        C. This section refers to the general reporting of Policy violations as observed by other Members for the mutual effort to support, protect, and defend the integrity of the Eco-Nomix business and opportunity. If a Member has a grievance or complaint against another Member which directly relates to his or her Eco-Nomix business, the Procedures set forth in these Policies must be followed.
-
-                        3.5 Sponsorship
-
-                        A. The Sponsor is the person who introduces a Member or Customer to Eco-Nomix, helps them complete their enrollment, and supports and trains those in their downline.
-
-                        B. Eco-Nomix recognizes the Sponsor as the name(s) shown on the first:
-
-                        I. Physically signed Eco-Nomix Member Agreement on file; or
-
-                        II. Electronically signed Member Agreement from a website or an Eco-Nomix Members website.
-
-                        C. A Member Agreement that contains notations such as “by phone” or the signatures of other individuals (i.e. Sponsors, Spouses, relatives, or friends) is not valid and will not be accepted by Eco-Nomix.
-
-                        D. Eco-Nomix recognizes that each new prospect has the right to ultimately choose his or her own Sponsor, but Eco-Nomix will not allow Members to engage in unethical sponsoring activities.
-
-                        E. All active Members in good standing have the right to Sponsor and enroll others into Eco-Nomix. While engaged in sponsoring activities, it is not uncommon to encounter situations when more than one Member will approach the same prospect. It is the accepted courtesy that the new prospect will be sponsored by the first Member who presented a comprehensive introduction to Eco-Nomix products or business opportunity.
-
-                        F. A Protected Prospect is a guest of any Eco-Nomix Member or Customer who attended an Eco-Nomix event or conference call. For 60 days following the event, a Protected Prospect cannot be solicited or sponsored by any other Eco-Nomix Member who attended the same event. An Eco-Nomix event can be defined as the following:
-
-                        I. Any Eco-Nomix training session;
-
-                        II. Conference call;
-
-                        III. Fly-in meeting; or
-
-                        IV. Presentation, including but not limited to an Eco-Nomix at home presentation, whether sponsored by Eco-Nomix, a Member, a Customer, or an agent or agency designated by Eco-Nomix.
+                        <div class="form-group col-md-12 ">
 
                         3.6 Cross Sponsoring Prohibition
 

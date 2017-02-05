@@ -136,41 +136,43 @@
                         2.4 Identification Numbers
                         </div>
                         <div class="form-group col-md-12 ">
-                        A. Each Member is required to provide his or her Social Security Number, or Federal Tax Identification Number, if located in the United States or any of its territories, to Eco-Nomix on the Member Agreement.  Equivalent documentation will be required from those outside of the US. Eco-Nomix reserves the right to withhold commission payments from any Member who fails to provide such information or who provides false information.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                         </div>
-                         <div class="form-group col-md-12 ">
-                        B. Upon enrollment, Eco-Nomix will provide an Eco-Nomix Identification Number to the Member. This number will be used to place orders, structure organizations, and track commissions and bonuses.
+                            <ol type="A">
+                                <li>Each Member is required to provide his or her Social Security Number, or Federal Tax Identification Number, if located in the United States or any of its territories, to Eco-Nomix on the Member Agreement.  Equivalent documentation will be required from those outside of the US. Eco-Nomix reserves the right to withhold commission payments from any Member who fails to provide such information or who provides false information.</li>
+                                <li>Upon enrollment, Eco-Nomix will provide an Eco-Nomix Identification Number to the Member. This number will be used to place orders, structure organizations, and track commissions and bonuses.</li>
+                            </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.5 Renewals and Expiration of the Member Agreement
                         </div>
-                         <div class="form-group col-md-12 ">
-                        A. There are no renewal fees or purchase requirements for members to maintain their membership.
-
-                        B. There is a annual fee of $9.95 (US) or $19.95 (International) for the Debit card.  If this fee is not paid by the renewal date, then the card will go inactive until annual fee is paid.  Membership and Referral Fees accumulate with or without and active Debit Card.
-
-                        C. Any Member who was terminated is not eligible to re-apply for an Eco-Nomix business for 12 months following the Termination of the Member Agreement.
-
-                        D. The downline of the terminated Member will roll up to the immediate, upline Sponsor.
-
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>There are no renewal fees or purchase requirements for members to maintain their membership.</li>
+                                <li>There is a annual fee of $9.95 (US) or $19.95 (International) for the Debit card if purchased.  If this fee is not paid by the renewal date, then the card will go inactive until annual fee is paid.  Referral Fees accumulate with or without an active Debit Card.</li>
+                                <li>Any Member who was terminated is not eligible to re-apply for an Eco-Nomix Membership for 12 months following the Termination of the Member Agreement.</li>
+                                <li>The downline of the terminated Member will roll up to the immediate, upline Sponsor.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.6 Business Entities
-
-                        A. A corporation, partnership, LLC, or trust (collectively referred to as a “Business Entity”) may apply to be an Eco-Nomix Member. This Member business and position will remain temporary until the proper documents are submitted. The Business Entity must submit one of the following documents: Certificate of Incorporation, Articles of Organization, Partnership Agreement or appropriate Trust documents. Eco-Nomix must receive these documents within 14 days from the date the Member Agreement was signed.
-
-                        B. An Eco-Nomix Member may change their status under the same Sponsor from an individual to a partnership, LLC, corporation, trust or from one type of business entity to another.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A corporation, partnership, LLC, or trust (collectively referred to as a “Business Entity”) may apply to be an Eco-Nomix Member. This Member business and position will remain temporary until the proper documents are submitted. The Business Entity must submit one of the following documents: Certificate of Incorporation, Articles of Organization, Partnership Agreement or appropriate Trust documents. Eco-Nomix must receive these documents within 14 days from the date the Member Agreement was signed.</li>
+                                <li>An Eco-Nomix Member may change their status under the same Sponsor from an individual to a partnership, LLC, corporation, trust or from one type of business entity to another.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.7 Independent Business Relationship; Indemnification for Actions
-
-                        A. The Eco-Nomix Member is an independent contractor, and not a purchaser of a franchise or business opportunity. Therefore, each Member’s success depends on his or her independent efforts.
-
-                        B. The Agreement between Eco-Nomix and its Members does not create an employer/employee relationship, agency, partnership, or joint venture between Eco-Nomix and the Member.
-
-                        C. An Eco-Nomix Member shall not be treated as an employee of Eco-Nomix for any purposes, including, without limitation, for Federal, State, or Provincial tax purposes. All Members are responsible for paying local, State, Provincial, and Federal taxes due from all compensation earned as a Member of Eco-Nomix. Any other compensation received by Members from Eco-Nomix will be governed by applicable U.S. or Canadian tax laws (or the tax laws of any other applicable jurisdiction). The Member has no express or implied authority to bind Eco-Nomix to any obligation or to make any commitments by or on behalf of Eco-Nomix. Each Member, whether acting as management of a Business Entity or represented as an individual, shall establish his or her own goals, hours, and methods of operation and sale, so long as he or she complies with the Terms of the Member Agreement, these Policies and Procedures and applicable State, Federal and Provincial laws.
-
-                        D. The Eco-Nomix Member is fully responsible for all of his or her verbal and written communications made regarding Eco-Nomix products, services, and the Compensation Plan that are not expressly contained within official Eco-Nomix materials. Members shall indemnify and hold harmless Eco-Nomix, its directors, officers, employees, product suppliers and agents from any and against all liability including judgments, civil penalties, refunds, attorney fees and court costs incurred by Eco-Nomix as a result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the Eco-Nomix Member Agreement.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>The Eco-Nomix Member is an independent contractor, and not a purchaser of a franchise or business opportunity. Therefore, each Member’s success depends on his or her independent efforts.</li>
+                                <li>The Agreement between Eco-Nomix and its Members does not create an employer/employee relationship, agency, partnership, or joint venture between Eco-Nomix and the Member.</li>
+                                <li>An Eco-Nomix Member shall not be treated as an employee of Eco-Nomix for any purposes, including, without limitation, for Federal, State, or Provincial tax purposes. All Members are responsible for paying local, State, Provincial, and Federal taxes due from all compensation earned as a Member of Eco-Nomix. Any other compensation received by Members from Eco-Nomix will be governed by applicable U.S. or Canadian tax laws (or the tax laws of any other applicable jurisdiction). The Member has no express or implied authority to bind Eco-Nomix to any obligation or to make any commitments by or on behalf of Eco-Nomix. Each Member, whether acting as management of a Business Entity or represented as an individual, shall establish his or her own goals, hours, and methods of operation and sale, so long as he or she complies with the Terms of the Member Agreement, these Policies and Procedures and applicable State, Federal and Provincial laws.</li>
+                                <li>The Eco-Nomix Member is fully responsible for all of his or her verbal and written communications made regarding Eco-Nomix products, services, and the Compensation Plan that are not expressly contained within official Eco-Nomix materials. Members shall indemnify and hold harmless Eco-Nomix, its directors, officers, employees, product suppliers and agents from any and against all liability including judgments, civil penalties, refunds, attorney fees and court costs incurred by Eco-Nomix as a result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the Eco-Nomix Member Agreement.</li>
+                            </ol>
+                        </div>
+                       
                         2.8 Insurance – Business Pursuits Coverage
 
                         Eco-Nomix encourages Members to arrange insurance coverage for their business. A homeowner’s insurance policy does not cover business related injuries, or the theft of, or damage to, inventory or business equipment. Eco-Nomix Members need to contact their insurance agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit” endorsement to an existing homeowner’s policy.

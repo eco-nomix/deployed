@@ -59,13 +59,14 @@
                               </ul>
                           </div>
                           <div class="form-group col-md-12 ">
-                            At this point lets say your downline members were averaging $20 per month in purchases from Eco-nomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)
+                            At this point lets say your downline active members were averaging $20 per month in purchases from Eco-nomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)
                                That would be a total of $20,480 in purchases across your organization, and that would generate over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,
                                but most people if they are interested will recruit not just 1 per month but higher.  Then the numbers get really crazy.
 
                           </div>
                           <div class="form-group col-md-12 ">
-                             And you got to that point by handing out 1 business card a month that turns into a member.
+                             And you got to that point by handing out 1 business card a month that turns into an active member.  I reality you will have to hand out more than 1 card to get that "one active" member.  Even with the Eco-nomix's ease of getting someone to become a member, the vast majority of people out there just won't do anything to get started.  But it only takes one a month to make this work.
+                             <br><br>
                              In all the other multi-levels, people are dropping out as fast as you can recruit them.  In ours they stay as they have nothing to loose, causing amazing growth potential.
                           </div>
 

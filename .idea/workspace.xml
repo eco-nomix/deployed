@@ -97,8 +97,8 @@
       <file leaf-file-name="potential.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6400886" vertical-offset="850" max-vertical-offset="3094">
-              <caret line="42" column="175" selection-start-line="42" selection-start-column="175" selection-end-line="42" selection-end-column="175" />
+            <state vertical-scroll-proportion="0.6400886" vertical-offset="850" max-vertical-offset="3162">
+              <caret line="42" column="297" selection-start-line="42" selection-start-column="297" selection-end-line="42" selection-end-column="297" />
               <folding />
             </state>
           </provider>
@@ -1213,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6400886" vertical-offset="850" max-vertical-offset="3094">
-          <caret line="42" column="175" selection-start-line="42" selection-start-column="175" selection-end-line="42" selection-end-column="175" />
+        <state vertical-scroll-proportion="0.6400886" vertical-offset="850" max-vertical-offset="3162">
+          <caret line="42" column="297" selection-start-line="42" selection-start-column="297" selection-end-line="42" selection-end-column="297" />
           <folding />
         </state>
       </provider>

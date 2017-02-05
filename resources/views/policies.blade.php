@@ -492,7 +492,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         7.1 Introduction
-                        <br> <p style="margin-left: 20px">This Privacy Policy is to ensure that all Customers and Members understand and adhere to the basic principles of confidentiality.</p>
+                        <br><br> <p style="margin-left: 20px">This Privacy Policy is to ensure that all Customers and Members understand and adhere to the basic principles of confidentiality.</p>
                         </div>
                         <div class="form-group col-md-12 ">
                         7.2 Expectation of Privacy

@@ -8,143 +8,205 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
-                <div class="panel-heading">Policies and Procedures</div>
+                <div class="panel-heading">Eco-Nomix Inc. Policies and Procedures</div>
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
                          </div>
                         <div class="form-group col-md-12 ">
-
-
-
-                        	Eco-Nomix Inc. Policies and Procedures
-
-                        1.1 Mutual Commitment Statement
+                    	  1.1 Mutual Commitment Statement
+                    	  </div>
+                    	   <div class="form-group col-md-12 ">
                         Eco-Nomix Inc and its website Eco-Nomix.org (“hereafter as “ Eco-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”) and Customers, Eco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.
-
+                        </div>
+                         <div class="form-group col-md-12 ">
                         A. In the spirit of mutual respect and understanding, Eco-Nomix is committed to:
-
+                        </div>
+                         <div class="form-group col-md-12 ">
                         I. Provide prompt, professional and courteous service and communications to all of its
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         Members and Customers;
+                        </div>
+                        <div class="form-group col-md-12 ">
                         II. Provide the highest level of quality products, at fair and reasonable prices;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         III. Exchange or refund the purchase price of any product, service or membership as provided in our Return Policy.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         IV. Deliver orders promptly and accurately;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         V. Pay Referral Fees accurately and on a timely basis;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         VI. Expedite orders if an error or unreasonable delay occurs;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         VII. Roll out new products and programs with Member input and planning;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         VIII. Implement changes in the Compensation Plan or Policies and Procedures that affect the
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         Member with input from the Members;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         IX. Support, protect and defend the integrity of the Eco-Nomix Business Opportunity;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         X. Offer Members an opportunity to grow with Eco-Nomix with such growth guided by the principles of Servant Leadership.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         B. In return, Eco-Nomix expects that its Members will:
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         I. Conduct themselves in a professional, honest, and considerate manner;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         II. Present Eco-Nomix Corporate and product information in an accurate and professional manner;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         III. Present the Compensation Plan and Return Policy in a complete and accurate manner;
-
+                       </div>
+                        <div class="form-group col-md-12 ">
                         IV. Not make exaggerated income claims;
-
+                       </div>
+                        <div class="form-group col-md-12 ">
                         V. Make reasonable effort(s) to support and train Members and Customers in their downline;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         VI. Not engage in cross-line recruiting, unhealthy competition or unethical business practices;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         VII. Provide positive guidance and training to Members and Customers in their downline while exercising caution to avoid interference with other downlines. As such, a Member is discouraged from providing cross-line training to a Member or Customer in a different organization without first obtaining consent of the Member’s or Customer’s upline sponsor;
-
-                        VIII. Support, protect, and defend the integrity of the Eco-Nomix Business
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         VIII. Support, protect, and defend the integrity of the Eco-Nomix Business
+                        </div>
+                        <div class="form-group col-md-12 ">
                         Opportunity;
-
+                      </div>
+                        <div class="form-group col-md-12 ">
                         IX. Accurately complete and submit the Member Agreement and any requested supporting documentation in a timely manner.
-
+                        </div>
+                         <div class="form-group col-md-12 ">
                         1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member Agreement
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         A. Throughout these Policies, when the term “Agreement” is used, it collectively refers to the Eco-Nomix Agreement, these Policies and Procedures, and the Eco-Nomix Compensation Plan.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         B. The most current version of these Policies and Procedures and the Eco-Nomix Compensation Plan are available on the Eco-Nomix website and should be read by the potential member before joining.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         1.3 Purpose of Policies
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         A. Eco-Nomix is a direct sales company that markets products and services through a company sponsored website. Members should refer those with questions about products or the marketing plan to the Website. To clearly define the relationship that exists between Members and Eco-Nomix, and to explicitly set a standard for acceptable business conduct, Eco-Nomix has established these Policies and Procedures.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         B. Eco-Nomix Members are required to comply with; (i) all of the Terms and Conditions set forth in the Member Agreement, which Eco-Nomix may amend from time to time in its sole discretion; (ii) all Federal, State, Provincial, Territorial, and/or local laws governing his, her and/or its Eco-Nomix business; and (iii) these Policies and Procedures.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         C. Eco-Nomix Members must review the information in these Policies and Procedures carefully. Should a Member have any questions regarding a policy or rule, the Member is encouraged to seek an answer from their Sponsor or any other upline Member. If further clarification is needed the Member may contact Eco-Nomix Customer Service.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         1.4 Changes, Amendments, and Modifications
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         A. Because Federal, State, and local laws, as well as the business environment, periodically change, Eco-Nomix reserves the right to amend the Agreement and the prices in its Eco-Nomix Product Price List in its sole and absolute discretion. Notification of amendments shall appear in Official Eco-Nomix Materials. This provision does NOT apply to the arbitration clause found in Section 13, which can only be modified via mutual consent.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         B. Any such amendment, change, or modification shall be effective immediately upon notice by one of the following methods:
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         I. Posting on the official Eco-Nomix website;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         II. Electronic mail (e-mail); or
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         III. In writing through the Eco-Nomix newsletters or other Eco-Nomix communication channels.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         1.5 Delays
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         Eco-Nomix shall not be responsible for delays or failures in performance of its obligations when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes, labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply, or government decrees or orders.
                         1.6 Effective Date
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         These Policies and Procedures shall become effective as of Jan 1st, 2017 and, at such time, shall automatically supersede any prior Policies and Procedures (the “old Policies and Procedures”), and, on that date, the old Policies and Procedures shall cease to have any force or effect.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.0 BASIC PRINCIPLES
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.1 Becoming An Eco-Nomix Member
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         To become a Member, an applicant must comply with the following requirements:
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         I. Be of the age of majority (not a minor) in his or her state of residence;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         II. Reside or have a valid address where materials may be sent;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         III. Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outside of the US.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         IV. Submit a properly completed and electronically signed Member Agreement to Eco-Nomix through its website;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.2 New Member Registration
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         A. A potential new Member will self-enroll on the Sponsor’s website. Eco-Nomix will accept the Web-enrollment and Member Agreement by accepting the “electronic signature” stating the new Member has accepted the Terms and Conditions of such Member Agreement. Please note that such electronic signature constitutes a legally binding agreement between the Member and Eco-Nomix.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         B. Eco-Nomix reserves the right to require signed paperwork for any account, regardless of origin.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         C. If requested the signed Member Agreement must be received by Eco-Nomix within 14 days of enrollment.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         D. Signed documents, including, but not limited to, Member personal agreements, are legally binding contracts which must not be altered, tampered with or changed in any manner after they have been signed. False or misleading information, forged signatures or alterations to any document, including business registration forms, made after a document has been signed may lead to sanctions, up to and including involuntary termination of the Member’s position.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.3 Rights Granted
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         Eco-Nomix hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained in the Member Agreement and these Policies and Procedures, to:
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         I. Purchase Eco-Nomix products and services;
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         II. Promote and sell their own products and services through the Eco-Nomix website; and
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         III. Sponsor new Members and Customers in the United States and in countries where Eco-Nomix may become established after the effective date of these Policies and Procedures.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.4 Identification Numbers
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         A. Each Member is required to provide his or her Social Security Number, or Federal Tax Identification Number, if located in the United States or any of its territories, to Eco-Nomix on the Member Agreement.  Equivalent documentation will be required from those outside of the US. Eco-Nomix reserves the right to withhold commission payments from any Member who fails to provide such information or who provides false information.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         </div>
+                         <div class="form-group col-md-12 ">
                         B. Upon enrollment, Eco-Nomix will provide an Eco-Nomix Identification Number to the Member. This number will be used to place orders, structure organizations, and track commissions and bonuses.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         2.5 Renewals and Expiration of the Member Agreement
-
+                        </div>
+                         <div class="form-group col-md-12 ">
                         A. There are no renewal fees or purchase requirements for members to maintain their membership.
 
                         B. There is a annual fee of $9.95 (US) or $19.95 (International) for the Debit card.  If this fee is not paid by the renewal date, then the card will go inactive until annual fee is paid.  Membership and Referral Fees accumulate with or without and active Debit Card.

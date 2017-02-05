@@ -75,8 +75,8 @@
       <file leaf-file-name="policies.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.537797" vertical-offset="22704" max-vertical-offset="33864">
-              <caret line="982" column="30" selection-start-line="982" selection-start-column="30" selection-end-line="982" selection-end-column="30" />
+            <state vertical-scroll-proportion="-28.850971" vertical-offset="33754" max-vertical-offset="35972">
+              <caret line="207" column="24" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1123,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.537797" vertical-offset="22704" max-vertical-offset="33864">
-          <caret line="982" column="30" selection-start-line="982" selection-start-column="30" selection-end-line="982" selection-end-column="30" />
+        <state vertical-scroll-proportion="-28.850971" vertical-offset="33754" max-vertical-offset="35972">
+          <caret line="207" column="24" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
           <folding />
         </state>
       </provider>

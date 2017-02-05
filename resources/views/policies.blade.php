@@ -372,99 +372,102 @@
                             </ol>
                         </div>
 
-                        I. A Member shall not misquote or omit any significant material fact about the Compensation Plan.
-
-                        II. A Member shall make it clear that the Compensation Plan is based upon sales of Eco-Nomix products and services and upon the sponsoring of other Members.
-
-                        III. A Member shall make it clear that success can be achieved only through substantial independent efforts.
-
-                        IV. An Eco-Nomix Member shall not make unauthorized income projections, claims, or guarantees while presenting or discussing the Eco-Nomix opportunity or Compensation Plan to prospective Members or Customers.
-
-                        V. A Member may not make any claims regarding products or services of any products offered by Eco-Nomix, except those contained in official Eco-Nomix literature.
-
-                        VI. A Member may not use official Eco-Nomix material to promote the Eco-Nomix business opportunity in any country where Eco-Nomix has not established a “presence.”
-
-                        VII. In an effort to conduct best business practices, Eco-Nomix has developed the Income Disclosure Statement (“IDS”). The Eco-Nomix IDS is designed to convey truthful, timely, and comprehensive information regarding the income that Eco-Nomix Members earn. In order to accomplish this objective, a copy of the IDS must be presented to all prospective Members.
-
-                        A copy of the IDS must be presented to a prospective Member anytime the Compensation Plan is presented or discussed, or any type of income claim or earnings representation is made.
-
-                        The terms “income claim” and/or “earnings representation” (collectively “income claim”) include; (1) statements of average earnings, (2) statements of non-average earnings, (3) statements of earnings ranges, (4) income testimonials, (5) lifestyle claims, and (6) hypothetical claims. Examples of “statements of non-average earnings” include, “Our number one Member earned over a million dollars last year” or “Our average ranking Member makes five thousand per month.” An example of a “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end to thirty thousand dollars a month on the high end.”
-
+                        <div class="form-group col-md-12 ">
                         3.14 Sales Requirements are Governed by the Compensation Plan
-
-                        A. Eco-Nomix Members may purchase Eco-Nomix products and then re-sell them at any price they choose unless otherwise specified by Eco-Nomix or by any/its product suppliers on a per product basis. Eco-Nomix will provide suggested selling prices. There are no exclusive territories granted to anyone. No franchise fees are applicable to an Eco-Nomix business.  However, such practices are discouraged.  Members should purchase only those products that they need or can utilize personally.  Each member has direct access to products through the website.
-
-                        B. The Eco-Nomix program is built on sales to the ultimate consumer. Eco-Nomix encourages its Members to only purchase inventory that they and their family will personally consume or will be used as a sales tool. Members must never attempt to influence any other Member to buy more products than they can reasonably use.
-
-                        C. Each Eco-Nomix Member commits to personally use, sell, or use in business building at least 70% of every order placed with the Company prior to placing another order, and must be able to certify to such if demanded by the Company or by any regulatory agency. Purchasing product solely for the purpose of collecting bonuses is prohibited. Eco-Nomix retains the right to limit the amount of purchases you may make if, in our sole judgment, we believe those purchases are being made for purposes outside of consumption or resale.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Eco-Nomix Members may purchase Eco-Nomix products and then re-sell them at any price they choose unless otherwise specified by Eco-Nomix or by any/its product suppliers on a per product basis. Eco-Nomix will provide suggested selling prices. There are no exclusive territories granted to anyone. No franchise fees are applicable to an Eco-Nomix business.  However, such practices are discouraged.  Members should purchase only those products that they need or can utilize personally.  Each member has direct access to products through the website.</li>
+                                <li>The Eco-Nomix program is built on sales to the ultimate consumer. Eco-Nomix encourages its Members to only purchase inventory that they and their family will personally consume or will be used as a sales tool. Members must never attempt to influence any other Member to buy more products than they can reasonably use.</li>
+                                <li>The Eco-Nomix program is built on sales to the ultimate consumer. Eco-Nomix encourages its Members to only purchase inventory that they and their family will personally consume or will be used as a sales tool. Members must never attempt to influence any other Member to buy more products than they can reasonably use.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         4.0 ORDERING
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         4.1 General Order Policies
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>“Bonus Buying” is strictly and absolutely prohibited. Bonus Buying includes; (a) the enrollment of individuals or entities without the knowledge of and/or execution of an Agreement by such individuals or Business Entities; (b) the fraudulent enrollment of an individual or entity as a Member or Customer; (c) the enrollment or attempted enrollment of non-existent individuals or Business Entities as Members or Customers (“phantoms”); (d) purchasing Eco-Nomix products or services on behalf of another Member or Customer, or under another Member’s or Customer’s ID number, to qualify for  bonuses; (e) purchasing excessive amounts of products or services that cannot reasonably be used; and/or (f) any other mechanism or artifice to qualify for  incentives, prizes, commissions, or bonuses that is not driven by bona fide product or service purchases by end user consumers.</li>
+                                <li>A Member shall not use another Member’s or Customer’s credit card or debit checking account to enroll in Eco-Nomix or purchase products or services without the account holder’s written permission. Such documentation must be kept by the Member indefinitely in case Eco-Nomix needs to reference this.</li>
+                                <li>Regarding an order with an invalid or incorrect payment, Eco-Nomix will attempt to contact the Member by phone, mail or e-mail in order to obtain another form of payment. If these attempts are unsuccessful after 10 business days, the order will be canceled.</li>
+                                <li>If a Member wants to move an order to another Member’s position, he or she must have prior authorization, of all parties involved. Eco-Nomix will charge the Member a $20 fee for processing.</li>
+                                <li>Prices are subject to change without notice.</li>
+                                <li>A Member or Customer who is a recipient of a damaged or incorrect order must notify Eco-Nomix within 30 calendar days from receipt of the order and follow the Procedures as set forth in these Policies.</li>
+                            </ol>
 
-                        A. “Bonus Buying” is strictly and absolutely prohibited. Bonus Buying includes; (a) the enrollment of individuals or entities without the knowledge of and/or execution of an Agreement by such individuals or Business Entities; (b) the fraudulent enrollment of an individual or entity as a Member or Customer; (c) the enrollment or attempted enrollment of non-existent individuals or Business Entities as Members or Customers (“phantoms”); (d) purchasing Eco-Nomix products or services on behalf of another Member or Customer, or under another Member’s or Customer’s ID number, to qualify for  bonuses; (e) purchasing excessive amounts of products or services that cannot reasonably be used; and/or (f) any other mechanism or artifice to qualify for  incentives, prizes, commissions, or bonuses that is not driven by bona fide product or service purchases by end user consumers.
-
-                        A Member shall not use another Member’s or Customer’s credit card or debit checking account to enroll in Eco-Nomix or purchase products or services without the account holder’s written permission. Such documentation must be kept by the Member indefinitely in case Eco-Nomix needs to reference this.
-
-                        B. Regarding an order with an invalid or incorrect payment, Eco-Nomix will attempt to contact the Member by phone, mail or e-mail in order to obtain another form of payment. If these attempts are unsuccessful after 10 business days, the order will be canceled.
-
-                        C. If a Member wants to move an order to another Member’s position, he or she must have prior authorization, of all parties involved. Eco-Nomix will charge the Member a $20 fee for processing.
-
-                        D. Prices are subject to change without notice.
-
-                        E. A Member or Customer who is a recipient of a damaged or incorrect order must notify Eco-Nomix within 30 calendar days from receipt of the order and follow the Procedures as set forth in these Policies.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         4.2 Insufficient Funds
-
-                        A. All checks returned for insufficient funds will be re-submitted for payment. A $35 fee will be charged to the account of the Member or Customer for all returned checks and insufficient funds.
-
-                        B. All transactions involving returned checks or insufficient funds through ACH or credit card, which are not resolved in a timely manner by the Member, constitute grounds for disciplinary sanctions.
-
-                        C. If a credit card order or automatic debit is declined the first time, the Customer or Member will be contacted for an alternate form of payment. If payment is declined a second time, the Customer or Member may be deemed ineligible to purchase Eco-Nomix products or services.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>All checks returned for insufficient funds will be re-submitted for payment. A $35 fee will be charged to the account of the Member or Customer for all returned checks and insufficient funds.</li>
+                                <li>All transactions involving returned checks or insufficient funds through ACH or credit card, which are not resolved in a timely manner by the Member, constitute grounds for disciplinary sanctions.</li>
+                                <li>If a credit card order or automatic debit is declined the first time, the Customer or Member will be contacted for an alternate form of payment. If payment is declined a second time, the Customer or Member may be deemed ineligible to purchase Eco-Nomix products or services.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         4.3 Sales Tax Obligation
-
-                        A. The Member shall comply with all State, Provincial and local taxes and regulations governing the sale of Eco-Nomix products and services.
-
-                        B. Eco-Nomix will collect and remit sales tax on Member orders unless a Member furnishes Eco-Nomix with the appropriate Resale Tax Certificate form. When orders are placed with Eco-Nomix, sales tax is prepaid based upon the suggested retail price. Eco-Nomix will remit the sales tax to the appropriate state, Provincial and local jurisdictions. The Member may recover the sales tax when he or she makes a sale. Eco-Nomix Members are responsible for any additional sales taxes due on products marked up and sold at a higher price.
-
-                        C. Eco-Nomix encourages each Member to consult with a tax advisor for additional information for his or her business.
-
-                        4.3 Chargeback Policy
-
-                        When Eco-Nomix receives notice of a chargeback from either a customer or a Member, the sponsor will be assessed a $50 fee. This is done to ensure Eco-Nomix Members are always careful when it comes to credit card related issues.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>The Member shall comply with all State, Provincial and local taxes and regulations governing the sale of Eco-Nomix products and services.</li>
+                                <li>Eco-Nomix will collect and remit sales tax on Member orders unless a Member furnishes Eco-Nomix with the appropriate Resale Tax Certificate form. When orders are placed with Eco-Nomix, sales tax is prepaid based upon the suggested retail price. Eco-Nomix will remit the sales tax to the appropriate state, Provincial and local jurisdictions. The Member may recover the sales tax when he or she makes a sale. Eco-Nomix Members are responsible for any additional sales taxes due on products marked up and sold at a higher price.</li>
+                                <li>Eco-Nomix encourages each Member to consult with a tax advisor for additional information for his or her business.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        4.4 Chargeback Policy
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        <p style="margin-left: 20px">When Eco-Nomix receives notice of a chargeback from either a customer or a Member, the sponsor will be assessed a $50 fee. This is done to ensure Eco-Nomix Members are always careful when it comes to credit card related issues.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         5.0 PAYMENT OF BONUSES
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         5.1 Bonus Qualifications
-
-                        A. A Member must be in compliance with Eco-Nomix Policies and Procedures to qualify for bonuses. So long as a Member complies with the Terms of the Agreement, Eco-Nomix shall pay Referral Bonusess to such Member in accordance with the Compensation Plan.
-
-                        B. Eco-Nomix will not issue a payment to a Member without the receipt of a completed and signed Eco-Nomix Member Agreement or Electronic Authorization.
-
-                        C. Eco-Nomix reserves the right to postpone bonus and commission payments until such time the cumulative amount exceeds $25.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A Member must be in compliance with Eco-Nomix Policies and Procedures to qualify for bonuses. So long as a Member complies with the Terms of the Agreement, Eco-Nomix shall pay Referral Bonusess to such Member in accordance with the Compensation Plan.</li>
+                                <li>Eco-Nomix will not issue a payment to a Member without the receipt of a completed and signed Eco-Nomix Member Agreement or Electronic Authorization.</li>
+                                <li>Eco-Nomix reserves the right to postpone bonus and commission payments until such time the cumulative amount exceeds $25.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         5.2 Computation of Commissions and Discrepancies
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>In order to qualify to receive bonuses, a Member must be in good standing and comply with the Terms of the Agreement and these Policies and Procedures. Referral Bonuses are calculated as sales of products are completed.</li>
+                                <li>An Eco-Nomix Member must review his or her monthly statement and bonus reports promptly and report any discrepancies within 30 days of receipt. After the 30-day “grace period” no additional requests will be considered for commission recalculations.</li>
+                                <li>For additional information on payment of Referral Bonuses, please review the Compensation Plan.</li>
+                            </ol>
 
-                        A. In order to qualify to receive bonuses, a Member must be in good standing and comply with the Terms of the Agreement and these Policies and Procedures. Referral Bonuses are calculated as sales of products are completed.
-
-                        B. An Eco-Nomix Member must review his or her monthly statement and bonus reports promptly and report any discrepancies within 30 days of receipt. After the 30-day “grace period” no additional requests will be considered for commission recalculations.
-
-                        C. For additional information on payment of Referral Bonuses, please review the Compensation Plan.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         5.3 Adjustments to Bonuses for Returned Products or Member Memberships.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A Member receives bonuses based on the actual sales of products and services to end consumers and to Members through product and service purchases. When a product or service is returned to Eco-Nomix for a refund from the end consumer or by a Member, the bonuses and commissions attributable to the returned product or service will be deducted from the Member who received bonuses or commissions on such sales. Deductions will occur in the month in which the refund is given and continue every pay period thereafter until the bonus/and or commission is recovered.</li>
+                                <li>In the event that a Member terminates his or her position, and the amounts of the bonuses attributable to the returned products or services have not yet been fully recovered by Eco-Nomix, the remainder of the outstanding balance may be offset against any other amounts that may be owed by Eco-Nomix to the terminated Member.</li>
+                            </ol>
+                        </div>
 
-                        A. A Member receives bonuses based on the actual sales of products and services to end consumers and to Members through product and service purchases. When a product or service is returned to Eco-Nomix for a refund from the end consumer or by a Member, the bonuses and commissions attributable to the returned product or service will be deducted from the Member who received bonuses or commissions on such sales. Deductions will occur in the month in which the refund is given and continue every pay period thereafter until the bonus/and or commission is recovered.
-
-                        B. In the event that a Member terminates his or her position, and the amounts of the bonuses attributable to the returned products or services have not yet been fully recovered by Eco-Nomix, the remainder of the outstanding balance may be offset against any other amounts that may be owed by Eco-Nomix to the terminated Member.
-
+                        <div class="form-group col-md-12 ">
                         6.0 SATISFACTION GUARANTEED AND RETURN OF SALES AIDS
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px">Eco-Nomix offers a one hundred percent (100%) thirty-day money back guarantee for all Customers, regardless of the product purchased.</p>
+                         <p style="margin-left: 20px">With respect to Members, Eco-Nomix offers various refund opportunities depending on the product or service purchased.  Shipping and handling charges incurred will not be refunded.</p>
 
-                        Eco-Nomix offers a one hundred percent (100%) thirty-day money back guarantee for all Customers, regardless of the product purchased.
-                        With respect to Members, Eco-Nomix offers various refund opportunities depending on the product or service purchased.  Shipping and handling charges incurred will not be refunded.
-
-                        Upon cancellation of the Agreement, the Member may return all generic sales aids purchased within one (1) year from the date of cancellation for a refund if he or she is unable to sell or use the merchandise. A Member may only return sales aids he or she personally purchased from the Company under his or her Member Identification Number, and which are in Resalable condition. Any custom orders of printed sales aids (i.e. business cards, brochures, etc.) whereon the Member’s contact information is imbedded or hard printed, or has been added by the Member, are not able to be returned in resalable condition thus are nonrefundable. Upon Eco-Nomix’s receipt of the products and sales aids, the Member will be reimbursed ninety percent (90%) of the net cost of the original purchase price(s), less shipping and handling charges. If the purchases were made through a credit card, the refund will be credited back to the same credit card account. The Company shall deduct from the reimbursement paid to the Member any commissions, bonuses, rebates or other incentives received by the Member which were associated with the merchandise that is returned.
-
+                         <p style="margin-left: 20px">Upon cancellation of the Agreement, the Member may return all generic sales aids purchased within one (1) year from the date of cancellation for a refund if he or she is unable to sell or use the merchandise. A Member may only return sales aids he or she personally purchased from the Company under his or her Member Identification Number, and which are in Resalable condition. Any custom orders of printed sales aids (i.e. business cards, brochures, etc.) whereon the Member’s contact information is imbedded or hard printed, or has been added by the Member, are not able to be returned in resalable condition thus are nonrefundable. Upon Eco-Nomix’s receipt of the products and sales aids, the Member will be reimbursed ninety percent (90%) of the net cost of the original purchase price(s), less shipping and handling charges. If the purchases were made through a credit card, the refund will be credited back to the same credit card account. The Company shall deduct from the reimbursement paid to the Member any commissions, bonuses, rebates or other incentives received by the Member which were associated with the merchandise that is returned.</p>
+                        </div>
                         6.1 Return Process
 
                         A. All returns, whether by a Customer, or Member, must be made as follows:

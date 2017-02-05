@@ -532,91 +532,84 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         8.4 Return of Materials
-
-                        Upon demand by Eco-Nomix, any current or former Member will return the original and all copies of all “Reports” to Eco-Nomix together with any Eco-Nomix confidential information in such person’s possession.
-
+                         <p style="margin-left: 20px">Upon demand by Eco-Nomix, any current or former Member will return the original and all copies of all “Reports” to Eco-Nomix together with any Eco-Nomix confidential information in such person’s possession.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         9.0 ADVERTISING, PROMOTIONAL MATERIAL, USE OF COMPANY NAMES AND TRADEMARKS
-
+                        </div>
+                        <div class="form-group col-md-12 ">
                         9.1 Labeling, Packaging, and Displaying Products
-
-                        A. An Eco-Nomix Member may not re-label, re-package, refill, or alter labels of any Eco-Nomix product, or service, information, materials or program(s) in any way. Eco-Nomix products and services must only be sold in their original containers from Eco-Nomix. Such re-labeling or re-packaging violates Federal, and State and Provincial laws, which may result in criminal or civil penalties or liability.
-
-                        B. Eco-Nomix will permit Members to solicit and make Commercial Sales upon prior written approval from Eco-Nomix. For the purpose of these Policies and Procedures, the term “Commercial Sale” means the sale of;
-
-                        I. Eco-Nomix products that equal or exceed $5,000 in a single order;
-
-                        II. Products sold to a third party who intends to resell the products to an end consumer.
-
-                        C. A Member may sell Eco-Nomix products and services and display the Eco-Nomix trade name at any appropriate display booth (such as trade shows) upon prior written approval from Eco-Nomix.
-
-                        D. Eco-Nomix reserves the right to refuse authorization to participate at any function that it does not deem a suitable forum for the promotion of its products and services, or the Eco-Nomix opportunity.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>An Eco-Nomix Member may not re-label, re-package, refill, or alter labels of any Eco-Nomix product, or service, information, materials or program(s) in any way. Eco-Nomix products and services must only be sold in their original containers from Eco-Nomix. Such re-labeling or re-packaging violates Federal, and State and Provincial laws, which may result in criminal or civil penalties or liability.</li>
+                                <li>Eco-Nomix will permit Members to solicit and make Commercial Sales upon prior written approval from Eco-Nomix. For the purpose of these Policies and Procedures, the term “Commercial Sale” means the sale of;
+                                    <ol type="I">
+                                        <li>Eco-Nomix products that equal or exceed $5,000 in a single order;</li>
+                                        <li>Products sold to a third party who intends to resell the products to an end consumer.</li>
+                                    </ol></li>
+                                <li>A Member may sell Eco-Nomix products and services and display the Eco-Nomix trade name at any appropriate display booth (such as trade shows) upon prior written approval from Eco-Nomix.</li>
+                                <li>Eco-Nomix reserves the right to refuse authorization to participate at any function that it does not deem a suitable forum for the promotion of its products and services, or the Eco-Nomix opportunity.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         9.2 Use of Company Names and Protected Materials
-
-                        A. An Eco-Nomix Member must safeguard and promote the good reputation of Eco-Nomix and the products and services it markets. The marketing and promotion of Eco-Nomix, the Eco-Nomix opportunity, the Compensation Plan, and Eco-Nomix products and services will be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct and practices.
-
-                        B. All promotional materials supplied or created by Eco-Nomix must be used in their original form and cannot be changed, amended or altered except with prior written approval from the Eco-Nomix Compliance Department.
-
-                        C. The name of Eco-Nomix, each of its product and service names and other names that have been adopted by Eco-Nomix in connection with its business are proprietary trade names, trademarks and service marks of Eco-Nomix. As such, these marks are of great value to Eco-Nomix and are supplied to Members for their use only in an expressly authorized manner.
-
-                        D. An Eco-Nomix Member’s use of the name “Eco-Nomix” is restricted to protect Eco-Nomix proprietary rights, ensuring that the Eco-Nomix protected names will not be lost or compromised by unauthorized use. Use of the Eco-Nomix name on any item not produced by Eco-Nomix is prohibited except as follows:
-
-                        I. [Member’s name] Independent Eco-Nomix Member
-
-                        II. [Member’s name] Independent Member of Eco-Nomix products and services.
-
-                        E. Further procedures relating to the use of the Eco-Nomix name are as follows:
-
-                        I. All stationary (i.e. letterhead, envelopes, and business cards) bearing the Eco-Nomix name or logo intended for use by the Member must be approved in writing by the Eco-Nomix Compliance Department.
-
-                        II. Eco-Nomix Members may list “Independent Eco-Nomix Member or Member” in the white pages of the telephone directory under his or her own name.
-
-                        III. Eco-Nomix Members may not use the name Eco-Nomix in answering his or her telephone, creating a voice message or using an answering service, such as to give the impression to the caller that they have reached the corporate office. They may state, “Independent Eco-Nomix Member.”
-
-                        F. Certain photos and graphic images used by Eco-Nomix in its advertising, packaging, and websites are the result of paid contracts with outside vendors that do not extend to Members. If a Member wants to use these photos or graphic images, they must negotiate individual contracts with the vendors for a fee.
-
-                        G. An Eco-Nomix Member shall not appear on or make use of television or radio, or make use of any other media to promote or discuss Eco-Nomix or its programs, products or services without prior written permission from the Eco-Nomix Compliance Department.
-
-                        H. A Member may not produce for sale or distribution any Company event or speech, nor may a Member reproduce Eco-Nomix audio or video clips for sale or for personal use without prior written permission from the Eco-Nomix Compliance Department.
-
-                        I. Eco-Nomix reserves the right to rescind its prior approval of any sales aid or promotional material to comply with changing laws and regulations and may request the removal from the marketplace of such materials without financial obligation to the affected Member.
-
-                        J. A Member shall not promote non-Eco-Nomix products or services in conjunction with Eco-Nomix products or services on the same websites or same advertisement without prior approval from Eco-Nomix Compliance.
-
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>An Eco-Nomix Member must safeguard and promote the good reputation of Eco-Nomix and the products and services it markets. The marketing and promotion of Eco-Nomix, the Eco-Nomix opportunity, the Compensation Plan, and Eco-Nomix products and services will be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct and practices.</li>
+                                <li>All promotional materials supplied or created by Eco-Nomix must be used in their original form and cannot be changed, amended or altered except with prior written approval from the Eco-Nomix Compliance Department.</li>
+                                <li>The name of Eco-Nomix, each of its product and service names and other names that have been adopted by Eco-Nomix in connection with its business are proprietary trade names, trademarks and service marks of Eco-Nomix. As such, these marks are of great value to Eco-Nomix and are supplied to Members for their use only in an expressly authorized manner.</li>
+                                <li>An Eco-Nomix Member’s use of the name “Eco-Nomix” is restricted to protect Eco-Nomix proprietary rights, ensuring that the Eco-Nomix protected names will not be lost or compromised by unauthorized use. Use of the Eco-Nomix name on any item not produced by Eco-Nomix is prohibited except as follows:
+                                    <ol type="I">
+                                        <li>[Member’s name] Independent Eco-Nomix Member</li>
+                                        <li>[Member’s name] Independent Member of Eco-Nomix products and services.</li>
+                                    </ol></li>
+                                <li>Further procedures relating to the use of the Eco-Nomix name are as follows:
+                                    <ol type="I">
+                                        <li>All stationary (i.e. letterhead, envelopes, and business cards) bearing the Eco-Nomix name or logo intended for use by the Member must be approved in writing by the Eco-Nomix Compliance Department.</li>
+                                        <li>Eco-Nomix Members may list “Independent Eco-Nomix Member or Member” in the white pages of the telephone directory under his or her own name.</li>
+                                        <li>Eco-Nomix Members may not use the name Eco-Nomix in answering his or her telephone, creating a voice message or using an answering service, such as to give the impression to the caller that they have reached the corporate office. They may state, “Independent Eco-Nomix Member.”</li>
+                                    </ol></li>
+                                <li>Certain photos and graphic images used by Eco-Nomix in its advertising, packaging, and websites are the result of paid contracts with outside vendors that do not extend to Members. If a Member wants to use these photos or graphic images, they must negotiate individual contracts with the vendors for a fee.</li>
+                                <li>An Eco-Nomix Member shall not appear on or make use of television or radio, or make use of any other media to promote or discuss Eco-Nomix or its programs, products or services without prior written permission from the Eco-Nomix Compliance Department.</li>
+                                <li>A Member may not produce for sale or distribution any Company event or speech, nor may a Member reproduce Eco-Nomix audio or video clips for sale or for personal use without prior written permission from the Eco-Nomix Compliance Department.</li>
+                                <li>Eco-Nomix reserves the right to rescind its prior approval of any sales aid or promotional material to comply with changing laws and regulations and may request the removal from the marketplace of such materials without financial obligation to the affected Member.</li>
+                                <li>A Member shall not promote non-Eco-Nomix products or services in conjunction with Eco-Nomix products or services on the same websites or same advertisement without prior approval from Eco-Nomix Compliance.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
                         9.3 Faxes and E-mail – Limitations
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Except as provided in this section, a Member may not use or transmit unsolicited faxes, email, mass email distribution, or “spamming” that advertises or promotes the operation of his or her Eco-Nomix business. The exceptions are;
+                                    <ol type="I">
+                                        <li>Faxes or e-mailing any person who has given prior permission or invitation;</li>
+                                        <li>Faxing or e-mailing any person with whom the Member has established a prior business or personal relationship.</li>
+                                    </ol></li>
+                                <li>In all States, Provinces or Territories where prohibited by law, a Member may not transmit, or cause to be transmitted through a third party, (by telephone, facsimile, computer or other device), an unsolicited advertisement to any equipment, which has the capacity to transcribe text or images from an electronic signal received over a regular telephone line, cable line, ISDN, T1 or any other signal carrying device, except as set forth in this section.</li>
+                                <li>All faxes, e-mail or computer broadcasted documents subject to this provision shall include each of the following;
+                                    <ol type="I">
+                                        <li>A clear and obvious identification that the fax or e-mail message is an advertisement or solicitation. The words “advertisement” or “solicitation” should appear in the subject line of the message;</li>
+                                        <li>A clear return path or routing information;</li>
+                                        <li>The use of legal and proper domain name;</li>
+                                        <li>A clear and obvious notice of the opportunity to decline to receive further commercial facsimile or e-mail messages from the sender;</li>
+                                        <li>Unsubscribe or opt-out instructions should be the very first text in the body of the message box in the same size text as the majority of the message;</li>
+                                        <li>The true and correct name of the sender, valid senders fax or e-mail address, and a valid sender physical address;</li>
+                                        <li>The date and time of the transmission;</li>
+                                        <li>Upon notification by recipient of his or her request not to receive further faxed or e-mailed documents, an Eco-Nomix Member shall not transmit any further documents to that recipient.</li>
+                                    </ol></li>
+                                <li>All e-mail or computer broadcasted documents subject to this provision shall not include any of the following;
+                                    <ol type="I">
+                                        <li>Use of any third party domain name without permission;</li>
+                                        <li>Sexually explicit materials.</li>
+                                    </ol></li>
+                            </ol>
 
-                        A. Except as provided in this section, a Member may not use or transmit unsolicited faxes, email, mass email distribution, or “spamming” that advertises or promotes the operation of his or her Eco-Nomix business. The exceptions are;
+                        </div>
 
-                        I. Faxes or e-mailing any person who has given prior permission or invitation;
-
-                        II. Faxing or e-mailing any person with whom the Member has established a prior business or personal relationship.
-
-                        B. In all States, Provinces or Territories where prohibited by law, a Member may not transmit, or cause to be transmitted through a third party, (by telephone, facsimile, computer or other device), an unsolicited advertisement to any equipment, which has the capacity to transcribe text or images from an electronic signal received over a regular telephone line, cable line, ISDN, T1 or any other signal carrying device, except as set forth in this section.
-
-                        C. All faxes, e-mail or computer broadcasted documents subject to this provision shall include each of the following;
-
-                        I. A clear and obvious identification that the fax or e-mail message is an advertisement or solicitation. The words “advertisement” or “solicitation” should appear in the subject line of the message;
-
-                        II. A clear return path or routing information;
-
-                        III. The use of legal and proper domain name;
-
-                        IV. A clear and obvious notice of the opportunity to decline to receive further commercial facsimile or e-mail messages from the sender;
-
-                        V. Unsubscribe or opt-out instructions should be the very first text in the body of the message box in the same size text as the majority of the message;
-
-                        VI. The true and correct name of the sender, valid senders fax or e-mail address, and a valid sender physical address;
-
-                        VII. The date and time of the transmission;
-
-                        VIII. Upon notification by recipient of his or her request not to receive further faxed or e-mailed documents, an Eco-Nomix Member shall not transmit any further documents to that recipient.
-
-                        D. All e-mail or computer broadcasted documents subject to this provision shall not include any of the following;
-
-                        I. Use of any third party domain name without permission;
-
-                        II. Sexually explicit materials.
-
+                      
                         9.4 Internet and Third-Party Website Restrictions
 
                         A. A Member may not use or attempt to register any of Eco-Nomix’s trade names, trademarks, service names, service marks, product names, URLs, advertising phrases, the Company’s name or any derivative thereof, for any purpose including, but not limited to, Internet domain names (URL), third party websites, e-mail addresses, web pages, or blogs.

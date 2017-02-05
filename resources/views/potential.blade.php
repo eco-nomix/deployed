@@ -2,7 +2,7 @@
 
 
 
-@@section('content')
+@section('content')
  <div style="position:absolute; top:52px; z-index:-1">
  <div class="container-fluid">
      <div class="row">

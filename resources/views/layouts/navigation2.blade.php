@@ -94,7 +94,6 @@
                         <li><a href="/donations">Donations</a></li>
                         <li><a href="/comparison">Eco-nomix compared to Multi-Level</a></li>
                         <li><a href="/benefits">Member Benefits</a></li>
-                        <li><a href="/autoship">Auto-Ship Policy</a></li>
                     </ul>
                 </li>
                 <li>

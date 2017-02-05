@@ -50,7 +50,7 @@
                          </ol>
                         </div>
                         <div class="form-group col-md-12 ">
-                        1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member<br> <p style="margin-left: 20px"> Agreement</p>
+                        1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member<br> <p style="margin-left: 40px"> Agreement</p>
                         </div>
                         <div class="form-group col-md-12 ">
                          <ol type="A">

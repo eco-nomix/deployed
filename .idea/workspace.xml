@@ -75,8 +75,8 @@
       <file leaf-file-name="policies.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44060475" vertical-offset="1360" max-vertical-offset="34850">
-              <caret line="52" column="145" selection-start-line="52" selection-start-column="145" selection-end-line="52" selection-end-column="145" />
+            <state vertical-scroll-proportion="0.5507559" vertical-offset="1360" max-vertical-offset="34850">
+              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
               <folding>
                 <element signature="e#792#817#0#HTML" expanded="true" />
                 <element signature="e#4513#4538#0#HTML" expanded="true" />
@@ -1165,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44060475" vertical-offset="1360" max-vertical-offset="34850">
-          <caret line="52" column="145" selection-start-line="52" selection-start-column="145" selection-end-line="52" selection-end-column="145" />
+        <state vertical-scroll-proportion="0.5507559" vertical-offset="1360" max-vertical-offset="34850">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
           <folding>
             <element signature="e#792#817#0#HTML" expanded="true" />
             <element signature="e#4513#4538#0#HTML" expanded="true" />

@@ -101,23 +101,18 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         To become a Member, an applicant must comply with the following requirements:
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        I. Be of the age of majority (not a minor) in his or her state of residence;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        II. Reside or have a valid address where materials may be sent;
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        III. Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outside of the US.
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        IV. Submit a properly completed and electronically signed Member Agreement to Eco-Nomix through its website;
+                            <ol type="I">
+                                <li>Be of the age of majority (not a minor) in his or her state of residence.</li>
+                                <li>Reside or have a valid address where materials may be sent.</li>
+                                <li>Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outside of the US.</li>
+                                <li>Submit a properly completed and electronically signed Member Agreement to Eco-Nomix through its website.</li>
+                            </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.2 New Member Registration
                         </div>
                         <div class="form-group col-md-12 ">
+                            <
                         A. A potential new Member will self-enroll on the Sponsor’s website. Eco-Nomix will accept the Web-enrollment and Member Agreement by accepting the “electronic signature” stating the new Member has accepted the Terms and Conditions of such Member Agreement. Please note that such electronic signature constitutes a legally binding agreement between the Member and Eco-Nomix.
                         </div>
                         <div class="form-group col-md-12 ">

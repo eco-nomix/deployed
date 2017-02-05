@@ -301,7 +301,7 @@
                         <div class="form-group col-md-12 ">
                             <ol type="A">
                                     <li>Many cities and counties have laws regulating certain home-based businesses. In most cases, these ordinances do not apply to Members because of the nature of the business.
-                                        <br><br>However, Members must check their local laws and obey the laws that do apply to them.</li>
+                                        <br>However, Members must check their local laws and obey the laws that do apply to them.</li>
                                     <li>An Eco-Nomix Member shall comply with all Federal, State, Provincial and local laws and regulations in their conduct of his or her Eco-Nomix business.</li>
                             </ol>
                         </div>

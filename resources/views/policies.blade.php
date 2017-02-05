@@ -982,7 +982,7 @@
                         <div class="form-group col-md-12 ">
                         15.0 Eco-Nomix GLOSSARY OF TERMS
 
-                        <br> <p style="margin-left: 20px">ACTIVE Member: A Member who is registered and is in compliance with Eco-Nomix Policies and Procedures.</p>
+                        <br><br> <p style="margin-left: 20px">ACTIVE Member: A Member who is registered and is in compliance with Eco-Nomix Policies and Procedures.</p>
 
                         <p style="margin-left: 20px">AGREEMENT: The contract between the Company and each Member; includes the Member Agreement, the Eco-Nomix Policies and Procedures, and theEco-Nomix Compensation Plan, all in their current form and as amended by Eco-Nomix in its sole discretion. These documents are collectively referred to as the “Agreement.”</p>
 

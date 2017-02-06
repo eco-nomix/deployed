@@ -40,7 +40,7 @@
                               The effect is, that your organization keeps growing and growing, and that should represent an ever larger potential income.  This type of growth can be exponential in nature.
                           </div>
                           <div class="form-group col-md-12 ">
-                              Normal growth is sporadic.  You recruit a number of members and every once in a while, you get a 'hot runner'. Someone who really digs in.  Most Members won't do much besides watch other's succeed. But with Eco-nomics it doesn't take all that much to be successful, so even the 'lookers' can help your organization grow.
+                              Normal growth is sporadic.  You recruit a number of members and every once in a while, you get a 'hot runner', someone who really digs in.  Most Members won't do much besides watch other's succeed. But with Eco-nomics it doesn't take all that much to be successful, so even the 'lookers' can help your organization grow.
                           </div>
                           <div class="form-group col-md-12 ">
                               Let's look at a slow growth model.  If each member succeeded in recruiting one new member a month, and they teach their new Members to duplicate what they are doing. The Key to this success if getting the downstream people to do at least what you are doing.  <br><br>

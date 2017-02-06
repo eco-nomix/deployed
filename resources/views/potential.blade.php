@@ -40,6 +40,9 @@
                               The effect is, that your organization keeps growing and growing, and that should represent an ever larger potential income.  This type of growth can be exponential in nature.
                           </div>
                           <div class="form-group col-md-12 ">
+                              Normal growth is sporadic.  You recruit a number of members and every once in a while, you get a 'hot runner'. Someone who really digs in.  Most Members won't do much besides watch other's succeed. But with Eco-nomics it doesn't take all that much to be successful, so even the 'lookers' can help your organization grow.
+                          </div>
+                          <div class="form-group col-md-12 ">
                               Let's look at a slow growth model.  If each member succeeded in recruiting one new member a month, and they teach their new Members to duplicate what they are doing. The Key to this success if getting the downstream people to do at least what you are doing.  <br><br>
 
                               Let's see what would happen.  Month 1 -  just you.   Month 2 -  you and your 1st recruit.  Month 3 -  you + 2 recruits.  But here is the magic.  The 1 recruit from last month, also recruited 1 so you have 1 on the 2nd generation.  This is where the exponential growth starts to kick in.<br><br>
@@ -59,9 +62,9 @@
                               </ul>
                           </div>
                           <div class="form-group col-md-12 ">
-                            At this point lets say your downline active members were averaging $20 per month in purchases from Eco-nomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)
-                               That would be a total of $20,480 in purchases across your organization, and that would generate over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,
-                               but most people if they are interested will recruit not just 1 per month but higher.  Then the numbers get really crazy.
+                            At this point lets say your active downline members were averaging $20 per month in purchases from Eco-nomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)
+                               That would be a total of $20,480 in purchases across your organization, that would generate over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,
+                               but most people if they are interested will recruit not just 1 per month, but higher.  Then the numbers get really crazy.
 
                           </div>
                           <div class="form-group col-md-12 ">

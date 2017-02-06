@@ -53,7 +53,8 @@
                                 <li>Month 4 - 8 total</li>
                                 <li>Month 5 - 16 total</li>
                                 <li>Month 6 - 32 total</li>
-                                <li>Month 7 - 63 total (You are limited to 5 generation of referral fees)</li>
+                                <li>Month 7 - 63 total (You are limited to 5 generation of referral fees)<br>(some are starting to drop off)
+                                </li>
                                 <li>Month 8 - 120 total</li>
                                 <li>Month 9 - 219 total</li>
                                 <li>Month 10 - 382 total</li>

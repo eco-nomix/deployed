@@ -29,7 +29,7 @@
                               People churn because they are loosing money every month, or they aren't making enough to justify the time it is taking to get their organization to the 'payout' level.
                           </div>
                           <div class="form-group col-md-12 ">
-                              In Eco-nomix, why would a member quit?   They have no on-going costs for monthly purchase requirements.  They only purchase what they want or need, and then at a discount. They don't have to spend a lot of time recruiting new members.  It reminds me of getting a grocery store discount card.  Once I have gotten one, I rarely throw it away, just because, I might
+                              In Eco-nomix, why would a member quit?  There is no cost to join or remain a member. They have no on-going costs for monthly purchase requirements.  They only purchase what they want or need, and then at a discount. They don't have to spend a lot of time recruiting new members.  It reminds me of getting a grocery store discount card.  Once I have gotten one, I rarely throw it away, just because, I might
                               need it someday.  If an Eco-nomix member makes a purchase, they are going to have an immediate benefit of a lower purchase price, plus access to products that otherwise would be difficult to find.  That purchase might take place years after they have obtained their membership.
                           </div>
 

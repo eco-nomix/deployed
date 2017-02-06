@@ -65,7 +65,7 @@
                           <div class="form-group col-md-12 ">
                             At this point lets say your active downline members were averaging $20 per month in purchases from Eco-nomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)
                                That would be a total of $20,480 in purchases across your organization, that would generate over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,
-                               but most people if they are interested will recruit not just 1 per month, but higher.  Then the numbers get really crazy.
+                               but most people if they are interested will recruit not just 1 per month, but higher.  Then the numbers could get really crazy.
 
                           </div>
                           <div class="form-group col-md-12 ">

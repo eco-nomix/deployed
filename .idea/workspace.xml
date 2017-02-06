@@ -98,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.15060908" vertical-offset="1734" max-vertical-offset="3332">
-              <caret line="55" column="112" selection-start-line="55" selection-start-column="112" selection-end-line="55" selection-end-column="112" />
+              <caret line="55" column="163" selection-start-line="55" selection-start-column="163" selection-end-line="55" selection-end-column="163" />
               <folding />
             </state>
           </provider>
@@ -1214,7 +1214,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15060908" vertical-offset="1734" max-vertical-offset="3332">
-          <caret line="55" column="112" selection-start-line="55" selection-start-column="112" selection-end-line="55" selection-end-column="112" />
+          <caret line="55" column="163" selection-start-line="55" selection-start-column="163" selection-end-line="55" selection-end-column="163" />
           <folding />
         </state>
       </provider>

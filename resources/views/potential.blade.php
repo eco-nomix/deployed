@@ -43,7 +43,7 @@
                               Normal growth is sporadic.  You recruit a number of members and every once in a while, you get a 'hot runner', someone who really digs in.  Most Members won't do much besides watch other's succeed. But with Eco-nomics it doesn't take all that much to be successful, so even the 'lookers' can help your organization grow.
                           </div>
                           <div class="form-group col-md-12 ">
-                              Let's look at a slow growth model.  If each member succeeded in recruiting one new member a month, and they teach their new Members to duplicate what they are doing. The Key to this success if getting the downstream people to do at least what you are doing.  <br><br>
+                              Let's look at a slow growth model.  If each member succeeded in recruiting one new member a month, and they teach their new Members to duplicate what they are doing. The Key to this success is getting the downstream people to do at least what you are doing.  <br><br>
 
                               Let's see what would happen.  Month 1 -  just you.   Month 2 -  you and your 1st recruit.  Month 3 -  you + 2 recruits.  But here is the magic.  The 1 recruit from last month, also recruited 1 so you have 1 on the 2nd generation.  This is where the exponential growth starts to kick in.<br><br>
                               <ul>

@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.22591361" vertical-offset="476" max-vertical-offset="1870">
-              <caret line="20" column="127" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
+              <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -1214,7 +1214,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22591361" vertical-offset="476" max-vertical-offset="1870">
-          <caret line="20" column="127" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
+          <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
           <folding />
         </state>
       </provider>

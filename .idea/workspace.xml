@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/potential.blade.php" afterPath="$PROJECT_DIR$/resources/views/potential.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/returns.blade.php" afterPath="$PROJECT_DIR$/resources/views/returns.blade.php" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,21 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="potential.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="potential.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32225913" vertical-offset="1239" max-vertical-offset="3332">
-              <caret line="45" column="222" selection-start-line="45" selection-start-column="222" selection-end-line="45" selection-end-column="222" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="3332">
+              <caret line="39" column="204" selection-start-line="39" selection-start-column="204" selection-end-line="39" selection-end-column="204" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="returns.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="returns.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1802">
-              <caret line="21" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.22591361" vertical-offset="476" max-vertical-offset="1870">
+              <caret line="20" column="127" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -236,10 +236,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/memberterms.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/returns.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/policies.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/navigation2.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/potential.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/returns.blade.php" />
       </list>
     </option>
   </component>
@@ -253,8 +253,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6.2" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3817" />
-    <option name="y" value="356" />
+    <option name="x" value="-3867" />
+    <option name="y" value="-117" />
     <option name="width" value="1905" />
     <option name="height" value="1046" />
   </component>
@@ -673,7 +673,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3817" y="356" width="1905" height="1046" extended-state="0" />
+    <frame x="-3867" y="-117" width="1905" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1145,14 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1802">
-          <caret line="21" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/policies.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769" vertical-offset="15980" max-vertical-offset="34816">
@@ -1213,8 +1205,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32225913" vertical-offset="1239" max-vertical-offset="3332">
-          <caret line="45" column="222" selection-start-line="45" selection-start-column="222" selection-end-line="45" selection-end-column="222" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="3332">
+          <caret line="39" column="204" selection-start-line="39" selection-start-column="204" selection-end-line="39" selection-end-column="204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/returns.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22591361" vertical-offset="476" max-vertical-offset="1870">
+          <caret line="20" column="127" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
           <folding />
         </state>
       </provider>

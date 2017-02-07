@@ -17,7 +17,7 @@
 
                              <ol type="A">
                              <li>Eco-Nomix offers a one hundred percent (100%) thirty-day money back guarantee for all non customized products.</li>
-                             <li>Any product paid for with a credit or debit card, the returned amount shall be credited to that same Card</li>
+                             <li>Any product paid for with a credit or debit card, the returned amount shall be credited to that same Card.</li>
                              <li>Any product paid for with Referral Bonuses will be credited back to the same Referral Bonus account.  </li>
                              <li>With respect to return of Sales Aids, Eco-Nomix offers various refund opportunities depending on the product or service purchased.  Shipping and handling charges incurred will not be refunded.</li>
                              <li>Customized products (such as business cards and or Payroll Debit Cards) may only be returned if the customized information (name, address, etc) is other than as ordered. </li>

@@ -8,6 +8,7 @@ class ShoppingCartItems extends Model
 {
     //
     protected $table = 'shopping_cart_items';
+    protected $fillable = ['shopping_cart_id', 'product_id', 'quantity', 'transaction_processing'];
 
     protected $primaryKey = 'id';
 

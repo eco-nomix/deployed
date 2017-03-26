@@ -13,6 +13,11 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
+Route::get('/HPP.html',function()
+{
+    return View::make("hpp");
+});
+
 
 Route::get('/sitemap', function()
 {

@@ -7,6 +7,7 @@
 <div class="container-fluid">
    <div class="pagecontainer"><img src="/images/On-Line Accounting.jpg" style="width:1000px;"></div>
 
+
     {{--<div class="row">--}}
         {{--<div class="col-md-8 col-md-offset-2">--}}
             {{--<div class="panel panel-default display">--}}

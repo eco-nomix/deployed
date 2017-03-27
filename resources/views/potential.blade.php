@@ -3,7 +3,7 @@
 @section('content')
  <div style="position:absolute; top:52px; z-index:-1">
  <div class="container-fluid">
-  <div class="pagecontainer"><img src="/images/Potentials.png" style="width:1000px;">
+  <div class="pagecontainer"><img src="/images/Potentials-small.png" style="width:1000px;">
    <div class="trim"><img src="/images/5 Levels.jpg" style="width:1000px;"></div></div>
 
      {{--<div class="row">--}}

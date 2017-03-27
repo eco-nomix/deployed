@@ -6,7 +6,7 @@
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
 <div class="container-fluid">
-    <div class="pagecontainer"><img src="/images/Limitations.jpg" style="width:1000px;"></div>
+    <div class="pagecontainer"><img src="/images/Limitations-small.jpg" style="width:1000px;"></div>
 
 
     {{--<div class="row">--}}

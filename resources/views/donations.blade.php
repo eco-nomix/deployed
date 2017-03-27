@@ -6,7 +6,7 @@
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
 <div class="container-fluid">
-    <div class="pagecontainer"><img src="/images/Donations.jpg" style="width:1000px;"></div>
+    <div class="pagecontainer"><img src="/images/Donations-small.jpg" style="width:1000px;"></div>
 
     {{--<div class="row">--}}
         {{--<div class="col-md-8 col-md-offset-2">--}}

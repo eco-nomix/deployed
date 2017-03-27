@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39750657-47ea-4536-9dc1-a70a54ef1d6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/accounting.blade.php" afterPath="$PROJECT_DIR$/resources/views/accounting.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/benefits.blade.php" afterPath="$PROJECT_DIR$/resources/views/benefits.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/businesscards.blade.php" afterPath="$PROJECT_DIR$/resources/views/businesscards.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/comparison.blade.php" afterPath="$PROJECT_DIR$/resources/views/comparison.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/debitcards.blade.php" afterPath="$PROJECT_DIR$/resources/views/debitcards.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/discount.blade.php" afterPath="$PROJECT_DIR$/resources/views/discount.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/donations.blade.php" afterPath="$PROJECT_DIR$/resources/views/donations.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/limitations.blade.php" afterPath="$PROJECT_DIR$/resources/views/limitations.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/membercost.blade.php" afterPath="$PROJECT_DIR$/resources/views/membercost.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/potential.blade.php" afterPath="$PROJECT_DIR$/resources/views/potential.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/productsSum.blade.php" afterPath="$PROJECT_DIR$/resources/views/productsSum.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/referral.blade.php" afterPath="$PROJECT_DIR$/resources/views/referral.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/referrallinks.blade.php" afterPath="$PROJECT_DIR$/resources/views/referrallinks.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/requirements.blade.php" afterPath="$PROJECT_DIR$/resources/views/requirements.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/startup.blade.php" afterPath="$PROJECT_DIR$/resources/views/startup.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/transfers.blade.php" afterPath="$PROJECT_DIR$/resources/views/transfers.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="economix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="potential.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="potential.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3434">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.33887044" vertical-offset="0" max-vertical-offset="3434">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -133,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transfers.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="transfers.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/transfers.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30121815" vertical-offset="0" max-vertical-offset="2142">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
               <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
@@ -200,13 +184,13 @@
         <option value="$PROJECT_DIR$/resources/views/donations.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/limitations.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/membercost.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/potential.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/productsSum.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/referral.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/referrallinks.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/requirements.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/startup.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/transfers.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/potential.blade.php" />
       </list>
     </option>
   </component>
@@ -675,7 +659,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1909" y="-219" width="1905" height="1046" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1086,14 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3434">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/productsSum.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
@@ -1136,8 +1112,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/transfers.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30121815" vertical-offset="0" max-vertical-offset="2142">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/potential.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33887044" vertical-offset="0" max-vertical-offset="3434">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>

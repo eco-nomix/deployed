@@ -5,7 +5,7 @@ $.ajaxSetup({
 });
 $(document).ready(function(){
 
-    $('.viewcart').click(function(event){
+    $('.addcart').dblclick(function(event){
         window.location.href = "/shoppingcart";
     });
 
@@ -13,24 +13,29 @@ $(document).ready(function(){
 
         var productId = $(this).attr('data-id');
         var userId = $(this).attr('data-userid');
-        var myData = {
-            productId: productId,
-            userId: userId
+        if (userId == '' || !userId) {
+            alert('You must be logged in to add to your cart');
+        }
+        else {
+
+            var myData = {
+                productId: productId,
+                userId: userId
+            };
+            $.ajax({
+                type: 'POST',
+                data: myData,
+                url: '/addcart',
+                dataType: 'json',
+                success: function (data) {
+                    $('#cartcount').text(data['itemCount']);
+                },
+                error: function (xhr, status, error) {
+
+                }
+            });
+
         };
-        $.ajax({
-            type: 'POST',
-            data: myData,
-            url: '/addcart',
-            dataType: 'json',
-            success: function (data) {
-                $('#cartcount').text(data['itemCount']);
-            },
-            error: function (xhr, status, error) {
-
-            }
-        });
-
-
     });
 
     $('#NameSearch').change(function(event){

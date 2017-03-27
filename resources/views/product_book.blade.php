@@ -7,12 +7,7 @@
      <div class="row">
          <div class="col-md-11 col-md-offset-1">
              <div class="panel panel-default display">
-                 <div class="panel-heading">{{$Product->product_name}}
-                        <span data-id="{{$Product->id}}" data-userid="{{$user_id}}" class="pull-right viewcart">View Shopping Cart</span>
-                        <span data-id="{{$Product->id}}" data-userid="{{$user_id}}" class="pull-right addcart col-md-4">Add to Shopping Cart<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span>
-                            {{--<span class="col-md-2"> </span>--}}
-
-                 </div>
+                 <div class="panel-heading">{{$Product->product_name}}<span title="single-click to add; double-click to view" data-id="{{$Product->id}}" data-userid="{{$user_id}}" class="pull-right addcart">+<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span></div>
                  <div class="panel-body">
                         <div class="form-group col-md-12 ">
                              {{$Product->description}}
@@ -35,10 +30,12 @@
                                             </th>
                                             <td class="my200">
                                                 Retail :<br>
+                                                Non-Member:<br>
                                                 Member:
                                             </td>
                                             <td>
                                                 ${{$Product->retail}}<br>
+                                                ${{$Product->non_member}}<br>
                                                 ${{$Product->member}}
                                             </td>
 

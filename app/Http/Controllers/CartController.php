@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Users;
-use App\Models\TempUsers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Models\Products;
@@ -16,89 +15,38 @@ use App\Models\SalesTransactions;
 use App\Models\SalesTransactionDetails;
 use App\Models\CommissionLevel;
 use App\Models\Bonuses;
-use Cookie;
 
 class CartController extends Controller
 {
     public function addToCart(Request $request)
     {
-        \Log::info("addToCart  cartcontroller");
-        $userIds = $this->getUserIds($request);
-        $userId = $userIds['userId'];
-        $tempId = $userIds['tempId'];
-
-        \Log::info("addto cart for userId=$userId tempId=$tempId");
+        $username = $request->session()->get('user_name');
+        $userId = $request->session()->get('user_id');
+        \Log::info("addto cart for $userId");
         $productId = $request->input('productId');
-        $shoppingCart = $this->getShoppingCart($userId, $tempId, $request);
+        $shoppingCart = $this->getShoppingCart($userId);
         \Log::info("shoppingcart = $shoppingCart->id");
-        $request->session()->set('shoppingCartId',$shoppingCart->id);
-        $itemCount = $shoppingCart->addToCart($productId,$shoppingCart);
+        $itemCount = $shoppingCart->addToCart($userId, $productId);
         \Log::info("itemCount=$itemCount");
         return json_encode(['itemCount' => $itemCount]);
     }
 
-    public function getUserIds(Request $request)
+    public function getShoppingCart($userId)
     {
-        $tempId = null;
-        $username = $request->session()->get('user_name');
-        $userId = $request->session()->get('user_id');
-        $tempId = $request->session()->get('ecotempid');
-        \Log::info("getUserIds  tempId=$tempId");
-        $user = Users::find($userId);
-        if(!$tempId) {
-            $tempId = $request->cookie('ecotempid');
-        }
-        \Log::info("tempId=$tempId");
-        if(!$tempId){
-            $tempUser = new TempUsers;
-            $tempUser->first_name = 'temp';
-            $tempUser->save();
-            \Log::info($tempUser);
-            $tempId = $tempUser->id;
-            $request->cookie('ecotempid', $tempId);
-            $request->session()->set('ecotempid',$tempId);
-            \Log::info("cookie added tempId=$tempId");
-        }
-        \Log::info("getUserId for userId=$userId tempId=$tempId");
-        $productId = $request->input('productId');
-        return ['userId'=>$userId,
-            'tempId'=>$tempId];
-    }
-    public function getShoppingCart($userId, $tempId, Request $request)
-    {
-        \Log::info("in getShoppingCart in cartController.");
-        $shoppingCart = null;
-        \Log::info("in getShoppingCart in ShoppingCarts. userId=$userId  tempId=$tempId");
-        if($userId) {
-            $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
-        }
-        if(!$shoppingCart){
-            \Log::info("no shopping cart for user_id = $userId");
-            $shoppingCart = ShoppingCarts::where('temp_user_id', $tempId)->first();
-        }
+        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
         if (!$shoppingCart) {
-            \Log::info("no shopping cart for tempId = $tempId");
             $shoppingCart = new ShoppingCarts;
             $shoppingCart->user_id = $userId;
-            $shoppingCart->temp_user_id = $tempId;
             $shoppingCart->save();
-            \Log::info("new Cart created");
         }
-        else{
-            \Log::info("shoppingCart $shoppingCart->id for $tempId");
-        }
-        $request->session()->set('shoppingCart',$shoppingCart);
         return $shoppingCart;
     }
 
     public function viewCart(Request $request)
     {
-        $userIds = $this->getUserIds($request);
-        $shoppingCart = $this->getShoppingCart($userIds['userId'], $userIds['tempId'], $request);
-
         $data = $this->userData($request);
-        $data = $this->loadShoppingCart($shoppingCart, $data, $request);
-        $data = $this->loadShipping($data['user_id'], $userIds['tempId'],$data, $request);
+        $data = $this->loadShoppingCart($data['user_id'], $data);
+        $data = $this->loadShipping($data['user_id'], $data, $request);
         $request->session()->set('totalPrice', $data['totalPrice']);
         $request->session()->set('totalWeight', $data['totalWeight']);
         $request->session()->set('totalWeightShipping', $data['totalWeightShipping']);
@@ -117,7 +65,6 @@ class CartController extends Controller
         $data['username'] = $request->session()->get('username');
         $username = $request->session()->get('user_name');
         $roles = $request->session()->get('userRoles');
-
         \Log::info("username = $username");
         $data['user_id'] = $request->session()->get('user_id');
         $user = Users::find($data['user_id']);
@@ -136,26 +83,23 @@ class CartController extends Controller
         return $data;
     }
 
-    public function loadShoppingCart($shoppingCart, $data, Request $request)
+    public function loadShoppingCart($userId, $data)
     {
         $result = "<tr><td></td><td colspan='2'  class='text-center'>item</td><td  class='text-center'>quantity</td><td  class='text-center'>Unit Price</td><td  class='text-center'>Ext. Price</td><td class='text-center'>Weight</td></tr>";
+        \Log::info("userid=$userId");
         $userRoles = $data['userRoles'];
-        if (is_array($userRoles)){
-            $member = $userRoles[1];
-        }else{
-            $member = 'no';
-        }
+
+        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
         $items = $this->getProducts($shoppingCart);
         $totalPrice = 0;
         $payPrice = 0;
         $totalWeight = 0;
-        $totalSavings = 0;
         $totalItems = 0;
         $totalShipping = 0;
         foreach ($items as $item) {
-            $price = ($member=='yes') ? $item->member : $item->retail;
+            $price = ($userRoles[1] == 'yes') ? $item->member : $item->non_member;
             $extPrice = $price * $item->quantity;
-            $memberExt = $item->member * $item->quantity;
+
             $disExtPrice = number_format($extPrice, 2);
             $extWeight = $item->shipping_weight * $item->quantity;
             $extShipping = $item->shipping_handling * $item->quantity;
@@ -169,8 +113,6 @@ class CartController extends Controller
             $result .= "<td class='text-center'>$extWeight</td>";
             $result .= "</tr>";
             $totalPrice += $extPrice;
-            $totalSavings += $extPrice - $memberExt;
-
             $totalWeight += $extWeight;
             $totalItems += $item->quantity;
             $totalShipping += $extShipping;
@@ -186,8 +128,6 @@ class CartController extends Controller
         $data['shoppingCart'] = $result;
         $data['totalPrice'] = $totalPrice;
         $data['totalWeight'] = $totalWeight;
-        $data['totalSavings'] = $totalSavings;
-
         $data['payPrice'] = $payPrice;
         $data['totalShipping'] = $totalShipping;
         return $data;
@@ -196,7 +136,7 @@ class CartController extends Controller
     public function getProducts($shoppingCart)
     {
 
-        $items = ShoppingCartItems::select('shopping_cart_items.*', 'products.member', 'products.retail', 'products.shipping_weight', 'products.image', 'products.product_name', 'products.description', 'products.Author', 'products.pay_bonus')
+        $items = ShoppingCartItems::select('shopping_cart_items.*', 'products.member', 'products.non_member', 'products.shipping_weight', 'products.image', 'products.product_name', 'products.description', 'products.Author', 'products.pay_bonus')
             ->join('products', 'products.id', '=', 'shopping_cart_items.product_id')
             ->where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
             ->where('shopping_cart_items.transaction_processing', '<', 3)
@@ -211,11 +151,10 @@ class CartController extends Controller
 
     public function updateItems($shoppingCart)
     {
-        if ($shoppingCart) {
-            $items = ShoppingCartItems::where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
-                ->where('shopping_cart_items.transaction_processing', '=', 1)
-                ->update(['transaction_processing' => 2]);
-        }
+        $items = ShoppingCartItems::where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
+            ->where('shopping_cart_items.transaction_processing', '=', 1)
+            ->update(['transaction_processing'=>2]);
+
     }
 
     public function processApprovedItems($shoppingCart)
@@ -257,44 +196,18 @@ class CartController extends Controller
         return json_encode('ok');
     }
 
-    public function loadShipping($userId, $tempId, $data, $request)
+    public function loadShipping($userId, $data, $request)
     {
         $user = Users::find($userId);
-        if($user){
-            $firstName = $user->first_name;
-            $lastName = $user->last_name;
-            $add1 = $user->add1;
-            $add2 = $user->add2;
-            $city = $user->city;
-            $state = $user->state;
-            $postalCode = $user->postal_code;
-            $results = "<tr>";
-            $results .= "<td class=>Shipping Address:</td>";
-            $results .= "<td class=><div class='inline'>";
-            $results .= "$firstName $lastName<br>$add1<br>";
-            if ($add2 > '') {
-                $results .= "$add2<br>";
-            }
-            $results .= "$city, $state<br>$postalCode";
-            $results .= "</div></td>";
+        $results = "<tr>";
+        $results .= "<td class='noBorder'>Shipping Address:</td>";
+        $results .= "<td class='noBorder'><div class='inline'>";
+        $results .= "$user->first_name $user->last_name<br>$user->addr1<br>";
+        if ($user->addr2 > '') {
+            $results .= "$user->addr2<br>";
         }
-        else{
-            $tempUser = TempUsers::find($tempId);
-
-            $results = "<tr><td colspan='3' class='noBorder'>";
-            $results .= "<table>";
-            $results .= "<tr><td width='100' style='text-align:right;'>First Name&nbsp;</td><td><input name='first_name' style='width:400px;' value='".$tempUser->first_name."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>Last Name&nbsp;</td><td><input name='last_name' style='width:400px;' value='".$tempUser->last_name."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>Address 1&nbsp;</td><td><input name='addr1' style='width:400px;' value='".$tempUser->addr1."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>Address 2&nbsp;</td><td><input name='addr2' style='width:400px;' value='".$tempUser->addr2."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>City&nbsp;</td><td><input name='city' style='width:400px;' value='".$tempUser->city."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>State&nbsp;</td><td><input name='state' style='width:400px;' value='".$tempUser->state."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>Country&nbsp;</td><td><input name='country' style='width:400px;' value='".$tempUser->country."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>Postal Code&nbsp;</td><td><input name='postal_code' style='width:400px;' value='".$tempUser->postal_code."'></td></tr>";
-            $results .= "<tr><td width='100' style='text-align:right;'>email&nbsp;</td><td><input name='email' style='width:400px;' value='".$tempUser->email."'></td></tr>";
-            $results .= "</td></table>";
-        }
-
+        $results .= "$user->city, $user->state<br>$user->postal_code";
+        $results .= "</div></td>";
         $shippingadd = $request->input('shippingadd');
         $results .= "<td class='noBorder'>" . $this->shippingAddresses($user,$shippingadd) . "</td>";
         $results .= "<td class='noBorder'>" . $this->shippingMethod($request) . "</td>";
@@ -340,14 +253,9 @@ class CartController extends Controller
         $data = $this->userData($request);
         $roles = $request->session()->get('userRoles');
         $data['userRoles'] = $roles;
-        $userIds = $this->getUserIds($request);
-        $shoppingCart = $this->getShoppingCart($userIds['userId'], $userIds['tempId'], $request);
-
-        $data = $this->loadShoppingCart($shoppingCart, $data, $request);
+        $data = $this->loadShoppingCart($data['user_id'], $data);
         $request->session()->set('shippingId',$shipping->id);
-        if($userIds['userId']>0) {
-            $data = $this->loadSelShipping($data['user_id'], $data, $request, $shipping->id);
-        }
+        $data = $this->loadSelShipping($data['user_id'], $data, $request, $shipping->id);
         $request->session()->set('totalPrice', $data['totalPrice']);
         $request->session()->set('totalWeight', $data['totalWeight']);
         $request->session()->set('totalWeightShipping', $data['totalWeightShipping']);
@@ -356,8 +264,6 @@ class CartController extends Controller
         $request->session()->set('grandTotal', $data['grandTotal']);
         return view('shoppingcart', $data);
     }
-
-
 
     public function loadSelShipping($userId, $data, $request, $shipping_id)
     {
@@ -399,10 +305,7 @@ class CartController extends Controller
         }
 
             $data = $this->userData($request);
-            $userIds = $this->getUserIds($request);
-            $shoppingCart = $this->getShoppingCart($userIds['userId'], $userIds['tempId'],$request);
-
-            $data = $this->loadShoppingCart($shoppingCart, $data, $request);
+            $data = $this->loadShoppingCart($data['user_id'], $data);
             if($shippingId == 0) {
                 $data = $this->loadShipping($data['user_id'], $data, $request);
             }else{
@@ -422,20 +325,17 @@ class CartController extends Controller
     public function shippingAddresses($user, $shippingadd)
     {
         //huh?
-        if ($user) {
-            $results = "<select name='ShippingAddress' onchange='updateAddress(this)'>";;
-            if ($user->addr1 > '') {
-                $results .= "<option value='0'>User Address</option>";
-            }
-            $shippingaddresses = ShippingAddresses::where('user_id', $user->id)->get();
-            foreach ($shippingaddresses as $shippingaddress) {
-                $selected = ($shippingaddress->id == $shippingadd) ? 'selected' : '';
-                $results .= "<option value='$shippingaddress->id' $selected>$shippingaddress->shipping_name $shippingaddress->city</option>";
-            }
-            $results .= "<option value='-1'>Add New Address</option>";
-            return $results;
+        $results = "<select name='ShippingAddress' onchange='updateAddress(this)'>";;
+        if ($user->addr1 > '') {
+            $results .= "<option value='0'>User Address</option>";
         }
-        return '';
+        $shippingaddresses = ShippingAddresses::where('user_id', $user->id)->get();
+        foreach ($shippingaddresses as $shippingaddress) {
+            $selected = ($shippingaddress->id == $shippingadd)?'selected':'';
+            $results .= "<option value='$shippingaddress->id' $selected>$shippingaddress->shipping_name $shippingaddress->city</option>";
+        }
+        $results .= "<option value='-1'>Add New Address</option>";
+        return $results;
     }
 
 
@@ -460,9 +360,7 @@ class CartController extends Controller
     public function purchase(Request $request)
     {
         $userId = $request->session()->get('user_id');
-        $tempId = $request->session()->get('ecotempid');
-        $this->updateTempUser($tempId,$request);
-        $shoppingCart = $request->session()->get('shoppingCart');
+        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
         $items = $this->updateItems($shoppingCart);
         $data = $this->userData($request);
         $data['totalPrice'] = $request->session()->get('totalPrice');
@@ -477,33 +375,6 @@ class CartController extends Controller
         $request->session()->set('transactionTotalShipping', $request->session()->get('totalShipping'));
         $data['totalShipping'] = $request->session()->get('totalShipping');
         return view('purchase', $data);
-    }
-
-    private function updateTempUser($tempId, Request $request)
-    {
-
-       if($tempId){
-           $tempUser = TempUsers::find($tempId);
-           if($tempUser){
-               if($request['last_name']) {
-                   $tempUser->first_name = $request['first_name'];
-                   $tempUser->last_name = $request['last_name'];
-                   $tempUser->addr1 = $request['addr1'];
-                   $tempUser->addr2 = $request['addr2'];
-                   $tempUser->city = $request['city'];
-                   $tempUser->state = $request['state'];
-                   $tempUser->country = $request['country'];
-                   $tempUser->postal_code = $request['postal_code'];
-                   $tempUser->email = $request['email'];
-              }
-               $userId = $request->session()->get('user_id');
-               if ($userId) {
-                   $tempUser->user_id = $userId;
-               }
-               $tempUser->save();
-
-           }
-       }
     }
 
     public function checkPurchase(Request $request)
@@ -573,31 +444,12 @@ class CartController extends Controller
         $salesTransaction->payment_type = $approved['pay_method'];
         $salesTransaction->transaction_approval_code = $approved['approval_code'];
         $salesTransaction->transaction_approval_date = $approved['date'];
-        if($user){
-            $salesTransaction->first_id = $user->sponsor_id;
-            $salesTransaction->second_id = $user->second_id;
-            $salesTransaction->third_id = $user->third_id;
-            $salesTransaction->fourth_id = $user->fourth_id;
-            $salesTransaction->fifth_id = $user->fifth_id;
-
-
-        }
-        if($request->session()->get('shippingId')) {
-            $salesTransaction->shipping_id = $request->session()->get('shippingId');
-        }else{
-            $tempId = $request->session()->get('ecotempid');
-            $shipping = new ShippingAddresses;
-            $shipping->temp_id = $tempId;
-            $shipping->shipping_name = $request['first_name']." ".$request['last_name'];
-            $shipping->shipping_addr1 = $request['addr1'];
-            $shipping->shipping_addr2 = $request['addr2'];
-            $shipping->city = $request['city'];
-            $shipping->state = $request['state'];
-            $shipping->country = $request['country'];
-            $shipping->postal_code = $request['postal_code'];
-            $shipping->save();
-            $salesTransaction->shipping_id = $shipping->id;
-        }
+        $salesTransaction->first_id = $user->sponsor_id;
+        $salesTransaction->second_id = $user->second_id;
+        $salesTransaction->third_id = $user->third_id;
+        $salesTransaction->fourth_id = $user->fourth_id;
+        $salesTransaction->fifth_id = $user->fifth_id;
+        $salesTransaction->shipping_id = $request->session()->get('shippingId');
         $salesTransaction->save();
         $this->updateSalesDetails($salesTransaction, $items, $roles);
         $this->updateBonuses($salesTransaction, $user,$roles);
@@ -607,13 +459,11 @@ class CartController extends Controller
 
     public function updateBonuses($sales, $user)
     {
-        if($user) {
-            $this->addBonus($user->id, $sales->id, $user->sponsor_id, $sales->pay_bonus_on_amt, 1);
-            $this->addBonus($user->id, $sales->id, $user->second_id, $sales->pay_bonus_on_amt, 2);
-            $this->addBonus($user->id, $sales->id, $user->third_id, $sales->pay_bonus_on_amt, 3);
-            $this->addBonus($user->id, $sales->id, $user->fourth_id, $sales->pay_bonus_on_amt, 4);
-            $this->addBonus($user->id, $sales->id, $user->fifth_id, $sales->pay_bonus_on_amt, 5);
-        }
+        $this->addBonus($user->id, $sales->id, $user->sponsor_id, $sales->pay_bonus_on_amt, 1);
+        $this->addBonus($user->id, $sales->id, $user->second_id, $sales->pay_bonus_on_amt, 2);
+        $this->addBonus($user->id, $sales->id, $user->third_id, $sales->pay_bonus_on_amt, 3);
+        $this->addBonus($user->id, $sales->id, $user->fourth_id, $sales->pay_bonus_on_amt, 4);
+        $this->addBonus($user->id, $sales->id, $user->fifth_id, $sales->pay_bonus_on_amt, 5);
     }
 
     public function addBonus($purchaser_id, $transaction_id, $payee_user_id, $pay_amount, $level)

@@ -4,9 +4,7 @@ use Mail;
 use Crypt;
 use Illuminate\Http\Request;
 use App\Models\Users;
-use App\Models\TempUsers;
 use App\Models\Products;
-use App\Models\ShoppingCarts;
 use App\Models\UserRoles;
 use App\Models\SalesTransactions;
 use App\Models\RegionStates;
@@ -16,7 +14,6 @@ use App\Models\CommissionLevel;
 use App\http\Controllers\Organization;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\CartController;
 use Cookie;
 
 class AuthenticationController extends Controller
@@ -75,21 +72,7 @@ class AuthenticationController extends Controller
             $request->session()->set('username', $username);
             $request->session()->set('user_id', $user->id);
             $request->session()->set('user_link',$user->user_link);
-            $ecoId    = $request->cookie('ecoId');
-            $tempId = $request->session()->get('ecotempid');
-            \Log::info("getUserIds  tempId=$tempId");
-            if(!$tempId) {
-                $tempId = $request->cookie('ecotempid');
-                $request->session()->set('ecotempid',$tempId);
-            }
-            if($tempId){
-                $cart = ShoppingCarts::where('temp_user_id',$tempId)->first();
-                if($cart){
-                    $cart->user_id =$user->id;
-                    $cart->save();
-                }
-            }
-            Cookie::queue('ecoId', $user->id, 2628000);
+
             if($user->member == 5) {
                 return $this->finishMemberLogin($user, $request);
             }
@@ -159,10 +142,7 @@ class AuthenticationController extends Controller
         $request->session()->set('user_id', $user->id);
         $request->session()->set('userRoles',$roles);
         $request->session()->save();
-        if($request->session()->get('totalPrice')>0){
-            $cart = new CartController;
-            return $cart->viewCart($request);
-        }
+
         $data = $this->basedata($request);
         $refLink = $data['referral_link'];
         \Log::info("referralLink=$refLink");
@@ -328,12 +308,31 @@ class AuthenticationController extends Controller
                 $user->country = $country;
                 $user->postal_code = $postalCode;
                 $user->social_security = $socialSecurity;
-                $user->member = 5;
+                $user->member = 3;
                 $user->region_id = $regionId;
                 $user->save();
             }
-
-            return $this->memberConfirmed($user, $request);
+            if($payMethod == 'Mail'){
+                $data['username'] = $user->first_name.' '.$user->last_name;
+                $data['user_name'] = $user->first_name.' '.$user->last_name;
+                $data['user_id'] = $user->id;
+                $data['userRoles'] = $this->getUserRoles($user->id);
+                $data['userId'] = $user->id;
+                $data['title'] = '';
+                $data['description'] = 'Mail';
+                \Log::info("exit 1");
+                $user->member = 4;
+                $user->save();
+                return view('awaiting_payment',$data);
+            }
+            $data = $this->basedata($request);
+            $data['username'] = '';
+            $data['user_name'] = '';
+            $data['userRoles'] = $this->getUserRoles('x');
+            $data['user_id'] = '';
+            $data['title'] = '';
+            \Log::info("exit 1");
+            return view('payment',$data);
         }
     }
 
@@ -588,8 +587,8 @@ class AuthenticationController extends Controller
         $data['user_name'] = $username;
         $data['user_id'] = $user->id;
         $data['username'] = $username;
-        $data['email'] = $user->email;
-
+         $data['email'] = $user->email;
+        \Log::info("already a full member");
         return view('registration_complete',$data);
     }
 

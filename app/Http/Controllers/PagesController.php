@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Users;
-use App\Models\TempUsers;
 use App\Models\ProductGroups;
 use App\Models\Products;
 use App\Models\UserStores;
@@ -451,43 +450,11 @@ class PagesController extends Controller
 
     }
 
-    public function getUserIds(Request $request)
-    {
-        $tempId = null;
-        $username = $request->session()->get('user_name');
-        $userId = $request->session()->get('user_id');
-        $tempId = $request->session()->get('ecotempid');
-        \Log::info("getUserIds  tempId=$tempId");
-        $user = Users::find($userId);
-        if(!$tempId) {
-            $tempId = $request->cookie('ecotempid');
-        }
-        \Log::info("tempId=$tempId");
-        if(!$tempId){
-            $tempUser = new TempUsers;
-            $tempUser->first_name = 'temp';
-            $tempUser->save();
-            \Log::info($tempUser);
-            $tempId = $tempUser->id;
-            $request->cookie('ecotempid', $tempId);
-            $request->session()->set('ecotempid',$tempId);
-            \Log::info("cookie added tempId=$tempId");
-        }
-        \Log::info("getUserId for userId=$userId tempId=$tempId");
-        $productId = $request->input('productId');
-        return ['userId'=>$userId,
-            'tempId'=>$tempId];
-    }
-
     public function itemCount(Request $request)
     {
-        $userIds = $this->getUserIds($request);
-        $userId = $userIds['userId'];
-        $tempId = $userIds['tempId'];
-
-        $cart = new ShoppingCarts;
-        $shoppingCart = $cart->getShoppingCart($userId, $tempId);
-        return $shoppingCart->getItemCount($shoppingCart);
+        $userId = $request->session()->get('user_id');
+        $shoppingCart = new ShoppingCarts;
+        return $shoppingCart->getItemCount($userId);
     }
     public function limitations(Request $request)
     {

@@ -243,3 +243,23 @@ td {
     width:70px;
     max-width:70px;
 }
+
+.trim{
+    max-height:900px;
+    overflow:hidden;
+}
+
+.pagecontainer {
+    max-height:92%;
+    overflow:auto;
+    text-align:center;
+    z-index:2;
+    width:100%;
+    position:fixed;
+
+}
+
+.pageoverlay {
+    z-index:10;
+    position:relative;
+}

@@ -31,6 +31,7 @@ class ShoppingCarts extends Model
         if(!$cartId){
             return 0;
         }
-        return ShoppingCartItems::where('shopping_cart_id',$cartId->id)->count();
+        return ShoppingCartItems::where('shopping_cart_id',$cartId->id)
+            ->where('quantity','>',0)->count();
     }
 }

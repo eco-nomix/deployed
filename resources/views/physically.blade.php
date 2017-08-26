@@ -12,7 +12,7 @@
                  <div class="panel-body">
 
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                          <div class="form-group col-md-12 ">
+                          <div class="form-group col-md-12 ">xx
                           One of Eco-nomix's purposes is to provide essential products and knowledge that will promote our individual and Family's physical well being.  These areas can be
                           further broken down to the following general topics:
                           </div>

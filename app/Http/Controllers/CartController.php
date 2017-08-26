@@ -136,12 +136,11 @@ class CartController extends Controller
 
     public function getProducts($shoppingCart)
     {
-        dd($shoppingCart);
         $items = ShoppingCartItems::select('shopping_cart_items.*', 'products.member', 'products.non_member', 'products.shipping_weight', 'products.image', 'products.product_name', 'products.description', 'products.Author', 'products.pay_bonus')
             ->join('products', 'products.id', '=', 'shopping_cart_items.product_id')
             ->where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
             ->where(function ($query) {
-                $query->whereNull('shopping_cart_items.shopping_cart_id')
+                $query->whereNull('shopping_cart_items.transaction_processing')
                     ->orWhere('shopping_cart_items.transaction_processing',  '<', 3);
             })
             ->get();

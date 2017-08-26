@@ -236,7 +236,7 @@ class CartController extends Controller
 
         $shippingMethod = $request->input('shippingMethod');
         if ($shippingMethod == '') $shippingMethod = 'upsground';
-        if ($shippingMethod == 'upsground') return 9.99;
+        if ($shippingMethod == 'upsground') return 0;
         if ($shippingMethod == 'ups3Day') return 8.99;
         if ($shippingMethod == 'upsNextAir') return 14.99;
         if ($shippingMethod == 'FedEx') return 16.99;

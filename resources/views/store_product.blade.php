@@ -11,7 +11,7 @@
                         @if($user_id == $store->user_id)
                             <a href="/store/{{$store->id}}/productedit/{{$Product->id}}" class="btn btn-primary" >Edit</a>
                             @endif
-                        <span title="single-click to add; double-click to view" data-id="{{$Product->id}}" data-userid="{{$user->id}}" class="pull-right addcart">+<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span>
+                        <span title="single-click to add; double-click to view" data-id="{{$Product->id}}" data-userid="{{$user->id}}" class="pull-right addcart">Add to Cart<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span>
                  </div>
                  <div class="panel-body">
                         <div class="form-group col-md-12 ">

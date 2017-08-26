@@ -142,8 +142,7 @@ class CartController extends Controller
             ->where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
             ->where(function ($query) {
                 $query->whereNull('shopping_cart_items.shopping_cart_id')
-                    ->orWhere('shopping_cart_items.transaction_processing',  '<', 3)
-
+                    ->orWhere('shopping_cart_items.transaction_processing',  '<', 3);
             })
             ->get();
         dd($items);

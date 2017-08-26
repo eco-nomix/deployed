@@ -144,7 +144,7 @@ class CartController extends Controller
                     ->orWhere('shopping_cart_items.transaction_processing',  '<', 3);
             })
             ->get();
-        dd($items);
+
         foreach ($items as $item) {
             $item->transaction_processing = 1;
             $item->save();

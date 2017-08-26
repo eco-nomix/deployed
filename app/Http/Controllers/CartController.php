@@ -53,6 +53,7 @@ class CartController extends Controller
         $request->session()->set('payPrice', $data['payPrice']);
         $request->session()->set('totalShipping', $data['totalShipping']);
         $request->session()->set('grandTotal', $data['grandTotal']);
+        dd($data);
         return view('shoppingcart', $data);
     }
 

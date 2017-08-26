@@ -143,6 +143,7 @@ class CartController extends Controller
                 $query->whereNull('shopping_cart_items.transaction_processing')
                     ->orWhere('shopping_cart_items.transaction_processing',  '<', 3);
             })
+            ->where('shopping_cart_items.quantity','>',0)
             ->get();
 
         foreach ($items as $item) {

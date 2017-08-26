@@ -53,7 +53,7 @@ class CartController extends Controller
         $request->session()->set('payPrice', $data['payPrice']);
         $request->session()->set('totalShipping', $data['totalShipping']);
         $request->session()->set('grandTotal', $data['grandTotal']);
-        dd($data);
+
         return view('shoppingcart', $data);
     }
 
@@ -142,6 +142,7 @@ class CartController extends Controller
             ->where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
             ->where('shopping_cart_items.transaction_processing', '<', 3)
             ->get();
+        dd($items);
         foreach ($items as $item) {
             $item->transaction_processing = 1;
             $item->save();

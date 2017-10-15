@@ -9,9 +9,10 @@
              <div class="panel panel-default display">
                  <div class="panel-heading">{{$Product->product_name}}
                         @if($user_id == $store->user_id)
-                            <a href="/store/{{$store->id}}/productedit/{{$Product->id}}" class="btn btn-primary" >Edit</a>
-                            @endif
-                        <span title="single-click to add; double-click to view" data-id="{{$Product->id}}" data-userid="{{$user->id}}" class="pull-right addcart">Add to Cart<img width="40px" src="\images\shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span>
+                            <a href="{{URL::to('/')}}store/{{$store->id}}/productedit/{{$Product->id}}" class="btn btn-primary" >Edit</a>
+                         @endif
+                        <span title="single-click to add; double-click to view" data-id="{{$Product->id}}" data-userid="{{$user->id}}" class="pull-right addcart">Add to Cart<img width="40px" src="{{URL::to('/')}}/images/shopping_cart_small.jpg"><span id="cartcount">{{$ItemCount}}</span></span>
+                        &nbsp;&nbsp;&nbsp;<a href="{{URL::to('/')}}/shoppingcart" class="btn btn-primary pull-right" >Continue To Cart</a>&nbsp;&nbsp;&nbsp;
                  </div>
                  <div class="panel-body">
                         <div class="form-group col-md-12 ">
@@ -20,12 +21,12 @@
                         <br>
                         <table width="100%"  style="margin:4px;">
                             <tr >
-                                 <td class="eighth"><img src="\images\{{$Product->image}}" width="400"></td>
+                                 <td class="eighth"><img src="{{URL::to('/')}}/images/{{$Product->image}}" width="400"></td>
                                  <td>
                                     <table width="100%" style="margin:4px;">
                                         <tr>
                                             <td>Botique: {{$store->name}}</td>
-                                            <td><img src="/images/{{$user->picture}}" width="200"></td>
+                                            <td><img src="{{URL::to('/')}}/images/{{$user->picture}}" width="200"></td>
                                         </tr>
                                         <tr>
                                             <td>&nbsp;</td>

@@ -168,7 +168,7 @@
                         We all have seen the charts and potential associated with exponential growth, now become part of a company that makes that growth possible.
                         </div>
                         <div class="form-group col-md-12 ">
-                        Jay Potter, CEO    Eco-nomix Inc.
+                        Jay, CEO    Eco-nomix.
                         </div>
                 </div>
             </div>

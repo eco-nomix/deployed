@@ -6,25 +6,30 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Transaction Approved</div>
+                <div class="panel-heading">Thank You</div>
                 <div class="panel-body">
-                       <form class="form-horizontal" role="form" method="POST" action="/payment">
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <div class="form-group">
-                             <label class="col-md-10">A Charge of ${{$grand_total}} was approved for card {{$credit_card}}.  </label>
-
+						<div class="row">
+							<div class="form-group col-md-10">
+								 <label class="">Your order was completed successfully. We’ll get started on your order right away.</label>
+							</div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-md-10">Your approval code is {{$approval_code}}. </label>
+                        <div class="clearfix clear"></div>
+                        <div class="row">
+							<div class="form-group col-md-10">
+								 <label class="">Oder no. : {{$transaction}}</label>
+							</div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-md-10">Your order Number  Eco-{{$transaction}} will be shipped as soon as possible.</label>
+                        <div class="row">
+							<div class="form-group col-md-10">
+								 <label class="">Order Price : ${{$grand_total}}</label>
+							</div>
                         </div>
-
-
-
-
-                    </form>
+                        <div class="row">
+							<div class="form-group col-md-10">
+								 <label class="">Transaction ID : {{$transaction_number}}</label>
+							</div>
+                        </div>
+                       
                 </div>
             </div>
         </div>

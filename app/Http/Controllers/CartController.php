@@ -448,6 +448,7 @@ class CartController extends Controller
         $api_resp['approved'] = false;
         $api_resp['response_code'] = 'System no setup yet';
         $api_resp['response'] = 'Credit Card validation coming soon';
+        $api_resp['pay_method'] = 'on hold';
 		$data['api_resp'] = $api_resp;
         if ( $api_resp['approved'] == false ) {
             $data['grand_total'] = $grandTotal;

@@ -72,7 +72,7 @@ class AuthenticationController extends Controller
             $request->session()->set('username', $username);
             $request->session()->set('user_id', $user->id);
             $request->session()->set('user_link',$user->user_link);
-			return redirect()->to('/');
+
             if($user->member == 5) {
                 return $this->finishMemberLogin($user, $request);
             }

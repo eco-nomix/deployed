@@ -490,7 +490,7 @@ class PagesController extends Controller
     public function membercost(Request $request)
     {
         $data = $this->userData($request);
-        dd($data);
+       
         $data['title'] = 'Economix Member Cost';
         $data['description'] = 'Economix Member Cost';
 

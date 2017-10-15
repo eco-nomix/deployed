@@ -113,7 +113,7 @@
             <ul class="pull-right">
                 <li><a href="{{URL::to('/')}}/about">About</a></li>
                 <li><a href="{{URL::to('/')}}/contact">Contact</a></li>
- {{dd($userRoles)}}
+ 
                 @if ($user_name == '' or $user_name == null )
                     @if($username == '')
                         <li><a href="{{URL::to('/')}}/login">Login</a></li>

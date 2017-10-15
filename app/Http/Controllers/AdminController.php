@@ -343,7 +343,7 @@ class AdminController extends Controller
 
     public function productGroups($selected)
     {
-        $productGroups= ProductGroups::where('Parent_id',$productGroup)->orderBy('group_order')->lists('name','id');
+        $productGroups= ProductGroups::where('Parent_id',$selected)->orderBy('group_order')->lists('name','id');
         $select = $this->groupSelect($productGroups,$selected);
         return $select;
     }

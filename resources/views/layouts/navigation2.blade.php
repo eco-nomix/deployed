@@ -128,7 +128,7 @@
                 @else
 
                     <li><a href="{{URL::to('/')}}/homepage/{{$user_id}}">{{$user_name}}<span class="caret"></span></a>
-                        {{dd($userRoles)}}
+                        
                         <ul>
                             <li><a href="{{URL::to('/')}}/homepage/{{$user_id}}">Personal Info</a></li>
                             <li><a href="{{URL::to('/')}}/organization">Organization</a></li>

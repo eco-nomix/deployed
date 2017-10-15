@@ -444,8 +444,10 @@ class CartController extends Controller
         $securityCode = $request->input('security_code');
 		$data = $this->userData($request);
 		
-        $api_resp = $this->processAPI($request);
-       
+     //   $api_resp = $this->processAPI($request);  turn on to process
+        $api_resp['approved'] = false;
+        $api_resp['response_code'] = 'System no setup yet';
+        $api_resp['response'] = 'Credit Card validation coming soon';
 		$data['api_resp'] = $api_resp;
         if ( $api_resp['approved'] == false ) {
             $data['grand_total'] = $grandTotal;

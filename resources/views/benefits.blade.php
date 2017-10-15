@@ -5,7 +5,7 @@
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
 <div class="container-fluid">
-<div class="pagecontainer"><img src="/images/Member Benefits-small.jpg" ></div>
+<div class="pagecontainer"><img src="{{URL::to'/'}}/images/Member Benefits-small.jpg" ></div>
 
 {{--<div style="position:absolute; top:52px; z-index:-1">--}}
     {{--<h1>Member Benefits</h1>--}}

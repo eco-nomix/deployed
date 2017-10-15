@@ -13,7 +13,7 @@
                     <div class="inline">
 
                         <div >
-                            <img src="/images/{{$store->logo}}" width="300">
+                            <img src="{{URL::to('/')}}/images/{{$store->logo}}" width="300">
                         </div>
                     </div>
                     <div class="inline" style="width:30px;">
@@ -21,7 +21,7 @@
                     </div>
                     <div class="inline">
                         @if($user->picture)
-                            <img src="/images/{{$user->picture}}" width="200">
+                            <img src="{{URL::to('/')}}/images/{{$user->picture}}" width="200">
                         @endif
                     </div>
                     <div class="inline-right" style="width:700px;">
@@ -34,7 +34,7 @@
                         <br>
                         <br>
                         <div>
-                           <a href="/store/addproduct/{{$store->id}}" class="btn btn-primary">Add Product</a>
+                           <a href="{{URL::to('/')}}/store/addproduct/{{$store->id}}" class="btn btn-primary">Add Product</a>
                         </div>
                         @endif
                     </div>

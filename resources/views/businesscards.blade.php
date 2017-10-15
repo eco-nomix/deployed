@@ -1,12 +1,9 @@
 @extends('layouts.default')
 
-
-
-
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
 <div class="container-fluid">
-    <div class="pagecontainer"><img src="/images/BusinessCards-small.jpg" ></div>
+    <div class="pagecontainer"><img src="{{URL::to('/')}}/images/BusinessCards-small.jpg" ></div>
 
     {{--<div class="row">--}}
         {{--<div class="col-md-8 col-md-offset-2">--}}
@@ -29,7 +26,7 @@
                           {{--When the Referral link is used, the referring member will be recorded in all transactions and future transactions performed by the referred member.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                            {{--<img src="/images/business_card.png">--}}
+                            {{--<img src="{{URL::to('/')}}/images/business_card.png">--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                             {{--Your business card will be extremely helpful in helping you build your organization.  By simply handing out your card to interested individuals, when they log in using the Referral Link on the card, you will automatically be given the sponsorship credit for the new registration and/or member.  This allows you to individually sponsor many individuals creating a very wide organization.--}}

@@ -42,7 +42,7 @@ Route::get('/jaylogs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index'
 Route::get('/testmail',function()
 {
     Mail::send('emails.test',[],function($message){
-       $message->to('jpotter747@yahoo.com')->subject('laracasts Email');
+       $message->to('projectmanager24x7@yahoo.com')->subject('laracasts Email');
     });
 });
 
@@ -82,12 +82,28 @@ Route::get('/shoppingcart',['as'=>'shoppingcart','uses'=>'CartController@viewCar
 Route::post('/changecartquantity',['as'=>'changequantity','uses'=>'CartController@updateQuantity']);
 Route::post('/purchase',['as'=>'purchase','uses'=>'CartController@purchase']);
 Route::post('/checkpurchase',['as'=>'checkpurchase','uses'=>'CartController@checkPurchase']);
+Route::post('/cardpurchase',['as'=>'cardpurchase','uses'=>'CartController@cardPurchase']);
+
+
 Route::get('/changeshippingaddress/{shippingId}',['as'=>'changeshipping','uses'=>'CartController@changeShippingAddress']);
 Route::post('/changeshippingaddress',['as'=>'changeshipping','uses'=>'CartController@addShippingAddress']);
 
 Route::get('/','PagesController@home');
 
 Route::get('/test',['as' => 'test','uses'=>'PagesController@test']);
+Route::get('/dummyshop',['as' => 'test','uses'=>'PagesController@dummyshop']);
+Route::get('/dummybuy/{product_id}',['as' => 'product','uses'=>'PagesController@dummybuy']);
+Route::post('/dummybuy/{product_id}',['as' => 'product','uses'=>'PagesController@dummybuy']);
+Route::post('/dummybuypay',['as' => 'dummybuypay','uses'=>'PagesController@dummybuypay']);
+Route::post('/dummybuyprocess',['as'=>'dummybuyprocess','uses'=>'PagesController@dummybuyprocess']);
+Route::get('/distributor',['as'=>'distributor','uses'=>'PagesController@distributor']);
+Route::get('/paytodistributor',['as'=>'paytodistributor','uses'=>'PagesController@paytodistributor']);
+Route::post('/paytodistributor',['as'=>'paytodistributor','uses'=>'PagesController@paytodistributor']);
+Route::get('/addnewdistributor',['as'=>'addnewdistributor','uses'=>'PagesController@addnewdistributor']);
+Route::post('/addnewdistributor',['as'=>'addnewdistributor','uses'=>'PagesController@addnewdistributor']);
+
+
+
 Route::get('/about',['as' => 'about','uses'=>'PagesController@about']);
 Route::get('/accounting',['as' => 'accounting','uses'=>'PagesController@accounting']);
 Route::get('/products',['as' => 'products','uses'=>'PagesController@products']);

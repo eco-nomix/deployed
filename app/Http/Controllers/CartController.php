@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Http\Requests;
@@ -13,6 +13,7 @@ use App\Models\ShoppingCartItems;
 use App\Models\ShippingAddresses;
 use App\Models\SalesTransactions;
 use App\Models\SalesTransactionDetails;
+use App\Models\CustomerCreditCards;
 use App\Models\CommissionLevel;
 use App\Models\Bonuses;
 
@@ -204,14 +205,22 @@ class CartController extends Controller
     public function loadShipping($userId, $data, $request)
     {
         $user = Users::find($userId);
+        $addr1 = ($user) ? $user->addr1:'';
+        $addr2 = ($user) ? $user->addr2:'';
+        $fn = ($user) ? $user->first_name:'';
+        $ln = ($user) ? $user->last_name:'';
+        $pc = ($user) ? $user->postal_code:'';
+        $st = ($user) ? $user->city:'';
+        $ct = ($user) ? $user->state:'';
+        
         $results = "<tr>";
         $results .= "<td class='noBorder'>Shipping Address:</td>";
         $results .= "<td class='noBorder'><div class='inline'>";
-        $results .= "$user->first_name $user->last_name<br>$user->addr1<br>";
-        if ($user->addr2 > '') {
-            $results .= "$user->addr2<br>";
+        $results .= "$fn $ln<br>$addr1<br>";
+        if ($addr2) {
+            $results .= "$addr2<br>";
         }
-        $results .= "$user->city, $user->state<br>$user->postal_code";
+        $results .= " $ct,  $st<br>$pc";
         $results .= "</div></td>";
         $shippingadd = $request->input('shippingadd');
         $results .= "<td class='noBorder'>" . $this->shippingAddresses($user,$shippingadd) . "</td>";
@@ -232,11 +241,13 @@ class CartController extends Controller
 
     public function shippingAmount(Request $request)
     {
+		return 0.00;
+		
         $totalWeight = $request->input('totalWeight');
 
         $shippingMethod = $request->input('shippingMethod');
         if ($shippingMethod == '') $shippingMethod = 'upsground';
-        if ($shippingMethod == 'upsground') return 0;
+        if ($shippingMethod == 'upsground') return 9.99;
         if ($shippingMethod == 'ups3Day') return 8.99;
         if ($shippingMethod == 'upsNextAir') return 14.99;
         if ($shippingMethod == 'FedEx') return 16.99;
@@ -362,12 +373,16 @@ class CartController extends Controller
         return $results;
     }
 
-    public function purchase(Request $request)
-    {
+    public function purchase(Request $request) {
+		//$request->session()->set('grandTotal', "1.20");
         $userId = $request->session()->get('user_id');
         $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
         $items = $this->updateItems($shoppingCart);
         $data = $this->userData($request);
+		include_once(app_path() . '/Http/Controllers/usa_cities_states.php');
+		$data['cities_states'] = $cities_states;
+		$data['states'] = $state_list;
+		
         $data['totalPrice'] = $request->session()->get('totalPrice');
         $data['grandTotal'] = $request->session()->get('grandTotal');
         $data['shippingMethod'] = $request->input('shippingMethod');
@@ -379,14 +394,14 @@ class CartController extends Controller
         $request->session()->set('transactionTotalWeightShipping', $request->session()->get('totalWeightShipping'));
         $request->session()->set('transactionTotalShipping', $request->session()->get('totalShipping'));
         $data['totalShipping'] = $request->session()->get('totalShipping');
-        return view('purchase', $data);
+		
+		return view('purchase', $data);
     }
 
     public function checkPurchase(Request $request)
     {
-
         $grandTotal = $request->session()->get('grandTotal');
-        $billingName = $request->input('billingName');
+        $billingName = $request->input('billing_name');
         $creditCard = $request->input('credit_card');
         $exmonth = $request->input('month');
         $exyear = $request->input('year');
@@ -418,7 +433,50 @@ class CartController extends Controller
             return view('transaction_approved', $data);
         }
     }
+	public function cardPurchase(Request $request) {
+		//$request->session()->set('grandTotal', "1.20");
+        $grandTotal = $request->session()->get('grandTotal');
+        $billingName = $request->input('billing_name');
+        $creditCard = $request->input('credit_card');
+        $exmonth = $request->input('month');
+        $exyear = $request->input('year');
+		//$exyear = substr($exyear, -2);
+        $securityCode = $request->input('security_code');
+		$data = $this->userData($request);
+		
+        $api_resp = $this->processAPI($request);
+       
+		$data['api_resp'] = $api_resp;
+        if ( $api_resp['approved'] == false ) {
+            $data['grand_total'] = $grandTotal;
+            $data['approval_code'] = isset($api_resp['response_code'])?$api_resp['response_code']:'';
+            $data['error_code'] = $api_resp['response'];
+            $data['credit_card'] = $creditCard;
+            $data['pay_method'] = $api_resp['pay_method'];
+            $this->reloadSales($request);
+            return view('transaction_denied', $data);
 
+        } else {
+            $data['grand_total'] = $grandTotal;
+            $data['approval_code'] = isset($api_resp['response_code'])?$api_resp['response_code']:'';;
+            $data['error_code'] = $api_resp['response'];
+            $data['credit_card'] = $creditCard;
+            $data['pay_method'] = $api_resp['pay_method'];
+            $data['transaction'] = $this->updateSales($request, $api_resp);
+			$data['transaction_number'] = $api_resp['transaction_number'];
+			$request->session()->set('shippingId',0);
+            $request->session()->set('transactionPayPrice', 0);
+            $request->session()->set('transactionTotalPrice', 0);
+            $request->session()->set('transactionGrandTotal', 0);
+            $request->session()->set('transactionTotalWeightShipping', 0);
+            $request->session()->set('transactionTotalShipping', 0);
+			
+            return view('transaction_approved', $data);
+        }
+    }
+	
+	
+	
     public function reloadSales(Request $request)
     {
         $userId = $request->session()->get('user_id');
@@ -447,7 +505,7 @@ class CartController extends Controller
         $salesTransaction->pay_bonus_on_amt = $request->session()->get('payPrice');
         $salesTransaction->credit_card_id = $approved['credit_card'];
         $salesTransaction->payment_type = $approved['pay_method'];
-        $salesTransaction->transaction_approval_code = $approved['approval_code'];
+        $salesTransaction->transaction_approval_code = $approved['response_code'];
         $salesTransaction->transaction_approval_date = $approved['date'];
         $salesTransaction->first_id = $user->sponsor_id;
         $salesTransaction->second_id = $user->second_id;
@@ -459,7 +517,7 @@ class CartController extends Controller
         $this->updateSalesDetails($salesTransaction, $items, $roles);
         $this->updateBonuses($salesTransaction, $user,$roles);
         $items = $this->processPaidItems($shoppingCart);
-        return 1000000+$salesTransaction->id;
+        return $salesTransaction->id;
     }
 
     public function updateBonuses($sales, $user)
@@ -506,17 +564,154 @@ class CartController extends Controller
 
     public function processAPI($request)
     {
-        $grandTotal =  $request->session()->get('grandTotal');
-        $billingName = $request->input('billingName');
+        $grandTotal = $request->session()->get('grandTotal');
+		$grandTotal = number_format($grandTotal,2) * 100;
+        $billingName = $request->input('billing_name');
         $creditCard = $request->input('credit_card');
         $exmonth = $request->input('month');
         $exyear = $request->input('year');
         $securityCode = $request->input('security_code');
-        $transaction_date = time();
-        $ccType = 'Visa';//  get actual type from API
-        $approved = ['date'=>$transaction_date,'approval_code'=>'12345abcded','error'=>'','credit_card'=>$creditCard, 'pay_method'=>$ccType];
-        $disapproved = ['date'=>$transaction_date,'approval_code'=>'denied','error'=>'website in development - not a problem with your card','credit_card'=>$creditCard,'pay_method'=>$ccType];
-        return $approved;
+        $transaction_date = date("Y-m-d H:i:s");
+        //$ccType = 'Visa';//  get actual type from API
+        //$approved = ['date'=>$transaction_date,'approval_code'=>'12345abcded','error'=>'','credit_card'=>$creditCard, 'pay_method'=>$ccType];
+       // $disapproved = ['date'=>$transaction_date,'approval_code'=>'denied','error'=>'website in development - not a problem with your card','credit_card'=>$creditCard,'pay_method'=>$ccType];
+        
+		$expy = substr($exyear, -2);
+		$expDate = $exmonth.$expy;
+		$api_url = 'https://epay.propay.com/api/propayapi.aspx';
+		$invNum = ($request->input('invNum'))?$request->input('invNum'):'123456';
+		$cert_str = '694a6da2e8f462191261a1cca76ce8';//'ca08a19ee8f439598dd407055aa1ae';
+		$post_data = $_POST;
+		$owner_propay_account_no = '32560413';
+		//print_r($post_data);
+		$envelope = '<?xml version="1.0"?>
+		     <!DOCTYPE Request.dtd>
+		     <XMLRequest>
+			     <certStr>' . $cert_str . '</certStr>
+			     <class>partner</class>
+			     <XMLTrans>
+				     <transType>04</transType>
+				     <accountNum>'.$owner_propay_account_no.'</accountNum>
+				     <amount>' . $grandTotal . '</amount>
+				     <ccNum>' . $creditCard . '</ccNum>
+				     <expDate>' . $expDate . '</expDate>
+				     <CVV2>' . $securityCode . '</CVV2>	
+				     <cardholderName>' . $billingName . '</cardholderName>
+				     <addr>' . $request->input('address1') . '</addr>
+				     <aptNum>' . $request->input('address2') . '</aptNum>
+				     <city>' . $request->input('city') . '</city>
+				     <state>' . $request->input('state') . '</state>
+				     <zip>' . $request->input('postal_code') . '</zip>
+				     <comment1>' . $request->input('comment1') . '</comment1>
+				     <invNum>' . $invNum . '</invNum>
+			     </XMLTrans>	
+		     </XMLRequest>';
+		
+		//echo "<h2>Request</h2>";
+		//print_r($envelope);
+		
+		$header = array(
+		"Content-type:text/xml; charset=\"utf-8\"",
+		"Accept: text/xml"
+		);
+
+		$MSAPI_Call = curl_init();
+		//Change the following URL to point to production instead of integration
+		curl_setopt($MSAPI_Call, CURLOPT_URL, $api_url);
+		curl_setopt($MSAPI_Call, CURLOPT_TIMEOUT, 30);
+		curl_setopt($MSAPI_Call, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($MSAPI_Call, CURLOPT_POST, true);
+		curl_setopt($MSAPI_Call, CURLOPT_POSTFIELDS, $envelope);
+		curl_setopt($MSAPI_Call, CURLOPT_HTTPHEADER, $header);
+		curl_setopt($MSAPI_Call, CURLOPT_SSL_VERIFYPEER, 0);
+		curl_setopt($MSAPI_Call, CURLOPT_SSL_VERIFYHOST, 0);
+		curl_setopt($MSAPI_Call, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
+
+		$api_response = curl_exec($MSAPI_Call);
+		$err = curl_error($MSAPI_Call);
+		curl_close($MSAPI_Call);
+		
+		//URL::to(Config::get('assets.' . $type) . '/' . $file)
+		
+		
+		$response_status = simplexml_load_file(dirname(__FILE__).'/MSAPI_Response.xml');
+		$result = simplexml_load_string($api_response);	
+		//Pretty Print response
+		$api_result = new \DOMDocument('1.0');
+		$api_result->preserveWhiteSpace = false;
+		$api_result->formatOutput = true;
+		$api_result->loadXML($api_response);
+		
+		$resp = array();
+		$resp['creditCard'] = $creditCard;
+		$resp['credit_card'] = $creditCard;
+		$resp['pay_method'] = "Credit/Debit Card";
+		$resp['date'] = $transaction_date;
+		if(isset($result->XMLTrans->status))  {
+			$status = $result->XMLTrans->status;
+			if($status != '00') {
+				
+				$status = '_'.$status;			
+				$resp['status'] = $response_status->status->$status;
+				$resp['response'] = "Transaction may not have completed successfully";
+				$resp['response'] .= "\nTransaction Status: " . $resp['status']; 
+				if(isset($result->XMLTrans->responseCode)) {
+					$response_code = $result->XMLTrans->responseCode;
+					$response_code = '_'.$response_code;
+					$resp['response_code'] = $response_status->responseCode->$response_code;
+					$resp['response'] .= "\nResponse Code: " . $resp['response_code'];
+				}
+				if(isset($result->XMLTrans->CVV2Resp)) {
+					$CVV2_response = $result->XMLTrans->CVV2Resp;
+					$CVV2_response = '_'.$CVV2_response;
+					$resp['CVV2_response'] = $response_status->CVV2Resp->$CVV2_response;
+					$resp['response'] .= "\nCVV2 Response: " . $resp['CVV2_response']; 
+				}
+				$resp['response'] .= "\n";
+				$resp['response'] .= $api_result->saveXML();
+				$resp['approved'] = false;
+				
+				
+			} else {
+				$resp['account_number'] = $result->XMLTrans->accountNum;
+				$resp['transaction_number'] = $result->XMLTrans->transNum;
+				$resp['authorization_code'] = $result->XMLTrans->authCode;
+				$AVS = $result->XMLTrans->AVS;
+				$AVS = '_'.$AVS;	
+				$resp['AVS'] = $response_status->AVS->$AVS;
+				$response_code = $result->XMLTrans->responseCode;
+				$response_code = '_'.$response_code;
+				$resp['response_code'] = $response_status->responseCode->$response_code;				
+				$resp['response'] = "Transaction completed successfully";
+				$status = '_'.$status;			
+				$resp['status'] = $response_status->status->$status;
+				$resp['response'] .= "\nTransaction Status: " . $resp['status']; 
+				$resp['response'] .= "\nAccount Number: " . $resp['account_number'];	
+				$resp['response'] .= "\nTransaction Number: " . $resp['transaction_number'];
+				$resp['response'] .= "\nAuthorization Number: " . $resp['authorization_code'];
+				$resp['response'] .= "\nAVS Code: " . $resp['AVS'];
+				$resp['response'] .= "\nResponse Code: " . $resp['response_code'];
+				if(isset($result->XMLTrans->CVV2Resp))
+				{
+					$CVV2_response = $result->XMLTrans->CVV2Resp;
+					$CVV2_response = '_'.$CVV2_response;
+					$resp['CVV2_response'] = $response_status->CVV2Resp->$CVV2_response;
+					$resp['response'] .= "\nCVV2 Response: " . $CVV2_response; 
+				}
+
+				$resp['approved'] = true;
+			}
+		}  else {
+			$resp['response'] = "Unknwn Error";
+			$resp['approved'] = false;
+			//print_r($api_result->saveXML());
+		}
+		//echo "<h2>Response</h2>";
+		//print_r($resp);
+		
+		$resp['envelope'] = $envelope;
+		
+		return $resp;
 
     }
 

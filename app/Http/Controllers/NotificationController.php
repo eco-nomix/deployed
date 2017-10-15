@@ -19,7 +19,7 @@ class NotificationController extends Controller
             $message->from('admin@eco-nomix.com', 'Admin');
             $message->subject('Reminder');
             $username = $user->first_name.' '.$user->last_name;
-            $testemail = 'jpotter747@yahoo.com';
+            $testemail = 'projectmanager24x7@gmail.com';
             $message->to($testemail, $username)->subject('Your Reminder!');
             //$message->sender($address,$name);
             //$message->cc($address,$name);

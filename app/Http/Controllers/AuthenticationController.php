@@ -72,13 +72,14 @@ class AuthenticationController extends Controller
             $request->session()->set('username', $username);
             $request->session()->set('user_id', $user->id);
             $request->session()->set('user_link',$user->user_link);
-
+			return redirect()->to('/');
             if($user->member == 5) {
                 return $this->finishMemberLogin($user, $request);
             }
             if($user->member ==1){
                 return $this->verificationSent($user,$request);
             }
+
             $data = $this->basedata($request);
             $data['username'] = $user->first_name.' '.$user->last_name;
             $data['user_name'] = '';
@@ -261,7 +262,7 @@ class AuthenticationController extends Controller
             //not registered -  verify email
             $user = $this->initialRegistration($request);
             $this->emailConfirmation($user);
-            return $this->verifyEmail($user);
+            return $this->verifyEmail($request, $user);
         }
         $data = $this->basedata($request);
         $data['username'] = '';
@@ -468,7 +469,7 @@ class AuthenticationController extends Controller
             $message->from('admin@eco-nomix.com', 'Admin');
             $message->subject('Reminder');
             $username = $user->first_name.' '.$user->last_name;
-            $testemail = 'jpotter747@yahoo.com';
+            $testemail = 'projectmanager24x7@gmail.com';
             $message->to($testemail, $username)->subject('Your Reminder!');
             //$message->sender($address,$name);
             //$message->cc($address,$name);
@@ -623,7 +624,7 @@ class AuthenticationController extends Controller
         return $user;
     }
 
-    public function verifyEmail($user)
+    public function verifyEmail($request, $user)
     {
         $data= $this->basedata($request);
         $data['username'] = '';

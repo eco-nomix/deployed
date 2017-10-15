@@ -14,7 +14,7 @@
                         <div class="form-group">
                              <label class="col-md-4 control-label">Charge Amount</label>
                              <div class="col-md-6">
-                                  <input required readonly type="text" class="form-control" value="{{$grandTotal}}">
+                                  <input required readonly type="text" class="form-control" value="{{number_format($grandTotal,2)}}">
                              </div>
                         </div>
 

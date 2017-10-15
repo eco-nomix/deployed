@@ -317,7 +317,17 @@ class AdminController extends Controller
     }
     public function productsStart(Request $request)
     {
-          return $this->products(0,0,$request);
+          return $this->productList(0,0,$request);
+    }
+
+    public function productList($productGroup, $subGroup,$request)
+    {
+        $data = $this->userData($request);
+        $data['ProductGroups'] = $this->productGroups($productGroup);
+        $data['ProductSubgroups'] = $this->productSubgroups($productGroup,$subGroup);
+        $data['title'] = 'Admin';
+        $data['description'] = 'Admin';
+        return view('books',$data);
     }
     public function products(Request $request)
     {

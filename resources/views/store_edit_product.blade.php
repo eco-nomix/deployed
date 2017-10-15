@@ -97,7 +97,7 @@
                                 <label class="col-md-4 control-label">Current Picture</label>
                                 <div class="col-md-6">
                                     <div align="center" style="border:black solid 1px; display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;">
-                                         <img src="{{URL::to'/'}}/images/{{$Product->image}}" width="150"  >
+                                         <img src="/images/{{$Product->image}}" width="150"  >
                                     </div>
 
                                 </div>

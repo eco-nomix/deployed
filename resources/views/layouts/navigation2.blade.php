@@ -1,7 +1,7 @@
 
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
-             <a href="{{URL::to('/')}}"><img src="{{URL::to('/')}}/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
+             <a href=""><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
         </div>
         <div class="referral" >
         @if(!isset($referral_link))

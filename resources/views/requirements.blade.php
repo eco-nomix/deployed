@@ -4,7 +4,7 @@
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
 <div class="container-fluid">
-    <div class="pagecontainer"><img src="/images/Requirements-small.jpg">
+    <div class="pagecontainer"><img src="{{URL::to('/')}}/images/Requirements-small.jpg">
 
     </div>
 

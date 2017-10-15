@@ -551,8 +551,8 @@ class StoreController extends Controller
         }
 
         foreach($products as $product){
-            $results .= "<td class='eighth'><a href=\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
-            $results .= "<td class='fifth' ><a href=\"/multikind/$product->id\">";
+            $results .= "<td class='eighth'><a href={{URL::to('/')}}\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td class='fifth' ><a href={{URL::to('/')}}\"/multikind/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
             $results .= substr($description,0,260)."...</a></td>";
             $ctr++;

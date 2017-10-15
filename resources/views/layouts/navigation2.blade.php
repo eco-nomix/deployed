@@ -81,7 +81,7 @@
                         <li><a href="{{URL::to('/')}}/membercost">Membership Cost</a></li>
                         <li><a href="{{URL::to('/')}}/discount">Member Discount</a></li>
                         <li><a href="{{URL::to('/')}}/referral">Referral Bonuses</a></li>
-                         <li><a href={{URL::to('/')}}"/productsSum">Products</a></li>
+                         <li><a href="{{URL::to('/')}}/productsSum">Products</a></li>
                         <li><a href="{{URL::to('/')}}/debitcards">Debit Card</a></li>
                         <li><a href="{{URL::to('/')}}/businesscards">Business Cards</a></li>
                          <li><a href="{{URL::to('/')}}/startup">Start Up Package</a></li>

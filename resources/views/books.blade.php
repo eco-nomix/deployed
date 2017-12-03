@@ -8,7 +8,7 @@
      <div class="row">
          <div class="col-md-11 col-md-offset-1">
              <div class="panel panel-default display">
-                 <div class="panel-heading">Books and Guides</div>
+                 <div class="panel-heading">Books and Guides 2</div>
                  <div class="panel-body">
                      <form class="form-horizontal" role="form" method="POST" action="/books">
                           <input type="hidden" name="_token" value="{{ csrf_token() }}">

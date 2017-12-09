@@ -3,7 +3,7 @@
 @section('content')
  <div style="position:absolute; top:52px; z-index:-1">
  <div class="container-fluid">
-  <div class="pagecontainer"><img src="/images/Potentials-small.jpg" >
+  <div class="pagecontainer"><img src="{{URL::to('/')}}/images/Potentials-small.jpg" >
    <div class="trim"><img src="{{URL::to('/')}}/images/levels.jpg" style="width:1000px;"></div></div>
 
      {{--<div class="row">--}}

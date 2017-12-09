@@ -79,7 +79,7 @@
                          <div class="form-group">
                             <label class="col-md-3 control-label">Current Logo</label>
                                <div class="col-md-9">
-                                    <div align="center" style="border:black solid 1px; display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;"><img src="/images/{{$logo}}" width="150"  ></div>
+                                    <div align="center" style="border:black solid 1px; display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;"><img src="{{URL::to('/')}}/images/{{$logo}}" width="150"  ></div>
                                </div>
                          </div>
                          <div class="form-group">

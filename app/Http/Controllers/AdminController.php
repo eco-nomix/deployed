@@ -317,17 +317,7 @@ class AdminController extends Controller
     }
     public function productsStart(Request $request)
     {
-          return $this->productList(0,0,$request);
-    }
-
-    public function productList($productGroup, $subGroup,$request)
-    {
-        $data = $this->userData($request);
-        $data['ProductGroups'] = $this->productGroups($productGroup);
-        $data['ProductSubgroups'] = $this->productSubgroups($productGroup,$subGroup);
-        $data['title'] = 'Admin';
-        $data['description'] = 'Admin';
-        return view('books',$data);
+          return $this->products(0,0,$request);
     }
     public function products(Request $request)
     {
@@ -343,7 +333,7 @@ class AdminController extends Controller
 
     public function productGroups($selected)
     {
-        $productGroups= ProductGroups::where('Parent_id',$selected)->orderBy('group_order')->lists('name','id');
+        $productGroups= ProductGroups::where('Parent_id',$productGroup)->orderBy('group_order')->lists('name','id');
         $select = $this->groupSelect($productGroups,$selected);
         return $select;
     }

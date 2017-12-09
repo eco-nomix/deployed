@@ -60,6 +60,10 @@
                                 <button type="submit" class="btn btn-primary">
                                     Add Shipping Address
                                 </button>
+
+                                <a class="btn btn-default" href="{{ route('shoppingcart') }}">
+                                    Go to Shopping Cart
+                                </a>
                             </div>
                         </div>
                     </form>

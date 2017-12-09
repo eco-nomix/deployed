@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/economix":{"create":true,"group":"www-data","owner":"www-data","guestpath":"/var/www/economix","hostpath":"/Users/jaypotter/Documents/economix","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/jaypotter/Documents/economix","disabled":false,"__vagrantfile":true}}}

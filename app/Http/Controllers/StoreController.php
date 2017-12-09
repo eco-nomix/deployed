@@ -13,11 +13,15 @@ use App\Models\ShoppingCarts;
 use App\Models\ProductGroups;
 use App\Models\ProductCategories;
 use App\Http\Controllers\Controller;
+use App\Models\CustomerCreditCards;
+use Illuminate\Support\Facades\DB;
+
 
 class StoreController extends Controller
 {
     public function store($storeId, Request $request)
     {
+    
         $userStore = UserStores::find($storeId);
         $user = Users::find($userStore->user_id);
         $data = $this->userData($request);
@@ -28,6 +32,9 @@ class StoreController extends Controller
         $data['store_type'] = $userStore->store_type;
         $data['owner'] = $userStore->owner_description;
         $data['description'] = 'Member Stores';
+
+       
+
 
         return view('store',$data);
     }
@@ -46,7 +53,15 @@ class StoreController extends Controller
 
         foreach($products as $product){
             $results .= "<td class='eighth'><a href=\"$storeId/product/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
-            $results .= "<td class='fifth' ><a href=\"$storeId/product/$product->id\">";
+            $results .= "<td class='fifth' >";
+
+            // if( $product->product_name == 'Eco-nomix Debit Cards' ){
+            //     $results .= "<a href=\"/addnewdistributor\">";
+            // }
+            // else{
+            $results .= "<a href=\"$storeId/product/$product->id\">";
+            // }
+            
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
             $results .= substr($description,0,260)."...</a></td>";
             $ctr++;
@@ -142,19 +157,33 @@ class StoreController extends Controller
         }
         return $results;
     }
-    public function displayproduct($storeId, $productId, Request $request)
-{
-    $userStore = UserStores::find($storeId);
-    $product = Products::find($productId);
-    $user = Users::find($userStore->user_id);
-    $data = $this->userData($request);
-    $data['store'] = $userStore;
-    $data['user'] = $user;
-    $data['ItemCount'] = $this->itemCount($request);
-    $data['title'] = $userStore->product_name;
-    $data['Product'] = $product;
-    return view('store_product',$data);
-}
+    public function displayproduct($storeId, $productId, Request $request) 
+    {
+        $userStore = UserStores::where('id',$storeId)->first();
+        $product = Products::find($productId);
+        $user = Users::find($userStore->user_id);
+        $customerCreditCard = CustomerCreditCards::where('user_id',$userStore->user_id)->first();
+        $data = $this->userData($request);      
+        $uid=$userStore->user_id;      
+        if(isset($customerCreditCard->id) || $uid==1){
+
+             $data["ccard"] = "yes";
+              
+           } else {
+              $data["ccard"] = "no";
+
+           }
+
+
+       
+        $data['store'] = $userStore;
+        $data['user'] = $user;
+        $data['ItemCount'] = $this->itemCount($request);
+        $data['title'] = $userStore->product_name;
+        $data['Product'] = $product;
+      
+        return view('store_product',$data);
+    }
     public function onekindproduct($productId, Request $request)
     {
 
@@ -227,7 +256,7 @@ class StoreController extends Controller
 
     public function addStore($productGroup,$userId,Request $request)
     {
-
+        
         $user = Users::find($userId);
         \Log::info("in add store pg=$productGroup  UserId=$userId");
         $stores = UserStores::where('product_group',$productGroup)->where('user_id',$userId)->orderBy('name')->lists('name','id');
@@ -551,8 +580,8 @@ class StoreController extends Controller
         }
 
         foreach($products as $product){
-            $results .= "<td class='eighth'><a href={{URL::to('/')}}\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
-            $results .= "<td class='fifth' ><a href={{URL::to('/')}}\"/multikind/$product->id\">";
+            $results .= "<td class='eighth'><a href=\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td class='fifth' ><a href=\"/multikind/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
             $results .= substr($description,0,260)."...</a></td>";
             $ctr++;

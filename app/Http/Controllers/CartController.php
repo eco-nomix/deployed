@@ -16,36 +16,82 @@ use App\Models\SalesTransactionDetails;
 use App\Models\CustomerCreditCards;
 use App\Models\CommissionLevel;
 use App\Models\Bonuses;
+use App\Models\UserRoles;
+use App\Helpers\Helper;
+use App\Models\TempUsers;
 
 class CartController extends Controller
 {
-    public function addToCart(Request $request)
-    {
-        $username = $request->session()->get('user_name');
-        $userId = $request->session()->get('user_id');
-        \Log::info("addto cart for $userId");
-        $productId = $request->input('productId');
-        $shoppingCart = $this->getShoppingCart($userId);
-        \Log::info("shoppingcart = $shoppingCart->id");
-        $itemCount = $shoppingCart->addToCart($userId, $productId);
-        \Log::info("itemCount=$itemCount");
-        return json_encode(['itemCount' => $itemCount]);
+	private $user;
+	private $shoppingCart;
+    private $items_in_cookie;
+
+	public function __construct(){
+
+		// check if user is logged in or not
+        if( is_numeric( session()->get('user_id') ) ){
+
+            $this->user = Users::find(session()->get('user_id'));
+            $this->user->is_guest = false;
+            $this->shoppingCart = $this->getShoppingCart();
+
+        }
+        else{
+            
+            $this->user = TempUsers::where('user_id',Helper::getItemsFromCookie())->first();
+
+            if( !$this->user ){
+                $new = new TempUsers;
+                $new->user_id = Helper::getItemsFromCookie();
+                $new->first_name = 'Guest';
+                $new->save();
+
+                $this->user = $new;
+            }
+
+            $this->user->is_guest = true;
+            $this->shoppingCart = $this->getShoppingCart();
+
+        }
+
+	}
+
+	public function addToCart(Request $request){
+
+        $user_id_col = $this->user->is_guest ? 'user_id' : 'id';
+
+		\Log::info("addto cart for {$this->user->{$user_id_col}}");
+
+		\Log::info("shoppingcart = $this->shoppingCart->id");
+
+		$itemCount = $this->shoppingCart->addToCart($this->user->{$user_id_col},$request->get('productId'));
+
+		\Log::info("itemCount = {$itemCount}");
+		
+		return json_encode(['itemCount' => $itemCount]);
+
     }
 
-    public function getShoppingCart($userId)
-    {
-        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
+	public function getShoppingCart(){
+
+        $column = $this->user->is_guest ? 'temp_user_id' : 'user_id';
+
+        $user_id_col = $this->user->is_guest ? 'user_id' : 'id';
+
+		$shoppingCart = ShoppingCarts::where($column, $this->user->{$user_id_col})->first();
         if (!$shoppingCart) {
             $shoppingCart = new ShoppingCarts;
-            $shoppingCart->user_id = $userId;
+            $shoppingCart->{$column} = $this->user->{$user_id_col};
             $shoppingCart->save();
         }
+
         return $shoppingCart;
     }
 
     public function viewCart(Request $request)
     {
         $data = $this->userData($request);
+
         $data = $this->loadShoppingCart($data['user_id'], $data);
         $data = $this->loadShipping($data['user_id'], $data, $request);
         $request->session()->set('totalPrice', $data['totalPrice']);
@@ -54,6 +100,8 @@ class CartController extends Controller
         $request->session()->set('payPrice', $data['payPrice']);
         $request->session()->set('totalShipping', $data['totalShipping']);
         $request->session()->set('grandTotal', $data['grandTotal']);
+
+        $data['u'] = Users::find(session()->get('user_id'));
 
         return view('shoppingcart', $data);
     }
@@ -71,7 +119,7 @@ class CartController extends Controller
         $data['user_id'] = $request->session()->get('user_id');
         $user = Users::find($data['user_id']);
         if($user){
-            $referralLink = "http://eco-nomix.org/referred/$user->id";
+            $referralLink = "http://demoview.org/referred/$user->id";
         }else{
             $referralLink = "Not Logged in";
         }
@@ -89,17 +137,25 @@ class CartController extends Controller
     {
         $result = "<tr><td></td><td colspan='2'  class='text-center'>item</td><td  class='text-center'>quantity</td><td  class='text-center'>Unit Price</td><td  class='text-center'>Ext. Price</td><td class='text-center'>Weight</td></tr>";
         \Log::info("userid=$userId");
-        $userRoles = $data['userRoles'];
 
-        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
+        $userRoles = $data['userRoles'] ? : ['','no'];
+
+        $column = $this->user->is_guest ? 'temp_user_id' : 'user_id';
+
+        $user_id_col = $this->user->is_guest ? 'user_id' : 'id';
+
+        $shoppingCart = ShoppingCarts::where($column, $userId)->first();
+       
         $items = $this->getProducts($shoppingCart);
         $totalPrice = 0;
         $payPrice = 0;
         $totalWeight = 0;
         $totalItems = 0;
         $totalShipping = 0;
+
         foreach ($items as $item) {
-            $price = ($userRoles[1] == 'yes') ? $item->member : $item->non_member;
+            $price = (@$userRoles[1] == 'yes') ? $item->member : $item->non_member;
+
             $extPrice = $price * $item->quantity;
 
             $disExtPrice = number_format($extPrice, 2);
@@ -155,7 +211,7 @@ class CartController extends Controller
         return $items;
     }
 
-    public function updateItems($shoppingCart)
+        public function updateItems($shoppingCart)
     {
         $items = ShoppingCartItems::where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
             ->where('shopping_cart_items.transaction_processing', '=', 1)
@@ -203,8 +259,27 @@ class CartController extends Controller
     }
 
     public function loadShipping($userId, $data, $request)
-    {
-        $user = Users::find($userId);
+    {   
+        if($this->user->is_guest){
+            $user = TempUsers::where('user_id',$userId)->first();
+        }
+        else{
+            $user = Users::find($userId);
+        }
+
+        if( !$user ){
+
+            $user = new \stdClass();
+            $user->id = 0;
+            $user->addr1 = '';
+            $user->addr2 = '';
+            $user->first_name = '';
+            $user->last_name = '';
+            $user->postal_code = '';
+            $user->city = '';
+            $user->state = '';
+        }
+
         $addr1 = ($user) ? $user->addr1:'';
         $addr2 = ($user) ? $user->addr2:'';
         $fn = ($user) ? $user->first_name:'';
@@ -241,8 +316,8 @@ class CartController extends Controller
 
     public function shippingAmount(Request $request)
     {
-		return 0.00;
-		
+        return 0.00;
+        
         $totalWeight = $request->input('totalWeight');
 
         $shippingMethod = $request->input('shippingMethod');
@@ -281,8 +356,55 @@ class CartController extends Controller
         return view('shoppingcart', $data);
     }
 
+    public function addNewShippingAddress(Request $request){
+        $shipping = new ShippingAddresses;
+
+        if( is_numeric($request->get('user_id')) ){
+            $data['temp_id'] = null;
+            $data['user_id'] = $request->get("user_id");
+        }
+        else{
+            $data['user_id'] = null;
+            $data['temp_id'] = $request->get("user_id");
+        }
+
+        $data = [
+            'shipping_name'  => $request->get('shipping_name'),
+            'shipping_addr1' => $request->get('shipping_addr1'),
+            'shipping_addr2' => $request->get('shipping_addr2'),
+            'city'           => $request->get('city'),
+            'state'          => $request->get('state'),
+            'country'        => $request->get('country'),
+            'postal_code'    => $request->get('postal_code')  
+        ];
+
+        $shipping->fill($data);
+
+        $shipping->save();
+
+        return response()->json([
+            'error' => false,
+            'msg' => 'Successfully added new Shipping Address'
+        ]);
+    }
+
     public function loadSelShipping($userId, $data, $request, $shipping_id)
     {
+        $user = Users::find($userId);
+
+        if( !$user ){
+
+            $user = new \stdClass();
+            $user->id = 0;
+            $user->addr1 = '';
+            $user->addr2 = '';
+            $user->first_name = '';
+            $user->last_name = '';
+            $user->postal_code = '';
+            $user->city = '';
+            $user->state = '';
+        }
+
         $user = Users::find($userId);
         $shipping = ShippingAddresses::find($shipping_id);
         $results = "<tr>";
@@ -322,6 +444,7 @@ class CartController extends Controller
 
             $data = $this->userData($request);
             $data = $this->loadShoppingCart($data['user_id'], $data);
+
             if($shippingId == 0) {
                 $data = $this->loadShipping($data['user_id'], $data, $request);
             }else{
@@ -334,6 +457,9 @@ class CartController extends Controller
             $request->session()->set('payPrice', $data['payPrice']);
             $request->session()->set('totalShipping', $data['totalShipping']);
             $request->session()->set('grandTotal', $data['grandTotal']);
+            
+            $data['u'] = Users::find(session()->get('user_id'));
+
             return view('shoppingcart', $data);
 
     }
@@ -341,9 +467,13 @@ class CartController extends Controller
     public function shippingAddresses($user, $shippingadd)
     {
         //huh?
-        $results = "<select name='ShippingAddress' onchange='updateAddress(this)'>";;
+        $results = "<select name='ShippingAddress' onchange='updateAddress(this)'>";
+
+        $results .= "<option value=''>-Select Address-</option>";
+
         if ($user->addr1 > '') {
-            $results .= "<option value='0'>User Address</option>";
+            $user_sele = ($shippingadd == 0) ? 'selected="selected"' : '';
+            $results .= "<option value='0' ".$user_sele.">User Address</option>";
         }
         $shippingaddresses = ShippingAddresses::where('user_id', $user->id)->get();
         foreach ($shippingaddresses as $shippingaddress) {
@@ -374,15 +504,36 @@ class CartController extends Controller
     }
 
     public function purchase(Request $request) {
-		//$request->session()->set('grandTotal', "1.20");
+        //$request->session()->set('grandTotal', "1.20");
         $userId = $request->session()->get('user_id');
-        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
+        $colum = $this->user->is_guest ? 'temp_user_id' : 'user_id';
+
+        $shoppingCart = ShoppingCarts::where($colum, $userId)->first();
+
         $items = $this->updateItems($shoppingCart);
         $data = $this->userData($request);
-		include_once(app_path() . '/Http/Controllers/usa_cities_states.php');
-		$data['cities_states'] = $cities_states;
-		$data['states'] = $state_list;
-		
+
+        // Check if shopping cart have debit card in basket, 
+        // if It have then Okay show the add Distributer registration form.
+        $temp_items = ShoppingCartItems::where('shopping_cart_id',$shoppingCart->id)
+                    ->whereHas('product',function($q){
+                        $q->where('product_name','Eco-nomix Debit Cards');
+                    })
+                    ->get();
+
+        if( $temp_items->count() > 0 ){
+            $request->session()
+                      ->put('debit_card_exists_in_cart',1);
+        }
+        else{
+            $request->session()
+                     ->put('debit_card_exists_in_cart',0);
+        }
+
+        include_once(app_path() . '/Http/Controllers/usa_cities_states.php');
+        $data['cities_states'] = $cities_states;
+        $data['states'] = $state_list;
+        
         $data['totalPrice'] = $request->session()->get('totalPrice');
         $data['grandTotal'] = $request->session()->get('grandTotal');
         $data['shippingMethod'] = $request->input('shippingMethod');
@@ -394,8 +545,8 @@ class CartController extends Controller
         $request->session()->set('transactionTotalWeightShipping', $request->session()->get('totalWeightShipping'));
         $request->session()->set('transactionTotalShipping', $request->session()->get('totalShipping'));
         $data['totalShipping'] = $request->session()->get('totalShipping');
-		
-		return view('purchase', $data);
+        
+        return view('purchase', $data);
     }
 
     public function checkPurchase(Request $request)
@@ -433,23 +584,20 @@ class CartController extends Controller
             return view('transaction_approved', $data);
         }
     }
-	public function cardPurchase(Request $request) {
-		//$request->session()->set('grandTotal', "1.20");
+    public function cardPurchase(Request $request) {
+        // $request->session()->set('grandTotal', "1.20");
         $grandTotal = $request->session()->get('grandTotal');
         $billingName = $request->input('billing_name');
         $creditCard = $request->input('credit_card');
         $exmonth = $request->input('month');
         $exyear = $request->input('year');
-		//$exyear = substr($exyear, -2);
+        //$exyear = substr($exyear, -2);
         $securityCode = $request->input('security_code');
-		$data = $this->userData($request);
-		
-     //   $api_resp = $this->processAPI($request);  turn on to process
-        $api_resp['approved'] = false;
-        $api_resp['response_code'] = 'System no setup yet';
-        $api_resp['response'] = 'Credit Card validation coming soon';
-        $api_resp['pay_method'] = 'on hold';
-		$data['api_resp'] = $api_resp;
+        $data = $this->userData($request);
+        
+        $api_resp = $this->processAPI($request);
+       
+        $data['api_resp'] = $api_resp;
         if ( $api_resp['approved'] == false ) {
             $data['grand_total'] = $grandTotal;
             $data['approval_code'] = isset($api_resp['response_code'])?$api_resp['response_code']:'';
@@ -466,24 +614,25 @@ class CartController extends Controller
             $data['credit_card'] = $creditCard;
             $data['pay_method'] = $api_resp['pay_method'];
             $data['transaction'] = $this->updateSales($request, $api_resp);
-			$data['transaction_number'] = $api_resp['transaction_number'];
-			$request->session()->set('shippingId',0);
+            $data['transaction_number'] = $api_resp['transaction_number'];
+            $request->session()->set('shippingId',0);
             $request->session()->set('transactionPayPrice', 0);
             $request->session()->set('transactionTotalPrice', 0);
             $request->session()->set('transactionGrandTotal', 0);
             $request->session()->set('transactionTotalWeightShipping', 0);
             $request->session()->set('transactionTotalShipping', 0);
-			
+            
             return view('transaction_approved', $data);
         }
     }
-	
-	
-	
+    
+    
+    
     public function reloadSales(Request $request)
     {
         $userId = $request->session()->get('user_id');
-        $shoppingCart = ShoppingCarts::where('user_id', $userId)->first();
+        $colum = $this->user->is_guest ? 'temp_user_id' : 'user_id';
+        $shoppingCart = ShoppingCarts::where($colum, $userId)->first();
         $items = ShoppingCartItems::where('shopping_cart_items.shopping_cart_id', $shoppingCart->id)
             ->update(['transaction_processing'=>1]);
     }
@@ -568,7 +717,7 @@ class CartController extends Controller
     public function processAPI($request)
     {
         $grandTotal = $request->session()->get('grandTotal');
-		$grandTotal = number_format($grandTotal,2) * 100;
+        $grandTotal = number_format($grandTotal,2) * 100;
         $billingName = $request->input('billing_name');
         $creditCard = $request->input('credit_card');
         $exmonth = $request->input('month');
@@ -579,143 +728,151 @@ class CartController extends Controller
         //$approved = ['date'=>$transaction_date,'approval_code'=>'12345abcded','error'=>'','credit_card'=>$creditCard, 'pay_method'=>$ccType];
        // $disapproved = ['date'=>$transaction_date,'approval_code'=>'denied','error'=>'website in development - not a problem with your card','credit_card'=>$creditCard,'pay_method'=>$ccType];
         
-		$expy = substr($exyear, -2);
-		$expDate = $exmonth.$expy;
-		$api_url = 'https://epay.propay.com/api/propayapi.aspx';
-		$invNum = ($request->input('invNum'))?$request->input('invNum'):'123456';
-		$cert_str = '694a6da2e8f462191261a1cca76ce8';//'ca08a19ee8f439598dd407055aa1ae';
-		$post_data = $_POST;
-		$owner_propay_account_no = '32560413';
-		//print_r($post_data);
-		$envelope = '<?xml version="1.0"?>
-		     <!DOCTYPE Request.dtd>
-		     <XMLRequest>
-			     <certStr>' . $cert_str . '</certStr>
-			     <class>partner</class>
-			     <XMLTrans>
-				     <transType>04</transType>
-				     <accountNum>'.$owner_propay_account_no.'</accountNum>
-				     <amount>' . $grandTotal . '</amount>
-				     <ccNum>' . $creditCard . '</ccNum>
-				     <expDate>' . $expDate . '</expDate>
-				     <CVV2>' . $securityCode . '</CVV2>	
-				     <cardholderName>' . $billingName . '</cardholderName>
-				     <addr>' . $request->input('address1') . '</addr>
-				     <aptNum>' . $request->input('address2') . '</aptNum>
-				     <city>' . $request->input('city') . '</city>
-				     <state>' . $request->input('state') . '</state>
-				     <zip>' . $request->input('postal_code') . '</zip>
-				     <comment1>' . $request->input('comment1') . '</comment1>
-				     <invNum>' . $invNum . '</invNum>
-			     </XMLTrans>	
-		     </XMLRequest>';
-		
-		//echo "<h2>Request</h2>";
-		//print_r($envelope);
-		
-		$header = array(
-		"Content-type:text/xml; charset=\"utf-8\"",
-		"Accept: text/xml"
-		);
+        $expy = substr($exyear, -2);
+        $expDate = $exmonth.$expy;
+        $invNum = ($request->input('invNum'))?$request->input('invNum'):'123456';
+        
+        /* Live credentials */
+        $api_url = 'https://epay.propay.com/api/propayapi.aspx';
+        $cert_str = '694a6da2e8f462191261a1cca76ce8';
+        $owner_propay_account_no = '32560413';
 
-		$MSAPI_Call = curl_init();
-		//Change the following URL to point to production instead of integration
-		curl_setopt($MSAPI_Call, CURLOPT_URL, $api_url);
-		curl_setopt($MSAPI_Call, CURLOPT_TIMEOUT, 30);
-		curl_setopt($MSAPI_Call, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($MSAPI_Call, CURLOPT_POST, true);
-		curl_setopt($MSAPI_Call, CURLOPT_POSTFIELDS, $envelope);
-		curl_setopt($MSAPI_Call, CURLOPT_HTTPHEADER, $header);
-		curl_setopt($MSAPI_Call, CURLOPT_SSL_VERIFYPEER, 0);
-		curl_setopt($MSAPI_Call, CURLOPT_SSL_VERIFYHOST, 0);
-		curl_setopt($MSAPI_Call, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
+        /* Demo Credentials */
+        // $api_url = 'https://xmltest.propay.com/api/propayapi.aspx';
+        // $cert_str = 'ca08a19ee8f439598dd407055aa1ae';
 
-		$api_response = curl_exec($MSAPI_Call);
-		$err = curl_error($MSAPI_Call);
-		curl_close($MSAPI_Call);
-		
-		//URL::to(Config::get('assets.' . $type) . '/' . $file)
-		
-		
-		$response_status = simplexml_load_file(dirname(__FILE__).'/MSAPI_Response.xml');
-		$result = simplexml_load_string($api_response);	
-		//Pretty Print response
-		$api_result = new \DOMDocument('1.0');
-		$api_result->preserveWhiteSpace = false;
-		$api_result->formatOutput = true;
-		$api_result->loadXML($api_response);
-		
-		$resp = array();
-		$resp['creditCard'] = $creditCard;
-		$resp['credit_card'] = $creditCard;
-		$resp['pay_method'] = "Credit/Debit Card";
-		$resp['date'] = $transaction_date;
-		if(isset($result->XMLTrans->status))  {
-			$status = $result->XMLTrans->status;
-			if($status != '00') {
-				
-				$status = '_'.$status;			
-				$resp['status'] = $response_status->status->$status;
-				$resp['response'] = "Transaction may not have completed successfully";
-				$resp['response'] .= "\nTransaction Status: " . $resp['status']; 
-				if(isset($result->XMLTrans->responseCode)) {
-					$response_code = $result->XMLTrans->responseCode;
-					$response_code = '_'.$response_code;
-					$resp['response_code'] = $response_status->responseCode->$response_code;
-					$resp['response'] .= "\nResponse Code: " . $resp['response_code'];
-				}
-				if(isset($result->XMLTrans->CVV2Resp)) {
-					$CVV2_response = $result->XMLTrans->CVV2Resp;
-					$CVV2_response = '_'.$CVV2_response;
-					$resp['CVV2_response'] = $response_status->CVV2Resp->$CVV2_response;
-					$resp['response'] .= "\nCVV2 Response: " . $resp['CVV2_response']; 
-				}
-				$resp['response'] .= "\n";
-				$resp['response'] .= $api_result->saveXML();
-				$resp['approved'] = false;
-				
-				
-			} else {
-				$resp['account_number'] = $result->XMLTrans->accountNum;
-				$resp['transaction_number'] = $result->XMLTrans->transNum;
-				$resp['authorization_code'] = $result->XMLTrans->authCode;
-				$AVS = $result->XMLTrans->AVS;
-				$AVS = '_'.$AVS;	
-				$resp['AVS'] = $response_status->AVS->$AVS;
-				$response_code = $result->XMLTrans->responseCode;
-				$response_code = '_'.$response_code;
-				$resp['response_code'] = $response_status->responseCode->$response_code;				
-				$resp['response'] = "Transaction completed successfully";
-				$status = '_'.$status;			
-				$resp['status'] = $response_status->status->$status;
-				$resp['response'] .= "\nTransaction Status: " . $resp['status']; 
-				$resp['response'] .= "\nAccount Number: " . $resp['account_number'];	
-				$resp['response'] .= "\nTransaction Number: " . $resp['transaction_number'];
-				$resp['response'] .= "\nAuthorization Number: " . $resp['authorization_code'];
-				$resp['response'] .= "\nAVS Code: " . $resp['AVS'];
-				$resp['response'] .= "\nResponse Code: " . $resp['response_code'];
-				if(isset($result->XMLTrans->CVV2Resp))
-				{
-					$CVV2_response = $result->XMLTrans->CVV2Resp;
-					$CVV2_response = '_'.$CVV2_response;
-					$resp['CVV2_response'] = $response_status->CVV2Resp->$CVV2_response;
-					$resp['response'] .= "\nCVV2 Response: " . $CVV2_response; 
-				}
+        $post_data = $_POST;
+        // $owner_propay_account_no = '32303991';
+        //print_r($post_data);
+        $envelope = '<?xml version="1.0"?>
+             <!DOCTYPE Request.dtd>
+             <XMLRequest>
+                 <certStr>' . $cert_str . '</certStr>
+                 <class>partner</class>
+                 <XMLTrans>
+                     <transType>04</transType>
+                     <accountNum>'.$owner_propay_account_no.'</accountNum>
+                     <amount>' . $grandTotal . '</amount>
+                     <ccNum>' . $creditCard . '</ccNum>
+                     <expDate>' . $expDate . '</expDate>
+                     <CVV2>' . $securityCode . '</CVV2> 
+                     <cardholderName>' . $billingName . '</cardholderName>
+                     <addr>' . $request->input('address1') . '</addr>
+                     <aptNum>' . $request->input('address2') . '</aptNum>
+                     <city>' . $request->input('city') . '</city>
+                     <state>' . $request->input('state') . '</state>
+                     <zip>' . $request->input('postal_code') . '</zip>
+                     <comment1>' . $request->input('comment1') . '</comment1>
+                     <invNum>' . $invNum . '</invNum>
+                 </XMLTrans>    
+             </XMLRequest>';
+        
+        //echo "<h2>Request</h2>";
+        //print_r($envelope);
+        
+        $header = array(
+        "Content-type:text/xml; charset=\"utf-8\"",
+        "Accept: text/xml"
+        );
 
-				$resp['approved'] = true;
-			}
-		}  else {
-			$resp['response'] = "Unknwn Error";
-			$resp['approved'] = false;
-			//print_r($api_result->saveXML());
-		}
-		//echo "<h2>Response</h2>";
-		//print_r($resp);
-		
-		$resp['envelope'] = $envelope;
-		
-		return $resp;
+        $MSAPI_Call = curl_init();
+        //Change the following URL to point to production instead of integration
+        curl_setopt($MSAPI_Call, CURLOPT_URL, $api_url);
+        curl_setopt($MSAPI_Call, CURLOPT_TIMEOUT, 30);
+        curl_setopt($MSAPI_Call, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($MSAPI_Call, CURLOPT_POST, true);
+        curl_setopt($MSAPI_Call, CURLOPT_POSTFIELDS, $envelope);
+        curl_setopt($MSAPI_Call, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($MSAPI_Call, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($MSAPI_Call, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($MSAPI_Call, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
+
+        $api_response = curl_exec($MSAPI_Call);
+        $err = curl_error($MSAPI_Call);
+        curl_close($MSAPI_Call);
+        
+        //URL::to(Config::get('assets.' . $type) . '/' . $file)
+        
+        
+        $response_status = simplexml_load_file(dirname(__FILE__).'/MSAPI_Response.xml');
+        $result = simplexml_load_string($api_response); 
+        //Pretty Print response
+        $api_result = new \DOMDocument('1.0');
+        $api_result->preserveWhiteSpace = false;
+        $api_result->formatOutput = true;
+        $api_result->loadXML($api_response);
+        
+        $resp = array();
+        $resp['creditCard'] = $creditCard;
+        $resp['credit_card'] = $creditCard;
+        $resp['pay_method'] = "Credit/Debit Card";
+        $resp['date'] = $transaction_date;
+        if(isset($result->XMLTrans->status))  {
+            $status = $result->XMLTrans->status;
+            if($status != '00') {
+                
+                $status = '_'.$status;          
+                $resp['status'] = $response_status->status->$status;
+                $resp['response'] = "Transaction may not have completed successfully";
+                $resp['response'] .= "\nTransaction Status: " . $resp['status']; 
+                if(isset($result->XMLTrans->responseCode)) {
+                    $response_code = $result->XMLTrans->responseCode;
+                    $response_code = '_'.$response_code;
+                    $resp['response_code'] = $response_status->responseCode->$response_code;
+                    $resp['response'] .= "\nResponse Code: " . $resp['response_code'];
+                }
+                if(isset($result->XMLTrans->CVV2Resp)) {
+                    $CVV2_response = $result->XMLTrans->CVV2Resp;
+                    $CVV2_response = '_'.$CVV2_response;
+                    $resp['CVV2_response'] = $response_status->CVV2Resp->$CVV2_response;
+                    $resp['response'] .= "\nCVV2 Response: " . $resp['CVV2_response']; 
+                }
+                $resp['response'] .= "\n";
+                $resp['response'] .= $api_result->saveXML();
+                $resp['approved'] = false;
+                
+                
+            } else {
+                $resp['account_number'] = $result->XMLTrans->accountNum;
+                $resp['transaction_number'] = $result->XMLTrans->transNum;
+                $resp['authorization_code'] = $result->XMLTrans->authCode;
+                $AVS = $result->XMLTrans->AVS;
+                $AVS = '_'.$AVS;    
+                $resp['AVS'] = $response_status->AVS->$AVS;
+                $response_code = $result->XMLTrans->responseCode;
+                $response_code = '_'.$response_code;
+                $resp['response_code'] = $response_status->responseCode->$response_code;                
+                $resp['response'] = "Transaction completed successfully";
+                $status = '_'.$status;          
+                $resp['status'] = $response_status->status->$status;
+                $resp['response'] .= "\nTransaction Status: " . $resp['status']; 
+                $resp['response'] .= "\nAccount Number: " . $resp['account_number'];    
+                $resp['response'] .= "\nTransaction Number: " . $resp['transaction_number'];
+                $resp['response'] .= "\nAuthorization Number: " . $resp['authorization_code'];
+                $resp['response'] .= "\nAVS Code: " . $resp['AVS'];
+                $resp['response'] .= "\nResponse Code: " . $resp['response_code'];
+                if(isset($result->XMLTrans->CVV2Resp))
+                {
+                    $CVV2_response = $result->XMLTrans->CVV2Resp;
+                    $CVV2_response = '_'.$CVV2_response;
+                    $resp['CVV2_response'] = $response_status->CVV2Resp->$CVV2_response;
+                    $resp['response'] .= "\nCVV2 Response: " . $CVV2_response; 
+                }
+
+                $resp['approved'] = true;
+            }
+        }  else {
+            $resp['response'] = "Unknwn Error";
+            $resp['approved'] = false;
+            //print_r($api_result->saveXML());
+        }
+        //echo "<h2>Response</h2>";
+        //print_r($resp);
+        
+        $resp['envelope'] = $envelope;
+        
+        return $resp;
 
     }
-
 }
+?>

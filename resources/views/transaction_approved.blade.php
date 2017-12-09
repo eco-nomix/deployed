@@ -30,6 +30,15 @@
 							</div>
                         </div>
                        
+                       @if( session()->has('debit_card_exists_in_cart') && session()->get('debit_card_exists_in_cart') )
+
+                            <div class="row">
+                                <div class="form-group col-md-2 col-md-push-8">
+                                    <a href="{{ url('/addnewdistributor') }}" class="btn btn-info">Continue to ProPay registration</a>
+                                </div>
+                            </div>
+
+                       @endif
                 </div>
             </div>
         </div>

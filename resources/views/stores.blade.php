@@ -18,13 +18,13 @@
                                 <tr>
 
                                     <td style="width:200px; vertical-align:middle;">
-                                        <a href="/store/{{$store->id}}">
+                                        <a href="{{URL::to('/')}}/store/{{$store->id}}">
                                             <div align="center" style="width:200px;">{{$store->name}}</div>
                                             <div align="center" style="display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;"><img src="../images/{{$store->logo}}" width="150"  ></div>
                                         </a>
                                     </td>
                                     <td>
-                                         <a href="/store/{{$store->id}}">
+                                         <a href="{{URL::to('/')}}/store/{{$store->id}}">
                                             <div align="center" >{{$store->gen_description}}</div>
                                         </a>
                                     </td>
@@ -33,13 +33,13 @@
                             @endforeach
                             <tr>
                                  <td> 
-                                     <a href="/store/{{$product_group}}/add/{{$user_id}}">
-                                           <div align="center" style="width:200px;">Add/Edit your own {{$store_type}}</div>
+                                     <a href="{{URL::to('/')}}/store/{{$product_group}}/add/{{$user_id}}" class="add_product_in_store">
+                                          <div align="center" style="width:200px;">Add/Edit your own {{$store_type}}</div>
                                            <div align="center" style="display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;"><img src="../images/Economix3731_Fotor.jpg" width="150"  ></div>
                                      </a>
                                  </td>
                                  <td>
-                                      <a href="/store/{{$product_group}}/add/{{$user_id}}">
+                                      <a href="{{URL::to('/')}}/store/{{$product_group}}/add/{{$user_id}}" class="add_product_in_store">
                                           <div align="center" >Create or Edit your Own {{$store_type}} using Eco-nomix.  You can carry any product/service that you like,  get to set your own price,<br> shipping procedure. You can even take orders for custom products. Set it up the way you want.</div>
                                       </a>
                                  </td>
@@ -62,3 +62,19 @@
 
 
 @stop
+
+@push('custom')
+  
+  @if( count($have_debit_card) <= 0 )
+
+  <script type="text/javascript">
+    $(document).on('click','a.add_product_in_store',function(e){
+      e.preventDefault();
+      alert('First you need to purchase debit card and register on propay to issue your Propay debit card');
+
+      return false;
+
+    });
+  </script>
+  @endif
+@endpush

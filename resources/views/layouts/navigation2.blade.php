@@ -6,7 +6,7 @@
         <div class="referral" >
         @if(!isset($referral_link))
             Your Referral Link: <br>
-            Not logged in
+            Not logged inxxx
         @else
             Your Referral Link: <br>
             {{$referral_link}}

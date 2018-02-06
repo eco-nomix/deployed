@@ -14,7 +14,7 @@
         </div>
         <div style="padding:15px;">
             <ul>
-                <li><a href="{{URL::to('/')}}/products">Products<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/products">Products1<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/selection">Product Selection</a></li>
                         <li><a href="{{URL::to('/')}}/stores/39">Art Galleries</a></li>

@@ -6,7 +6,7 @@
         <div class="referral" >
         @if(!isset($referral_link))
             Your Referral Link: <br>
-            Not logged inxx
+            Not logged in
         @else
             Your Referral Link: <br>
             {{$referral_link}}
@@ -14,7 +14,7 @@
         </div>
         <div style="padding:15px;">
             <ul>
-                <li><a href="{{URL::to('/')}}/products">Products5<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/products">Products<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/selection">Product Selection</a></li>
                         <li><a href="{{URL::to('/')}}/stores/39">Art Galleries</a></li>

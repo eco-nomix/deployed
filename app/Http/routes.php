@@ -199,6 +199,24 @@ Route::get('/onekind/{productId}',['as'=>'onekind','uses'=>'StoreController@onek
 Route::get('/multikind',['as'=>'onekind','uses'=>'StoreController@multikind']);
 Route::get('/multikind/sub/{productCategory}',['as'=>'onekind','uses'=>'StoreController@multikindSub']);
 Route::get('/multikind/{productId}',['as'=>'onekind','uses'=>'StoreController@multikindproduct']);
+
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold/traininglinks',['as' => 'traininglinks','uses'=>'GoldPagesController@traininglinks']);
+Route::get('/gold/whitepaper',['as' => 'whitepaper','uses'=>'GoldPagesController@whitepaper']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+
     /*
   |--------------------------------------------------------------------------
   | Application Routes

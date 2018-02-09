@@ -66,7 +66,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="{{URL::to('/')}}/gold/intro">Introduction</a>
+                   <a href="{{URL::to('/')}}/gold/crypto">CryptoCurrency</a>
+                </li>
+                <li>
+                    <a href="{{URL::to('/')}}/gold/intro">Mining CryptoCurrency</a>
                 </li>
                 <li>
                     <a href="{{URL::to('/')}}/gold/whitepaper">White Paper</a>

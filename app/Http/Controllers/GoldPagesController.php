@@ -65,6 +65,21 @@ class GoldPagesController extends Controller
 
         return view('goldwhitepaper',$data);
     }
+    public function introduction(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Eco-Gold';
+        $data['description'] = 'Introduction';
 
+        return view('goldintroduction',$data);
+    }
+    public function crypto(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Eco-Gold';
+        $data['description'] = 'Cryptocurrency';
+
+        return view('goldcrypto',$data);
+    }
 
 }

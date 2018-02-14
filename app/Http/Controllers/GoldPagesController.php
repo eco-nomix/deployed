@@ -11,6 +11,7 @@ use App\Models\ShoppingCarts;
 use App\Models\RegistrationStatus;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Response;
 
 class GoldPagesController extends Controller
 {
@@ -65,6 +66,13 @@ class GoldPagesController extends Controller
 
         return view('goldwhitepaper',$data);
     }
+
+    public function downloadwhitepaper()
+    {
+
+        return Response::download('Digital Gold2.pdf');;
+    }
+
     public function introduction(Request $request)
     {
         $data = $this->userData($request);

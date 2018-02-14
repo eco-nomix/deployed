@@ -6,6 +6,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
+            <button style="float:right" onclick="location.href='/gold/whitepaper/download'">Download PDF</button>
             <div class="panel panel-default display">
                 <div class="panel-heading">Eco-Coin White Paper</div>
                 <div class="panel-body">

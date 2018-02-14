@@ -203,6 +203,7 @@ Route::get('/multikind/{productId}',['as'=>'onekind','uses'=>'StoreController@mu
 Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
 Route::get('/gold/traininglinks',['as' => 'traininglinks','uses'=>'GoldPagesController@traininglinks']);
 Route::get('/gold/whitepaper',['as' => 'whitepaper','uses'=>'GoldPagesController@whitepaper']);
+Route::get('/gold/whitepaper/download',['as' => 'whitepaper','uses'=>'GoldPagesController@downloadwhitepaper']);
 Route::get('/gold/intro',['as' => 'intro','uses'=>'GoldPagesController@introduction']);
 Route::get('/gold/crypto',['as' => 'crypto','uses'=>'GoldPagesController@crypto']);
 Route::get('/gold/vue',['as' => 'vue','uses'=>'GoldPagesController@vue']);

@@ -22,7 +22,7 @@
 
                     </ul>
                 </li>
-                <li><a href="{{URL::to('/')}}/gold/people">People<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/gold/people">People1<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/gold/founders">Founders</a></li>
 

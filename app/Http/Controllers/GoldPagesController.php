@@ -82,4 +82,13 @@ class GoldPagesController extends Controller
         return view('goldcrypto',$data);
     }
 
+    public function vue(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Eco-Gold';
+        $data['description'] = 'Vue';
+
+        return view('goldvue',$data);
+    }
+
 }

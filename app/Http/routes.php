@@ -205,7 +205,7 @@ Route::get('/gold/traininglinks',['as' => 'traininglinks','uses'=>'GoldPagesCont
 Route::get('/gold/whitepaper',['as' => 'whitepaper','uses'=>'GoldPagesController@whitepaper']);
 Route::get('/gold/intro',['as' => 'intro','uses'=>'GoldPagesController@introduction']);
 Route::get('/gold/crypto',['as' => 'crypto','uses'=>'GoldPagesController@crypto']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+Route::get('/gold/vue',['as' => 'vue','uses'=>'GoldPagesController@vue']);
 Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
 Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
 Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);

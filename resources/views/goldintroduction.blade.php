@@ -29,11 +29,11 @@
                             Digital Gold has been designed from the ground-up to allow Agents to Mine the Digital Gold currency through their labor.
                         </div>
                         <div class="form-group col-md-12 ">
-                            The Labor we seek is to assist Digital Gold in becoming well known and more importantly used as a currency,  in short Marketing. But to be
+                            The Labor we seek is to assist Digital Gold in becoming well known and more importantly used as a currency,  in short - Marketing. But to be
                              more specific Digital Gold is seeking Referrals.
                         </div>
                         <div class="form-group col-md-12 ">
-                            <h2>how it works</h2>  You become a registered Agent for Digital Gold.  It is a small registration form with a massive $10.00 one-time registration
+                            <h2>How It Works</h2>  You become a registered Agent for Digital Gold.  It is a small registration form with a massive $10.00 one-time registration
                             fee.  There are no other fees you are ever obligated to pay.  Since we are paying a cryptocurrency that has real value (gold) only agents may receive this.
                         </div>
                         <div class="form-group col-md-12 ">

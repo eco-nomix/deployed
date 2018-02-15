@@ -72,6 +72,11 @@ class GoldPagesController extends Controller
 
         return Response::download('Digital Gold2.pdf');;
     }
+    public function downloadintroduction()
+    {
+
+        return Response::download('MiningDigitalGold.pdf');;
+    }
 
     public function introduction(Request $request)
     {

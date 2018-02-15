@@ -47,7 +47,7 @@
                             You don't stock any product, and in fact you don't ever have to make any purchase of Digital Gold to receive your Referral Bonus.  By the way, The Referral fee
                             is equal to 10% of their purchase in Digital Coins.  That means if they purchase 1000 Digital Gold Coins you will receive 100 Digital Gold Coins in your
                             personal eWallet to spend how you see fit.  Or even better, sit on it and watch the price go up as the dollar continues to go down in value compared to Gold.  That percentage is constant for any size purchase and applies as long as your referral makes any purchase in the future,
-                            even years for now.  No there are no additional fees on your part, ever.  So whenever there purchase is made, your account is credited.
+                            even years for now.  No there are no additional fees on your part, ever.  So whenever their purchase is made, your account is credited.
                         </div>
                         <div class="form-group col-md-12 ">
                             I know what you are thinking, how can Digital Gold do this?  There is a 10% discount to the purchaser

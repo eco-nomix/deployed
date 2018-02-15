@@ -11,6 +11,8 @@
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        <button style="float:right" onclick="location.href='/gold/introduction/download'">Download PDF</button>
+
                         <div class="form-group col-md-12 ">
                             Digital Gold is a new crypto-currency that is tied directly to the price of Gold.  Please see the white paper as how this operates.
                         </div>

@@ -12,30 +12,30 @@
 
 
             <div class="panel panel-default display">
-                <div class="panel-heading">Member Costs for Eco-nomix</div>
+                <div class="panel-heading">Member Costs for Kinetic Gold</div>
                 <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            There is NO membership costs for clients of Eco-nomix to participate in its Referral Bonus Program.
+                            Kinetic Gold is an association that is focused on the use and expansion of the Kinetic Gold banking and Cryptocurrency platform.
                         </div>
                         <div class="form-group col-md-12 ">
-                            The only requirement to participate in Eco-nomix’s referral program is to register as a Member.   </div>
+                            To become a member of the association there is a one-time registration fee of $39.95.   </div>
                         <div class="form-group col-md-12 ">
                            Because this program involves payments and bonuses, sufficient information to satisfy government requirements will be required to complete the registration.</div>
-                         <div class="form-group col-md-12 ">Registration is a two step process
-                            <ul>
-                                <li>Provide your basic information (name, email, desired username and password), </li>
-                                <li>Provide Contact Info, Tax Information (necessary for receiving Referral Bonuses)</li>
-                            </ul>
+                         <div class="form-group col-md-12 ">Registration is a single step process just
+                           Provide your basic information (name, email, desired username and password)
+
                         <div class="form-group col-md-12 ">
-                           Benefits from Registration</div>
+                           Benefits from membership in Kinetic Gold's Association</div>
                         <div class="form-group col-md-12 ">
                            <ul>
-                               <li>Registered members will typically receive a discount on products from the Suggested Retail Price.</li>
-                               <li>Registered members participate in the Referral Bonus Program and build an organization</li>
-                               <li>Fully Registered members may utilize Referral Bonuses to purchase or apply payments to Eco-nomix Products.</li>
-                               <li>Fully Registered members using Referral Bonuses, may "purchase" Eco-nomix Products with no out of pocket money.</li>
-                               <li>One such product is the Economics Start-up Package.</li>
+                               <li>Members will receive a Kinetic Gold cryptocurrency account.</li>
+                               <li>Members will receive an e-wallet which can access this account</li>
+                               <li>Members will receive a banking account at an offshore bank affiliated with Kinetic Gold.</li>
+                               <li>The banking account will interact directly with theircryptocurrency account.</li>
+                               <li>The banking account will include a Debit card where you can access your accounts anywhere in the world through the Visa/Mastercard platform.</li>
+                               <li>Members automatically qualify for Kinetic Gold rewards program.  Rewards are automatically credited into your savings account at your offshore bank account.</li>
+                               <li>Members can participate in Kinetic Gold's profit sharing and mining program</li>
                            </ul>
                         </div>
 

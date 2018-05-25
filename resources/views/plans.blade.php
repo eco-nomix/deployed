@@ -12,19 +12,18 @@
 
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="form-group col-md-12 ">
-                        The Goal of Eco-nomix is to provide the products, training and service that will enable individuals, families and communities to become more prepared for the tough times ahead of us.  We anticipate major changes in society around us, and most of what we see concerns us.
+                        The Goal of Kinetic Gold is to provide the next Generation of Banking and Cryptocurrency that will allow individuals, families and communities to become more empowered to utilize their financial resources to benefit themselves.  Banking has far too long been designed to benefit only the powers that be and not the true source of wealth, the people themselves.                    </div>
+                    <div class="form-group col-md-12 ">
+                        To reach the greatest number of people possible, Kinetic Gold employs a Reward and profit sharing system that benefits every account holder.
                     </div>
                     <div class="form-group col-md-12 ">
-                        To reach the greatest number of people possible, a new form of multi-level marketing was created, one that eliminated all of the negative aspects of multi-level marketing, but preserving the essential ability of impacting in a positive way the maximum number of people.
-                    </div>
-                    <div class="form-group col-md-12 ">
-                        No investment, no monthly purchase of products, and no hard sell.
+
                     </div>
                     <div class="form-group col-md-12 ">
                         Investigate each of the sections below to see the difference in detail.
                     </div>
                     <div class="form-group col-md-12 ">
-                        The introduction tab will give a nice overview of how Eco-nomix marketing is different.
+                        The introduction tab will give a nice overview of how Kinetic Golds platform is unique and advantageous.
                     </div>
                     <div class="form-group col-md-12 ">
 

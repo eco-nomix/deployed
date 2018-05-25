@@ -14,7 +14,7 @@
         </div>
         <div style="padding:15px;">
             <ul>
-               
+
                 <li><a href="{{URL::to('/')}}/traininglinks">Training Links<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/links/gardening">Gardening</a></li>
@@ -46,13 +46,7 @@
                     </ul>
                 </li>
                 <li><a href="{{URL::to('/')}}/purpose">Purpose<span class="caret"></span></a>
-                    <ul>
-                        <li><a href="{{URL::to('/')}}/physically">Physically</a></li>
-                        <li><a href="{{URL::to('/')}}/emotionally">Emotionally</a></li>
-                        <li><a href="{{URL::to('/')}}/spiritually">Spiritually</a></li>
-                        <li><a href="{{URL::to('/')}}/economically">Economically</a></li>
-                        <li><a href="{{URL::to('/')}}/selfreliance">Self-Reliance</a></li>
-                    </ul>
+
                 </li>
                 <li><a href="{{URL::to('/')}}/plans">Business Plan<span class="caret"></span></a>
                     <ul>

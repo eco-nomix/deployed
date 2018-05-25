@@ -14,29 +14,7 @@
         </div>
         <div style="padding:15px;">
             <ul>
-                <li><a href="{{URL::to('/')}}/products">Products<span class="caret"></span></a>
-                    <ul>
-                        <li><a href="{{URL::to('/')}}/selection">Product Selection</a></li>
-                        <li><a href="{{URL::to('/')}}/stores/39">Art Galleries</a></li>
-                        <li><a href="{{URL::to('/')}}/stores/38">Boutiques</a></li>
-                        <li><a href="{{URL::to('/')}}/stores/40">Estate Sales</a></li>
-                        <li><a href="{{URL::to('/')}}/stores/42">Stores</a></li>
-                        <li><a href="{{URL::to('/')}}/stores/41">Services</a></li>
-                        <li><a href="{{URL::to('/')}}/onekind">One of Kind</a></li>
-                        <li><a href="{{URL::to('/')}}/multikind">Member Products</a></li>
-                        <li><a href="{{URL::to('/')}}/food">Food Production</a></li>
-                        <li><a href="{{URL::to('/')}}/water">Water Purification</a></li>
-                        <li><a href="{{URL::to('/')}}/energy">Energy Production</a></li>
-                        <li><a href="{{URL::to('/')}}/recycling">Recycling</a></li>
-                        <li><a href="{{URL::to('/')}}/camping">Survival, Camping</a></li>
-                        <li><a href="{{URL::to('/')}}/cooking">Cooking Systems</a></li>
-                        <li><a href="{{URL::to('/')}}/health">Home Health</a></li>
-                        <li><a href="{{URL::to('/')}}/house">Household Products</a></li>
-                        <li><a href="{{URL::to('/')}}/books">Books and Guides</a></li>
-                        <li><a href="{{URL::to('/')}}/training">Training</a></li>
-
-                    </ul>
-                </li>
+               
                 <li><a href="{{URL::to('/')}}/traininglinks">Training Links<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/links/gardening">Gardening</a></li>

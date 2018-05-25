@@ -38,9 +38,7 @@
                            </ul>
                         </div>
 
-                         <div class="form-group col-md-12 ">
-                            After Login, if 'Register' still appears in the upper right hand corner, you have yet to complete your registration.
-                         </div>
+                       
                 </div>
             </div>
 

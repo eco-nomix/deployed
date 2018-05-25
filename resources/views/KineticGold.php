@@ -3,21 +3,9 @@
 
 
 @section('content')
-<div style="position:absolute; top:52px; z-index:-1">
-    <table >
-        <tr>
-           <td><div class="message2">{{$message}}</div></td>
-        </tr>
-    </table>
+<!--<div style="z-index:-5; height:1400px; background-attachment:fixed; background-size:100% 100%; background-image:  url({{$imageUrl}});">-->
 </div>
-
-
-
-
-
-
-
-
-
-
+<div class="message">
+    <p>{{$message}}</p>
+</div>
 @stop

@@ -6,12 +6,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <button style="float:right" onclick="location.href='/gold/whitepaper/download'">Download PDF</button>
             <div class="panel panel-default display">
                 <div class="panel-heading">Eco-Coin White Paper</div>
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        <button style="float:right" onclick="location.href='/gold/whitepaper/download'">Download PDF</button>
+
                         <div class="form-group col-md-12">
                         <h1>Money for the World in a Digital Age</h1>
                         </div>
@@ -19,7 +20,7 @@
                             <h2>DISCLAIMER</h2>
                         </div>
                         <div class="form-group col-md-12 ">
-                            This is document is being issued by XYZ Limited (the "company") and is being provided
+                            This is document is being issued by Digital Gold Trust (the "company") and is being provided
                             for informational purposes only.  No information set out or referred to in this document
                             shall form the basis of any contract.
                         </div>
@@ -70,14 +71,14 @@
                         </div>
 
                         <div class="form-group col-md-12 ">
-                            XYZ Limited is a Swiss Business Trust establised in 1931 under company registration number 1112223333 and is registered as a Financial Designated Business with
-                            the Financial Services Authority (FSA) of Switzerland.
+                            Digital Gold Trust is a Nevis Business Trust established in 2018 under company registration number 1112223333 and is registered as a Financial Designated Business with
+                            the Financial Services Authority (FSA) of Nevis.
                         </div>
                         <div class="form-group col-md-12 ">
 
                         </div>
                         <div class="form-group col-md-12 ">
-                            Digital Gold is a trademark of XYZ Limited.
+                            Digital Gold and Digital Gold Coin are trademarks of Digital Gold Trust.
                         </div>
                         <div class="form-group col-md-12 ">
                             Registered Address:  <br>

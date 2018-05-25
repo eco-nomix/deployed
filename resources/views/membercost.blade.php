@@ -31,7 +31,7 @@
                                <li>Members will receive a Kinetic Gold cryptocurrency account.</li>
                                <li>Members will receive an e-wallet which can access this account</li>
                                <li>Members will receive a banking account at an offshore bank affiliated with Kinetic Gold.</li>
-                               <li>The banking account will interact directly with theircryptocurrency account.</li>
+                               <li>The banking account will interact directly with their cryptocurrency account.</li>
                                <li>The banking account will include a Debit card where you can access your accounts anywhere in the world through the Visa/Mastercard platform.</li>
                                <li>Members automatically qualify for Kinetic Gold rewards program.  Rewards are automatically credited into your savings account at your offshore bank account.</li>
                                <li>Members can participate in Kinetic Gold's profit sharing and mining program</li>

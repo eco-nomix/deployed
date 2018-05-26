@@ -150,6 +150,14 @@ class PagesController extends Controller
 
         return view('businesscards',$data);
     }
+    public function cryptocurrency(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Cryptocurrency';
+        $data['description'] = 'Details of KineticGold Cryptocurrency';
+
+        return view('cryptocurrency',$data);
+    }
 
     public function startup(Request $request)
     {

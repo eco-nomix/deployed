@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
-                <div class="panel-heading">Introduction to KineticGold</div>
+                <div class="panel-heading">About KineticGold</div>
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -20,9 +20,11 @@
                         KineticGold is first and foremost a banking platform that uses a decentralized block-chain to record transactions and provide access to your account.
                         </div>
                         <div class="form-group col-md-12 ">
-                        One of the significant features is every coin is backed up by physical tangible gold that is on deposit.  KineticGold's coin is actually a warehouse receipt that sow ownership of that gold.</div>
+                        One of the significant features is every coin is backed up by physical tangible gold that is on deposit.  KineticGold's coin is actually a warehouse receipt that shows ownership of that gold.</div>
                         <div class="form-group col-md-12 ">
-                        The goldd will in the vaults of Dubai and other locations throughout the world. </div>
+                        All gold is Hallmarked by some of the finest refineries and the world</div>
+                        <div class="form-group col-md-12 ">
+                        The gold will be stored in the vaults of Dubai and other locations throughout the world. </div>
                         <div class="form-group col-md-12 ">
                         Every coin will be insured by Lloyds of London that it represents one ounce of Gold on deposit.
                         </div>
@@ -94,7 +96,7 @@
 
 
 
-                      
+
             </div>
         </div>
     </div>

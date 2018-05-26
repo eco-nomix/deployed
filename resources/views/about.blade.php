@@ -23,7 +23,7 @@
                         Your account will have a debit card with a Visa/Mastercard brand that is issued from an off-shore bank which can be used at any authorized merchant with no transaction limits.
                         </div>
                         <div class="form-group col-md-12 ">
-                        One of the significant features of KineticGold is every coin is backed up by physical tangible gold that is on deposit.  KineticGold's coin is actually a warehouse receipt that shows ownership of that gold.</div>
+                        One of the significant features of KineticGold is every coin is backed up by physical tangible gold that is on deposit.  One Coin is equivalent to 1 oz of Gold.  KineticGold's coin is actually a warehouse receipt that shows ownership of that gold.</div>
                         <div class="form-group col-md-12 ">
                         All gold is Hallmarked by some of the finest refineries and the world</div>
                         <div class="form-group col-md-12 ">
@@ -34,11 +34,9 @@
                         </div>
                         <div  class="form-group col-md-12 ">No KineticGold coins can ever be sold/issued without the gold being in storage first.  This is controlled through the block chain.</div>
                         <div class="form-group col-md-12 ">
-                        Kinetic Gold has a unique systems of Rewards and Profit Sharing that will enable even the newest and smallest user able to generate immediate profit</div>
+                        Kinetic Gold has a unique systems of Rewards and Profit Sharing that will enable even the newest and smallest user able to generate immediate profit.</div>
                         <div class="form-group col-md-12 ">
                         No longer is the value of your cryptocurrency establishing on a whim but is based upon a recognized and tangible value - Gold. </div>
-
-
                         <div class="form-group col-md-12 ">
                         Every member of the KineticGold associate is given the potential to mine Gold and have it added to their accounts where it can be spent anywhere in the world.
                         </div>

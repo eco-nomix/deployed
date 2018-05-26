@@ -41,12 +41,6 @@
                         Every member of the KineticGold associate is given the potential to mine Gold and have it added to their accounts where it can be spent anywhere in the world.
                         </div>
                         <div class="form-group col-md-12 ">
-
-                        </div>
-
-
-
-                        <div class="form-group col-md-12 ">
                           Never before have these benefits been offered to a novice user.  The opportunity to make real money.  </div>
 
                         <div class="form-group col-md-12 ">

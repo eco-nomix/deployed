@@ -30,7 +30,7 @@
                         There is still time to prepare and make a major difference in how the future plays out for your family.
                     </div>
                     <div class="form-group col-md-12 ">
-                       KineticGold can help you become economically more stable, inflation proof, mobile and responsive.  This will allow your family to access your funds regardless of current banking conditions.                   </div>
+                       KineticGold can help you become economically more stable, inflation proof, mobile and responsive.  This will allow your family to access your funds regardless of current banking conditions or your location.                   </div>
                     <div class="form-group col-md-12 ">
                         KineticGold sees that this preparation will have significant impact in our physical and economic conditions.  With the overall goal to become more self-sufficient and independent and self-reliant.
                     </div>

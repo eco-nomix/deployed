@@ -48,8 +48,7 @@
 
                         <div class="form-group col-md-12 ">
                           Never before have these benefits been offered to a novice user.  The opportunity to make real money.  </div>
-                        <div class="form-group col-md-12 ">
-                         Check out the informational video and power point presentation and make an informed and realistic decision for you.  </div>
+
                         <div class="form-group col-md-12 ">
                         I remember when I had the opportunity to purchase bitcoin when it was below 25 cents.  When I think that I turned it down because it was unknown and I didn't want to take the risk, I feel a bit foolish now.  Kinetic Gold was designed to eliminate even that risk.</div>
 

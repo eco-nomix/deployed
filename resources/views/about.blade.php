@@ -20,7 +20,7 @@
                         KineticGold is first and foremost a banking platform that uses a decentralized block-chain to record transactions and provide access to your account.
                         </div>
                         <div class="form-group col-md-12 ">
-                        Your account will have a debit card with a Visa/Mastercard brand that is issued from an off-shore bank which can be used at any authorized merchant with no transaction limits.
+                        Your account will have a debit card with a Visa/Mastercard brand that is issued from an off-shore bank which can be used at any authorized merchant in the world with no transaction limits.
                         </div>
                         <div class="form-group col-md-12 ">
                         One of the significant features of KineticGold is every coin is backed up by physical tangible gold that is on deposit.  One Coin is equivalent to 1 oz of Gold.  KineticGold's coin is actually a warehouse receipt that shows ownership of that gold.</div>

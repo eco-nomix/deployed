@@ -95,7 +95,7 @@
                         </div>
 
                          <div class="form-group col-md-12 ">
-                                                 Check out the informational video and power point presentation and make an informed and realistic decision for you.  </div>
+                         Check out the informational videos and power point presentations and make an informed and realistic decision for you. Don't regret being on the sidelines again. </div>
 
 
 

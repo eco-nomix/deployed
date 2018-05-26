@@ -23,13 +23,14 @@
                         Your account will have a debit card with a Visa/Mastercard brand that is issued from an off-shore bank which can be used at any authorized merchant with no transaction limits.
                         </div>
                         <div class="form-group col-md-12 ">
-                        One of the significant features is every coin is backed up by physical tangible gold that is on deposit.  KineticGold's coin is actually a warehouse receipt that shows ownership of that gold.</div>
+                        One of the significant features of KineticGold is every coin is backed up by physical tangible gold that is on deposit.  KineticGold's coin is actually a warehouse receipt that shows ownership of that gold.</div>
                         <div class="form-group col-md-12 ">
                         All gold is Hallmarked by some of the finest refineries and the world</div>
                         <div class="form-group col-md-12 ">
                         The gold will be stored in the vaults of Dubai and other locations throughout the world. </div>
                         <div class="form-group col-md-12 ">
-                        Every coin will be insured by Lloyds of London that it represents one ounce of Gold on deposit.
+                        Every coin will be insured by Lloyds of London that it represents one ounce of Gold on deposit.  They will inspect and certify that the appropriate amount of Gold is on deposit.
+                        They will also insure your individual account for the full value of the Gold in your account, no $250,000 USD limit.
                         </div>
                         <div  class="form-group col-md-12 ">No KineticGold coins can ever be sold/issued without the gold being in storage first.  This is controlled through the block chain.</div>
                         <div class="form-group col-md-12 ">

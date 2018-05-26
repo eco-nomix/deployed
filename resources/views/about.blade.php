@@ -52,8 +52,11 @@
                         <div class="form-group col-md-12 ">
                          Check out the informational video and power point presentation and make an informed and realistic decision for you.  </div>
                         <div class="form-group col-md-12 ">
-                            I remember when I had the opportunity to purchase bitcoin when it was below 25 cents.  When I think that I turned it down because it was unknown and I didn't want to take the risk, I feel a bit foolish now.  Kinetic Gold was designed eto eliminate even that risk.</div>
+                        I remember when I had the opportunity to purchase bitcoin when it was below 25 cents.  When I think that I turned it down because it was unknown and I didn't want to take the risk, I feel a bit foolish now.  Kinetic Gold was designed to eliminate even that risk.</div>
+
                         <div class="form-group col-md-12 ">
+                        Just use your account like a standard bank account and reap benefits. </div>
+                                                   <div class="form-group col-md-12 ">
                         Now lets see what you don't have to do.
                         </div>
                         <div class="form-group col-md-12 ">
@@ -88,9 +91,7 @@
                                 <li>
                                 No hidden Fees
                                 </li>
-                                <li>
-                                No hard sell - hand out a business card, let the site do the work for you.
-                                </li>
+                               
                             </ul>
                         </div>
 

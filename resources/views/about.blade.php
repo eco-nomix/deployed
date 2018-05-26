@@ -28,6 +28,7 @@
                         <div class="form-group col-md-12 ">
                         Every coin will be insured by Lloyds of London that it represents one ounce of Gold on deposit.
                         </div>
+                        <div>No KineticGold coins will ever be sold/issued without the gold be in storage first.
                         <div class="form-group col-md-12 ">
                         Kinetic Gold has a unique systems of Rewards and Profit Sharing that will enable even the newest and smallest user able to generate immediate profit</div>
                         <div class="form-group col-md-12 ">

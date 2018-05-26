@@ -34,7 +34,7 @@
                         </div>
                         <div  class="form-group col-md-12 ">No KineticGold coins can ever be sold/issued without the gold being in storage first.  This is controlled through the block chain.</div>
                         <div class="form-group col-md-12 ">
-                        Kinetic Gold has a unique systems of Rewards and Profit Sharing that will enable even the newest and smallest user able to generate immediate profit.</div>
+                        Kinetic Gold has a unique systems of Rewards and Profit Sharing that will enable even the newest and smallest user able to generate immediate profit.  These rewards and profit sharing is also controlled by the block chain. </div>
                         <div class="form-group col-md-12 ">
                         No longer is the value of your cryptocurrency establishing on a whim but is based upon a recognized and tangible value - Gold. </div>
                         <div class="form-group col-md-12 ">

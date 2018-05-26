@@ -8,13 +8,13 @@
     <div class="row">
            <div class="col-md-8 col-md-offset-2">
                <div class="panel panel-default display">
-                   <div class="panel-heading">Contact Eco-nomix Inc.</div>
+                   <div class="panel-heading">Contact KineticGold Inc.</div>
                    <div class="panel-body">
                        <div class="form-group col-md-12 ">
 
                             <table>
                                 <tr><td>Corporate Mailing<br> Address:</td></tr>
-                                <tr><td></td><td>Eco-nomix Inc.</td><tr>
+                                <tr><td></td><td>KineticGold Inc.</td><tr>
                                 <tr><td></td><td>8029 Highway 641 S.</td></tr>
                                 <tr><td></td><td>Paris, Tennessee</td></tr>
                                 <tr><td></td><td>38242</td></tr>

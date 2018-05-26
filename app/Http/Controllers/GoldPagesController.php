@@ -36,14 +36,14 @@ class GoldPagesController extends Controller
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
         if($user){
-            $referralLink = "http://eco-nomix.org/referred/$user->id";
+            $referralLink = "http://KineticGold.org/referred/$user->id";
         }else{
             $referralLink = "Not Logged in";
         }
         $data['referral_link']= $referralLink;
         $data['errors'] = [];
         $data['userRoles'] = $roles;
-        $data['economix_url'] = 'test';
+        $data['KineticGold_url'] = 'test';
         $data['homePage'] = 'homePage';
         $data['title'] = '';
         $data['description'] = '';

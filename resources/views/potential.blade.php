@@ -32,8 +32,8 @@
                               {{--People churn because they are loosing money every month, or they aren't making enough to justify the time it is taking to get their organization to the 'payout' level.--}}
                           {{--</div>--}}
                           {{--<div class="form-group col-md-12 ">--}}
-                              {{--In Eco-nomix, why would a member quit?  There is no cost to join or remain a member. They have no on-going costs for monthly purchase requirements.  They only purchase what they want or need, and then at a discount. They don't have to spend a lot of time recruiting new members.  It reminds me of getting a grocery store discount card.  Once I have gotten one, I rarely throw it away, just because, I might--}}
-                              {{--need it someday.  If an Eco-nomix member makes a purchase, they are going to have an immediate benefit of a lower purchase price, plus access to products that otherwise would be difficult to find.  That purchase might take place years after they have obtained their membership.--}}
+                              {{--In KineticGold, why would a member quit?  There is no cost to join or remain a member. They have no on-going costs for monthly purchase requirements.  They only purchase what they want or need, and then at a discount. They don't have to spend a lot of time recruiting new members.  It reminds me of getting a grocery store discount card.  Once I have gotten one, I rarely throw it away, just because, I might--}}
+                              {{--need it someday.  If aKineticGoldix member makes a purchase, they are going to have an immediate benefit of a lower purchase price, plus access to products that otherwise would be difficult to find.  That purchase might take place years after they have obtained their membership.--}}
                           {{--</div>--}}
 
                           {{--<div class="form-group col-md-12 ">--}}
@@ -66,19 +66,19 @@
                               {{--</ul>--}}
                           {{--</div>--}}
                           {{--<div class="form-group col-md-12 ">--}}
-                            {{--At this point lets say your active downline members were averaging $20 per month in purchases from Eco-nomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)--}}
+                            {{--At this point lets say your active downline members were averaging $20 per month in purchases fKineticGoldomix.  (Within a year we expect to have over 1000 products, so I hope this average is a bit higher)--}}
                                {{--That would be a total of $20,480 in purchases across your organization, that would generate over $820 in income to you for that month.  Now this doesn't happen so uniformly in reality,--}}
                                {{--but most people if they are interested will recruit not just 1 per month, but higher.  Then the numbers could get really crazy.--}}
 
                           {{--</div>--}}
                           {{--<div class="form-group col-md-12 ">--}}
-                             {{--And you got to that point by handing out 1 business card a month that turns into an active member.  I reality you will have to hand out more than 1 card to get that "one active" member.  Even with the Eco-nomix's ease of getting someone to become a member, the vast majority of people out there just won't do anything to get started.  But it only takes one a month to make this work.--}}
+                             {{--And you got to that point by handing out 1 business card a month that turns into an active member.  I reality you will have to hand out more than 1 card to get that "one active" member.  Even witKineticGold-nomix's ease of getting someone to become a member, the vast majority of people out there just won't do anything to get started.  But it only takes one a month to make this work.--}}
                              {{--<br><br>--}}
                              {{--In all the other multi-levels, people are dropping out as fast as you can recruit them.  In ours they stay as they have nothing to loose, causing amazing growth potential.--}}
                           {{--</div>--}}
 
                            {{--<div class="form-group col-md-12 ">--}}
-                              {{--I can't tell you what reality will bring for you with Eco-nomix,  but even if it just generated a few hundred dollars per month in extra income, would it be worth it?  And it should just keep going and hopefully expanding.  Keep the above example expanding for a few more months, then all of a sudden, it starts to become an income that could make a real difference.--}}
+                              {{--I can't tell you what reality will bring for yKineticGoldco-nomix,  but even if it just generated a few hundred dollars per month in extra income, would it be worth it?  And it should just keep going and hopefully expanding.  Keep the above example expanding for a few more months, then all of a sudden, it starts to become an income that could make a real difference.--}}
 
                            {{--</div>--}}
 

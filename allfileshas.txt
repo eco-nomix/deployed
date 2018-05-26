@@ -1158,8 +1158,8 @@ fd1977ba2762fd14769eda9544ac1990533d0f5b .idea
 fe033d3ef965a01eec1ceb64146af9e6a7349b70 .idea
 ffd2e51157412329128da86906fe522c757b73fc .idea
 7e197a0dc0b3b123a4e838f3a7b98c59bb2443ec .idea/.name
-00c515b6bfd5c5268e42ca836859b75d5c203638 .idea/economix.iml
-6b8184f8eff8a84b43e35fa349b3bac12afe3215 .idea/economix.iml
+00c515b6bfd5c5268e42ca836859b75d5c203638 .idea/KineticGold.iml
+6b8184f8eff8a84b43e35fa349b3bac12afe3215 .idea/KineticGold.iml
 e206d70d8595e2a50675ba11de48efcfa012497d .idea/encodings.xml
 1162f43828b56d81d6ec6c5bafc6a04a889f5d9c .idea/misc.xml
 851c33d5cb9a66d36a4f8055d14cc4567b6e1187 .idea/misc.xml
@@ -2585,14 +2585,14 @@ d7b96a323356e0b2365e9142a2810a2198fa6ee5 public/images/Depositphotos_9241329_l-2
 0d0527ef2e6f33fe62408eb60d11eaba259383d9 public/images/Donations.jpg
 d545cfe472b5c7af0bac70f58d2ebcf969a0bef0 public/images/EarthRise copy.jpg
 dd9338d06bfde6fa056e3e46125725ac5bdca346 public/images/EarthRise copy.jpg
-a861faadaad811b4b96a67ed5cebe8b0fde48bd2 public/images/Economix3731.jpg
-fd7a450266082d8715e5555c5045c5f7e04883af public/images/Economix3731.jpg
-5fc7f87d154cb83ccef4b7120b18125ec76f3e45 public/images/Economix3731_Fotor.jpg
-f1bf2794c3b5fc3cf19b609acaa3afbfdadaf0f2 public/images/Economix3731_Fotor.jpg
-1596dc1a766e8ebc050764ce6b9e080642333ea7 public/images/Economix3732.jpg
-ec15cca2f7f32fa08295ddf2ec82686c96592f27 public/images/Economix3732.jpg
-56c4dc0ffbaa1cf48778419353814d5947d5bbe8 public/images/Economix3733.jpg
-7f668867a3f6fde668a3bfb15de84869d94e536a public/images/Economix3733.jpg
+a861faadaad811b4b96a67ed5cebe8b0fde48bd2 public/images/KineticGold3731.jpg
+fd7a450266082d8715e5555c5045c5f7e04883af public/images/KineticGold3731.jpg
+5fc7f87d154cb83ccef4b7120b18125ec76f3e45 public/images/KineticGold3731_Fotor.jpg
+f1bf2794c3b5fc3cf19b609acaa3afbfdadaf0f2 public/images/KineticGold3731_Fotor.jpg
+1596dc1a766e8ebc050764ce6b9e080642333ea7 public/images/KineticGold3732.jpg
+ec15cca2f7f32fa08295ddf2ec82686c96592f27 public/images/KineticGold3732.jpg
+56c4dc0ffbaa1cf48778419353814d5947d5bbe8 public/images/KineticGold3733.jpg
+7f668867a3f6fde668a3bfb15de84869d94e536a public/images/KineticGold3733.jpg
 2709b61b86a5e45d0ba1e0492624d034a6a54af4 public/images/Grass.jpg
 6ae22aebba18bd16ad762df15fb0b7457b54d734 public/images/Grass.jpg
 371caf6459b6adbad87e8d6e6e0a817a069859d8 public/images/HandsPlant.jpg
@@ -2884,8 +2884,8 @@ a1233bc53b6cd1d93358ffbd44b634e8093a6333 public/images/eat_your_greens.jpg
 d1849f487f702c54610bcf5826e3549bbb0a71a6 public/images/eat_your_greens.jpg
 1b23864d96b5b7ecdef587d86d21323aef81d5aa public/images/eating_fossil_fuels.jpg
 bd5b8c97805c8acd5ca54b3de9bb9464c0c691e7 public/images/eating_fossil_fuels.jpg
-f7711cd289338f58cc4a0309ad5c8413cd3ce59c public/images/eco-nomix logo info 3.txt
-a298f4fc34a9371e4287105d917603b8cfc01598 public/images/eco-nomix logo info.doc
+f7711cd289338f58cc4a0309ad5c8413cd3ce59c public/images/KineticGold logo info 3.txt
+a298f4fc34a9371e4287105d917603b8cfc01598 public/images/KineticGold logo info.doc
 1331dfc90146127e4d2c8aeb01b9f1311443ebbf public/images/eco_cities.jpg
 c6ed296a95ac64d1e50ac7700e55a2a8de9ca891 public/images/eco_cities.jpg
 2db87e0303a8e72a2a344241fd9cc8609b9abed3 public/images/eco_preneuring_ivanko.jpg
@@ -3558,17 +3558,17 @@ e1a96c8ecf5354cf126b33c45c1dba8381a14977 resources/assets
 49d14f480ac469d508d16aaac05525c41f2b6d87 resources/assets/.DS_Store
 48c37b926b1a2511923b14762e4cc9b7035565ff resources/assets/images
 36f82cd00da18f66eaf6f921c348459152c7c602 resources/assets/images/.DS_Store
-3844a7cbd791ed31e5f7045f1da71c2643798361 resources/assets/images/eco-nomix logo info 2.pages
-08dfec7e3bbc6065ea866408be42c525b156cfb9 resources/assets/images/eco-nomix logo info 2.pages/Data
-6eca553c0bb4a747432704b229a7532ae1206fbd resources/assets/images/eco-nomix logo info 2.pages/Data/Hardcover_bullet_black-13.png
-f930ca94ceba804a1ee2b22ed0f52604e48bc91c resources/assets/images/eco-nomix logo info 2.pages/Index.zip
-a4695a3c089b268177ff3ee36cf675237c2b7b60 resources/assets/images/eco-nomix logo info 2.pages/Metadata
-2f891b1c5766a0a0949fc63069a328c856292185 resources/assets/images/eco-nomix logo info 2.pages/Metadata/BuildVersionHistory.plist
-9226e15a127faf9990705a0b9c94dcce4213e606 resources/assets/images/eco-nomix logo info 2.pages/Metadata/DocumentIdentifier
-ebb17c45e5432260e4c000f7c0420033c531f210 resources/assets/images/eco-nomix logo info 2.pages/Metadata/Properties.plist
-5ce3162d4629c43f9745c2aac81dac0afe650a6a resources/assets/images/eco-nomix logo info 2.pages/preview-micro.jpg
-94fecb4e2848ea98a4830df8a8496abbecb540f7 resources/assets/images/eco-nomix logo info 2.pages/preview-web.jpg
-aaf90045159c43cafb7e5d470b0bd2ef30cc9add resources/assets/images/eco-nomix logo info 2.pages/preview.jpg
+3844a7cbd791ed31e5f7045f1da71c2643798361 resources/assets/images/KineticGold logo info 2.pages
+08dfec7e3bbc6065ea866408be42c525b156cfb9 resources/assets/images/KineticGold logo info 2.pages/Data
+6eca553c0bb4a747432704b229a7532ae1206fbd resources/assets/images/KineticGold logo info 2.pages/Data/Hardcover_bullet_black-13.png
+f930ca94ceba804a1ee2b22ed0f52604e48bc91c resources/assets/images/KineticGold logo info 2.pages/Index.zip
+a4695a3c089b268177ff3ee36cf675237c2b7b60 resources/assets/images/KineticGold logo info 2.pages/Metadata
+2f891b1c5766a0a0949fc63069a328c856292185 resources/assets/images/KineticGold logo info 2.pages/Metadata/BuildVersionHistory.plist
+9226e15a127faf9990705a0b9c94dcce4213e606 resources/assets/images/KineticGold logo info 2.pages/Metadata/DocumentIdentifier
+ebb17c45e5432260e4c000f7c0420033c531f210 resources/assets/images/KineticGold logo info 2.pages/Metadata/Properties.plist
+5ce3162d4629c43f9745c2aac81dac0afe650a6a resources/assets/images/KineticGold logo info 2.pages/preview-micro.jpg
+94fecb4e2848ea98a4830df8a8496abbecb540f7 resources/assets/images/KineticGold logo info 2.pages/preview-web.jpg
+aaf90045159c43cafb7e5d470b0bd2ef30cc9add resources/assets/images/KineticGold logo info 2.pages/preview.jpg
 4a2813ad23f59d358a3fdbf8e87ba8bb4898e4f2 resources/assets/sass
 bb76e29c86195c859181a97a97b24458817752af resources/assets/sass/app.scss
 e8d23c8cd5d63d08b47210cf7883cf5148ec96c7 resources/lang

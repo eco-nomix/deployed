@@ -17,21 +17,21 @@
                             {{--As a purchase takes place, the following banking transactions take place automatically behind the scenes.--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
-                             {{--When a purchase is made the received funds are deposited immediately in the Eco-nomix main account.--}}
+                             {{--When a purchase is made the received funds are deposited immediately in the KineticGold main account.--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
-                             {{--The portion of the sale designated for Referral Bonuses is immediately transferred into the Eco-nomix reserve account.--}}
+                             {{--The portion of the sale designated for Referral Bonuses is immediately transferred into thKineticGoldix reserve account.--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
-                             {{--Credit is immediately given to the 5 generations of Referring members for their personal balance within the Eco-nomix reserve account.--}}
+                             {{--Credit is immediately given to the 5 generations of Referring members for their personal balance within KineticGoldomix reserve account.--}}
                               {{--No waiting for end of the month processing.--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
-                            {{--Fully Registered Members may use their Earned Referral Bonuses to make purchase of any of the Products offered within the Eco-nomix system.--}}
+                            {{--Fully Registered Members may use their Earned Referral Bonuses to make purchase of any of the Products offered withiKineticGold-nomix system.--}}
                          {{--</div>--}}
 
                          {{--<div class="form-group col-md-12 ">--}}
-                              {{--Fully Registered Members that have purchased an Eco-nomix Debit Card, may also transfer funds in their reserve account to their Debit Card, on their request.--}}
+                              {{--Fully Registered Members that have purchKineticGoldco-nomix Debit Card, may also transfer funds in their reserve account to their Debit Card, on their request.--}}
 
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}

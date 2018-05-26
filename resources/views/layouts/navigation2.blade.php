@@ -1,7 +1,7 @@
 
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
-             <a href=""><img src="/images/Economix3731_Fotor.jpg" width="150" height="24" /></a>
+             <a href=""><img src="/images/KineticGold3731_Fotor.jpg" width="150" height="24" /></a>
         </div>
         <div class="referral" >
         @if(!isset($referral_link))
@@ -92,7 +92,7 @@
                         <li><a href="{{URL::to('/')}}/transfers">Immediate Transfers</a></li>
                         <li><a href="{{URL::to('/')}}/potential">Potentials</a></li>
                         <li><a href="{{URL::to('/')}}/donations">Donations</a></li>
-                        <li><a href="{{URL::to('/')}}/comparison">Eco-nomix compared to Multi-Level</a></li>
+                        <li><a href="{{URL::to('/')}}/comparison">KineticGold compared to Multi-Level</a></li>
                         <li><a href="{{URL::to('/')}}/benefits">Member Benefits</a></li>
                     </ul>
                 </li>

@@ -14,7 +14,7 @@
     <script src="/js/editing.js"></script>
 
 </head>
-<body class="economixbody">
+<body class="KineticGoldbody">
     @include('layouts.navigation3')
     @yield('content')
     @yield('footer')

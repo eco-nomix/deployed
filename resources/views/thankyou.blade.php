@@ -11,7 +11,7 @@
                        <form class="form-horizontal" role="form" method="POST" action="/payment">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group">
-                             <label class="col-md-10 control-label">A Charge of ${{$charge}} was approved for card {{$cardnumber}}.  You are now a Member of Eco-nomix.</label>
+                             <label class="col-md-10 control-label">A Charge of ${{$charge}} was approved for card {{$cardnumber}}.  You are now a Member of KineticGold.</label>
 
                         </div>
                         <div class="form-group">

@@ -33,7 +33,7 @@
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                             {{--<ul>--}}
-                                {{--<li>How well you understand the opportunity of Eco-nomix. <br>Read and understand the contents of Eco-nomix's web-site.</li>--}}
+                                {{--<li>How well you understand the opportunity of KineticGold. <br>Read and understand the contents oKineticGoldix's web-site.</li>--}}
                                 {{--<li>How consistent you are in spreading the word. <br>Keep your business cards with you.</li>--}}
                                 {{--<li>How many business cards and referral links you hand out.</li>--}}
                                 {{--<li>If you encourage your downline Members to do the same.</li>--}}
@@ -52,7 +52,7 @@
                              {{--Remember that a great many people are highly motivated to become self-sufficient and independent.  As these perilous times further unfold, more and more people will want to become such.--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
-                            {{--Also Remember that all of the products offered in the individual boutique and stores are also participating in the Eco-nomix program, so there can be thousands of specialty products are also helping you to earn Referral Bonuses.--}}
+                            {{--Also Remember that all of the products offered in the individual boutique and stores are also participating in KineticGoldomix program, so there can be thousands of specialty products are also helping you to earn Referral Bonuses.--}}
 
                          {{--</div>--}}
 

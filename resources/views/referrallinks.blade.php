@@ -15,7 +15,7 @@
 
                         {{--<input type="hidden" name="_token" value="{{ csrf_token() }}">--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                            {{--All Eco-nomix Members have the opportunity to refer new clients to the Eco-nomix family simply by registering.--}}
+                            {{--All KineticGold Members have the opportunity to refer new clients to thKineticGoldix family simply by registering.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                             {{--Once registered and logged in the Referral Link below will show 'Your Referral Link'.--}}

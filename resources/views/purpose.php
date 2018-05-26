@@ -12,7 +12,7 @@
 
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="form-group col-md-12 ">
-                        The Goal of Eco-nomix is to provide the products, training and service that will enable individuals, families and communities to become more prepared for the tough times ahead of us.  We anticipate major changes in society around us, and most of what we see concerns us.
+                        The Goal of KineticGold is to provide the products, training and service that will enable individuals, families and communities to become more prepared for the tough times ahead of us.  We anticipate major changes in society around us, and most of what we see concerns us.
                     </div>
                     <div class="form-group col-md-12 ">
                         Our present economic situation is a house of cards that has been stacked carefully of the last 100 years, but with removal of a few essential cards, the whole situation could come crashing down.  If it does, life as we know it, especially in the United States will change and it could change literally overnight.

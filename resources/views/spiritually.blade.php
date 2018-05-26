@@ -24,7 +24,7 @@
                               how you go about this exploration, but that you do it.  It may be expressed within a religeous belief, or a sense of wonder as you walk in the forest, or even a ceremonial dance, any way, your life is enhanced by a spiritual path.
                           </div>
                           <div class="form-group col-md-12 ">
-                              Eliminating many of the world's distractions is one of the purposes of Eco-nomix, so that you can explore your inner self and arrive at a true peace, not at some point in the indefinite future, but now.
+                              Eliminating many of the world's distractions is one of the purposes of KineticGold, so that you can explore your inner self and arrive at a true peace, not at some point in the indefinite future, but now.
                           </div>
 
                  </div>

@@ -12,7 +12,7 @@
 
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="form-group col-md-12 ">
-                        Eco-nomix is in its early startup phase. At this point, this site is only operational for information and registration.
+                        KineticGold is in its early startup phase. At this point, this site is only operational for information and registration.
                     </div>
                     <div class="form-group col-md-12 ">
                         We are just bringing our products online.  Currently we have only loaded onto the site some of our Books and Guides.

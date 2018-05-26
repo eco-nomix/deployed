@@ -141,7 +141,7 @@ class SalesController extends Controller
 
 			            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-			            $headers .= 'From: Eco-nomix<projectmanager24x7@gmail.com>' . "\r\n";
+			            $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
 
 
 
@@ -343,7 +343,7 @@ class SalesController extends Controller
 
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= 'From: Eco-nomix<projectmanager24x7@gmail.com>' . "\r\n";
+        $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
 
         if( strtolower($products['product_owner']['type']) == 'distributor'){
             $dis_html = '<html>
@@ -420,7 +420,7 @@ class SalesController extends Controller
 
         if($user){
 
-            $referralLink = "http://eco-nomix.org/referred/$user->id";
+            $referralLink = "http://KineticGold.org/referred/$user->id";
 
         }else{
 
@@ -434,7 +434,7 @@ class SalesController extends Controller
 
         $data['userRoles'] = $roles;
 
-        $data['economix_url'] = 'test';
+        $data['KineticGold_url'] = 'test';
 
         $data['homePage'] = 'homePage';
 

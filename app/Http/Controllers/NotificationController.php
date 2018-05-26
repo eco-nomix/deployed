@@ -15,8 +15,8 @@ class NotificationController extends Controller
         $user = Users::findOrFail($id);
 
         Mail::send('emails.reminder', ['user' => $user], function ($message) use ($user, $reminder) {
-            $pathToImage = "/images/Economix3731_Fotor.jpg";
-            $message->from('admin@eco-nomix.com', 'Admin');
+            $pathToImage = "/images/KineticGold3731_Fotor.jpg";
+            $message->from('admin@KineticGold.com', 'Admin');
             $message->subject('Reminder');
             $username = $user->first_name.' '.$user->last_name;
             $testemail = 'projectmanager24x7@gmail.com';

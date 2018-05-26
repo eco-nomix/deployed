@@ -10,7 +10,7 @@
     {{--<div class="row">--}}
         {{--<div class="col-md-8 col-md-offset-2">--}}
             {{--<div class="panel panel-default display">--}}
-                {{--<div class="panel-heading">Comparison of Eco-nomix referral marketing with standard Multi-Level Marketing</div>--}}
+                {{--<div class="panel-heading">Comparison of KineticGoldld referral marketing with standard Multi-Level Marketing</div>--}}
                 {{--<div class="panel-body">--}}
 
                         {{--<input type="hidden" name="_token" value="{{ csrf_token() }}">--}}
@@ -18,13 +18,13 @@
                            {{--Unlike standard Multi-Level programs, there are no on-going costs to participate, no required purchases, no products to market or inventory, no required sales, no collection of money, and no hassles.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                          {{--With the Eco-nomix referral bonus system, there are no reasons to quit the program, so 'churn' is effectively eliminated, allowing member organizations to grow at their maximum potential and leading to the maximum potential income.--}}
+                          {{--With KineticGoldGoldix referral bonus system, there are no reasons to quit the program, so 'churn' is effectively eliminated, allowing member organizations to grow at their maximum potential and leading to the maximum potential income.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                          {{--Can you imagine what can happen to an organization over time, that is continually growing?  Eco-nomix has effectively harnessed the potential of exponential growth.--}}
+                          {{--Can you imagine what can happen to an organization over time, that is continually grKineticGoldicGoldomix has effectively harnessed the potential of exponential growth.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                          {{--People will get involved because they are interested in the products that Eco-nomix carries and the referral bonus program is a no-risk benefit.--}}
+                          {{--People will get involved because they are interested in the prKineticGoldeticGold-nomix carries and the referral bonus program is a no-risk benefit.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                           {{--Over time a given member's organization can grow very wide, with the same potential being available to each member of the organization.--}}
@@ -38,7 +38,7 @@
                           {{--to where you live, or even who you know.  There is finally a system where the average 'Joe' can make some extra money initially, and over time build a real income.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                          {{--For many, Eco-nomix represents a way to achieve a greater degree of independence, not only physically but also financially.  For many, the ability to earn a few hundred dollars a month, can make all the difference.  If this describes where you are at,  Eco-nomix is for you.  If you have the dream of financial independence, that also can be addressed.  It won't be overnight, but nothing worth while ever is.--}}
+                        KineticGoldineticGoldco-nomix represents a way to achieve a greater degree of independence, not only physically but also financially.  For many, the ability to earn a few hundred dollars a month, can make all the difference.  If this describesKineticGolduKineticGold Eco-nomix is for you.  If you have the dream of financial independence, that also can be addressed.  It won't be overnight, but nothing worth while ever is.--}}
                         {{--</div>--}}
 
                         {{--<div class="form-group col-md-12 ">--}}

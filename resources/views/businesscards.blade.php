@@ -16,10 +16,10 @@
                            {{--Member's may OPTIONALLY purchase Eco-nomics Business Cards.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                          {{--Each card will be printed with the Name and Address of the member, plus their Eco-nomix referral link.--}}
+                          {{--Each card will be printed with the Name and Address of the member, plus their KineticGold referral link.--}}
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
-                          {{--The card will be a full color professional card, that will invite potential customers to visit Eco-nomix's web site.--}}
+                          {{--The card will be a full color professional card, that will invite potential customers to visiKineticGoldix's web site.--}}
 
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
@@ -38,7 +38,7 @@
                        {{--</div>--}}
 
                         {{--<div class="form-group col-md-12 ">--}}
-                            {{--Cost for this and any Eco-Nomix product may be paid for through accrued Referral Bonuses.--}}
+                            {{--Cost for this and KineticGoldomix product may be paid for through accrued Referral Bonuses.--}}
                         {{--</div>--}}
                 {{--</div>--}}
             {{--</div>--}}

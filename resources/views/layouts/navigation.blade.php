@@ -3,7 +3,7 @@
     {{--<div class="container-fluid">--}}
 
         <div class="navbar-brand brand-image">
-                <img src="/images/Economix3731_Fotor.jpg" width="150" height="24" />{!! $pageHeader or '' !!}
+                <img src="/images/KineticGold3731_Fotor.jpg" width="150" height="24" />{!! $pageHeader or '' !!}
         </div>
 
 

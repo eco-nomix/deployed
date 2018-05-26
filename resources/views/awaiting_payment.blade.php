@@ -11,14 +11,14 @@
                 <div class="panel-body">
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group">
-                             <label class="col-md-10 control-label">Your membership in Eco-nomix is waiting for your payment.</label>
+                             <label class="col-md-10 control-label">Your membership in KineticGold is waiting for your payment.</label>
 
                         </div>
                         <div class="form-group">
                              <label class="col-md-10 col-md-offset-1 text-left">Please send $35.00 to:</label>
                             </div>
                             <div class="form-group">
-                                 <label class="col-md-10 col-md-offset-2 text-left">Eco-nomix</label>
+                                 <label class="col-md-10 col-md-offset-2 text-left">KineticGold</label>
                             </div>
                         <div class="form-group">
                               <label class="col-md-10 col-md-offset-2 text-left">8029 Highway 641 S.</label>

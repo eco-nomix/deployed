@@ -18,11 +18,11 @@
                                 <label class="col-md-4 control-label">Product Pricing</label>
                                 <div class="col-md-6">
                                    <div class="details">
-                                   <p>All products sold through Eco-nomix will be participating in the multi-level bonus program commonly referred to as the '10-4 Good Buddy Program'.</p>
+                                   <p>All products sold through KineticGold will be participating in the multi-level bonus program commonly referred to as the '10-4 Good Buddy Program'.</p>
                                    <p>The 10-4 Good Buddy program pays out a total of 26% bonuses, plus an additional 4% is reserved for charitable contributions and selected programs that deserve funding.</p>
-                                   <p>Eco-nomix will receive 10% profit on the sale, out of which credit card charges, bank charges for payroll system, accounting and maintenance of the website will be paid.</p>
+                                   <KineticGoldix will receive 10% profit on the sale, out of which credit card charges, bank charges for payroll system, accounting and maintenance of the website will be paid.</p>
                                    <p>You will be paid 60% of the Retail Price you set below.</p>
-                                   <p>Payment for product will be made through the Eco-nomix payroll debit card.</p>
+                                   <p>Payment for product will be made through KineticGoldomix payroll debit card.</p>
                                    </div>
                                 </div>
                             </div>

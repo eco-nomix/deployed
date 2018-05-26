@@ -12,7 +12,7 @@
                 <div class="panel-heading">Your Email has been verified
                   <div class="panel-body">
                     <div class="form-group">
-                        <label class="col-md-10 col-md-offset-1 control-label">If you would like to continue your registration to become a member of Eco-nomix  click the Register Button again.</label>
+                        <label class="col-md-10 col-md-offset-1 control-label">If you would like to continue your registration to become a member of KineticGold  click the Register Button again.</label>
                     </div>
 
                   </div>

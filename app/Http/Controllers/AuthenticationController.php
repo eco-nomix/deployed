@@ -435,7 +435,7 @@ class AuthenticationController extends Controller
     {
 
         $data['imageUrl'] = '../images/EarthRise.jpg';
-        $data['message'] = 'Eco-nomix System\'s purpose is to provide the highest
+        $data['message'] = 'KineticGold System\'s purpose is to provide the highest
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
         $data['title'] = '';
@@ -443,7 +443,7 @@ class AuthenticationController extends Controller
 
         $user = Users::find($data['user_id'] );
         if($user){
-            $referralLink = "http://eco-nomix.org/referred/$user->id";
+            $referralLink = "http://KineticGold.org/referred/$user->id";
         }else{
             $referralLink = "Not Logged in";
         }
@@ -465,8 +465,8 @@ class AuthenticationController extends Controller
     public function sendEmailReminder($user, $reminder)
     {
         Mail::send('emails.reminder', ['user' => $user], function ($message) use ($user, $reminder) {
-            $pathToImage = "/images/Economix3731_Fotor.jpg";
-            $message->from('admin@eco-nomix.com', 'Admin');
+            $pathToImage = "/images/KineticGold3731_Fotor.jpg";
+            $message->from('admin@KineticGold.com', 'Admin');
             $message->subject('Reminder');
             $username = $user->first_name.' '.$user->last_name;
             $testemail = 'projectmanager24x7@gmail.com';
@@ -564,14 +564,14 @@ class AuthenticationController extends Controller
     public function emailConfirmation($user)
     {
         \Log::info("in email Confirmation ");
-        $image = '/images/Economix3731_Fotor.jpg';
+        $image = '/images/KineticGold3731_Fotor.jpg';
 
 
         Mail::send('emails.email_verification', ['user' => $user,'image'=>$image], function ($message) use ($user, $image) {
-            $pathToImage = "/images/Economix3731_Fotor.jpg";
-            $message->from('admin@eco-nomix.org', 'Admin');
+            $pathToImage = "/images/KineticGold3731_Fotor.jpg";
+            $message->from('admin@KineticGold.org', 'Admin');
             $message->subject('Email Verification');
-            $message->sender('admin@eco-nomix.org');
+            $message->sender('admin@KineticGold.org');
             $username=$user->first_name.' '.$user->last_name;
             $message->to($user->email, $username);
             $message->subject('Email Verification!');
@@ -822,7 +822,7 @@ class AuthenticationController extends Controller
         $userId = $user->id;
         $user = Users::find($userId);
         if($user){
-            $referralLink = "http://eco-nomix.org/referred/$user->id";
+            $referralLink = "http://KineticGold.org/referred/$user->id";
         }else{
             $referralLink = "Not Logged in";
         }

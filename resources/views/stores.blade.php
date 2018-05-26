@@ -35,12 +35,12 @@
                                  <td> 
                                      <a href="/store/{{$product_group}}/add/{{$user_id}}">
                                            <div align="center" style="width:200px;">Add/Edit your own {{$store_type}}</div>
-                                           <div align="center" style="display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;"><img src="../images/Economix3731_Fotor.jpg" width="150"  ></div>
+                                           <div align="center" style="display:table-cell; vertical-align:middle; text-align:center; width:200px; height:60px;"><img src="../images/KineticGold3731_Fotor.jpg" width="150"  ></div>
                                      </a>
                                  </td>
                                  <td>
                                       <a href="/store/{{$product_group}}/add/{{$user_id}}">
-                                          <div align="center" >Create or Edit your Own {{$store_type}} using Eco-nomix.  You can carry any product/service that you like,  get to set your own price,<br> shipping procedure. You can even take orders for custom products. Set it up the way you want.</div>
+                                          <div align="center" >Create or Edit your Own {{$store_type}} using KineticGold.  You can carry any product/service that you like,  get to set your own price,<br> shipping procedure. You can even take orders for custom products. Set it up the way you want.</div>
                                       </a>
                                  </td>
                             </tr>

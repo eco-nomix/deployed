@@ -76,7 +76,7 @@ class FeedbackController extends Controller
 
 		$headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= 'From: Eco-nomix<projectmanager24x7@gmail.com>' . "\r\n";
+        $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
         $subject = 'New Complaint';
 
         $purchaser_name = $model->user->first_name .' '. $model->user->last_name;
@@ -128,7 +128,7 @@ class FeedbackController extends Controller
 
 		$headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= 'From: Eco-nomix<projectmanager24x7@gmail.com>' . "\r\n";
+        $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
         $subject = 'New Complaint';
 
         $purchaser_name = $model->user->first_name .' '. $model->user->last_name;
@@ -171,7 +171,7 @@ class FeedbackController extends Controller
 
 		$headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= 'From: Eco-nomix<projectmanager24x7@gmail.com>' . "\r\n";
+        $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
         
         $subject = 'Feedback Recieved';
 
@@ -204,14 +204,14 @@ class FeedbackController extends Controller
         $data['user_id'] = $request->session()->get('user_id');
         $user = Users::find($data['user_id']);
         if($user){
-            $referralLink = "http://eco-nomix.org/referred/$user->id";
+            $referralLink = "http://KineticGold.org/referred/$user->id";
         }else{
             $referralLink = "Not Logged in";
         }
         $data['referral_link'] = $referralLink;
         $data['errors'] = [];
         $data['userRoles'] = $roles;
-        $data['economix_url'] = 'test';
+        $data['KineticGold_url'] = 'test';
         $data['homePage'] = 'homePage';
         $data['title'] = '';
         $data['description'] = 'Cart';

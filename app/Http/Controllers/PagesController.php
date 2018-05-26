@@ -23,9 +23,9 @@ class PagesController extends Controller
     {
 
 
-        $ecosponsor    = $request->cookie('ecosponsor');
-        $data['ecosponsor'] = $ecosponsor;
-        \Log::info("ecosponsor = $ecosponsor");
+        $kineticsponsor    = $request->cookie('kineticsponsor');
+        $data['kineticsponsor'] = $kineticsponsor;
+        \Log::info("kineticsponsor = $kineticsponsor");
         $data['user_name'] =$request->session()->get('user_name');
         $data['username'] =$request->session()->get('username');
         $username = $request->session()->get('user_name');
@@ -35,14 +35,14 @@ class PagesController extends Controller
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
         if($user){
-            $referralLink = "http://eco-nomix.org/referred/$user->id";
+            $referralLink = "http://kineticgold.org/referred/$user->id";
         }else{
             $referralLink = "Not Logged in";
         }
         $data['referral_link']= $referralLink;
         $data['errors'] = [];
         $data['userRoles'] = $roles;
-        $data['economix_url'] = 'test';
+        $data['KineticGold_url'] = 'test';
         $data['homePage'] = 'homePage';
         $data['title'] = '';
         $data['description'] = '';
@@ -56,7 +56,7 @@ class PagesController extends Controller
         $random = rand(0,3);
         if($random == 0) {
             $data['imageUrl'] = '../images/EarthRise.jpg';
-            $data['message'] = 'Eco-nomix\'s purpose is to provide the highest
+            $data['message'] = 'kinetic-nomix\'s purpose is to provide the highest
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
         }elseif ($random == 1){
@@ -85,7 +85,7 @@ class PagesController extends Controller
         $random = rand(1,4);
         if($random == 1) {
             $data['imageUrl'] = '../images/EarthRise.jpg';
-            $data['message'] = 'Eco-nomix\'s purpose is to provide the highest
+            $data['message'] = 'kinetic-nomix\'s purpose is to provide the highest
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
         }elseif ($random == 2){
@@ -103,7 +103,7 @@ class PagesController extends Controller
             that we choose to purchase will impact not only our own lives, but
             the lives of all the people on this planet.';
         }
-        $data['title'] = 'Economix';
+        $data['title'] = 'KineticGold';
         $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
 
         return view('welcome2',$data);
@@ -111,7 +111,7 @@ class PagesController extends Controller
     public function about(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix';
+        $data['title'] = 'KineticGold';
         $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
 
         return view('about',$data);
@@ -119,7 +119,7 @@ class PagesController extends Controller
     public function accounting(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Accounting';
+        $data['title'] = 'KineticGold Accounting';
         $data['description'] = 'Accounting';
 
         return view('accounting',$data);
@@ -128,7 +128,7 @@ class PagesController extends Controller
     public function autoship(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Autoship';
+        $data['title'] = 'KineticGold Autoship';
         $data['description'] = 'Autoship Policy';
 
         return view('autoship',$data);
@@ -137,16 +137,16 @@ class PagesController extends Controller
     public function benefits(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Member Benefits';
-        $data['description'] = 'Economix Member Benefits';
+        $data['title'] = 'KineticGold Member Benefits';
+        $data['description'] = 'KineticGold Member Benefits';
 
         return view('benefits',$data);
     }
     public function businesscards(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Business Cards';
-        $data['description'] = 'Economix Business Cards';
+        $data['title'] = 'KineticGold Business Cards';
+        $data['description'] = 'KineticGold Business Cards';
 
         return view('businesscards',$data);
     }
@@ -162,8 +162,8 @@ class PagesController extends Controller
     public function startup(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Startup Package';
-        $data['description'] = 'Economix Startup Package';
+        $data['title'] = 'KineticGold Startup Package';
+        $data['description'] = 'KineticGold Startup Package';
 
         return view('startup',$data);
     }
@@ -173,14 +173,14 @@ class PagesController extends Controller
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
         if($user){
-            $referralLink = "eco-nomix.org/referred/$user->id";
+            $referralLink = "kineticgold.org/referred/$user->id";
         }else{
             $referralLink = "Need to login to see your referral link";
         }
         $data = $this->userData($request);
         $data['ReferralLink'] = $referralLink;
-        $data['title'] = 'Economix Referral Links';
-        $data['description'] = 'Economix Referral Links';
+        $data['title'] = 'KineticGold Referral Links';
+        $data['description'] = 'KineticGold Referral Links';
 
         return view('referrallinks',$data);
     }
@@ -188,8 +188,8 @@ class PagesController extends Controller
     public function selfreliance(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Self Reliance';
-        $data['description'] = 'Economix Self Reliance';
+        $data['title'] = 'KineticGold Self Reliance';
+        $data['description'] = 'KineticGold Self Reliance';
 
         return view('self_reliance',$data);
     }
@@ -215,8 +215,8 @@ class PagesController extends Controller
         $subGroup = $request->input('ProductGroupList')?:23;
         $data['Categories'] = $this->productCategories(7,$subGroup);
         $data['productSummary'] = $this->productSummary($subGroup);
-        $data['title'] = 'Economix Books';
-        $data['description'] = 'Economix Books';
+        $data['title'] = 'KineticGold Books';
+        $data['description'] = 'KineticGold Books';
 
         return view('books',$data);
     }
@@ -256,24 +256,24 @@ class PagesController extends Controller
     public function camping(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Camping Products';
-        $data['description'] = 'Economix Camping Products';
+        $data['title'] = 'KineticGold Camping Products';
+        $data['description'] = 'KineticGold Camping Products';
 
         return view('camping',$data);
     }
     public function charities(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Charitable Donations';
-        $data['description'] = 'Economix Charitable Donations';
+        $data['title'] = 'KineticGold Charitable Donations';
+        $data['description'] = 'KineticGold Charitable Donations';
 
         return view('charities',$data);
     }
     public function cooking(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Cooking Products';
-        $data['description'] = 'Economix Cooking Products';
+        $data['title'] = 'KineticGold Cooking Products';
+        $data['description'] = 'KineticGold Cooking Products';
 
         return view('cooking',$data);
     }
@@ -281,24 +281,24 @@ class PagesController extends Controller
     public function comparison(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Multi-Level Comparison';
-        $data['description'] = 'Economix Multi-Level Comparison';
+        $data['title'] = 'KineticGold Multi-Level Comparison';
+        $data['description'] = 'KineticGold Multi-Level Comparison';
 
         return view('comparison',$data);
     }
     public function contact(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Contact';
-        $data['description'] = 'Economix Contact';
+        $data['title'] = 'KineticGold Contact';
+        $data['description'] = 'KineticGold Contact';
 
         return view('contact',$data);
     }
     public function debitcards(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Payroll Cards';
-        $data['description'] = 'Economix Payroll Cards';
+        $data['title'] = 'KineticGold Payroll Cards';
+        $data['description'] = 'KineticGold Payroll Cards';
 
         return view('debitcards',$data);
     }
@@ -306,8 +306,8 @@ class PagesController extends Controller
     public function discount(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Member Discount';
-        $data['description'] = 'Economix Member Discount';
+        $data['title'] = 'KineticGold Member Discount';
+        $data['description'] = 'KineticGold Member Discount';
 
         return view('discount',$data);
     }
@@ -315,72 +315,72 @@ class PagesController extends Controller
     public function donations(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Charitable Donations';
-        $data['description'] = 'Economix Charitable Donations';
+        $data['title'] = 'KineticGold Charitable Donations';
+        $data['description'] = 'KineticGold Charitable Donations';
 
         return view('donations',$data);
     }
-    public function economically(Request $request)
+    public function kineticnomically(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix economical benefit';
-        $data['description'] = 'Economix Business Cards';
+        $data['title'] = 'KineticGold economical benefit';
+        $data['description'] = 'KineticGold Business Cards';
 
-        return view('economically',$data);
+        return view('kineticnomically',$data);
     }
     public function emotionally(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Emotional Benefits';
-        $data['description'] = 'Economix Emotional Benefits';
+        $data['title'] = 'KineticGold Emotional Benefits';
+        $data['description'] = 'KineticGold Emotional Benefits';
 
         return view('emotionally',$data);
     }
     public function energy(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Energy Products';
-        $data['description'] = 'Economix Energy Products';
+        $data['title'] = 'KineticGold Energy Products';
+        $data['description'] = 'KineticGold Energy Products';
 
         return view('energy',$data);
     }
     public function experiences(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Member Experiences';
-        $data['description'] = 'Economix Member Experiences';
+        $data['title'] = 'KineticGold Member Experiences';
+        $data['description'] = 'KineticGold Member Experiences';
 
         return view('experiences',$data);
     }
     public function food(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Food Products';
-        $data['description'] = 'Economix Food Products';
+        $data['title'] = 'KineticGold Food Products';
+        $data['description'] = 'KineticGold Food Products';
 
         return view('food',$data);
     }
     public function founders(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Founders';
-        $data['description'] = 'Economix Founders';
+        $data['title'] = 'KineticGold Founders';
+        $data['description'] = 'KineticGold Founders';
 
         return view('founders',$data);
     }
     public function groups(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Sponsored Groups';
-        $data['description'] = 'Economix Sponsored Groups';
+        $data['title'] = 'KineticGold Sponsored Groups';
+        $data['description'] = 'KineticGold Sponsored Groups';
 
         return view('groups',$data);
     }
     public function health(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Health Products';
-        $data['description'] = 'Economix Health Products';
+        $data['title'] = 'KineticGold Health Products';
+        $data['description'] = 'KineticGold Health Products';
 
         return view('health',$data);
     }
@@ -388,8 +388,8 @@ class PagesController extends Controller
     public function house(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Household Products';
-        $data['description'] = 'Economix Household Products';
+        $data['title'] = 'KineticGold Household Products';
+        $data['description'] = 'KineticGold Household Products';
 
         return view('house',$data);
     }
@@ -425,8 +425,8 @@ class PagesController extends Controller
         $data = $this->userData($request);
         $userId = $request->session()->get('user_id');
         $editUser = Users::find($userId);
-        $data['title'] = 'Economix Member Personal Information';
-        $data['description'] = 'Economix Personal Information';
+        $data['title'] = 'KineticGold Member Personal Information';
+        $data['description'] = 'KineticGold Personal Information';
         $data = $this->userData($request);
         if($editUser) {
             $data['user_id'] = $userId;
@@ -467,8 +467,8 @@ class PagesController extends Controller
     public function limitations(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Limitations on Marketing';
-        $data['description'] = 'Economix Limitations on Marketing';
+        $data['title'] = 'KineticGold Limitations on Marketing';
+        $data['description'] = 'KineticGold Limitations on Marketing';
 
         return view('limitations',$data);
     }
@@ -480,8 +480,8 @@ class PagesController extends Controller
     public function members(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Members';
-        $data['description'] = 'Economix Members';
+        $data['title'] = 'KineticGold Members';
+        $data['description'] = 'KineticGold Members';
 
         return view('members',$data);
     }
@@ -489,8 +489,8 @@ class PagesController extends Controller
     public function memberagreement(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Member Agreement';
-        $data['description'] = 'Economix Member Agreement';
+        $data['title'] = 'KineticGold Member Agreement';
+        $data['description'] = 'KineticGold Member Agreement';
 
         return view('mem_agreement',$data);
     }
@@ -499,16 +499,16 @@ class PagesController extends Controller
     {
         $data = $this->userData($request);
 
-        $data['title'] = 'Economix Member Cost';
-        $data['description'] = 'Economix Member Cost';
+        $data['title'] = 'KineticGold Member Cost';
+        $data['description'] = 'KineticGold Member Cost';
 
         return view('membercost',$data);
     }
     public function memberterms(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Member Agreement Terms and Conditions';
-        $data['description'] = 'Economix Member Agreement Terms and Conditions';
+        $data['title'] = 'KineticGold Member Agreement Terms and Conditions';
+        $data['description'] = 'KineticGold Member Agreement Terms and Conditions';
 
         return view('memberterms',$data);
     }
@@ -521,24 +521,24 @@ class PagesController extends Controller
     public function people(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix People Involved';
-        $data['description'] = 'Economix People Involved';
+        $data['title'] = 'KineticGold People Involved';
+        $data['description'] = 'KineticGold People Involved';
 
         return view('people',$data);
     }
     public function physically(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Physical Benefits';
-        $data['description'] = 'Economix Physical Benefits';
+        $data['title'] = 'KineticGold Physical Benefits';
+        $data['description'] = 'KineticGold Physical Benefits';
 
         return view('physically',$data);
     }
     public function plans(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Business Plan';
-        $data['description'] = 'Economix Business Plan';
+        $data['title'] = 'KineticGold Business Plan';
+        $data['description'] = 'KineticGold Business Plan';
 
         return view('plans',$data);
     }
@@ -546,8 +546,8 @@ class PagesController extends Controller
     public function potential(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Potential Income';
-        $data['description'] = 'Economix Potential Income';
+        $data['title'] = 'KineticGold Potential Income';
+        $data['description'] = 'KineticGold Potential Income';
 
         return view('potential',$data);
     }
@@ -566,16 +566,16 @@ class PagesController extends Controller
     public function products(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Products';
-        $data['description'] = 'Economix Products';
+        $data['title'] = 'KineticGold Products';
+        $data['description'] = 'KineticGold Products';
 
         return view('products',$data);
     }
     public function productsSum(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Products';
-        $data['description'] = 'Economix Products';
+        $data['title'] = 'KineticGold Products';
+        $data['description'] = 'KineticGold Products';
 
         return view('productsSum',$data);
     }
@@ -635,7 +635,7 @@ class PagesController extends Controller
     public function purpose(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Purpose';
+        $data['title'] = 'KineticGold Purpose';
         $data['description'] = 'Spiritual, Economic, Physical, Emotional';
 
         return view('purpose',$data);
@@ -643,23 +643,23 @@ class PagesController extends Controller
     public function policies(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Policies';
+        $data['title'] = 'KineticGold Policies';
         $data['description'] = 'Policies';
         return view('policies',$data);
     }
     public function recycling(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Recycling Products';
-        $data['description'] = 'Economix Recycling Products';
+        $data['title'] = 'KineticGold Recycling Products';
+        $data['description'] = 'KineticGold Recycling Products';
 
         return view('recycling',$data);
     }
     public function referral(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Referral Bonuses';
-        $data['description'] = 'Economix Referral Bonuses';
+        $data['title'] = 'KineticGold Referral Bonuses';
+        $data['description'] = 'KineticGold Referral Bonuses';
 
         return view('referral',$data);
     }
@@ -667,16 +667,16 @@ class PagesController extends Controller
     public function returns(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Return Policy';
-        $data['description'] = 'Economix Return Policy';
+        $data['title'] = 'KineticGold Return Policy';
+        $data['description'] = 'KineticGold Return Policy';
 
         return view('returns',$data);
     }
     public function requirements(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Requirements for Bonuses';
-        $data['description'] = 'Economix Requirements for Bonuses';
+        $data['title'] = 'KineticGold Requirements for Bonuses';
+        $data['description'] = 'KineticGold Requirements for Bonuses';
 
         return view('requirements',$data);
     }
@@ -684,24 +684,24 @@ class PagesController extends Controller
     public function selection(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Product Selection';
-        $data['description'] = 'Economix Product Selection';
+        $data['title'] = 'KineticGold Product Selection';
+        $data['description'] = 'KineticGold Product Selection';
 
         return view('selection',$data);
     }
     public function spiritually(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Spiritual Benefits';
-        $data['description'] = 'Economix Spiritual Benefits';
+        $data['title'] = 'KineticGold Spiritual Benefits';
+        $data['description'] = 'KineticGold Spiritual Benefits';
 
         return view('spiritually',$data);
     }
     public function training(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Training Products';
-        $data['description'] = 'Economix Training Products';
+        $data['title'] = 'KineticGold Training Products';
+        $data['description'] = 'KineticGold Training Products';
 
         return view('training',$data);
     }
@@ -709,39 +709,39 @@ class PagesController extends Controller
     public function transfers(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Immediate Transfer of Funds';
-        $data['description'] = 'Economix Immediate Transfer of Funds';
+        $data['title'] = 'KineticGold Immediate Transfer of Funds';
+        $data['description'] = 'KineticGold Immediate Transfer of Funds';
 
         return view('transfers',$data);
     }
     public function water(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Water Purification Products';
-        $data['description'] = 'Economix Water Purification Products';
+        $data['title'] = 'KineticGold Water Purification Products';
+        $data['description'] = 'KineticGold Water Purification Products';
 
         return view('water',$data);
     }
     public function linksfood(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Food Production';
-        $data['description'] = 'Economix Video Food Production';
+        $data['title'] = 'KineticGold Video Food Production';
+        $data['description'] = 'KineticGold Video Food Production';
 
         return view('linksfood',$data);
     }
     public function linkswater(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Water Purification';
-        $data['description'] = 'Economix Video Water Purification';
+        $data['title'] = 'KineticGold Video Water Purification';
+        $data['description'] = 'KineticGold Video Water Purification';
 
         return view('linkswater',$data);
     }
     public function linksenergy(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Energy Production';
+        $data['title'] = 'KineticGold Video Energy Production';
         $data['description'] = 'Solar, Water, Bio-gas Videos';
 
         return view('linksenergy',$data);
@@ -749,15 +749,15 @@ class PagesController extends Controller
     public function linksrecycling(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Recycling';
-        $data['description'] = 'Economix Video Recycling';
+        $data['title'] = 'KineticGold Video Recycling';
+        $data['description'] = 'KineticGold Video Recycling';
 
         return view('linksrecycling',$data);
     }
     public function linkscamping(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Camping and Survival';
+        $data['title'] = 'KineticGold Video Camping and Survival';
         $data['description'] = 'Video Camping and Survival';
 
         return view('linkscamping',$data);
@@ -765,7 +765,7 @@ class PagesController extends Controller
     public function linkscooking(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Cooking Systems';
+        $data['title'] = 'KineticGold Video Cooking Systems';
         $data['description'] = 'Cooking Systems';
 
         return view('linkscooking',$data);
@@ -773,7 +773,7 @@ class PagesController extends Controller
     public function linkshealth(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Healthy Lifestyles';
+        $data['title'] = 'KineticGold Video Healthy Lifestyles';
         $data['description'] = 'Video Health Lifestyles';
 
         return view('linkshealth',$data);
@@ -781,7 +781,7 @@ class PagesController extends Controller
     public function linkshouse(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Household Products';
+        $data['title'] = 'KineticGold Video Household Products';
         $data['description'] = 'Video Household Products';
 
         return view('linkshouse',$data);
@@ -789,7 +789,7 @@ class PagesController extends Controller
     public function traininglinks(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Training Links';
+        $data['title'] = 'KineticGold Video Training Links';
         $data['description'] = 'Video Training Links';
 
         return view('traininglinks',$data);
@@ -797,7 +797,7 @@ class PagesController extends Controller
     public function introduction(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Introduction to Marketing Plan';
+        $data['title'] = 'KineticGold Introduction to Marketing Plan';
         $data['description'] = 'Introduction to Marketing Plan';
 
         return view('introduction',$data);
@@ -805,7 +805,7 @@ class PagesController extends Controller
     public function linksgardening(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Gardening';
+        $data['title'] = 'KineticGold Video Gardening';
         $data['description'] = 'Video Gardening';
 
         return view('linksgardening',$data);
@@ -813,7 +813,7 @@ class PagesController extends Controller
     public function linksgreenhouses(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Greenhouses';
+        $data['title'] = 'KineticGold Video Greenhouses';
         $data['description'] = 'Video Greenhouses';
 
         return view('linksgreenhouses',$data);
@@ -822,7 +822,7 @@ class PagesController extends Controller
     public function linkspoultry(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Poultry Raising';
+        $data['title'] = 'KineticGold Video Poultry Raising';
         $data['description'] = 'Video Poultry Raising';
 
         return view('linkspoultry',$data);
@@ -830,7 +830,7 @@ class PagesController extends Controller
     public function linkslivestock(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Raising Livestock';
+        $data['title'] = 'KineticGold Raising Livestock';
         $data['description'] = 'Raising Livestock';
 
         return view('linkslivestock',$data);
@@ -838,7 +838,7 @@ class PagesController extends Controller
     public function linksprotection(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Home Protection';
+        $data['title'] = 'KineticGold Video Home Protection';
         $data['description'] = 'Video Home Protection';
 
         return view('linksprotection',$data);
@@ -846,7 +846,7 @@ class PagesController extends Controller
     public function linksorchards(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Orchard Management';
+        $data['title'] = 'KineticGold Video Orchard Management';
         $data['description'] = 'Video Orchard Management';
 
         return view('linksorchards',$data);
@@ -854,7 +854,7 @@ class PagesController extends Controller
     public function linksaquaponics(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Aquaponics Systems';
+        $data['title'] = 'KineticGold Video Aquaponics Systems';
         $data['description'] = 'Video Aquaponics Systems';
 
         return view('linksaquaponics',$data);
@@ -863,7 +863,7 @@ class PagesController extends Controller
     public function linksbeekeeping(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Beekeeping';
+        $data['title'] = 'KineticGold Video Beekeeping';
         $data['description'] = 'Video Beekeeping';
 
         return view('linksbeekeeping',$data);
@@ -871,7 +871,7 @@ class PagesController extends Controller
     public function linksbiogas(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Economix Video Bio-Gas Digestors';
+        $data['title'] = 'KineticGold Video Bio-Gas Digestors';
         $data['description'] = 'Video Bio-Gas Digestors';
 
         return view('linksbiogas',$data);
@@ -880,7 +880,7 @@ class PagesController extends Controller
     public function storeList($productGroup)
     {
 //        $data = $this->userData($request);
-//        $data['title'] = 'Economix Video Bio-Gas Digestors';
+//        $data['title'] = 'KineticGold Video Bio-Gas Digestors';
 //        $data['description'] = 'Video Bio-Gas Digestors';
 //
 //        return view('linksbiogas',$data);

@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'admin@eco-nomix.org', 'name' => 'Admin'],
+    'from' => ['address' => 'admin@KineticGold.org', 'name' => 'Admin'],
 
     /*
     |--------------------------------------------------------------------------

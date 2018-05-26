@@ -13,7 +13,7 @@
 
                          <input type="hidden" name="_token" value="{{ csrf_token() }}">
                           <div class="form-group col-md-12 ">
-                          One of Eco-nomix's purposes is to provide essential products and knowledge that will promote our individual and Family's physical well being.  These areas can be
+                          One of KineticGold's purposes is to provide essential products and knowledge that will promote our individual and Family's physical well being.  These areas can be
                           further broken down to the following general topics:
                           </div>
                           <div class="form-group col-md-12 ">
@@ -33,11 +33,11 @@
                               in a manner than cannot be sustained.  There are alternatives to today's unsustainable answers that can be achieved without great personal cost in time, energy and resources.  Some may just require a minimal shift in how we do things, or what our expectations are.
                           </div>
                           <div class="form-group col-md-12 ">
-                              Because many of the answers are not necessarily physical products but knowledge, Eco-nomix will also be a source of knowledge and skills.  These skills may become our most essential service that we provide.  As much of this knowledge is being lost or simply has never been readily available.
+                              Because many of the answers are not necessarily physical products but knowledgeKineticGoldix will also be a source of knowledge and skills.  These skills may become our most essential service that we provide.  As much of this knowledge is being lost or simply has never been readily available.
                           </div>
 
                           <div class="form-group col-md-12 ">
-                              In addition, Eco-nomix will provide products and services that can expedite you reaching your personal goals of self-reliance.  We will specialize in products that you won't typically find at your local stores at affordable prices.  Not only will we provide the unusual products, but at the most affordable prices possible.
+                              In additiKineticGoldomix will provide products and services that can expedite you reaching your personal goals of self-reliance.  We will specialize in products that you won't typically find at your local stores at affordable prices.  Not only will we provide the unusual products, but at the most affordable prices possible.
                           </div>
 
 

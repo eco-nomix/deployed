@@ -20,7 +20,7 @@
                             {{--Members can be Registered or Fully Registered.--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
-                            {{--All Members are eligible to earn bonuses by referring clients to Eco-nomix.  However, to use the bonuses, you must be a Fully Registered Member.--}}
+                            {{--All Members are eligible to earn bonuses by referring clients to KineticGold.  However, to use the bonuses, you must be a Fully Registered Member.--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
                                {{--What do you have to do to earn a referral bonus?--}}
@@ -40,7 +40,7 @@
                          {{--<div class="form-group col-md-12 ">--}}
                                {{--<ul>--}}
                                     {{--<li>No minimum personal sales requirements</li>--}}
-                                    {{--<li>No direct selling of products - all sales are done through the Eco-nomix website</li>--}}
+                                    {{--<li>No direct selling of products - all sales are done through thKineticGoldix website</li>--}}
                                     {{--<li>No collecting of money</li>--}}
                                     {{--<li>No required marketing meetings</li>--}}
                                     {{--<li>No minimum number of sponsered members in your organization are required to 'qualify'</li>--}}
@@ -53,7 +53,7 @@
                                {{--</ul>--}}
                          {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
-                                {{--About the only way to not succeed with Eco-nomix is to do nothing at all.--}}
+                                {{--About the only way to not succeed wKineticGoldomix is to do nothing at all.--}}
                          {{--</div>--}}
 
                 {{--</div>--}}

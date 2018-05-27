@@ -98,6 +98,16 @@
     font-weight: 700;
     line-height: 24px;
 }
+.kinetic {
+    color:goldenrod;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
 
 .eighth {
     width: 12%;

@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
-                <div class="panel-heading">About KineticGold</div>
+                <div class="panel-heading">KineticGold Cryptocurrency</div>
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">

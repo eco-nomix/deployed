@@ -7,19 +7,19 @@
    {{--</div>--}}
 
    <div >
-       <p>Kinetic Gold is a new cryptocurrency</p>
+       <p>Kinetic Gold is a new cryptocurrency1</p>
    </div>
    <div >
-          <p>Kinetic Gold is a new cryptocurrency</p>
+          <p>Kinetic Gold is a new cryptocurrency2</p>
       </div>
       <div >
-             <p>Kinetic Gold is a new cryptocurrency</p>
+             <p>Kinetic Gold is a new cryptocurrency3</p>
          </div>
          <div >
-                <p>Kinetic Gold is a new cryptocurrency</p>
+                <p>Kinetic Gold is a new cryptocurrency4</p>
             </div>
             <div >
-                   <p>Kinetic Gold is a new cryptocurrency</p>
+                   <p>Kinetic Gold is a new cryptocurrency5</p>
                </div>
                <div >
                       <p>Kinetic Gold is a new cryptocurrency</p>
@@ -42,5 +42,5 @@
                                  <div >
                                         <p>Kinetic Gold is a new cryptocurrency</p>
                                     </div>
-                                    
+
 @stop

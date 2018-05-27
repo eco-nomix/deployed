@@ -7,6 +7,6 @@
    {{--</div>--}}
 
    <div class="message">
-       <p>hi</p>
+       <p>hi2</p>
    </div>
 @stop

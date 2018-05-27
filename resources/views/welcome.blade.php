@@ -12,7 +12,7 @@
    <div >
      <p>Kinetic Gold is a new cryptocurrency2</p>
    </div>
-   <div class="header">
+   <div class="center display">
              <p>Kinetic Gold is a new cryptocurrency3</p>
    </div>
          <div >

@@ -15,6 +15,8 @@
     <div class="center kinetic">
              <p>Kinetic Gold</p>
     </div>
+    <div style="z-index:-5; height:1100px; background-attachment:fixed; background-size:100% 100%; background-image:  url('../images/denmark.jpg');">
+       </div>
     <div >
                 <p>Kinetic Gold is a new cryptocurrency4</p>
     </div>

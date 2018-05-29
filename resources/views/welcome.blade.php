@@ -15,7 +15,7 @@
     <div class="center kinetic">
              <p>Kinetic Gold</p>
     </div>
-    <img src="images/denmark.jpg" >
+    <img src="/public/images/denmark.jpg" >
     <div >
                 <p>Kinetic Gold is a new cryptocurrency4</p>
     </div>

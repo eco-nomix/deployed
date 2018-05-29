@@ -1,6 +1,6 @@
 
     <div class="navcontainer" >
-        <div class="KineticSm">
+        <div class="navbar-brand brand-image KineticSm">
              KineticGold
         </div>
         <div class="referral" >

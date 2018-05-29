@@ -1,7 +1,7 @@
 
     <div class="navcontainer" >
-        <div class=" kineticSm navbar-brand brand-image">
-             KineticGold
+        <div class="navbar-brand brand-image">
+             <sp class="kineticSm">KineticGold</sp>
         </div>
         <div class="referral" >
         @if(!isset($referral_link))

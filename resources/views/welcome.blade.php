@@ -15,8 +15,8 @@
     <div class="center kinetic">
              <p>Kinetic Gold</p>
     </div>
-    <img src="{{URL::asset('images/EarthRise.jpg')}}" >
-    <div >
+    <img src="{{URL::asset('images/denmark.jpg')}}" >
+    <div class="display" >
                 <p>Kinetic Gold is a new cryptocurrency4</p>
     </div>
     <div >

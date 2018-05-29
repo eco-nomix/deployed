@@ -55,12 +55,31 @@
         </div>
 
      <div class="center kinetic">
-                 <p>Pre-Launch Phase</p>
-        </div>
-    <div class="display container-fluid back-white" >
-                <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
-                <p>Member's may build their Mining organization.</p>
-                <p>Kinetic Gold will make an initial deposit into the insured vaults a minimum of 1000 kg of hallmarked gold prior to Launch.  This base amount of Gold is used during the deposit process to set the initial value of new coins.</p>
-                <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
-    </div>
+                           <p>Pre-Launch</p>
+                  </div>
+              <div class="display container-fluid back-white" >
+                          <p>Programming of the block-chain will commence</p>
+                          <p>Creation of the Foreign Trust</p>
+                          <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
+                          <p>Member's may build their Mining organization.</p>
+                                  </div>
+     <div class="center kinetic">
+                      <p>ICO</p>
+     </div>
+     <div class="display container-fluid back-white" >
+                     <p>Final Testing of block-chain will completed</p>
+                     <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
+                     <p>Kinetic Gold will make an initial deposit into the insured vaults a minimum of 1000 kg of hallmarked gold prior to Launch.  This base amount of Gold is used during the deposit process to set the initial value of new coins.</p>
+
+
+     </div>
+     <div class="center kinetic">
+                           <p>Launch</p>
+     </div>
+     <div class="display container-fluid back-white" >
+                    <p>Deposits will commence (Coins issued)</p>
+                    <p>Off-Shore bank in place with debit card</p>
+                    <p>Mining results from previous organization development will be deposited in accounts. </p>
+                    <p>Deposits and Mining results will result in additional gold on deposit in the vaults.</p>
+     </div>
 @stop

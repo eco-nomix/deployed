@@ -104,7 +104,7 @@
           <p>Creation of the Foreign Trust will be completed</p>
           <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
-    <div>
+    </div>
     <div class="center kinetic">
           <p>ICO</p>
     </div>

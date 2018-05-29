@@ -106,7 +106,14 @@
     line-height: 40px;
 }
 
-
+.kineticSm {
+    color:goldenrod;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
 .eighth {
     width: 12%;
     max-width: 12%;

@@ -1,7 +1,7 @@
 
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
-             <sp class="kineticSm">KineticGold</sp>
+             <sp class="kineticSm"><a href="{{URL::to('/')}}">KineticGold</a></sp>
         </div>
         <div class="referral" >
         @if(!isset($referral_link))

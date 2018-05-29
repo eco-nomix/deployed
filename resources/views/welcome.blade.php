@@ -110,6 +110,7 @@
     </div>
     <div class="display container-fluid back-white" >
          <p>Final Testing of block-chain will completed</p>
+         <p>Transfer of Mining Organization to blockchain</p>
          <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
          <p>Kinetic Gold will make an initial deposit into the insured vaults a minimum of 1000 kg of hallmarked gold prior to Launch.
             This base amount of Gold is used during the deposit process to set the initial value of new coins.</p>
@@ -132,5 +133,6 @@
         <p>Mining results from previous organization development will be deposited in accounts. </p>
         <p>Deposits and Mining results will result in additional gold on deposit in the vaults.</p>
         <p>All transactions are controlled and recorded by the blockchain</p>
+        <p>All designed features are now in place and functional for all members.</p>
     </div>
 @stop

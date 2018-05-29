@@ -39,7 +39,7 @@
         <div class="display container-fluid back-white" >
                     <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
                     <p>The initial vault will be located in Dubai.</p>
-                    <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</
+                    <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</p>
         </div>
 
         <div class="center kinetic">

@@ -42,19 +42,21 @@
     </div>
     <div class="display container-fluid back-white" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by
-               requiring before any coin is issued that there there will be set aside one ounce of Gold
-               in our insured vaults.  The coin technically represents a warehouse receipt for 1 ounce of Gold
-               at spot price.</p>
-            <p>With any member's deposit into their account the deposit funds are used to purchase additional
-               gold for Kinetic Gold's reserves.</p>
+               requiring that before any coin can be issued that there is at least one ounce of Gold
+               in our insured vaults that is not guaranteeing any other coin.  The coin technically represents
+               a warehouse receipt for 1 ounce of Gold at spot price.</p>
+            <p>When a member makes a deposit to purchase a coin, the deposit funds are used to purchase additional
+               gold for Kinetic Gold's reserves.  </p>
             <p>The Spot price of gold is essentially it's wholesale price.  This means that you control one ounce
-               of Gold per Coin purchased without having to pay miniting costs, vaulting costs, insurance or shipping.
+               of Gold per Coin purchased without having to pay minting costs, vaulting costs, insurance or shipping.
                When a standard purchase of coins or bullion is made these costs will be incurred which could reach
-               as high as 10% of the purchase.</p>
-            <p>If spot price changes just 1%, the value of your account will adjust accordingly.</p>
+               as high as 10% of the purchase.  The price of Gold would have to increase by this amount before you would
+               see a profit.</p>
+            <p>With your Kinetic Gold account, if spot price changes just 1%, the value of your account will adjust accordingly.</p>
             <p>With any deposit (purchase of coins) the value of the coin is reestablished to spot price</p>
             <p>Unlike other cryptocurrencies, the value of the coin is not determined by scarcity as additional
-               coins are being added continuously along with additional gold deposits.</p>
+               coins are being added continuously along with additional gold deposits.  It is always tied directly to the spot price of
+               gold for either purchases or transfers.</p>
     </div>
     <div class="center kinetic">
             <p>Blockchain</p>

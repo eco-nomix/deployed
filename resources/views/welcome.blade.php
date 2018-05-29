@@ -22,7 +22,7 @@
                 <p>Unlike your standard bank account, your account is denomonated in ounces of Gold, insured to the full value of your deposits (no $250,000 limit) by Lloyds of London, and can be used within any country.</p>
                 <p>The cryptocurrency feature of decentralized transactions allows full privacy of banking, having no regards to national borders or transaction amounts.</p>
     </div>
-
+    <div>  &nbsp;</div>
     <div class="display container-fluid back-white" >
                 <p>Kinetic Gold is a new cryptocurrency that is in its Pre-Launch phase.  </p>
                 <p>Unlike any other cryptocurrency, Kinetic Gold has been designed to be utilized like a standard bank account.  Features like payroll deposit, ATM access, Debit Card Access and on-line banking are among the standard banking features available.</p>

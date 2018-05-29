@@ -53,28 +53,9 @@ class PagesController extends Controller
     {
         $data = $this->userData($request);
 
-        $random = rand(0,3);
-        if($random == 0) {
-            $data['imageUrl'] = '../images/EarthRise.jpg';
-            $data['message'] = 'kinetic-nomix\'s purpose is to provide the highest
-            quality products to its customers that will help them improve
-            their lives physically, emotionally, spirtually and economically.';
-        }elseif ($random == 1){
-            $data['imageUrl'] = '../images/MustardTree.jpg';
-            $data['message'] = 'What we choose to do today will start out small
-            like a seedling, but over time can become great for all the world to
-            see.';
-        }elseif($random == 2){
-            $data['imageUrl'] = '../images/HandsPlant.jpg';
-            $data['message'] = 'Our future is something to be planned for, prepared
-            for and even nutured.  ';
-        }else{
-            $data['imageUrl'] = '../images/Grass.jpg';
-            $data['message'] = 'The decisions we make daily in what products
-            that we choose to purchase will impact not only our own lives, but
-            the lives of all the people on this planet.';
-        }
+
         $data['title'] = 'KineticGold';
+        $data['imageUrl'] = '../images/denmark.jpg';
         $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
         return view('welcome',$data);
     }

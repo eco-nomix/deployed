@@ -3,9 +3,9 @@
 
 
 @section('content')
-   {{--<div style="z-index:-5; height:1400px; background-attachment:fixed; background-size:100% 100%; background-image:  url({{$imageUrl}});">--}}
-   {{--</div>--}}
-<div class="kineticbackground">
+   <div style="z-index:-5; height:1400px; background-attachment:fixed; background-size:100% 100%; background-image:  url("{{URL::asset('images/denmark.jpeg')}}");">
+   </div>
+{{--<div class="kineticbackground">--}}
    <div >
      <p>Kinetic Gold is a new cryptocurrency1</p>
    </div>
@@ -149,5 +149,5 @@
         {{--<p>All transactions are controlled and recorded by the blockchain</p>--}}
         {{--<p>All designed features are now in place and functional for all members.</p>--}}
     {{--</div>--}}
-    </div>
+    {{--</div>--}}
 @stop

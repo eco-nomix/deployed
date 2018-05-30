@@ -11,8 +11,10 @@
         <p>Kinetic Gold is a new cryptocurrency2</p>
       </div>
 
-    <div style="width:100%;border-style:solid; border-width:3px; border-color:blue">
-             <p class="kinetic400" >Kinetic Gold</p>
+    <div style="width:100%;">
+        <div class="kinetic400">
+             <p>Kinetic Gold</p>
+        </div>
     </div>
 
 
@@ -39,7 +41,9 @@
     </div>
 
      <div style="width:100%;">
-             <p class="kinetic400" >Kinetic Gold's Coin</p>
+        <div class="kinetic400">
+             <p>" >Kinetic Gold's Coin</p>
+        </div>
     </div>
     <div class="display back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by

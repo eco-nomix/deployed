@@ -37,6 +37,7 @@
                add up to hundreds of dollars worth of Gold to your account on a monthly basis.
                </p>
     </div>
+
      <div style="width:100%;">
              <p class="kinetic400" >Kinetic Gold's Coin</p>
     </div>
@@ -58,8 +59,8 @@
                coins are being added continuously along with additional gold deposits.  It is always tied directly to the spot price of
                gold for either purchases or transfers.</p>
     </div>
-    <div class="center kinetic  col-md-10 col-md-offset-1">
-            <p>Blockchain</p>
+    <div style="width:100%;">
+            <p class="kinetic400" >Blockchain</p>
     </div>
     <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's blockchain is one of the fastest block chains available.</p>
@@ -73,8 +74,8 @@
                credited to those accounts that earn it.</p>
 
     </div>
-    <div class="center kinetic col-md-10 col-md-offset-1">
-            <p>Vaulted Storage</p>
+       <div style="width:100%;">
+            <p class="kinetic400" >Vaulted Storage</p>
     </div>
      <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
                 <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
@@ -85,8 +86,8 @@
                    from the system can the equivalent amount of Gold be sold</p>
                 <p>All Transactions are controlled by the blockchain.</p>
      </div>
-    <div class="center kinetic  col-md-10 col-md-offset-1">
-            <p>Off-shore Banking</p>
+    <div style="width:100%;">
+                <p class="kinetic400" >Off-shore Banking</p>
     </div>
     <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
             <p>During the ICO phase an off-shore bank will be obtained on the island of Nevis.</p>
@@ -100,8 +101,8 @@
             <p>All transactions are controlled by the blockchain.</p>
     </div>
 
-    <div class="center kinetic  col-md-10 col-md-offset-1">
-            <p>Pre-Launch</p>
+   <div style="width:100%;">
+               <p class="kinetic400" >Pre-Launch</p>
     </div>
     <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
           <p>Programming of the block-chain will commence</p>
@@ -109,8 +110,8 @@
           <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
     </div>
-    <div class="center kinetic  col-md-10 col-md-offset-1">
-          <p>ICO</p>
+    <div style="width:100%;">
+                <p class="kinetic400" >ICO</p>
     </div>
     <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
          <p>Final Testing of block-chain will completed</p>
@@ -128,8 +129,8 @@
 
 
     </div>
-    <div class="center kinetic  col-md-10 col-md-offset-1">
-                       <p>Launch</p>
+    <div style="width:100%;">
+                <p class="kinetic400" >Launch</p>
     </div>
     <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
         <p>Deposits will commence (Coins issued)</p>

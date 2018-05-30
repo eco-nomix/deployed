@@ -90,7 +90,7 @@
 }
 
 .trans {
-    opacity:0.5;
+    opacity:0.2;
 }
 
 .display {
@@ -119,6 +119,7 @@
     font-weight: 700;
     line-height: 40px;
     width: 400px;
+    height:40px;
     background-color: black;
     margin:0 auto;
     text-align:center;

@@ -17,9 +17,9 @@
     {{--<div class="center kinetic">--}}
              {{--<p>Kinetic Gold</p>--}}
     {{--</div>--}}
-    <div  style="background-image":url({{URL::asset('images/denmark.jpeg')}})>
-    <img src="{{URL::asset('images/denmark.jpeg')}}" style="width: 50%; height: 50%" >
-      <div style="width:600px; height:500px;  background-size:100% 100%; background-image:  url({{URL::asset('images/denmark.jpeg')}});"></div>
+    {{--<div  style="background-image":url({{URL::asset('images/denmark.jpeg')}})>--}}
+    {{--<img src="{{URL::asset('images/denmark.jpeg')}}" style="width: 50%; height: 50%" >--}}
+      {{--<div style="width:600px; height:500px;  background-size:100% 100%; background-image:  url({{URL::asset('images/denmark.jpeg')}});"></div>--}}
 
 
     <div class="display container-fluid back-white col-md-10 col-md-offset-1" >

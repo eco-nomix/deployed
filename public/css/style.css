@@ -106,6 +106,10 @@
     line-height: 40px;
 }
 
+.kineticbackground{
+    background-image:url("{{URL::asset('images/denmark.jpeg')}}");
+}
+
 .kineticSm {
     color:goldenrod;
     font-size: 35px;

@@ -108,7 +108,6 @@
 }
 
 .kinetic400{
-    text-align:center;
     color:goldenrod;
     font-size: 35px;
     font-style: normal;
@@ -117,6 +116,7 @@
     line-height: 40px;
     width: 400px;
     background-color: black;
+    border-color:blue;
 }
 
 .kineticbackground{

@@ -38,7 +38,7 @@
                </p>
     </div>
      <div class="center kinetic  col-md-10 col-md-offset-1">
-             <p>Kinetic Gold's Coin</p>
+             <p class="kinetic400" >Kinetic Gold's Coin</p>
     </div>
     <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by

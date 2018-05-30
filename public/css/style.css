@@ -15,6 +15,7 @@
 
 .skip {
     display:block;
+    float:left;
     height:30px;
 }
 

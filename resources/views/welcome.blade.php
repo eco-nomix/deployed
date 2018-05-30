@@ -39,7 +39,7 @@
                add up to hundreds of dollars worth of Gold to your account on a monthly basis.
                </p>
     </div>
-    <div class="skip"></div>
+    <div class="skip">&nbsp;</div>
      <div style="width:100%;">
         <div class="kinetic400">
              Kinetic Gold's Coin

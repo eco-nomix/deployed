@@ -64,7 +64,9 @@
                gold for either purchases or transfers.</p>
     </div>
     <div style="width:100%;">
-            <p class="kinetic400" >Blockchain</p>
+        <div class="kinetic400">
+            Blockchain
+        </div>
     </div>
     <div class="display back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's blockchain is one of the fastest block chains available.</p>
@@ -79,7 +81,9 @@
 
     </div>
        <div style="width:100%;">
-            <p class="kinetic400" >Vaulted Storage</p>
+            <div class="kinetic400">
+            Vaulted Storage
+            </div>
     </div>
      <div class="display back-white  col-md-10 col-md-offset-1" >
                 <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
@@ -91,7 +95,9 @@
                 <p>All Transactions are controlled by the blockchain.</p>
      </div>
     <div style="width:100%;">
-                <p class="kinetic400" >Off-shore Banking</p>
+            <div class="kinetic400">
+                Off-shore Banking
+            </div>
     </div>
     <div class="display back-white  col-md-10 col-md-offset-1" >
             <p>During the ICO phase an off-shore bank will be obtained on the island of Nevis.</p>
@@ -106,7 +112,9 @@
     </div>
 
    <div style="width:100%;">
-               <p class="kinetic400" >Pre-Launch</p>
+        <div class="kinetic400">
+               Pre-Launch
+        </div>
     </div>
     <div class="display back-white  col-md-10 col-md-offset-1" >
           <p>Programming of the block-chain will commence</p>
@@ -115,7 +123,9 @@
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
     </div>
     <div style="width:100%;">
-                <p class="kinetic400" >ICO</p>
+            <div class="kinetic400">
+                ICO
+            </div>
     </div>
     <div class="display back-white  col-md-10 col-md-offset-1" >
          <p>Final Testing of block-chain will completed</p>
@@ -134,7 +144,9 @@
 
     </div>
     <div style="width:100%;">
-                <p class="kinetic400" >Launch</p>
+            <div class="kinetic400">
+                Launch
+            </div>
     </div>
     <div class="display back-white  col-md-10 col-md-offset-1" >
         <p>Deposits will commence (Coins issued)</p>

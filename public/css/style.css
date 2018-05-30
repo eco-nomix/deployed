@@ -17,6 +17,7 @@
     display:block;
     float:left;
     height:30px;
+    width:100%;
     border-style:solid;
     border-color:red;
     border-width:3px;

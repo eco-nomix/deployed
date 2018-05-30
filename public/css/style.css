@@ -89,6 +89,10 @@
    text-align:center;
 }
 
+.trans{
+    opacity:0.5;
+}
+
 .display {
     color:darkblue;
     font-size: 22px;

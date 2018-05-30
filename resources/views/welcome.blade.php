@@ -18,7 +18,7 @@
     </div>
 
 
-    <div class="display  back-white col-md-10 col-md-offset-1" >
+    <div class="trans display  back-white col-md-10 col-md-offset-1" >
             <p>Kinetic Gold is a new cryptocurrency that is in its Pre-Launch phase.  </p>
             <p>Unlike any other cryptocurrencies, Kinetic Gold has been designed to be utilized like a standard bank account
                on a regular basis for normal banking activities.
@@ -46,7 +46,7 @@
         </div>
     </div>
      <div class="skip">xx</div>
-    <div class="display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by
                requiring that before any coin can be issued that there is at least one ounce of Gold
                in our insured vaults that is not guaranteeing any other coin.  The coin technically represents

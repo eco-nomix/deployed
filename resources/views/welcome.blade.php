@@ -12,6 +12,12 @@
    <div >
      <p>Kinetic Gold is a new cryptocurrency2</p>
    </div>
+    <div >
+        <p>Kinetic Gold is a new cryptocurrency1</p>
+      </div>
+      <div >
+        <p>Kinetic Gold is a new cryptocurrency2</p>
+      </div>
     {{--<div class="center kinetic">--}}
              {{--<p>Kinetic Gold</p>--}}
     {{--</div>--}}

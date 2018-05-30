@@ -15,7 +15,7 @@
     <div class="center kinetic">
              <p>Kinetic Gold</p>
     </div>
-    <img src="{{URL::asset('images/denmark.jpg')}}" >
+    <img src="{{URL::asset('images/denmark.jpeg')}}" >
     <div class="display container-fluid back-white" >
             <p>Kinetic Gold is a new cryptocurrency that is in its Pre-Launch phase.  </p>
             <p>Unlike any other cryptocurrency, Kinetic Gold has been designed to be utilized like a standard bank account

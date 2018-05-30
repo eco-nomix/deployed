@@ -17,6 +17,9 @@
     display:block;
     float:left;
     height:30px;
+    border-style:solid;
+    border-color:red;
+    border-width:3px;
 }
 
 .benefits {

@@ -11,7 +11,7 @@
         <p>Kinetic Gold is a new cryptocurrency2</p>
       </div>
 
-    <div style="width:100%; border-color:red; border-style:solid; border-width:3px;">
+    <div style="width:100%;">
              <p class="kinetic400" >Kinetic Gold</p>
     </div>
 

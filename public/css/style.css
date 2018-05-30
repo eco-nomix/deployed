@@ -13,7 +13,9 @@
 }
 
 
-
+.skip {
+    height:30px;
+}
 
 .benefits {
     font-weight:bold;

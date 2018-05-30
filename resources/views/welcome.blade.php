@@ -17,7 +17,7 @@
     </div>
     {{--<div  class="center kinetic">--}}
     {{--<img src="{{URL::asset('images/denmark.jpeg')}}" style="width: 50%; height: 50%" >--}}
-      <div style="width:600px; height:500px;  background-size:100% 100%; background-image:  url({{URL::asset('images/denmark.jpeg'}});"></div>
+      <div style="width:600px; height:500px;  background-size:100% 100%; background-image:  url({{URL::asset('images/denmark.jpeg')}});"></div>
 
     {{--</div>--}}
     <div class="display container-fluid back-white col-md-10 col-md-offset-1" >

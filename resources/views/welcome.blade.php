@@ -39,10 +39,10 @@
                add up to hundreds of dollars worth of Gold to your account on a monthly basis.
                </p>
     </div>
-     <div class="center kinetic">
+     <div class="center kinetic  col-md-10 col-md-offset-1">
              <p>Kinetic Gold's Coin</p>
     </div>
-    <div class="display container-fluid back-white" >
+    <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by
                requiring that before any coin can be issued that there is at least one ounce of Gold
                in our insured vaults that is not guaranteeing any other coin.  The coin technically represents
@@ -60,10 +60,10 @@
                coins are being added continuously along with additional gold deposits.  It is always tied directly to the spot price of
                gold for either purchases or transfers.</p>
     </div>
-    <div class="center kinetic">
+    <div class="center kinetic  col-md-10 col-md-offset-1">
             <p>Blockchain</p>
     </div>
-    <div class="display container-fluid back-white" >
+    <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's blockchain is one of the fastest block chains available.</p>
             <p>Transaction times are in the millisecond range, making transactions seem almost instantaneous from any
                two points in the world.</p>

@@ -12,7 +12,7 @@
       </div>
 
     <div style="width:100%; border-color:red; border-style:solid; border-width:3px;">
-             <p class="center kinetic400" >Kinetic Gold</p>
+             <p class="kinetic400" >Kinetic Gold</p>
     </div>
 
 

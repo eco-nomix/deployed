@@ -116,6 +116,7 @@
     line-height: 40px;
     width: 400px;
     background-color: white;
+    margin:0 auto;
     border-style:solid;
     border-color:blue;
     border-width:3px;

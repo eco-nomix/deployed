@@ -75,10 +75,10 @@
                credited to those accounts that earn it.</p>
 
     </div>
-    <div class="center kinetic">
+    <div class="center kinetic col-md-10 col-md-offset-1">
             <p>Vaulted Storage</p>
     </div>
-     <div class="display container-fluid back-white" >
+     <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
                 <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
                 <p>The initial vault will be located in Dubai.</p>
                 <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</p>
@@ -87,10 +87,10 @@
                    from the system can the equivalent amount of Gold be sold</p>
                 <p>All Transactions are controlled by the blockchain.</p>
      </div>
-    <div class="center kinetic">
+    <div class="center kinetic  col-md-10 col-md-offset-1">
             <p>Off-shore Banking</p>
     </div>
-    <div class="display container-fluid back-white" >
+    <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
             <p>During the ICO phase an off-shore bank will be obtained on the island of Nevis.</p>
             <p>This bank will have full on-line banking capabilities for our members accounts.</p>
             <p>This bank will also provide debit card access and processing for our members accounts.</p>
@@ -102,19 +102,19 @@
             <p>All transactions are controlled by the blockchain.</p>
     </div>
 
-    <div class="center kinetic">
+    <div class="center kinetic  col-md-10 col-md-offset-1">
             <p>Pre-Launch</p>
     </div>
-    <div class="display container-fluid back-white" >
+    <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
           <p>Programming of the block-chain will commence</p>
           <p>Creation of the Foreign Trust will be completed</p>
           <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
     </div>
-    <div class="center kinetic">
+    <div class="center kinetic  col-md-10 col-md-offset-1">
           <p>ICO</p>
     </div>
-    <div class="display container-fluid back-white" >
+    <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
          <p>Final Testing of block-chain will completed</p>
          <p>Transfer of Mining Organization to blockchain</p>
          <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
@@ -130,10 +130,10 @@
 
 
     </div>
-    <div class="center kinetic">
+    <div class="center kinetic  col-md-10 col-md-offset-1">
                        <p>Launch</p>
     </div>
-    <div class="display container-fluid back-white" >
+    <div class="display container-fluid back-white  col-md-10 col-md-offset-1" >
         <p>Deposits will commence (Coins issued)</p>
         <p>Off-Shore bank in place with debit card</p>
         <p>Mining results from previous organization development will be deposited in accounts. </p>

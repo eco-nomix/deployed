@@ -5,20 +5,20 @@
 @section('content')
    {{--<div style="z-index:-5; height:1400px; background-attachment:fixed; background-size:100% 100%; background-image:  url({{$imageUrl}});">--}}
    {{--</div>--}}
-
+<div class="kineticbackground">
    <div >
      <p>Kinetic Gold is a new cryptocurrency1</p>
    </div>
    <div >
      <p>Kinetic Gold is a new cryptocurrency2</p>
    </div>
-    <div class="center kinetic">
-             <p>Kinetic Gold</p>
-    </div>
+    {{--<div class="center kinetic">--}}
+             {{--<p>Kinetic Gold</p>--}}
+    {{--</div>--}}
     {{--<div  style="background-image":url({{URL::asset('images/denmark.jpeg')}})>--}}
     {{--<img src="{{URL::asset('images/denmark.jpeg')}}" style="width: 50%; height: 50%" >--}}
       {{--<div style="width:600px; height:500px;  background-size:100% 100%; background-image:  url({{URL::asset('images/denmark.jpeg')}});"></div>--}}
-<div class="kineticbackground">
+
 
     {{--<div class="display container-fluid back-white col-md-10 col-md-offset-1" >--}}
             {{--<p>Kinetic Gold is a new cryptocurrency that is in its Pre-Launch phase.  </p>--}}

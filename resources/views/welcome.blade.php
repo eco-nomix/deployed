@@ -3,7 +3,7 @@
 
 
 @section('content')
-   <div style="z-index:-5; height:1400px; background-attachment:fixed; background-size:100% 100%; background-image:url('/images/denmark.jpeg');">
+   <div style="z-index:-5; height:1100px; background-attachment:fixed; background-size:100% 100%; background-image:url('/images/denmark.jpeg');">
    </div>
 {{--<div class="kineticbackground">--}}
    <div >

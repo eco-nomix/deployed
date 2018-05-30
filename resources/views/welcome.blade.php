@@ -45,6 +45,7 @@
              Kinetic Gold's Coin
         </div>
     </div>
+     <div class="skip">xx</div>
     <div class="display back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by
                requiring that before any coin can be issued that there is at least one ounce of Gold

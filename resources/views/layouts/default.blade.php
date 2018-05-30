@@ -12,9 +12,7 @@
     @yield('header')
     <script src="/js/jquery-1.12.1.min.js"></script>
     <script src="/js/editing.js"></script>
-    <style>
-       body{background-image: url("{{URL::asset('images/denmark.jpeg')}}");}
-    </style>
+
 </head>
 <body class="KineticGoldbody">
 

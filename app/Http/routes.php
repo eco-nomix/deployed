@@ -209,15 +209,7 @@ Route::get('/gold/intro',['as' => 'intro','uses'=>'GoldPagesController@introduct
 Route::get('/gold/crypto',['as' => 'crypto','uses'=>'GoldPagesController@crypto']);
 Route::get('/gold/vue',['as' => 'vue','uses'=>'GoldPagesController@vue']);
 Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
-Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);Route::get('/gold',['as' => 'gold','uses'=>'GoldPagesController@gold']);
+
 
     /*
   |--------------------------------------------------------------------------

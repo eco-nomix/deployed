@@ -68,6 +68,9 @@
             <p>Initally Kinetic Gold will use starchain and will migrate over to even a faster system that will be able to keep
                up with the anticipated growth and number of transactions of Kinetic Gold.</p>
             <p>All transactions will automatically encrypt all elements of the transaction, keeping your private transactions private.</p>
+            <p>The Blockchain contains all the rules and regulations regarding purchase and transactions of Kinetic Gold.  This includes all Rewards
+               and profit sharing.  This ensures that each members account if safe, secure and that all appropriate rewards and profit sharing is automatically
+               credited to those accounts that earn it.</p>
 
     </div>
     <div class="center kinetic">
@@ -78,9 +81,9 @@
                 <p>The initial vault will be located in Dubai.</p>
                 <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</p>
                 <p>The Vaulted Storage will interface with the Off-shore Banking system to convert Gold back into fiat currency
-                   when needed to cover banking transactions.  Only when Coins are converted into fiat currency and are removed
-                   from the system can equivalent amount of Gold be sold</p>
-                <p>Transactions of Gold are controlled by the blockchain.</p>
+                   when needed to cover banking transactions of the account holders.  Only when Coins are converted into fiat currency and are removed
+                   from the system can the equivalent amount of Gold be sold</p>
+                <p>All Transactions are controlled by the blockchain.</p>
      </div>
     <div class="center kinetic">
             <p>Off-shore Banking</p>
@@ -88,8 +91,9 @@
     <div class="display container-fluid back-white" >
             <p>During the ICO phase an off-shore bank will be obtained on the island of Nevis.</p>
             <p>This bank will have full on-line banking capabilities for our members accounts.</p>
-            <p>This bank will also provide debit card access and process for our members accounts.</p>
+            <p>This bank will also provide debit card access and processing for our members accounts.</p>
             <p>Members will have access to funds from anywhere in the world.</p>
+            <p>Members will be provided with a </p>
             <p>Account will be denominated in gold ounces.</p>
             <p>Account is fully linked to the cryptocurrency account.</p>
             <p>Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily</p>

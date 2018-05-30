@@ -16,7 +16,7 @@
     </div>
 
 
-    <div class="display container-fluid back-white col-md-10 col-md-offset-1" >
+    <div class="display  back-white col-md-10 col-md-offset-1" >
             <p>Kinetic Gold is a new cryptocurrency that is in its Pre-Launch phase.  </p>
             <p>Unlike any other cryptocurrency, Kinetic Gold has been designed to be utilized like a standard bank account
                on a regular basis for normal banking activities.

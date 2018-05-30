@@ -3,7 +3,7 @@
 
 
 @section('content')
-   <div style="z-index:-5; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
+   <div style="z-index:-5; height:1100px; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
     <div >
         <p>Kinetic Gold is a new cryptocurrency1</p>
       </div>

@@ -13,7 +13,7 @@
 
     <div style="width:100%;">
         <div class="kinetic400">
-             <p>Kinetic Gold</p>
+             Kinetic Gold
         </div>
     </div>
 
@@ -42,7 +42,7 @@
 
      <div style="width:100%;">
         <div class="kinetic400">
-             <p>Kinetic Gold's Coin</p>
+             Kinetic Gold's Coin
         </div>
     </div>
     <div class="display back-white  col-md-10 col-md-offset-1" >

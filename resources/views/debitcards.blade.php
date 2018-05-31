@@ -35,7 +35,7 @@
                            The Debit cards will be a standard issue Debit Card issued by our bank.  It will have KineticGolds branding on it.
                             </div>
 
-                            
+
 
 
                         </div>
@@ -43,6 +43,9 @@
                 </div>
             </div>
         </div>
+         <div class="skip">&nbsp;</div>
+          <div class="skip">&nbsp;</div>
+           <div class="skip">&nbsp;</div>
     </div>
 </div>
 

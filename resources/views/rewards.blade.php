@@ -11,7 +11,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div style="width:100%;">
                         <div class="kinetic600">
-                             Interface to your Off-Shore Bank
+                             Rewards Program
                         </div>
                     </div>
                     <div class="panel panel-default display">

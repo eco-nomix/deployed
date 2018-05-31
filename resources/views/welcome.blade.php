@@ -40,7 +40,7 @@
                </p>
     </div>
     <div class="skip">xx</div>
-     <div style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
         <div class="kinetic400">
              Kinetic Gold's Coin
         </div>

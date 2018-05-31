@@ -45,7 +45,7 @@
              Kinetic Gold's Coin
         </div>
     </div>
-     <div class="skip">xx</div>
+
     <div class="trans display back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by
                requiring that before any coin can be issued that there is at least one ounce of Gold
@@ -64,6 +64,7 @@
                coins are being added continuously along with additional gold deposits.  It is always tied directly to the spot price of
                gold for either purchases or transfers.</p>
     </div>
+     <div class="skip">xx</div>
      <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
 
         <div class="kinetic400">
@@ -82,6 +83,7 @@
                credited to those accounts that earn it.</p>
 
     </div>
+        <div class="skip">xx</div>
         <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
 
             <div class="kinetic400">
@@ -97,6 +99,7 @@
                    from the system can the equivalent amount of Gold be sold</p>
                 <p>All Transactions are controlled by the blockchain.</p>
      </div>
+     <div class="skip">xx</div>
     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
 
             <div class="kinetic400">
@@ -114,7 +117,7 @@
             <p>Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily</p>
             <p>All transactions are controlled by the blockchain.</p>
     </div>
-
+    <div class="skip">xx</div>
    <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
 
         <div class="kinetic400">
@@ -127,6 +130,7 @@
           <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
     </div>
+     <div class="skip">xx</div>
      <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
 
             <div class="kinetic400">
@@ -149,6 +153,7 @@
 
 
     </div>
+     <div class="skip">xx</div>
     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
 
             <div class="kinetic400">

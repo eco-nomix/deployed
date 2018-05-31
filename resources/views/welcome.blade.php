@@ -5,10 +5,10 @@
 @section('content')
    <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
     <div >
-        <p>Kinetic Gold is a new cryptocurrency1</p>
+        <p>nbsp;</p>
       </div>
       <div >
-        <p>Kinetic Gold is a new cryptocurrency2</p>
+        <p>nbsp;</p>
       </div>
 
     <div style="width:100%;">
@@ -39,7 +39,7 @@
                add up to hundreds of dollars worth of Gold to your account on a monthly basis.
                </p>
     </div>
-    <div class="skip">xx</div>
+    <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
         <div class="kinetic400">
              Kinetic Gold's Coin
@@ -64,7 +64,7 @@
                coins are being added continuously along with additional gold deposits.  It is always tied directly to the spot price of
                gold for either purchases or transfers.</p>
     </div>
-     <div class="skip">xx</div>
+     <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
 
         <div class="kinetic400">
@@ -83,7 +83,7 @@
                credited to those accounts that earn it.</p>
 
     </div>
-        <div class="skip">xx</div>
+        <div class="skip">&nbsp;</div>
         <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
@@ -99,7 +99,7 @@
                    from the system can the equivalent amount of Gold be sold</p>
                 <p>All Transactions are controlled by the blockchain.</p>
      </div>
-     <div class="skip">xx</div>
+     <div class="skip">&nbsp;</div>
     <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
@@ -117,7 +117,7 @@
             <p>Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily</p>
             <p>All transactions are controlled by the blockchain.</p>
     </div>
-    <div class="skip">xx</div>
+    <div class="skip">&nbsp;</div>
    <div class="center" style="width:100%;display:block;float:left;">
 
         <div class="kinetic400">
@@ -130,7 +130,7 @@
           <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
     </div>
-     <div class="skip">xx</div>
+     <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
@@ -153,7 +153,7 @@
 
 
     </div>
-     <div class="skip">xx</div>
+     <div class="skip">&nbsp;</div>
     <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
@@ -168,5 +168,6 @@
         <p>All transactions are controlled and recorded by the blockchain</p>
         <p>All designed features are now in place and functional for all members.</p>
     </div>
+     <div class="skip">&nbsp;</div>
     </div>
 @stop

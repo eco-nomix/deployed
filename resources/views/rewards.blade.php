@@ -98,7 +98,7 @@
                                     </ul>
                             </div>
                             <div class="form-group col-md-12 ">
-                                Even you can benefit from this.
+                                Even you can benefit from this.  Even from Day One, with no sales organization at all
                             </div>
 
 

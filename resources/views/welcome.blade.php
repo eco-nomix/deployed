@@ -29,8 +29,8 @@
             <p>Transaction charge is 1/2 of 1% of the transaction.</p>
             <p>Unlike your standard bank account, your account is denominated in ounces of Gold, insured to the full value
                of your deposits (no $250,000 limit) by Lloyds of London, and can be used within any country.</p>
-            <p>The cryptocurrency feature of decentralized transactions allows full privacy of banking, having no
-               regards to national borders or transaction amounts.</p>
+            <p>The cryptocurrency feature of decentralized transactions allows for very secure transactions, permanent records outside of the bank, having no
+               regards to national borders or transaction amounts.  In addition all data within the blockchain is encrypted for your privacy.</p>
 
             <p>By its design Kinetic Gold is designed to be a benefit to the small account holder, allowing them the
                same benefits as the large account holder.  The Rewards and Profit Sharing applies for all account holders.

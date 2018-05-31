@@ -40,6 +40,10 @@
 
                         <li><a href="{{URL::to('/')}}/comparison">Kinetic Gold compared to other marketing programs</a></li>
                         <li><a href="{{URL::to('/')}}/benefits">Member Benefits</a></li>
+                        <li><a href="{{URL::to('/')}}/mem_agreement">Membership Agreement</a></li>
+                        <li><a href="{{URL::to('/')}}/mem_terms">Membership Terms and Conditions</a></li>
+                        <li><a href="{{URL::to('/')}}/autoship">Auto-Ship Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/returns">Return Policy</a></li>
                     </ul>
                 </li>
                 <li><a href="{{URL::to('/')}}/traininglinks">Video Links<span class="caret"></span></a>
@@ -63,19 +67,6 @@
                         <li><a href="{{URL::to('/')}}/links/protection">Protection</a></li>
                     </ul>
                 </li>
-
-
-
-                <li>
-                    <a href="{{URL::to('/')}}/policies">Policies and Procedures<span class="caret"></span></a>
-                    <ul>
-                        <li><a href="{{URL::to('/')}}/mem_agreement">Membership Agreement</a></li>
-                        <li><a href="{{URL::to('/')}}/mem_terms">Membership Terms and Conditions</a></li>
-                        <li><a href="{{URL::to('/')}}/autoship">Auto-Ship Policy</a></li>
-                         <li><a href="{{URL::to('/')}}/returns">Return Policy</a></li>
-                    </ul>
-                </li>
-
             </ul>
 
             <ul class="pull-right">

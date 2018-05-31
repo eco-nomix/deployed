@@ -132,7 +132,10 @@
     margin-right:auto;
     text-align:center;
     vertical-align:middle;
-    
+    border-style:dashed;
+    border-color:pink;
+    border-width:3px;
+
 ;
 
 }

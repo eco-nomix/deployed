@@ -40,7 +40,7 @@
                </p>
     </div>
     <div class="skip">xx</div>
-     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+     <div class="center" style="width:100%;display:block;float:left;">
         <div class="kinetic400">
              Kinetic Gold's Coin
         </div>
@@ -65,7 +65,7 @@
                gold for either purchases or transfers.</p>
     </div>
      <div class="skip">xx</div>
-     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+     <div class="center" style="width:100%;display:block;float:left;">
 
         <div class="kinetic400">
             Blockchain
@@ -84,7 +84,7 @@
 
     </div>
         <div class="skip">xx</div>
-        <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+        <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
             Vaulted Storage
@@ -100,7 +100,7 @@
                 <p>All Transactions are controlled by the blockchain.</p>
      </div>
      <div class="skip">xx</div>
-    <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+    <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
                 Off-shore Banking
@@ -118,7 +118,7 @@
             <p>All transactions are controlled by the blockchain.</p>
     </div>
     <div class="skip">xx</div>
-   <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+   <div class="center" style="width:100%;display:block;float:left;">
 
         <div class="kinetic400">
                Pre-Launch
@@ -131,7 +131,7 @@
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
     </div>
      <div class="skip">xx</div>
-     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+     <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
                 ICO
@@ -154,7 +154,7 @@
 
     </div>
      <div class="skip">xx</div>
-    <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+    <div class="center" style="width:100%;display:block;float:left;">
 
             <div class="kinetic400">
                 Launch

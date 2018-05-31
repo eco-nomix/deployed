@@ -33,7 +33,12 @@
                             This card will be issued as soon as the Off-Shore bank is on line.
                             </div>
                             <div class="form-group col-md-12 ">
-                            KineticGold Profit-Sharing and Mining Bonuses are deposited directly in your Off-Shore account and can immediately be access through your Debit Card.
+                            KineticGold Profit-Sharing and Mining Bonuses are deposited directly in your Off-Shore account / cryptocurrency and can immediately be access through your Debit Card.
+                            </div>
+
+                            <div class="form-group col-md-12 ">
+                            The card balance is in ounces of Gold on deposit with Kinetic Gold and the value in fiat currency will vary as to the
+                            spot price of gold.
                             </div>
 
                             <div class="form-group col-md-12 ">

@@ -149,6 +149,15 @@ class PagesController extends Controller
         return view('ewallet',$data);
     }
 
+    public function offshorebank(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Kinetic Golds Offshore bank';
+        $data['description'] = 'KineticGold Offshore Bank';
+
+        return view('offshorebank',$data);
+    }
+
     public function startup(Request $request)
     {
         $data = $this->userData($request);

@@ -122,6 +122,7 @@ Route::get('/camping',['as' => 'camping','uses'=>'PagesController@camping']);
 Route::get('/cooking',['as' => 'cooking','uses'=>'PagesController@cooking']);
 Route::get('/cryptocurrency',['as' => 'crypto','uses'=>'PagesController@cryptocurrency']);
 Route::get('/ewallet',['as' => 'ewallet','uses'=>'PagesController@ewallet']);
+Route::get('/offshorebank',['as' => 'offshorebank','uses'=>'PagesController@offshorebank']);
 Route::get('/comparison',['as' => 'comparison','uses'=>'PagesController@comparison']);
 Route::get('/debitcards',['as' => 'debit','uses'=>'PagesController@debitcards']);
 Route::get('/experiences',['as' => 'debit','uses'=>'PagesController@experiences']);

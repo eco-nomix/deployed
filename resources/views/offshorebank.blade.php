@@ -24,23 +24,34 @@
                         </div>
 
                         <div class="form-group col-md-12 ">
+                        During the ICO phase an off-shore bank will be obtained on the island of Nevis.
                          </div>
                         <div class="form-group col-md-12 ">
+                        This bank will have full on-line banking capabilities for our members accounts.
                          </div>
                         <div class="form-group col-md-12 ">
+                        This bank will also provide debit card access and processing for our members accounts.
                         </div>
                         <div class="form-group col-md-12 ">
+                        Members will have access to funds from anywhere in the world.
                         </div>
                         <div class="form-group col-md-12 ">
+                        Members will be provided with a debit card with a Visa/MasterCard Logo
                          </div>
                         <div class="form-group col-md-12 ">
+                        Account will be denominated in gold ounces.
                          </div>
+                        <div class="form-group col-md-12 ">
+                        Account is fully linked to the cryptocurrency account.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        All transactions are controlled by the blockchain.
+                        </div>
 
-
-
-
-
-            </div>
+             </div>
                <div class="skip">&nbsp;</div>
                   <div class="skip">&nbsp;</div>
                      <div class="skip">&nbsp;</div>

@@ -64,7 +64,8 @@
                coins are being added continuously along with additional gold deposits.  It is always tied directly to the spot price of
                gold for either purchases or transfers.</p>
     </div>
-    <div style="width:100%;">
+     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+
         <div class="kinetic400">
             Blockchain
         </div>
@@ -81,7 +82,8 @@
                credited to those accounts that earn it.</p>
 
     </div>
-       <div style="width:100%;">
+        <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+
             <div class="kinetic400">
             Vaulted Storage
             </div>
@@ -95,7 +97,8 @@
                    from the system can the equivalent amount of Gold be sold</p>
                 <p>All Transactions are controlled by the blockchain.</p>
      </div>
-    <div style="width:100%;">
+    <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+
             <div class="kinetic400">
                 Off-shore Banking
             </div>
@@ -112,7 +115,8 @@
             <p>All transactions are controlled by the blockchain.</p>
     </div>
 
-   <div style="width:100%;">
+   <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+
         <div class="kinetic400">
                Pre-Launch
         </div>
@@ -123,7 +127,8 @@
           <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
           <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
     </div>
-    <div style="width:100%;">
+     <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+
             <div class="kinetic400">
                 ICO
             </div>
@@ -144,7 +149,8 @@
 
 
     </div>
-    <div style="width:100%;">
+    <div class="center" style="width:100%;border-style:solid;border-width:3px;border-color:blue;display:block;float:left;">
+
             <div class="kinetic400">
                 Launch
             </div>

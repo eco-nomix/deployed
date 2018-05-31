@@ -8,13 +8,14 @@
   <div class="skip">&nbsp;</div>
 
     <div class="trans row">
+    <div style="width:100%;">
+                            <div class="kinetic400">
+                                 Introduction
+                            </div>
+                        </div>
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
-                <div style="width:100%;">
-                        <div class="kinetic400">
-                             Introduction
-                        </div>
-                    </div>
+
                     <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">

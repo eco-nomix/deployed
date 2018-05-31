@@ -140,6 +140,15 @@ class PagesController extends Controller
         return view('cryptocurrency',$data);
     }
 
+    public function ewallet(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Ewallet';
+        $data['description'] = 'Details of KineticGold Ewallet';
+
+        return view('ewallet',$data);
+    }
+
     public function startup(Request $request)
     {
         $data = $this->userData($request);

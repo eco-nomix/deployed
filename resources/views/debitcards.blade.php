@@ -20,7 +20,16 @@
 
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <div class="form-group col-md-12 ">
-                            All Members will receive a KineticGold Debit Card to access their offshore account.  This card is good at any location which accepts credit and/or debit cards including ATM's.
+                            All Members will receive a KineticGold Debit Card to access their offshore account.
+                             </div>
+
+                             <div class="form-group col-md-12 ">
+                                This card will have the Visa or Mastercharge Logo on it.
+                             </div>
+                            <div class="form-group col-md-12 ">
+                             This card is good at any location which accepts credit and/or debit cards including ATM's.
+                             </div>
+                             <div class="form-group col-md-12 ">
                             This card will be issued as soon as the Off-Shore bank is on line.
                             </div>
                             <div class="form-group col-md-12 ">

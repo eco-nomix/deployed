@@ -36,19 +36,25 @@
                         Members will have access to funds from anywhere in the world.
                         </div>
                         <div class="form-group col-md-12 ">
-                        Members will be provided with a debit card with a Visa/MasterCard Logo
+                        Members will be provided with a debit card with a Visa/MasterCard Logo.
                          </div>
                         <div class="form-group col-md-12 ">
                         Account will be denominated in gold ounces.
                          </div>
                         <div class="form-group col-md-12 ">
-                        Account is fully linked to the cryptocurrency account.
+                        Account is fully linked to the cryptocurrency account.  Funds in your Kinetic Gold cryptocurrency account are available for all transactions.
                         </div>
                         <div class="form-group col-md-12 ">
-                        Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily
+                        Kinetic Gold Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily
                         </div>
                         <div class="form-group col-md-12 ">
                         All transactions are controlled by the blockchain.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        Funds can be wired through SWIFT.
+                        </div>
+                        <div class="form-group col-md-12 ">
+
                         </div>
 
              </div>

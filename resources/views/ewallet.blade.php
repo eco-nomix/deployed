@@ -38,12 +38,18 @@
                             off-shore banking facility.  Through there the lost or stolen ewallet can be deactivated and a new ewallet issued.  This
                             insures that you can always get to your funds.
                         </div>
-                        
+
 
 
 
 
             </div>
+               <div class="skip">&nbsp;</div>
+                  <div class="skip">&nbsp;</div>
+                     <div class="skip">&nbsp;</div>
+                        <div class="skip">&nbsp;</div>
+                           <div class="skip">&nbsp;</div>
+                              <div class="skip">&nbsp;</div>
         </div>
     </div>
     </div>

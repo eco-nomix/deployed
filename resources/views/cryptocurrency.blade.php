@@ -4,11 +4,16 @@
 
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
-<div class="container-fluid">
+<div style="width:100%">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
+            <div style="width:100%;">
+                <div class="kinetic600">
+                     KineticGold Cryptocurrency
+                </div>
+            </div>
             <div class="panel panel-default display">
-                <div class="panel-heading">KineticGold Cryptocurrency</div>
+               
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">

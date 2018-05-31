@@ -169,5 +169,6 @@
         <p>All designed features are now in place and functional for all members.</p>
     </div>
      <div class="skip">&nbsp;</div>
+     <div class="skip">&nbsp;</div>
     </div>
 @stop

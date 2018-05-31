@@ -10,7 +10,11 @@
     <div class="trans row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
-                <div class="panel-heading">Introduction</div>
+                <div style="width:100%;">
+                        <div class="kinetic400">
+                             Introduction
+                        </div>
+                    </div>
                     <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">

@@ -96,8 +96,10 @@
                                         </li>
 
                                     </ul>
-                                </div>
-
+                            </div>
+                            <div class="form-group col-md-12 ">
+                                Even you can benefit from this.
+                            </div>
 
 
                         </div>

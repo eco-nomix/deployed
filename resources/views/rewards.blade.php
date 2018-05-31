@@ -25,7 +25,7 @@
                             </div>
 
                              <div class="form-group col-md-12 ">
-                             To qualify for the Rewards Program is a simple, just use KineticGold as your bank account.
+                             It is simple to qualify for the Rewards Program, just use KineticGold as your bank account.
                              </div>
                             <div class="form-group col-md-12 ">
                             Whenever you make a deposit into KineticGold you will automatically receive a reward of 10% of whatever

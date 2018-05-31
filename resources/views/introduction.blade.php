@@ -6,14 +6,14 @@
 <div class="container-fluid">
  <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
 
-    <div class="row">
+    <div class="trans row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
                 <div class="panel-heading">Introduction</div>
                     <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                         <div class="trans form-group col-md-12 ">
+                         <div class="form-group col-md-12 ">
                                 KineticGold is a new cryptocurrency that is designed to be used in your daily life.
                                 </div>
 

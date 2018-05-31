@@ -4,6 +4,8 @@
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
 <div class="container-fluid">
+ <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
+
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
@@ -98,6 +100,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 </div>
 @endsection

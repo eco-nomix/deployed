@@ -46,9 +46,9 @@
                         <li><a href="{{URL::to('/')}}/returns">Return Policy</a></li>
                     </ul>
                 </li>
-                <li><a href="{{URL::to('/')}}/traininglinks">Video<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/traininglinks">Presentation<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Presentation</a></li>
+                        <li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Power Point</a></li>
                         <li><a href="{{URL::to('/')}}/presentation">Presentation</a></li>
 
                     </ul>

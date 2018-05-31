@@ -56,7 +56,7 @@ class PagesController extends Controller
 
         $data['title'] = 'KineticGold';
         $data['imageUrl'] = '../images/denmark.jpg';
-        $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
+        $data['description'] = 'cryptocurrency banking system';
         return view('welcome',$data);
     }
     public function test(Request $request)

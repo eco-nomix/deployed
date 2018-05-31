@@ -28,8 +28,8 @@
                              To qualify for the Rewards Program is a simple, just use KineticGold as your bank account.
                              </div>
                             <div class="form-group col-md-12 ">
-                            Whenever you make a deposit into KineticGold you will receive a reward of 10% of whatever
-                            amount you deposited.
+                            Whenever you make a deposit into KineticGold you will automatically receive a reward of 10% of whatever
+                            amount you deposited.  This will continue for as long you have a KineticGold account.
                              </div>
                              <div class="form-group col-md-12 ">
                              Your reward will be placed into your savings account with a 6 month maturity in KineticGold's

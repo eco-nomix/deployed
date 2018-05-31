@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div style="position:absolute; top:52px; z-index:-1">
+<div style="width:100%; position:absolute; top:52px; z-index:-1">
 <div class="container-fluid" style="width:100%;">
     {{--<div class="pagecontainer"><img src="{{URL::to('/')}}/images/MemberCosts-small.jpg" ></div>--}}
 <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">

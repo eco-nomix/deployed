@@ -63,15 +63,7 @@
                         <li><a href="{{URL::to('/')}}/links/protection">Protection</a></li>
                     </ul>
                 </li>
-                <li><a href="{{URL::to('/')}}/people">People<span class="caret"></span></a>
-                    <ul>
-                        <li><a href="{{URL::to('/')}}/founders">Founders</a></li>
-                        <li><a href="{{URL::to('/')}}/members">Members</a></li>
-                        <li><a href="{{URL::to('/')}}/charities">Charities</a></li>
-                        <li><a href="{{URL::to('/')}}/groups">Sponsored Groups</a></li>
-                        <li><a href="{{URL::to('/')}}/experiences">Experiences</a></li>
-                    </ul>
-                </li>
+
 
 
                 <li>

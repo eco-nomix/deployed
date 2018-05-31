@@ -71,7 +71,7 @@
             Blockchain
         </div>
     </div>
-    <div class="display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's blockchain is one of the fastest block chains available.</p>
             <p>Transaction times are in the millisecond range, making transactions seem almost instantaneous from any
                two points in the world.</p>
@@ -90,7 +90,7 @@
             Vaulted Storage
             </div>
     </div>
-     <div class="display back-white  col-md-10 col-md-offset-1" >
+     <div class="trans display back-white  col-md-10 col-md-offset-1" >
                 <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
                 <p>The initial vault will be located in Dubai.</p>
                 <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</p>
@@ -106,7 +106,7 @@
                 Off-shore Banking
             </div>
     </div>
-    <div class="display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-md-10 col-md-offset-1" >
             <p>During the ICO phase an off-shore bank will be obtained on the island of Nevis.</p>
             <p>This bank will have full on-line banking capabilities for our members accounts.</p>
             <p>This bank will also provide debit card access and processing for our members accounts.</p>
@@ -124,7 +124,7 @@
                Pre-Launch
         </div>
     </div>
-    <div class="display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-md-10 col-md-offset-1" >
           <p>Programming of the block-chain will commence</p>
           <p>Creation of the Foreign Trust will be completed</p>
           <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
@@ -137,7 +137,7 @@
                 ICO
             </div>
     </div>
-    <div class="display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-md-10 col-md-offset-1" >
          <p>Final Testing of block-chain will completed</p>
          <p>Transfer of Mining Organization to blockchain</p>
          <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
@@ -160,7 +160,7 @@
                 Launch
             </div>
     </div>
-    <div class="display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-md-10 col-md-offset-1" >
         <p>Deposits will commence (Coins issued)</p>
         <p>Off-Shore bank in place with debit card</p>
         <p>Mining results from previous organization development will be deposited in accounts. </p>

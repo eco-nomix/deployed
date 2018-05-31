@@ -13,7 +13,7 @@
                     <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                         <div class="form-group col-md-12 ">
+                         <div class="trans form-group col-md-12 ">
                                 KineticGold is a new cryptocurrency that is designed to be used in your daily life.
                                 </div>
 

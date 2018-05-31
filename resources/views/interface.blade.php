@@ -11,7 +11,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div style="width:100%;">
                         <div class="kinetic600">
-                             KineticGold Debit Cards
+                             KineticGold Unique Interface to your Off-Shore Bank
                         </div>
                     </div>
                     <div class="panel panel-default display">

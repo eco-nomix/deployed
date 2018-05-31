@@ -11,10 +11,10 @@
 
         <div class="col-md-8 col-md-offset-2">
             <div style="width:100%;">
-                                    <div class="kinetic400">
-                                         Introduction
-                                    </div>
-                                </div>
+                <div class="kinetic400">
+                      Introduction
+                </div>
+            </div>
             <div class="panel panel-default display">
 
                     <div class="panel-body">

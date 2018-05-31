@@ -31,6 +31,12 @@
                         to any other member of KineticGold.
                         </div>
                         <div class="form-group col-md-12 ">
+                        Transfers to another account take less than 1 second to complete, anywhere in the world.
+                        </div>
+                        <div class="form-group col-md-12 ">
+                             There is only a charge of 1/2 of 1% for any transaction.  There are no minimum or maximum transaction size.
+                        </div>
+                        <div class="form-group col-md-12 ">
                             Using the starchain blockchain and the dual factor authentication required, your ewallet is secure.
                         </div>
                         <div class="form-group col-md-12 ">

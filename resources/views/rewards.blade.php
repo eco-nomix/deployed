@@ -20,54 +20,44 @@
 
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <div class="form-group col-md-12 ">
-                            Kinetic Gold is much more than another cryptocurrency.  It is a complete world accessible banking platform that is backed by Gold.
-                             </div>
+                            As a new banking platform, KineticGold is providing an exciting Rewards
+                            program that is available to all members.
+                            </div>
 
                              <div class="form-group col-md-12 ">
-                                The banking platform is controlled by an Off-Shore bank that uses the Kinetic Gold blockchain to record all transactions.
+                             To qualify for the Rewards Program is a simple, just use KineticGold as your bank account.
                              </div>
                             <div class="form-group col-md-12 ">
-                             Since the blockchain is not hackable, the bank has a stable records platform that is totally secure even if attached by hackers.
+                            Whenever you make a deposit into KineticGold you will receive a reward of 10% of whatever
+                            amount you deposited.
                              </div>
                              <div class="form-group col-md-12 ">
-                            The blockchain is totally decentralized, but also totally encrypted.
+                             Your reward will be placed into your savings account with a 6 month maturity in KineticGold's
+                             Off-shore Bank.
                             </div>
                             <div class="form-group col-md-12 ">
-                            This gives you, the account holder total security.
-                            </div>
-
-                            <div class="form-group col-md-12 ">
-                            Your account balance is insured by Lloyd's of London for the full value of your deposit.  There is no limit of $250,000 USD as when insured by USDA.
+                            KineticGolds savings accounts pay an interest of 6% / year, compounded monthly with a 6 month maturity.
+                            Note, other maturity periods are available for direct deposits into your savings at various interest rates.
                             </div>
 
                             <div class="form-group col-md-12 ">
-                            The balance of your account at the Off-Shore account is always the value of your KineticGold cryptocurrency account.  There is no need to transfer from
-                            one account to the other, since they are reflections of one another.
+                            Once the maturity period is over, your rewards may be transferred to your regular checking account which is accessible by your
+                            Debit Card and your on-line account.
+                           </div>
+
+                            <div class="form-group col-md-12 ">
+                            Once matured, you may also roll-over your savings into other Savings programs with interest and maturity periods.
                             </div>
 
                             <div class="form-group col-md-12 ">
-                            The initial services of the Off-Shore bank will include:
-                                <ul>
-                                    <li>Payroll Deposits</li>
-                                    <li>Debit Cards</li>
-                                    <li>On-Line Acconting</li>
-                                    <li>SWIFT wire transfers</li>
-                                    <li>linkage to your cryptocurrency account</li>
-                                    <li>ATM access</li>
-                                    <li>Credit Card Processing</li>
-                                    <li>Merchant Accounts - interface with Kinetic Gold</li>
-                                        <ul>
-                                            <li>No Visa/Mastercharge fees from Kinetic Gold account holders</li>
-                                            <li>World Wide Accessibility</li>
-                                            <li>Increase Profitability and transfer speed</li>
-                                        </ul>
-                                    <li>World Accessibility</li>
-
-                                </ul>
+                            Since savings accounts are denominated in Gold, as the price of Gold in fiat currency increases, the value of your savings
+                            will also increase.  This is in addition to any interest that is paid.
                             </div>
 
                             <div class="form-group col-md-12 ">
-                            The Off-Shore bank will provide other banking services as the KineticGold System expands.
+                            There is no other requirement necessary to receive this reward, other than use your account.  Without making any adjustments
+                            to your income or how you spend money, you profit by using KineticGolds Rewards program.
+
                             </div>
 
 

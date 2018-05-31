@@ -42,10 +42,10 @@
                         Account will be denominated in gold ounces.
                          </div>
                         <div class="form-group col-md-12 ">
-                        Account is fully linked to the cryptocurrency account.  Funds in your Kinetic Gold cryptocurrency account are available for all transactions.
+                        Account is fully linked to the cryptocurrency account.  Funds in your KineticGold cryptocurrency account are available for all transactions.
                         </div>
                         <div class="form-group col-md-12 ">
-                        Kinetic Gold Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily
+                        KineticGold Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily
                         </div>
                         <div class="form-group col-md-12 ">
                         All transactions are controlled by the blockchain.

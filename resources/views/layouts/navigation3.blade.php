@@ -46,25 +46,11 @@
                         <li><a href="{{URL::to('/')}}/returns">Return Policy</a></li>
                     </ul>
                 </li>
-                <li><a href="{{URL::to('/')}}/traininglinks">Video Links<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/traininglinks">Video<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/links/gardening">Gardening</a></li>
-                        <li><a href="{{URL::to('/')}}/links/orchards">Orchards</a></li>
-                        <li><a href="{{URL::to('/')}}/links/greenhouses">Greenhouses</a></li>
-                        <li><a href="{{URL::to('/')}}/links/food">Food Production/Preservation</a></li>
-                        <li><a href="{{URL::to('/')}}/links/aquaponics">Aquaponics</a></li>
-                        <li><a href="{{URL::to('/')}}/links/poultry">Poultry</a></li>
-                        <li><a href="{{URL::to('/')}}/links/livestock">Livestock</a></li>
-                        <li><a href="{{URL::to('/')}}/links/beekeeping">Beekeeping</a></li>
-                        <li><a href="{{URL::to('/')}}/links/water">Water</a></li>
-                        <li><a href="{{URL::to('/')}}/links/energy">Energy Production</a></li>
-                        <li><a href="{{URL::to('/')}}/links/biogas">Biogas</a></li>
-                        <li><a href="{{URL::to('/')}}/links/recycling">Recycling</a></li>
-                        <li><a href="{{URL::to('/')}}/links/camping">Survival, Camping</a></li>
-                        <li><a href="{{URL::to('/')}}/links/cooking">Cooking Systems</a></li>
-                        <li><a href="{{URL::to('/')}}/links/health">Home Health</a></li>
-                        <li><a href="{{URL::to('/')}}/links/house">Household Products</a></li>
-                        <li><a href="{{URL::to('/')}}/links/protection">Protection</a></li>
+                        <li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Presentation</a></li>
+                        <li><a href="{{URL::to('/')}}/presentation">Presentation</a></li>
+
                     </ul>
                 </li>
             </ul>

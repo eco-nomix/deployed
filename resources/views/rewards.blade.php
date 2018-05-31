@@ -59,7 +59,44 @@
                             to your income or how you spend money, you profit by using KineticGolds Rewards program.
 
                             </div>
+                            <div class="form-group col-md-12 ">
+                                Now lets see what you don't have to do.
+                            </div>
+                            <div class="form-group col-md-12 ">
+                                    <ul>
+                                        <li>
+                                        No direct selling of products - all sales are done through the site.
+                                        </li>
+                                        <li>
+                                        No minimum personal sales requirements.
+                                        </li>
+                                        <li>
+                                        No collection of money
+                                        </li>
+                                        <li>
+                                        No required marketing meetings
+                                        </li>
+                                        <li>
+                                        No minimum number in your organization to 'qualify'
+                                        </li>
+                                        <li>
+                                        No purchasing of product you don't want or need
+                                        </li>
+                                        <li>
+                                        No stocking of inventory
+                                        </li>
+                                        <li>
+                                        No confusing Marketing plan
+                                        </li>
+                                        <li>
+                                        No Waiting for the check that is in the mail.
+                                        </li>
+                                        <li>
+                                        No hidden Fees
+                                        </li>
 
+                                    </ul>
+                                </div>
 
 
 

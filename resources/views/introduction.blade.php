@@ -6,7 +6,7 @@
 <div class="container-fluid">
  <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
   <div class="skip">&nbsp;</div>
-    <div class="skip">&nbsp;</div>
+
     <div class="trans row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">

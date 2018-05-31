@@ -27,7 +27,7 @@
                         <li><a href="{{URL::to('/')}}/ewallet">E-wallet</a></li>
                          <li><a href="{{URL::to('/')}}/offshorebank">Offshore Bank Account</a></li>
                         <li><a href="{{URL::to('/')}}/debitcards">Debit Card</a></li>
-                        <li><a href="{{URL::to('/')}}/interface">Cryptocurrency-Banking Interface</a></li>
+                        <li><a href="{{URL::to('/')}}/bankinterface">Cryptocurrency-Banking Interface</a></li>
                         <li><a href="{{URL::to('/')}}/rewards">Rewards Program</a></li>
 
                         <li><a href="{{URL::to('/')}}/profitsharing">Profit Sharing</a></li>

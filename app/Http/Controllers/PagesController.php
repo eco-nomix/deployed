@@ -149,6 +149,15 @@ class PagesController extends Controller
         return view('ewallet',$data);
     }
 
+    public function bankinterface(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Kinetic Golds Interface';
+        $data['description'] = 'KineticGold unique Interface between Cryptocurrency and the Off-Shore Bank';
+
+        return view('bankinterface',$data);
+    }
+
     public function offshorebank(Request $request)
     {
         $data = $this->userData($request);
@@ -158,14 +167,7 @@ class PagesController extends Controller
         return view('offshorebank',$data);
     }
 
-    public function interface(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Kinetic Golds Interface';
-        $data['description'] = 'KineticGold unique Interface between Cryptocurrency and the Off-Shore Bank';
 
-        return view('interface',$data);
-    }
 
 
     public function startup(Request $request)

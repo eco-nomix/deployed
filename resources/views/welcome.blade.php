@@ -156,7 +156,7 @@
             <li>Programming of the block-chain will commence</li>
             <li>Creation of the Foreign Trust will be completed</li>
           </ul>
-          <p>The Pre-Launch Phase will end when:</p>
+          <p>The Pre-Launch Phase will end and the ICO will begin when:</p>
           <ul>
             <li>Programming of the block-chain is ready for final testing</li>
             <li>Foreign Trust is in place</li>

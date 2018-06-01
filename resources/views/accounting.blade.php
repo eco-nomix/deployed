@@ -12,11 +12,11 @@
         <div class="col-md-8 col-md-offset-2">
             <div style="width:100%;">
                 <div class="kinetic600">
-                    On-Line Accounting System
+                    Organization Accounting System
                 </div>
             </div>
             <div class="panel panel-default display">
-                
+
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -30,7 +30,7 @@
                                1.  The ability to see who is in your complete down-line of referrals.  Over time this could grow to be thousands of individuals.  And if any one of those individuals makes a purchase, no matter how big or small, that will result in a referral bonus to you.
                          </div>
                          <div class="form-group col-md-12 ">
-                              2.  The ability to see where all of your bonuses are coming from, and how much.
+                              2.  The ability to see where all of your Awards and Profit Sharing are coming from, and how much.
                          </div>
 
                          <div class="form-group col-md-12 ">
@@ -40,15 +40,18 @@
                           The Accounting Module allows you to:
                          </div>
                          <div class="form-group col-md-12 ">
-                              1.  The ability to check balances in your reserve account, debit-card, and donations from sales.
+                              1.  The ability to check balances in your checking account, and savings account.
                          </div>
                          <div class="form-group col-md-12 ">
-                             2.  A history of all sales in your organization over time, income, and spending.
+                             2.  A history of all deposits in your organization over time, income, and spending.
                          </div>
 
 
                 </div>
             </div>
+            <div class="skip">&nbsp;</div>
+            <div class="skip">&nbsp;</div>
+            <div class="skip">&nbsp;</div>
 
         </div>
     </div>

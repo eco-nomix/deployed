@@ -27,7 +27,9 @@
                            The Organization Module contains a number of sections that you will find very interesting
                          </div>
                          <div class="form-group col-md-12 ">
-                               1.  The ability to see who is in your complete down-line of referrals.  Over time this could grow to be thousands of individuals.  And if any one of those individuals makes a purchase, no matter how big or small, that will result in a referral bonus to you.
+                               1.  The ability to see who is in your complete down-line of referrals.
+                               Over time this could grow to be thousands of individuals.
+                               If any one of those individuals makes a deposit into their account, no matter how big or small, that will result in profit sharing to you.
                          </div>
                          <div class="form-group col-md-12 ">
                               2.  The ability to see where all of your Awards and Profit Sharing are coming from, and how much.

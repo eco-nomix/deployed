@@ -46,7 +46,7 @@
                         </div>
 
                        <div class="form-group col-md-12 ">
-                            Business Cards may be purchased for $20.00 for 500 business cards.
+                            Business Cards may be purchased for $25.00 for 500 business cards, including shipping.
                        </div>
 
                         <div class="form-group col-md-12 ">

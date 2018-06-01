@@ -143,7 +143,7 @@
                     </ul>
                     <li>Kinetic Gold's profit sharing will be paid manually and directly through ACH</li>
                     <ul>
-                        <li>payments will be made on a monthly basis.</li>
+                        <li>Payments will be made on a monthly basis.</li>
                         <li>ACH payments will be processed manually</li>
                         <li>Minimum profit sharing amounts to be paid per month is $100.00</li>
                         <li>Unpaid profit sharing shall roll over to the next month.</li>

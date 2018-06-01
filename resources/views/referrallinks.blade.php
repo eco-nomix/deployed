@@ -43,7 +43,7 @@
                   anyway you want to get the word out.  If anyone uses one of these links.  You get to Mine Gold
             </div>
         </div>
-         
+
           <div class="skip">&nbsp;</div>
           <div class="skip">&nbsp;</div>
           <div class="skip">&nbsp;</div>

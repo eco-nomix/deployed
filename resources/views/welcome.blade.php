@@ -127,10 +127,23 @@
         </div>
     </div>
     <div class="trans display back-white  col-md-10 col-md-offset-1" >
-          <p>Programming of the block-chain will commence</p>
-          <p>Creation of the Foreign Trust will be completed</p>
-          <p>During the Pre-Launch Phase, members will be accepted into Kinetic Gold's member association.</p>
-          <p>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</p>
+          <p>During the Pre-Launch Phase:</p>
+          <ul>
+            <li>members will be accepted into Kinetic Gold's member association.</li>
+            <li>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</li>
+            <li>Because the Off-Shore bank and Kinetic Gold's blockchain is not complete the following limitations will be in effect</li>
+                 <ul>
+                    <li>No funds will be accepted to purchase Kinetic Gold's coins</li>
+                    <li>Kinetic Gold profit sharing will be paid directly through ACH</li>
+                    <li>Off-Shore bank account is pending</li>
+                    <li>Debit Card for Off-Shore bank account is pending</li>
+
+                 </ul>
+            <li>Programming of the block-chain will commence</li>
+            <li>Creation of the Foreign Trust will be completed</li>
+          </ul>
+
+
     </div>
      <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">

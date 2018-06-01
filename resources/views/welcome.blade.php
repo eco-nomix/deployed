@@ -134,7 +134,7 @@
             <li>Because the Off-Shore bank and Kinetic Gold's blockchain is not complete the following limitations will be in effect</li>
                  <ul>
                     <li>No funds will be accepted to purchase Kinetic Gold's coins</li>
-                    <li>Kinetic Gold profit sharing will be paid directly through ACH</li>
+                    <li>Kinetic Gold's profit sharing will be paid directly through ACH</li>
                     <li>The Off-Shore bank account is pending</li>
                     <li>The Debit Card for Off-Shore bank account is pending</li>
 
@@ -142,7 +142,12 @@
             <li>Programming of the block-chain will commence</li>
             <li>Creation of the Foreign Trust will be completed</li>
           </ul>
-
+          <p>The Pre-Launch Phase will end when:</p>
+          <ul>
+            <li>Programming of the block-chain is ready for final testing</li>
+            <li>Foreign Trust is in place</li>
+            <li>New Member's for the Kinetic Gold's member association will continue through the ICO</li>
+          </ul>
 
     </div>
      <div class="skip">&nbsp;</div>
@@ -165,6 +170,7 @@
             the additional gold is deposited the backing is no longer needed.  This backing period will be completed within 6 months and
             then the Coins for the ICO will be issued.</p>
          <p>Release of ICO coins are controlled by the blockchain.</p>
+         <p>Kinetic Gold's profit sharing will paid through ACH until the Off-Shore bank is operating and the accounts have been put into place.</p>
 
 
     </div>

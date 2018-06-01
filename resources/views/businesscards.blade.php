@@ -25,7 +25,7 @@
                           Each card will be printed with the Name and Address of the member, plus their KineticGold referral link.
                         </div>
                         <div class="form-group col-md-12 ">
-                          The card will be a full color professional card, that will invite potential customers to visit KineticGoldix's web site
+                          The card will be a full color professional card, that will invite potential customers to visit KineticGold's web site
                           using the member's Referral Link.
 
                         </div>

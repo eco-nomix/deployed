@@ -134,7 +134,14 @@
             <li>Because the Off-Shore bank and Kinetic Gold's blockchain is not complete the following limitations will be in effect</li>
                  <ul>
                     <li>No funds will be accepted to purchase Kinetic Gold's coins</li>
-                    <li>Kinetic Gold's profit sharing will be paid directly through ACH</li>
+                    <li>Kinetic Gold's profit sharing will be paid manually and directly through ACH</li>
+                    <ul>
+                        <li>payments will be made on a monthly basis.</li>
+                        <li>ACH payments will be processed manually</li>
+                        <li>Minimum profit sharing amounts to be paid per month is $100.00</li>
+                        <li>Unpaid profit sharing shall roll over to the next month.</li>
+                        <li>When Kinetic Gold is launched then all payments to be made automatically through the Kinetic Gold cryptocurrency.</li>
+                    </ul>
                     <li>The Off-Shore bank account is pending</li>
                     <li>The Debit Card for Off-Shore bank account is pending</li>
 
@@ -146,7 +153,7 @@
           <ul>
             <li>Programming of the block-chain is ready for final testing</li>
             <li>Foreign Trust is in place</li>
-            <li>New Member's for the Kinetic Gold's member association will continue through the ICO</li>
+            <li>Promotion of Membership of the Kinetic Gold's member association will continue through the ICO</li>
           </ul>
 
     </div>
@@ -176,7 +183,6 @@
     </div>
      <div class="skip">&nbsp;</div>
     <div class="center" style="width:100%;display:block;float:left;">
-
             <div class="kinetic400">
                 Launch
             </div>
@@ -184,7 +190,7 @@
     <div class="trans display back-white  col-md-10 col-md-offset-1" >
         <p>Deposits will commence (Coins issued)</p>
         <p>Off-Shore bank in place with debit card</p>
-        <p>Mining results from previous organization development will be deposited in accounts. </p>
+        <p>Remaining Mining results from Kinetic Gold's member association previous organization development will be deposited in accounts. </p>
         <p>Deposits and Mining results will result in additional gold on deposit in the vaults.</p>
         <p>All transactions are controlled and recorded by the blockchain</p>
         <p>All designed features are now in place and functional for all members.</p>

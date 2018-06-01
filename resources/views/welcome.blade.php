@@ -135,8 +135,8 @@
                  <ul>
                     <li>No funds will be accepted to purchase Kinetic Gold's coins</li>
                     <li>Kinetic Gold profit sharing will be paid directly through ACH</li>
-                    <li>Off-Shore bank account is pending</li>
-                    <li>Debit Card for Off-Shore bank account is pending</li>
+                    <li>The Off-Shore bank account is pending</li>
+                    <li>The Debit Card for Off-Shore bank account is pending</li>
 
                  </ul>
             <li>Programming of the block-chain will commence</li>

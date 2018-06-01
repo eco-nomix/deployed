@@ -177,6 +177,7 @@
          <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
          <p>Kinetic Gold will make an initial deposit into the insured vaults a minimum of 1000 kg of hallmarked gold prior to Launch.
             This base amount of Gold is used during the deposit process to set the initial value of new coins.</p>
+         <p></p>
          <p>Coins purchased during the ICO will be purchased at a discount below spot price.  The amount of the discount is determined
             by the number of Coins purchased.  The ICO amount will be used to purchase the Gold represented by the ICO funds.  The gold
             from the ICO will be used to back the coins issued once Kinetic Gold is launched.

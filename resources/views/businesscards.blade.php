@@ -15,29 +15,34 @@
                         </div>
                     </div>
             <div class="panel panel-default display">
-                <div class="panel-heading">Business Cards</div>
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                           Member's may OPTIONALLY purchase Eco-nomics Business Cards.
+                           Member's may OPTIONALLY purchase KineticGold Business Cards.
                         </div>
                         <div class="form-group col-md-12 ">
                           Each card will be printed with the Name and Address of the member, plus their KineticGold referral link.
                         </div>
                         <div class="form-group col-md-12 ">
-                          The card will be a full color professional card, that will invite potential customers to visiKineticGoldix's web site.
+                          The card will be a full color professional card, that will invite potential customers to visit KineticGoldix's web site
+                          using the member's Referral Link.
 
                         </div>
                         <div class="form-group col-md-12 ">
-                          When the Referral link is used, the referring member will be recorded in all transactions and future transactions performed by the referred member.
+                          When the Referral link is used, the referring member will be recorded in all transactions and future transactions
+                          performed by the referred member.
                         </div>
                         <div class="form-group col-md-12 ">
                             <img src="{{URL::to('/')}}/images/business_card.png">
                         </div>
                         <div class="form-group col-md-12 ">
-                            Your business card will be extremely helpful in helping you build your organization.  By simply handing out your card to interested individuals, when they log in using the Referral Link on the card, you will automatically be given the sponsorship credit for the new registration and/or member.  This allows you to individually sponsor many individuals creating a very wide organization.
-                            Once the new member follows your example by handing out their cards, you will find your organization will also grow deep quickly, resulting in a very large downline organization, which can lead to significant bonuses.
+                            Your business card will be extremely helpful in helping you build your organization.
+                            By simply handing out your card to interested individuals, when they log in using the
+                            Referral Link on the card, you will automatically be given the sponsorship credit for the new registration
+                            and/or member.  This allows you to individually sponsor many individuals creating a very wide organization.
+                            Once the new member follows your example by handing out their cards, you will find your organization
+                            will also grow deep quickly, resulting in a very large downline organization, which can lead to significant Profit Sharing.
                         </div>
 
                        <div class="form-group col-md-12 ">
@@ -45,8 +50,13 @@
                        </div>
 
                         <div class="form-group col-md-12 ">
-                            Cost for this and KineticGoldomix product may be paid for through accrued Referral Bonuses.
+                            Cost for this may be paid for through accrued Profit Sharing.
                         </div>
+                        <div class="form-group col-md-12 ">
+                            If you wish to have your own business cards printed locally using the KineticGold graphics, you may download the image here.
+                            <button>Download</button>
+                        </div>
+
                 </div>
             </div>
 

@@ -41,7 +41,7 @@
                                 <li>How well you understand the opportunity of KineticGold. <br>Read and understand the contents of KineticGold's web-site.</li>
                                 <li>How consistent you are in spreading the word. <br>Keep your business cards with you.</li>
                                 <li>How many business cards and referral links you hand out.</li>
-                                <li>If you encourage your downline Members to do the same.</li>
+                                <li>Encourage your down-line Members to do the same.</li>
                             </ul>
                         </div>
                         <div class="form-group col-md-12 ">
@@ -58,7 +58,7 @@
                          <div class="form-group col-md-12 ">
                              Remember that a great many people are highly motivated to become self-sufficient.  As these perilous times further unfold, more and more people will want to become such.
                          </div>
-                         
+
 
                          <div class="form-group col-md-12 ">
                           </div>

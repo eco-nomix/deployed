@@ -38,7 +38,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                             <ul>
-                                <li>How well you understand the opportunity of KineticGold. <br>Read and understand the contents oKineticGoldix's web-site.</li>
+                                <li>How well you understand the opportunity of KineticGold. <br>Read and understand the contents of KineticGold's web-site.</li>
                                 <li>How consistent you are in spreading the word. <br>Keep your business cards with you.</li>
                                 <li>How many business cards and referral links you hand out.</li>
                                 <li>If you encourage your downline Members to do the same.</li>
@@ -51,15 +51,14 @@
                             Put your referral link in your email, ads, or notices.
                          </div>
                          <div class="form-group col-md-12 ">
-                             Obviously, your organizations size alone will not create any income for you.  All Referral bonuses are earned from sales that are made,  so encourage your down-line to know what products are available, and to discover how they can be utilized to become more independent and self-suffient.
+                             Obviously, your organizations size alone will not create any income for you.  All Profit Sharing are earned
+                             from deposits that are made,  so encourage your down-line to know what works to spread the word, and to discover
+                             how they can be utilized.
                           </div>
                          <div class="form-group col-md-12 ">
-                             Remember that a great many people are highly motivated to become self-sufficient and independent.  As these perilous times further unfold, more and more people will want to become such.
+                             Remember that a great many people are highly motivated to become self-sufficient.  As these perilous times further unfold, more and more people will want to become such.
                          </div>
-                         <div class="form-group col-md-12 ">
-                            Also Remember that all of the products offered in the individual boutique and stores are also participating in KineticGoldomix program, so there can be thousands of specialty products are also helping you to earn Referral Bonuses.
-
-                         </div>
+                         
 
                          <div class="form-group col-md-12 ">
                           </div>

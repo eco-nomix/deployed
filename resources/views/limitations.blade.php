@@ -51,7 +51,7 @@
                             Put your referral link in your email, ads, or notices.
                          </div>
                          <div class="form-group col-md-12 ">
-                             Obviously, your organizations size alone will not create any income for you.  All Profit Sharing are earned
+                             Obviously, your organizations size alone will not create any income for you.  All Profit Sharing is earned
                              from deposits that are made,  so encourage your down-line to know what works to spread the word, and to discover
                              how they can be utilized.
                           </div>

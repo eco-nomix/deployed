@@ -19,7 +19,7 @@
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            All KineticGold Members have the opportunity to refer new clients to KineticGold family.
+                            All KineticGold Members have the opportunity to refer new clients to the KineticGold family.
                         </div>
                         <div class="form-group col-md-12 ">
                             Once registered and logged in the Referral Link below will show 'Your Referral Link'.
@@ -43,7 +43,7 @@
                   anyway you want to get the word out.  If anyone uses one of these links.  You get to Mine Gold
             </div>
         </div>
-          <div class="skip">&nbsp;</div>
+         
           <div class="skip">&nbsp;</div>
           <div class="skip">&nbsp;</div>
           <div class="skip">&nbsp;</div>

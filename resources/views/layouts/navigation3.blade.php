@@ -44,6 +44,8 @@
                         <li><a href="{{URL::to('/')}}/mem_terms">Membership Terms and Conditions</a></li>
                         <li><a href="{{URL::to('/')}}/autoship">Auto-Ship Policy</a></li>
                         <li><a href="{{URL::to('/')}}/returns">Return Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/privacy">Privacy Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/policies">Policy and Procedures</a></li>
                     </ul>
                 </li>
                 <li><a href="{{URL::to('/')}}/traininglinks">Presentation<span class="caret"></span></a>

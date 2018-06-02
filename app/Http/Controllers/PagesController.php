@@ -671,9 +671,16 @@ class PagesController extends Controller
     public function policies(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'KineticGold Policies';
-        $data['description'] = 'Policies';
+        $data['title'] = 'KineticGold Policies and Procedures';
+        $data['description'] = 'Policies and Procedures';
         return view('policies',$data);
+    }
+    public function privacy(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Privacy Policy';
+        $data['description'] = 'Privacy Policy';
+        return view('privacy',$data);
     }
     public function recycling(Request $request)
     {

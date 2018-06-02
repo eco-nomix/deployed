@@ -85,11 +85,11 @@
                          </div>
                          <div class="form-group col-md-12 ">
                              The Profit Sharing you receive from 2nd Generation depositors is only .4%, but this can start to add up fast.  Lets assume that your sponsored members each
-                             sponsored 5 members to qualify for this Profit-Sharing.  Let's assume that they average $2000 per month in deposits and spending.
+                             sponsored 5 members to qualify for this Profit-Sharing.  Let's assume that they average $1000 per month in deposits and spending.
                              <ul>
-                                <li>5 members in the 1st Generation -  a total of $10,000 in deposits - $100/month in Profit-Sharing.</li>
-                                <li>25 members in the 2st Generation - a total of $50,000 in deposits - $200/month in Profit-Sharing.</li>
-                                <li>a total of $300 per month</li>
+                                <li>5 members in the 1st Generation -  a total of $5,000 in deposits - $50/month in Profit-Sharing.</li>
+                                <li>25 members in the 2st Generation - a total of $25,000 in deposits - $100/month in Profit-Sharing.</li>
+                                <li>a total of $150 per month</li>
                              </ul>
                              And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.
                          </div>
@@ -97,7 +97,7 @@
                                Once you have sponsored at least 10 members, you qualify for Profit-Sharing of the Third Generation depositors.
                          </div>
                          <div class="form-group col-md-12 ">
-                               Again your 2nd Generation member can qualify for Profit-Sharing, so after some period of time (hard to predict how long),
+                               Again your 2nd Generation members can qualify for Profit-Sharing, so after some period of time (hard to predict how long),
                                the 2nd Generation members will begin to sponsor their associates.  These are potential Third Generation depositors and
                                should eventually start to user their KineticGold Bank accounts.
                          </div>
@@ -105,12 +105,12 @@
                                The Profit Sharing you receive from 3nd Generation depositors is only .4%, but this can start to add up fast.
                                Lets assume that your sponsored members each sponsored 5 members to qualify for this Profit-Sharing and the 3nd Generation also sponsored 3 members each.
                                Notice I reduced the average sponsored to allow for those that just won't do anything.
-                                 Let's assume that they average $2000 per month in deposits and spending.
+                                 Let's assume that they average $1000 per month in deposits and spending.
                                <ul>
-                                  <li>10 members in the 1st Generation -  a total of $20,000 in deposits - $200/month in Profit-Sharing.</li>
-                                  <li>50 members in the 2st Generation - a total of $100,000 in deposits - $400/month in Profit-Sharing.</li>
-                                  <li>150 members in the 3rd Generation - a total of $300,000 in deposits - $1200/month in Profit-Sharing.</li>
-                                  <li>a total of $1800 per month</li>
+                                  <li>10 members in the 1st Generation -  a total of $10,000 in deposits - $100/month in Profit-Sharing.</li>
+                                  <li>50 members in the 2st Generation - a total of $50,000 in deposits - $200/month in Profit-Sharing.</li>
+                                  <li>150 members in the 3rd Generation - a total of $150,000 in deposits - $600/month in Profit-Sharing.</li>
+                                  <li>a total of $900 per month</li>
                                </ul>
                                And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.
                          </div>
@@ -125,13 +125,13 @@
                          <div class="form-group col-md-12 ">
                                The Profit Sharing you receive from 4th Generation depositors is only .4%, but this can start to add up fast.
                                Lets assume that your sponsored members followed your pattern.
-                                 Let's assume that they average $2000 per month in deposits and spending.
+                                 Let's assume that they average $1000 per month in deposits and spending.
                                <ul>
-                                  <li>15 members in the 1st Generation -  a total of $30,000 in deposits - $300/month in Profit-Sharing.</li>
-                                  <li>150 members in the 2st Generation - a total of $300,000 in deposits - $1200/month in Profit-Sharing.</li>
-                                  <li>750 members in the 3rd Generation - a total of $1,500,000 in deposits - $6000/month in Profit-Sharing.</li>
-                                  <li>2250 members in the 4rd Generation - a total of $4,500,000 in deposits - $18,000/month in Profit-Sharing.</li>
-                                  <li>a total of $25,500 per month</li>
+                                  <li>15 members in the 1st Generation -  a total of $15,000 in deposits - $150/month in Profit-Sharing.</li>
+                                  <li>150 members in the 2st Generation - a total of $150,000 in deposits - $600/month in Profit-Sharing.</li>
+                                  <li>750 members in the 3rd Generation - a total of $750,000 in deposits - $3000/month in Profit-Sharing.</li>
+                                  <li>2250 members in the 4rd Generation - a total of $2,250,000 in deposits - $9,000/month in Profit-Sharing.</li>
+                                  <li>a total of $12,250 per month</li>
                                </ul>
                                And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.
                          </div>
@@ -146,15 +146,15 @@
                          <div class="form-group col-md-12 ">
                                 The Profit Sharing you receive from 5th Generation depositors is only .4%, but this can start to add up fast.
                                 Lets assume that your sponsored members followed your pattern.
-                                  Let's assume that they average $2000 per month in deposits and spending.
+                                  Let's assume that they average $1000 per month in deposits and spending.
                                 <ul>
-                                   <li>20 members in the 1st Generation -  a total of $40,000 in deposits - $400/month in Profit-Sharing.</li>
-                                   <li>200 members in the 2st Generation - a total of $400,000 in deposits - $1600/month in Profit-Sharing.</li>
-                                   <li>1000 members in the 3rd Generation - a total of $2,000,000 in deposits - $8,000/month in Profit-Sharing.</li>
-                                   <li>3000 members in the 4rd Generation - a total of $6,000,000 in deposits - $24,000/month in Profit-Sharing.</li>
-                                   <li>3000 members in the 4rd Generation - a total of $6,000,000 in deposits - $24,000/month in Profit-Sharing.</li>
+                                   <li>20 members in the 1st Generation -  a total of $20,000 in deposits - $200/month in Profit-Sharing.</li>
+                                   <li>200 members in the 2st Generation - a total of $200,000 in deposits - $800/month in Profit-Sharing.</li>
+                                   <li>1000 members in the 3rd Generation - a total of $1,000,000 in deposits - $4,000/month in Profit-Sharing.</li>
+                                   <li>3000 members in the 4th Generation - a total of $3,000,000 in deposits - $12,000/month in Profit-Sharing.</li>
+                                   <li>3000 members in the 5th Generation - a total of $3,000,000 in deposits - $12,000/month in Profit-Sharing.</li>
 
-                                   <li>a total of $56,500 per month</li>
+                                   <li>a total of $28,250 per month</li>
                                 </ul>
                                 And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.
                          </div>

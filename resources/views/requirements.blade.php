@@ -50,7 +50,8 @@
                          </div>
                          <div class="form-group col-md-12 ">
                                 <ul>
-                                    <li>Refer someone - that's the first step</li>
+                                    <li>Become a member - no deposit required</li>
+                                    <li>Refer someone</li>
                                     <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
                                         <ul>
                                             <li>1+  1st Generation</li>

@@ -42,8 +42,8 @@
                               justify the time it is taking to get their organization to the 'payout' level.
                           </div>
                           <div class="form-group col-md-12 ">
-                              In KineticGold, why would a member quit?  There is no cost to remain a member. They have no on-going costs
-                               for monthly purchase requirements.  They only purchase what they want or need. Even without an organization, they
+                              In KineticGold, why would a member quit?  There is no cost to remain a member. They have no monthly purchase requirements.
+                              They only purchase what they want or need, just like they normally do. Even without an organization, they
                                receive a 10% reward for every deposit.  They don't have to spend a
                                lot of time recruiting new members.  It reminds me of getting a grocery store discount card.
                                Once I have gotten one, I rarely throw it away, just because, I might

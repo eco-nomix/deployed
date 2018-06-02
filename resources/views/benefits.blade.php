@@ -62,7 +62,7 @@
 
             </li>
             <li>
-                <p>There are no <a href="\requirements">personal purchases</a> required to receive any Profit Sharing from those that you refer.
+                <p>There are no <a href="\requirements">special requirements</a> in order to receive any Profit Sharing from those that you refer.
                 All product is sold through this website.  You do not make any direct sales and collect no money from customers.</p>
             </li>
             <li>

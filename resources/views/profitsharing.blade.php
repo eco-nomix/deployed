@@ -46,7 +46,11 @@
                             <div class="col-md-12 standout">
                                 The below example is only intended to serve as an example of what can happen with the exponential Growth that is possible with
                                 Kinetic Gold.  This is NOT what you WILL make in Profit-Sharing.  If you make more than a few hundred dollars per month, then
-                                then you did a lot of things right and you happened to sponsor the right people with an attitude for success.  The figure of $1000 per month of
+                                then you did a lot of things right and you happened to sponsor the right people with an attitude for success.
+                            </div>
+                            <br>
+                            <div class="col-md-12 standout">
+                                In addition, the figure of $1000 per month of
                                 average deposits for a member is potentially low for countries like the United States and Europe, and would be considered high for members from countries in
                                 Africa, but represents what we feel is a realistic average world-wide.
                             </div>

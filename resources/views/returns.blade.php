@@ -12,13 +12,13 @@
             <div class="col-md-8 col-md-offset-2">
                 <div style="width:100%;">
                     <div class="kinetic600">
-                        Auto-Ship Policy
+                        Returns Policy
                     </div>
                 </div>
                 <div style="width:100%;" class="panel panel-default display">
                     <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                       
+
                         <div class="form-group col-md-12 ">
                              <ol type="A">
                              <li>KineticGold offers a one hundred percent (100%) thirty-day money back guarantee for all non customized products.</li>

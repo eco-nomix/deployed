@@ -25,7 +25,24 @@
                         </div>
 
 
-                       
+                        <div class="form-group col-md-12 ">
+                          </div>
+                         <div class="form-group col-md-12 ">
+
+                         </div>
+                         <div class="form-group col-md-12 ">
+
+                          </div>
+                         <div class="form-group col-md-12 ">
+
+                         </div>
+
+
+                         <div class="form-group col-md-12 ">
+                          </div>
+                         <div class="form-group col-md-12 ">
+
+                         </div>
 
 
                     </div>

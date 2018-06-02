@@ -28,7 +28,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                           People will get involved because they are interested in the receiving the 10% rewards for deposits.
-                          KineticGold Profit Sharing program is a no-risk benefit.
+                          Beyond that, there is KineticGold Profit Sharing program is an additional benefit.
                         </div>
                         <div class="form-group col-md-12 ">
                           Over time a given member's organization can grow very wide, with the same potential being available

@@ -30,7 +30,7 @@
                         <li><a href="{{URL::to('/')}}/bankinterface">Cryptocurrency-Banking Interface</a></li>
                         <li><a href="{{URL::to('/')}}/rewards">Rewards Program</a></li>
 
-                        <li><a href="{{URL::to('/')}}/profitsharing">Profit Sharing</a></li>
+                        <li><a href="{{URL::to('/')}}/profitsharing">Profit-Sharing</a></li>
                         <li><a href="{{URL::to('/')}}/referrallinks">Referral Links</a></li>
                         <li><a href="{{URL::to('/')}}/businesscards">Business Cards</a></li>
                         <li><a href="{{URL::to('/')}}/limitations">Limitations on Sponsoring</a></li>

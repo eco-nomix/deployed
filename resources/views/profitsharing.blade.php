@@ -22,7 +22,7 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                          <div class="form-group col-md-12 ">
-                              All members are eligible to receive profit sharing (Mining).
+                              All members are eligible to receive Profit-Sharing (Mining).
                          </div>
                          <div class="form-group col-md-12 ">
                               Normally mining of a cryptocurrency requires a large investment in computer equipment to show you are doing work for the cryptocurrency.
@@ -30,7 +30,7 @@
                          </div>
                          <div class="form-group col-md-12 ">
                               By Referring potential members to KineticGold, you can mine actual Gold.  When someone you refer joins as a member in the KineticGold Member Association,
-                               you receive Profit Sharing.  You will initially receive $10 per sponsored member deposited to your checking account in Gold.  This doesn't sound like much, but consider that
+                               you receive Profit-Sharing.  You will initially receive $10 per sponsored member deposited to your checking account in Gold.  This doesn't sound like much, but consider that
                                <ul>
                                     <li>You sponsor them by getting them to the KineticGold.org website to learn about KineticGold.</li>
                                     <li>It is the responsibility of the Website to teach them how the system works, and get them to sign up.</li>
@@ -56,7 +56,7 @@
                             </div>
                          </div>
                          <div class="form-group col-md-12 ">
-                            When a sponsored member starts to use the system, KineticGold's Profit Sharing starts to become much more interesting.  Remember that Kinetic
+                            When a sponsored member starts to use the system, KineticGold's Profit-Sharing starts to become much more interesting.  Remember that Kinetic
                             Gold is a Bank and that Banks make money from depositors.
                          </div>
                          <div class="form-group col-md-12 ">

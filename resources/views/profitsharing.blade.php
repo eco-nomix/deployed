@@ -136,7 +136,7 @@
                                   <li>&nbsp;&nbsp;&nbsp;&nbsp;15 members in the 1st&nbsp; Generation -  a total of $15,000 in deposits - $150/month in Profit-Sharing.</li>
                                   <li>&nbsp;&nbsp;150 members in the 2nd&nbsp; Generation - a total of $150,000 in deposits - $600/month in Profit-Sharing.</li>
                                   <li>&nbsp;&nbsp;750 members in the 3rd Generation - a total of $750,000 in deposits - $3000/month in Profit-Sharing.</li>
-                                  <li>2250 members in the 4rd Generation - a total of $2,250,000 in deposits - $9,000/month in Profit-Sharing.</li>
+                                  <li>2250 members in the 4th Generation - a total of $2,250,000 in deposits - $9,000/month in Profit-Sharing.</li>
                                   <li>a total of $12,250 per month</li>
                                </ul>
                                And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.

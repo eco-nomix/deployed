@@ -32,7 +32,7 @@
                               By Referring potential members to KineticGold, you can mine actual Gold.  When someone you refer joins as a member in the KineticGold Member Association,
                                you receive Profit Sharing.  You will initially receive $10 per sponsored member deposited to your checking account in Gold.  This doesn't sound like much, but consider that
                                <ul>
-                                    <li>You sponsor them by getting to the KineticGold.org website to learn about KineticGold</li>
+                                    <li>You sponsor them by getting them to the KineticGold.org website to learn about KineticGold</li>
                                     <li>It is the responsibility of the Website to teach them how the system works, and get them to sign up.</li>
                                     <li>There are no products that you are selling.</li>
                                     <li>You have no obligation beyond getting them to the website.  A true referral.</li>

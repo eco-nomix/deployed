@@ -113,9 +113,9 @@
                                Notice I reduced the average sponsored to allow for those that just won't do anything.
                                  Let's assume that they average $1000 per month in deposits and spending.
                                <ul>
-                                  <li>&nbsp;&nbsp;10 members in the 1st Generation -  a total of $10,000 in deposits - $100/month in Profit-Sharing.</li>
+                                  <li>&nbsp;&nbsp;10 members in the 1st &nbsp;Generation -  a total of $10,000 in deposits - $100/month in Profit-Sharing.</li>
                                   <li>&nbsp;&nbsp;50 members in the 2nd Generation - a total of $50,000 in deposits - $200/month in Profit-Sharing.</li>
-                                  <li>150 members in the 3rd Generation - a total of $150,000 in deposits - $600/month in Profit-Sharing.</li>
+                                  <li>150 members in the 3rd &nbsp;Generation - a total of $150,000 in deposits - $600/month in Profit-Sharing.</li>
                                   <li>a total of $900 per month</li>
                                </ul>
                                And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.

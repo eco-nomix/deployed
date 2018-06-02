@@ -55,7 +55,7 @@
             </li>
 
             <li>
-                <p>The member can purchase<a href="\businesscards">business cards</a> with their name printed on them plus a member's
+                <p>The member can purchase <a href="\businesscards">business cards</a> with their name printed on them plus a member's
                 referring link.  This link can be delivered even using electronic links.  This enables a member to refer someone
                 simply by given them a card.  When the prospective member receives the link, they will be directed to this site.
                 If they join the referral is already established so you get the credit for the referral.</p>
@@ -94,7 +94,8 @@
        </div>
     </div>
     </div>
-
+<div class="skip">&nbsp;</div>
+<div class="skip">&nbsp;</div>
 </div>
 
 </div>

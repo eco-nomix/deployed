@@ -16,12 +16,12 @@
                         Auto-Ship Policy
                     </div>
                 </div>
-                <div class="panel panel-default display">
+                <div style="width:100%;" class="panel panel-default display">
                     <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
                             Kinetic Gold does not sell products that have an Auto-Ship Option.
-                             Remember that a great many people are highly motivated to become self-sufficient.
+                             As a result there is no need for an Auto-Shop Policy.
                         </div>
 
 
@@ -34,7 +34,7 @@
 
                           </div>
                          <div class="form-group col-md-12 ">
-                          
+
                          </div>
 
 
@@ -47,6 +47,8 @@
 
                     </div>
                 </div>
+                <div class="skip">&nbsp;</div>
+                <div class="skip">&nbsp;</div>
                 <div class="skip">&nbsp;</div>
                 <div class="skip">&nbsp;</div>
                 <div class="skip">&nbsp;</div>

@@ -154,8 +154,8 @@
                                 Lets assume that your sponsored members followed your pattern.
                                   Let's assume that they average $1000 per month in deposits and spending.
                                 <ul>
-                                   <li>20 members in the 1st Generation -  a total of $20,000 in deposits - $200/month in Profit-Sharing.</li>
-                                   <li>200 members in the 2st Generation - a total of $200,000 in deposits - $800/month in Profit-Sharing.</li>
+                                   <li>&nbsp;&nbsp;&nbsp;&nbsp;20 members in the 1st Generation -  a total of $20,000 in deposits - $200/month in Profit-Sharing.</li>
+                                   <li>&nbsp;&nbsp;200 members in the 2st Generation - a total of $200,000 in deposits - $800/month in Profit-Sharing.</li>
                                    <li>1000 members in the 3rd Generation - a total of $1,000,000 in deposits - $4,000/month in Profit-Sharing.</li>
                                    <li>3000 members in the 4th Generation - a total of $3,000,000 in deposits - $12,000/month in Profit-Sharing.</li>
                                    <li>3000 members in the 5th Generation - a total of $3,000,000 in deposits - $12,000/month in Profit-Sharing.</li>

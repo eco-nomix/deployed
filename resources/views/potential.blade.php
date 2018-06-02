@@ -26,7 +26,7 @@
                               accumulating, many times to hundreds of dollars every month for purchases.  But the
                               income just doesn't come in like it shows on the charts.  Their organization is always too
                               small for the bonus that is always just around the corner.  And eventually the vast majority of new recruits
-                              simply give up and 'fail'.  In most of the multi-level organizations, 60-90% of the entire
+                              simply give up and 'fail'.  In most of the marketing organizations, 60-90% of the entire
                               membership quits on an annual basis, only to have to be replaced with a new crop of 'opportunity seekers'.
 
                           </div>

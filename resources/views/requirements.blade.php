@@ -88,7 +88,7 @@
                                </ul>
                          </div>
                          <div class="form-group col-md-12 ">
-                                About the only way to not succeed KineticGold is to do nothing at all.
+                                About the only way to not succeed with KineticGold is to do nothing at all.
                          </div>
 
                 </div>

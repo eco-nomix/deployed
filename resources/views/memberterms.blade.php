@@ -21,6 +21,8 @@
                          debit cards, and/or training material.  Do not use the business cards, debit cards and/or training material
                          if you do not agree to all of these terms and conditions.
                         <br><br>
+                         KineticGold reserves the right to update, modify, add or change these terms and conditions without notice.
+                                                <br><br>
                          ILLEGAL ACTIVITY<br>
                         The member agrees not to use KineticGold.org or any of it's linked websites for promotions of any page, newsgroup, email or any distribution
                         method that KineticGold, its Internet Service Providers, or otherwise is considered unlawful
@@ -29,9 +31,7 @@
                         <br><br>
                         THIRD-PARTY <br>
                         KineticGold will in no way be liable for the actions of third parties that may in any way cause members harm.
-                        <br><br>
-                        KineticGold reserves the right to update, modify, add or change these terms and conditions without notice.
-                        <br><br>
+                         <br><br>
                         TERMINATION<br>
                         The registration and/or Membership of any reg KineticGold user can be terminated at anytime by KineticGold without giving any reason.  Registered Users can cancel their account anytime directly from their Personal Options pages on the website.
                         <br><br>

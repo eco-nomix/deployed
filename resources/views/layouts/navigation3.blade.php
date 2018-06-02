@@ -35,7 +35,6 @@
                         <li><a href="{{URL::to('/')}}/businesscards">Business Cards</a></li>
                         <li><a href="{{URL::to('/')}}/limitations">Limitations on Recruiting</a></li>
                         <li><a href="{{URL::to('/')}}/accounting">On-line Accounting</a></li>
-                        <li><a href="{{URL::to('/')}}/transfers">Immediate Transfers</a></li>
                         <li><a href="{{URL::to('/')}}/potential">Potentials</a></li>
 
                         <li><a href="{{URL::to('/')}}/comparison">Kinetic Gold compared to other marketing programs</a></li>

@@ -4,19 +4,28 @@
 
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
-<div class="container-fluid">
+ <div style="width:100%">
+     <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
+         <div class="skip">&nbsp;</div>
+             <div class="trans row">
+                 <div class="col-md-8 col-md-offset-2">
+                     <div style="width:100%;">
+                         <div class="kinetic600">
+                              Benefits
+                         </div>
+                     </div>
+                     <div class="panel panel-default display">
 
+                        <div class="panel-body">
 
-<div style="position:absolute; top:52px; z-index:-1">
-    <h1>Member Benefits</h1>
-<div class="form-group benefits">
-    <div class="col-md-12 indent">
-        <p>KineticGold is a unique company dedicated in delivering the best banking platform possible to its customers. <br><br>
+                         <input type="hidden" name="_token" value="{{ csrf_token() }}">    <div class="col-md-12 indent">
+         <div class="form-group col-md-12 ">
+         KineticGold is a unique company dedicated in delivering the best banking platform possible to its customers. <br><br>
         KineticGold's goal is to make each customer more financially stable.
         <br><br>Summary of KineticGold's Benefits.
 
-        </p>
-
+       </div>
+        <div class="form-group col-md-12 ">
         <ol>
             <li> <p>A member receives a bank account with Kinetic Golds<a href="\offshorebank"> Off-Shore bank.</a> This comes with a <a href="\debitcards">Debit Card</a> that is branded with
             Visa or Mastercard, giving him access to merchants and ATMs around the world.  For any Deposit that a member makes he receive a <a href="\rewards">Reward</a> of 10%.
@@ -70,11 +79,11 @@
                 <p>KineticGold is poised to create the maximum income potential in <a href="\comparison">comparison</a> to Multi-Level marketing programs.
             </li>
         </ol>
+        </div>
 
 
 
-
-    <div class="form-group benefits">
+     <div class="form-group col-md-12 ">
        <div class="col-md-12 standout">
           <p>All these significant differences show you why KineticGold is positioned to make a real difference in your life.
              Using the right banking platform, for the right reasons, will help you to prepare
@@ -87,6 +96,6 @@
     </div>
 
 </div>
-    </div>
+
 </div>
 @stop

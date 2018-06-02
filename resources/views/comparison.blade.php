@@ -36,7 +36,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                           Success isn't limited to just the few at the 'top' of the organization, as each person is always
-                          qualified to receive all their Rewards.  Each individual controls how deep their organization pays by simply sponsoring people.
+                          qualified to receive all their Rewards.  Each individual controls how deep KineticGolds profit sharing pays by simply sponsoring people.
                           People aren't skipped over to enrich the elite.
                         </div>
                         <div class="form-group col-md-12 ">

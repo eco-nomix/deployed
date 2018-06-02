@@ -93,7 +93,7 @@
                              The Profit Sharing you receive from 2nd Generation depositors is only .4%, but this can start to add up fast.  Lets assume that your sponsored members each
                              sponsored 5 members to qualify for this Profit-Sharing.  Let's assume that they average $1000 per month in deposits and spending.
                              <ul>
-                                <li>5 members in the 1st Generation -  a total of $5,000 in deposits - $50/month in Profit-Sharing.</li>
+                                <li>&nbsp;&nbsp;5 members in the 1st Generation -  a total of $&nbsp;&nbsp;5,000 in deposits - $&nbsp;&nbsp;50/month in Profit-Sharing.</li>
                                 <li>25 members in the 2st Generation - a total of $25,000 in deposits - $100/month in Profit-Sharing.</li>
                                 <li>a total of $150 per month</li>
                              </ul>

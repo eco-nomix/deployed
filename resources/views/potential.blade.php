@@ -98,7 +98,7 @@
                              KineticGold.  That would be a total of $204,800 in deposits.  Overall you receive at least 0.4% of all deposits for every one within
                              5 generations or $819 per month. Now this doesn't happen so uniformly in reality,
                                but most people if they are interested will recruit not just 1 per month, but higher.  Then the numbers could get really crazy.  Also as people
-                               get used to the banking platform they will increase how many purchases they make through it, an the average deposit could reach $2,000.
+                               get used to the banking platform they will increase how many purchases they make through it, and the average deposit could reach $2,000.
 
                           </div>
                           <div class="form-group col-md-12 ">

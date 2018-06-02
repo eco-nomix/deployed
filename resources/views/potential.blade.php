@@ -102,7 +102,7 @@
 
                           </div>
                           <div class="form-group col-md-12 ">
-                             And you got to that point by handing out 1 business card a month that turns into an active member.  I reality you will have
+                             Remember, you got to that point by handing out 1 business card a month that turns into an active member.  I reality you will have
                              to hand out more than 1 card to get that "one active" member.  Even with KineticGold's ease of getting someone to become a member,
                              the vast majority of people out there just won't do anything to get started.  But it only takes one a month to make this work.
                              <br><br>

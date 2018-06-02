@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default display">
-                <div class="panel-heading">Comparison of KineticGold Profit Sharing (Mining)  with standard Multi-Level Marketing</div>               <div class="panel-body">
+                <div class="panel-heading">Comparison of KineticGold Profit Sharing with standard Multi-Level Marketing</div>               <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">

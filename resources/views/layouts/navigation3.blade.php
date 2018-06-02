@@ -33,7 +33,7 @@
                         <li><a href="{{URL::to('/')}}/profitsharing">Profit Sharing</a></li>
                         <li><a href="{{URL::to('/')}}/referrallinks">Referral Links</a></li>
                         <li><a href="{{URL::to('/')}}/businesscards">Business Cards</a></li>
-                        <li><a href="{{URL::to('/')}}/limitations">Limitations on Recruiting</a></li>
+                        <li><a href="{{URL::to('/')}}/limitations">Limitations on Sponsoring</a></li>
                         <li><a href="{{URL::to('/')}}/accounting">On-line Accounting</a></li>
                         <li><a href="{{URL::to('/')}}/potential">Potentials</a></li>
 

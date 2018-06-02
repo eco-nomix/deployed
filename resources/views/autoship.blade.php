@@ -13,14 +13,14 @@
             <div class="col-md-8 col-md-offset-2">
                 <div style="width:100%;">
                     <div class="kinetic600">
-                        Limitations on Sponsoring
+                        Auto-Ship Policy
                     </div>
                 </div>
                 <div class="panel panel-default display">
                     <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                            There are no limits to the number of clients you can personally sponsor.
+                            Kinetic Gold does not sell products that have an Auto-Ship Option.
                         </div>
                         <div class="form-group col-md-12 ">
                             Your personal organization depth is limited to 5 generations.

@@ -74,7 +74,7 @@
                         Registered users can request that their benefits be cancelled at any time, without cost, through the KineticGold.org website.
                         <br><br>
                         This Registration Agreement shall be governed by, and construed and enforced in accordance with the laws of the
-                        State of Tennessee without regard to conflicts of law, principles or provisions.
+                        country of Nevis without regard to conflicts of law, principles or provisions.
                         
 
                         </div>

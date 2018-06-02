@@ -2,15 +2,23 @@
 
 
 @section('content')
-<div style="position:absolute; top:52px; z-index:-1">
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default display">
-                <div class="panel-heading">KineticGold Member Agreement Terms and Conditions</div>
-                <div class="panel-body">
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <div class="form-group col-md-12 ">
+<div<div style="position:absolute; top:52px; z-index:-1">
+     <div style="width:100%">
+         <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
+             <div class="skip">&nbsp;</div>
+                 <div class="trans row">
+                     <div class="col-md-8 col-md-offset-2">
+                         <div style="width:100%;">
+                             <div class="kinetic600">
+                                  Potentials
+                             </div>
+                         </div>
+                         <div class="panel panel-default display">
+
+                            <div class="panel-body">
+
+                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                              <div class="form-group col-md-12 ">
 
                         These Terms and Conditions exist for the benefit of KineticGold.org and its registered trademark KineticGold,
                         at its sole discretion, reserves the right to terminate the account of any registered user caught in violation
@@ -35,7 +43,7 @@
                         TERMINATION<br>
                         The registration and/or Membership of any reg KineticGold user can be terminated at anytime by KineticGold without giving any reason.  Registered Users can cancel their account anytime directly from their Personal Options pages on the website.
                         <br><br>
-                        PAYMENT PROCESSOR
+                        PAYMENT PROCESSOR<br>
                         KineticGold Rewards and Profit Sharing is paid through the KineticGold account and its related Debit card.
 
                         <br><br>

@@ -32,7 +32,7 @@
                               By Referring potential members to KineticGold, you can mine actual Gold.  When someone you refer joins as a member in the KineticGold Member Association,
                                you receive Profit Sharing.  You will initially receive $10 per sponsored member deposited to your checking account in Gold.  This doesn't sound like much, but consider that
                                <ul>
-                                    <li>You sponsor them by getting them to the KineticGold.org website to learn about KineticGold</li>
+                                    <li>You sponsor them by getting them to the KineticGold.org website to learn about KineticGold.</li>
                                     <li>It is the responsibility of the Website to teach them how the system works, and get them to sign up.</li>
                                     <li>There are no products that you are selling.</li>
                                     <li>You have no obligation beyond getting them to the website.  A true referral.</li>
@@ -42,6 +42,13 @@
                             Obviously the more people that you sponsor, then that $10 per sponsor Profit-Sharing will be multiplied.  But let's look beyond that.
                          </div>
 
+                         <div class="form-group col-md-12 ">
+                            <div class="col-md-12 standout">
+                                The below example is only intended to serve as an example of what can happen with the exponential Growth that is possible with
+                                Kinetic Gold.  This is NOT what you WILL make in Profit-Sharing.  If you make more than a few hundred dollars per month, then
+                                then you did a lot of things right and you happened to sponsor the right people with an attitude for success.
+                            </div>
+                         </div>
                          <div class="form-group col-md-12 ">
                             When a sponsored member starts to use the system, the KineticGolds Profit Sharing starts to become much more interesting.  Remember that Kinetic
                             Gold is a Bank and that Banks make money from depositors.

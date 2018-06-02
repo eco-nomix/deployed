@@ -54,7 +54,7 @@
                         </div>
                         <div class="form-group col-md-12 ">
                             If you wish to have your own business cards printed locally using the KineticGold graphics, you may download the image here.
-                            <button>Download</button>
+                            <p><button>Download</button></p>
                             Suggestion, a lowcost solution is the use the images with VistaPrint.com or Gotprint.com.  They have packages that start from $10.00 including shipping.
 
                         </div>

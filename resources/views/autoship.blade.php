@@ -33,7 +33,8 @@
 
                           </div>
                          <div class="form-group col-md-12 ">
-                           
+                             Remember that a great many people are highly motivated to become self-sufficient.
+                             As these perilous times further unfold, more and more people will want to become such.
                          </div>
 
 

@@ -170,7 +170,7 @@
                                     <li>Refer someone</li>
                                     <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
                                         <ul>
-                                            <li>1+&nbsp;&nbsp; - 1st Generation Profit-Sharing - &nbsp;&nbsp;1% deposits</li>
+                                            <li>1+&nbsp;&nbsp; - 1st&nbsp; Generation Profit-Sharing - &nbsp;1% deposits</li>
                                             <li>5+&nbsp;&nbsp; - 2nd Generation Profit-Sharing - .4% deposits</li>
                                             <li>10+ - 3rd&nbsp; Generation Profit-Sharing - .4% deposits</li>
                                             <li>15+ - 4th&nbsp; Generation Profit-Sharing - .4% deposits</li>

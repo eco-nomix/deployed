@@ -21,7 +21,7 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
                             Kinetic Gold does not sell products that have an Auto-Ship Option.
-                             As a result there is no need for an Auto-Shop Policy.
+                             
                         </div>
 
 

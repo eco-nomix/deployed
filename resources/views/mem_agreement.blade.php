@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="panel panel-default display">
-                
+
                 <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">

@@ -11,7 +11,7 @@
         <div class="col-md-8 col-md-offset-2">
             <div style="width:100%;">
                            <div class="kinetic600">
-                               Member Requirements
+                               Profit Sharing
                            </div>
                        </div>
 
@@ -20,36 +20,9 @@
                 <div class="panel-body">
 
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
                          <div class="form-group col-md-12 ">
-                            Individuals become members when they complete the Registration form, verify their email and pay the registration fee.
-                         </div>
-                         <div class="form-group col-md-12 ">
-                             The Registration Fee pays for a life-time membership, with no additional costs or obligations.
-                         </div>
-                         <div class="form-group col-md-12 ">
-                            All Members are eligible to earn Rewards and Profit Sharing by referring clients to KineticGold.
-                         </div>
-                         <div class="form-group col-md-12 ">
-                              What do you have to do to earn Rewards?
-                         </div>
-                         <div class="form-group col-md-12 ">
-                              <ul>
-                                    <li>Become a member</li>
-                                    <li>Make a deposit into your account</li>
-                                    <li>spend your money just like a normal bank account</li>
-                              </ul>
-                         </div>
-                         <div class="form-group col-md-12 ">
-                                Now lets see what you don't have to do.
-                         </div>
-                         <div class="form-group col-md-12 ">
-                            <ul>
-                                <li>No purchase requirements</li>
-                                <li>No Sponsoring requirements</li>
-                            </ul>
-                         </div>
-                         <div class="form-group col-md-12 ">
-                               What do you have to do to earn Profit Sharing?
+                              
                          </div>
                          <div class="form-group col-md-12 ">
                                 <ul>

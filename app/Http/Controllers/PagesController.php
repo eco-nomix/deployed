@@ -175,6 +175,15 @@ class PagesController extends Controller
         return view('rewards',$data);
     }
 
+    public function profitsharing(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Kinetic Golds Profit Sharing Program';
+        $data['description'] = 'KineticGold Profit Sharing Program';
+
+        return view('profitsharing',$data);
+    }
+
 
 
 

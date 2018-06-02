@@ -8,7 +8,7 @@
 <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
    <div class="skip">&nbsp;</div>
     <div class="trans row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1">
             <div style="width:100%;">
                            <div class="kinetic600">
                                Profit Sharing
@@ -50,7 +50,7 @@
                             </div>
                          </div>
                          <div class="form-group col-md-12 ">
-                            When a sponsored member starts to use the system, the KineticGolds Profit Sharing starts to become much more interesting.  Remember that Kinetic
+                            When a sponsored member starts to use the system, KineticGold's Profit Sharing starts to become much more interesting.  Remember that Kinetic
                             Gold is a Bank and that Banks make money from depositors.
                          </div>
                          <div class="form-group col-md-12 ">

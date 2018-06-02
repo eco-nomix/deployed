@@ -212,7 +212,7 @@
                             </div><br>&nbsp;<br>
                             <div class="col-md-12 standout">
                                Can you make some Profit-Sharing, yes.  Even if it is just a few hundred dollars per month, consider what
-                               it took to get you there.  Referring a few people that became members. Also note that since few people will drop out, your organization should
+                               it took to get you there.  Referring a few people that became members. <br>&nbsp;<br>Also note that since few people will drop out, your organization should
                                continue to grow in both width and depth over time, increasing your potential income from Profit-Sharing.
                             </div>
                          </div>

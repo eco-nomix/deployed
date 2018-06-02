@@ -39,6 +39,7 @@
 
                         <li><a href="{{URL::to('/')}}/comparison">Kinetic Gold compared to other marketing programs</a></li>
                         <li><a href="{{URL::to('/')}}/benefits">Member Benefits</a></li>
+                          <li><a href="{{URL::to('/')}}/benefits">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/mem_agreement">Membership Agreement</a></li>
                         <li><a href="{{URL::to('/')}}/mem_terms">Membership Terms and Conditions</a></li>
                         <li><a href="{{URL::to('/')}}/autoship">Auto-Ship Policy</a></li>

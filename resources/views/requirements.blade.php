@@ -11,7 +11,7 @@
         <div class="col-md-8 col-md-offset-2">
             <div style="width:100%;">
                            <div class="kinetic600">
-                               Requirements for Profit Sharing
+                               Member Requirements
                            </div>
                        </div>
 
@@ -22,6 +22,9 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                          <div class="form-group col-md-12 ">
                             Individuals become members when they complete the Registration form, verify their email and pay the registration fee.
+                         </div>
+                         <div class="form-group col-md-12 ">
+                             The Registration Fee pays for a life-time membership, with no additional costs or obligations.
                          </div>
                          <div class="form-group col-md-12 ">
                             All Members are eligible to earn Rewards and Profit Sharing by referring clients to KineticGold.

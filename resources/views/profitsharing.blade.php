@@ -66,7 +66,7 @@
                          <div class="form-group col-md-12 ">
                              If you sponsored 10 members that average $1000 per month in deposits, then you would receive a total of $100 in Profit-Sharing.  There is no limit to the number of people you could sponsor.
                              If you had a 100 sponsored members that average $1000 per month in deposits you would receive $1000 in Profit-Sharing.  That's ok, but it sounds like a lot of time
-                             to really make a difference.  But here it where you can kick Profit-Sharing into high gear.
+                             to really make a difference.  But here is where you can kick Profit-Sharing into high gear.
                          </div>
                          <div class="form-group col-md-12 ">
                              Once you have sponsored at least 5 members, you qualify for Profit-Sharing of the Second Generation depositors.

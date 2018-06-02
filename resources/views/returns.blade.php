@@ -18,13 +18,10 @@
                 <div style="width:100%;" class="panel panel-default display">
                     <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <div class="form-group col-md-12 ">
-                            Kinetic Gold does not sell products that have an Auto-Ship Option.
-                             As a result there is no need for an Auto-Shop Policy.
-                        </div>
+                       
                         <div class="form-group col-md-12 ">
                              <ol type="A">
-                             <li>KineticGoldld offers a one hundred percent (100%) thirty-day money back guarantee for all non customized products.</li>
+                             <li>KineticGold offers a one hundred percent (100%) thirty-day money back guarantee for all non customized products.</li>
                              <li>Any product paid for with a credit or debit card, the returned amount shall be credited to that same Card.</li>
                              <li>Any product paid for with KineticGold Account will be credited back to the same account.  </li>
                              <li>With respect to return of Sales, KineticGold offers various refund opportunities depending on the product

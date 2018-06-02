@@ -170,14 +170,12 @@
                                     <li>Refer someone</li>
                                     <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
                                         <ul>
-                                            <li>1+  1st Generation</li>
-                                            <li>5+  2nd Generation</li>
-                                            <li>10+ 3rd Generation</li>
-                                            <li>15+ 4th Generation</li>
-                                            <li>20+ 5th Generation</li>
+                                            <li>1+  1st Generation Profit-Sharing - 1% deposits</li>
+                                            <li>5+  2nd Generation Profit-Sharing - .4% deposits</li>
+                                            <li>10+ 3rd Generation Profit-Sharing - .4% deposits</li>
+                                            <li>15+ 4th Generation Profit-Sharing - .4% deposits</li>
+                                            <li>20+ 5th Generation Profit-Sharing - .4% deposits</li>
                                         </ul>
-                                    <li>Someone within 5 generations (see above) of your referrals makes a deposit in their account.</li>
-                                    <l1>After all deposits are what drives the Profit Sharing.</l1>
                                 </ul>
 
                          </div>
@@ -209,8 +207,9 @@
                                 their own Deposits.  But many will be just curious enough to try to sponsor some other people and benefit
                                 from the Company Profit-Sharing.  You may even have someone that is working in social media and
                                 may be able to sponsor hundreds of people.  How fast and large your organization will grow is a total unknown by anyone.
+                                Expect a fully expanded organization to take years to form.
 
-                            </div><br>
+                            </div><br>&nbsp;<br>
                             <div class="col-md-12 standout">
                                Can you make some Profit-Sharing, yes.  Even if it is just a few hundred dollars per month, consider what
                                it took to get you there.  Referring a few people that became members.

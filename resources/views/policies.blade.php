@@ -654,62 +654,62 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         7.2 Expectation of Privacy
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>KineticGold recognizes and respects the importance its Customers and Members place on the privacy of their financial and personal information.--}}
-                                {{--KineticGold will make reasonable efforts to safeguard the privacy of, and maintain the confidentiality of its Customers’ Member and account information--}}
-                                {{--and nonpublic personal information.</li>--}}
-                                {{--<li>By the KineticGold Member Agreement, a Member authorizes KineticGold to disclose his or her name and contact information to upline Members solely--}}
-                                {{--for activities related to the furtherance of the KineticGold business. A Member hereby agrees to maintain the confidentiality and--}}
-                                {{--security of such information and to use it solely for the purpose of supporting and KineticGold his or her downline organization and conducting--}}
-                                {{--the KineticGold business.</li>--}}
-                                {{--<li>KineticGold will not disclose any personal information to outside third parties unless required by law.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--7.3 Employee Access to Information--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--8.0 KineticGold INFORMATION AND TRADE SECRETS--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--8.1 Business Reports, Lists, and Proprietary Information--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<p style="margin-left: 20px">By completing and signing the KineticGold Member Agreement, the Member acknowledges that Business Reports,--}}
-                            {{--lists of KineticGold Member names and contact information and any other KineticGold infomation, which contains KineticGold member information,--}}
-                            {{--financial information, scientific or other information both written or otherwise circulated by KineticGold pertaining to the business of KineticGold,--}}
-                            {{--are confidential and proprietary information and trade secrets belonging to KineticGold.</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--8.2 Obligation of Confidentiality--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>Use the information in the Reports to compete with KineticGold or for any purpose other than promoting his or her Kinetic business is prohibited;</li>--}}
-                                {{--<li>Use or disclose to any person or entity any confidential information contained in the Reports, including the replication of KineticGold genealogy--}}
-                                 {{--from any KineticGold reports is prohibited.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                         {{--<div class="form-group col-md-12 ">--}}
-                        {{--8.3 Breach and Remedies--}}
-                        {{--</div>--}}
-                         {{--<div class="form-group col-md-12 ">--}}
-                         {{--The Member acknowledges that such proprietary information is of such character as to render it unique and that disclosure or use--}}
-                         {{--thereof in violation of this provision will result in irreparable damage to KineticGold and to independent KineticGold businesses and its Members--}}
-                         {{--will be entitled to injunctive relief or to recover damages against any Member who violates the Obligation of Confidentiality.--}}
-                         {{--The prevailing party is entitled to an award of attorney’s fees, court costs and expenses.--}}
-                         {{--</div>--}}
-                       {{--<div class="form-group col-md-12 ">--}}
-                        {{--8.4 Return of Materials--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--Upon demand by KineticGold, any current or former Member will return the original and all copies of all “Reports” to KineticGold together with any KineticGold confidential--}}
-                            {{--information in such person’s possession.</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--9.0 ADVERTISING, PROMOTIONAL MATERIAL, USE OF COMPANY NAMESKineticGoldEMARKS--}}
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>KineticGold recognizes and respects the importance its Customers and Members place on the privacy of their financial and personal information.
+                                KineticGold will make reasonable efforts to safeguard the privacy of, and maintain the confidentiality of its Customers’ Member and account information
+                                and nonpublic personal information.</li>
+                                <li>By the KineticGold Member Agreement, a Member authorizes KineticGold to disclose his or her name and contact information to upline Members solely
+                                for activities related to the furtherance of the KineticGold business. A Member hereby agrees to maintain the confidentiality and
+                                security of such information and to use it solely for the purpose of supporting and KineticGold his or her downline organization and conducting
+                                the KineticGold business.</li>
+                                <li>KineticGold will not disclose any personal information to outside third parties unless required by law.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            7.3 Employee Access to Information
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        8.0 KineticGold INFORMATION AND TRADE SECRETS
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        8.1 Business Reports, Lists, and Proprietary Information
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <p style="margin-left: 20px">By completing and signing the KineticGold Member Agreement, the Member acknowledges that Business Reports,
+                            lists of KineticGold Member names and contact information and any other KineticGold infomation, which contains KineticGold member information,
+                            financial information, scientific or other information both written or otherwise circulated by KineticGold pertaining to the business of KineticGold,
+                            are confidential and proprietary information and trade secrets belonging to KineticGold.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        8.2 Obligation of Confidentiality
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Use the information in the Reports to compete with KineticGold or for any purpose other than promoting his or her Kinetic business is prohibited;</li>
+                                <li>Use or disclose to any person or entity any confidential information contained in the Reports, including the replication of KineticGold genealogy
+                                 from any KineticGold reports is prohibited.</li>
+                            </ol>
+                        </div>
+                         <div class="form-group col-md-12 ">
+                        8.3 Breach and Remedies
+                        </div>
+                         <div class="form-group col-md-12 ">
+                         The Member acknowledges that such proprietary information is of such character as to render it unique and that disclosure or use
+                         thereof in violation of this provision will result in irreparable damage to KineticGold and to independent KineticGold businesses and its Members
+                         will be entitled to injunctive relief or to recover damages against any Member who violates the Obligation of Confidentiality.
+                         The prevailing party is entitled to an award of attorney’s fees, court costs and expenses.
+                         </div>
+                       <div class="form-group col-md-12 ">
+                        8.4 Return of Materials
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            Upon demand by KineticGold, any current or former Member will return the original and all copies of all “Reports” to KineticGold together with any KineticGold confidential
+                            information in such person’s possession.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        9.0 ADVERTISING, PROMOTIONAL MATERIAL, USE OF COMPANY NAMESKineticGoldEMARKS
                         {{--</div>--}}
                       {{--<div class="form-group col-md-12 ">--}}
                         {{--9.1 Labeling, Packaging, and Displaying Products--}}

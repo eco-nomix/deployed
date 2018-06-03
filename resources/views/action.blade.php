@@ -5,10 +5,10 @@
 
        <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px;" >
           <img src="{{$imageUrl}}" width="900">
-          <div class="Kineticaction " style="z-index:10; ">
+          <div class="Kineticaction" style="z-index:10; ">
                <p>{{$message}}</p>
           </div>
-          <div class="Kineticaction2 " style="z-index:10; ">
+          <div class="Kineticaction2" style="z-index:10; ">
                <p>{{$message2}}</p>
           </div>
        </div>

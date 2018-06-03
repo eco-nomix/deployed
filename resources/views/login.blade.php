@@ -14,7 +14,7 @@
                     </div>
                 </div>
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+
                    <div class="panel-body">
                         @if ($errors != '')
                         <div class="alert alert-danger">
@@ -54,6 +54,18 @@
                    </div>
                 </div>
             </div>
+             <div class="skip">&nbsp;</div>
+              <div class="skip">&nbsp;</div>
+               <div class="skip">&nbsp;</div>
+                <div class="skip">&nbsp;</div>
+                 <div class="skip">&nbsp;</div>
+                  <div class="skip">&nbsp;</div>
+                   <div class="skip">&nbsp;</div>
+                    <div class="skip">&nbsp;</div>
+                     <div class="skip">&nbsp;</div>
+                      <div class="skip">&nbsp;</div>
+                       <div class="skip">&nbsp;</div>
+                       
         </div>
     </div>
     </div>

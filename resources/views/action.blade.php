@@ -67,25 +67,25 @@
 
                                       <div class="form-group">
                                           <label class="col-md-4 control-label">New Password</label>
-                                          <div class="col-md-7">
+                                          <div class="col-md-8">
                                               <input type="password" class="form-control" name="password">
                                           </div>
                                       </div>
 
                                       <div class="form-group">
                                           <label class="col-md-4 control-label">Confirm New Password</label>
-                                          <div class="col-md-7">
+                                          <div class="col-md-8">
                                               <input type="password" class="form-control" name="password_confirmation">
                                           </div>
                                       </div>
                                       <div class="form-group">
 
-                                          <div class="col-md-7">
+                                          <div class="col-md-8">
                                                &nbsp;
                                           </div>
                                       </div>
                                       <div class="form-group">
-                                          <div class="col-md-7 col-md-offset-4">
+                                          <div class="col-md-8 col-md-offset-4">
                                               <button type="submit" class="btn btn-primary">
                                                   Get Started Free
                                               </button>

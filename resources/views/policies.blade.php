@@ -469,93 +469,93 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         3.13 Presentation of the Eco-Nomix Opportunity
-                        {{--</div>--}}
+                        </div>
 
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<p style=KineticGoldeft: 20px">In presenting the Eco-Nomix opportunity to potential Customers and Members, a KineticGold member required to comply with--}}
-                            {{--the following provisions:</p>--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>A Member shall not misquote or omit any significant material fact about the KineticGold Profit-Sharing plan and method of operation>--}}
-                                {{--<li>Member shall make it clear that the Profit-Sharing Plan is based upon deposits to the KineticGold Banking platform and the sponsoring of new Members.</li>--}}
-                                {{--<li>A Member shall make it clear that success can be achieved only through substantial independent efforts.</li>--}}
-                                {{--<li>Members shall not make any unauthorized income projections, claims, or guarantees while presenting KineticGold out side of published examples including the assumptions--}}
-                                 {{--.</li>--}}
-                                {{--<li>A Member may not make any claims regarding products or services of any product marketing KineticGold, except those contained in official KineticGold literature.</li>--}}
-                                {{--<li>A Member may not use official KineticGold material to promote the KineticGold business opportunity in any country where KineticGold has not established a “presence.”</li>--}}
-                                {{--<li>In an effort to conduct best business practices, KineticGold has developed the Income Disclosure Statement (“IDS”). The KineticGold IDS is designed to--}}
-                                {{--convey truthful, timely, and comprehensive information regarding the Profit-Sharing that that KineticGold Members may earn. In order to accomplish this--}}
-                                {{--objective, a copy of the IDS must be presented to all prospective Members.--}}
-                                {{--<li>A copy of the IDS must be presented to a prospective Member anytime the Profit-Sharing Plan is presented or discussed, or any type of income claim--}}
-                                {{--or earnings representation is made.</li>--}}
-                                {{--<li>The terms “income claim” and/or “earnings representation” (collectively “income claim”) include;--}}
-                                        {{--<ol type="1">--}}
-                                            {{--<li>statements of average earnings,</li>--}}
-                                            {{--<li>statements of non-average earnings,</li>--}}
-                                            {{--<li>statements of earnings ranges,</li>--}}
-                                            {{--<li>income testimonials,</li>--}}
-                                            {{--<li>lifestyle claims,</li>--}}
-                                            {{--<li>hypothetical claims.</li>--}}
-                                        {{--</ol></li>--}}
-                                {{--<li>Examples of “statements of non-average earnings include, “Our number one KineticGold member earned over a million dollars last year” or--}}
-                                {{--“Our average ranking Member makes five thousand dollars per month.”</li>--}}
-                                {{--<li>An example of KineticGold “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end--}}
-                                {{--to thirty thousand dollars a month on the high end.”</li>--}}
+                        <div class="form-group col-md-12 ">
+                            <p style=KineticGoldeft: 20px">In presenting the Eco-Nomix opportunity to potential Customers and Members, a KineticGold member required to comply with
+                            the following provisions:</p>
+                            <ol type="A">
+                                <li>A Member shall not misquote or omit any significant material fact about the KineticGold Profit-Sharing plan and method of operation>
+                                <li>Member shall make it clear that the Profit-Sharing Plan is based upon deposits to the KineticGold Banking platform and the sponsoring of new Members.</li>
+                                <li>A Member shall make it clear that success can be achieved only through substantial independent efforts.</li>
+                                <li>Members shall not make any unauthorized income projections, claims, or guarantees while presenting KineticGold out side of published examples including the assumptions
+                                 .</li>
+                                <li>A Member may not make any claims regarding products or services of any product marketing KineticGold, except those contained in official KineticGold literature.</li>
+                                <li>A Member may not use official KineticGold material to promote the KineticGold business opportunity in any country where KineticGold has not established a “presence.”</li>
+                                <li>In an effort to conduct best business practices, KineticGold has developed the Income Disclosure Statement (“IDS”). The KineticGold IDS is designed to
+                                convey truthful, timely, and comprehensive information regarding the Profit-Sharing that that KineticGold Members may earn. In order to accomplish this
+                                objective, a copy of the IDS must be presented to all prospective Members.
+                                <li>A copy of the IDS must be presented to a prospective Member anytime the Profit-Sharing Plan is presented or discussed, or any type of income claim
+                                or earnings representation is made.</li>
+                                <li>The terms “income claim” and/or “earnings representation” (collectively “income claim”) include;
+                                        <ol type="1">
+                                            <li>statements of average earnings,</li>
+                                            <li>statements of non-average earnings,</li>
+                                            <li>statements of earnings ranges,</li>
+                                            <li>income testimonials,</li>
+                                            <li>lifestyle claims,</li>
+                                            <li>hypothetical claims.</li>
+                                        </ol></li>
+                                <li>Examples of “statements of non-average earnings include, “Our number one KineticGold member earned over a million dollars last year” or
+                                “Our average ranking Member makes five thousand dollars per month.”</li>
+                                <li>An example of KineticGold “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end
+                                to thirty thousand dollars a month on the high end.”</li>
 
-                            {{--</ol>--}}
-                       {{--</div>--}}
+                            </ol>
+                       </div>
 
-                         {{--<div class="form-group col-md-12 ">--}}
-                             {{--3.14 Sales Requirements are Governed by the KineticGold Profit Sharing PlanKineticGoldn Plan--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                          {{--<ol type="A">--}}
-                                {{--<li>KineticGold Members may purchase KinticGold products for there own use and are not for the purpose of resale other than at KineticGold standard Pricing.--}}
-                                 {{--There are no exclusive KineticGold prices granted to anyone. No franchise fees are applicable to an KineticGold business.--}}
-                                   {{--Members should purchase only those products that they need or can utilize personally.  Each member has direct access to products through the website.</li>--}}
-                               {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--4.0 ORDERING--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--4.1 General Order Policies--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>“Bonus Buying” is strictly and absolutely prohibited and includes;--}}
-                                {{--<ol type="a">--}}
-                                    {{--<li>the enrollment of individuals or entities without the knowledge of--}}
-                                {{--and/or execution of an Agreement by such individuals or Business Entities;</li>--}}
-                                    {{--<li>for fraudulent enrollment of an individual or entity as a Member or Customer; </li>--}}
-                                    {{--<li>the enrollment or attempted enrollment of non-existent individuals as Members or Customers (“phantoms”); </li>--}}
-                                    {{--<li>purchasing KineticGold products or services on behalf of another KineticGold, or under another Member’s or Customer’s ID number, to qualify for  bonuses; </li>--}}
-                                    {{--<li>purchasing excessive KineticGold products or services that cannot reasonably be used; <li>--}}
-                                    {{--<li>any other mechanism or artifice to qualify for  incentives, prizes, commissions that is not driven by bona fide product or service purchases by end user consumers.</li>--}}
-                                {{--</ol>--}}
-                                {{--<li>Members shall not use another Member’s or Customer’s credit card or debit checking account to enroll in KineticGold or purchase products or services--}}
-                                {{--without the account holder’s written permission. Such documentation must be kept indefinitely in case KineticGold needs to reference this.</li>--}}
-                                {{--<li>Regarding an order with KineticGold or incorrect payment, KineticGold will attempt to contact the Member by phone, mail or e-mail in order to--}}
-                                {{--obtain another form of payment. If these attempts are unsuccessful after 10 business days, the order will be canceled.</li>--}}
-                                {{--<li>Prices are subject to change without notice.</li>--}}
-                                {{--<li>A Member or Customer who is a recipient of a damaged or incorrect order must notify KineticGold within 30 calendar days from receipt of the order and follow the Procedures as set forth in these Policies.</li>--}}
-                            {{--</ol>--}}
+                         <div class="form-group col-md-12 ">
+                             3.14 Sales Requirements are Governed by the KineticGold Profit Sharing PlanKineticGoldn Plan
+                        </div>
+                        <div class="form-group col-md-12 ">
+                          <ol type="A">
+                                <li>KineticGold Members may purchase KinticGold products for there own use and are not for the purpose of resale other than at KineticGold standard Pricing.
+                                 There are no exclusive KineticGold prices granted to anyone. No franchise fees are applicable to an KineticGold business.
+                                   Members should purchase only those products that they need or can utilize personally.  Each member has direct access to products through the website.</li>
+                               </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        4.0 ORDERING
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        4.1 General Order Policies
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>“Bonus Buying” is strictly and absolutely prohibited and includes;
+                                <ol type="a">
+                                    <li>the enrollment of individuals or entities without the knowledge of
+                                and/or execution of an Agreement by such individuals or Business Entities;</li>
+                                    <li>for fraudulent enrollment of an individual or entity as a Member or Customer; </li>
+                                    <li>the enrollment or attempted enrollment of non-existent individuals as Members or Customers (“phantoms”); </li>
+                                    <li>purchasing KineticGold products or services on behalf of another KineticGold, or under another Member’s or Customer’s ID number, to qualify for  bonuses; </li>
+                                    <li>purchasing excessive KineticGold products or services that cannot reasonably be used; <li>
+                                    <li>any other mechanism or artifice to qualify for  incentives, prizes, commissions that is not driven by bona fide product or service purchases by end user consumers.</li>
+                                </ol>
+                                <li>Members shall not use another Member’s or Customer’s credit card or debit checking account to enroll in KineticGold or purchase products or services
+                                without the account holder’s written permission. Such documentation must be kept indefinitely in case KineticGold needs to reference this.</li>
+                                <li>Regarding an order with KineticGold or incorrect payment, KineticGold will attempt to contact the Member by phone, mail or e-mail in order to
+                                obtain another form of payment. If these attempts are unsuccessful after 10 business days, the order will be canceled.</li>
+                                <li>Prices are subject to change without notice.</li>
+                                <li>A Member or Customer who is a recipient of a damaged or incorrect order must notify KineticGold within 30 calendar days from receipt of the order and follow the Procedures as set forth in these Policies.</li>
+                            </ol>
 
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--4.2 Insufficient Funds--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>All checks returned for insufficient funds will be re-submitted for payment. A $35 fee will be charged to the account of the Member or Customer for--}}
-                                {{--all returned checks and insufficient funds.</li>--}}
-                                {{--<li>All transactions involving returned checks or insufficient funds through a credit card, which are not resolved in a timely manner by the Member constitute grounds--}}
-                                {{--for disciplinary sanctions.</li>--}}
-                                {{--<li>If a credit card order or automatic debit is declined  the Customer or Member will be contacted for an alternate form of payment. Payment to KineticGold--}}
-                                {{--is declined a second time, the Customer or Member may be deemed ineligible to purchase Eco-Nomix products or services.</li>--}}
-                            {{--</ol>--}}
-                         {{--</div>--}}
-                         {{--<div class="form-group col-md-12 ">--}}
-                        {{--4.3 Sales Tax Obligation--}}
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        4.2 Insufficient Funds
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>All checks returned for insufficient funds will be re-submitted for payment. A $35 fee will be charged to the account of the Member or Customer for
+                                all returned checks and insufficient funds.</li>
+                                <li>All transactions involving returned checks or insufficient funds through a credit card, which are not resolved in a timely manner by the Member constitute grounds
+                                for disciplinary sanctions.</li>
+                                <li>If a credit card order or automatic debit is declined  the Customer or Member will be contacted for an alternate form of payment. Payment to KineticGold
+                                is declined a second time, the Customer or Member may be deemed ineligible to purchase Eco-Nomix products or services.</li>
+                            </ol>
+                         </div>
+                         <div class="form-group col-md-12 ">
+                        4.3 Sales Tax Obligation
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                              {{--<ol type="A">--}}

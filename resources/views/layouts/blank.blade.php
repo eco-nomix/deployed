@@ -26,7 +26,7 @@
         font-variant: normal;
         font-weight: 500;
         line-height: 53px;
-        text-shadow: 4px 5px 4px rgba(0,0,0,0.8);
+        text-shadow: 4px 5px 6px rgba(0,0,0,0.8);
     }
     .Kineticaction2 {
         position: absolute;
@@ -41,7 +41,7 @@
         font-variant: normal;
         font-weight: 500;
         line-height: 53px;
-        text-shadow: 4px 5px 4px rgba(0,0,0,0.8);
+        text-shadow: 4px 5px 6px rgba(0,0,0,0.8);
     }
     </style>
 

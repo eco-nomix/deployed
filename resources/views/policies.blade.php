@@ -525,7 +525,7 @@
                         <div class="form-group col-md-12 ">
                             <ol type="A">
                                 <li>“Bonus Buying” is strictly and absolutely prohibited and includes;
-                                <ol type="i">   
+                                <ol type="i">
                                     <li>the enrollment of individuals or entities without the knowledge of
                                 and/or execution of an Agreement by such individuals or Business Entities;</li>
                                     <li>for fraudulent enrollment of an individual or entity as a Member or Customer; </li>
@@ -578,33 +578,33 @@
                         {{--</div>--}}
                      {{--<div class="form-group col-md-12 ">--}}
                         {{--5.0 PAYMENT OF BONUSES--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--5.1 Bonus Qualifications--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                           {{--<ol style="A">--}}
-                                {{--<li>A Member must be in compliance with KineticGold Procedures to qualify for Profit-Sharing. So long as a Member complies with the Terms of the Agreement,--}}
-                                 {{--KineticGold shall pay Profit-Sharing to such Members in accordance with the Profit-Sharing Plan.</li>--}}
-                                {{--<li>KineticGold will not issue a payment to a Member without the receipt of a dated and signed KineticGold Member Agreement or Electronic Authorization.</li>--}}
-                                {{--<li>KineticGold reserves the right to postpone Profit-Sharing until such time the cumulative amount exceeds $100 during the Pre-Launch period.</li>--}}
-                                {{--<li>Once launced Profit-Sharing shall be paid immediately into the members checking account at KineticGolds Off-Shore bank.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--5.2 Computation of Profit-Sharing                     </div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>In order to qualify to receive bonuses, a Member must be in good standing and comply with the Terms of the Agreement and these Policies and Procedures.--}}
-                               {{--Profit-Sharing Bonuses are calculated as deposits are made into a members account.</li>--}}
-                                {{--<li>An KineticGold Member must review his or her monthly statement and bonus reports promptly and report any discrepancies within 30 days of receipt.--}}
-                                {{--After the 30-day “grace period” no additional requests will be considered for Profit-Sharing recalculations.</li>--}}
-                                {{--<li>For additional information on payment of Profit-Sharing, please review the Compensation Plan.</li>--}}
-                            {{--</ol>--}}
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        5.1 Bonus Qualifications
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           <ol style="A">
+                                <li>A Member must be in compliance with KineticGold Procedures to qualify for Profit-Sharing. So long as a Member complies with the Terms of the Agreement,
+                                 KineticGold shall pay Profit-Sharing to such Members in accordance with the Profit-Sharing Plan.</li>
+                                <li>KineticGold will not issue a payment to a Member without the receipt of a dated and signed KineticGold Member Agreement or Electronic Authorization.</li>
+                                <li>KineticGold reserves the right to postpone Profit-Sharing until such time the cumulative amount exceeds $100 during the Pre-Launch period.</li>
+                                <li>Once launced Profit-Sharing shall be paid immediately into the members checking account at KineticGolds Off-Shore bank.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        5.2 Computation of Profit-Sharing                     </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>In order to qualify to receive bonuses, a Member must be in good standing and comply with the Terms of the Agreement and these Policies and Procedures.
+                               Profit-Sharing Bonuses are calculated as deposits are made into a members account.</li>
+                                <li>An KineticGold Member must review his or her monthly statement and bonus reports promptly and report any discrepancies within 30 days of receipt.
+                                After the 30-day “grace period” no additional requests will be considered for Profit-Sharing recalculations.</li>
+                                <li>For additional information on payment of Profit-Sharing, please review the Compensation Plan.</li>
+                            </ol>
 
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--5.3 Adjustments to Bonuses for Returned Products or Member Memberships.--}}
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        5.3 Adjustments to Bonuses for Returned Products or Member Memberships.
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                              {{--Profit-Sharing bonuses are based on the actual deposit into KineticGold member bank accounts.--}}

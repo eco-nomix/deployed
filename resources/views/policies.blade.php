@@ -670,6 +670,10 @@
                         <div class="form-group col-md-12 ">
                             7.3 Employee Access to Information
                         </div>
+                         <div class="form-group col-md-12 ">
+                            Employee may have access to only that information necessary to do their specific job.  For example, a shipping clerk would have shipping information, but not have access to account
+                            balances.
+                         </div>
                         <div class="form-group col-md-12 ">
                         8.0 KineticGold INFORMATION AND TRADE SECRETS
                         </div>

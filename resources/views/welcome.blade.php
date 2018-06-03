@@ -118,6 +118,7 @@
             <p>Account is fully linked to the cryptocurrency account.</p>
             <p>Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily</p>
             <p>All transactions are controlled by the blockchain.</p>
+            <p>The blockchain is outside of the control of any country in the world.</p>
     </div>
     <div class="skip">&nbsp;</div>
    <div class="center" style="width:100%;display:block;float:left;">

@@ -466,6 +466,7 @@
                                 and would inflict irreparable harm on KineticGold. In such event, KineticGold may, at its sole discretion, impose any sanction it deems appropriate
                                 against such Member or such Member’s positions including termination, or seek immediate injunctive relief without the necessity of posting a bond.</li>
                             </ol>
+                        </div>
                         <div class="form-group col-md-12 ">
                         3.13 Presentation of the Eco-Nomix Opportunity
                         {{--</div>--}}

@@ -21,7 +21,7 @@
         font-weight:bold;
         color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;
-        font-size: 72px;
+        font-size: 66px;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;

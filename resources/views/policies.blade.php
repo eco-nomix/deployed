@@ -242,97 +242,97 @@
                         </div>
                          <div class="form-group col-md-12 ">
                         3.0 KineticGolds’S Member RESPONSIBILITIES
-                        {{--</div>--}}
-                         {{--<div class="form-group col-md-12 ">--}}
-                            {{--3.1 Correct Addresses--}}
-                        {{--</div>--}}
-                         {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>It is the responsibility of member or Customer to make sure KineticGold has the correct shipping address before any orders are shipped.</li>--}}
-                                {{--<li>A Member or Customer will need to allow up to 30 days for processing after the notice of address change has been received by KineticGold.</li>--}}
-                                {{--<li>A Member or Customer may be assessed a $20 fee for returned shipments due to an incorrect shipping address.</li>--}}
+                        </div>
+                         <div class="form-group col-md-12 ">
+                            3.1 Correct Addresses
+                        </div>
+                         <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>It is the responsibility of member or Customer to make sure KineticGold has the correct shipping address before any orders are shipped.</li>
+                                <li>A Member or Customer will need to allow up to 30 days for processing after the notice of address change has been received by KineticGold.</li>
+                                <li>A Member or Customer may be assessed a $20 fee for returned shipments due to an incorrect shipping address.</li>
 
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--3.2 Training and Leadership--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>Any KineticGold Member who Sponsors another Member must perform an authentic assistance and training functions to ensure his or her downline--}}
-                                {{--is properly operating his or her KineticGold business. Sponsoring Members should have contact and communication with the Members in their--}}
-                                {{--downline organizations. Examples of communication may include, not limited to, written correspondence, telephone, contact,--}}
-                                {{--team calls, voice-mail, e-mail, personal meetings, accompaniment KineticGold Members to KineticGold meetings, training sessions and any other related functions.</li>--}}
-                                {{--<li>A KineticGold Member should monitor the Members in his or her downline organizations to ensure that downline Members do not make--}}
-                                {{--improper product or business claims, or engage in inappropriate conduct. Upon request, such Member should provide documented evidence to KineticGold of--}}
-                                {{--his or her ongoing responsibilities of a Sponsor.</li>--}}
-                                {{--<li>KineticGold Members are encouraged to motivate and train new Members about KineticGolds’s products and services, effective Marketing techniques,--}}
-                                {{--the KineticGold compensation Plan and compliance with company Policies and Procedures.</li>--}}
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            3.2 Training and Leadership
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Any KineticGold Member who Sponsors another Member must perform an authentic assistance and training functions to ensure his or her downline
+                                is properly operating his or her KineticGold business. Sponsoring Members should have contact and communication with the Members in their
+                                downline organizations. Examples of communication may include, not limited to, written correspondence, telephone, contact,
+                                team calls, voice-mail, e-mail, personal meetings, accompaniment KineticGold Members to KineticGold meetings, training sessions and any other related functions.</li>
+                                <li>A KineticGold Member should monitor the Members in his or her downline organizations to ensure that downline Members do not make
+                                improper product or business claims, or engage in inappropriate conduct. Upon request, such Member should provide documented evidence to KineticGold of
+                                his or her ongoing responsibilities of a Sponsor.</li>
+                                <li>KineticGold Members are encouraged to motivate and train new Members about KineticGolds’s products and services, effective Marketing techniques,
+                                the KineticGold compensation Plan and compliance with company Policies and Procedures.</li>
 
-                                {{--<li>We emphasize that ALL sales of KineticGolds’s products and Customers are to be handled by the website.</li>--}}
-                                {{--<li>Sales Aids – To promote both the products and the opportunity, Members must use the sales aids and support materials produced by KineticGold.--}}
-                                {{--If members develop their own sales aids and promotional materials including Internet advertising, notwithstanding Members’ good intentions, they may unintentionally--}}
-                                {{--violate any number of statutes or regulations affecting KineticGold's business. These violations, although they may be relatively few in number,--}}
-                                {{--could jeopardize the KineticGold opportunity for all Members. Accordingly members must submit all written sales aids, promotional materials,--}}
-                                {{--websites and other literature to KineticGold for Company’s approval prior to use. Unless the member receives specific written approval--}}
-                                {{--to use material ,the request shall be deemed denied. All Members of KineticGold shall guard and promote the good reputation of KineticGold and its products and services.--}}
-                                 {{--The marketing and promotion of KineticGold, the KineticGold opportunity, the Award and Profit-Sharing Plan, and KineticGold products and services--}}
-                                 {{--shall be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct or practices.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--3.3 Constructive Criticism--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--KineticGold desires to provide its independent Members with the best products and Award and Profit-Sharing in the industry.--}}
-                            {{--Accordingly KineticGold values constructive criticism and encourages the submission of written suggestions in Compliance with the following policies.--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>There are no disparaging comments about KineticGold, its products or Profit-Sharing Plan, by the member to KineticGold, the--}}
-                                {{--Field or any disruptive behavior at KineticGold meetings or events, without purpose other than to dampen the enthusiasm KineticGold Members.--}}
-                                {{--KineticGold Members must not belittle KineticGold, other KineticGold Members,  products or services, the Profit-Sharing Plan,KineticGold directors,--}}
-                                {{--officers, or employees, KineticGold agents. Such action presents a material breach of these Policies and Procedures and may be subject to--}}
-                                {{--sanctions as deemed appropriate by KineticGold.</li>--}}
-                                {{--<li>KineticGold endorses the following code of ethics:--}}
-                                    {{--<ol type="I">--}}
-                                        {{--<li>An KineticGold Member must show fairness, tolerance, and respect to all people associated with KineticGold, regardless of race,--}}
-                                        {{--social class or religion, thereby fostering a “positive atmosphere” of teamwork, good morale and community spirit.</li>--}}
-                                        {{--<li>A Member shall strive to resolve with KineticGoldic issues, including issues with upline and downline Members,--}}
-                                        {{--by emphasizing tact, sensitivity, good will and taking care not to create additional prolems.</li>--}}
-                                        {{--<li>Members must remain responsible, professional and conduct themselves with kindness.</li>--}}
-                                        {{--<li>KineticGold Members shall not make disparaging statements about KineticGold, other Members, KineticGold product suppliers or agents,--}}
-                                        {{--products, services, KineticGold marketing campaigns, or the Profit-Sharing Plan, or make statements that unreasonably--}}
-                                        {{--offend, mislead or coerce others.</li>--}}
+                                <li>We emphasize that ALL sales of KineticGolds’s products and Customers are to be handled by the website.</li>
+                                <li>Sales Aids – To promote both the products and the opportunity, Members must use the sales aids and support materials produced by KineticGold.
+                                If members develop their own sales aids and promotional materials including Internet advertising, notwithstanding Members’ good intentions, they may unintentionally
+                                violate any number of statutes or regulations affecting KineticGold's business. These violations, although they may be relatively few in number,
+                                could jeopardize the KineticGold opportunity for all Members. Accordingly members must submit all written sales aids, promotional materials,
+                                websites and other literature to KineticGold for Company’s approval prior to use. Unless the member receives specific written approval
+                                to use material ,the request shall be deemed denied. All Members of KineticGold shall guard and promote the good reputation of KineticGold and its products and services.
+                                 The marketing and promotion of KineticGold, the KineticGold opportunity, the Award and Profit-Sharing Plan, and KineticGold products and services
+                                 shall be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct or practices.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            3.3 Constructive Criticism
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            KineticGold desires to provide its independent Members with the best products and Award and Profit-Sharing in the industry.
+                            Accordingly KineticGold values constructive criticism and encourages the submission of written suggestions in Compliance with the following policies.
+                            <ol type="A">
+                                <li>There are no disparaging comments about KineticGold, its products or Profit-Sharing Plan, by the member to KineticGold, the
+                                Field or any disruptive behavior at KineticGold meetings or events, without purpose other than to dampen the enthusiasm KineticGold Members.
+                                KineticGold Members must not belittle KineticGold, other KineticGold Members,  products or services, the Profit-Sharing Plan,KineticGold directors,
+                                officers, or employees, KineticGold agents. Such action presents a material breach of these Policies and Procedures and may be subject to
+                                sanctions as deemed appropriate by KineticGold.</li>
+                                <li>KineticGold endorses the following code of ethics:
+                                    <ol type="I">
+                                        <li>An KineticGold Member must show fairness, tolerance, and respect to all people associated with KineticGold, regardless of race,
+                                        social class or religion, thereby fostering a “positive atmosphere” of teamwork, good morale and community spirit.</li>
+                                        <li>A Member shall strive to resolve with KineticGoldic issues, including issues with upline and downline Members,
+                                        by emphasizing tact, sensitivity, good will and taking care not to create additional prolems.</li>
+                                        <li>Members must remain responsible, professional and conduct themselves with kindness.</li>
+                                        <li>KineticGold Members shall not make disparaging statements about KineticGold, other Members, KineticGold product suppliers or agents,
+                                        products, services, KineticGold marketing campaigns, or the Profit-Sharing Plan, or make statements that unreasonably
+                                        offend, mislead or coerce others.</li>
 
-                                    {{--</ol>--}}
-                                {{--</li>--}}
-                                {{--<li>KineticGold may take appropriate action against a Member if it determines, in its sole discretion, that a Member’s conduct is detrimental,--}}
-                                {{--disruptive, or injurious to KineticGold or to other Members.</li>--}}
-                            {{--</ol>--}}
-                         {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--3.4 Reporting Policy Violation--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>A Member who observes a policy violation by another Member should submit a written and signed letter (e-mail will not be accepted)--}}
-                                   {{--of the violation directly to the KineticGold offices. The letter shall set forth the details of the incident as follows:--}}
-                                    {{--<ol type="I">--}}
-                                        {{--<li>The nature of the violation;</li>--}}
-                                        {{--<li>Specific facts to support the allegations;</li>--}}
-                                        {{--<li>Dates;</li>--}}
-                                        {{--<li>Number of occurrences;</li>--}}
-                                        {{--<li>Member involved; and</li>--}}
-                                        {{--<li>Supporting documentation</li>--}}
-                                    {{--</ol>--}}
-                                {{--</li>--}}
-                                {{--<li>Once the matter has been presented to KineticGold, it will be research thoroughly by the Compliance Department and appropriate action will be taken.</li>--}}
-                                {{--<li>This section refers to the general reporting of Policy violations as observed members for the mutual effort to support, protect, and--}}
-                                {{--defend the integrity of the KineticGold business and opportunity. If a Member has a grievance or complaint against another Member--}}
-                                {{--which directly relates to his or her KineticGold business, the guidelines set forth in these Policies must be followed.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--3.5 Sponsorship--}}
+                                    </ol>
+                                </li>
+                                <li>KineticGold may take appropriate action against a Member if it determines, in its sole discretion, that a Member’s conduct is detrimental,
+                                disruptive, or injurious to KineticGold or to other Members.</li>
+                            </ol>
+                         </div>
+                        <div class="form-group col-md-12 ">
+                        3.4 Reporting Policy Violation
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A Member who observes a policy violation by another Member should submit a written and signed letter (e-mail will not be accepted)
+                                   of the violation directly to the KineticGold offices. The letter shall set forth the details of the incident as follows:
+                                    <ol type="I">
+                                        <li>The nature of the violation;</li>
+                                        <li>Specific facts to support the allegations;</li>
+                                        <li>Dates;</li>
+                                        <li>Number of occurrences;</li>
+                                        <li>Member involved; and</li>
+                                        <li>Supporting documentation</li>
+                                    </ol>
+                                </li>
+                                <li>Once the matter has been presented to KineticGold, it will be research thoroughly by the Compliance Department and appropriate action will be taken.</li>
+                                <li>This section refers to the general reporting of Policy violations as observed members for the mutual effort to support, protect, and
+                                defend the integrity of the KineticGold business and opportunity. If a Member has a grievance or complaint against another Member
+                                which directly relates to his or her KineticGold business, the guidelines set forth in these Policies must be followed.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            3.5 Sponsorship
                         {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
                             {{--<ol type="A">--}}

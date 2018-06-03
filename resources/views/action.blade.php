@@ -5,10 +5,10 @@
 
        <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px;" >
           <img src="{{$imageUrl}}" width="900">
-          <div class="action " style="z-index:10; ">
+          <div class="Kineticaction " style="z-index:10; ">
                <p>{{$message}}</p>
           </div>
-          <div class="action2 " style="z-index:10; ">
+          <div class="Kineticaction2 " style="z-index:10; ">
                <p>{{$message2}}</p>
           </div>
        </div>
@@ -119,12 +119,13 @@
             <div style="z-index:12; font-size:20pt; color:Blue; left:50px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>
             <div style="z-index:12; left:50px; width:750px; position:relative;">
              <ul style="font-size:20pt; font-weight:bold; color:darkgreen;">
-                    <li>Rewards and Profit-Sharing</li>
                     <li>10% Reward for every Deposit</li>
                     <li>No Change in your Banking Habits</li>
                     <li>No purchasing of product you don't want or need</li>
                     <li>No Hidden Fees</li>
                     <li>No confusing Marketing plan</li>
+                    <li>Easy qualification for Profit-Sharing</li>
+                    <li>Mine Gold without Computers</li>
 
                </ul>
              </div>

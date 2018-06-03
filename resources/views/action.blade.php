@@ -13,19 +13,19 @@
           </div>
        </div>
 
-            <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:1280px; width:300px">
-                Free Information   Instant Access
-            </div>
-        <div style=" height:800px;width:602px; top:0px; left:900px; position:absolute;">
+        <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:1280px; width:300px">
+            Free Information   Instant Access
+        </div>
+        <div style=" height:800px;width:502px; top:0px; left:900px; position:absolute;">
 
-            <div style=" height:500px;width:600px;   position:relative; left:-50px; top:0px;">
+            <div style=" height:500px;width:500px;   position:relative; left:-50px; top:0px;">
                    <img src="{{$image2}}" height="530px">
 
             </div>
-            <div style=" height:490px;width:600px;   position:relative;">
+            <div style=" height:490px;width:500px;   position:relative;">
               <div class="container-fluid">
                   <div class="row">
-                      <div style="width:600px; height:508px;border:black 2px solid; ">
+                      <div style="width:500px; height:508px;border:black 2px solid; ">
                           <div class="panel panel-default">
                               <div class="panel-heading message2 center" >Get Started Today!</div>
                               <div class="panel-body">

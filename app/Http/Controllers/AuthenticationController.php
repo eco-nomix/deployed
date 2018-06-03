@@ -88,7 +88,7 @@ class AuthenticationController extends Controller
             $data['title'] = '';
             \Log::info("exit 1");
 
-            return view('welcome2',$data);
+            return view('welcome',$data);
         }
     }
 
@@ -152,7 +152,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = $user->id;
         $data['title'] = '';
         \Log::info("exit 1");
-        return view('welcome2',$data);
+        return view('welcome',$data);
     }
 
     public function getUserRoles($userId)

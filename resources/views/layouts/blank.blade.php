@@ -36,7 +36,7 @@
         font-weight:bold;
         color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;
-        font-size: 50px;
+        font-size: 60px;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;

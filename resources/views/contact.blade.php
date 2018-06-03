@@ -32,12 +32,11 @@
                        <div class="form-group col-md-12 ">
                             <table>
                                  <tr><td>Corporate Email:</td></tr>
-                                 <tr><td></td><td>CEO</td><tr>
-                                 <tr><td></td><td>Jay Simon</td><tr>
-                                 <tr><td></td><td>Simon@abc.com</td><tr>
+                                 <tr><td></td><td>Jay Potter</td><tr>
+                                 <tr><td></td><td>jpotter747@yahoo.com</td><tr>
                                  <tr><td>&nbsp;</td></tr>
                                  <tr><td></td><td>Administration</td><tr>
-                                 <tr><td></td><td>admin@abc.com</td><tr>
+                                 <tr><td></td><td>jpotter747@yahoo.com</td><tr>
                             </table>
                        </div>
 

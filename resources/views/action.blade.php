@@ -14,7 +14,7 @@
        </div>
 
         <div class="Kineticaction3" style=" position:absolute; top:100px; z-index:12; font-size:60px; left:920px; width:500px">
-            Free Information<br>Instant Access
+            Free Information<br><br>&nbsp;&nbsp;Instant Access
         </div>
         <div style=" height:800px;width:502px; top:0px; left:900px; position:absolute; ">
 

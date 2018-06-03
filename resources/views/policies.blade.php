@@ -583,7 +583,7 @@
                         5.1 Bonus Qualifications
                         </div>
                         <div class="form-group col-md-12 ">
-                           <ol style="A">
+                           <ol type="A">
                                 <li>A Member must be in compliance with KineticGold Procedures to qualify for Profit-Sharing. So long as a Member complies with the Terms of the Agreement,
                                  KineticGold shall pay Profit-Sharing to such Members in accordance with the Profit-Sharing Plan.</li>
                                 <li>KineticGold will not issue a payment to a Member without the receipt of a dated and signed KineticGold Member Agreement or Electronic Authorization.</li>

@@ -428,9 +428,9 @@
                         3.10 Single KineticGold account per Individual
                         </div>
                         <div class="form-group col-md-12 "><p style="margin-left: 20px">A Member may operate or have an ownership in an KineticGold account as the legal or equitable,
-                        as a sole proprietorship, partner, shareholder, trustee, or beneficiary, in only one Eco-Nomix position. No individual may have, operate or receive compensation
+                        as a sole proprietorship, partner, shareholder, trustee, or beneficiary, in only one KineticGold position. No individual may have, operate or receive compensation
                         from more than one KineticGold Profit-Sharing plan. A Household may contain multiple KineticGold Account holders who are independent. A “Household” is defined
-                        as all individuals who are living at or doing business at the same address, and who are related by blood, marriage, domestic KineticGoldip, or
+                        as all individuals who are living at or doing business at the same address, and who are related by blood, marriage, domestic, or
                         adoption, or who are living together as a family unit or in a family-like setting.</p>
                         </div>
                         <div class="form-group col-md-12 ">

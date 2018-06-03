@@ -509,7 +509,7 @@ class AuthenticationController extends Controller
         $data['message2'] = 'What we choose to do today will start out small
             like a seedling, but over time can become great for all the world to
             see.';
-        $data['member_story'] = $user->member_story;
+        $data['member_story'] = "hi";//$user->member_story;
         $data['user_pic'] = $user->picture;
         $data['image2'] = '../images/red_down_arrow.png';
         return view('action',$data);

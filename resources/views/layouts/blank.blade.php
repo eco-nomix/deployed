@@ -15,13 +15,13 @@
     <style>
     .Kineticaction {
         position: absolute;
-        left: 200px;
+        left: 150px;
         top: 50px;
         width:800px;
         font-weight:bold;
         color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;
-        font-size: 35px;
+        font-size: 72px;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;
@@ -36,7 +36,7 @@
         font-weight:bold;
         color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;
-        font-size: 35px;
+        font-size: 50px;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;

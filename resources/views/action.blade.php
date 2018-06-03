@@ -108,7 +108,7 @@
             </div>
             <div style="z-index:14; border:black 2px solid;height:160px; width:740px; top:0px; left:160px; position:absolute; ">
                  <div class="form-group">
-                      <div class="col-md-14" style="font-size:14px;">
+                      <div class="col-md-12" style="font-size:20px; font-weight:bold;">
                          {{$member_story}}
                       </div>
                  </div>

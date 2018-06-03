@@ -19,13 +19,14 @@
         top: 50px;
         width:800px;
         font-weight:bold;
-        color:#000000;
+        color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;
         font-size: 35px;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;
         line-height: 53px;
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     }
     .Kineticaction2 {
         position: absolute;
@@ -33,13 +34,14 @@
         top: 150px;
         width:700px;
         font-weight:bold;
-        color:#c0c0c0;
+        color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;
         font-size: 35px;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;
-        line-height: 23px;
+        line-height: 53px;
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     }
     </style>
 

@@ -511,6 +511,8 @@
                           <ol type="A">
                                 <li>KineticGold Members may purchase KinticGold products for there own use and are not for the purpose of resale other than at KineticGold standard Pricing.
                                  There are no exclusive KineticGold prices granted to anyone. No franchise fees are applicable to an KineticGold business.
+                                 </li>
+                                 <li>
                                    Members should purchase only those products that they need or can utilize personally.  Each member has direct access to products through the website.</li>
                                </ol>
                         </div>

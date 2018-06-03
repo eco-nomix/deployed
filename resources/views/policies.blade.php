@@ -759,12 +759,12 @@
                                 <li>An KineticGold Member’s use of the name “KineticGold” is restricted to protect KineticGold proprietary rights,
                                 ensure that name of "KineticGold" not be lost or compromised by unauthorized use. Use of the KineticGold name on any item not produced by KineticGold
                                  is prohibited except as follows:
-                                    <ol type="I">
+                                    <ol type="i">
                                         <li>[Member’s name] KineticGold Member</li>
                                         <li>[Member's name]  Member of KineticGold banking platform and services.</li>
                                     </ol></li>
                                 <li>Further procedures relating to the KineticGold name are restricted
-                                    <ol type="I">
+                                    <ol type="i">
                                         <li>All stationary (i.e. letterhead, envelopes, and business cards) bearing the KineticGold name or logo intended for KineticGold Members
                                             must be approved in writing by the KineticGold Compliance Department
                                         </li>
@@ -791,7 +791,7 @@
                             <ol type="A">
                                 <li>Except as provided in this section, a Member may not use or transmit unsolicited faxes, email, mass email distribution, or “spamming” that advertises or promotes the operation
                                 of his or her KineticGold business. The exceptions are;
-                                    <ol type="I">
+                                    <ol type="i">
                                         <li>Faxes or e-mailing any person who has given prior permission or invitation;</li>
                                         <li>Faxing or e-mailing any person with whom the Member has established a prior business or personal relationship.</li>
                                     </ol></li>

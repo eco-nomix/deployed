@@ -46,7 +46,7 @@
     </style>
 
 </head>
-<body class="KineticGoldbody">
+<body >
     {{--@include('layouts.navigation2')--}}
     @yield('content')
     @yield('footer')

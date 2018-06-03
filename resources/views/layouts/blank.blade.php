@@ -49,7 +49,7 @@
 <body >
     {{--@include('layouts.navigation2')--}}
     @yield('content')
-    @yield('footer')
+    {{--@yield('footer')--}}
 
 </body>
 </html>

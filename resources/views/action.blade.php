@@ -1,7 +1,7 @@
 @extends('layouts.blank')
 
 @section('content')
-
+<div style="border-style:solid; border-color:red; border-width:1px;">
 
        <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px; border-style:dashed; border-color:red; border-width:1px;" >
           <img src="{{$imageUrl}}" width="900">
@@ -130,4 +130,5 @@
                </ul>
              </div>
         </div>
+ </div>
 @endsection

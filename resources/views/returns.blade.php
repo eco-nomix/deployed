@@ -30,6 +30,7 @@
                            <li>With respect to return of Sales Aids, KineticGold  offers refund opportunities depending on the product or service purchased.
                            Shipping and handling incurred will not be refunded.</li>
                            <li>Customized products (such as business cards) may only be returned if the customized information (name, address, etc) is other than as ordered. </li>
+                           <li>KineticGold offers a one hundred percent (100%) three day money back guarantee for membership in the KineticGold Membership association during the Pre-Launch phase.  Once the Launch takes place this will be a non-refundable fee, as the expenses of setting up the account will be immediate.</li>
                          </ol>
                         </div>
                         <div class="form-group col-md-12 ">

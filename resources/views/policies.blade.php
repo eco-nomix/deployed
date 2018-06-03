@@ -103,81 +103,81 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         1.5 Delays
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                                {{--<p style="margin-left: 20px" >KineticGold shall not be responsible for delays or failures in performance of its obligations--}}
-                                {{--when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes,--}}
-                                {{--labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply,--}}
-                                {{--or government decrees or orders.</p>--}}
-                        {{--</div>--}}
+                        </div>
+                        <div class="form-group col-md-12 ">
+                                <p style="margin-left: 20px" >KineticGold shall not be responsible for delays or failures in performance of its obligations
+                                when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes,
+                                labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply,
+                                or government decrees or orders.</p>
+                        </div>
 
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--1.6 Effective Date--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<p style="margin-left: 20px" > These Policies and Procedures shall become effective as of June 1st, 2018 and, at such time,--}}
-                            {{--shall automatically supersede any prior Policies and Procedures (the “old Policies and Procedures”), and, on that date,--}}
-                            {{--the old Policies and Procedures shall cease to have any force or effect.</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.0 BASIC PRINCIPLES--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.1 Becoming An KineticGold Member--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                         {{--<p style="margin-left: 20px" >To become a Member, an applicant must comply with the following requirements:</p>--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>Be of the age of majority (not a minor) in his or her state of residence.</li>--}}
-                                {{--<li>Reside or have a valid address where materials may be sent.</li>--}}
-                                {{--<li>Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outside the US.</li>--}}
-                                {{--<li>Submit a completed and electronically signed Member Agreement to Eco-Nomix through its website.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.2 New Member Registration--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>A new Member will self-enroll on the Sponsor’s website. KineticGold will accept the Web-enrollment and Member Agreement by accepting--}}
-                                {{--the “electronic signature” stating the new Member has accepted the Terms and Conditions and Member Agreement. Please note that--}}
-                                {{--such electronic signature constitutes a legally binding agreement between KineticGold and the member.</li>--}}
-                                {{--<li>KineticGold reserves the right to require signed paperwork for a KineticGold account, regardless of origin.</li>--}}
-                                {{--<li>If requested the signed Member Agreement must be received by KineticGoldwithin 14 days of enrollment.</li>--}}
-                                {{--<li>Signed documents, including, but not limited to, Member personal agreements, are legally binding contracts which must not be altered,--}}
-                                {{--tampered with or changed in any manner after they have been signed. False or misleading information,--}}
-                                {{--forged signatures or alterations to any document, including business registration forms, made after a document--}}
-                                {{--has been signed may lead to sanctions, up to and including involuntary termination of the Member’s position.</li>--}}
+                        <div class="form-group col-md-12 ">
+                        1.6 Effective Date
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <p style="margin-left: 20px" > These Policies and Procedures shall become effective as of June 1st, 2018 and, at such time,
+                            shall automatically supersede any prior Policies and Procedures (the “old Policies and Procedures”), and, on that date,
+                            the old Policies and Procedures shall cease to have any force or effect.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.0 BASIC PRINCIPLES
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.1 Becoming An KineticGold Member
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px" >To become a Member, an applicant must comply with the following requirements:</p>
+                            <ol type="A">
+                                <li>Be of the age of majority (not a minor) in his or her state of residence.</li>
+                                <li>Reside or have a valid address where materials may be sent.</li>
+                                <li>Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outside the US.</li>
+                                <li>Submit a completed and electronically signed Member Agreement to Eco-Nomix through its website.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.2 New Member Registration
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A new Member will self-enroll on the Sponsor’s website. KineticGold will accept the Web-enrollment and Member Agreement by accepting
+                                the “electronic signature” stating the new Member has accepted the Terms and Conditions and Member Agreement. Please note that
+                                such electronic signature constitutes a legally binding agreement between KineticGold and the member.</li>
+                                <li>KineticGold reserves the right to require signed paperwork for a KineticGold account, regardless of origin.</li>
+                                <li>If requested the signed Member Agreement must be received by KineticGoldwithin 14 days of enrollment.</li>
+                                <li>Signed documents, including, but not limited to, Member personal agreements, are legally binding contracts which must not be altered,
+                                tampered with or changed in any manner after they have been signed. False or misleading information,
+                                forged signatures or alterations to any document, including business registration forms, made after a document
+                                has been signed may lead to sanctions, up to and including involuntary termination of the Member’s position.</li>
 
-                            {{--</ol>--}}
-                        {{--</div>--}}
+                            </ol>
+                        </div>
 
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.3 Rights Granted by KineticGold--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                         {{--<p style="margin-left: 20px" >KineticGold hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained in the Member Agreement and--}}
-                         {{--these Policies and Procedures, to:</p>--}}
-                         {{--<ol type="A">--}}
-                            {{--<li>Purchase KineticGold membership, products and services</li>--}}
-                            {{--<li>new Members and Customers in the United States and in countries where KineticGold may become established after the effective date of these Policies and Procedures.</li>--}}
-                         {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.4 Identification Numbers--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>Each member is required to provide his or her Social Security Number, or Federal Tax Id Number, if located withing the United States or--}}
-                                {{--any of its territories, to Eco-Nomix on the KineticGold website.  Equivalent documentation will be required from those outside of the US.--}}
-                                {{--KineticGold reserves the right to withhold payments to Members who fails to provide such information or who provides false information to KineticGold--}}
-                                 {{--</li>--}}
-                                {{--<li>Upon enrollment, KineticGold will provide an KineticGold Identification Number to the Member. This number will be used to place orders,--}}
-                                {{--structure organizations, and track Awards and Profit-Sharing.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.5 Renewals and Expiration of the Member Agreement--}}
+                        <div class="form-group col-md-12 ">
+                        2.3 Rights Granted by KineticGold
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px" >KineticGold hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained in the Member Agreement and
+                         these Policies and Procedures, to:</p>
+                         <ol type="A">
+                            <li>Purchase KineticGold membership, products and services</li>
+                            <li>new Members and Customers in the United States and in countries where KineticGold may become established after the effective date of these Policies and Procedures.</li>
+                         </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.4 Identification Numbers
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Each member is required to provide his or her Social Security Number, or Federal Tax Id Number, if located withing the United States or
+                                any of its territories, to Eco-Nomix on the KineticGold website.  Equivalent documentation will be required from those outside of the US.
+                                KineticGold reserves the right to withhold payments to Members who fails to provide such information or who provides false information to KineticGold
+                                 </li>
+                                <li>Upon enrollment, KineticGold will provide an KineticGold Identification Number to the Member. This number will be used to place orders,
+                                structure organizations, and track Awards and Profit-Sharing.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.5 Renewals and Expiration of the Member Agreement
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                             {{--<ol type="A">--}}

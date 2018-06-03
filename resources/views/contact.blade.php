@@ -16,13 +16,13 @@
                     </div>
                 </div>
                <div class="panel panel-default display">
-                   <div class="panel-heading">Contact KineticGold Inc.</div>
+                   <div class="panel-heading">Contact KineticGold</div>
                    <div class="panel-body">
                        <div class="form-group col-md-12 ">
 
                             <table width="100%">
                                 <tr><td>Corporate Mailing<br> Address:</td></tr>
-                                <tr><td></td><td>KineticGold Inc.</td><tr>
+                                <tr><td></td><td>KineticGold</td><tr>
                                 <tr><td></td><td>8029 Highway 641 S.</td></tr>
                                 <tr><td></td><td>Paris, Tennessee</td></tr>
                                 <tr><td></td><td>38242</td></tr>

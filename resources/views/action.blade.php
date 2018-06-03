@@ -12,7 +12,7 @@
                <p>{{$message2}}</p>
           </div>
        </div>
-
+</div>
         <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:1280px; width:300px">
             Free Information   Instant Access
         </div>

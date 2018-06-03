@@ -505,7 +505,7 @@
                        </div>
 
                          <div class="form-group col-md-12 ">
-                             3.14 Sales Requirements are Governed by the KineticGold Profit Sharing PlanKineticGoldn Plan
+                             3.14 Deposit Requirements are Governed by the KineticGold Profit Sharing Plan
                         </div>
                         <div class="form-group col-md-12 ">
                           <ol type="A">
@@ -525,7 +525,7 @@
                         <div class="form-group col-md-12 ">
                             <ol type="A">
                                 <li>“Bonus Buying” is strictly and absolutely prohibited and includes;
-                                <ol type="a">
+                                <ol type="i">   
                                     <li>the enrollment of individuals or entities without the knowledge of
                                 and/or execution of an Agreement by such individuals or Business Entities;</li>
                                     <li>for fraudulent enrollment of an individual or entity as a Member or Customer; </li>

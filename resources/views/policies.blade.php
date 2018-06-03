@@ -5,6 +5,7 @@
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
  <div style="width:100%">
+
      <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
          <div class="skip">&nbsp;</div>
              <div class="trans row">
@@ -550,7 +551,7 @@
                                 <li>If a credit card order or automatic debit is declined  the Customer or Member will be contacted for an alternate form of payment. Payment to KineticGold
                                 is declined a second time, the Customer or Member may be deemed ineligible to purchase Eco-Nomix products or services.</li>
                             </ol>
-  KineticGold             </div>
+                         </div>
                          <div class="form-group col-md-12 ">
                         4.3 Sales Tax Obligation
                         </div>
@@ -574,7 +575,7 @@
                      <div class="form-group col-md-12 ">
                         5.0 PAYMENT OF BONUSES
                         </div>
-  KineticGold             <div class="form-group col-md-12 ">
+                        <div class="form-group col-md-12 ">
                         5.1 Bonus Qualifications
                         </div>
                         <div class="form-group col-md-12 ">
@@ -784,6 +785,13 @@
                                 (by telephone, facsimile, computer or other device), an unsolicited advertisement</li>
                             </ol>
                         </div>
-                        </div>
-                        </div>
-                        </div>
+                  </div>
+             </div>
+          </div>
+      </div>
+  </div>
+</div>
+       </div>
+       </div>
+       </div>
+       </div> 

@@ -46,7 +46,7 @@
     </style>
 
 </head>
-<body >
+<body style="width:1420px; height:1020px;" >
     {{--@include('layouts.navigation2')--}}
     @yield('content')
     {{--@yield('footer')--}}

@@ -33,34 +33,34 @@
                                   <form class="form-horizontal" role="form" method="POST" action="/register">
                                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                       <div class="form-group">
-                                           <div class="col-md-6">
+                                           <div class="col-md-8">
                                                &nbsp;
                                            </div>
                                       </div>
                                       <div class="form-group">
                                           <label class="col-md-4 control-label">First Name</label>
-                                          <div class="col-md-7">
+                                          <div class="col-md-8">
                                               <input type="text" class="form-control" name="first_name" value="">
                                           </div>
                                       </div>
 
                                       <div class="form-group">
                                           <label class="col-md-4 control-label">Last Name</label>
-                                          <div class="col-md-7">
+                                          <div class="col-md-8">
                                               <input type="text" class="form-control" name="last_name" value="">
                                           </div>
                                       </div>
 
                                       <div class="form-group">
                                           <label class="col-md-4 control-label">E-Mail Address</label>
-                                          <div class="col-md-7">
+                                          <div class="col-md-8">
                                               <input type="email" class="form-control" name="email" value="">
                                           </div>
                                       </div>
 
                                       <div class="form-group">
                                           <label class="col-md-4 control-label">New User Name</label>
-                                          <div class="col-md-7">
+                                          <div class="col-md-8">
                                               <input type="text" class="form-control" name="username" value="">
                                           </div>
                                       </div>

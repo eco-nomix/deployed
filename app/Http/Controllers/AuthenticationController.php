@@ -502,13 +502,15 @@ class AuthenticationController extends Controller
         $data['user_name']='';
         $data['userRoles'] = $this->getUserRoles('x');
         $data['errors'] = '';
-        $data['title'] = 'Opportunity';
-        $data['description'] = 'Opportunity to Change Your Life';
-        $data['imageUrl'] = '../images/HandsPlant.jpeg';
-        $data['message'] = 'An Opportunity to Change Your Life! ';
-        $data['message2'] = 'What we choose to do today will start out small
-            like a seedling, but over time can become great for all the world to
-            see.';
+        $data['title'] = 'KineticGold';
+        $data['description'] = 'Gold-Backed Banking';
+        $data['imageUrl'] = '../images/denmark.jpeg';
+       // $data['imageUrl'] = '../images/HandsPlant.jpeg';
+        $data['message'] = 'Let your Bank give you a 10% raise';
+      //  $data['message2'] = 'What we choose to do today will start out small
+       //     like a seedling, but over time can become great for all the world to
+       //     see.';
+        $data['message2'] = 'To Find out how, fill out this simple form, confirm your email and get 10% Rewards with every deposit';
         $data['member_story'] = "hi";//$user->member_story;
         $data['user_pic'] = $user->picture;
         $data['image2'] = '../images/red_down_arrow.png';

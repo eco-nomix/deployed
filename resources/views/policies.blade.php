@@ -23,53 +23,63 @@
                     	1.1 Mutual Commitment Statement
                     	</div>
                     	<div class="form-group col-md-12 ">
-                        <p style="margin-left: 20KineticGoldGoldix Inc and its KineticGoldicGoldomix.org (“herKineticGoldeticGold-Nomix ” and the “Company”) recognizes that in order to develop a long-term and mutually rewarding relationship with its Registered Users and Members(“Member”)KineticGoldineticGoldco-Nomix and the Members must acknowledge and respect the true nature of the relationship and support the Customers.</p>
-                        </div>
-                        <div class="form-group col-md-12 ">
+
                          <ol type="A">
-                            <li >In the spirit of mutual respectKineticGoldrKineticGold Eco-Nomix is committed to:</li>
+                            <li >In the spirit of mutual respect KineticGold is committed to:</li>
                             <ol type="I">
                                 <li >Provide prompt, professional and courteous service and communications to all of its Members and Customers.</li>
                                 <li>Provide the highest level of quality products, at fair and reasonable prices. </li>
                                 <li>Exchange or refund the purchase price of any product, service or membership as provided in our Return Policy.</li>
                                 <li>Deliver orders promptly and accurately.</li>
-                                <li>Pay Referral Bonuses accurately and on a timely basis.</li>
+                                <li>Pay Profit-Sharing accurately and on a timely basis.</li>
                                 <li>Expedite orders if an error or unreasonable delay occurs.</li>
                                 <li>Roll out new products and programs with Member input and planning.</li>
                                 <li>Implement changes in the Compensation Plan or Policies and Procedures that affect the Member with input from the Members</li>
-                                <li>Support, protect and defeKineticGoldtegKineticGoldhe Eco-Nomix Business Opportunity</li>
-                                <li>Offer Members KineticGoldunityKineticGoldwith Eco-Nomix with such growth guided by the principles of Servant Leadership.</li>
+                                <li>Support, protect and defend the KineticGold Business Opportunity</li>
+                                <li>Offer Members KineticGold with such growth guided by the principles of Servant Leadership.</li>
                             </ol>
-           KineticGold       KineticGoldeturn, Eco-Nomix expects that its Members will:</li>
+                            KineticGold in return, expects that its Members will:
+                            </li>
                             <ol type="I">
                                 <li>Conduct themselves in a professional, honest, and considerate manner.</li>
-        KineticGold         KineticGold>Present Eco-Nomix Corporate and product information in an accurate and professional manner.</li>
+                                <li>Present KineticGold Corporate and product information in an accurate and professional manner.</li>
                                 <li>Present the Compensation Plan and Return Policy in a complete and accurate manner.</li>
                                 <li>Not make exaggerated income claims.</li>
                                 <li>Make reasonable effort(s) to support and train Members and Customers in their downline.</li>
                                 <li>Not engage in cross-line recruiting, unhealthy competition or unethical business practices.</li>
-                                <li>Provide positive guidance and training to Members and Customers in their downline while exercising caution to avoid interference with other downlines. As such, a Member is discouraged from providing cross-line training to a Member or Customer in a different organization without first obtaining consent of the Member’s or Customer’s upline sponsor.</li>
-                                <li>Support, pKineticGoldnd defend tKineticGoldity of the Eco-Nomix Business Opportunity</li>
+                                <li>Provide positive guidance and training to Members and Customers in their downline while exercising
+                                    caution to avoid interference with other downlines. As such, a Member is discouraged from providing
+                                    cross-line training to a Member or Customer in a different organization without first obtaining consent
+                                    of the Member’s or Customer’s upline sponsor.</li>
+                                <li>Support, defend the KineticGold Business Opportunity</li>
                                 <li>Accurately complete and submit the Member Agreement and any requested supporting documentation in a timely manner.</li>
                             </ol>
                          </ol>
                         </div>
-                        <div class="form-groKineticGold-12 ">
-      KineticGold         1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member<br> <p style="margin-left: 40px"> Agreement</p>
+                        <div class="form-group col-md-12 ">
+                             1.2 Eco-Nomix Policies and Compensation Plan Incorporated into the Member<br> <p style="margin-left: 40px"> Agreement</p>
                         </div>
                         <div class="form-group col-md-12 ">
                          <ol type="A">
-                            <li>Throughout these Policies, when the term “AgKineticGoldis used, it colKineticGold refers to the Eco-NomiKineticGoldnt, these PolicieKineticGoldcedures, and the Eco-Nomix Compensation Plan.</li>
-                            <li>The most cKineticGoldrsion of these PoliKineticGoldProcedurKineticGolde Eco-Nomix CompensatKineticGoldare available on the Eco-Nomix website and should be read by the potential member before joining.</li>
+                            <li>Throughout these Policies, when the term “KineticGold used, it collectively refers to the KineticGold, these Policies and Procedures, and the KineticGold Compensation Plan.</li>
+                            <li>The most current version of these Policies and Procedures are available on the KineticGold website and should be read by the potential member before joining.</li>
                          </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         1.3 Purpose of Policies
                         </div>
                         <div class="form-group col-md-12 ">
-        KineticGold         <ol type="A">
-KineticGold                   <li>Eco-Nomix is a direct sales company that markets products and services through a company sponsored website. Members should refer those with questions about products or the marketing plan to the Website.KineticGoldly define the relationshiKineticGoldists between Members and Eco-NKineticGold to explicitly set a standaKineticGoldceptable business conduct, Eco-Nomix has estaKineticGoldhese Policies and Procedures.KineticGold                         <li>Eco-Nomix Members are required to comply witKineticGoldl of the Terms and Conditions sKineticGoldin the Member Agreement, which Eco-Nomix may amend from time to time in its sole discretion; (ii) all FederKineticGold, Provincial, Territorial, and/orKineticGoldws governing his, her and/or its Eco-Nomix KineticGold and (iii) these Policies and ProceKineticGoldi>
-                            <li>Eco-Nomix Members must review the information in these Policies and Procedures carefully. Should a Member have any questions regarding a policy or rule, the Member is encouraged to seek an answer from their SpKineticGoldany other upline Member. If further cKineticGoldion is needed the Member may contact Eco-Nomix Customer Service.</li>
+                           <ol type="A">
+                            <li>KineticGold is a membership sales company that markets products and services through a company sponsored website.
+                                Members should refer those with questions about products or the marketing plan to the Website.
+                                KineticGold defines the relationship between Members and KineticGold to explicitly set a standard acceptable business conduct, KineticGold has established these
+                                Policies and Procedures.</li>
+                            <li>(i)KineticGold Members are required to comply with KineticGold's Terms and Conditions found within the Member Agreement, which KineticGold
+                                may amend from time to time in its sole discretion; (ii) all Federal, Provincial, Territorial, and/or laws governing his, her and/or its KineticGold and (iii)
+                                these Policies and Procedures</li>>
+                            <li>KineticGold Members must review the information in these Policies and Procedures carefully.
+                                Should a Member have any questions regarding a policy or rule, the Member is encouraged to seek an answer directly from KineticGold Customer Service and not rely upon any other
+                                upline Member. </li>
                           </ol>
                         </div>
                         <div class="form-group col-md-12 ">
@@ -77,67 +87,92 @@ KineticGold                   <li>Eco-Nomix is a direct sales company that marke
                         </div>
                         <div class="form-group col-md-12 ">
                          <ol type="A">
-                            <li>BeKineticGolderal, State, and local laws, as well asKineticGoldness environmKineticGoldodically change, Eco-Nomix reserves the rKineticGoldmend the Agreement and the prices in its Eco-Nomix ProdKineticGold List in its sole and absolute discretion. KineticGoldion of amendments shall appear in Official Eco-Nomix Materials. This provision does NOT apply to the arbitration clause found in Section 13, which can only be modified via mutual consent.</li>
-                            <li>Any such amendment, change, or modification shall be effective immediately upon notice by one of the following methods:KineticGold                         <ol type="I">
-      KineticGold                 <li>Posting on the official Eco-Nomix website;</li>
-                 KineticGold      <li>ElectronicKineticGoldmail); or</li>
-   KineticGold                    KineticGolditing through the Eco-Nomix newsletters or other Eco-Nomix communication channels.</li>
+                            <li>Federal, State, and local laws, as well KineticGold's policies and procedures perodically change, KineticGold reserves the right to ammend this Agreement
+                            and the prices in its KineticGold Product List in its sole and absolute discretion.
+                            KineticGold's amendments shall appear in Official KineticGold Materials. This provision does NOT apply to the arbitration clause found in Section 13,
+                            which can only be modified via mutual consent.</li>
+                            <li>Any such amendment, change, or modification shall be effective immediately upon notice by one of the following methods:
+                                  <ol type="I">
+                                        <li>Posting on the official KineticGold website;</li>
+                                        <li>Electronic mail); or</li>
+                                        <li>Through the Eco-Nomix newsletters or other Eco-Nomix communication channels.</li>
+                                  </ol>
+                            </li>
                          </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         1.5 Delays
-                        </diKineticGold                  <div class="form-group col-md-12 KineticGold                     <p style="margin-left: 20px" >Eco-Nomix shall not be responsible for delays or failures in performance of its obligations when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes, labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply, or government decrees or orders.</p>
-                         </div>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                                <p style="margin-left: 20px" >KineticGold shall not be responsible for delays or failures in performance of its obligations
+                                when such failure is due to circumstances beyond its reasonable control. This includes, without limitation, strikes,
+                                labor difficulties, transportation difficulties, riot, war, fire, and/or weather, curtailment of a source of supply,
+                                or government decrees or orders.</p>
+                        </div>
+
                         <div class="form-group col-md-12 ">
                         1.6 Effective Date
                         </div>
                         <div class="form-group col-md-12 ">
-                            <p style="margin-left: 20px" > These Policies and Procedures shall become effective as of Jan 1st, 2017 and, at such time, shall automatically supersede any prior Policies and Procedures (the “old Policies and Procedures”), and, on that date, the old Policies and Procedures shall cease to have any force or effect.</p>
+                            <p style="margin-left: 20px" > These Policies and Procedures shall become effective as of June 1st, 2018 and, at such time,
+                            shall automatically supersede any prior Policies and Procedures (the “old Policies and Procedures”), and, on that date,
+                            the old Policies and Procedures shall cease to have any force or effect.</p>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.0 BASIC PRINCIPLES
-       KineticGold        </div>
-                        <div class="foKineticGoldcol-md-12 ">
-                        2.1 Becoming An Eco-Nomix Member
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.1 Becoming An KineticGold Member
                         </div>
                         <div class="form-group col-md-12 ">
                          <p style="margin-left: 20px" >To become a Member, an applicant must comply with the following requirements:</p>
                             <ol type="A">
                                 <li>Be of the age of majority (not a minor) in his or her state of residence.</li>
                                 <li>Reside or have a valid address where materials may be sent.</li>
-                                <li>Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outsidKineticGoldUS.</li>
-                                <li>Submit a pKineticGoldompleted and electronically signed Member Agreement to Eco-Nomix through its website.</li>
+                                <li>Have a valid Social Security Number, Federal Tax Identification Number or submit a fully executed IRS W8 or equivalent if living outside the US.</li>
+                                <li>Submit a completed and electronically signed Member Agreement to Eco-Nomix through its website.</li>
                             </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.2 New Member Registration
                         </div>
                         <div class="form-group col-md-12 ">
-            KineticGold       <ol type="A">
-                                <li>KineticGoldal new Member will self-enroll on the Sponsor’s website. Eco-Nomix will accept the Web-enrollment and Member Agreement by accepting the “electronic signature” stating the new Member has accepted the Terms and ConditiKineticGoldch Member Agreement. Please note that sucKineticGoldnic signaKineticGoldtitutes a legally binding agreement betweKineticGoldmber and Eco-Nomix.</li>
-                                <li>Eco-Nomix reserves the right to require signed paperwoKineticGoldy account, regardless of origin.</li>
-                         KineticGoldi>If requested the signed Member Agreement must be received by Eco-Nomix within 14 days of enrollment.</li>
-                                <li>Signed documents, including, but not limited to, Member personal agreements, are legally binding contracts which must not be altered, tampered with or changed in any manner after they have been signed. False or misleading information, forged signatures or alterations to any document, including business registration forms, made after a document has been signed may lead to sanctions, up to and including involuntary termination of the Member’s position.</li>
+                            <ol type="A">
+                                <li>A new Member will self-enroll on the Sponsor’s website. KineticGold will accept the Web-enrollment and Member Agreement by accepting
+                                the “electronic signature” stating the new Member has accepted the Terms and Conditions and Member Agreement. Please note that
+                                such electronic signature constitutes a legally binding agreement between KineticGold and the member.</li>
+                                <li>KineticGold reserves the right to require signed paperwork for a KineticGold account, regardless of origin.</li>
+                                <li>If requested the signed Member Agreement must be received by KineticGoldwithin 14 days of enrollment.</li>
+                                <li>Signed documents, including, but not limited to, Member personal agreements, are legally binding contracts which must not be altered,
+                                tampered with or changed in any manner after they have been signed. False or misleading information,
+                                forged signatures or alterations to any document, including business registration forms, made after a document
+                                has been signed may lead to sanctions, up to and including involuntary termination of the Member’s position.</li>
 
                             </ol>
                         </div>
 
                         <div class="form-group col-md-12 ">
-                        2.3 Rights GranteKineticGold                 </div>
-                        <div class="form-KineticGold-md-12 ">
-                         <p style="margin-left: 20px" >Eco-Nomix hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained inKineticGolder Agreement and these Policies and Procedures, to:</p>
-           KineticGold        <ol type="A">
-                       KineticGold<li>Purchase Eco-Nomix products and services</li>
-                   KineticGold    <li>Promote and sell their own products and serKineticGoldough the Eco-Nomix website; and</li>
-                                <lKineticGold new Members and Customers in the United States and in countries where Eco-Nomix may become established after the effective date of these Policies and Procedures.</li>
-                            </ol>
+                        2.3 Rights Granted by KineticGold
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px" >KineticGold hereby grants to the Member a non-exclusive right, based upon the Terms and Conditions contained in the Member Agreement and
+                         these Policies and Procedures, to:</p>
+                         <ol type="A">
+                            <li>Purchase KineticGold membership, products and services</li>
+                            <li>new Members and Customers in the United States and in countries where KineticGold may become established after the effective date of these Policies and Procedures.</li>
+                         </ol>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.4 Identification Numbers
                         </div>
                         <div class="form-group col-md-12 ">
                             <ol type="A">
-                                <li>Each MKineticGoldrequired to provide his or her Social Security Number, or Federal Tax IdeKineticGoldon Number, ifKineticGoldin the United States or any of its territories, to Eco-Nomix on the Member KineticGold.  Equivalent documentation will be required from those outside of the US. Eco-Nomix reserves the right to withKineticGoldission paymentsKineticGold Member who fails to provide such information or who KineticGoldfalse informatiKineticGold                                <li>Upon enrollment, Eco-Nomix will provide an Eco-Nomix Identification Number to the Member. This number will be used to place orders, structure organizations, and track commissions and bonuses.</li>
+                                <li>Each member is required to provide his or her Social Security Number, or Federal Tax Id Number, if located withing the United States or
+                                any of its territories, to Eco-Nomix on the KineticGold website.  Equivalent documentation will be required from those outside of the US.
+                                KineticGold reserves the right to withhold payments to Members who fails to provide such information or who provides false information to KineticGold
+                                 </li>
+                                <li>Upon enrollment, KineticGold will provide an KineticGold Identification Number to the Member. This number will be used to place orders,
+                                structure organizations, and track Awards and Profit-Sharing.</li>
                             </ol>
                         </div>
                         <div class="form-group col-md-12 ">
@@ -146,8 +181,8 @@ KineticGold                   <li>Eco-Nomix is a direct sales company that marke
                         <div class="form-group col-md-12 ">
                             <ol type="A">
                                 <li>There are no renewal fees or purchase requirements for members to maintain their membership.</li>
-                                <li>There is a annual fee of $9.95 (US) or $19.95 (International) for the Debit card if purchased.  If this fee is not paid by the renewal date, then the card will go inactive until annual feeKineticGold  Referral Fees accumulate with or without an active Debit Card.</li>
-           KineticGold            <li>Any Member who was terminated is not eligible to re-apply for an Eco-Nomix Membership for 12 months following the Termination of the Member Agreement.</li>
+                                <li>There is no annual fee for the Debit card once it has been issued. </li>
+                                <li>Any Member who was terminated is not eligible to re-apply for an KineticGold Membership for 12 months following the Termination of the Member Agreement.</li>
                                 <li>The downline of the terminated Member will roll up to the immediate, upline Sponsor.</li>
                             </ol>
                         </div>
@@ -155,197 +190,300 @@ KineticGold                   <li>Eco-Nomix is a direct sales company that marke
                         2.6 Business Entities
                         </div>
                         <div class="form-group col-md-12 ">
-     KineticGold              <ol type="A">
-                                <li>A corporation, partKineticGoldLLC, or trust (collectively referred to as a “Business Entity”) may apply to be an Eco-Nomix Member. This Member business and position will remain temporary until the proper documents aKineticGoldted. The Business Entity must submit one of the following documents: Certificate of IKineticGoldion, Articles of Organization, PartnerKineticGoldement or appropriate Trust documents. Eco-Nomix must receive these documents within 14 KineticGold the date the Member Agreement was signed.</li>
-                                <li>An Eco-Nomix Member may change their status under the same Sponsor from an individual to a partnership, LLC, corporation, trust or from one type of business entity to another.</li>
-                            </ol>
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        2.7 Independent Business Relationship; IndemKineticGoldn for Actions
-                        </div>
-                        <div class="form-groKineticGold-12 ">
                             <ol type="A">
-                                <li>The Eco-Nomix Member is an independent contractor,KineticGolda purchaser of a franchise or business opportunity. Therefore, each Member’s success dependKineticGoldor her indKineticGoldefforts.</li>
-                                <li>The AgreeKineticGoldeen Eco-Nomix and its MemKineticGold not creaKineticGoldloyer/employee relationship, agency, partKineticGoldor joint venture between Eco-Nomix and the MeKineticGold>
-                                <li>An Eco-Nomix Member shall not be treated as an employee of Eco-Nomix for any purpKineticGoldluding, without limitation, for Federal, State, KineticGoldcial tax purposes. All Members are responsKineticGoldpaying local, State, Provincial, and Federal taxKineticGoldom all compensation earned as a Member of Eco-Nomix. AnKineticGoldompensation received by Members from Eco-Nomix will be governedKineticGoldcable U.S. or Canadian tax lawsKineticGoldtax laws of any other applicable jurisdiction). The Member has KineticGolds or implied authority to bind Eco-Nomix to any obligation or to make any commitments by or on behalf of Eco-Nomix. Each Member, whether acting as management of a Business Entity or represented as an individual, shall establish his or her own goals, hours,KineticGoldods of operation and sale, so long as he or she complies with the Terms of the Member Agreement, tKineticGoldKineticGoldProcedures and applicable State, Federal and Provincial laws.</li>
-                KineticGold      KineticGoldEco-Nomix Member is fully responsibKineticGoldl of his or her verbal and written communications KineticGoldrding Eco-Nomix products, services, and the CompensaKineticGold that are not expressly contained within official Eco-Nomix materKineticGoldbers shall indemnify and hold harmless Eco-Nomix, its directors, officers, employees, product suppliers and agents KinetKineticGold against all liability including judgments, civil penalties, refunds, attorney fees and court costs incurred by Eco-NKineticGold result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the Eco-Nomix Member Agreement.</li>
+                                <li>A corporation, partnership, LLC, or trust (collectively referred to as a “Business Entity”) may apply to be an KineticGold Member.
+                                This Member business and position will remain temporary until the proper documents are received. The Business Entity must submit one of
+                                the following documents: Certificate of Incorporation, Articles of Organization, Partnership agreement or appropriate Trust documents.
+                                KineticGold must receive these documents within 14 days from the date the Member Agreement was signed.</li>
+                                <li>An KineticGold Member may change their status under the same Sponsor from an individual to a partnership, LLC, corporation,
+                                trust or from one type of business entity to another.</li>
                             </ol>
                         </div>
-                KineticGolddiv class="form-group col-md-12 ">
-                        2.8 Insurance – Business Pursuits Coverage
-                 KineticGolddiv>
                         <div class="form-group col-md-12 ">
-          KineticGold      <p style="margin-left: 20px">Eco-Nomix encourages Members to arrange insurance coverage for their business. A homeoKineticGoldsurance policy does not cover business related injuries, or the theft of, or damage to, inventory or business equipment. Eco-Nomix Members need to contact their insurance agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit” endorsement to an existing homeowner’s policy.</p>
+                        2.7 Independent Business Relationship; Indemnification for Actions
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>The KineticGold Member is an independent contractor, a purchaser of a franchise or business opportunity.
+                                Therefore, each Member’s success depends upon his or her individual efforts.</li>
+                                <li>The Agreement between KineticGold and its Members does not create an Employer/employee relationship, agency,
+                                partner or joint venture between KineticGoold and the Member>
+                                <li>An KineticGold Member shall not be treated as an employee of KineticGold for any purpose including, without limitation, for Federal, State,  or Local tax purposes.
+                                 All Members are responsible for paying local, State, Provincial, and Federal tax for all compensation earned as a Member of KineticGold. Any compensation
+                                 received by Members from KineticGold will be governed by the applicable U.S. or Canadian tax laws, or laws of any other applicable jurisdiction.
+                                 The Member does not have KineticGold's or implied authority to bind KineticGold to any obligation or to make any commitments by or on behalf of KineticGold.
+                                 Each Member, whether acting as management of a Business Entity or represented as an individual, shall establish his or her own goals, hours, methods
+                                 of operation and sale, so long as he or she complies with the Terms of the Member Agreement, KineticGold's Policies and Procedures and
+                                 applicable State, Federal and Provincial laws.</li>
+                                <li>A KineticGold Member is fully responsible for his or her verbal and written communications regarding KineticGold's products, services, and the Compensation plan
+                                of KineticGold that are not expressly contained within official KineticGold materials and shall indemnify and hold harmless KineticGold, its directors,
+                                officers, employees, product suppliers and agents against all liability including judgments, civil penalties, refunds, attorney fees and
+                                court costs incurred by result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the KineticGold Member Agreement.</li>
+
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.8 Insurance – Business Pursuits Coverage
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <p style="margin-left: 20px">KineticGold encourages Members to arrange insurance coverage for their business. A homeowner insurance policy does not cover business
+                            related injuries, or the theft of, or damage to, inventory or business equipment. KineticGold Members need to contact their insurance
+                            agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit”
+                            endorsement to an existing homeowner’s policy.</p>
                         </div>
                         <div class="form-group col-md-12 ">
                         2.9 Errors or Questions
                         </div>
-       KineticGold        <div class="form-group col-md-12 ">
-                         <p style="margin-left: 20px">If a Member has questionsKineticGoldr believes any errors have been made regarding Referral Fees, business reports, orders, or charges, the Member must notify Eco-Nomix in writing within 30 days of the dateKineticGoldrror or incident in question. Any such errors, omissions or problems not reported within 30 days shall be deemed waived by thKineticGold</p>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px">If a Member has questions and believes any errors have been made regarding Awards or Profit-Sharing, business reports, orders, or charges,
+                         the Member must notify KineticGold in writing within 30 days of the date of the error or incident in question. Any such errors, omissions or
+                         problems not reported within 30 days shall be deemed waived by the member</p>
                         </div>
                          <div class="form-group col-md-12 ">
-                        3.0 Eco-Nomix’S Member RESPONSIBILITIES
+                        3.0 KineticGolds’S Member RESPONSIBILITIES
                         </div>
                          <div class="form-group col-md-12 ">
-        KineticGold       3.1 Correct Addresses
+                            3.1 Correct Addresses
                         </div>
                          <div class="form-group col-md-12 ">
-      KineticGold             <ol type="A">
-                                <li>It is the responsibility of KineticGoldr or Customer to make sure Eco-Nomix has the correct shipping address before any orders are shipped.</li>
-                       KineticGold<li>A Member or Customer will need to allow up to 30 days for processing after the notice of address change has been received by Eco-Nomix.</li>
+                            <ol type="A">
+                                <li>It is the responsibility of member or Customer to make sure KineticGold has the correct shipping address before any orders are shipped.</li>
+                                <li>A Member or Customer will need to allow up to 30 days for processing after the notice of address change has been received by KineticGold.</li>
                                 <li>A Member or Customer may be assessed a $20 fee for returned shipments due to an incorrect shipping address.</li>
 
                             </ol>
                         </div>
-        KineticGold        <div class="form-group col-md-1KineticGold                     3.2 Training and Leadership
-                        </div>
-   KineticGold             <div class="forKineticGoldolKineticGold
-                            <ol type="A">
-                                <li>Any Eco-Nomix Member who Sponsors another MKineticGoldo Eco-Nomix must perform an authentic assistance and training functions to ensure his or her downline is properly operating his or her Eco-Nomix business. Sponsoring Members should have KineticGoldontact and communication with the Members in their downline organizations. Examples of communication may include, KineticGoldot limited to,KineticGolders, written correspondence, telephone, contact, team calls, voice-mail, e-mail, personal meetings, accompaniment KineticGoldne Members to Eco-Nomix meetings, training sessions and any other related functions.</li>
-                                <li>AKineticGoldng Eco-Nomix Member should monitor the Members in his or her downline organizations to ensure that downline Members do not make improper prodKineticGoldsiness claims, or engage in anKineticGold or inappropriate conduct. Upon request, such Member should KineticGoldo provide documented evidence to Eco-Nomix of his or her ongoing fulfillmeKineticGold responsibilities of a Sponsor.</li>
-                       KineticGold<lKineticGoldMembers are encouraged to motivate and train new Members about Eco-Nomix’s products and services, effeKineticGoldketing techniques, the Eco-Nomix ComKineticGold Plan and compliance with company Policies and Procedures.</li>
-                                <li>AsKineticGoldrrals are baseKineticGoldles usage of Eco-nomix products are to be encouraged.</li>
-              KineticGold   KineticGold>We emphasize that ALL sales of Eco-Nomix’s products and KineticGoldto Customers are handled by the website.</li>
-                           KineticGoldUseKineticGold Aids – To promote both the products and the opportunity Eco-KineticGolders, Members must use the sales aids and support materials produced by Eco-Nomix. If Eco-Nomix KineticGoldevelop their own sales aids and promotional materialsKineticGoldncludes Internet advertising, notwithstanding Members’ good intentions, they may unintentionallKineticGold any number of statutes or regulations affecting the Eco-Nomix business. These violations, although they may be relatively few in number, could jeopardize the Eco-Nomix opportunity for all Members. AccordinglyKineticGold must submit all written sales aids, promotionalKineticGolds, aKineticGoldents, websites and other literature to KineticGoldny for Company’s approval prior to use. UnlKineticGoldember receives specific written approval to use KineticGoldial,KineticGoldest shall be deemed denied. All MembersKineticGoldfeguard and promote the good reputation of Eco-Nomix and its products. The marketing and promotion of Eco-Nomix, the Eco-Nomix opportunity, the Compensation Plan, and Eco-Nomix products and services shall be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct or practices.</li>
-KineticGold                   </ol>
+                        <div class="form-group col-md-12 ">
+                            3.2 Training and Leadership
                         </div>
                         <div class="form-group col-md-12 ">
-              KineticGold 3.3 Constructive Criticism; EKineticGold                     </div>
-                       KineticGoldass="form-group col-md-12 ">
-                              <ol type="AKineticGold                      KineticGoldco-Nomix desires to provide its independent Members wiKineticGoldneticGolducts and sKineticGoldnd Compensation Plan in the industry. AccordiKineticGold-Nomix values constructive criKineticGoldd encourages the submission of written cKineticGoldddresKinKineticGold-Nomix Compliance KineticKineticGoldi>
-   KineticGold                    <li>NKineticGoldnd disparaging commenKineticGoldEco-Nomix, its products or Compensation Plan, by MeKineticGolde to EcoKineticGoldn the Field or at Eco-NomKineticGoldgs or KineticGoldr disruptive behavior at Eco-Nomix meetings or events, seKineKineticGoldose other than to dampen the enthusiasm oKineticGoldco-Nomix Members. Eco-Nomix Members must not belittle Eco-Nomix, other Eco-Nomix Members,  products or services, the Compensation Plan,KineticGoldineticGoldectors, officers, or employees, product sKineticGoldor agents. Such cKineticGoldpresents a material breach of these Policies and Procedures and may be subject to sanctions as deemed approprKineticGoldco-Nomix.</li>
-                                <li>Eco-Nomix endorses the folloKineticGold of ethics:
-                                    <ol type="I">
-                                        <li>An Eco-Nomix Member must show fairness, tolerance, and respect to all people associated with Eco-Nomix, regardless of race, gKineticGoldcial class or religion, thereby fostering a “positive atmosphere” of teamwork, good morale and community spirit.</li>
-                   KineticGold            <li>A Member shall strive to resolve buKineticGoldicGold, includiKineticGoldions with upline and downline Members, by emphasizing tact, sensitivity, good will and taking care not to create additiKineticGoldlems.</li>
-                                        KineticGoldomix Members muKineticGoldest, responsible, professional and conduct themselves withKineticGoldy.</li>
-                                        <li>Eco-Nomix Members shall not make disparaging statements about Eco-Nomix, other Members, Eco-Nomix emplKineticGoldoduct suppliers or agents, products, services,KineticGoldd marketing campaigns, or the Compensation Plan, or make statements that unreasonably offend, mislead or coerce others.</li>
+                            <ol type="A">
+                                <li>Any KineticGold Member who Sponsors another Member must perform an authentic assistance and training functions to ensure his or her downline
+                                is properly operating his or her KineticGold business. Sponsoring Members should have contact and communication with the Members in their
+                                downline organizations. Examples of communication may include, not limited to, written correspondence, telephone, contact,
+                                team calls, voice-mail, e-mail, personal meetings, accompaniment KineticGold Members to KineticGold meetings, training sessions and any other related functions.</li>
+                                <li>A KineticGold Member should monitor the Members in his or her downline organizations to ensure that downline Members do not make
+                                improper product or business claims, or engage in inappropriate conduct. Upon request, such Member should provide documented evidence to KineticGold of
+                                his or her ongoing responsibilities of a Sponsor.</li>
+                                <li>KineticGold Members are encouraged to motivate and train new Members about KineticGolds’s products and services, effective Marketing techniques,
+                                the KineticGold compensation Plan and compliance with company Policies and Procedures.</li>
 
-                            KineticGold/ol></li>
-                                <li>Eco-Nomix may take appropriate action against a Member if it determines, in its sole discretion, that a Member’s conduct is detrimental, disruptive, or injurious to Eco-Nomix or to other Members.</li>
-                              </ol>
+                                <li>We emphasize that ALL sales of KineticGolds’s products and Customers are to be handled by the website.</li>
+                                <li>Sales Aids – To promote both the products and the opportunity, Members must use the sales aids and support materials produced by KineticGold.
+                                If members develop their own sales aids and promotional materials including Internet advertising, notwithstanding Members’ good intentions, they may unintentionally
+                                violate any number of statutes or regulations affecting KineticGold's business. These violations, although they may be relatively few in number,
+                                could jeopardize the KineticGold opportunity for all Members. Accordingly members must submit all written sales aids, promotional materials,
+                                websites and other literature to KineticGold for Company’s approval prior to use. Unless the member receives specific written approval
+                                to use material ,the request shall be deemed denied. All Members of KineticGold shall guard and promote the good reputation of KineticGold and its products and services.
+                                 The marketing and promotion of KineticGold, the KineticGold opportunity, the Award and Profit-Sharing Plan, and KineticGold products and services
+                                 shall be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct or practices.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            3.3 Constructive Criticism
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            KineticGold desires to provide its independent Members with the best products and Award and Profit-Sharing in the industry.
+                            Accordingly KineticGold values constructive criticism and encourages the submission of written suggestions in Compliance with the following policies.
+                            <ol type="A">
+                                <li>There are no disparaging comments about KineticGold, its products or Profit-Sharing Plan, by the member to KineticGold, the
+                                Field or any disruptive behavior at KineticGold meetings or events, without purpose other than to dampen the enthusiasm KineticGold Members.
+                                KineticGold Members must not belittle KineticGold, other KineticGold Members,  products or services, the Profit-Sharing Plan,KineticGold directors,
+                                officers, or employees, KineticGold agents. Such action presents a material breach of these Policies and Procedures and may be subject to
+                                sanctions as deemed appropriate by KineticGold.</li>
+                                <li>KineticGold endorses the following code of ethics:
+                                    <ol type="I">
+                                        <li>An KineticGold Member must show fairness, tolerance, and respect to all people associated with KineticGold, regardless of race,
+                                        social class or religion, thereby fostering a “positive atmosphere” of teamwork, good morale and community spirit.</li>
+                                        <li>A Member shall strive to resolve with KineticGoldic issues, including issues with upline and downline Members,
+                                        by emphasizing tact, sensitivity, good will and taking care not to create additional prolems.</li>
+                                        <li>Members must remain responsible, professional and conduct themselves with kindness.</li>
+                                        <li>KineticGold Members shall not make disparaging statements about KineticGold, other Members, KineticGold product suppliers or agents,
+                                        products, services, KineticGold marketing campaigns, or the Profit-Sharing Plan, or make statements that unreasonably
+                                        offend, mislead or coerce others.</li>
+
+                                    </ol>
+                                </li>
+                                <li>KineticGold may take appropriate action against a Member if it determines, in its sole discretion, that a Member’s conduct is detrimental,
+                                disruptive, or injurious to KineticGold or to other Members.</li>
+                            </ol>
                          </div>
-    KineticGold           <div class="form-group col-md-12 ">
+                        <div class="form-group col-md-12 ">
                         3.4 Reporting Policy Violation
                         </div>
                         <div class="form-group col-md-12 ">
-                    KineticGoldol type="A">
-                                <li>A Member who observes a policy violation by another Member should submit a written and signed letter (e-mail will not be accepted) of the violation directly to the Eco-Nomix Corporate office. The letter shall set forth the details of the incident as follows:
+                            <ol type="A">
+                                <li>A Member who observes a policy violation by another Member should submit a written and signed letter (e-mail will not be accepted)
+                                   of the violation directly to the KineticGold offices. The letter shall set forth the details of the incident as follows:
                                     <ol type="I">
                                         <li>The nature of the violation;</li>
-                                      KineticGoldcific facts to support the allegations;</li>
+                                        <li>Specific facts to support the allegations;</li>
                                         <li>Dates;</li>
                                         <li>Number of occurrences;</li>
-                                        <lKineticGold involved; and</li>
+                                        <li>Member involved; and</li>
                                         <li>Supporting documentation</li>
-   KineticGold                        </ol></li>
-                                <li>Once the matter has been presented to Eco-Nomix, it wilKineticGoldarched thoroughly by the Compliance Department and appropriate action will be takeKineticGoldired.</li>
-                                <li>This section refers to the general reporting of Policy violations as observed bKineticGoldembers for the mutual effort to support, protect, and defend the integrity of the Eco-Nomix business and opportunity. If a Member has a grievance or complaint against another Member which directly relates to his or her Eco-Nomix business, theKineticGoldes set forth in these Policies must be followed.</li>
+                                    </ol>
+                                </li>
+                                <li>Once the matter has been presented to KineticGold, it will be research thoroughly by the Compliance Department and appropriate action will be taken.</li>
+                                <li>This section refers to the general reporting of Policy violations as observed members for the mutual effort to support, protect, and
+                                defend the integrity of the KineticGold business and opportunity. If a Member has a grievance or complaint against another Member
+                                which directly relates to his or her KineticGold business, the guidelines set forth in these Policies must be followed.</li>
                             </ol>
                         </div>
-         KineticGold      <div class="form-group col-md-12 ">
-                      3.5 Sponsorship
-    KineticGold           </div>
-                        <div class="form-group col-md-12KineticGold                       <ol type="A">
-        KineticGold               <li>The Sponsor is the person who introduces a Member or Customer KineticGoldmix, helps them complete their enrollment, and supports and trains those in theKineticGoldne.</li>
-                                <li>Eco-Nomix recognizes the Sponsor as the name(s) shown on the first:
-                        KineticGold   <ol type="I">
+                        <div class="form-group col-md-12 ">
+                            3.5 Sponsorship
+                        </div>
+                         <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>The Sponsor is the person who introduces a Member or Customer to KineticGold, helps them complete their enrollment, and supports
+                                and trains those in KineticGold.</li>
+                                <li>KineticGold recognizes the Sponsor as the name(s) shown on the first:
+                                   <ol type="I">
                                         <li>Physically signed Eco-Nomix Member Agreement on file; or</li>
-                                        <li>Electronically siKineticGolder Agreement from a website or an Eco-NomKineticGolds website.</li>
-                                        <li>Was referenced by the new Member wheKineticGold Referral Link to access the site</li>
-                                   KineticGoldi>
-                                <li>A KineticGoldreement that contains notations such as “by phone” or theKineticGoldes of other individuals (i.e. KineticGold Spouses, relatives, or friends) is not valid and will not be accepted by Eco-Nomix.</li>
-                                <li>Eco-Nomix recognizes that each new prospect has the right to ultimatKineticGolde his or her own Sponsor, but KineticGold will not allow Members to engage in unethical sponsoring activities.</li>
-                                <li>AlKineticGoldMembers in good standing have the KineticGoldSponsor and enroll others into Eco-Nomix. While engaged in sponsoring acKineticGold it is not uncommon to encounter situationKineticGoldre than one Member will approach the sKineticGoldect. It is the KineticGoldcourtesy that the new prospect wilKineticGoldsored by the first Member who presented a comprehensive introductKineticGoldo-Nomix products or business opportunity.</li>
-    KineticGold                   <li>A Protected ProKineticGolda guest of any Eco-Nomix Member or Customer who attended an Eco-Nomix event or conference call. For 60 days following the event, a ProtKineticGoldoldpect cannot be solicited or sponsored bKineticGolder Eco-Nomix Member who attended the same event. An Eco-NoKineticGold can be defined as the following:
+                                        <li>Electronically signed member Agreement from a KineticGolds website.</li>
+                                        <li>Was referenced by the new Member whith a KineticGold Referral Link to access the site</li>
+
+                                        <li>A member agreement that contains notations such as “by phone” or by other individuals (i.e. KineticGold Spouses, relatives, or friends)
+                                        is not valid and will not be accepted by KineticGold.</li>
+                                        <li>KineticGold recognizes that each new prospect has the right to choose his or her own Sponsor, but KineticGold will not allow
+                                        Members to engage in unethical sponsoring activities.</li>
+                                <li>All KineticGold Members in good standing have the right to Sponsor and enroll others into KineticGOld. While engaged in sponsoring a member,
+                                 it is not uncommon to encounter situation where more than one Member will approach the potential member. It is the KineticGold courtesy that the new prospect
+                                 will be sponsored by the first Member who presented a comprehensive introduction to the KineticGold products or business opportunity.</li>
+                                <li>A guest of any KineticGold Member or Customer who attended an KineticGold event or conference call shall be considered 'Protected' For 60 days
+                                following the event, a Prospect cannot be solicited or sponsored by another KineticGold Member who attended the same event. An KineticGold Eventcan be
+                                defined as the following:
                                     <ol type="I">
-                                        <li>AnyKineticGoldx training session;</li>
-                 KineticGold              <li>Conference call;</li>
-                  KineticGold             <li>Fly-in meeting; or</li>
-                                        <li>Presentation, including but not limited to an Eco-Nomix at home presentation, whether sponsored by Eco-Nomix, a Member, a Customer, or an agent or agency designated by Eco-Nomix.</li>
+                                         <li>Any KineticGold training session;</li>
+                                         <li>Conference call;</li>
+                                         <li>Fly-in meeting; or</li>
+                                         <li>Presentation, including but not limited to an KineticGold at home presentation, whether sponsored by KineticGold,
+                                          a Member, a Customer, or an agent or agency designated by Eco-Nomix.</li>
                                     </ol></li>
 
                             </ol>
                         </div>
 
-             KineticGold  <div class="form-group col-md-12 ">
+                        <div class="form-group col-md-12 ">
                         3.6 Cross Sponsoring Prohibition
                         </div>
                         <div class="form-group col-md-12 ">
                             <ol type="A">
-                           KineticGold“Cross sponsoring” is defined as the enrollment into a different line of sponsorship of an individual, or Business Entity, that already has a signed Member AgKineticGoldActual or attempted cross sKineticGold is not allowed. If cross sponsoring is verified by Eco-Nomix, sanctions up to and including termination of a Member’s position may be imposed.</li>
-                                <li>The use of a Spouse’s or relative’s KineticKineticGoldmes, assumed names, DBKineticGoldcorporation, partnership, trust, Federal ID numbers, or fictitious ID numbers to evade or circumvent this Policy is not permitted.</li>
-                                <li>This Policy does not pKineticGoldhe transfer of an Eco-NomKineticGoldss in accordance with Eco-Nomix Sale or Transfer PKineticGold forth in these Policies.</li>
+                                “Cross sponsoring” is defined as the enrollment into a different line of sponsorship of an individual, or Business Entity,
+                                that already has a signed Member.  Actual or attempted cross sponsoring is not allowed. If cross sponsoring is verified by KineticGold,
+                                sanctions up to and including termination of a Member’s position may be imposed.</li>
+                                <li>The use of a Spouse’s or relative’s names, assumed names, DBA, corporation, partnership, trust, Federal ID numbers, or fictitious ID
+                                numbers to evade or circumvent this Policy is not permitted.</li>
+                                <li>This Policy does not prohibit the transfer of an KineticGold account in accordance with KineticGold Sale or Transfer as forth in these Policies.</li>
 
                             </ol>
                         </div>
-                        <div class="KineticGoldp col-md-12 ">
-           KineticGold    3.7 Adherence to the Eco-Nomix Compensation Plan
+                         <div class="form-group col-md-12 ">
+                            3.7 Adherence to the Eco-Nomix Compensation Plan
                         </div>
-  KineticGold           KineticGoldass="form-group col-md-12 ">
+                        <div class="form-group col-md-12 ">
                             <ol type="A">
-                                <li>A MembKineticGolddhere to the Terms of the Eco-NKineticGoldensation Plan as set forth in these Policies and Procedures as well as in offKineticGold-Nomix literature. KineticGold from the Compensation Plan is prohibited.</li>
-                                <li>A Member shall not offer the Eco-Nomix opportunity through, or in combiKineticGoldth, any other system, program, or method of markKineticGolder than that specifiKineticGold forth in official Eco-Nomix literature.</li>
-                                <li>A Member shall not require or encourage a current or prospective Customer or Memberr to participate in Eco-Nomix in any manner that varies from the Compensation PKineticGoldt forth in official Eco-Nomix literature.</li>
-                                <li>A Member shall not require or encourage a current or prospective Customer or Member to make a purchase from or payment to any individual or other entity as a condition to participating in the Eco-Nomix Compensation Plan, other than such purchases or payments required to naturally build their business.</li>
+                                <li>A Member must adhere to the Terms of the KineticGold Profit-Sharing Plan as set forth in these Policies and Procedures as well as in
+                                KineticGold literature. Departure for the Profit-Sharing Plan is prohibited.</li>
+                                <li>A Member shall not offer the KineticGold opportunity through, or in combination with, any other system, program, or method of
+                                marketing other than that specifically set forth in official KineticGold literature.</li>
+                                <li>A Member shall not require or encourage a current or prospective Customer or Member to participate in KineticGold in any manner that varies from the Profit-Sharing plan
+                                as set forth in official KineticGold literature.</li>
+                                <li>A Member shall not require or encourage a current or prospective Customer or Member to make a purchase from or payment to any individual
+                                or other entity as a condition to participating in the KineticGold Profit-Sharing Plan, other than such purchases or payments required to
+                                naturally build their business.</li>
                             </ol>
                         </div>
                         <div class="form-group col-md-12 ">
-            KineticGold   3.8 Adherence to Laws and Ordinances
+                            3.8 Adherence to Laws and Ordinances
                         </div>
                         <div class="form-groupKineticGold2 ">
                             <ol type="A">
-                                    <li>Many cities and counties have laws regulating certain home-basedKineticGoldes. In most cases, these ordinances do not apply to Members because of the nature of the business.
-                  KineticGold             <br>However, Members must check their local laws and obey the laws that do aKineticGoldhem.</li>
-                                    <li>An Eco-Nomix Member shall comply with all Federal, State, Provincial and local laws and regulations in their conduct of his or her Eco-Nomix business.</li>
+                                    <li>Many cities and counties have laws regulating certain home-based businesses. In most cases, these ordinances do not apply to Members because
+                                    of the nature of the business.
+                                     <br>However, Members must check their local laws and obey the laws that do affect them.</li>
+                                    <li>An KineticGold Member shall comply with all Federal, State, Provincial and local laws and regulations
+                                    in their conduct of his or her KineticGold business.</li>
                             </ol>
-                        </div>
-          KineticGold     <div class="form-group col-md-12 ">
-                        3.9 Compliance with ApplicablKineticGoldTax Laws
                         </div>
                         <div class="form-group col-md-12 ">
-                            KineticGold"A">
-                                <li>Eco-Nomix will automatically provide a complete 1099 MiscellaKineticGoldKineticGoldorm (nonemployee compensatKineticGoldach US Member whose earnings for the year is at least $600, or who received trips, prizes or awards valued at $600 or more. If eKineticGoldnd purchases are less than stated above, IRS forms will be sent only at the request of the Member, andKineticGoldKineticGoldof $20 may be assessed by Eco-Nomix. KineticGoldT-4’s will be sent to Members who earn more than $500 or who received trips, prizes, or awards valued at $500 or more. Eco-Nomix Members are responsible for the payment of taxes on these KineticGoldizes, or awards provided to them by Eco-Nomix. Eco-NKineticGolder who reside outside of the US orKineticGoldill be subject to reporting as required for that country.</li>
-                                <li>A Member accepts sole responsibility for and agrees to pay all Federal, State, ProvinciaKineticGoldal taxes on any incKineticGoldated as an independent CKineticGold, and further agrees to indemnify Eco-Nomix from any failure to pay such tax amounts when due.</li>
-                                <li>If a Member’s business is tax exempt, the Federal Tax Identification number must be provided to Eco-Nomix in writing.</li>
-   KineticGold               KineticGoldEco-Nomix encourages all Members to consult with a tax advisor for additional informKineticGold their business.</li>
+                            3.9 Compliance with Applicable Tax Laws
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>KineticGold will automatically provide a complete 1099 Miscellaus Form (nonemployee compensation) for US Members whose earnings for the year
+                                is at least $600, or who received trips, prizes or awards valued at $600 or more. If KineticGold purchases are less than stated above,
+                                IRS forms will be sent only at the request of the Member, and $20 may be assessed by Eco-Nomix. T-4’s will be sent to Members who earn more than $500
+                                or who received trips, prizes, or awards valued at $500 or more. KineticGold Members are responsible for the payment of taxes on these Profit-Sharing,
+                                or awards provided to them by KineticGold. Members who reside outside of the US will be subject to reporting as required for that country.</li>
+                                <li>A Member accepts sole responsibility for and agrees to pay all Federal, State, Provincial taxes on any income earned as an independent Contractor,
+                                 and further agrees to indemnify KineticGold from any failure to pay such tax amounts when due.</li>
+                                <li>If a Member’s business is tax exempt, the Federal Tax Identification number must be provided to KineticGold in writing.</li>
+                                KineticGold encourages all Members to consult with a tax advisor for additional information about their business.</li>
                             </ol>
                         </div>
-      KineticGold         <div class="form-group col-md-12 ">
-                        3.10 One Eco-Nomix Business Per HouKineticGold                      </div>
-                        <div class="form-group col-md-1KineticGold                    <p style="margin-left: 20px">A Member may operate or have an ownership inKineticGoldegal or equitable, as a sole proprietorship, partner, shareholder, trustee, or beneficiary, in only one Eco-Nomix position. No individual may have, operate or receive compensation from more than one Eco-Nomix business. Individuals of the same Household may not enter into or have an interest in another Eco-Nomix position. A “Household” is defined as all individuals who are living at or doing business at the same address, and who are related by blood, marriage, domestic KineticGoldip, or adoption, or who are living together as a family unit or in a family-like setting.</p>
+                        <div class="form-group col-md-12 ">
+                        3.10 Single KineticGold account per Individual
+                        </div>
+                        <div class="form-group col-md-12 "><p style="margin-left: 20px">A Member may operate or have an ownership in an KineticGold account as the legal or equitable,
+                        as a sole proprietorship, partner, shareholder, trustee, or beneficiary, in only one Eco-Nomix position. No individual may have, operate or receive compensation
+                        from more than one KineticGold Profit-Sharing plan. A Household may contain multiple KineticGold Account holders who are independent. A “Household” is defined
+                        as all individuals who are living at or doing business at the same address, and who are related by blood, marriage, domestic KineticGoldip, or
+                        adoption, or who are living together as a family unit or in a family-like setting.</p>
                         </div>
                         <div class="form-group col-md-12 ">
                         3.11 Actions of Household Members or Member Parties
                         </div>
-             KineticGold  <div classKineticGoldoup col-md-12 ">
-                          <p style="margin-left: 20px">If any member of aKineticGold immediate household engages in any activity which, if performed by the Member, would violate any provision of the Agreement, such activity will be deemed a violation by the Member and Eco-Nomix may take discKineticGoldaction pursuant to these Policies and Procedures against the Member. Similarly, if any indKineticGoldssociated in any way with a corporation, partnership, LLC, trust or other entity (collectively “Business Entity”) violates the Agreement, such action(s) will be deemed a violation by the Business EKineticGoldd Eco-Nomix may take disciplinary action against the Business Entity. Likewise, if a Member enrolls in Eco-Nomix as a Business Entity, each Member Party of the Business Entity shall be personally and individually bound to, andKineticGoldply with, the Terms and CoKineticGoldof the Agreement.</p>
-                   KineticGoldv>
+                        <div classKineticGoldoup col-md-12 ">
+                          <p style="margin-left: 20px">If any member of an immediate household engages in any activity which, if performed by the Member, would violate
+                          any provision of the Agreement, such activity will be deemed a violation by the Member and KineticGold may take disciplanary action pursuant to these
+                          Policies and Procedures against the Member. Similarly, if any individual is associated in any way with a corporation, partnership, LLC, trust
+                          or other entity (collectively “Business Entity”) and violates the Agreement, such action(s) will be deemed a violation by the Business and KineticGold
+                           may take disciplinary action against the Business Entity. Likewise, if a Member enrolls in KineticGold as a Business Entity, each Member Party
+                           of the Business Entity shall be personally and individually bound to, and shall comply with, the Terms and Conditions of the Agreement.</p>
+
                         <div class="form-group col-md-12 ">
                         3.12 Solicitation for Other Companies or Products
                         </div>
-                        <div class="form-group col-md-12 "KineticGold                     <ol tKineticGold>
-                                <li>An Eco-Nomix Member may participate in other direct sales, multilevel, network marketing or relationship marketing business ventures or marketing opportunities. However, during the Term of this Agreement and for one (1) year thereafter, an Eco-Nomix Member may not recruit any Eco-Nomix Member or Customer for any other direct sales or netwoKineticGolding business, unless that Member or Customer was personally sponsored by such Member.</li>
-                         KineticGoldi>The term “recruit” means actual or attempted solicitation, enrollmentKineticGoldgement, or effort to influence in any other way (either directly or through a third party), another Member or CuKineticGold enroll or participate in any network marketing opportunity. This conduct represents recruiting even if the Member’sKineticGoldare in response to an inquiry made by another Member or Customer.</li>
-KineticGold                       <li>During the term of this Agreement and for a period of six (6) months thereafteKineticGoldo-Nomix Member must not sell, or entice others to sell, any competing products or services, including training materials, to Eco-KineticGoldtomers or Members. Any product or service in the same category as an Eco-Nomix product or service is deemed to be competing (i.e., any competing product or service regardless of differeKineticGoldost or quality. This provision doeKineticGoldly wherKineticGoldional services are the primary source of revenue and the product sKineticGoldicGoldndary (e.g., doctor’s KineticGoldclinics, health clubs, spas and beauty sKineticGoldli>
-                                <li>However, a Member may sell KineticGoldting products or services to Eco-Nomix Customers and Members that they perKineticGoldponsoreKineticGold                               <li>A Member may not display or bunKineticGolKineticGoldducts or services, iKineticGolditerature, on a websitKineticGoldales meetKinetiKineticGoldy other products or services to avoid confusing or misleading aKineticGoldive Customer or Member into believing there is a relationship between the Eco-Nomix and non-Eco-Nomix products and services.</li>
-                                <li>An Eco-Nomix KineticGoldy not offer any non-Eco-Nomix opportunity, products oKineticGolds at any Eco-NoKineticGolded meeting, seminar or convention, or immediately follKineticGoldEco-Nomix event.</li>
-                                <li>A violation of any of the provisions in this section shall constitute unreasonable and unwarranted contractual interfereKineticGolden Eco-Nomix and its Members and would inflict irreparable harm on Eco-Nomix. In such event, Eco-Nomix may, at its sole discretion, impose any sanction it deeKineticGoldary and appropriate against such Member or such Member’s positions including termination, or seek immediate injunctive relief without the necessity of posting a bond.</li>
-      KineticGold             </ol>
-                        </divKineticGold                <div class="form-group col-md-12 ">
+                       <div class="form-group col-md-12 ">
+                           <ol>
+                                <li>An KineticGold Member may participate in other direct sales, multilevel, network marketing or relationship marketing business ventures or marketing opportunities.
+                                However, during the Term of this Agreement and for one (1) year thereafter, an KineticGold Member may not recruit any KineticGold Member or Customer for
+                                any other direct sales or networking business, unless that Member or Customer was personally sponsored by such Member.</li>
+                                <li>The term “recruit” means actual or attempted solicitation, enrollment or agreement, or effort to influence in any other way
+                                (either directly or through a third party), another Member or KineticGold to enroll or participate in any network marketing opportunity.
+                                This conduct represents recruiting even if the Member’s actions are in response to an inquiry made by another Member or Customer.</li>
+                                 <li>During the term of this Agreement and for a period of six (6) months thereafte a KineticGold Member must not sell, or entice others to sell,
+                                 any competing products or services, including training materials, to other KineticGold customers or Members. Any product or service in the
+                                 same category as an KineticGold product or service is deemed to be competing (i.e., any competing product or service regardless of
+                                 differet cost or quality. This provision does not apply to services which are outside of the primary scope of KineticGold, a banking platform.</li>
+                                <li>A Member may not display or bundle KineticGold products or services, KineticGold Literature, on a website
+                                to avoid confusing or misleading KineticGold Customers or Members into believing there is a relationship between KineticGold and non-KineticGold products and services.</li>
+                                <li>A member shall not offer any non-KineticGOld opportunity, products at any KineticGold meeting, seminar or convention, or immediately following an KineticGold event.</li>
+                                <li>A violation of any of the provisions in this section shall constitute unreasonable and unwarranted contractual interfere with KineticGold and its Members
+                                and would inflict irreparable harm on KineticGold. In such event, KineticGold may, at its sole discretion, impose any sanction it deems appropriate
+                                against such Member or such Member’s positions including termination, or seek immediate injunctive relief without the necessity of posting a bond.</li>
+                            </ol>
+                        <div class="form-group col-md-12 ">
                         3.13 Presentation of the Eco-Nomix Opportunity
                         </div>
 
                         <div class="form-group col-md-12 ">
-                            <p style=KineticGoldeft: 20px">In presenting the Eco-Nomix opportunity to potential Customers and Members, aKineticGolds required tKineticGoldwith the following provisions:</p>
+                            <p style=KineticGoldeft: 20px">In presenting the Eco-Nomix opportunity to potential Customers and Members, a KineticGold member required to comply with
+                            the following provisions:</p>
                             <ol type="A">
-                                <li>A Member shall not misquote or omit any significant material fact about the CompensationKineticGoldi>
-                  KineticGold   KineticGoldember shall make it clear that the Compensation Plan is based upon sales of Eco-NoKineticGoldcts and KineticGoldand KineticGoldsponsoring of other Members.</li>
-       KineticGold                <li>A Member shall make it clear that success can be achieved only through substantial independent efforts.KineticGold      KineticGold              <li>An Eco-Nomix MembKinetiKineticGoldmake unauthorized income projections, claims, or guarantees while presenting oKineticGolding the EcKineticGoldpporKineticGold Compensation Plan to prospective MembersKineticGoldmers.</li>
-                                <li>A Member may not make any claims regarding products or services of any produKineticGolded by Eco-Nomix, except those contained in official Eco-NoKineticGoldature.</li>
-                                <li>A Member may not use official Eco-Nomix material toKineticGoldthe Eco-Nomix business opportunity in any country where Eco-Nomix has not established a “presence.”</li>
-                                <li>In an effort to conduct best business practices, Eco-Nomix has developed the Income Disclosure Statement (“IDS”). The Eco-Nomix IDS is designed to convey truthful, timely, and comprehensive information regarding the income that Eco-Nomix Members earn. In order to accomplish this objective, a copy of the IDS must be presented to all prospective Members.
-                                <li>A copy of the IDS must be presented to a prospective Member anytime the Compensation Plan is presented or discussed, or any type of income claim or earnings representation is made.</li>
+                                <li>A Member shall not misquote or omit any significant material fact about the KineticGold Profit-Sharing plan and method of operation>
+                                <li>Member shall make it clear that the Profit-Sharing Plan is based upon deposits to the KineticGold Banking platform and the sponsoring of new Members.</li>
+                                <li>A Member shall make it clear that success can be achieved only through substantial independent efforts.</li>
+                                <li>Members shall not make any unauthorized income projections, claims, or guarantees while presenting KineticGold out side of published examples including the assumptions
+                                 .</li>
+                                <li>A Member may not make any claims regarding products or services of any product marketing KineticGold, except those contained in official KineticGold literature.</li>
+                                <li>A Member may not use official KineticGold material to promote the KineticGold business opportunity in any country where KineticGold has not established a “presence.”</li>
+                                <li>In an effort to conduct best business practices, KineticGold has developed the Income Disclosure Statement (“IDS”). The KineticGold IDS is designed to
+                                convey truthful, timely, and comprehensive information regarding the Profit-Sharing that that KineticGold Members may earn. In order to accomplish this
+                                objective, a copy of the IDS must be presented to all prospective Members.
+                                <li>A copy of the IDS must be presented to a prospective Member anytime the Profit-Sharing Plan is presented or discussed, or any type of income claim
+                                or earnings representation is made.</li>
                                 <li>The terms “income claim” and/or “earnings representation” (collectively “income claim”) include;
                                         <ol type="1">
                                             <li>statements of average earnings,</li>
@@ -355,116 +493,149 @@ KineticGold                       <li>During the term of this Agreement and for 
                                             <li>lifestyle claims,</li>
                                             <li>hypothetical claims.</li>
                                         </ol></li>
-                                <li>Examples of “statements of non-average earningKineticGolde, “Our number one MKineticGoldned over a million dollars last year” or “Our average ranking Member makes five thousKineticGoldonth.”</li>
-                                <li>An examKineticGold“statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end to thirKineticGoldnd dollars a month on the high end.”</li>
+                                <li>Examples of “statements of non-average earnings include, “Our number one KineticGold member earned over a million dollars last year” or
+                                “Our average ranking Member makes five thousand dollars per month.”</li>
+                                <li>An example of KineticGold “statement of earnings ranges” is “The monthly income for our higher ranking Members is ten thousand dollars on the low end
+                                to thirty thousand dollars a month on the high end.”</li>
 
- KineticGold                  </KineticGold                   </div>
-
-                        <div class="form-group col-md-12 "KineticGold                 3.14 Sales Requirements are Governed bKineticGolKineticGoldn Plan
-                        </div>
-             KineticGold  <div class="form-group col-md-12 ">
-                         KineticGoldpe="A">
-                                <li>Eco-Nomix Members may purchase Eco-Nomix products and then re-sell them at any price they choose unless otherwise specified by Eco-Nomix or by any/its product suppliersKineticGold product basis. Eco-Nomix KineticGoldide suggested KineticGoldrices. There are no exclusivKineticGoldries granted to anyone. No franchise fees are applicable to an Eco-Nomix business.  However, such practices are discouraged.  Members should purchase only those products that they need or can utilize personally.  Each member has direct access to products through the website.</li>
-     KineticGold                  <li>The Eco-Nomix program is builKineticGolds to the ultimate consumer. Eco-Nomix encourages its Members to only purchase inventory that they and their family will personally consume or will be used as a sales tool. Members must never attempt to influence any other Member to buy more products than they can reasonably use.</li>
-                                <li>The Eco-Nomix program is built on sales to the ultimate consumer. Eco-Nomix encourages its Members to only purchase inventory that they and their family will personally consume or will be used as a sales tool. Members must never attempt to influence any other Member to buy more products than they can reasonably use.</li>
                             </ol>
+                       </div>
+
+                         <div class="form-group col-md-12 ">
+                             3.14 Sales Requirements are Governed by the KineticGold Profit Sharing PlanKineticGoldn Plan
                         </div>
                         <div class="form-group col-md-12 ">
-  KineticGold             4.0 ORDERING
+                          <ol type="A">
+                                <li>KineticGold Members may purchase KinticGold products for there own use and are not for the purpose of resale other than at KineticGold standard Pricing.
+                                 There are no exclusive KineticGold prices granted to anyone. No franchise fees are applicable to an KineticGold business.
+                                   Members should purchase only those products that they need or can utilize personally.  Each member has direct access to products through the website.</li>
+                               </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        4.0 ORDERING
                         </div>
                         <div class="form-group col-md-12 ">
                         4.1 General Order Policies
                         </div>
                         <div class="form-group col-md-12 ">
                             <ol type="A">
-                                <li>“Bonus Buying” is strictly and absolutely prohibitedKineticGolduying includes; (a) the enrollment of individuals or entities without the knowledge of and/or execution of an Agreement by such individuals or Business EntitieKineticGolde fraudulent enrollment of an individual or entity as a Member or Customer; (c) the enrollment or attempted enrollment of non-existent individuals oKineticGolds Entities as Members or Customers (“phantoms”); (d) purchasing Eco-Nomix products or services on behalf of another MemberKineticGoldmer, or under another Member’s or Customer’s ID number, to qualify for  bonuses; (e) purchasing excessiKineticGolds of products or services that cannot reasonably be used; and/or (f) any other mechanism or artifice to qualify for  incentives, prizes, commissionsKineticGoldses that is not driven by bona fide product or service purchases by end user consumers.</KineticGold                        KineticGoldMember shall not use another Member’s or Customer’s credit card or debit checking account to enroll in Eco-Nomix or purchase products or services without the account holder’s written permission. Such documentation must be keKineticGold Member indefinitely in case Eco-Nomix needs to reference this.</li>
-                                <li>Regarding an order with KineticGoldd or incorrect payment, Eco-Nomix will attempt to contact the Member by phone, mail or e-mail in order to obtain another form of payment. If these attempts are unsuccessful after 10 business days, the order will be canceled.</li>
-                             KineticGold a Member wants to move an order to another Member’s position, he or she must have prior authorization, of all parties involved. Eco-Nomix will charge the Member a $20 fee for processing.</li>
+                                <li>“Bonus Buying” is strictly and absolutely prohibited and includes;
+                                <ol type="a">
+                                    <li>the enrollment of individuals or entities without the knowledge of
+                                and/or execution of an Agreement by such individuals or Business Entities;</li>
+                                    <li>for fraudulent enrollment of an individual or entity as a Member or Customer; </li>
+                                    <li>the enrollment or attempted enrollment of non-existent individuals as Members or Customers (“phantoms”); </li>
+                                    <li>purchasing KineticGold products or services on behalf of another KineticGold, or under another Member’s or Customer’s ID number, to qualify for  bonuses; </li>
+                                    <li>purchasing excessive KineticGold products or services that cannot reasonably be used; <li>
+                                    <li>any other mechanism or artifice to qualify for  incentives, prizes, commissions that is not driven by bona fide product or service purchases by end user consumers.</li>
+                                </ol>
+                                <li>Members shall not use another Member’s or Customer’s credit card or debit checking account to enroll in KineticGold or purchase products or services
+                                without the account holder’s written permission. Such documentation must be kept indefinitely in case KineticGold needs to reference this.</li>
+                                <li>Regarding an order with KineticGold or incorrect payment, KineticGold will attempt to contact the Member by phone, mail or e-mail in order to
+                                obtain another form of payment. If these attempts are unsuccessful after 10 business days, the order will be canceled.</li>
                                 <li>Prices are subject to change without notice.</li>
-                                <li>A Member or Customer who is a recipient of a damaged or incorrect order must notify Eco-Nomix within 30 calendar days from receipt of the order and follow the Procedures as set forth in these Policies.</li>
+                                <li>A Member or Customer who is a recipient of a damaged or incorrect order must notify KineticGold within 30 calendar days from receipt of the order and follow the Procedures as set forth in these Policies.</li>
                             </ol>
 
                         </div>
                         <div class="form-group col-md-12 ">
                         4.2 Insufficient Funds
                         </div>
-                        <div claKineticGoldgroup col-md-12 ">
+                        <div class="form-group col-md-12 ">
                             <ol type="A">
-                                <li>All checks returned for insufficient funds will be re-submitted for payment. A $35 fee will be charged to the account of the Member or Customer for all returned checks and insufficient funds.</li>
-                                <li>All transactions involving returned checks or insufficient funds througKineticGoldcredit card, which are not resolved in a timely manner by the KineticGoldonstitute grounds for disciplinary sanctions.</li>
-            KineticGold           <li>If a credit card order or automatic debit is declined the fiKineticGold the Customer or Member will be contacted for an alternate form of payment. IKineticGold is declined a second time, the Customer or Member may be deKineticGoldigible to purchase Eco-Nomix products or services.</li>
+                                <li>All checks returned for insufficient funds will be re-submitted for payment. A $35 fee will be charged to the account of the Member or Customer for
+                                all returned checks and insufficient funds.</li>
+                                <li>All transactions involving returned checks or insufficient funds through a credit card, which are not resolved in a timely manner by the Member constitute grounds
+                                for disciplinary sanctions.</li>
+                                <li>If a credit card order or automatic debit is declined  the Customer or Member will be contacted for an alternate form of payment. Payment to KineticGold
+                                is declined a second time, the Customer or Member may be deemed ineligible to purchase Eco-Nomix products or services.</li>
                             </ol>
   KineticGold             </div>
-                        <div KineticGoldrm-grKineticGoldd-12 ">
+                         <div class="form-group col-md-12 ">
                         4.3 Sales Tax Obligation
-                  KineticGoldiv>
-                        <div class="form-grKineticGoldd-12 ">
-             KineticGold      <ol type="A">
-                                <li>The KineticGoldall comply with all State, Provincial and local taxes and regulations governing the sale of Eco-Nomix products and services.</li>
-                      KineticGold <li>Eco-Nomix will collect and remit sales tax on Member orders unless a Member furnishes Eco-Nomix with the appropriate Resale Tax Certificate formKineticGoldderKineticGoldced with Eco-Nomix, sales tax is prepaid based upon the suggested retail price. Eco-Nomix will remit the sales tax to the appropriKineticGold, Provincial and local jurisdictions. The Member may recover the sales tax when he or she makes a sale. Eco-Nomix Members are responsible for any additional sales taxes due on products marked up and sold at a higher price.</li>
-                                <li>Eco-Nomix encoKineticGoldch Member to consult with a tax advisor for additional information for his or her business.</li>
-                            </ol>KineticGold                </div>
-                        <div class="form-group col-md-12 ">
-                        4.4 Chargeback PolicyKineticGold                </div>
-                        <div class="form-group col-md-12 ">
-                        <pKineticGoldargin-left: 20px">When Eco-Nomix receives notice of a chargeback from either a customer or a Member, the sponsor will be asseKineticGold0 fee. This is done to ensure Eco-Nomix Members are always careful when it comes tKineticGoldcard related issues.</p>
                         </div>
-                      KineticGKineticGoldorm-group col-md-12 ">
+                        <div class="form-group col-md-12 ">
+                             <ol type="A">
+                                <li>KineticGold will comply with all State, Provincial and local taxes and regulations governing the sale of KineticGold products and services.</li>
+                                <li>KineticGold will collect and remit sales tax on Member orders unless a Member furnishes KineticGold with the appropriate Resale Tax Certificate form, unless
+                                 sales tax is prepaid based upon the suggested retail price. KineticGold will remit the sales tax to the appropriate Status, Provincial and local jurisdictions.
+                                 The Member may recover the sales tax when he or she makes a sale. KineticGold Members are responsible for any additional sales taxes due on products
+                                 marked up and sold at a higher price.</li>
+                                <li>KineticGold Members to consult with a tax advisor for additional information for his or her business.</li>
+                            </ol>
+                            </div>
+                        <div class="form-group col-md-12 ">
+                        4.4 Chargeback Policy
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        <p style="margin-left: 20px">When KineticGold receives notice of a chargeback from either a customer or a Member, the sponsor will be assessed a fee.
+                        This is done to ensure KineticGold Members are always careful when it comes KineticGold card related issues.</p>
+                        </div>
+                     <div class="form-group col-md-12 ">
                         5.0 PAYMENT OF BONUSES
                         </div>
   KineticGold             <div class="form-group col-md-12 ">
                         5.1 Bonus Qualifications
-                        </dKineticGold                   <div class="form-group col-md-12 ">
-                           KineticGold="A">
-                                <li>A Member must be in compliance with Eco-NomiKineticGolds and Procedures to qualify for bonuses. So long as a Member complies with the Terms of the Agreement, Eco-Nomix shall pay Referral Bonusess to such Member in accordance with the Compensation Plan.</li>
-                                <li>Eco-Nomix will not issue a payment to a Member without the receipt oKineticGoldeted and signed Eco-Nomix Member Agreement or Electronic Authorization.</li>
-                                <li>Eco-Nomix reserves the right to postpone bonus and commission payments until such time the cumulative amount exceeds $25.</li>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           <ol style="A">
+                                <li>A Member must be in compliance with KineticGold Procedures to qualify for Profit-Sharing. So long as a Member complies with the Terms of the Agreement,
+                                 KineticGold shall pay Profit-Sharing to such Members in accordance with the Profit-Sharing Plan.</li>
+                                <li>KineticGold will not issue a payment to a Member without the receipt of a dated and signed KineticGold Member Agreement or Electronic Authorization.</li>
+                                <li>KineticGold reserves the right to postpone Profit-Sharing until such time the cumulative amount exceeds $100 during the Pre-Launch period.</li>
+                                <li>Once launced Profit-Sharing shall be paid immediately into the members checking account at KineticGolds Off-Shore bank.</li>
                             </ol>
                         </div>
                         <div class="form-group col-md-12 ">
-                        5.2 Computation of Commissions and DiscrepKineticGold                      </div>
+                        5.2 Computation of Profit-Sharing                     </div>
                         <div class="form-group col-md-12 ">
                             <ol type="A">
-                                <li>In order to qualify to receive bonuses, a Member must be in good standing and comply with the Terms of the Agreement and these Policies and Procedures. Referral Bonuses are calculated as sales of products are completed.</li>
-                                <li>An Eco-Nomix Member must review his or her monthly statement and bonus reports promptlyKineticGoldrt any discrepancies within 30 days of receipt. After the 30-day “grace period” no additional requests will be considered for commission recalculations.</li>
-                                <li>For additional information on payment of Referral Bonuses, please review the Compensation Plan.</li>
+                                <li>In order to qualify to receive bonuses, a Member must be in good standing and comply with the Terms of the Agreement and these Policies and Procedures.
+                               Profit-Sharing Bonuses are calculated as deposits are made into a members account.</li>
+                                <li>An KineticGold Member must review his or her monthly statement and bonus reports promptly and report any discrepancies within 30 days of receipt.
+                                After the 30-day “grace period” no additional requests will be considered for Profit-Sharing recalculations.</li>
+                                <li>For additional information on payment of Profit-Sharing, please review the Compensation Plan.</li>
                             </ol>
 
                         </div>
                         <div class="form-group col-md-12 ">
-            KineticGold   5.3 Adjustments to Bonuses for Returned Products or Member Memberships.
+                        5.3 Adjustments to Bonuses for Returned Products or Member Memberships.
                         </div>
-                        <div clKineticGold-group col-md-12 ">
-                            <ol type="A">
-                                <li>A MKineticGoldeives bonuses based on the actual sales of products and services to end consumers and to Members through product and service purchases. When a product or service is returned to Eco-Nomix for a refund from the end consumer or by a Member, the bonuses and commissions attributable to the returned product or service will be dedKineticGoldm the Member who received bonuses or commissions on such sKineticGolductions will occur in the month inKineticGolde refund is given and continue every pay period thereafter until the bonus/and or commission is recovered.</li>
-                 KineticGold      <li>In the event that a Member terminates his or her position, and the amounts of the bonuses attributable to the returned products or services have not yet been fully recovered by Eco-Nomix, the remainder of the outstanding balance may be offset agaKineticGoldother amounts that may be owed by Eco-Nomix to the terminated Member.</li>
-                            </ol>
+                        <div class="form-group col-md-12 ">
+                             Profit-Sharing bonuses are based on the actual deposit into KineticGold member bank accounts.
+                                Any adjustment to said deposits will cause Profit-Sharing bonuses to be recalculated and adjusted.</li>
+
                         </div>
 
-                        <div clasKineticGoldroup col-md-12 ">
+                        <div class="form-group col-md-12 ">
                         6.0 SATISFACTION GUARANTEED AND RETURN OF SALES AIDS
                         </div>
                         <div class="form-group col-md-12 ">
                          <ol type="A">
-                           <li>Eco-Nomix offers a one hundred percent (100%) thirty-day money back guarantee for all non customized products.</li>
-                           <li>With respect to return of Sales Aids, Eco-Nomix offersKineticGoldrefund opportunities depending on the product or service purchased.  Shipping and handlKineticGoldes incurred will not be refunded.</li>
-                           <li>Customized products (such as business cards and or Payroll Debit Cards) may only be returned if the customized information (name, address, etc) is other than as ordered. </li>
+                           <li>KineticGold offers a one hundred percent (100%) thirty-day money back guarantee for all non customized products.</li>
+                           <li>With respect to return of Sales Aids, KineticGold  offers refund opportunities depending on the product or service purchased.
+                           Shipping and handling incurred will not be refunded.</li>
+                           <li>Customized products (such as business cards) may only be returned if the customized information (name, address, etc) is other than as ordered. </li>
                          </ol>
                         </div>
-                        <div class="forKineticGoldol-md-12 ">
+                        <div class="form-group col-md-12 ">
                         6.1 Return Process
                         </div>
- KineticGold              <div KineticGoldrm-group colKineticGold
-                            <ol type="A">KineticGold                        <li>All returns, whether by a Customer, or Member, must be made as follows:
+                       <div class="form-group col-md-12 ">
+                            <ol type="A">
+                              <li>All returns, whether by a Customer, or Member, must be made as follows:
                                     <ol type="I">
-                                        <li>Obtain Return Merchandise AuthorizatiKineticGold) from Eco-Nomix;</li>
-                                        <li>Ship items to the address provided by Eco-Nomix Customer service wheKineticGold given your KineticGold
-                                        <KineticGolde a copy of the invoice with the returned products or service. Such invoice must reference the RMA and include the reason for the return.</li>
-                                        <li>Ship back product in manufacturer’s box exacKineticGold was delivered.</li>
+                                        <li>Obtain Return Merchandise Authorization from KineticGold;</li>
+                                        <li>Ship items to the address provided to KineticGold Customer service when order was placed</li>
+                                        <li>A copy of the orinal invoice is returned with the returned products or service. Such invoice must reference the RMA and include the reason for the return.</li>
+                                        <li>Ship back product in manufacturer’s box exactly as was delivered.</li>
                                     </ol></li>
-                                <li>All returns must be shipped to Eco-Nomix pre-paid, as Eco-Nomix does not accept shipping collect packages. Eco-Nomix recommends shipping returned product by UPS or FedEx with tracking and insurance as risk of loss or damage in shipping of the returned product shall be borne solely by the Customer, or Member. If returned product is not received at Eco-Nomix Distribution Center, it is the responsibility of the Customer, or Member to trace the shipment and no credit will be applied.</li>
-                                <li>The return of $500 or more of products accompanied KineticGoldest for a refund within a calendar year, by a Member, may constitute grounds for involuntary termination.</li>
-                   KineticGold</ol>
+                                <li>All returns must be shipped to KineticGold pre-paid, as KineticGold does not accept shipping collect packages. KineticGold recommends shipping
+                                returned products by UPS or FedEx with tracking and insurance as risk of loss or damage in shipping of the returned product shall be borne solely
+                                by the Customer, or Member. If returned product is not received at KineticGold's Distribution Center, it is the responsibility of the Customer,
+                                or Member to trace the shipment and no credit will be applied.</li>
+                                <li>The return of $500 or more of products for a refund within a calendar year, by a Member, may constitute grounds for involuntary termination.</li>
+                  </ol>
 
                         </div>
                         <div class="form-group col-md-12 ">
@@ -472,81 +643,130 @@ KineticGold                       <li>During the term of this Agreement and for 
                         </div>
                         <div class="form-group col-md-12 ">
                         7.1 Introduction
-                   KineticGold<br> <p style="KineticGoldft: 20px">This Privacy Policy is to ensure that all Customers and Members understand and adhere to KineticGold principles of confideKineticGold</p>
+                        </div>
+                         <div class="form-group col-md-12 ">
+                        <p style="KineticGoldft: 20px">This Privacy Policy is to ensure that all Customers and Members understand and adhere to KineticGold principles of confidetiality</p>
                         </div>
                         <div class="form-group col-md-12 ">
                         7.2 Expectation of Privacy
                         </div>
-   KineticGold            <div class="form-group col-md-12 ">
-  KineticGold                 <ol type="A">
-            KineticGold           <li>Eco-Nomix recognizes and respects the importance its Customers and Members place on the privacy of their finanKineticGoldpersonal information. Eco-Nomix will make reasonable efforts to safeguard the privacy of, and maintain the confidentiality of its Customers’, and MemberKineticGoldial and account information and nonpublic personal inKineticGold.</li>
-                                <li>By enteKineticGold the Member Agreement, a Member authorizes Eco-Nomix to disclose his or her name and contact information to upline Members solely for activities related to the furtherance of the Eco-Nomix business. A Member hereby agrees to maintain the confidentiality and security of such information and to use it solely for the purpose of supporting and KineticGold his or her downline organization and conducting the Eco-KineticGoldiness.</li>
-                                <li>Eco-Nomix will not disclose any personal information to outside third parties unless required by law.</li>
-                            </ol>
-                        </div>
-                        <diKineticGoldform-group col-md-12 ">
-     KineticGold          7.3 Employee Access to Information
-                        <br><br> <p style="margin-left: 2KineticGoldNomix limits the number of employees who have access to CustomerKineticGoldmbers’ nonpublic personal information.</p>
-                        </div>
-
-                        <div class="form-group col-md-12 ">
-                        8.0 KineticGoldRY INFORMATION AND TRADE SECRETS
-                        </div>
-           KineticGold    <div class="form-group coKineticGold>
-      KineticGold         8.1 Business Reports, Lists, and Proprietary Information
-                   KineticGold<br> <p style="margin-left: 20px">By completing and signing the Eco-Nomix Member Agreement, the Member acknowledges that Business Reports, lists of CuKineticGoldd Member names and contact information and any othKineticGoldation, which containKineticGoldl, scientific or other information both written or otherwise circulated by Eco-Nomix pertaining to the business of Eco-Nomix (collectiKineticGoldports”), are confidential and proprietary information and trade secrets belonging to Eco-Nomix.</p>
-                        </div>
-                        <div class="form-group col-md-12 ">
-                        8.2 Obligation of ConfidentialiKineticGold                  <br><br> <p style="margin-left: KineticGolding the Term of the Eco-Nomix Member Agreement and for a period of five (5) years after the termination or expiration of the Member Agreement between the Member and Eco-KineticGolde Member shall notKineticGold           KineticGold </div>
                         <div class="form-group col-md-12 ">
                             <ol type="A">
-                                <li>Use the information in the Reports to compete with Eco-Nomix or for any purpose other than promoting his or her Eco-Nomix business;</li>
-                                <li>Use or disclose to any person or entity any confidential information contained in the Reports, including the replicatioKineticGoldgenealogy in anothKineticGoldk marketiKineticGoldGold</li>
+                                <li>KineticGold recognizes and respects the importance its Customers and Members place on the privacy of their financial and personal information.
+                                KineticGold will make reasonable efforts to safeguard the privacy of, and maintain the confidentiality of its Customers’ Member and account information
+                                and nonpublic personal information.</li>
+                                <li>By the KineticGold Member Agreement, a Member authorizes KineticGold to disclose his or her name and contact information to upline Members solely
+                                for activities related to the furtherance of the KineticGold business. A Member hereby agrees to maintain the confidentiality and
+                                security of such information and to use it solely for the purpose of supporting and KineticGold his or her downline organization and conducting
+                                the KineticGold business.</li>
+                                <li>KineticGold will not disclose any personal information to outside third parties unless required by law.</li>
                             </ol>
                         </div>
-              KineticGold <div class="formKineticGoldl-md-12 ">
-                        8.3 Breach and Remedies
-                         <p style="margin-left: 20px">The Member acknowledges that such proprietary information is of such character as to render it unique and that disclosure or use thereof in violation of this provision will result in irreparable damage to Eco-Nomix and to independent Eco-Nomix businessesKineticGoldix and its Members will be entitled to injunctive relief or to recover damages against anKineticGoldwho violates thisKineticGoldn in any action to enforce its rights under this section. The prevailing partKineticGolde entitled to an award of attorney’s fees, court costs and expensesKineticGold                     </div>
-                        <div class="form-KineticGold-md-12 ">
-                        8.4 Return of Materials
-               KineticGold <p style="margin-left: 20px">Upon demand by Eco-Nomix, any current or former Member will return the original and all copies of all “Reports” to Eco-Nomix together with any Eco-Nomix coKineticGoldl information in such person’s possession.</p>
-                    KineticGold>
-         KineticGold      <div class="form-group col-md-12 ">
-     KineticGold          9.0 ADVERTISING, PROMOTIONAL MATERIAL, USE OF COMPANY NAMESKineticGoldEMARKS
+                        <div class="form-group col-md-12 ">
+                            7.3 Employee Access to Information
                         </div>
-              KineticGold <div class=KineticGoldup col-md-12 ">
+                        <div class="form-group col-md-12 ">
+                        8.0 KineticGold INFORMATION AND TRADE SECRETS
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        8.1 Business Reports, Lists, and Proprietary Information
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <p style="margin-left: 20px">By completing and signing the KineticGold Member Agreement, the Member acknowledges that Business Reports,
+                            lists of KineticGold Member names and contact information and any other KineticGold infomation, which contains KineticGold member information,
+                            financial information, scientific or other information both written or otherwise circulated by KineticGold pertaining to the business of KineticGold,
+                            are confidential and proprietary information and trade secrets belonging to KineticGold.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        8.2 Obligation of Confidentiality
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Use the information in the Reports to compete with KineticGold or for any purpose other than promoting his or her Kinetic business is prohibited;</li>
+                                <li>Use or disclose to any person or entity any confidential information contained in the Reports, including the replication of KineticGold genealogy
+                                 from any KineticGold reports is prohibited.</li>
+                            </ol>
+                        </div>
+                         <div class="form-group col-md-12 ">
+                        8.3 Breach and Remedies
+                        </div>
+                         <div class="form-group col-md-12 ">
+                         The Member acknowledges that such proprietary information is of such character as to render it unique and that disclosure or use
+                         thereof in violation of this provision will result in irreparable damage to KineticGold and to independent KineticGold businesses and its Members
+                         will be entitled to injunctive relief or to recover damages against any Member who violates the Obligation of Confidentiality.
+                         The prevailing party is entitled to an award of attorney’s fees, court costs and expenses.
+                         </div>
+                       <div class="form-group col-md-12 ">
+                        8.4 Return of Materials
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            Upon demand by KineticGold, any current or former Member will return the original and all copies of all “Reports” to KineticGold together with any KineticGold confidential
+                            information in such person’s possession.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        9.0 ADVERTISING, PROMOTIONAL MATERIAL, USE OF COMPANY NAMESKineticGoldEMARKS
+                        </div>
+                      <div class="form-group col-md-12 ">
                         9.1 Labeling, Packaging, and Displaying Products
                         </div>
                         <div class="form-group col-md-12 ">
-     KineticGold              <ol type="A">
-                                <li>An Eco-Nomix KineticGoldy nKineticGoldel, re-package, refill,KineticGold labels of any Eco-Nomix product, or service, information, materials or program(s) in any way. EcoKineticGoldoducts and services must only be sold in KineticGoldgKineticGoldainers from Eco-Nomix. Such re-labeling or re-packaging violates Federal, and State and Provincial laws, which may result in criminal or civil penalties orKineticGoldy.</li>
-                                <li>Eco-Nomix will permit Members to solicit and make Commercial Sales upon prior written apKineticGoldom Eco-Nomix. For the purpose of thesKineticGolds and Procedures, the term “Commercial Sale” means the sale of;
-                                  KineticGolde="I">
-                                  KineticGold>Eco-Nomix products that equal or eKineticGold000 in a single order;</li>
-                            KineticGold   <li>Products sold to a third party who intends to reselKineticGoldducKineticGoldend KineticGold</li>
-                                 KineticGold/li>
-                                <li>A Member may sell Eco-Nomix products and services and display the Eco-Nomix trade name at any appropriate display booth (such as trade shows) upon prior written approval from Eco-Nomix.</li>
-                        KineticGoldli>Eco-Nomix reserves the right to refuse authoriKineticGold participate at any function that it does not deem a suiKinetKineticGoldfor the promotion of its products and services, or the Eco-Nomix oppoKinetiKineticGoldKineticGold                    </ol>
-             KineticGold  </div>
-          KineticGold     <div class="form-group col-md-12 ">
-                        9.2 Use of Company Names anKineticGolded Materials
-                        </div>KineticGold                <div class="form-group col-md-12 ">
-                       KineticGoldtype="A">
-                             KineticGold Eco-Nomix Member must saKineticGoldnd promote the good reputKineticGoldEco-NKineticGoldthe products and servKineticGoldarkets. The marketing and promotion of Eco-NoKineticGoldEco-Nomix opportunity, KineticGoldnsation Plan, and Eco-Nomix prodKineticGoldserviceKineticGold consistent with the public interest, and must avoid all discourteous, deceptive, misleadingKineticGoldal or immoral conduct and practicKineticGold KineticGold                      <li>All promotional materials supplied or created by Eco-NoKineticGoldbe used in their original form and KineticGold changed, amended or alteKineticGoldt with prior written apprKineticGold the Eco-Nomix Compliance Department.KKineticGoldd                             <li>The name of Eco-Nomix, each of its product andKineticGoldnames and other names that have KineticGoldted by Eco-Nomix in connection with its business are proKineticGoldtrade names, trademarks and service marks of Eco-Nomix. As such, these marks aKineticGoldatKineticGold Eco-Nomix and are supplied to Members for their use only KineticGoldressly authorized manner.<KinKineticGold                           <li>An Eco-Nomix Member’s use of the name “Eco-Nomix” is restricted to protect Eco-Nomix proprietary rights, ensKineticGoldt the EKineticGoldprotected KineticGoldl not be lost or compromised by unauthorized use. Use of the Eco-Nomix name on any item not produced by Eco-Nomix is prohibited except as follows:
-                        KineticGold   <ol type="I">
-          KineticGold                     <li>[Member’s name] IKineticGoldt Eco-Nomix Member</li>
-                                        <li>[MeKineticGoldme]KineticGoldent Member of EcoKineticGoldoducts and services.</li>
-                                    </ol></li>
-                                <li>Further procedures relating toKineticGoldof the Eco-Nomix name are asKineticGold
+                             <ol type="A">
+                                <li>Any re-package, refill, or labeling of any KineticGold product, or service, information,
+                                materials or program(s) in any way is not allowed without specific permission for KineticGold.
+                                </li><li>
+
+                                Such re-labeling or re-packaging violates Federal, and State and Provincial laws, which may result in criminal or civil penalties.</li>
+                                <li>KineticGold will permit Members to solicit and make Commercial Sales upon prior written permission from KineticGold.
+                                For the purpose of theses Policies and Procedures, the term “Commercial Sale” means the sale of;
+                                  <ol type="I">
+                                    <li>
+                                        KineticGold products that equal or $1000 in a single order;</li>
+                                    <li>Products sold to a third party who intends to resell the products</li>
+                                  </ol>
+                                <li>A Member may sell KineticGold products and services and display the KineticGold trade name at any appropriate display booth (such as trade shows)
+                                 upon prior written approval from KineticGold.</li>
+                                <li>KineticGold reserves the right to refuse authoriztion to participate at any function that it does not deem a suitable for KineticGold
+                                for the promotion of its products and services, or the KineticGold Banking platform</li>
+                             </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        9.2 Use of Company Names and Materials
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           <ol type="A">
+                                <li>KineticGold Members must promote the good reputation of KineticGold products and services. The marketing and promotion of the KineticGold opportunity,
+                                KineticGold Profit-Sharing Plan, and KineticGold products must be consistent with the public interest, and must avoid all discourteous,
+                                deceptive, misleading or immoral conduct and practices </li>
+                                <li>All promotional materials supplied or created by KineticGold shall used in their original form and unchanged, amended or altered without prior written approval by
+                                KineticGold's Compliance Department.</li>
+                                <li>The name of KineticGold, each of its products and names that have utilized by KineticGold in connection with its business are protected trade
+                                names, trademarks and service marks of KineticGold. As such, these marks are supplied to Members for their use only in an authorized manner.</li>
+                                <li>An KineticGold Member’s use of the name “KineticGold” is restricted to protect KineticGold proprietary rights,
+                                ensure that name of "KineticGold" not be lost or compromised by unauthorized use. Use of the KineticGold name on any item not produced by KineticGold
+                                 is prohibited except as follows:
                                     <ol type="I">
-                              KineticGold <li>All stationary (i.e. letterhead, envelopes, and business cards) bearing the Eco-Nomix name or logo intended foKineticGoldicGoldMember must be approved in writing by the Eco-Nomix Compliance DepartmentKineticGold                                      <li>Eco-Nomix MembKineticGoldist “Independent Eco-Nomix Member or Member” in the white pages of the telephone directory under his oKineticGold name.</li>
-                                        <li>Eco-Nomix Members may not use the nKineticGoldomix in answering his or her telephone, creating a voice messagKineticGoldg an answering KineticGoldsuch as to give the impression to the caller that they have reached the corporate office. They may state, “IndependKineticGoldomix Member.”</li>
+                                        <li>[Member’s name] KineticGold Member</li>
+                                        <li>[Member's name]  Member of KineticGold banking platform and services.</li>
                                     </ol></li>
-             KineticGold          <li>Certain photos and graphic images used by Eco-Nomix in its advertisingKineticGoldng, and websites are the result of paid KineticGold with outside vendors that KineticGoldtend to Members. If a Member wants to use these photoKineticGoldhic images, they must negotiaKineticGolddual contracts with the vendors for a fee.</li>
-               KineticGold        <li>An Eco-Nomix Member shall not appear on or make use of television or radio, or make use of any other media to promote or discuss Eco-Nomix or its programs, products or services without prior written permission from the Eco-Nomix Compliance Department.</li>
-                                <li>A Member may not prodKineticGoldale or distribution any Company event orKineticGoldnor may a Member reproduce Eco-Nomix audio or video clipsKineticGold or for personal use withKineticGold written permission from the Eco-Nomix Compliance Department.</li>
-                                <li>Eco-Nomix reserves the right to rescind its prior approval of any sales aid or promotional material to comply with changing laws and regulations and may request the removal from the marketplace of such materials without financial obligation to the affected Member.</li>
-                                <li>A Member shall not promote non-Eco-Nomix products or services in conjunction with Eco-Nomix products or services on the same websites or same advertisKineticGoldhout prior approval from Eco-Nomix Compliance.</li>
+                                <li>Further procedures relating to the KineticGold name are restricted
+                                    <ol type="I">
+                                        <li>All stationary (i.e. letterhead, envelopes, and business cards) bearing the KineticGold name or logo intended for KineticGold Members
+                                            must be approved in writing by the KineticGold Compliance Department
+                                        </li>
+                                        <li>“Independent Kinetic Member” in the white pages of the telephone directory under his KineticGold name.</li>
+                                        <li>KineticGold Members may not use the name KineticGold in answering his or her telephone, creating a voice message,or an answering KineticGold such
+                                            as to give the impression to the caller that they have reached the corporate office. They may state, “Independent KineticGold Member.”</li>
+                                    </ol></li>
+                                <li>Certain photos and graphic images used by KineticGold in its advertising, and websites have been licensed from outside vendors
+                                    and are not availble for use by its members. If a Member wants to use these photos, graphic images, they must negotiate contracts with the vendors for a fee.</li>
+                                <li>An KineticGold Member shall not appear on or make use of television or radio, or make use of any other media to promote or discuss KineticGold or its programs,
+                                    products or services without prior written permission from the KineticGold Compliance Department.</li>
+                                <li>A Member may not produce audio or video clips from a KineticGold even for other then their personal use without KineticGold's written permission from the KineticGold
+                                 Compliance Department.</li>
+                                <li>KineticGold reserves the right to rescind its prior approval of any sales aid or promotional material to comply with changing laws
+                                and regulations and may request the removal from the marketplace of such materials without financial obligation to the affected Member.</li>
+                                <li>A Member shall not promote non-KineticGold products or services in conjunction with KineticGold products or services on the same websites or
+                                same advertisement without prior approval from KineticGold Compliance.</li>
                             </ol>
                         </div>
                         <div class="form-group col-md-12 ">
@@ -554,9 +774,13 @@ KineticGold                       <li>During the term of this Agreement and for 
                         </div>
                         <div class="form-group col-md-12 ">
                             <ol type="A">
-                                <li>Except as provided in this section, a Member may not use or transmit unsolicited faxes, email, mass email distribution, or “spamming” that advertises or promotes the operation of his or her Eco-Nomix business. The exceptions are;
+                                <li>Except as provided in this section, a Member may not use or transmit unsolicited faxes, email, mass email distribution, or “spamming” that advertises or promotes the operation
+                                of his or her KineticGold business. The exceptions are;
                                     <ol type="I">
                                         <li>Faxes or e-mailing any person who has given prior permission or invitation;</li>
                                         <li>Faxing or e-mailing any person with whom the Member has established a prior business or personal relationship.</li>
                                     </ol></li>
-                                <li>In all States, Provinces or Territories where prohibited by law, a Member may not transmit, or cause to be transmitted through a third party, (by telephone, facsimile, computer or other device), an unsolicited advertisement to an
+                                <li>In all States, Provinces or Territories where prohibited by law, a Member may not transmit, or cause to be transmitted through a third party,
+                                (by telephone, facsimile, computer or other device), an unsolicited advertisement</li>
+                            </ol>
+                        </div>

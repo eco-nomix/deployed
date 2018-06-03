@@ -32,7 +32,7 @@
         position: absolute;
         left: 100px;
         top: 200px;
-        width:760px;
+        width:740px;
         font-weight:bold;
         color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;

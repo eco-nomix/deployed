@@ -19,7 +19,7 @@
 
 
     <div class="trans display  back-white col-md-10 col-md-offset-1" >
-            <p>Kinetic Gold is a new banking plattform and cryptocurrency that is in its Pre-Launch phase.  </p>
+            <p>Kinetic Gold is a new banking platform and cryptocurrency that is in its Pre-Launch phase.  </p>
             <p>Unlike other cryptocurrenciences, Kinetic Gold has been designed to be utilized like a standard bank account
                on a regular basis for normal banking activities.
                Features like payroll deposit, ATM access, Debit Card Access and on-line banking are among the standard

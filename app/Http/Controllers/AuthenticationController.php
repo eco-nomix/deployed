@@ -47,7 +47,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = '';
         $data['title'] = '';
         $data['description'] = 'Login';
-        return view('welcome2',$data);
+        return view('welcome',$data);
     }
 
     public function verify(Request $request)

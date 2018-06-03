@@ -19,7 +19,7 @@
                     <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
-                        This is an extraction of Section 6.0 of the General Policies and Procedures
+                        This is an extraction of Section 6.0 of the General Policies and Procedures Manual.
                         </div>
                          <div class="form-group col-md-12 ">
                         6.0 SATISFACTION GUARANTEED AND RETURN OF SALES AIDS

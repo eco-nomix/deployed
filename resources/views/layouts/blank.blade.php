@@ -15,7 +15,7 @@
     <style>
     .Kineticaction {
         position: absolute;
-        left: 150px;
+        left: 50px;
         top: 50px;
         width:800px;
         font-weight:bold;

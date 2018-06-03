@@ -43,6 +43,23 @@
         line-height: 53px;
         text-shadow: 4px 5px 6px rgba(0,0,0,0.8);
     }
+
+     .Kineticaction3 {
+            position: absolute;
+            left: 100px;
+            top: 200px;
+            width:700px;
+            font-weight:bold;
+            color:#000000;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 50px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            line-height: 53px;
+            text-shadow: 4px 5px 6px rgba(256,256,256,0.8);
+        }
+        </style>
     </style>
 
 </head>

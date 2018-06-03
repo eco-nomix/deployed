@@ -116,9 +116,9 @@
          </div>
         <div style="z-index:10; border:black 2px solid; height:348px;width:900px; top:660px; left:0px; position:absolute; background:white;">
 
-            <div style="z-index:12; font-size:20pt; color:Blue; left:250px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>
+            <div style="z-index:12; font-size:20pt; color:Blue; left:125px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>
             <div style="z-index:12; left:50px; width:750px; position:relative;">
-             <ul style="font-size:16pt; font-weight:bold;">
+             <ul style="font-size:20pt; font-weight:bold;">
                     <li>Rewards and Profit-Sharing</li>
                     <li>10% Reward for every Deposit</li>
                     <li>No Change in your Banking Habits</li>

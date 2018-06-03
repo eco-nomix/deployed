@@ -558,26 +558,26 @@
                          </div>
                          <div class="form-group col-md-12 ">
                         4.3 Sales Tax Obligation
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                             {{--<ol type="A">--}}
-                                {{--<li>KineticGold will comply with all State, Provincial and local taxes and regulations governing the sale of KineticGold products and services.</li>--}}
-                                {{--<li>KineticGold will collect and remit sales tax on Member orders unless a Member furnishes KineticGold with the appropriate Resale Tax Certificate form, unless--}}
-                                 {{--sales tax is prepaid based upon the suggested retail price. KineticGold will remit the sales tax to the appropriate Status, Provincial and local jurisdictions.--}}
-                                 {{--The Member may recover the sales tax when he or she makes a sale. KineticGold Members are responsible for any additional sales taxes due on products--}}
-                                 {{--marked up and sold at a higher price.</li>--}}
-                                {{--<li>KineticGold Members to consult with a tax advisor for additional information for his or her business.</li>--}}
-                            {{--</ol>--}}
-                            {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--4.4 Chargeback Policy--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--<p style="margin-left: 20px">When KineticGold receives notice of a chargeback from either a customer or a Member, the sponsor will be assessed a fee.--}}
-                        {{--This is done to ensure KineticGold Members are always careful when it comes KineticGold card related issues.</p>--}}
-                        {{--</div>--}}
-                     {{--<div class="form-group col-md-12 ">--}}
-                        {{--5.0 PAYMENT OF BONUSES--}}
+                        </div>
+                        <div class="form-group col-md-12 ">
+                             <ol type="A">
+                                <li>KineticGold will comply with all State, Provincial and local taxes and regulations governing the sale of KineticGold products and services.</li>
+                                <li>KineticGold will collect and remit sales tax on Member orders unless a Member furnishes KineticGold with the appropriate Resale Tax Certificate form, unless
+                                 sales tax is prepaid based upon the suggested retail price. KineticGold will remit the sales tax to the appropriate Status, Provincial and local jurisdictions.
+                                 The Member may recover the sales tax when he or she makes a sale. KineticGold Members are responsible for any additional sales taxes due on products
+                                 marked up and sold at a higher price.</li>
+                                <li>KineticGold Members to consult with a tax advisor for additional information for his or her business.</li>
+                            </ol>
+                            </div>
+                        <div class="form-group col-md-12 ">
+                        4.4 Chargeback Policy
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        <p style="margin-left: 20px">When KineticGold receives notice of a chargeback from either a customer or a Member, the sponsor will be assessed a fee.
+                        This is done to ensure KineticGold Members are always careful when it comes KineticGold card related issues.</p>
+                        </div>
+                     <div class="form-group col-md-12 ">
+                        5.0 PAYMENT OF BONUSES
                         </div>
                         <div class="form-group col-md-12 ">
                         5.1 Bonus Qualifications

@@ -178,70 +178,70 @@
                         </div>
                         <div class="form-group col-md-12 ">
                         2.5 Renewals and Expiration of the Member Agreement
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>There are no renewal fees or purchase requirements for members to maintain their membership.</li>--}}
-                                {{--<li>There is no annual fee for the Debit card once it has been issued. </li>--}}
-                                {{--<li>Any Member who was terminated is not eligible to re-apply for an KineticGold Membership for 12 months following the Termination of the Member Agreement.</li>--}}
-                                {{--<li>The downline of the terminated Member will roll up to the immediate, upline Sponsor.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.6 Business Entities--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>A corporation, partnership, LLC, or trust (collectively referred to as a “Business Entity”) may apply to be an KineticGold Member.--}}
-                                {{--This Member business and position will remain temporary until the proper documents are received. The Business Entity must submit one of--}}
-                                {{--the following documents: Certificate of Incorporation, Articles of Organization, Partnership agreement or appropriate Trust documents.--}}
-                                {{--KineticGold must receive these documents within 14 days from the date the Member Agreement was signed.</li>--}}
-                                {{--<li>An KineticGold Member may change their status under the same Sponsor from an individual to a partnership, LLC, corporation,--}}
-                                {{--trust or from one type of business entity to another.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.7 Independent Business Relationship; Indemnification for Actions--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>The KineticGold Member is an independent contractor, a purchaser of a franchise or business opportunity.--}}
-                                {{--Therefore, each Member’s success depends upon his or her individual efforts.</li>--}}
-                                {{--<li>The Agreement between KineticGold and its Members does not create an Employer/employee relationship, agency,--}}
-                                {{--partner or joint venture between KineticGoold and the Member>--}}
-                                {{--<li>An KineticGold Member shall not be treated as an employee of KineticGold for any purpose including, without limitation, for Federal, State,  or Local tax purposes.--}}
-                                 {{--All Members are responsible for paying local, State, Provincial, and Federal tax for all compensation earned as a Member of KineticGold. Any compensation--}}
-                                 {{--received by Members from KineticGold will be governed by the applicable U.S. or Canadian tax laws, or laws of any other applicable jurisdiction.--}}
-                                 {{--The Member does not have KineticGold's or implied authority to bind KineticGold to any obligation or to make any commitments by or on behalf of KineticGold.--}}
-                                 {{--Each Member, whether acting as management of a Business Entity or represented as an individual, shall establish his or her own goals, hours, methods--}}
-                                 {{--of operation and sale, so long as he or she complies with the Terms of the Member Agreement, KineticGold's Policies and Procedures and--}}
-                                 {{--applicable State, Federal and Provincial laws.</li>--}}
-                                {{--<li>A KineticGold Member is fully responsible for his or her verbal and written communications regarding KineticGold's products, services, and the Compensation plan--}}
-                                {{--of KineticGold that are not expressly contained within official KineticGold materials and shall indemnify and hold harmless KineticGold, its directors,--}}
-                                {{--officers, employees, product suppliers and agents against all liability including judgments, civil penalties, refunds, attorney fees and--}}
-                                {{--court costs incurred by result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the KineticGold Member Agreement.</li>--}}
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>There are no renewal fees or purchase requirements for members to maintain their membership.</li>
+                                <li>There is no annual fee for the Debit card once it has been issued. </li>
+                                <li>Any Member who was terminated is not eligible to re-apply for an KineticGold Membership for 12 months following the Termination of the Member Agreement.</li>
+                                <li>The downline of the terminated Member will roll up to the immediate, upline Sponsor.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.6 Business Entities
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>A corporation, partnership, LLC, or trust (collectively referred to as a “Business Entity”) may apply to be an KineticGold Member.
+                                This Member business and position will remain temporary until the proper documents are received. The Business Entity must submit one of
+                                the following documents: Certificate of Incorporation, Articles of Organization, Partnership agreement or appropriate Trust documents.
+                                KineticGold must receive these documents within 14 days from the date the Member Agreement was signed.</li>
+                                <li>An KineticGold Member may change their status under the same Sponsor from an individual to a partnership, LLC, corporation,
+                                trust or from one type of business entity to another.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.7 Independent Business Relationship; Indemnification for Actions
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>The KineticGold Member is an independent contractor, a purchaser of a franchise or business opportunity.
+                                Therefore, each Member’s success depends upon his or her individual efforts.</li>
+                                <li>The Agreement between KineticGold and its Members does not create an Employer/employee relationship, agency,
+                                partner or joint venture between KineticGoold and the Member>
+                                <li>An KineticGold Member shall not be treated as an employee of KineticGold for any purpose including, without limitation, for Federal, State,  or Local tax purposes.
+                                 All Members are responsible for paying local, State, Provincial, and Federal tax for all compensation earned as a Member of KineticGold. Any compensation
+                                 received by Members from KineticGold will be governed by the applicable U.S. or Canadian tax laws, or laws of any other applicable jurisdiction.
+                                 The Member does not have KineticGold's or implied authority to bind KineticGold to any obligation or to make any commitments by or on behalf of KineticGold.
+                                 Each Member, whether acting as management of a Business Entity or represented as an individual, shall establish his or her own goals, hours, methods
+                                 of operation and sale, so long as he or she complies with the Terms of the Member Agreement, KineticGold's Policies and Procedures and
+                                 applicable State, Federal and Provincial laws.</li>
+                                <li>A KineticGold Member is fully responsible for his or her verbal and written communications regarding KineticGold's products, services, and the Compensation plan
+                                of KineticGold that are not expressly contained within official KineticGold materials and shall indemnify and hold harmless KineticGold, its directors,
+                                officers, employees, product suppliers and agents against all liability including judgments, civil penalties, refunds, attorney fees and
+                                court costs incurred by result of the Member’s unauthorized representations or actions. This Provision shall survive the termination of the KineticGold Member Agreement.</li>
 
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.8 Insurance – Business Pursuits Coverage--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<p style="margin-left: 20px">KineticGold encourages Members to arrange insurance coverage for their business. A homeowner insurance policy does not cover business--}}
-                            {{--related injuries, or the theft of, or damage to, inventory or business equipment. KineticGold Members need to contact their insurance--}}
-                            {{--agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit”--}}
-                            {{--endorsement to an existing homeowner’s policy.</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--2.9 Errors or Questions--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                         {{--<p style="margin-left: 20px">If a Member has questions and believes any errors have been made regarding Awards or Profit-Sharing, business reports, orders, or charges,--}}
-                         {{--the Member must notify KineticGold in writing within 30 days of the date of the error or incident in question. Any such errors, omissions or--}}
-                         {{--problems not reported within 30 days shall be deemed waived by the member</p>--}}
-                        {{--</div>--}}
-                         {{--<div class="form-group col-md-12 ">--}}
-                        {{--3.0 KineticGolds’S Member RESPONSIBILITIES--}}
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.8 Insurance – Business Pursuits Coverage
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <p style="margin-left: 20px">KineticGold encourages Members to arrange insurance coverage for their business. A homeowner insurance policy does not cover business
+                            related injuries, or the theft of, or damage to, inventory or business equipment. KineticGold Members need to contact their insurance
+                            agent to make certain their business property is protected. In most instances, this may be accomplished with a “Business Pursuit”
+                            endorsement to an existing homeowner’s policy.</p>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        2.9 Errors or Questions
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <p style="margin-left: 20px">If a Member has questions and believes any errors have been made regarding Awards or Profit-Sharing, business reports, orders, or charges,
+                         the Member must notify KineticGold in writing within 30 days of the date of the error or incident in question. Any such errors, omissions or
+                         problems not reported within 30 days shall be deemed waived by the member</p>
+                        </div>
+                         <div class="form-group col-md-12 ">
+                        3.0 KineticGolds’S Member RESPONSIBILITIES
                         {{--</div>--}}
                          {{--<div class="form-group col-md-12 ">--}}
                             {{--3.1 Correct Addresses--}}

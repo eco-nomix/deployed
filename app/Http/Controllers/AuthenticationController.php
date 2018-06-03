@@ -511,7 +511,7 @@ class AuthenticationController extends Controller
        //     like a seedling, but over time can become great for all the world to
        //     see.';
         $data['message2'] = 'To Find out how, fill out this simple form, confirm your email and get 10% Rewards with every Deposit';
-        $data['member_story'] = "hi";//$user->member_story;
+        $data['member_story'] = $user->member_story;
         $data['user_pic'] = $user->picture;
         $data['image2'] = '../images/red_down_arrow.png';
         return view('action',$data);

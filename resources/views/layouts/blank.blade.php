@@ -57,7 +57,7 @@
             font-variant: normal;
             font-weight: 500;
             line-height: 53px;
-            text-shadow: 4px 5px 6px rgba(256,256,256,0.8);
+            text-shadow: 4px 5px 6px rgba(255,255,255,0.8);
         }
         </style>
     </style>

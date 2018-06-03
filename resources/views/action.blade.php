@@ -13,7 +13,7 @@
           </div>
        </div>
 
-        <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:980px; width:300px">
+        <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:1000px; width:300px">
             Free Information   Instant Access
         </div>
         <div style=" height:800px;width:502px; top:0px; left:900px; position:absolute;  border-style:dashed; border-color:blue; border-width:1px;">

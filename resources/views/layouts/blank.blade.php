@@ -51,8 +51,8 @@
             width:700px;
             font-weight:bold;
             color:#000000;
-            font-family: 'Brush Script MT', cursive;
-            font-size: 50px;
+
+            font-size: 100px;
             font-style: normal;
             font-variant: normal;
             font-weight: 500;

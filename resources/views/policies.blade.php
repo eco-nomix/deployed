@@ -674,6 +674,12 @@
                             Employee may have access to only that information necessary to do their specific job.  For example, a shipping clerk would have shipping information, but not have access to account
                             balances.
                          </div>
+                         <div class="form-group col-md-12 ">
+                               7.4 3rd Party Access to Information
+                         </div>
+                         <div class="form-group col-md-12 ">
+                               There will be no 3rd party access to Member information, contact information, purchases, balances, etc. unless that disclosure request is accompanied with a court order.
+                         </div>
                         <div class="form-group col-md-12 ">
                         8.0 KineticGold INFORMATION AND TRADE SECRETS
                         </div>

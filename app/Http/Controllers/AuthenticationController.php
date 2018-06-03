@@ -506,11 +506,11 @@ class AuthenticationController extends Controller
         $data['description'] = 'Gold-Backed Banking';
         $data['imageUrl'] = '../images/denmark.jpeg';
        // $data['imageUrl'] = '../images/HandsPlant.jpeg';
-        $data['message'] = 'Let your Bank give you a 10% Raise';
+        $data['message'] = "Let your Bank give you a 10% Raise";
       //  $data['message2'] = 'What we choose to do today will start out small
        //     like a seedling, but over time can become great for all the world to
        //     see.';
-        $data['message2'] = 'To Find out how, fill out this simple form, confirm your email and get 10% Rewards with every Deposit';
+        $data['message2'] = "To Find out how, fill out this simple form, confirm your email and get <br>10% Rewards with every Deposit";
         $data['member_story'] = $user->member_story;
         $data['user_pic'] = $user->picture;
         $data['image2'] = '../images/red_down_arrow.png';

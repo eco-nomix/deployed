@@ -629,7 +629,7 @@
                        <div class="form-group col-md-12 ">
                             <ol type="A">
                               <li>All returns, whether by a Customer, or Member, must be made as follows:
-                                    <ol type="I">
+                                    <ol type="i">
                                         <li>Obtain Return Merchandise Authorization from KineticGold;</li>
                                         <li>Ship items to the address provided to KineticGold Customer service when order was placed</li>
                                         <li>A copy of the orinal invoice is returned with the returned products or service. Such invoice must reference the RMA and include the reason for the return.</li>

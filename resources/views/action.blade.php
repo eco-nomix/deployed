@@ -22,10 +22,10 @@
                    <img src="{{$image2}}" height="530px">
 
             </div>
-            <div style=" height:490px;width:500px;   position:relative;">
+            <div style=" height:490px;width:450px;   position:relative;">
               <div class="container-fluid">
                   <div class="row">
-                      <div style="width:500px; height:508px;border:black 2px solid; ">
+                      <div style="width:450px; height:508px;border:black 2px solid; ">
                           <div class="panel panel-default">
                               <div class="panel-heading message2 center" >Get Started Today!</div>
                               <div class="panel-body">

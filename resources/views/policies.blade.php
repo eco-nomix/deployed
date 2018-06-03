@@ -66,43 +66,43 @@
                             <li>The most current version of these Policies and Procedures are available on the KineticGold website and should be read by the potential member before joining.</li>
                          </ol>
                         </div>
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--1.3 Purpose of Policies--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                           {{--<ol type="A">--}}
-                            {{--<li>KineticGold is a membership sales company that markets products and services through a company sponsored website.--}}
-                                {{--Members should refer those with questions about products or the marketing plan to the Website.--}}
-                                {{--KineticGold defines the relationship between Members and KineticGold to explicitly set a standard acceptable business conduct, KineticGold has established these--}}
-                                {{--Policies and Procedures.</li>--}}
-                            {{--<li>(i)KineticGold Members are required to comply with KineticGold's Terms and Conditions found within the Member Agreement, which KineticGold--}}
-                                {{--may amend from time to time in its sole discretion; (ii) all Federal, Provincial, Territorial, and/or laws governing his, her and/or its KineticGold and (iii)--}}
-                                {{--these Policies and Procedures</li>>--}}
-                            {{--<li>KineticGold Members must review the information in these Policies and Procedures carefully.--}}
-                                {{--Should a Member have any questions regarding a policy or rule, the Member is encouraged to seek an answer directly from KineticGold Customer Service and not rely upon any other--}}
-                                {{--upline Member. </li>--}}
-                          {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--1.4 Changes, Amendments, and Modifications--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                         {{--<ol type="A">--}}
-                            {{--<li>Federal, State, and local laws, as well KineticGold's policies and procedures perodically change, KineticGold reserves the right to ammend this Agreement--}}
-                            {{--and the prices in its KineticGold Product List in its sole and absolute discretion.--}}
-                            {{--KineticGold's amendments shall appear in Official KineticGold Materials. This provision does NOT apply to the arbitration clause found in Section 13,--}}
-                            {{--which can only be modified via mutual consent.</li>--}}
-                            {{--<li>Any such amendment, change, or modification shall be effective immediately upon notice by one of the following methods:--}}
-                                  {{--<ol type="I">--}}
-                                        {{--<li>Posting on the official KineticGold website;</li>--}}
-                                        {{--<li>Electronic mail); or</li>--}}
-                                        {{--<li>Through the Eco-Nomix newsletters or other Eco-Nomix communication channels.</li>--}}
-                                  {{--</ol>--}}
-                            {{--</li>--}}
-                         {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--1.5 Delays--}}
+                        <div class="form-group col-md-12 ">
+                        1.3 Purpose of Policies
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           <ol type="A">
+                            <li>KineticGold is a membership sales company that markets products and services through a company sponsored website.
+                                Members should refer those with questions about products or the marketing plan to the Website.
+                                KineticGold defines the relationship between Members and KineticGold to explicitly set a standard acceptable business conduct, KineticGold has established these
+                                Policies and Procedures.</li>
+                            <li>(i)KineticGold Members are required to comply with KineticGold's Terms and Conditions found within the Member Agreement, which KineticGold
+                                may amend from time to time in its sole discretion; (ii) all Federal, Provincial, Territorial, and/or laws governing his, her and/or its KineticGold and (iii)
+                                these Policies and Procedures</li>>
+                            <li>KineticGold Members must review the information in these Policies and Procedures carefully.
+                                Should a Member have any questions regarding a policy or rule, the Member is encouraged to seek an answer directly from KineticGold Customer Service and not rely upon any other
+                                upline Member. </li>
+                          </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        1.4 Changes, Amendments, and Modifications
+                        </div>
+                        <div class="form-group col-md-12 ">
+                         <ol type="A">
+                            <li>Federal, State, and local laws, as well KineticGold's policies and procedures perodically change, KineticGold reserves the right to ammend this Agreement
+                            and the prices in its KineticGold Product List in its sole and absolute discretion.
+                            KineticGold's amendments shall appear in Official KineticGold Materials. This provision does NOT apply to the arbitration clause found in Section 13,
+                            which can only be modified via mutual consent.</li>
+                            <li>Any such amendment, change, or modification shall be effective immediately upon notice by one of the following methods:
+                                  <ol type="I">
+                                        <li>Posting on the official KineticGold website;</li>
+                                        <li>Electronic mail); or</li>
+                                        <li>Through the Eco-Nomix newsletters or other Eco-Nomix communication channels.</li>
+                                  </ol>
+                            </li>
+                         </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        1.5 Delays
                         {{--</div>--}}
                         {{--<div class="form-group col-md-12 ">--}}
                                 {{--<p style="margin-left: 20px" >KineticGold shall not be responsible for delays or failures in performance of its obligations--}}

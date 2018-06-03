@@ -59,21 +59,21 @@
                                       </div>
 
                                       <div class="form-group">
-                                          <label class="col-md-4 control-label">User Name</label>
+                                          <label class="col-md-4 control-label">New User Name</label>
                                           <div class="col-md-6">
                                               <input type="text" class="form-control" name="username" value="">
                                           </div>
                                       </div>
 
                                       <div class="form-group">
-                                          <label class="col-md-4 control-label">Password</label>
+                                          <label class="col-md-4 control-label">New Password</label>
                                           <div class="col-md-6">
                                               <input type="password" class="form-control" name="password">
                                           </div>
                                       </div>
 
                                       <div class="form-group">
-                                          <label class="col-md-4 control-label">Confirm Password</label>
+                                          <label class="col-md-4 control-label">Confirm New Password</label>
                                           <div class="col-md-6">
                                               <input type="password" class="form-control" name="password_confirmation">
                                           </div>
@@ -116,21 +116,16 @@
          </div>
         <div style="z-index:10; border:black 2px solid; height:348px;width:900px; top:660px; left:0px; position:absolute; background:white;">
 
-            <div style="z-index:12; font-size:16pt; color:Blue; left:250px; position:relative;">Success is designed into the System</div>
+            <div style="z-index:12; font-size:20pt; color:Blue; left:250px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>
             <div style="z-index:12; left:50px; width:750px; position:relative;">
-             <ul style="font-size:12pt; font-weight:bold;">
-                    <li>Great Products to help you become More Self-Sufficient, improve your gardening experience, produce 100% organic foods, generate your own power, Free Video Training</li>
-                    <li>No minimum personal sales requirements</li>
-                    <li>No direct selling of products - all sales are done through the site</li>
-                    <li>No collecting of money</li>
-                    <li>No required marketing meetings</li>
-                    <li>No minimum number in your organization to 'qualify' for ALL Bonuses</li>
-                    <li>No stocking of inventory</li>
+             <ul style="font-size:16pt; font-weight:bold;">
+                    <li>Rewards and Profit-Sharing</li>
+                    <li>10% Reward for every Deposit</li>
+                    <li>No Change in your Banking Habits</li>
                     <li>No purchasing of product you don't want or need</li>
-                    <li>No confusing Marketing plan</li>
-                    <li>No waiting for the check that is in the mail</li>
                     <li>No Hidden Fees</li>
-                    <li>No hard sell - hand out a business card, let the site do the work for you</li>
+                    <li>No confusing Marketing plan</li>
+
                </ul>
              </div>
         </div>

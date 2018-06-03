@@ -20,7 +20,7 @@
                    <div class="panel-body">
                        <div class="form-group col-md-12 ">
 
-                            <table>
+                            <table width="100%">
                                 <tr><td>Corporate Mailing<br> Address:</td></tr>
                                 <tr><td></td><td>KineticGold Inc.</td><tr>
                                 <tr><td></td><td>8029 Highway 641 S.</td></tr>
@@ -38,7 +38,7 @@
                        </div>
 
                        <div class="form-group col-md-12 ">
-                            <table>
+                            <table  width="100%">
                                  <tr><td>Corporate Email:</td></tr>
                                  <tr><td></td><td>Jay Potter</td><tr>
                                  <tr><td></td><td>jpotter747@yahoo.com</td><tr>
@@ -55,7 +55,7 @@
       <div class="skip">&nbsp;</div>
         <div class="skip">&nbsp;</div>
           <div class="skip">&nbsp;</div>
-          
+
            </div>
        </div>
    </div>

@@ -51,8 +51,6 @@
             width:700px;
             font-weight:bold;
             color:#000000;
-
-            font-size: 120px;
             font-style: normal;
             font-variant: normal;
             font-weight: 500;

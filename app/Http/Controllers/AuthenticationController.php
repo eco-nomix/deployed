@@ -504,7 +504,7 @@ class AuthenticationController extends Controller
         $data['errors'] = '';
         $data['title'] = 'Opportunity';
         $data['description'] = 'Opportunity to Change Your Life';
-        $data['imageUrl'] = '../images/HandsPlant.jpg';
+        $data['imageUrl'] = '../images/HandsPlant.jpeg';
         $data['message'] = 'An Opportunity to Change Your Life! ';
         $data['message2'] = 'What we choose to do today will start out small
             like a seedling, but over time can become great for all the world to

@@ -59,7 +59,7 @@
             line-height: 53px;
             text-shadow: 4px 5px 6px rgba(255,255,255,0.8);
         }
-        </style>
+
     </style>
 
 </head>

@@ -3,7 +3,7 @@
 @section('content')
 
 
-       <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px;" >
+       <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px; border-style:dashed; border-color:red; border-width:1px;" >
           <img src="{{$imageUrl}}" width="900">
           <div class="Kineticaction" style="z-index:10; ">
                <p>{{$message}}</p>
@@ -16,7 +16,7 @@
         <div style=" position:absolute; top:100px; z-index:12; font-size:36px; left:1280px; width:300px">
             Free Information   Instant Access
         </div>
-        <div style=" height:800px;width:502px; top:0px; left:900px; position:absolute;">
+        <div style=" height:800px;width:502px; top:0px; left:900px; position:absolute;  border-style:dashed; border-color:blue; border-width:1px;">
 
             <div style=" height:500px;width:500px;   position:relative; left:-50px; top:0px;">
                    <img src="{{$image2}}" height="530px">

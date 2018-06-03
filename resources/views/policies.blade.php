@@ -719,88 +719,88 @@
                             information in such person’s possession.</p>
                         </div>
                         <div class="form-group col-md-12 ">
-                        9.0 ADVERTISING, PROMOTIONAL MATERIAL, USE OF COMPANY NAMESKineticGoldEMARKS
-                        {{--</div>--}}
-                      {{--<div class="form-group col-md-12 ">--}}
-                        {{--9.1 Labeling, Packaging, and Displaying Products--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                             {{--<ol type="A">--}}
-                                {{--<li>Any re-package, refill, or labeling of any KineticGold product, or service, information,--}}
-                                {{--materials or program(s) in any way is not allowed without specific permission for KineticGold.--}}
-                                {{--</li><li>--}}
+                        9.0 ADVERTISING, PROMOTIONAL MATERIAL, USE OF COMPANY NAMES and TRADEMARKS
+                        </div>
+                      <div class="form-group col-md-12 ">
+                        9.1 Labeling, Packaging, and Displaying Products
+                        </div>
+                        <div class="form-group col-md-12 ">
+                             <ol type="A">
+                                <li>Any re-package, refill, or labeling of any KineticGold product, or service, information,
+                                materials or program(s) in any way is not allowed without specific permission for KineticGold.
+                                </li><li>
 
-                                {{--Such re-labeling or re-packaging violates Federal, and State and Provincial laws, which may result in criminal or civil penalties.</li>--}}
-                                {{--<li>KineticGold will permit Members to solicit and make Commercial Sales upon prior written permission from KineticGold.--}}
-                                {{--For the purpose of theses Policies and Procedures, the term “Commercial Sale” means the sale of;--}}
-                                  {{--<ol type="I">--}}
-                                    {{--<li>--}}
-                                        {{--KineticGold products that equal or $1000 in a single order;</li>--}}
-                                    {{--<li>Products sold to a third party who intends to resell the products</li>--}}
-                                  {{--</ol>--}}
-                                {{--<li>A Member may sell KineticGold products and services and display the KineticGold trade name at any appropriate display booth (such as trade shows)--}}
-                                 {{--upon prior written approval from KineticGold.</li>--}}
-                                {{--<li>KineticGold reserves the right to refuse authoriztion to participate at any function that it does not deem a suitable for KineticGold--}}
-                                {{--for the promotion of its products and services, or the KineticGold Banking platform</li>--}}
-                             {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--9.2 Use of Company Names and Materials--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                           {{--<ol type="A">--}}
-                                {{--<li>KineticGold Members must promote the good reputation of KineticGold products and services. The marketing and promotion of the KineticGold opportunity,--}}
-                                {{--KineticGold Profit-Sharing Plan, and KineticGold products must be consistent with the public interest, and must avoid all discourteous,--}}
-                                {{--deceptive, misleading or immoral conduct and practices </li>--}}
-                                {{--<li>All promotional materials supplied or created by KineticGold shall used in their original form and unchanged, amended or altered without prior written approval by--}}
-                                {{--KineticGold's Compliance Department.</li>--}}
-                                {{--<li>The name of KineticGold, each of its products and names that have utilized by KineticGold in connection with its business are protected trade--}}
-                                {{--names, trademarks and service marks of KineticGold. As such, these marks are supplied to Members for their use only in an authorized manner.</li>--}}
-                                {{--<li>An KineticGold Member’s use of the name “KineticGold” is restricted to protect KineticGold proprietary rights,--}}
-                                {{--ensure that name of "KineticGold" not be lost or compromised by unauthorized use. Use of the KineticGold name on any item not produced by KineticGold--}}
-                                 {{--is prohibited except as follows:--}}
-                                    {{--<ol type="I">--}}
-                                        {{--<li>[Member’s name] KineticGold Member</li>--}}
-                                        {{--<li>[Member's name]  Member of KineticGold banking platform and services.</li>--}}
-                                    {{--</ol></li>--}}
-                                {{--<li>Further procedures relating to the KineticGold name are restricted--}}
-                                    {{--<ol type="I">--}}
-                                        {{--<li>All stationary (i.e. letterhead, envelopes, and business cards) bearing the KineticGold name or logo intended for KineticGold Members--}}
-                                            {{--must be approved in writing by the KineticGold Compliance Department--}}
-                                        {{--</li>--}}
-                                        {{--<li>“Independent Kinetic Member” in the white pages of the telephone directory under his KineticGold name.</li>--}}
-                                        {{--<li>KineticGold Members may not use the name KineticGold in answering his or her telephone, creating a voice message,or an answering KineticGold such--}}
-                                            {{--as to give the impression to the caller that they have reached the corporate office. They may state, “Independent KineticGold Member.”</li>--}}
-                                    {{--</ol></li>--}}
-                                {{--<li>Certain photos and graphic images used by KineticGold in its advertising, and websites have been licensed from outside vendors--}}
-                                    {{--and are not availble for use by its members. If a Member wants to use these photos, graphic images, they must negotiate contracts with the vendors for a fee.</li>--}}
-                                {{--<li>An KineticGold Member shall not appear on or make use of television or radio, or make use of any other media to promote or discuss KineticGold or its programs,--}}
-                                    {{--products or services without prior written permission from the KineticGold Compliance Department.</li>--}}
-                                {{--<li>A Member may not produce audio or video clips from a KineticGold even for other then their personal use without KineticGold's written permission from the KineticGold--}}
-                                 {{--Compliance Department.</li>--}}
-                                {{--<li>KineticGold reserves the right to rescind its prior approval of any sales aid or promotional material to comply with changing laws--}}
-                                {{--and regulations and may request the removal from the marketplace of such materials without financial obligation to the affected Member.</li>--}}
-                                {{--<li>A Member shall not promote non-KineticGold products or services in conjunction with KineticGold products or services on the same websites or--}}
-                                {{--same advertisement without prior approval from KineticGold Compliance.</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                        {{--9.3 Faxes and E-mail – Limitations--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group col-md-12 ">--}}
-                            {{--<ol type="A">--}}
-                                {{--<li>Except as provided in this section, a Member may not use or transmit unsolicited faxes, email, mass email distribution, or “spamming” that advertises or promotes the operation--}}
-                                {{--of his or her KineticGold business. The exceptions are;--}}
-                                    {{--<ol type="I">--}}
-                                        {{--<li>Faxes or e-mailing any person who has given prior permission or invitation;</li>--}}
-                                        {{--<li>Faxing or e-mailing any person with whom the Member has established a prior business or personal relationship.</li>--}}
-                                    {{--</ol></li>--}}
-                                {{--<li>In all States, Provinces or Territories where prohibited by law, a Member may not transmit, or cause to be transmitted through a third party,--}}
-                                {{--(by telephone, facsimile, computer or other device), an unsolicited advertisement</li>--}}
-                            {{--</ol>--}}
-                        {{--</div>--}}
-                  {{--</div>--}}
-             {{--</div>--}}
+                                Such re-labeling or re-packaging violates Federal, and State and Provincial laws, which may result in criminal or civil penalties.</li>
+                                <li>KineticGold will permit Members to solicit and make Commercial Sales upon prior written permission from KineticGold.
+                                For the purpose of theses Policies and Procedures, the term “Commercial Sale” means the sale of;
+                                  <ol type="I">
+                                    <li>
+                                        KineticGold products that equal or $1000 in a single order;</li>
+                                    <li>Products sold to a third party who intends to resell the products</li>
+                                  </ol>
+                                <li>A Member may sell KineticGold products and services and display the KineticGold trade name at any appropriate display booth (such as trade shows)
+                                 upon prior written approval from KineticGold.</li>
+                                <li>KineticGold reserves the right to refuse authoriztion to participate at any function that it does not deem a suitable for KineticGold
+                                for the promotion of its products and services, or the KineticGold Banking platform</li>
+                             </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        9.2 Use of Company Names and Materials
+                        </div>
+                        <div class="form-group col-md-12 ">
+                           <ol type="A">
+                                <li>KineticGold Members must promote the good reputation of KineticGold products and services. The marketing and promotion of the KineticGold opportunity,
+                                KineticGold Profit-Sharing Plan, and KineticGold products must be consistent with the public interest, and must avoid all discourteous,
+                                deceptive, misleading or immoral conduct and practices </li>
+                                <li>All promotional materials supplied or created by KineticGold shall used in their original form and unchanged, amended or altered without prior written approval by
+                                KineticGold's Compliance Department.</li>
+                                <li>The name of KineticGold, each of its products and names that have utilized by KineticGold in connection with its business are protected trade
+                                names, trademarks and service marks of KineticGold. As such, these marks are supplied to Members for their use only in an authorized manner.</li>
+                                <li>An KineticGold Member’s use of the name “KineticGold” is restricted to protect KineticGold proprietary rights,
+                                ensure that name of "KineticGold" not be lost or compromised by unauthorized use. Use of the KineticGold name on any item not produced by KineticGold
+                                 is prohibited except as follows:
+                                    <ol type="I">
+                                        <li>[Member’s name] KineticGold Member</li>
+                                        <li>[Member's name]  Member of KineticGold banking platform and services.</li>
+                                    </ol></li>
+                                <li>Further procedures relating to the KineticGold name are restricted
+                                    <ol type="I">
+                                        <li>All stationary (i.e. letterhead, envelopes, and business cards) bearing the KineticGold name or logo intended for KineticGold Members
+                                            must be approved in writing by the KineticGold Compliance Department
+                                        </li>
+                                        <li>“Independent Kinetic Member” in the white pages of the telephone directory under his KineticGold name.</li>
+                                        <li>KineticGold Members may not use the name KineticGold in answering his or her telephone, creating a voice message,or an answering KineticGold such
+                                            as to give the impression to the caller that they have reached the corporate office. They may state, “Independent KineticGold Member.”</li>
+                                    </ol></li>
+                                <li>Certain photos and graphic images used by KineticGold in its advertising, and websites have been licensed from outside vendors
+                                    and are not availble for use by its members. If a Member wants to use these photos, graphic images, they must negotiate contracts with the vendors for a fee.</li>
+                                <li>An KineticGold Member shall not appear on or make use of television or radio, or make use of any other media to promote or discuss KineticGold or its programs,
+                                    products or services without prior written permission from the KineticGold Compliance Department.</li>
+                                <li>A Member may not produce audio or video clips from a KineticGold even for other then their personal use without KineticGold's written permission from the KineticGold
+                                 Compliance Department.</li>
+                                <li>KineticGold reserves the right to rescind its prior approval of any sales aid or promotional material to comply with changing laws
+                                and regulations and may request the removal from the marketplace of such materials without financial obligation to the affected Member.</li>
+                                <li>A Member shall not promote non-KineticGold products or services in conjunction with KineticGold products or services on the same websites or
+                                same advertisement without prior approval from KineticGold Compliance.</li>
+                            </ol>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                        9.3 Faxes and E-mail – Limitations
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <ol type="A">
+                                <li>Except as provided in this section, a Member may not use or transmit unsolicited faxes, email, mass email distribution, or “spamming” that advertises or promotes the operation
+                                of his or her KineticGold business. The exceptions are;
+                                    <ol type="I">
+                                        <li>Faxes or e-mailing any person who has given prior permission or invitation;</li>
+                                        <li>Faxing or e-mailing any person with whom the Member has established a prior business or personal relationship.</li>
+                                    </ol></li>
+                                <li>In all States, Provinces or Territories where prohibited by law, a Member may not transmit, or cause to be transmitted through a third party,
+                                (by telephone, facsimile, computer or other device), an unsolicited advertisement</li>
+                            </ol>
+                        </div>
+                  </div>
+             </div>
           </div>
       </div>
   </div>

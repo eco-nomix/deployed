@@ -17,7 +17,7 @@
         position: absolute;
         left: 50px;
         top: 50px;
-        width:800px;
+        width:850px;
         font-weight:bold;
         color:#FFFFFF;
         font-family: 'Brush Script MT', cursive;

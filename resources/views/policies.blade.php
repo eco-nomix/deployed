@@ -448,7 +448,7 @@
                         3.12 Solicitation for Other Companies or Products
                         </div>
                        <div class="form-group col-md-12 ">
-                           <ol>
+                           <ol type="A">
                                 <li>An KineticGold Member may participate in other direct sales, multilevel, network marketing or relationship marketing business ventures or marketing opportunities.
                                 However, during the Term of this Agreement and for one (1) year thereafter, an KineticGold Member may not recruit any KineticGold Member or Customer for
                                 any other direct sales or networking business, unless that Member or Customer was personally sponsored by such Member.</li>

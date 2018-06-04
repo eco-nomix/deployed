@@ -32,9 +32,12 @@
                             To become a member of the association there is a one-time registration fee of $39.95.   </div>
                          <div class="form-group col-md-12 ">
                               There are no annual, monthly costs for Kinetic Gold, or required products to purchase</div>
-                         <div class="form-group col-md-12 ">Registration is a single step process just
-                           Provide your basic information (name, email, desired username and password and contact information)</div>
-
+                         <div class="form-group col-md-12 ">Registration is a simple process just
+                            <ul>
+                                <li>Provide your basic information (name, email, desired username and password, verify your email,update and contact information)</li>
+                                <li>Submit your registration Fee</li>
+                            </ul>
+                         
                         <div class="form-group col-md-12 ">
                            Benefits from membership in KineticGold's Association</div>
                         <div class="form-group col-md-12 ">

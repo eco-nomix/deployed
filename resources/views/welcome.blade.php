@@ -87,6 +87,7 @@
                             <li>You can contact members of your downline through the GoldDiggers website.</li>
                         </ul>
                     </li>
+                    <li>There is a one-time fee of $39.95 for becoming a member of the Gold Diggers Association</li>
 
 
                 </ul></p>
@@ -187,11 +188,11 @@
             <li>Because the Off-Shore bank and Kinetic Gold's blockchain is not complete the following limitations will be in effect</li>
                  <ul>
                     <li>No funds will be accepted to purchase Kinetic Gold's coins.</li>
-                    <li>Payment of the Registration fee ($39.95) will be paid through ACH.</li>
+                    <li>Payment of the Registration fee ($39.95) for the Gold Digger's Association will be paid through ACH.</li>
                     <ul>
                         <li>Payment processing on site will request routing and bank account number for an electronic check</li>
                         <li>Payment processing is preformed by a independent ACH processor</li>
-                        <li>KineticGold will not have access to your routing and bank account number.</li>
+                        <li>KineticGold and the association will not have access to your routing and bank account number.</li>
                     </ul>
                     <li>Kinetic Gold's profit sharing will be paid manually and directly through ACH</li>
                     <ul>

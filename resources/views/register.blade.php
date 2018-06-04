@@ -31,22 +31,27 @@
                             </div>
                         </div>
 
+                          <div class="form-group">
+                            The User Name and Password below will be utilized to create your Gold Digger's Association account.  With this account you will be able to access special membership menus, that will allow you to see your downsteam organization and contact them, among other things.
+                            Please select an appropriate User Name and Password to reflect the need for security on this information.
+                          </div>
+
                         <div class="form-group">
-                            <label class="col-md-4 control-label">User Name</label>
+                            <label class="col-md-4 control-label">New User Name</label>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="username" value="">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-md-4 control-label">Password</label>
+                            <label class="col-md-4 control-label">New Password</label>
                             <div class="col-md-6">
                                 <input type="password" class="form-control" name="password">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-md-4 control-label">Confirm Password</label>
+                            <label class="col-md-4 control-label">Confirm New Password</label>
                             <div class="col-md-6">
                                 <input type="password" class="form-control" name="password_confirmation">
                             </div>

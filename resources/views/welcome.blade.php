@@ -43,7 +43,7 @@
     </div>
      <div class="skip">&nbsp;</div>
          <div class="center" style="width:100%;display:block;float:left;">
-            <div class="kinetic400">
+            <div class="kinetic600">
                  Gold Diggers Association
             </div>
         </div>

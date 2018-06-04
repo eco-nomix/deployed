@@ -21,7 +21,7 @@
                         <div class="form-group">
                              <label class="col-md-4 control-label">Charge Amount</label>
                              <div class="col-md-6">
-                                  <input readonly type="text" class="form-control" value="$35.00">
+                                  <input readonly type="text" class="form-control" value="$39.95">
                              </div>
                         </div>
 

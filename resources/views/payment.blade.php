@@ -79,7 +79,7 @@
                         </div>
 
                         <div class="form-group">
-                             <label class="col-md-4 control-label">E-Check</label>
+                             <label class="col-md-4 control-label">OR E-Check</label>
                         </div>
                          <div class="form-group">
                             <label class="col-md-4 control-label">Name on Check</label>
@@ -111,6 +111,15 @@
             </div>
         </div>
     </div>
+    <div class="skip">&nbsp;</div>
+    <div class="skip">&nbsp;</div>
+    <div class="skip">&nbsp;</div>
+    <div class="skip">&nbsp;</div>
+    <div class="skip">&nbsp;</div>
+    <div class="skip">&nbsp;</div>
+    <div class="skip">&nbsp;</div>
+    <div class="skip">&nbsp;</div>
+    
 </div>
 </div>
 </div>

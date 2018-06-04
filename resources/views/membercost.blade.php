@@ -37,7 +37,7 @@
                                 <li>Provide your basic information (name, email, desired username and password, verify your email,update and contact information)</li>
                                 <li>Submit your registration Fee</li>
                             </ul>
-                         
+                         </div>
                         <div class="form-group col-md-12 ">
                            Benefits from membership in KineticGold's Association</div>
                         <div class="form-group col-md-12 ">

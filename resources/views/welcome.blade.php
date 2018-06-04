@@ -42,7 +42,7 @@
                </p>
     </div>
     <div class="skip">&nbsp;</div>
-        <div class="center" style="width:100%;display:block;float:left;">
+        <div class="center" style="width:100%;">
             <div class="kinetic600">
                  Kinetic Gold's Association - Gold Diggers
             </div>

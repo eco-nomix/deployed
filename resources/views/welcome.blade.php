@@ -60,7 +60,7 @@
                             <li>Account is insured to the full amount of deposit.</li>
                             <li>Account will have a Mastercard/Visa Debit card associated with it.</li>
                             <li>You set the limit that can be spent per transaction.</li>
-
+                            <li>This type of account is normally not available and would be quite expensive to obtain</li>
                         </ul>
                     </li>
                     <li>Provide you with your KineticGold E-wallet.</li>
@@ -183,16 +183,16 @@
           <p>During the Pre-Launch Phase:</p>
           <ul>
             <li>Members will be accepted into Kinetic Gold's member association.</li>
-            <li>Member's may build their Mining organization. (See details on Mining Kinetic Gold)</li>
-            <li>New Members will register through the KineticGold.org website.</li>
+            <li>Member's may build their Mining organization using the Gold Diggers Association. (See details on Mining Kinetic Gold)</li>
+            <li>New Members will register with the Gold Diggers Association through the KineticGold.org website.</li>
             <li>Because the Off-Shore bank and Kinetic Gold's blockchain is not complete the following limitations will be in effect</li>
                  <ul>
                     <li>No funds will be accepted to purchase Kinetic Gold's coins.</li>
-                    <li>Payment of the Registration fee ($39.95) for the Gold Digger's Association will be paid through ACH.</li>
+                    <li>Payment of the Registration fee ($39.95) for the Gold Digger's Association will be paid through ACH or E-Checks.</li>
                     <ul>
                         <li>Payment processing on site will request routing and bank account number for an electronic check</li>
-                        <li>Payment processing is preformed by a independent ACH processor</li>
-                        <li>KineticGold and the association will not have access to your routing and bank account number.</li>
+                        <li>Payment processing is preformed by a independent ACH/E-check processor</li>
+                        <li>KineticGold and the Gold Digger's Association will not have access to your banking details.</li>
                     </ul>
                     <li>Kinetic Gold's profit sharing will be paid manually and directly through ACH</li>
                     <ul>

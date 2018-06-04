@@ -26,12 +26,12 @@
                             Gold Diggers is the association that is focused on the use and expansion of the KineticGold banking and Cryptocurrency platform.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Kinetic Gold will only be accessible by members of the Gold Diggers Association.
+                            Kinetic Gold will only be accessible by members of the Gold Digger's Association.
                         </div>
                         <div class="form-group col-md-12 ">
                             To become a member of the association there is a one-time registration fee of $39.95.   </div>
                          <div class="form-group col-md-12 ">
-                              There are no annual, monthly costs for Kinetic Gold, or required products to purchase</div>
+                              There are no annual, monthly costs for Kinetic Gold or the Gold Digger's Association, or required products to purchase</div>
                          <div class="form-group col-md-12 ">Registration is a simple process just
                             <ul>
                                 <li>Provide your basic information (name, email, desired username and password, verify your email,update and contact information)</li>
@@ -39,7 +39,7 @@
                             </ul>
                          </div>
                         <div class="form-group col-md-12 ">
-                           Benefits from membership in KineticGold's Association</div>
+                           Benefits from membership in the Gold Digger's Association</div>
                         <div class="form-group col-md-12 ">
                            <ul>
                                <li>Kinetic Gold will only be accessible by members of the Gold Diggers Association.</li>

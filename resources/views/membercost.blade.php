@@ -27,7 +27,8 @@
                         </div>
                         <div class="form-group col-md-12 ">
                             To become a member of the association there is a one-time registration fee of $39.95.   </div>
-
+                         <div class="form-group col-md-12 ">
+                              There are no annual, monthly costs for Kinetic Gold, or required products to purchase</div>
                          <div class="form-group col-md-12 ">Registration is a single step process just
                            Provide your basic information (name, email, desired username and password and contact information)</div>
 
@@ -77,6 +78,7 @@
                                        <li>You can contact members of your downline through the GoldDiggers website.</li>
                                    </ul>
                                </li>
+                               <li>Gold Diggers will have products to promote KineticGold and the Association but none of them will be required to purchase under any situation.</li>
 
                            </ul>
                         </div>

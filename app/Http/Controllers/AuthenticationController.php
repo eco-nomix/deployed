@@ -355,7 +355,7 @@ class AuthenticationController extends Controller
             $user = Users::find($userId);
             $cc = $this->saveCardInfo($request,$user);
             $productId = 1;
-
+            $roles = $this->getUserRoles($user->id);
             $trans = $this->processPayment($user,$cc,$productId);
             $user->member = 5;
             $user->save();
@@ -366,6 +366,7 @@ class AuthenticationController extends Controller
             $request->session()->save();
             $data = $this->basedata($request);
             $data['user_name'] = $username;
+            $data['userRoles']=$roles;
             $data['charge'] = $trans->total_order;
             $data['cardnumber'] = "xxx...".substr($cc->credit_card_number,-4);
             $data['user_id'] = $user->id;
@@ -611,7 +612,6 @@ class AuthenticationController extends Controller
             $referralId = $refUser->id;
         }
         $referrer = Users::find($referralId);
-        $request->session()->set('referralId','');
         $user->sponsor_id = $referrer->id;
         $user->second_id = $referrer->sponsor_id;
         $user->third_id = $referrer->second_id;

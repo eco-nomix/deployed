@@ -42,6 +42,58 @@
                </p>
     </div>
     <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
+            <div class="kinetic600">
+                 Kinetic Gold's Association - Gold Diggers
+            </div>
+        </div>
+
+        <div class="trans display back-white  col-md-10 col-md-offset-1" >
+                <p>Gold Diggers is the Association whose members will participate in the KineticGold Banking platform. </p>
+                <p>Kinetic Gold will only be accessible by members of the Gold Diggers Association.</p>
+                <p>The Gold Diggers Association will do the following for you:
+                    <ul>
+                        <li>Set up your account in the Off-Shore Bank that is associated with KineticGold
+                            <ul>
+                                <li>Your account is linked with your KineticGold account.</li>
+                                <li>Your account is denominated in ounces of Gold.</li>
+                                <li>Gold in in storage at a secure vault in Dubai.</li>
+                                <li>Account is insured to the full amount of deposit.</li>
+                                <li>Account will have a Mastercard/Visa Debit card associated with it.</li>
+                                <li>You set the limit that can be spent per transaction.</li>
+
+                            </ul>
+                        </li>
+                        <li>Provide you with your KineticGold E-wallet.</li>
+                        <li>Establish and update your down-line for Profit-Sharing within the Blockchain.
+                            <ul>
+                                <li>Awards for deposits is controlled by the Blockchain</li>
+                                <li>Profit-Sharing is controlled by the Blockchain</li>
+                            </ul>
+                        </li>
+                        <li>Help you Promote your downline organization
+                            <ul>
+                                <li>Make members aware of Association Events
+                                    <ul>
+                                        <li>Training on how Kinetic Gold works</li>
+                                        <li>Training on sponsoring your organization</li>
+                                    </ul>
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Maintain the downline organization
+                            <ul>
+                                <li>You can see who is in your downline at the GoldDiggers website.</li>
+                                <li>You can contact members of your downline through the GoldDiggers website.</li>
+                            </ul>
+                        </li>
+
+
+                    </ul></p>
+
+        </div>
+         <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
         <div class="kinetic400">
              Kinetic Gold's Coin

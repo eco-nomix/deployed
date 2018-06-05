@@ -99,9 +99,9 @@
                       </div>
                   </div>
               </div>
-            </div>
-
         </div>
+
+
          <div style="z-index:10; height:160px;width:900px; top:500px; left:0px; position:absolute; background:white;">
             <div style="z-index:12; height:160px; width:160px; top:0px; left:0px; position:relative; ">
                <img src="../images/{{$user_pic}}" width="160">

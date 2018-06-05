@@ -38,7 +38,7 @@
         <table height="160" width="100%"
           <tr><td><img src="../images/{{$user_pic}}" width="100%" height="100%"></td>
           <td><div class="col-md-12" style="font-size:20px; font-weight:bold;">
-                                       {{$member_story}}
+                                      xx {{$member_story}}
           </div></td></tr>
         </table>
     </td>

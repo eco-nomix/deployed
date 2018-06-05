@@ -1,9 +1,9 @@
 @extends('layouts.blank')
 
 @section('content')
-<div style="z-index:-10; top:0px; left:-0px; position:absolute; width:1850px; height:810px; border-style:solid; border-color:blue; border-width:1px;">
+<div style="z-index:-10; top:0px; left:0px; position:absolute; width:1850px; height:510px; border-style:solid; border-color:blue; border-width:1px;">
 
-       <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px; " >
+       <div style="z-index:-5; top:1px; left:1px; position:absolute; height:500px; width:900px; " >
           <img src="{{$imageUrl}}" width="900">
           <div class="Kineticaction" style="z-index:10; ">
                <p>{{$message}}</p>
@@ -13,22 +13,22 @@
           </div>
        </div>
 
-        <div class="Kineticaction3" style=" position:absolute; top:100px; z-index:12; font-size:60px; left:920px; width:500px">
+        <div class="Kineticaction3" style=" position:absolute; top:100px; z-index:12; font-size:60px; left:901px; width:500px">
             Free Information<br><br>&nbsp;&nbsp;Instant Access
         </div>
-        <div style=" height:800px;width:502px; top:0px; left:900px; position:absolute; ">
+        <div style=" height:500px;width:502px; top:1px; left:901px; position:absolute; ">
 
-            <div style=" height:500px;width:500px;   position:relative; left:-50px; top:0px;">
-                   <img src="{{$image2}}" height="530px">
+            <div style=" height:500px;width:500px;   position:relative; left:0px; top:0px;">
+                   <img src="{{$image2}}" height="500px">
 
             </div>
         </div>
  </div>
- <div style="z-index:-10; top:501px; left:-0px; position:absolute; width:1410px; height:1010px;">
-            <div style=" height:490px;width:450px;   position:relative;">
+ <div style="z-index:-10; top:501px; left:0px; position:absolute; width:1410px; height:510px; border:red 1px solid;;">
+            <div style=" height:508px;width:450px;   position:relative;">
               <div class="container-fluid">
                   <div class="row">
-                      <div style="width:450px; height:508px;border:black 2px solid; ">
+                      <div style="width:450px; height:506px;border:black 2px solid; ">
                           <div class="panel panel-default">
                               <div class="panel-heading message2 center" >Get Started Today!</div>
                               <div class="panel-body">

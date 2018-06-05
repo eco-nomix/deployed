@@ -35,15 +35,15 @@
 </tr>
 <tr height="500">
     <td width="900">
-        <table height="160px" width="100%"
-          <tr><td><img src="../images/{{$user_pic}}" width="100%" height="100%"></td>
+        <table height="160" width="100%"
+          <tr><td><img src="../images/{{$user_pic}}" width="160" height="160"></td>
           <td><div class="col-md-12" style="font-size:20px; font-weight:bold;">
                                       xx {{$member_story}}
           </div></td></tr>
         </table>
         <table height="340" width="100%">
             <tr><td>
-            
+
             </td></tr>
         </table>
     </td>

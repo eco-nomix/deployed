@@ -1,7 +1,7 @@
 @extends('layouts.blank')
 
 @section('content')
-<div style="z-index:-10; top:0px; left:-0px; position:absolute; width:1410px; height:1010px; border-style:solid; border-color:blue; border-width:1px;">
+<div style="z-index:-10; top:0px; left:-0px; position:absolute; width:1450px; height:1010px; border-style:solid; border-color:blue; border-width:1px;">
 
        <div style="z-index:-5; top:0px; left:0px; position:absolute; height:500px; width:900px; " >
           <img src="{{$imageUrl}}" width="900">

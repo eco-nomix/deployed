@@ -137,18 +137,7 @@
         {{--</div>--}}
 
         {{----}}
-         <div style="z-index:10; height:160px;width:900px; top:500px; left:0px; position:absolute; background:white;">
-            <div style="z-index:12; height:160px; width:160px; top:0px; left:0px; position:relative; ">
-               <img src="../images/{{$user_pic}}" width="160">
-            </div>
-            <div style="z-index:14; border:black 2px solid;height:160px; width:740px; top:0px; left:160px; position:absolute; ">
-                 <div class="form-group">
-                      <div class="col-md-12" style="font-size:20px; font-weight:bold;">
-                         {{$member_story}}
-                      </div>
-                 </div>
-            </div>
-         </div>
+       
         {{--<div style="z-index:10; border:black 2px solid; height:348px;width:900px; top:660px; left:0px; position:absolute; background:white;">--}}
 
             {{--<div style="z-index:12; font-size:20pt; color:Blue; left:50px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>--}}

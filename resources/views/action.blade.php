@@ -11,7 +11,7 @@
 <tr height="500">
     <td width="900">
         <div style="z-index:-5; top:0px; left:0px; position:relative; height:500px; width:900px; " >
-          <img src="{{$imageUrl}}" width="900">
+          <img src="{{$imageUrl}}" width="900" height="500">
           <div class="Kineticaction" style="z-index:10; ">
                <p>{{$message}}</p>
           </div>
@@ -27,7 +27,7 @@
 
             </div>
 
-           <div class="Kineticaction3" style=" z-index:20; position:relative; top:100px; z-index:12; font-size:60px; left:101px; width:400px">
+           <div class="Kineticaction3" style=" z-index:20; position:relative; top:100px; font-size:60px; left:101px; width:450px">
                     Free Information<br><br>&nbsp;&nbsp;Instant Access
            </div>
         </div>

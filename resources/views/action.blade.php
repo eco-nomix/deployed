@@ -27,9 +27,9 @@
 
             </div>
 
-       {{--<div class="Kineticaction3" style=" position:relative; top:100px; z-index:12; font-size:60px; left:101px; width:400px">--}}
-                {{--Free Information<br><br>&nbsp;&nbsp;Instant Access--}}
-       {{--</div>--}}
+       <div class="Kineticaction3" style=" position:relative; top:100px; z-index:12; font-size:60px; left:101px; width:400px">
+                Free Information<br><br>&nbsp;&nbsp;Instant Access
+       </div>
        {{----}}
 
 

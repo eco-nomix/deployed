@@ -34,7 +34,8 @@
      </td>
 </tr>
 <tr height="500">
-    <div style="z-index:10; height:160px;width:900px; top:0px; left:0px; position:absolute; background:white;">
+    <td width="900">
+         <div style="z-index:10; height:160px;width:900px; top:0px; left:0px; position:absolute; background:white;">
                 <div style="z-index:12; height:160px; width:160px; top:0px; left:0px; position:relative; ">
                    <img src="../images/{{$user_pic}}" width="160">
                 </div>
@@ -45,7 +46,7 @@
                           </div>
                      </div>
                 </div>
-             </div><td width="900">
+         </div>
 
     </td>
     <td width="500">
@@ -137,7 +138,7 @@
         {{--</div>--}}
 
         {{----}}
-       
+
         {{--<div style="z-index:10; border:black 2px solid; height:348px;width:900px; top:660px; left:0px; position:absolute; background:white;">--}}
 
             {{--<div style="z-index:12; font-size:20pt; color:Blue; left:50px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>--}}

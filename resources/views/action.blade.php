@@ -4,7 +4,7 @@
 
 <style>
     table,th,td,tr {
-        border: 1px solid red;
+        border: 2px solid black;
     }
 </style>
 <table >

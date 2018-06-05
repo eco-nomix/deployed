@@ -22,12 +22,12 @@
     </td>
     <td>
 
-            <div style=" height:500px;width:500px;   position:relative; left:0px; top:0px;">
+            <div style=" height:500px;width:500px;    left:0px; top:0px;">
                    <img src="{{$image2}}" height="500px">
 
             </div>
 
-       <div class="Kineticaction3" style=" position:relative; top:100px; z-index:12; font-size:60px; left:101px; width:400px">
+       <div class="Kineticaction3" style=" position:absolute; top:100px; z-index:12; font-size:60px; left:101px; width:400px">
                 Free Information<br><br>&nbsp;&nbsp;Instant Access
        </div>
        {{----}}

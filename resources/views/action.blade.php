@@ -27,7 +27,7 @@
 
             </div>
 
-           <div class="Kineticaction3" style=" z-index:20; position:absolute; top:100px; font-size:60px; left:20px; width:480px">
+           <div class="Kineticaction3" style=" z-index:20; position:absolute; top:90px; font-size:60px; left:20px; width:480px">
                     Free Information<br><br>&nbsp;&nbsp;Instant Access
            </div>
         </div>

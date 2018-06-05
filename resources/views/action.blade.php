@@ -14,16 +14,16 @@
        </div>
 
 
-        {{--<div class="Kineticaction3" style=" position:absolute; top:100px; z-index:12; font-size:60px; left:901px; width:500px">--}}
-            {{--Free Information<br><br>&nbsp;&nbsp;Instant Access--}}
-        {{--</div>--}}
-        {{--<div style=" height:500px;width:502px; top:1px; left:901px; position:absolute; ">--}}
+        <div class="Kineticaction3" style=" position:absolute; top:100px; z-index:12; font-size:60px; left:901px; width:500px">
+            Free Information<br><br>&nbsp;&nbsp;Instant Access
+        </div>
+        <div style=" height:500px;width:502px; top:1px; left:901px; position:absolute; ">
 
-            {{--<div style=" height:500px;width:500px;   position:relative; left:0px; top:0px;">--}}
-                   {{--<img src="{{$image2}}" height="500px">--}}
+            <div style=" height:500px;width:500px;   position:relative; left:0px; top:0px;">
+                   <img src="{{$image2}}" height="500px">
 
-            {{--</div>--}}
-        {{--</div>--}}
+            </div>
+        </div>
  </div>
  <div style="z-index:-10; top:501px; left:0px; position:absolute; width:1410px; height:510px; border:red 1px solid;">
             {{--<div style=" height:508px;width:450px;   position:relative;">--}}

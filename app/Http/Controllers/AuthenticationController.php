@@ -83,6 +83,7 @@ class AuthenticationController extends Controller
             $data = $this->basedata($request);
             $data['username'] = $user->first_name.' '.$user->last_name;
             $data['user_name'] = '';
+            $data['userRoles'] = '';
             $data['user_id'] = '';
             $data['userId'] = $user->id;
             $data['title'] = '';
@@ -192,6 +193,7 @@ class AuthenticationController extends Controller
                     $data = $this->basedata($request);
                     $data['username'] = '';
                     $data['user_name'] = '';
+                    $data['userRoles'] = '';
 
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
@@ -201,6 +203,7 @@ class AuthenticationController extends Controller
                     $data = $this->basedata($request);
                     $data['username'] = '';
                     $data['user_name'] = '';
+                    $data['userRoles'] = '';
 
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
@@ -242,12 +245,12 @@ class AuthenticationController extends Controller
 
 
         $users = new Users;
-        $user = $users->checkForRegistration($request);
-        if($user){
-            if($user->member == 5){
-                return $this->memberConfirmed($user, $request);
-            }
-        }else{
+       // $user = $users->checkForRegistration($request);
+//        if($user){
+//            if($user->member == 5){
+//                return $this->memberConfirmed($user, $request);
+//            }
+//        }else{
             $user = $users->checkForUserName($request);
             if($user){
                 $data['errors'] = 'Username has already been used';
@@ -263,7 +266,7 @@ class AuthenticationController extends Controller
             $user = $this->initialRegistration($request);
             $this->emailConfirmation($user);
             return $this->verifyEmail($request, $user);
-        }
+//        }
         $data = $this->basedata($request);
         $data['username'] = '';
         $data['user_name'] = '';
@@ -536,7 +539,7 @@ class AuthenticationController extends Controller
                 $data= $this->basedata($request);
                 $data['username'] = '';
                 $data['user_name'] = '';
-
+                $data['userRoles'] = '';
                 $data['user_id'] = '';
                 $data['title'] = '';
                 $request->session()->set('user_id', $user->id);
@@ -548,6 +551,7 @@ class AuthenticationController extends Controller
                 $data= $this->basedata($request);
                 $data['username'] = '';
                 $data['user_name'] = '';
+                $data['userRoles'] = '';
                 $data['title'] = '';
                 $data['user_id'] = '';
                 return view('email_verification_bad',$data);
@@ -559,6 +563,7 @@ class AuthenticationController extends Controller
             $data['username'] = '';
             $data['title'] = '';
             $data['user_name'] = '';
+            $data['userRoles'] = '';
             $data['user_id'] = '';
             return view('email_verification_bad',$data);
         }
@@ -589,6 +594,7 @@ class AuthenticationController extends Controller
         $request->session()->save();
         $data = $this->basedata($request);
         $data['user_name'] = $username;
+        $data['userRoles'] = $this->getUserRoles($user->id);
         $data['user_id'] = $user->id;
         $data['username'] = $username;
          $data['email'] = $user->email;
@@ -631,6 +637,7 @@ class AuthenticationController extends Controller
         $data= $this->basedata($request);
         $data['username'] = '';
         $data['user_name'] = '';
+        $data['userRoles'] = '';
         $data['user_id'] = '';
         $data['title'] = '';
         $data['email'] = $user->email;

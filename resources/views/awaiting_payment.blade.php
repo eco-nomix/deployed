@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div style="position:absolute; top:52px; z-index:-1">
+<div style="position:absolute; top:52px; z-index:-1;  right:0; left:auto; width:100%">
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">

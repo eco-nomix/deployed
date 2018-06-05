@@ -43,7 +43,22 @@
         </table>
         <table width="100%">
             <tr height="340"><td>
+                <div style="z-index:10; border:black 2px solid; height:348px;width:900px; top:660px; left:0px; position:absolute; background:white;">
 
+                    <div style="z-index:12; font-size:20pt; color:Blue; left:50px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>
+                    <div style="z-index:12; left:50px; width:750px; position:relative;">
+                    <ul style="font-size:20pt; font-weight:bold; color:darkgreen;">
+                    <li>10% Reward for every Deposit</li>
+                    <li>No Change in your Banking Habits</li>
+                    <li>No purchasing of product you don't want or need</li>
+                    <li>No Hidden Fees</li>
+                    <li>No confusing Marketing plan</li>
+                    <li>Easy qualification for Profit-Sharing</li>
+                    <li>Mine Gold without Computers</li>
+
+                    </ul>
+                    </div>
+        </div>
             </td></tr>
         </table>
     </td>
@@ -137,21 +152,6 @@
 
         {{----}}
 
-        {{--<div style="z-index:10; border:black 2px solid; height:348px;width:900px; top:660px; left:0px; position:absolute; background:white;">--}}
 
-            {{--<div style="z-index:12; font-size:20pt; color:Blue; left:50px; position:relative;">Banking with the Security and Opportunity of Cryptocurrency</div>--}}
-            {{--<div style="z-index:12; left:50px; width:750px; position:relative;">--}}
-             {{--<ul style="font-size:20pt; font-weight:bold; color:darkgreen;">--}}
-                    {{--<li>10% Reward for every Deposit</li>--}}
-                    {{--<li>No Change in your Banking Habits</li>--}}
-                    {{--<li>No purchasing of product you don't want or need</li>--}}
-                    {{--<li>No Hidden Fees</li>--}}
-                    {{--<li>No confusing Marketing plan</li>--}}
-                    {{--<li>Easy qualification for Profit-Sharing</li>--}}
-                    {{--<li>Mine Gold without Computers</li>--}}
-
-               {{--</ul>--}}
-             {{--</div>--}}
-        {{--</div>--}}
  {{--</div>--}}
 @endsection

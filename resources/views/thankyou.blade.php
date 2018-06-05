@@ -19,7 +19,7 @@
                        <form class="form-horizontal" role="form" method="POST" action="/payment">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group">
-                             <label class="col-md-10 control-label">A Charge of ${{$charge}} was approved for card {{$cardnumber}}.  You are now a Member of KineticGold.</label>
+                             <label class="col-md-10 control-label">A Charge of ${{$charge}} was approved for card {{$cardnumber}}.  You are now a Member of The Gold Diggers Association for KineticGold.</label>
 
                         </div>
                         <div class="form-group">
@@ -34,18 +34,19 @@
                     </form>
                 </div>
             </div>
+             </div> <div class="skip">&nbsp;</div>
+                 <div class="skip">&nbsp;</div>
+                  <div class="skip">&nbsp;</div>
+                   <div class="skip">&nbsp;</div>
+                    <div class="skip">&nbsp;</div>
+                     <div class="skip">&nbsp;</div>
+                      <div class="skip">&nbsp;</div>
+                       <div class="skip">&nbsp;</div>
+                        <div class="skip">&nbsp;</div>
+                         <div class="skip">&nbsp;</div>
         </div>
     </div>
-    </div> <div class="skip">&nbsp;</div>
-     <div class="skip">&nbsp;</div>
-      <div class="skip">&nbsp;</div>
-       <div class="skip">&nbsp;</div>
-        <div class="skip">&nbsp;</div>
-         <div class="skip">&nbsp;</div>
-          <div class="skip">&nbsp;</div>
-           <div class="skip">&nbsp;</div>
-            <div class="skip">&nbsp;</div>
-             <div class="skip">&nbsp;</div>
+
     </div>
 </div>
 </div>

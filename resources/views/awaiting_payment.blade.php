@@ -15,16 +15,16 @@
 
                         </div>
                         <div class="form-group">
-                             <label class="col-md-10 col-md-offset-1 text-left">Please send $35.00 to:</label>
+                             <label class="col-md-10 col-md-offset-1 text-left">Please send $39.95 to:</label>
                             </div>
                             <div class="form-group">
-                                 <label class="col-md-10 col-md-offset-2 text-left">KineticGold</label>
+                                 <label class="col-md-10 col-md-offset-2 text-left">Gold Diggers Association</label>
                             </div>
                         <div class="form-group">
-                              <label class="col-md-10 col-md-offset-2 text-left">8029 Highway 641 S.</label>
+                              <label class="col-md-10 col-md-offset-2 text-left">4083 Sea View Ave.</label>
                         </div>
                         <div class="form-group">
-                              <label class="col-md-10 col-md-offset-2 text-left">Paris,  Tennessee   38242</label>
+                              <label class="col-md-10 col-md-offset-2 text-left">Los Angelos  90065</label>
                         </div>
                         <div class="form-group">
                             <label class="col-md-10  text-left">we accept cash, checks or money orders</label>

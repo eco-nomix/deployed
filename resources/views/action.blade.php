@@ -37,7 +37,9 @@
     <td width="900"></td>
     <td width="500">
         <div style="width:100%; height:100%">
-
+              <div class="panel panel-default">
+                                          <div class="panel-heading message2 center" >Get Started Today!</div>
+                                      </div>
               <form class="form-horizontal" role="form" method="POST" action="/register">
                   <input type="hidden" name="_token" value="{{ csrf_token() }}">
                   <div class="form-group">
@@ -113,9 +115,7 @@
               {{--<div class="container-fluid">--}}
                   {{--<div class="row">--}}
                       {{--<div style="width:450px; height:506px;border:black 2px solid; ">--}}
-                          {{--<div class="panel panel-default">--}}
-                              {{--<div class="panel-heading message2 center" >Get Started Today!</div>--}}
-                          </div>
+
 
                           {{--</div>--}}
                       {{--</div>--}}

@@ -39,7 +39,7 @@
                 <div style="z-index:12; height:160px; width:160px; top:0px; left:0px; position:relative; ">
                    <img src="../images/{{$user_pic}}" width="100%" height="100%">
                 </div>
-                <div style="display: inline-block; z-index:14; border:black 2px solid;height:160px; width:739px; top:-0px; left:160px; position:relative; ">
+                <div style="display: inline-block; z-index:14; border:black 2px solid;height:160px; width:739px; top:-0px; left:161px; position:relative; ">
                       <div class="col-md-12" style="font-size:20px; font-weight:bold;">
                          {{$member_story}}
                       </div>

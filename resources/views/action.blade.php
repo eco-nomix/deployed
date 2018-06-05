@@ -4,7 +4,7 @@
 
 <style>
     table,th,td,tr {
-        border: 1px solid pink;
+        border: 1px solid red;
     }
 </style>
 <table >
@@ -39,9 +39,9 @@
     <td></td>
 </tr>
 </table>
-<div style="z-index:-10; top:0px; left:0px; position:absolute; width:1850px; height:510px; border-style:solid; border-color:blue; border-width:1px;">
+{{--<div style="z-index:-10; top:0px; left:0px; position:absolute; width:1850px; height:510px; border-style:solid; border-color:blue; border-width:1px;">--}}
 
- <div style="z-index:-10; top:501px; left:0px; position:absolute; width:1410px; height:510px; border:red 1px solid;">
+ {{--<div style="z-index:-10; top:501px; left:0px; position:absolute; width:1410px; height:510px; border:red 1px solid;">--}}
             {{--<div style=" height:508px;width:450px;   position:relative;">--}}
               {{--<div class="container-fluid">--}}
                   {{--<div class="row">--}}
@@ -150,5 +150,5 @@
                {{--</ul>--}}
              {{--</div>--}}
         {{--</div>--}}
- </div>
+ {{--</div>--}}
 @endsection

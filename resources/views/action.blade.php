@@ -1,9 +1,10 @@
 @extends('layouts.blank')
 
 @section('content')
-<div style="z-index:-10; top:0px; left:0px; position:absolute; width:1850px; height:510px; border-style:solid; border-color:blue; border-width:1px;">
-
-       <div style="z-index:-5; top:0px; left:0px; position:relative; height:500px; width:900px; " >
+<table style="border:1px solid pink>
+<tr>
+    <td>
+        <div style="z-index:-5; top:0px; left:0px; position:relative; height:500px; width:900px; " >
           <img src="{{$imageUrl}}" width="900">
           <div class="Kineticaction" style="z-index:10; ">
                <p>{{$message}}</p>
@@ -12,6 +13,29 @@
                <p>{{$message2}}</p>
           </div>
        </div>
+    </td>
+    <td>
+       <div class="Kineticaction3" style=" position:relative; top:100px; z-index:12; font-size:60px; left:101px; width:400px">
+                Free Information<br><br>&nbsp;&nbsp;Instant Access
+       </div>
+       <div style=" height:500px;width:500px; top:0px; left:0px; position:relative; ">
+
+            <div style=" height:500px;width:500px;   position:relative; left:0px; top:0px;">
+                   <img src="{{$image2}}" height="500px">
+
+            </div>
+       </div>
+
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+<div style="z-index:-10; top:0px; left:0px; position:absolute; width:1850px; height:510px; border-style:solid; border-color:blue; border-width:1px;">
+
+
 
 
         <div class="Kineticaction3" style=" position:absolute; top:100px; z-index:12; font-size:60px; left:901px; width:500px">

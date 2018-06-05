@@ -41,6 +41,11 @@
                                       xx {{$member_story}}
           </div></td></tr>
         </table>
+        <table height="340" width="100%">
+            <tr><td>
+            
+            </td></tr>
+        </table>
     </td>
     <td width="500">
         <div style="width:100%; height:100%">

@@ -20,10 +20,12 @@
            </div>
        </div>
     <div class="trans display  back-white col-md-10 col-md-offset-1" >
+        </div style="font-size:16px;">
         <p>Does your bank give you a 10% Reward for Every Deposit?</p>
         <p>Does your bank give you 6% Interest on Your Savings?</p>
         <p>Does your bank give EVERY Account Holder the Opportunity for Profit-Sharing?</p>
         <p>If not, It's time to check out Kinetic Gold</p>
+        </div>
     </div>
      <div class="skip">&nbsp;</div>
              <div class="center" style="width:100%;display:block;float:left;">

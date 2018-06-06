@@ -109,6 +109,14 @@
     font-weight: 700;
     line-height: 24px;
 }
+.highdisplay {
+    color:darkblue;
+    font-size: 30px;
+    font-style: bold;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
 .kinetic {
     color:goldenrod;
     font-size: 35px;

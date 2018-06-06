@@ -470,7 +470,7 @@ class AuthenticationController extends Controller
     {
         Mail::send('emails.reminder', ['user' => $user], function ($message) use ($user, $reminder) {
             $pathToImage = "/images/KineticGold3731_Fotor.jpg";
-            $message->from('admin@KineticGold.com', 'Admin');
+            $message->from('admin@kineticgold.com', 'Admin');
             $message->subject('Reminder');
             $username = $user->first_name.' '.$user->last_name;
             $testemail = 'projectmanager24x7@gmail.com';
@@ -577,9 +577,9 @@ class AuthenticationController extends Controller
 
         Mail::send('emails.email_verification', ['user' => $user,'image'=>$image], function ($message) use ($user, $image) {
             $pathToImage = "/images/KineticGold3731_Fotor.jpg";
-            $message->from('admin@KineticGold.org', 'Admin');
+            $message->from('admin@kineticgold.org', 'Admin');
             $message->subject('Email Verification');
-            $message->sender('admin@KineticGold.org');
+            $message->sender('admin@kinetickold.org');
             $username=$user->first_name.' '.$user->last_name;
             $message->to($user->email, $username);
             $message->subject('Email Verification!');

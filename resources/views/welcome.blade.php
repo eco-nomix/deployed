@@ -19,7 +19,7 @@
                 Your Bank?
            </div>
        </div>
-    <div class="trans display  back-white col-md-10 col-md-offset-1" style="font-size:30px;">
+    <div class="trans highdisplay  back-white col-md-10 col-md-offset-1" >
 
         <p>Does your bank give you a 10% Reward for Every Deposit?</p>
         <p>Does your bank give you 6% Interest on Your Savings?</p>

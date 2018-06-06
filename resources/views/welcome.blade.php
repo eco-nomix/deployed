@@ -14,7 +14,7 @@
 
 
     <div class="skip">&nbsp;</div>
-       <div style="width:100%;">
+       <div class="center" style="width:100%;display:block;float:left;">
            <div class="kinetic400">
                 Your Bank?
            </div>

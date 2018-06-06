@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div<div style="position:absolute; top:52px; z-index:-1">
+<div style="position:absolute; top:52px; z-index:-1; right:0; left:auto; width:100%;">
      <div style="width:100%">
          <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
              <div class="skip">&nbsp;</div>

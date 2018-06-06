@@ -14,7 +14,7 @@
                     </div>
                 </div>
             <div class="panel panel-default">
-               
+
                 <div class="panel-body">
                        <form class="form-horizontal" role="form" method="POST" action="/payment">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">

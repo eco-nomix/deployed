@@ -11,6 +11,14 @@
         <p>nbsp;</p>
       </div>
 
+
+    <div class="trans display  back-white col-md-10 col-md-offset-1" >
+        <p>Does your bank give you a 10% Reward for Every Deposit?</p>
+        <p>Does your bank give you 6% Intest on Your Savings?</p>
+        <p>Does your bank give EVERY Account Holder the Opportunity for Profit-Sharing?</p>
+        <p>If not, It's time to check out Kinetic Gold</p>
+    </div>
+    <div class="skip">&nbsp;</div>
     <div style="width:100%;">
         <div class="kinetic400">
              Kinetic Gold

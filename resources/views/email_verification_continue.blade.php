@@ -19,7 +19,7 @@
 
 
             <div class="panel panel-default">
-                
+
                   <div class="panel-body">
                     <div class="form-group">
                         <label class="col-md-10 col-md-offset-1 control-label">If you would like to continue your registration to become a member of Gold Diggers Association for KineticGold  click the Register Button again.</label>

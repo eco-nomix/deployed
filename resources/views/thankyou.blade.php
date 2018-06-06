@@ -14,7 +14,7 @@
                     </div>
                 </div>
             <div class="panel panel-default">
-                <div class="panel-heading">Thank You </div>
+               
                 <div class="panel-body">
                        <form class="form-horizontal" role="form" method="POST" action="/payment">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -44,6 +44,12 @@
                        <div class="skip">&nbsp;</div>
                         <div class="skip">&nbsp;</div>
                          <div class="skip">&nbsp;</div>
+                          <div class="skip">&nbsp;</div>
+                                              <div class="skip">&nbsp;</div>
+                                               <div class="skip">&nbsp;</div>
+                                                <div class="skip">&nbsp;</div>
+                                                 <div class="skip">&nbsp;</div>
+                                                  <div class="skip">&nbsp;</div>
         </div>
     </div>
 

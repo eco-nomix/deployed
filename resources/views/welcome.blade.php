@@ -25,12 +25,12 @@
         <p>Does your bank give EVERY Account Holder the Opportunity for Profit-Sharing?</p>
         <p>If not, It's time to check out Kinetic Gold</p>
     </div>
-    <div class="skip">&nbsp;</div>
-    <div style="width:100%;">
-        <div class="kinetic400">
-             Kinetic Gold
-        </div>
-    </div>
+     <div class="skip">&nbsp;</div>
+             <div class="center" style="width:100%;display:block;float:left;">
+                <div class="kinetic600">
+                     Kinetic Gold
+                </div>
+            </div>
 
 
     <div class="trans display  back-white col-md-10 col-md-offset-1" >

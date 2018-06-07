@@ -34,7 +34,7 @@
                           performed by the referred member.
                         </div>
                         <div class="form-group col-md-12 ">
-                            <img src="{{URL::to('/')}}/images/kineticGold-BusinessCard.jpeg">
+                            <img src="{{URL::to('/')}}/images/kineticGold-BusinessCard.jpeg" width="500px">
                         </div>
                         <div class="form-group col-md-12 ">
                             Your business card will be extremely helpful in helping you build your organization.

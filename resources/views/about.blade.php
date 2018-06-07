@@ -12,7 +12,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div style="width:100%;">
                     <div class="kinetic600">
-                        Thank you for Registering
+                        About KineticGold
                     </div>
                 </div>
             <div class="panel panel-default display">

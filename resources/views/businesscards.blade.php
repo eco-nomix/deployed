@@ -33,7 +33,7 @@
                           When the Referral link is used, the referring member will be recorded in all transactions and future transactions
                           performed by the referred member.
                         </div>
-                        <div class="form-group col-md-12 ">
+                        <div class="form-group col-md-12 " style="opacity:1.0">
                             <img src="{{URL::to('/')}}/images/kineticGold-BusinessCard.jpeg" width="900px">
                         </div>
                         <div class="form-group col-md-12 ">

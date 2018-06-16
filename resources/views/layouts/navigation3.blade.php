@@ -36,7 +36,6 @@
                         <li><a href="{{URL::to('/')}}/limitations">Limitations on Sponsoring</a></li>
                         <li><a href="{{URL::to('/')}}/accounting">On-line Accounting</a></li>
                         <li><a href="{{URL::to('/')}}/potential">Potentials</a></li>
-
                         <li><a href="{{URL::to('/')}}/comparison">Kinetic Gold compared to other marketing programs</a></li>
                         <li><a href="{{URL::to('/')}}/benefits">Member Benefits</a></li>
                           <li><a href="{{URL::to('/')}}/requirements">Member Requirements</a></li>

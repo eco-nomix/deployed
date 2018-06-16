@@ -114,7 +114,6 @@ class PagesController extends Controller
 
         return view('autoship',$data);
     }
-
     public function present(Request $request)
     {
         $data = $this->userData($request);

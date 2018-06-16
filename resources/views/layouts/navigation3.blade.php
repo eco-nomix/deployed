@@ -51,7 +51,7 @@
                 <li><a href="{{URL::to('/')}}/traininglinks">Presentation<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Power Point</a></li>
-                        <li><a href="{{URL::to('/')}}/presentation">Presentation2</a></li>
+                        <li><a href="{{URL::to('/')}}/presentation">Presentation22</a></li>
 
                     </ul>
                 </li>

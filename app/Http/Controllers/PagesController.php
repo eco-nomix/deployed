@@ -106,6 +106,7 @@ class PagesController extends Controller
         return view('accounting',$data);
     }
 
+
     public function autoship(Request $request)
     {
         $data = $this->userData($request);

@@ -101,7 +101,6 @@ Route::get('/paytodistributor',['as'=>'paytodistributor','uses'=>'PagesControlle
 Route::post('/paytodistributor',['as'=>'paytodistributor','uses'=>'PagesController@paytodistributor']);
 Route::get('/addnewdistributor',['as'=>'addnewdistributor','uses'=>'PagesController@addnewdistributor']);
 Route::post('/addnewdistributor',['as'=>'addnewdistributor','uses'=>'PagesController@addnewdistributor']);
-
 Route::get('/about',['as' => 'about','uses'=>'PagesController@about']);
 Route::get('/accounting',['as' => 'accounting','uses'=>'PagesController@accounting']);
 Route::get('/products',['as' => 'products','uses'=>'PagesController@products']);

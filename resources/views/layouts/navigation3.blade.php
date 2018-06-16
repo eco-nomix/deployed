@@ -52,7 +52,6 @@
                     <ul>
                         <li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Power Point</a></li>
                         <li><a href="{{URL::to('/')}}/present">Present</a></li>
-
                     </ul>
                 </li>
             </ul>

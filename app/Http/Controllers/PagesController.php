@@ -97,7 +97,7 @@ class PagesController extends Controller
 
         return view('about',$data);
     }
-    
+
     public function accounting(Request $request)
     {
         $data = $this->userData($request);

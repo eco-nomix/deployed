@@ -113,7 +113,7 @@ Route::get('/autoship',['as' => 'autoship','uses'=>'PagesController@autoship']);
 Route::get('/books',['as' => 'books','uses'=>'PagesController@books']);
 Route::post('/books',['as' => 'books','uses'=>'PagesController@books']);
 Route::get('/stores/{product_group}',['as'=>'storess','uses'=>'PagesController@stores']);
-    Route::get('/presentation',['as' => 'presentation','uses'=>'PagesController@presentation']);
+    Route::get('/present',['as' => 'present','uses'=>'PagesController@present']);
 Route::get('/energy',['as' => 'energy','uses'=>'PagesController@energy']);
 Route::get('/recycling',['as' => 'recycling','uses'=>'PagesController@recycling']);
 Route::get('/benefits',['as' => 'about','uses'=>'PagesController@benefits']);

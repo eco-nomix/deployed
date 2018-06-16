@@ -115,6 +115,15 @@ class PagesController extends Controller
         return view('autoship',$data);
     }
 
+    public function presentation(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Presentation';
+        $data['description'] = 'Presentation';
+
+        return view('presentation',$data);
+    }
+
     public function benefits(Request $request)
     {
         $data = $this->userData($request);

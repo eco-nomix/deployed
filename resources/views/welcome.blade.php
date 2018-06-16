@@ -114,7 +114,7 @@
      <div class="center" style="width:100%;display:block;float:left;">
         <div class="kinetic400">
              Kinetic Gold's Coin
-             
+
         </div>
     </div>
 

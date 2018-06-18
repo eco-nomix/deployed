@@ -160,6 +160,22 @@
     vertical-align:middle;
 }
 
+.kinetic800{
+    color:goldenrod;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 40px;
+    width: 800px;
+    height: 50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
 .kineticbackground{
     background-image:url("{{URL::asset('images/denmark.jpeg')}}");
 }

@@ -35,7 +35,7 @@
                         <li><a href="{{URL::to('/')}}/policies">General Policy and Procedures</a></li>
                     </ul>
                 </li>
-                <li><a href="/kineticgold.org/">Kinetic Gold</a></li>
+                <li><a href="http://kineticgold.org/">Kinetic Gold</a></li>
 
 
                 <li><a href="{{URL::to('/')}}/traininglinks">Training<span class="caret"></span></a>

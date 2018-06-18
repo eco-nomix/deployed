@@ -71,7 +71,7 @@
                 <ul>
                     <li>Get a Free Off-Shore Bank that is associated with KineticGold, Non members pay the normal Fee to create the account
                         <ul>
-                            <li>Non-member charge to get this account is
+                            <li>Non-member of Gold Diggers charge to get this account is
                                 <ul>
                                     <li>$1000 USD fee to open the Account</li>
                                     <li>minimum opening balance $50,000 USD</li>
@@ -89,12 +89,12 @@
                     </li>
                     <li>Account will have a Free Mastercard/Visa Debit card associated with it., non-members pay for this service.
                         <ul>
-                            <li>Non-Member charge of $50.00 USD per year.</li>
+                            <li>Non-Member of Gold Diggers charge of $50.00 USD per year.</li>
                         </ul>
                     </li>
                     <li>Provide you with a Free KineticGold E-wallet, non-members pay for this service.
                         <ul>
-                            <li>Non-Member charge of $25.00 USD - one time charge</li>
+                            <li>Non-Member of Gold Diggers charge of $25.00 USD - one time charge</li>
                         </ul>
                     </li>
                     <li>Establish and update your down-line for Profit-Sharing within the KineticGold Blockchain.

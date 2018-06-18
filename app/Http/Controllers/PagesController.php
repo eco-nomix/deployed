@@ -141,6 +141,14 @@ class PagesController extends Controller
 
         return view('benefits',$data);
     }
+    public function benefits2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Digger Member Benefits';
+        $data['description'] = 'Gold Digger Member Benefits';
+
+        return view('benefits2',$data);
+    }
     public function businesscards(Request $request)
     {
         $data = $this->userData($request);

@@ -101,7 +101,7 @@
 
                          <div class="form-group col-md-12 ">
                            <div class="col-md-12 standout">
-                              <p>All these significant differences show you why KineticGold is positioned to make a real difference in your life.
+                              <p>All these significant differences show you why the Gold Diggers Association is positioned to make a real difference in your life.
                                  Using the right banking platform, for the right reasons, will help you to prepare
                                  for some pretty unpredictable times ahead.  </p><p> And last of all is an on-going income stream that is coming to you,
                                  not because of having to make constant purchases of unwanted products, but using a new banking system to pay your existing expenses,  and

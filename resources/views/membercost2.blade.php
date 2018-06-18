@@ -34,21 +34,25 @@
                         </div>
                         <div class="form-group col-md-12 ">
                             To become a member of the association there is a one-time registration fee of $39.95.    </div>
-                         <div class="form-group col-md-12 ">
+                        <div class="form-group col-md-12 ">
                               There are no annual, monthly costs for Kinetic Gold or the Gold Digger's Association, or required products to purchase</div>
-                         <div class="form-group col-md-12 ">Registration is a simple process just
+                        <div class="form-group col-md-12 ">Registration is a simple process just
                             <ul>
                                 <li>Provide your basic information (name, email, desired username and password, verify your email,update and contact information)</li>
                                 <li>Submit your registration Fee</li>
                             </ul>
-                         </div>
+                        </div>
                         <div class="form-group col-md-12 ">
                            Benefits from membership in the Gold Digger's Association</div>
                         <div class="form-group col-md-12 ">
                            <ul>
                                <li>Members will receive the monthly Gold Digger's Association newsletter</li>
-                               <li>As new programs become available to Members, the website will be immediately updated along with an announcement if the monthly newsletter.</li>
+                               <li>As new programs become available to Members, the website will be immediately updated along with an announcement in the monthly newsletter.</li>
                                <li>Some of the programs offered to our Members will be exclusive to our members, but that will not always be the case.</li>
+                               <li>Gold Digger's Association will track 'sponsorship' of its members that can be utilized by the various programs offered to it's members</li>
+                               <li>Any financial benefits from participation with a program referred by Gold Diggers will be paid directly to the participants by the sponsoring program.
+                                    Gold Digger's doesn't pay any benefits to its members.</li>
+                               <li>Gold Digger's will only be offering information and training to its members.</li>
                                <li>Kinetic Gold has entered into an agreement with Gold Diggers to provide exclusive benefits to the members of the Association.
                                     <ul>
                                          <li>Members will receive a KineticGold Gold-backed cryptocurrency account.</li>

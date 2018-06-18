@@ -16,7 +16,7 @@
 </head>
 <body class="KineticGoldbody">
 
-    @include('layouts.navagation_golddiggers')
+    @include('layouts.navigation_golddiggers')
     @yield('content')
     @yield('footer')
 

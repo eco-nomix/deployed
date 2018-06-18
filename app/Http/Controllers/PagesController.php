@@ -686,6 +686,14 @@ class PagesController extends Controller
 
         return view('purpose',$data);
     }
+    public function purpose2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] ='Gold Diggers Purpose';
+        $data['description'] = 'Spiritual, Economic, Physical, Emotional';
+
+        return view('purpose2',$data);
+    }
     public function policies(Request $request)
     {
         $data = $this->userData($request);

@@ -17,7 +17,7 @@
                 <li>
                     <a href="{{URL::to('/')}}/info">Introduction</a>
                 </li>
-                <li><a href="{{URL::to('/')}}/purpose">Purpose</span></a>
+                <li><a href="{{URL::to('/')}}/purpose2">Purpose</span></a>
 
                 </li>
                 <li><a href="{{URL::to('/')}}/plans">Business Plan<span class="caret"></span></a>

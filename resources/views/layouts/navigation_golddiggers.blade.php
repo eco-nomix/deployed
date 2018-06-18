@@ -36,7 +36,7 @@
                     </ul>
                 </li>
                 <li><a href="/kineticgold.org/">Kinetic Gold</a></li>
-                
+
 
                 <li><a href="{{URL::to('/')}}/traininglinks">Training<span class="caret"></span></a>
                     <ul>

@@ -65,23 +65,39 @@
             </div>
         </div>
     <div class="trans display back-white  col-md-10 col-md-offset-1" >
-            <p>Gold Diggers is the Association whose members will participate in the KineticGold Banking platform. </p>
-            <p>Kinetic Gold will only be accessible by members of the Gold Diggers Association.</p>
+            <p>Gold Diggers is an Association whose members can participate in the KineticGold Banking platform. </p>
+            <p>Some Kinetic Gold benefits and features will only be accessible to members of the Gold Diggers Association.</p>
             <p>The Gold Diggers Association will do the following for you:
                 <ul>
-                    <li>Set up your account in the Off-Shore Bank that is associated with KineticGold
+                    <li>Get a Free Off-Shore Bank that is associated with KineticGold, Non members pay the normal Fee to create the account
                         <ul>
+                            <li>Non-member charge to get this account is
+                                <ul>
+                                    <li>$1000 USD fee to open the Account</li>
+                                    <li>minimum opening balance $50,000 USD</li>
+                                </ul>
+                            </li>
                             <li>Your account is linked with your KineticGold account.</li>
                             <li>Your account is denominated in ounces of Gold.</li>
                             <li>Gold in in storage at a secure vault in Dubai.</li>
                             <li>Account is insured to the full amount of deposit.</li>
-                            <li>Account will have a Mastercard/Visa Debit card associated with it.</li>
+
                             <li>You set the limit that can be spent per transaction.</li>
-                            <li>This type of account is normally not available and would be quite expensive to obtain</li>
+                            <li>No charge to open the Off-Shore Bank</li>
+                            <li>No minimum opening balance or operating balances.</li>
                         </ul>
                     </li>
-                    <li>Provide you with your KineticGold E-wallet.</li>
-                    <li>Establish and update your down-line for Profit-Sharing within the Blockchain.
+                    <li>Account will have a Free Mastercard/Visa Debit card associated with it., non-members pay for this service.
+                        <ul>
+                            <li>Non-Member charge of $50.00 USD per year.</li>
+                        </ul>
+                    </li>
+                    <li>Provide you with a Free KineticGold E-wallet, non-members pay for this service.
+                        <ul>
+                            <li>Non-Member charge of $25.00 USD - one time charge</li>
+                        </ul>
+                    </li>
+                    <li>Establish and update your down-line for Profit-Sharing within the KineticGold Blockchain.
                         <ul>
                             <li>Awards for deposits is controlled by the Blockchain</li>
                             <li>Profit-Sharing is controlled by the Blockchain</li>
@@ -200,9 +216,9 @@
     <div class="trans display back-white  col-md-10 col-md-offset-1" >
           <p>During the Pre-Launch Phase:</p>
           <ul>
-            <li>Members will be accepted into Kinetic Gold's member association.</li>
+            <li>Members will be accepted into Gold Diggers Association.</li>
             <li>Member's may build their Mining organization using the Gold Diggers Association. (See details on Mining Kinetic Gold)</li>
-            <li>New Members will register with the Gold Diggers Association through the KineticGold.org website.</li>
+            <li>New Members will register with the Gold Diggers Association through the KineticGold.org or the GoldDiggerz.org website.</li>
             <li>Because the Off-Shore bank and Kinetic Gold's blockchain is not complete the following limitations will be in effect</li>
                  <ul>
                     <li>No funds will be accepted to purchase Kinetic Gold's coins.</li>
@@ -218,7 +234,7 @@
                         <li>ACH payments will be processed manually</li>
                         <li>Minimum profit sharing amounts to be paid per month is $100.00</li>
                         <li>Unpaid profit sharing shall roll over to the next month.</li>
-                        <li>When Kinetic Gold is launched then all payments to be made automatically through the Kinetic Gold cryptocurrency.</li>
+                        <li>When Kinetic Gold is launched then all payments to be made automatically through the Kinetic Gold cryptocurrency and Off-Shore Bank Account.</li>
                     </ul>
                     <li>The Off-Shore bank account is pending</li>
                     <li>The Debit Card for Off-Shore bank account is pending</li>

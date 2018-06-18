@@ -30,7 +30,7 @@
                              styles, limits and desires.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Gold Digger Association Benefits are details as follows:
+                            Gold Digger Association Benefits are detailed as follows:
                             <ul>
                               <li>Members will receive the monthly Gold Digger's Association newsletter</li>
                               <li>As new programs become available to Members, the website will be immediately updated along with an announcement in the monthly newsletter.</li>

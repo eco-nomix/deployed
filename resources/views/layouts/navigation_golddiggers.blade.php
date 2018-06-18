@@ -25,7 +25,7 @@
                         <li><a href="{{URL::to('/')}}/membercost2">Membership Cost</a></li>
 
 
-                        <li><a href="{{URL::to('/')}}/benefits">Member Benefits</a></li>
+                        <li><a href="{{URL::to('/')}}/benefits2">Member Benefits</a></li>
                           <li><a href="{{URL::to('/')}}/requirements">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/mem_agreement">Membership Agreement</a></li>
                         <li><a href="{{URL::to('/')}}/mem_terms">Membership Terms and Conditions</a></li>

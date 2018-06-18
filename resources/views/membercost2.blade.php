@@ -42,7 +42,7 @@
                                 <li>Submit your registration Fee</li>
                             </ul>
                         </div>
-   
+
                 </div>
             </div>
 

@@ -115,6 +115,15 @@ class PagesController extends Controller
 
         return view('autoship',$data);
     }
+    public function info(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'GoldDiggers';
+        $data['description'] = 'Introduction';
+
+        return view('info',$data);
+    }
+
     public function present(Request $request)
     {
         $data = $this->userData($request);

@@ -14,6 +14,8 @@
 //    return view('welcome');
 //});
 
+
+
 Route::get('/sitemap', function()
 {
     $file = public_path(). "/download/sitemap.xml";  // <- Replace with the path to your .xml file
@@ -45,6 +47,7 @@ Route::get('/testmail',function()
        $message->to('projectmanager24x7@yahoo.com')->subject('laracasts Email');
     });
 });
+
 
 
 Route::group(['middleware' => ['web']], function () {
@@ -105,6 +108,7 @@ Route::get('/about',['as' => 'about','uses'=>'PagesController@about']);
 Route::get('/accounting',['as' => 'accounting','uses'=>'PagesController@accounting']);
 Route::get('/products',['as' => 'products','uses'=>'PagesController@products']);
 Route::get('/product/{productId}',['as' => 'product','uses'=>'PagesController@product']);
+Route::get('/info',['as' => 'info','uses'=>'PagesController@info']);
 Route::get('/food',['as' => 'food','uses'=>'PagesController@food']);
 Route::get('/autoship',['as' => 'autoship','uses'=>'PagesController@autoship']);
 Route::get('/books',['as' => 'books','uses'=>'PagesController@books']);

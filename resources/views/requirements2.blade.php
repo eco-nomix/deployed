@@ -54,7 +54,7 @@
                          <div class="form-group col-md-12 ">
                                 <ul>
                                     <li>Become a member of the Gold Digger's Association- no deposit required</li>
-                                    <li>Refer someone</li>
+                                    <li>Refer someone to become member's of the Gold Digger's Association.</li>
                                     <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
                                         <ul>
                                             <li>1+  1st Generation</li>

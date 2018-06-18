@@ -3,26 +3,17 @@
         <div class="navbar-brand brand-image">
              <a href="{{URL::to('/info')}}"><sp class="kineticSm">Gold Diggers</sp></a>
         </div>
-    {{--//    <div class="referral" >--}}
-        {{--@if(!isset($referral_link))--}}
-            {{--Your Referral Link: <br>--}}
-            {{--Not logged in--}}
-        {{--@else--}}
-            {{--Your Referral Link: <br>--}}
-            {{--{{$referral_link}}--}}
-        {{--@endif--}}
-        {{--</div>--}}
+
         <div style="padding:15px;">
             <ul>
                 <li>
                     <a href="{{URL::to('/')}}/info">Introduction</a>
                 </li>
                 <li><a href="{{URL::to('/')}}/purpose2">Purpose</span></a>
-
                 </li>
                 <li><a href="{{URL::to('/')}}/plans">Business Plan<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/membercost2">Membership Cost</a></li>
+                        <li><a href="{{URL::to('/')}}/membercost2">Membership Cost2</a></li>
                         <li><a href="{{URL::to('/')}}/benefits2">Member Benefits</a></li>
                         <li><a href="{{URL::to('/')}}/requirements">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/mem_agreement">Membership Agreement</a></li>

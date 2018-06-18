@@ -23,13 +23,13 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <div class="form-group col-md-12 ">
-                            Gold Diggers is the association that is focused on the use and expansion of the KineticGold banking and Cryptocurrency platform.
+                            Gold Diggers is an association that is focused on the use and expansion of the KineticGold banking and Cryptocurrency platform.
                         </div>
                         <div class="form-group col-md-12 ">
-                            Kinetic Gold will only be accessible by members of the Gold Digger's Association.
+                            There are some benefits of Kinetic Gold will only be accessible by members of the Gold Digger's Association.
                         </div>
                         <div class="form-group col-md-12 ">
-                            To become a member of the association there is a one-time registration fee of $39.95.   </div>
+                            To become a member of the Gold Digger's association there is a one-time registration fee of $39.95.   </div>
                          <div class="form-group col-md-12 ">
                               There are no annual, monthly costs for Kinetic Gold or the Gold Digger's Association, or required products to purchase</div>
                          <div class="form-group col-md-12 ">Registration is a simple process just
@@ -42,7 +42,7 @@
                            Benefits from membership in the Gold Digger's Association</div>
                         <div class="form-group col-md-12 ">
                            <ul>
-                               <li>Kinetic Gold will only be accessible by members of the Gold Diggers Association.</li>
+                               <li>Kinetic Gold Rewards and Profit-Sharing will only be accessible by members of the Gold Diggers Association.</li>
                                <li>Members will receive a KineticGold cryptocurrency account.</li>
                                <li>Members will receive an e-wallet which can access this account</li>
                                <li>Members will receive a banking account at an offshore bank affiliated with KineticGold.

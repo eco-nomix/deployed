@@ -23,20 +23,8 @@
                 <li><a href="{{URL::to('/')}}/plans">Business Plan<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost2">Membership Cost</a></li>
-                        <li><a href="{{URL::to('/')}}/cryptocurrency">Kinetic Gold Cryptocurrency</a></li>
-                        <li><a href="{{URL::to('/')}}/ewallet">E-wallet</a></li>
-                         <li><a href="{{URL::to('/')}}/offshorebank">Offshore Bank Account</a></li>
-                        <li><a href="{{URL::to('/')}}/debitcards">Debit Card</a></li>
-                        <li><a href="{{URL::to('/')}}/bankinterface">Cryptocurrency-Banking Interface</a></li>
-                        <li><a href="{{URL::to('/')}}/rewards">Rewards Program</a></li>
 
-                        <li><a href="{{URL::to('/')}}/profitsharing">Profit-Sharing</a></li>
-                        <li><a href="{{URL::to('/')}}/referrallinks">Referral Links</a></li>
-                        <li><a href="{{URL::to('/')}}/businesscards">Business Cards</a></li>
-                        <li><a href="{{URL::to('/')}}/limitations">Limitations on Sponsoring</a></li>
-                        <li><a href="{{URL::to('/')}}/accounting">On-line Accounting</a></li>
-                        <li><a href="{{URL::to('/')}}/potential">Potentials</a></li>
-                        <li><a href="{{URL::to('/')}}/comparison">Kinetic Gold compared to other marketing programs</a></li>
+
                         <li><a href="{{URL::to('/')}}/benefits">Member Benefits</a></li>
                           <li><a href="{{URL::to('/')}}/requirements">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/mem_agreement">Membership Agreement</a></li>

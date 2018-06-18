@@ -1,17 +1,17 @@
 
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
-             <a href="{{URL::to('/')}}"><sp class="kineticSm">KineticGold</sp></a>
+             <a href="{{URL::to('/info')}}"><sp class="kineticSm">Gold Diggers</sp></a>
         </div>
-        <div class="referral" >
-        @if(!isset($referral_link))
-            Your Referral Link: <br>
-            Not logged in
-        @else
-            Your Referral Link: <br>
-            {{$referral_link}}
-        @endif
-        </div>
+    {{--//    <div class="referral" >--}}
+        {{--@if(!isset($referral_link))--}}
+            {{--Your Referral Link: <br>--}}
+            {{--Not logged in--}}
+        {{--@else--}}
+            {{--Your Referral Link: <br>--}}
+            {{--{{$referral_link}}--}}
+        {{--@endif--}}
+        {{--</div>--}}
         <div style="padding:15px;">
             <ul>
                 <li>

@@ -139,6 +139,7 @@ Route::get('/founders',['as' => 'founders','uses'=>'PagesController@founders']);
 Route::get('/limitations',['as' => 'limitations','uses'=>'PagesController@limitations']);
 Route::get('/members',['as' => 'members','uses'=>'PagesController@members']);
 Route::get('/membercost',['as' => 'membercost','uses'=>'PagesController@membercost']);
+Route::get('/membercost2',['as' => 'membercost2','uses'=>'PagesController@membercost2']);
 Route::get('/mem_agreement',['as' => 'memberagreement','uses'=>'PagesController@memberagreement']);
 Route::get('/mem_terms',['as' => 'memberaterms','uses'=>'PagesController@memberterms']);
 Route::get('/charities',['as' => 'charities','uses'=>'PagesController@charities']);

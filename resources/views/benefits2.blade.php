@@ -21,43 +21,45 @@
 
                         <div class="form-group col-md-12 ">
                              Gold Diggers is the association that is focused on making our members aware of opportunities in investments, banking and financing.  It will do this in the form
-                             of a monthly newletter that is sent to all of it's members detailing information about various opportunities, their risks and potential rewards along with a
+                             of a monthly newletter that is sent to all of it's members detailing information about various opportunities, programs, their risks and potential rewards along with a
                              a detailed 'how-to' method to get involved if you are interested.
                         </div>
                         <div class="form-group col-md-12 ">
-                             There are no requirements for members of the Gold Digger's association to participate within any program.  This information is provided as 'information' only and is not
+                             There are no requirements for members of the Gold Digger's association to participate within any opportunity or program.  This information is provided as 'information' only and is not
                              to be construed as investment advise.  All member's need to do their own due dilligence to determine if any particular opportunity fit's with your investment goals and/or
                              styles, limits and desires.
                         </div>
                         <div class="form-group col-md-12 ">
                             Gold Digger Association Benefits are detailed as follows:
                             <ul>
-                              <li>Members will receive the monthly Gold Digger's Association newsletter</li>
-                              <li>As new programs become available to Members, the website will be immediately updated along with an announcement in the monthly newsletter.</li>
+                              <li>Members will receive the monthly Gold Digger's Association newsletter.</li>
+                              <li>As opportunities or programs become available to Members, the website will be immediately updated along with an announcement in the monthly newsletter.</li>
                               <li>Some of the programs offered to our Members will be exclusive to our members, but that will not always be the case.</li>
                               <li>Gold Digger's Association will track 'sponsorship' of its members that can be utilized by the various programs offered to it's members</li>
-                              <li>Any financial benefits from participation with a program referred by Gold Diggers will be paid directly to the participants by the sponsoring program.
+                              <li>Any financial benefits from participation within a program referred by Gold Diggers will be paid directly to the participants by the sponsoring program.
                                    Gold Digger's doesn't pay any benefits to its members.</li>
                               <li>Gold Digger's will only be offering information and training to its members.</li>
-                              <li>Kinetic Gold has entered into an agreement with Gold Diggers to provide exclusive benefits to the members of the Association.
+                              <li>Kinetic Gold has entered into an agreement with the Gold Diggers Association to provide exclusive benefits to the members of the Association.
                                    <ul>
-                                        <li>Members will receive a KineticGold Gold-backed cryptocurrency account.</li>
-                                         <li>Members will receive an e-wallet which can access this account</li>
-                                         <li>Members will receive a banking account at an offshore bank affiliated with KineticGold.
+                                        <li>Association Members will receive a FREE KineticGold Gold-backed cryptocurrency account.</li>
+                                         <li>Association Members will receive a FREE ($25 value) e-wallet which can access this account</li>
+                                         <li>Association Members will receive a banking account at an offshore bank ($1000 value) affiliated with KineticGold.
                                              <ul>
                                                 <li>Your account is linked with your KineticGold account.</li>
                                                 <li>Your account is denominated in ounces of Gold.</li>
                                                 <li>Gold in in storage at a secure vault in Dubai.</li>
                                                 <li>Account is insured to the full amount of deposit.</li>
-                                                <li>Account will have a Mastercard/Visa Debit card associated with it.</li>
+                                                <li>Association Members will be provided a FREE Mastercard/Visa Debit card ($50/year value) associated with it.</li>
                                                 <li>You set the limit that can be spent per transaction.</li>
-                                                <li>This type of account is normally not available and would be quite expensive to obtain</li>
+                                                <li>This type of account is normally not available and would be quite expensive to obtain ($50,000 minimum opening balance to non-members of the Association) </li>
+                                                <li>No minimum opening balance for association members</li>
+                                                <li>No minimum balance to maintain account for Association Members</li>
                                              </ul>
                                         </li>
                                         <li>The banking account will interact directly with their cryptocurrency account.</li>
                                        <li>The banking account will include a Debit card where you can access your accounts anywhere in the world through the Visa/Mastercard platform.</li>
-                                       <li>Members automatically qualify for KineticGold rewards program.  Rewards are automatically credited into your savings account at your offshore bank account.</li>
-                                       <li>Members can participate in KineticGold's profit sharing and mining program
+                                       <li>Association Members automatically qualify for KineticGold rewards program.  Rewards are automatically credited into your rewards account at your offshore bank account.</li>
+                                       <li>Association Members can participate in KineticGold's profit sharing and mining program
                                        </li>
                                          <li>Establish and update your down-line for Profit-Sharing within the Blockchain.
                                            <ul>

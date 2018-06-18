@@ -23,7 +23,7 @@
                 <li><a href="{{URL::to('/')}}/plans">Business Plan<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost">Membership Cost</a></li>
-                        <li><a href="golddiggerz/info">Gold Diggers Association</a></li>
+                        <li><a href="golddiggerz.org/info">Gold Diggers Association</a></li>
                         <li><a href="{{URL::to('/')}}/cryptocurrency">Kinetic Gold Cryptocurrency</a></li>
                         <li><a href="{{URL::to('/')}}/ewallet">E-wallet</a></li>
                          <li><a href="{{URL::to('/')}}/offshorebank">Offshore Bank Account</a></li>

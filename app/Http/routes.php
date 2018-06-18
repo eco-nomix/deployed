@@ -151,6 +151,7 @@ Route::get('/purpose',['as' => 'purpose','uses'=>'PagesController@purpose']);
 Route::get('/purpose2',['as' => 'purpose2','uses'=>'PagesController@purpose2']);
 Route::get('/physically',['as' => 'physically','uses'=>'PagesController@physically']);
 Route::get('/requirements',['as' => 'requirements','uses'=>'PagesController@requirements']);
+Route::get('/requirements2',['as' => 'requirements2','uses'=>'PagesController@requirements2']);
 Route::get('/referrallinks',['as' => 'requirements','uses'=>'PagesController@referrallinks']);
 Route::get('/emotionally',['as' => 'emotionally','uses'=>'PagesController@emotionally']);
 Route::get('/startup',['as' => 'startup','uses'=>'PagesController@startup']);

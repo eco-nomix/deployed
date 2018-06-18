@@ -758,6 +758,14 @@ class PagesController extends Controller
 
         return view('requirements',$data);
     }
+    public function requirements2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Association Requirements';
+        $data['description'] = 'Gold Diggers Association Requirements';
+
+        return view('requirements2',$data);
+    }
 
     public function selection(Request $request)
     {

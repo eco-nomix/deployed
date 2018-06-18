@@ -103,7 +103,7 @@
                            <div class="col-md-12 standout">
                               <p>All these significant differences show you why the Gold Diggers Association is positioned to make a real difference in your life.
                                  Using the right banking platform, for the right reasons, will help you to prepare
-                                 for some pretty unpredictable times ahead.  </p><p> And last of all is an on-going income stream that is coming to you,
+                                 for some pretty unpredictable times ahead.  </p><p> And last of all is a potential on-going income stream that is coming to you,
                                  not because of having to make constant purchases of unwanted products, but using a new banking system to pay your existing expenses,  and
                                   because of
                                  simple referrals to an organization that thinks like you.</p><p> At last there is a company you can look forward to working with.</p>

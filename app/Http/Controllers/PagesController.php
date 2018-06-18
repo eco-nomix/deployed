@@ -550,6 +550,15 @@ class PagesController extends Controller
 
         return view('membercost',$data);
     }
+    public function membercost2(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'Gold Diggers Member Cost';
+        $data['description'] = 'KineticGold Member Cost';
+
+        return view('membercost2',$data);
+    }
     public function memberterms(Request $request)
     {
         $data = $this->userData($request);

@@ -146,6 +146,7 @@ Route::get('/groups',['as' => 'groups','uses'=>'PagesController@groups']);
 Route::get('/house',['as' => 'house','uses'=>'PagesController@house']);
 Route::get('/potential',['as' => 'potential','uses'=>'PagesController@potential']);
 Route::get('/purpose',['as' => 'purpose','uses'=>'PagesController@purpose']);
+Route::get('/purpose2',['as' => 'purpose2','uses'=>'PagesController@purpose2']);
 Route::get('/physically',['as' => 'physically','uses'=>'PagesController@physically']);
 Route::get('/requirements',['as' => 'requirements','uses'=>'PagesController@requirements']);
 Route::get('/referrallinks',['as' => 'requirements','uses'=>'PagesController@referrallinks']);

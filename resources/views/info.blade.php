@@ -9,7 +9,7 @@
 
     <div class="trans row">
 
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1">
             <div style="width:100%;">
                 <div class="kinetic600">
                       Gold Diggers Association

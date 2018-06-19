@@ -55,7 +55,14 @@ class PagesController extends Controller
     public function home(Request $request)
     {
         $data = $this->userData($request);
-
+        $name = $_SERVER['SERVER_NAME'];
+        \Log::info("server=$name");
+        if($_SERVER['SERVER_NAME'] == 'golddiggerz.org'){
+            $data = $this->userData($request);
+            $data['title'] = 'GoldDiggers';
+            $data['description'] = 'Introduction';
+            return view('info',$data);
+        }
 
         $data['title'] = 'KineticGold';
         $data['imageUrl'] = '../images/denmark.jpg';

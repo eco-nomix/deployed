@@ -111,6 +111,7 @@ Route::get('/product/{productId}',['as' => 'product','uses'=>'PagesController@pr
 Route::get('/info',['as' => 'info','uses'=>'PagesController@info']);
 Route::get('/food',['as' => 'food','uses'=>'PagesController@food']);
 Route::get('/autoship',['as' => 'autoship','uses'=>'PagesController@autoship']);
+Route::get('/autoship2',['as' => 'autoship2','uses'=>'PagesController@autoship2']);
 Route::get('/books',['as' => 'books','uses'=>'PagesController@books']);
 Route::post('/books',['as' => 'books','uses'=>'PagesController@books']);
 Route::get('/stores/{product_group}',['as'=>'storess','uses'=>'PagesController@stores']);

@@ -55,7 +55,7 @@
                         <div class="form-group col-md-12 ">
                             If you wish to have your own business cards printed locally using the KineticGold graphics, you may download the image here.
                             <p>
-                            <a href="../downImg/kineticGold-BusinessCard.jpeg">
+                            <a href="../downImg/kineticGold-Business Card - blank.jpeg">
                             <button>Download</button>
                             </a>
                             </p>

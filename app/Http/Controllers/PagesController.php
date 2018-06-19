@@ -775,6 +775,14 @@ class PagesController extends Controller
 
         return view('returns',$data);
     }
+    public function returns2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Return Policy';
+        $data['description'] = 'Gold Diggers Return Policy';
+
+        return view('returns',$data);
+    }
     public function requirements(Request $request)
     {
         $data = $this->userData($request);

@@ -168,6 +168,7 @@ Route::get('/productsSum',['as' => 'products','uses'=>'PagesController@productsS
 Route::get('/discount',['as' => 'discount','uses'=>'PagesController@discount']);
 Route::get('/referral',['as' => 'referral','uses'=>'PagesController@referral']);
 Route::get('/returns',['as' => 'returns','uses'=>'PagesController@returns']);
+Route::get('/returns2',['as' => 'returns2','uses'=>'PagesController@returns2']);
 Route::get('/donations',['as' => 'donations','uses'=>'PagesController@donations']);
 Route::get('/contact',['as' => 'contact','uses'=>'PagesController@contact']);
 Route::get('/water',['as' => 'water','uses'=>'PagesController@water']);

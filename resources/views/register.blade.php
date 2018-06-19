@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.golddiggers')
 
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1; right:0; left:auto; width:100%">

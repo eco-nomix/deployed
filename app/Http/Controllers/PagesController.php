@@ -583,6 +583,15 @@ class PagesController extends Controller
 
         return view('memberterms',$data);
     }
+    public function memberterms2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Association Terms and Conditions';
+        $data['description'] = 'Gold Diggers Association Member Agreement Terms and Conditions';
+
+        return view('memberterms2', $data);
+    }
+
     public function money(Request $request)
     {
         $data = $this->userData($request);

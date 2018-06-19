@@ -86,7 +86,7 @@ Route::post('/changecartquantity',['as'=>'changequantity','uses'=>'CartControlle
 Route::post('/purchase',['as'=>'purchase','uses'=>'CartController@purchase']);
 Route::post('/checkpurchase',['as'=>'checkpurchase','uses'=>'CartController@checkPurchase']);
 Route::post('/cardpurchase',['as'=>'cardpurchase','uses'=>'CartController@cardPurchase']);
-Route::get('/downImg',['as'=>'downImg','uses'=>'PagesController@downImg']);
+Route::get('/downImg/{image}',['as'=>'downImg','uses'=>'PagesController@downImg']);
 
 Route::get('/changeshippingaddress/{shippingId}',['as'=>'changeshipping','uses'=>'CartController@changeShippingAddress']);
 Route::post('/changeshippingaddress',['as'=>'changeshipping','uses'=>'CartController@addShippingAddress']);

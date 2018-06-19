@@ -67,9 +67,9 @@
     <div class="trans display back-white  col-md-10 col-md-offset-1" >
             <p>Gold Diggers is an Association whose members can participate in the KineticGold Banking platform. </p>
             <p>Some Kinetic Gold benefits and features will only be accessible to members of the Gold Diggers Association.</p>
-            <p>The Gold Diggers Association will do the following for you:
+            <p>Your membership in the Gold Diggers Association will do the following for you:
                 <ul>
-                    <li>Get a Free Off-Shore Bank that is associated with KineticGold, Non members pay the normal Fee to create the account
+                    <li>Get you a Free Off-Shore Bank account that is associated with KineticGold, Non members pay the normal Fee to create the account
                         <ul>
                             <li>Non-member of Gold Diggers charge to get this account is
                                 <ul>

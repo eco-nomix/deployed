@@ -10,6 +10,7 @@ use App\Models\UserStores;
 use App\Models\ShoppingCarts;
 use App\Models\RegistrationStatus;
 use App\Http\Requests;
+use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
 
 class PagesController extends Controller

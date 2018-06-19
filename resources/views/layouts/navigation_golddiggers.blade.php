@@ -37,8 +37,8 @@
             </ul>
 
             <ul class="pull-right">
-                <li><a href="{{URL::to('/')}}/about">About</a></li>
-                <li><a href="{{URL::to('/')}}/contact">Contact</a></li>
+                <li><a href="{{URL::to('/')}}/about2">About</a></li>
+                <li><a href="{{URL::to('/')}}/contact2">Contact</a></li>
 
                 @if ($user_name == '' or $user_name == null )
                     @if($username == '')

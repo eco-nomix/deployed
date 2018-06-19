@@ -105,6 +105,7 @@ Route::post('/paytodistributor',['as'=>'paytodistributor','uses'=>'PagesControll
 Route::get('/addnewdistributor',['as'=>'addnewdistributor','uses'=>'PagesController@addnewdistributor']);
 Route::post('/addnewdistributor',['as'=>'addnewdistributor','uses'=>'PagesController@addnewdistributor']);
 Route::get('/about',['as' => 'about','uses'=>'PagesController@about']);
+Route::get('/about2',['as' => 'about2','uses'=>'PagesController@about2']);
 Route::get('/accounting',['as' => 'accounting','uses'=>'PagesController@accounting']);
 Route::get('/products',['as' => 'products','uses'=>'PagesController@products']);
 Route::get('/product/{productId}',['as' => 'product','uses'=>'PagesController@product']);
@@ -173,6 +174,7 @@ Route::get('/returns',['as' => 'returns','uses'=>'PagesController@returns']);
 Route::get('/returns2',['as' => 'returns2','uses'=>'PagesController@returns2']);
 Route::get('/donations',['as' => 'donations','uses'=>'PagesController@donations']);
 Route::get('/contact',['as' => 'contact','uses'=>'PagesController@contact']);
+Route::get('/contact2',['as' => 'contact2','uses'=>'PagesController@contact2']);
 Route::get('/water',['as' => 'water','uses'=>'PagesController@water']);
 Route::get('/homepage/{userId}',['as' => 'homepage','uses'=>'PagesController@homepage']);
 Route::post('/homepage/{userId}',['as' => 'homepage','uses'=>'PagesController@editHomepage']);

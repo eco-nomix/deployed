@@ -97,6 +97,14 @@ class PagesController extends Controller
 
         return view('about',$data);
     }
+    public function about2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers ';
+        $data['description'] = '';
+
+        return view('about2',$data);
+    }
     public function accounting(Request $request)
     {
         $data = $this->userData($request);
@@ -355,6 +363,14 @@ class PagesController extends Controller
         $data['description'] = 'KineticGold Contact';
 
         return view('contact',$data);
+    }
+    public function contact2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Contact';
+        $data['description'] = 'Gold Diggers Contact';
+
+        return view('contact2',$data);
     }
     public function debitcards(Request $request)
     {

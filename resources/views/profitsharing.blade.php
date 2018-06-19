@@ -22,18 +22,20 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                          <div class="form-group col-md-12 ">
-                              All members are eligible to receive Profit-Sharing (Mining).
+                              All members of the Gold Diggers Association are eligible to receive Profit-Sharing (Mining) from KineticGold.
                          </div>
                          <div class="form-group col-md-12 ">
                               Normally mining of a cryptocurrency requires a large investment in computer equipment to show you are doing work for the cryptocurrency.
                               KineticGold's version of Mining is much simpler and requires no knowledge of computers or upfront investment.
                          </div>
                          <div class="form-group col-md-12 ">
-                              By Referring potential members to KineticGold, you can mine actual Gold.  When someone you refer joins as a member in the KineticGold Member Association,
+                              By Referring potential account holders to KineticGold through the Gold Diggers Association, you can mine actual Gold.
+                              When someone you refer joins as a member in the Gold Diggers Association,
                                you receive Profit-Sharing.  You will initially receive $10 per sponsored member deposited to your checking account in Gold.  This doesn't sound like much, but consider that
                                <ul>
                                     <li>You sponsor them by getting them to the KineticGold.org website to learn about KineticGold.</li>
                                     <li>It is the responsibility of the Website to teach them how the system works, and get them to sign up.</li>
+                                    <li>Registration on the KineticGold website is linked to the Gold Diggers Association database.</li>
                                     <li>There are no products that you are selling.</li>
                                     <li>You have no obligation beyond getting them to the website.  A true referral.</li>
                                </ul>

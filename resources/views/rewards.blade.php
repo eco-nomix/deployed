@@ -21,36 +21,36 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <div class="form-group col-md-12 ">
                             As a new banking platform, KineticGold is providing an exciting Rewards
-                            program that is available to all members.
+                            program that is available to all members of the Gold Diggers Association.  This program is restricted to members of that Association.
                             </div>
 
                              <div class="form-group col-md-12 ">
-                             It is simple to qualify for the Rewards Program, just use KineticGold as your bank account.
+                             It is simple to qualify for the Rewards Program, as a member of Gold Diggers Association, just use KineticGold as your bank account.
                              </div>
                             <div class="form-group col-md-12 ">
                             Whenever you make a deposit into KineticGold you will automatically receive a reward of 10% of whatever
                             amount you deposited.  This will continue for as long you have a KineticGold account.
                              </div>
                              <div class="form-group col-md-12 ">
-                             Your reward will be placed into your savings account with a 6 month maturity in KineticGold's
+                             Your reward will be placed into your rewards account with a 6 month maturity in KineticGold's
                              Off-shore Bank.
                             </div>
                             <div class="form-group col-md-12 ">
-                            KineticGolds savings accounts pay an interest of 6% / year, compounded monthly with a 6 month maturity.
-                            Note, other maturity periods are available for direct deposits into your savings at various interest rates.
+                            KineticGolds rewards accounts pay an interest of 6% / year, compounded monthly with a 6 month maturity.
+                            Note, other maturity periods are available for direct deposits into your rewardss at various interest rates.
                             </div>
 
                             <div class="form-group col-md-12 ">
-                            Once the maturity period is over, your rewards may be transferred to your regular checking account which is accessible by your
+                            Once the maturity period is over, your rewards may be transferred to your regular account which is accessible by your
                             Debit Card and your on-line account.
                            </div>
 
                             <div class="form-group col-md-12 ">
-                            Once matured, you may also roll-over your savings into other Savings programs with interest and maturity periods.
+                            Once matured, you may also roll-over your savings into other Rewards programs with interest and maturity periods.
                             </div>
 
                             <div class="form-group col-md-12 ">
-                            Since savings accounts are denominated in Gold, as the price of Gold in fiat currency increases, the value of your savings
+                            Since rewardss accounts are denominated in Gold, as the price of Gold in fiat currency increases, the value of your rewardss
                             will also increase.  This is in addition to any interest that is paid.
                             </div>
 

@@ -55,6 +55,7 @@
                                 <ul>
                                     <li>Become a member of the Gold Digger's Association- no deposit required</li>
                                     <li>Refer someone to become member's of the Gold Digger's Association.</li>
+                                    <li>The member participates with a KineticGold Account.</li>
                                     <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
                                         <ul>
                                             <li>1+  1st Generation</li>
@@ -64,7 +65,7 @@
                                             <li>20+ 5th Generation</li>
                                         </ul>
                                     <li>Someone within 5 generations (see above) of your referrals makes a deposit in their account.</li>
-                                    <l1>After all deposits are what drives the Profit Sharing.</l1>
+                                    <l1>After all deposits are what drives the Profit Sharing of KineticGold.</l1>
                                 </ul>
 
                          </div>

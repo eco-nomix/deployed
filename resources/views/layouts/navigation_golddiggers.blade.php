@@ -19,7 +19,7 @@
                         <li><a href="{{URL::to('/')}}/mem_agreement2">Membership Agreement</a></li>
                         <li><a href="{{URL::to('/')}}/mem_terms2">Membership Terms and Conditions</a></li>
                         <li><a href="{{URL::to('/')}}/autoship2">Auto-Ship Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/returns">Return Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/returns2">Return Policy</a></li>
                         <li><a href="{{URL::to('/')}}/privacy">Privacy Policy</a></li>
                         <li><a href="{{URL::to('/')}}/policies">General Policy and Procedures</a></li>
                     </ul>

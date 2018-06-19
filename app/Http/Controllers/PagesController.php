@@ -781,7 +781,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Return Policy';
         $data['description'] = 'Gold Diggers Return Policy';
 
-        return view('returns',$data);
+        return view('returns2',$data);
     }
     public function requirements(Request $request)
     {

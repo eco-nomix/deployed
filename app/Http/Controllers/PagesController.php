@@ -646,6 +646,14 @@ class PagesController extends Controller
 
         return view('plans',$data);
     }
+    public function plans2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Details';
+        $data['description'] = 'Gold Diggers Association Details';
+
+        return view('plans2',$data);
+    }
 
     public function potential(Request $request)
     {

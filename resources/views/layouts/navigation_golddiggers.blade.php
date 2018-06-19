@@ -11,7 +11,7 @@
                 </li>
                 <li><a href="{{URL::to('/')}}/purpose2">Purpose</span></a>
                 </li>
-                <li><a href="{{URL::to('/')}}/plans2">Business Plan<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/plans2">Details<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost2">Membership Cost</a></li>
                         <li><a href="{{URL::to('/')}}/benefits2">Member Benefits</a></li>

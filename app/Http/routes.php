@@ -165,6 +165,7 @@ Route::get('/selfreliance',['as' => 'selfreliance','uses'=>'PagesController@self
 Route::get('/spiritually',['as' => 'spiritually','uses'=>'PagesController@spiritually']);
 Route::get('/economically',['as' => 'economically','uses'=>'PagesController@economically']);
 Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans']);
+Route::get('/plans2',['as' => 'plans2','uses'=>'PagesController@plans2']);
 Route::get('/policies',['as' => 'policies','uses'=>'PagesController@policies']);
 Route::get('/policies2',['as' => 'policies2','uses'=>'PagesController@policies2']);
 Route::get('/productsSum',['as' => 'products','uses'=>'PagesController@productsSum']);

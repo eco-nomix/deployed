@@ -19,8 +19,8 @@ class PagesController extends Controller
 
     public function downImg(Request $request, $selected)
     {
-        $download_path = (public_path()."/images/$selected");
-        return (Response::download($download_path));
+        $download_path = public_path()."/images/$selected";
+        return response()->download($download_path);
     }
 
     //

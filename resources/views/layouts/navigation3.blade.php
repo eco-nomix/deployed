@@ -12,7 +12,7 @@
             {{--{{$referral_link}}--}}
         {{--@endif--}}
         {{--</div>--}}
-        <div style="padding:10px;">
+        <div style="padding:15px;">
             <ul>
                 <li>
                     <a href="{{URL::to('/')}}/intro">Introduction<span class="caret"></span></a>

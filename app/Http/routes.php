@@ -198,7 +198,7 @@ Route::get('/links/orchards',['as' => 'linkshouse','uses'=>'PagesController@link
 Route::get('/links/beekeeping',['as' => 'linkshouse','uses'=>'PagesController@linksbeekeeping']);
 Route::get('/links/biogas',['as' => 'linkshouse','uses'=>'PagesController@linksbiogas']);
 Route::get('/intro',['as'=>'introduction','uses'=>'PagesController@introduction']);
-
+Route::get('/intro2',['as'=>'introduction2','uses'=>'PagesController@introduction2']);
 Route::get('/store/{productGroup}/add',['as' => 'login','uses'=>'AuthenticationController@login']);
 Route::get('/store/{productGroup}/add/{userId}',['as'=>'storeadd','uses'=>'StoreController@addStore']);
 Route::post('/store/{productGroup}/add/{userId}',['as'=>'storeadd','uses'=>'StoreController@saveStore']);

@@ -951,6 +951,14 @@ class PagesController extends Controller
 
         return view('introduction',$data);
     }
+    public function introduction2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Introduction to Kinetic Gold';
+        $data['description'] = 'Introduction to Kinetic Gold';
+
+        return view('introduction2',$data);
+    }
     public function linksgardening(Request $request)
     {
         $data = $this->userData($request);

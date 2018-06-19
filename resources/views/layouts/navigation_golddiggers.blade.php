@@ -11,7 +11,7 @@
                 </li>
                 <li><a href="{{URL::to('/')}}/purpose2">Purpose</span></a>
                 </li>
-                <li><a href="{{URL::to('/')}}/plans">Business Plan<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/plans2">Business Plan<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost2">Membership Cost</a></li>
                         <li><a href="{{URL::to('/')}}/benefits2">Member Benefits</a></li>
@@ -25,7 +25,13 @@
                     </ul>
 
                 </li>
-                <li><a href="http://kineticgold.org/">Kinetic Gold</a></li>
+                <li><a href="{{URL::to('/')}}/opportunities2">Opportunities<span class="caret"></span></a>
+                    <ul>
+                         <li><a href="{{URL::to('/')}}/intro2">Introduction to Kinetic Gold</a></li>
+                         <li><a href="http://kineticgold.org/">Kinetic Gold Website</a></li>
+                    </ul>
+                </li>
+
 
 
                 <li><a href="{{URL::to('/')}}/traininglinks">Training<span class="caret"></span></a>

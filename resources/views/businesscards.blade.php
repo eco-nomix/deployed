@@ -53,7 +53,7 @@
                             Cost for this may be paid for through accrued Profit Sharing.
                         </div>
                         <div class="form-group col-md-12 ">
-                            If you wish to have your own business cards printed locally using the KineticGold graphics, you may download the image here.
+                            If you wish to have your own business cards printed locally using the KineticGold graphics, you may download the base image here.  Note you will need to add your referral number, name, phone, email, etc.
                             <p>
                             <a href="../downImg/KineticGoldblank.jpeg">
                             <button>Download</button>

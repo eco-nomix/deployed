@@ -22,7 +22,7 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                          <div class="form-group col-md-12 ">
-                              All members of the Gold Diggers Association are eligible to receive Profit-Sharing (Mining) from KineticGold.
+                              All members of the Gold Diggers Association are eligible to receive Profit-Sharing (Mining) from KineticGold.  This program is exclusively for members of the Gold Diggers Association.
                          </div>
                          <div class="form-group col-md-12 ">
                               Normally mining of a cryptocurrency requires a large investment in computer equipment to show you are doing work for the cryptocurrency.

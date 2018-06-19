@@ -18,7 +18,7 @@ class PagesController extends Controller
 
     public function downImg(Request $request)
     {
-        return response()->download('/images/businss_card.png');
+        return response()->download('/images/business_card.png');
     }
 
     //

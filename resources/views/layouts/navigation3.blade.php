@@ -20,7 +20,7 @@
                 <li><a href="{{URL::to('/')}}/purpose">Purpose</span></a>
 
                 </li>
-                <li><a href="{{URL::to('/')}}/plans">Business Plan<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/plans">Details<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost">Membership Cost</a></li>
                         <li><a href="http://golddiggerz.org/info">Gold Diggers Association</a></li>

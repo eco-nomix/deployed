@@ -555,7 +555,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Member Agreement';
         $data['description'] = 'Gold DiggersMember Agreement';
 
-        return view('mem_agreement',$data);
+        return view('mem_agreement2',$data);
     }
     public function membercost(Request $request)
     {

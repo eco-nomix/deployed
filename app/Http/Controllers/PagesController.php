@@ -743,6 +743,13 @@ class PagesController extends Controller
         $data['description'] = 'Policies and Procedures';
         return view('policies',$data);
     }
+    public function policies2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Digger Policies and Procedures';
+        $data['description'] = 'Policies and Procedures';
+        return view('policies2',$data);
+    }
     public function privacy(Request $request)
     {
         $data = $this->userData($request);

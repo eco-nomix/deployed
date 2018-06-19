@@ -21,7 +21,7 @@
                         <li><a href="{{URL::to('/')}}/autoship2">Auto-Ship Policy</a></li>
                         <li><a href="{{URL::to('/')}}/returns2">Return Policy</a></li>
                         <li><a href="{{URL::to('/')}}/privacy2">Privacy Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/policies">General Policy and Procedures</a></li>
+                        <li><a href="{{URL::to('/')}}/policies2">General Policy and Procedures</a></li>
                     </ul>
                 </li>
                 <li><a href="http://kineticgold.org/">Kinetic Gold</a></li>

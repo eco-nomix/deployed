@@ -165,6 +165,7 @@ Route::get('/spiritually',['as' => 'spiritually','uses'=>'PagesController@spirit
 Route::get('/economically',['as' => 'economically','uses'=>'PagesController@economically']);
 Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans']);
 Route::get('/policies',['as' => 'policies','uses'=>'PagesController@policies']);
+Route::get('/policies2',['as' => 'policies2','uses'=>'PagesController@policies2']);
 Route::get('/productsSum',['as' => 'products','uses'=>'PagesController@productsSum']);
 Route::get('/discount',['as' => 'discount','uses'=>'PagesController@discount']);
 Route::get('/referral',['as' => 'referral','uses'=>'PagesController@referral']);

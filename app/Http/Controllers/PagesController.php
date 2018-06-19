@@ -18,7 +18,7 @@ class PagesController extends Controller
 
     public function downImg(Request $request, $selected)
     {
-        return response()->download($selected);
+        return response()->download("http://kineticgold.org/images/$selected");
     }
 
     //

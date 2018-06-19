@@ -55,7 +55,7 @@ class PagesController extends Controller
     public function home(Request $request)
     {
         $data = $this->userData($request);
-        $name = Request::root();
+        $name = $request->root();
         \Log::info("server=$name");
         if($_SERVER['SERVER_NAME'] == 'golddiggerz.org'){
             $data = $this->userData($request);

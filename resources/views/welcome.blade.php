@@ -89,12 +89,12 @@
                     </li>
                     <li>Account will have a Free Mastercard/Visa Debit card associated with it., non-members pay for this service.
                         <ul>
-                            <li>Non-Member of Gold Diggers charge of $50.00 USD per year.</li>
+                            <li>Non-Members of Gold Diggers are charged $50.00 USD per year.</li>
                         </ul>
                     </li>
                     <li>Provide you with a Free KineticGold E-wallet, non-members pay for this service.
                         <ul>
-                            <li>Non-Member of Gold Diggers charge of $25.00 USD - one time charge</li>
+                            <li>Non-Member of Gold Diggers are charged $25.00 USD - one time charge</li>
                         </ul>
                     </li>
                     <li>Establish and update your down-line for Profit-Sharing within the KineticGold Blockchain.

@@ -23,7 +23,7 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <div class="form-group col-md-12 ">
-                            Gold Diggers is the association that is focused on making our members aware of opportunities in investments, banking and financing.  It will do this in the form
+                            Gold Diggers is an association that is focused on making our members aware of opportunities in investments, banking and financing.  It will do this in the form
                             of a monthly newletter that is sent to all of it's members detailing information about various opportunities, their risks and potential rewards along with a
                             a detailed 'how-to' method to get involved if you are interested.
                         </div>

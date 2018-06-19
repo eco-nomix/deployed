@@ -549,6 +549,14 @@ class PagesController extends Controller
         return view('mem_agreement',$data);
     }
 
+    public function memberagreement2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Member Agreement';
+        $data['description'] = 'Gold DiggersMember Agreement';
+
+        return view('mem_agreement',$data);
+    }
     public function membercost(Request $request)
     {
         $data = $this->userData($request);

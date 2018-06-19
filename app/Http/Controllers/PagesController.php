@@ -750,6 +750,13 @@ class PagesController extends Controller
         $data['description'] = 'Privacy Policy';
         return view('privacy',$data);
     }
+    public function privacy2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Privacy Policy';
+        $data['description'] = 'Privacy Policy';
+        return view('privacy2',$data);
+    }
     public function recycling(Request $request)
     {
         $data = $this->userData($request);

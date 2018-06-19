@@ -15,11 +15,12 @@
         <div style="padding:15px;">
             <ul>
                 <li>
-                    <a href="{{URL::to('/')}}/intro">Introduction</a>
+                    <a href="{{URL::to('/')}}/intro">Introduction<span class="caret"></span></a>
+                    <ul>
+                        <li><a href="{{URL::to('/')}}/purpose">Purpose</span></a></li>
+                    </ul>
                 </li>
-                <li><a href="{{URL::to('/')}}/purpose">Purpose</span></a>
 
-                </li>
                 <li><a href="{{URL::to('/')}}/plans">Details<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost">Membership Cost</a></li>

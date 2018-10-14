@@ -30,12 +30,12 @@ class PagesController extends Controller
 
         $kineticsponsor    = $request->cookie('kineticsponsor');
         $data['kineticsponsor'] = $kineticsponsor;
-        \Log::info("kineticsponsor = $kineticsponsor");
+        \Log::info("kineticsponsor2 = $kineticsponsor");
         $data['user_name'] =$request->session()->get('user_name');
         $data['username'] =$request->session()->get('username');
         $username = $request->session()->get('user_name');
         $roles = $request->session()->get('userRoles');
-        \Log::info("username = $username");
+        \Log::info("username2 = $username");
         $data['user_id'] =$request->session()->get('user_id');
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);

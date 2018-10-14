@@ -402,7 +402,7 @@ class SalesController extends Controller
 
         $data['ecosponsor'] = $ecosponsor;
 
-        \Log::info("ecosponsor = $ecosponsor");
+        \Log::info("ecosponsor7 = $ecosponsor");
 
         $data['user_name'] = $request->session()->get('user_name');
 
@@ -412,7 +412,7 @@ class SalesController extends Controller
 
         $roles = $request->session()->get('userRoles');
 
-        \Log::info("username = $username");
+        \Log::info("username7 = $username");
 
         $data['user_id'] = $request->session()->get('user_id');
 

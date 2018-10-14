@@ -26,12 +26,12 @@ class GoldPagesController extends Controller
 
         $ecosponsor    = $request->cookie('ecosponsor');
         $data['ecosponsor'] = $ecosponsor;
-        \Log::info("ecosponsor = $ecosponsor");
+        \Log::info("ecosponsor6 = $ecosponsor");
         $data['user_name'] =$request->session()->get('user_name');
         $data['username'] =$request->session()->get('username');
         $username = $request->session()->get('user_name');
         $roles = $request->session()->get('userRoles');
-        \Log::info("username = $username");
+        \Log::info("username6 = $username");
         $data['user_id'] =$request->session()->get('user_id');
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);

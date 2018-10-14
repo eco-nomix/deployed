@@ -472,12 +472,12 @@ class StoreController extends Controller
     {
        $ecosponsor    = $request->cookie('ecosponsor');
         $data['ecosponsor'] = $ecosponsor;
-        \Log::info("ecosponsor = $ecosponsor");
+        \Log::info("ecosponsor8 = $ecosponsor");
         $data['user_name'] =$request->session()->get('user_name');
         $data['username'] =$request->session()->get('username');
         $username = $request->session()->get('user_name');
         $roles = $request->session()->get('userRoles');
-        \Log::info("username = $username");
+        \Log::info("username8 = $username");
         $data['user_id'] =$request->session()->get('user_id');
         $user = Users::find($data['user_id']);
         if($user){

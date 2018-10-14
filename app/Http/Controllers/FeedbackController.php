@@ -195,12 +195,12 @@ class FeedbackController extends Controller
 	public function userData($request){
         $ecosponsor = $request->cookie('ecosponsor');
         $data['ecosponsor'] = $ecosponsor;
-        \Log::info("ecosponsor = $ecosponsor");
+        \Log::info("ecosponso5r = $ecosponsor");
         $data['user_name'] = $request->session()->get('user_name');
         $data['username'] = $request->session()->get('username');
         $username = $request->session()->get('user_name');
         $roles = $request->session()->get('userRoles');
-        \Log::info("username = $username");
+        \Log::info("username5 = $username");
         $data['user_id'] = $request->session()->get('user_id');
         $user = Users::find($data['user_id']);
         if($user){

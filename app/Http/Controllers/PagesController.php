@@ -194,6 +194,15 @@ class PagesController extends Controller
 
         return view('benefits2',$data);
     }
+    public function benefits3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Member Benefits';
+        $data['description'] = 'TIB Foundation Member Benefits';
+
+        return view('benefits3',$data);
+    }
+
     public function businesscards(Request $request)
     {
         $data = $this->userData($request);

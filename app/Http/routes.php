@@ -122,6 +122,7 @@ Route::get('/energy',['as' => 'energy','uses'=>'PagesController@energy']);
 Route::get('/recycling',['as' => 'recycling','uses'=>'PagesController@recycling']);
 Route::get('/benefits',['as' => 'about','uses'=>'PagesController@benefits']);
 Route::get('/benefits2',['as' => 'benefits2','uses'=>'PagesController@benefits2']);
+Route::get('/benefits3',['as' => 'benefits3','uses'=>'PagesController@benefits3']);
 Route::get('/businesscards',['as' => 'cards','uses'=>'PagesController@businesscards']);
 Route::get('/camping',['as' => 'camping','uses'=>'PagesController@camping']);
 Route::get('/cooking',['as' => 'cooking','uses'=>'PagesController@cooking']);

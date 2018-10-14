@@ -42,7 +42,7 @@
                               <li>Any financial benefits from participation within a program referred by TIB Foundation will be paid directly to the participants by the sponsoring program.
                                    TIB Foundation doesn't pay any benefits to its members.</li>
                               <li>TIB Foundation will only be offering information and training to its members.</li>
-                              <li>Members may elect to contract for services with Attorneys to represent them in court.  TIB Foundation is not a law firm, but can recommend firms that utilize the principles that are taught by TIB Foundation</li>
+                              <li>Members may elect to contract for services with Attorneys to represent them in court.  TIB Foundation is not a law firm, but can recommend firms that utilize the principles that are taught by the TIB Foundation</li>
                             </ul>
                         </div>
                  </div>

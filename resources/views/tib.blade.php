@@ -57,9 +57,7 @@
                         Direct phone consultation is also available for members and outside council at a rate of $300 per hour.
                     </div>
 
-                    <div class="form-group col-md-12 ">
-                        The Goal of the TIB Foundation is to enable its members to It also provides Video Training in managing and controlling real estate difficulties including foreclosures to its members.
-                    </div>
+              
 
                     <div class="form-group col-md-12 ">
                         It also provides special promotions and benefits to its members that are only open to its members.

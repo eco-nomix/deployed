@@ -1,4 +1,4 @@
-@extends('layouts.golddiggers')
+@extends('layouts.tib')
 
 
 @section('content')
@@ -12,7 +12,7 @@
         <div class="col-md-10 col-md-offset-1">
             <div style="width:100%;">
                 <div class="kinetic600">
-                      Gold Diggers Association
+                      TIB Foundation
                 </div>
             </div>
             <div class="panel panel-default display">

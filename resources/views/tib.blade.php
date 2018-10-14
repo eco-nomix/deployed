@@ -21,16 +21,23 @@
 
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="form-group col-md-12 ">
-                        Gold Diggers is an association that is focused on making our members aware of opportunities in investments, banking and financing.  It will do this in the form
+                        TIB Foundation is an association that is focused on making our members aware of opportunities in investments, banking and financing.  It will do this in the form
                         of a monthly newletter that is sent to all of it's members detailing information about various investments, banking programs and opportunities, their risks and potential rewards along with a
                         a detailed 'how-to' method to get involved if you are interested.
                     </div>
                     <div class="form-group col-md-12 ">
+                        It also provides Video Training in managing and controlling real estate difficulties including foreclosures to its members.
+                    </div>
+                    <div class="form-group col-md-12 ">
+                        The Goal of the TIB Foundation is to enable its members to It also provides Video Training in managing and controlling real estate difficulties including foreclosures to its members.
+                    </div>
+
+                    <div class="form-group col-md-12 ">
                         It also provides special promotions and benefits to its members that are only open to its members.
                     </div>
                     <div class="form-group col-md-12 ">
-                        There are no requirements for members of the Gold Digger's association to participate within any program.  This information is provided as 'information' only and is not
-                        to be construed as investment advise.  All member's need to do their own due dilligence to determine if any particular opportunity fit's with your investment goals and/or
+                        There are no requirements for members of the TIB Foundation to participate within any program.  This information is provided as 'information' only and is not
+                        to be construed as investment advise.  All member's need to do their own due diligence to determine if any particular opportunity fit's with your investment goals and/or
                         styles, limits and desires.
                     </div>
 

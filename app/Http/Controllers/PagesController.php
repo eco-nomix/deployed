@@ -67,7 +67,7 @@ class PagesController extends Controller
             $data['description'] = 'Introduction';
             return view('info',$data);
         }
-        if($name == 'http://tibfoundation.org'){
+        if($name == 'http://tibfoundation.org' || $name == 'http://tibfoundation.com'){
             $data = $this->userData($request);
             $data['title'] = 'TIBFoundation';
             $data['description'] = 'Introduction';

@@ -781,6 +781,14 @@ class PagesController extends Controller
 
         return view('purpose2',$data);
     }
+    public function purpose3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] ='TIB Foundations Purpose';
+        $data['description'] = 'Beat the Banks at their own game';
+
+        return view('purpose3',$data);
+    }
     public function policies(Request $request)
     {
         $data = $this->userData($request);

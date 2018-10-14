@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" type="text/css" href="/css/editable.css">
     @yield('page_css')
+    
     @yield('header')
     <script src="/js/jquery-1.12.1.min.js"></script>
     <script src="/js/editing.js"></script>

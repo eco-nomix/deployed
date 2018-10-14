@@ -71,7 +71,7 @@ class PagesController extends Controller
             $data = $this->userData($request);
             $data['title'] = 'TIBFoundation';
             $data['description'] = 'Introduction';
-            return view('tib_welcome',$data);
+            return view('tib',$data);
         }
 
 

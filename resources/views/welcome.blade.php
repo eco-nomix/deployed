@@ -21,7 +21,7 @@
        </div>
     <div class="trans highdisplay  back-white col-md-8 col-md-offset-2" >
 
-        <p>Does your bank give you a 10% Reward for Every Deposit?</p>
+        <p>Does your bank give you a 10.5% Reward for Every Deposit?</p>
         <p>Does your bank give you 6% Interest on Your Savings?</p>
         <p>Does your bank give EVERY Account Holder the Opportunity for Profit-Sharing?</p>
         <p>If not, It's time to check out Kinetic Gold</p>

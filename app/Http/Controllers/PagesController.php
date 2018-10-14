@@ -628,6 +628,15 @@ class PagesController extends Controller
 
         return view('membercost2',$data);
     }
+    public function membercost3(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'TIB Foundation Member Cost';
+        $data['description'] = 'TIB Foundation Member Cost';
+
+        return view('membercost3',$data);
+    }
     public function memberterms(Request $request)
     {
         $data = $this->userData($request);

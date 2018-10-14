@@ -22,9 +22,9 @@
 
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="form-group col-md-12 ">
-                       The primary service of TIB FOUNDATION is assisting
+                       The primary service of TIB FOUNDATION (TAKE IT BACK) is assisting
                        people in developing beginning level estate planning based
-                       on mortgage debt reduction.. TIB 1 FOUNDATION is not a mortgage
+                       on mortgage debt reduction.. TIB FOUNDATION is not a mortgage
                        lender or broker or fiduciary concern. It provides a service that
                        allows potential home buyers access to the ability to own a home
                        regardless of credit worthiness. Once a home is obtained TIB FOUNDATION

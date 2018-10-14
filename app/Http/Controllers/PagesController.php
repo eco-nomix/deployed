@@ -65,6 +65,13 @@ class PagesController extends Controller
             $data['description'] = 'Introduction';
             return view('info',$data);
         }
+        if($name == 'http://tibfoundation.com'||$name == 'http://tibfoundation.org'){
+            $data = $this->userData($request);
+            $data['title'] = 'TIBFoundation';
+            $data['description'] = 'Introduction';
+            return view('tibwelcome',$data);
+        }
+
 
         $data['title'] = 'KineticGold';
         $data['imageUrl'] = '../images/denmark.jpg';

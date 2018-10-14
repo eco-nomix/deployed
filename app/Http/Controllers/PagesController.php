@@ -160,6 +160,14 @@ class PagesController extends Controller
 
         return view('info',$data);
     }
+    public function tib(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation';
+        $data['description'] = 'Introduction';
+
+        return view('tib',$data);
+    }
 
     public function present(Request $request)
     {

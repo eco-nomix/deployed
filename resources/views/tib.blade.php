@@ -57,7 +57,7 @@
                         Direct phone consultation is also available for members and outside council at a rate of $300 per hour.
                     </div>
 
-              
+
 
                     <div class="form-group col-md-12 ">
                         It also provides special promotions and benefits to its members that are only open to its members.

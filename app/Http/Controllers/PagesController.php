@@ -671,6 +671,14 @@ class PagesController extends Controller
 
         return view('memberterms2', $data);
     }
+    public function memberterms3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Terms and Conditions';
+        $data['description'] = 'TIB Foundation Member Agreement Terms and Conditions';
+
+        return view('memberterms3', $data);
+    }
 
     public function money(Request $request)
     {

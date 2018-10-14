@@ -4,7 +4,8 @@
 @section('content')
 <div style="position:absolute; top:52px; z-index:-1">
 <div style="width:100%;">
- <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
+ <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover;
+ background-attachment:fixed;  background-image:url('/images/pexels-photo-97079.jpeg');">
   <div class="skip">&nbsp;</div>
 
     <div class="trans row">
@@ -42,7 +43,7 @@
                         There are no requirements for members of the TIB Foundation to participate within any program.  This information is provided as 'information' only and is not
                         to be construed as investment advise.  All member's need to do their own due diligence to determine if any particular opportunity fit's with your investment goals and/or
                         styles, limits and desires.
-                    </div>  
+                    </div>
                     <div class="form-group col-md-12 ">
                         TIB Foundation also will provide direct assistance to the homeowner
                         to eliminate the homeowners debt by providing access to trained legal representation

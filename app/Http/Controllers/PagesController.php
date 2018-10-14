@@ -39,6 +39,8 @@ class PagesController extends Controller
         $data['user_id'] =$request->session()->get('user_id');
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
+        $name = $request->root();
+        \Log::info("root = $name");
         if($user){
             $referralLink = "http://kineticgold.org/referred/$user->id";
         }else{

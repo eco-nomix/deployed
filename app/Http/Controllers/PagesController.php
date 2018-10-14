@@ -619,6 +619,15 @@ class PagesController extends Controller
 
         return view('mem_agreement2',$data);
     }
+    public function memberagreement3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Member Agreement';
+        $data['description'] = 'TIB Foundation Member Agreement';
+
+        return view('mem_agreement3',$data);
+    }
+
     public function membercost(Request $request)
     {
         $data = $this->userData($request);

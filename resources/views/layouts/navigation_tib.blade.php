@@ -17,7 +17,6 @@
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost3">Membership Cost</a></li>
                         <li><a href="{{URL::to('/')}}/benefits3">Member Benefits</a></li>
-                        <li><a href="{{URL::to('/')}}/requirements3">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/mem_agreement3">Membership Agreement</a></li>
                         <li><a href="{{URL::to('/')}}/mem_terms3">Membership Terms and Conditions</a></li>
                         <li><a href="{{URL::to('/')}}/autoship3">Auto-Ship Policy</a></li>

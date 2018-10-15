@@ -126,6 +126,14 @@ class PagesController extends Controller
 
         return view('about2',$data);
     }
+    public function about3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation ';
+        $data['description'] = '';
+
+        return view('about3',$data);
+    }
     public function accounting(Request $request)
     {
         $data = $this->userData($request);

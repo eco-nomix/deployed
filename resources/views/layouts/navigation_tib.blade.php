@@ -1,7 +1,7 @@
 
     <div class="navcontainer" >
         <div class="navbar-brand brand-image">
-             <a href="{{URL::to('/')}}"><sp class="kineticSm">TIB Foundation</sp></a>
+             <a href="{{URL::to('/')}}"><sp class="tibSm">TIB Foundation</sp></a>
         </div>
 
         <div style="padding:15px;">

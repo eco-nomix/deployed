@@ -256,14 +256,14 @@ td {
     display: block;
     position: relative;
     float: left;
-    border:1px solid darkgreen
+    border:1px solid goldenrod
 }
 .navcontainer3 li ul {
     display: none;
 }
 .navcontainer3 ul li a {
     display: block;
-    background: darkgreen;
+    background: goldenrod;
     padding: 5px 15px 10px 15px;
     text-decoration: none;
     white-space: nowrap;

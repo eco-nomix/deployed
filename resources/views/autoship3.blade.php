@@ -19,7 +19,7 @@
                         Auto-Ship Policy
                     </div>
                 </div>
-                <div style="width:100%;" class="panel panel-default display">
+                <div style="width:100%;" class="panel panel-default tibdisplay">
                     <div class="panel-body">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">

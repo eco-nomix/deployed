@@ -16,7 +16,7 @@
                       TIB Foundation
                 </div>
             </div>
-            <div class="panel panel-default display">
+            <div class="panel panel-default tibdisplay">
 
                 <div class="panel-body">
 

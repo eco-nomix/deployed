@@ -22,7 +22,7 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group col-md-12 ">
                             The TIB Foundation does not sell physical products that have an Auto-Ship Option.
-                             As a result there is no need for an Auto-Shop Policy.
+                             As a result there is no need for an Auto-Ship Policy.
                         </div>
 
 

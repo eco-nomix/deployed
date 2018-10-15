@@ -419,6 +419,14 @@ class PagesController extends Controller
 
         return view('contact2',$data);
     }
+    public function returns3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Returns';
+        $data['description'] = 'Returns';
+
+        return view('returns',$data);
+    }
     public function debitcards(Request $request)
     {
         $data = $this->userData($request);

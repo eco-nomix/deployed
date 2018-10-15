@@ -111,14 +111,21 @@
 }
 
 .display {
-    color:darkblue;
+      color:darkblue;
+      font-size: 22px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 24px;
+  }
+.tibdisplay {
+    color:black;
     font-size: 22px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
     line-height: 24px;
 }
-
 .highdisplay {
     color:darkblue;
     font-size: 30px;

@@ -17,7 +17,7 @@
                        </div>
                     </div>
                     <div class="col-md-8 col-md-offset-2">
-                        <div class="panel panel-default display">
+                        <div class="panel panel-default tibdisplay">
                             <div class="panel-body">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <div class="form-group col-md-12 ">

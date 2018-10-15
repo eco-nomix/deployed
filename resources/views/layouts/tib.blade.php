@@ -17,7 +17,7 @@
 </head>
 <body class="KineticGoldbody">
 
-    @include('layouts.navigation_tib')
+    {{--@include('layouts.navigation_tib')--}}
     @yield('content')
     @yield('footer')
 

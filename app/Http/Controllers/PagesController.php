@@ -743,7 +743,14 @@ class PagesController extends Controller
 
         return view('plans2',$data);
     }
+    public function plans3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Details';
+        $data['description'] = 'TIB Foundation Details';
 
+        return view('plans3',$data);
+    }
     public function potential(Request $request)
     {
         $data = $this->userData($request);

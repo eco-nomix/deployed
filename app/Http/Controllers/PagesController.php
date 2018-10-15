@@ -61,7 +61,7 @@ class PagesController extends Controller
         $data = $this->userData($request);
         $name = $request->root();
         \Log::info("root = $name");
-        if($name == 'http://golddiggerz.org'){
+        if($name == 'http://golddiggerz.org' || $name == 'http://www.golddiggerz.org'){
             $data = $this->userData($request);
             $data['title'] = 'GoldDiggers';
             $data['description'] = 'Introduction';

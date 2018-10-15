@@ -28,7 +28,7 @@
                 </li>
                 <li><a href="{{URL::to('/')}}/opportunities3">Opportunities<span class="caret"></span></a>
                     <ul>
-                         <li><a href="{{URL::to('/')}}/intro3">Introduction to TIB Foundation</a></li>
+                         <li><a href="{{URL::to('/')}}/tib">Introduction to TIB Foundation</a></li>
 
                     </ul>
                 </li>

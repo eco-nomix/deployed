@@ -1,5 +1,5 @@
 
-    <div class="navcontainer" >
+    <div class="navcontainer3" >
         <div class="navbar-brand brand-image">
              <a href="{{URL::to('/')}}"><sp class="tibSm">TIB Foundation</sp></a>
         </div>

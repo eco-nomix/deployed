@@ -42,7 +42,7 @@
                                     <li>The TIB Foundation recognizes and respects the importance its Customers and Members place on the privacy of their financial and personal information.
                                     The TIB Foundation will make reasonable efforts to safeguard the privacy of, and maintain the confidentiality of its Customers’ Member and account information
                                     and nonpublic personal information.</li>
-                                    <li>By the The TIBB Foundation Member Agreement, a Member authorizes The TIB Foundation to disclose his or her name and contact information to upline Members solely
+                                    <li>By the The TIB Foundation Member Agreement, a Member authorizes The TIB Foundation to disclose his or her name and contact information to upline Members solely
                                     for activities related to the furtherance of the The TIB Foundation business. A Member hereby agrees to maintain the confidentiality and
                                     security of such information and to use it solely for the purpose of supporting and The TIB Foundation his or her downline organization and conducting
                                     the The TIB Foundation business.</li>

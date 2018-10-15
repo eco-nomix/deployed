@@ -131,6 +131,7 @@ Route::get('/cryptocurrency',['as' => 'crypto','uses'=>'PagesController@cryptocu
 Route::get('/ewallet',['as' => 'ewallet','uses'=>'PagesController@ewallet']);
 Route::get('/privacy',['as' => 'Privacy','uses'=>'PagesController@privacy']);
 Route::get('/privacy2',['as' => 'Privacy2','uses'=>'PagesController@privacy2']);
+Route::get('/privacy3',['as' => 'Privacy3','uses'=>'PagesController@privacy3']);
 Route::get('/offshorebank',['as' => 'offshorebank','uses'=>'PagesController@offshorebank']);
 Route::get('/bankinterface',['as' => 'interface','uses'=>'PagesController@bankinterface']);
 Route::get('/rewards',['as' => 'rewards','uses'=>'PagesController@rewards']);

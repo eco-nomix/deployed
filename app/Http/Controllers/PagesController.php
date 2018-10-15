@@ -877,6 +877,13 @@ class PagesController extends Controller
         $data['description'] = 'Privacy Policy';
         return view('privacy2',$data);
     }
+    public function privacy3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Privacy Policy';
+        $data['description'] = 'Privacy Policy';
+        return view('privacy3',$data);
+    }
     public function recycling(Request $request)
     {
         $data = $this->userData($request);

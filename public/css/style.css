@@ -270,7 +270,7 @@ td {
     color: #FFF;
 }
 .navcontainer3 ul li a:hover {
-    background: lightgreen;
+    background: goldenrod;
     color:#000;
     text-decoration: none;
 }
@@ -282,10 +282,10 @@ td {
     float: none;
 }
 .navcontainer3 li:hover a {
-    background: green;
+    background: goldenrod;
 }
 .navcontainer3 li:hover li a:hover {
-    background:lightgreen;
+    background:goldenrod;
 }
 
 .navcontainer3.nav-right{

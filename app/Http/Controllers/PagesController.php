@@ -152,6 +152,15 @@ class PagesController extends Controller
 
         return view('autoship2',$data);
     }
+    public function autoship3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Autoship';
+        $data['description'] = 'Autoship Policy';
+
+        return view('autoship3',$data);
+    }
+
     public function info(Request $request)
     {
         $data = $this->userData($request);

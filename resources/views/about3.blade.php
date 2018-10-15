@@ -15,7 +15,7 @@
                         About TIB Foundation
                     </div>
                 </div>
-            <div class="panel panel-default display">
+            
 
                 <div class="col-md-8 col-md-offset-2">
 

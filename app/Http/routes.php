@@ -176,6 +176,7 @@ Route::get('/plans',['as' => 'plans','uses'=>'PagesController@plans']);
 Route::get('/plans2',['as' => 'plans2','uses'=>'PagesController@plans2']);
 Route::get('/policies',['as' => 'policies','uses'=>'PagesController@policies']);
 Route::get('/policies2',['as' => 'policies2','uses'=>'PagesController@policies2']);
+Route::get('/policies3',['as' => 'policies3','uses'=>'PagesController@policies3']);
 Route::get('/productsSum',['as' => 'products','uses'=>'PagesController@productsSum']);
 Route::get('/discount',['as' => 'discount','uses'=>'PagesController@discount']);
 Route::get('/referral',['as' => 'referral','uses'=>'PagesController@referral']);

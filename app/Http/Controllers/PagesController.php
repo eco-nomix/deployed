@@ -863,6 +863,14 @@ class PagesController extends Controller
         $data['description'] = 'Policies and Procedures';
         return view('policies2',$data);
     }
+    public function policies3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Policies and Procedures';
+        $data['description'] = 'Policies and Procedures';
+        return view('policies3',$data);
+    }
+
     public function privacy(Request $request)
     {
         $data = $this->userData($request);

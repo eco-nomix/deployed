@@ -5,7 +5,7 @@
 <div style="position:absolute; top:52px; z-index:-1">
 <div style="height:100%;">
 <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover;
- background-attachment:fixed;  background-image:url('/images/pexels-photo-97079.jpeg');">
+                                                                                          background-attachment:fixed;  background-image:url('/images/pexels-photo-97079.jpeg');">
 
    <div class="skip">&nbsp;</div>
 

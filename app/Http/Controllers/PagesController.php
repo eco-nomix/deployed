@@ -425,7 +425,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation Returns';
         $data['description'] = 'Returns';
 
-        return view('returns',$data);
+        return view('returns3',$data);
     }
     public function debitcards(Request $request)
     {

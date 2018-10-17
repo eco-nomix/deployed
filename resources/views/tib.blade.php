@@ -44,6 +44,7 @@
                         to be construed as investment advise.  All member's need to do their own due diligence to determine if any particular opportunity fits with your investment goals and/or
                         styles, limits and desires.
                     </div>
+
                     <div class="form-group col-md-12 ">
                         TIB Foundation also will provide direct assistance to the homeowner
                         to eliminate the homeowners debt by providing access to trained legal representation

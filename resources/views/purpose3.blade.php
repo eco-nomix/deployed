@@ -36,7 +36,7 @@
                     <div class="form-group col-md-12 ">
                         TIB Foundation will be filming dozens of instructional videos every month that will guide you on your next steps
                         and how to keep your home.  This information can be used by attorneys to win the law suits that
-                        the Banks never thought they would loose.
+                        the Banks never thought they would lose.
                     </div>
                     <div class="form-group col-md-12 ">
                         You will learn what and how you should respond to the attorneys and even the courts.  This information will save you

@@ -33,7 +33,7 @@
                         your home even in a default mode.  You need to know these steps now if you are to prevent
                         your eviction and even theft of your home by agencies who are only after money.
                     </div>
-                    
+
                     <div class="form-group col-md-12 ">
                         TIB Foundation will be filming dozens of instructional videos every month that will guide you on your next steps
                         and how to keep your home.  This information can be used by attorneys to win the law suits that

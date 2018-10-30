@@ -77,7 +77,7 @@ class PagesController extends Controller
             $data = $this->userData($request);
             $data['title'] = 'tchamgang';
             $data['description'] = 'tchamgang';
-            return view('introduction9',$data);
+            return view('tchamgang',$data);
         }
 
         $data['title'] = 'KineticGold';

@@ -73,7 +73,12 @@ class PagesController extends Controller
             $data['description'] = 'Introduction';
             return view('tib',$data);
         }
-
+        if(stristr($name,"tchamgang")){
+            $data = $this->userData($request);
+            $data['title'] = 'tchamgang';
+            $data['description'] = 'tchamgang';
+            return view('introduction9',$data);
+        }
 
         $data['title'] = 'KineticGold';
         $data['imageUrl'] = '../images/denmark.jpg';

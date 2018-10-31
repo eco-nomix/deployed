@@ -39,17 +39,27 @@
         </table>
 
 
-
+http://tchamgang.com/images/fchamgang%200.jpeg
 </div>
 <div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
 
 </div>
 
 <script>
-var imageno = Math.floor(Math.random() * (4+1));
-var imagesrc = 'img'+imageno;
-var newimageno = Math.floor(Math.random() * (36+1));
-var imagepath = "../images/fchamgang "+newimageno+".jpeg";
-document.getElementById(imagesrc).src = imagepath;
+var myVar;
+
+function myFunction() {
+    myVar = setInterval(changeImage, 2000);
+}
+
+function changeImage() {
+   var imageno = Math.floor(Math.random() * (4+1));
+   var imagesrc = 'img'+imageno;
+   var newimageno = Math.floor(Math.random() * (36+1));
+   var imagepath = "../images/fchamgang "+newimageno+".jpeg";
+   document.getElementById(imagesrc).src = imagepath;
+}
+
+
 </script>
 @endsection

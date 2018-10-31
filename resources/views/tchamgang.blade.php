@@ -8,14 +8,14 @@
         <table width="100%" height="600px" border="1">
             <tr>
             <td width="33%">
-                <table width="100%" height="300px" border="1">
-                    <tr>
+                <table width="100%" height="600px" border="1">
+                    <tr height="300px">
                         <td>
                              &nbsp;
                         </td>
 
                     </tr>
-                    <tr>
+                    <tr height="300px">
                          <td>
                               &nbsp;
                          </td>
@@ -23,13 +23,13 @@
                 </table>
             </td>
             <td width="33%">
-                <table width="100%" height="300px" border="1">
-                    <tr>
+                <table width="100%" height="600px" border="1">
+                    <tr height="300px">
                           <td>
                                &nbsp;
                           </td>
                     </tr>
-                    <tr>
+                    <tr height="300px">
                         <td>
                              &nbsp;
                         </td>

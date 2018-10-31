@@ -41,7 +41,7 @@
 
 
 </div>
-<div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:100%; height:600px">
+<div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
 
 </div>
 @endsection

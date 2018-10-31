@@ -11,13 +11,13 @@
                 <table width="100%" height="750px" border="1">
                     <tr height="50%">
                         <td >
-                        <img src="../images/fchamgang 1.jpeg" width="100%" height="100%" />
+                        <img src="../images/fchamgang 1.jpeg" width="300px" height="300px" />
                         </td>
 
                     </tr>
                     <tr height="50%">
                          <td>
-                          <img src="../images/fchamgang 2.jpeg" width="100%" height="100%" />
+                          <img src="../images/fchamgang 2.jpeg" width="300px" height="300px" />
 
                                </td>
                     </tr>
@@ -27,14 +27,14 @@
                 <table width="100%" height="750px" border="1">
                     <tr height="50%">
                        <td>
-                             <img src="../images/fchamgang 3.jpeg" width="100%" height="100%" />
+                             <img src="../images/fchamgang 3.jpeg" width="300px" height="300px" />
                                                   ;
                        </td>
 
                    </tr>
                    <tr height="50%">
                         <td>
-                              <img src="../images/fchamgang 4.jpeg" width="100%" height="100%" />
+                              <img src="../images/fchamgang 4.jpeg" width="300px" height="300px" />
 
                         </td>
                    </tr>

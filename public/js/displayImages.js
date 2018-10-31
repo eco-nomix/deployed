@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+
 
 
     var myVar;
@@ -19,5 +19,5 @@ $(document).ready(function() {
 //   document.getElementById(imagesrc).src = imagepath;
     }
 
-});
+
 

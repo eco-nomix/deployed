@@ -7,7 +7,7 @@
 
         <table width="100%" height="100%" border="1">
             <tr>
-            <td width="200px">
+            <td width="300px">
                 <table width="100%" height="800px" border="1">
                     <tr height="50%">
                         <td>
@@ -22,7 +22,7 @@
                     </tr>
                 </table>
             </td>
-            <td width="200px">
+            <td width="300px">
                 <table width="100%" height="800px" border="1">
                     <tr height="50%">
                        <td>

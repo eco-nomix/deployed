@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div style="position:absolute; top:52px; z-index:-1; width:100%">
+<div style="position:absolute; top:52px; z-index:-1; width:600">
 
 
         <table width="600" height="750" border="1">
@@ -34,11 +34,14 @@
 
                              </td>
 
-                        </tr>  
+                        </tr>
             </tr>
         </table>
 
 
+
+</div>
+<div style="position:absolute; left: 600px; top:52px; z-index:-1; width:100%">
 
 </div>
 @endsection

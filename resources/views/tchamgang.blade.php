@@ -39,10 +39,10 @@
         </table>
 
 
-http://tchamgang.com/images/fchamgang%200.jpeg
+
 </div>
 <div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
-
+       <p id="demo"></p>
 </div>
 
 <script>
@@ -57,7 +57,8 @@ function changeImage() {
    var imagesrc = 'img'+imageno;
    var newimageno = Math.floor(Math.random() * (36+1));
    var imagepath = "../images/fchamgang "+newimageno+".jpeg";
-   document.getElementById(imagesrc).src = imagepath;
+   document.getElementById("demo").innerHTML = imagesrc+"  "+imagepath;
+//   document.getElementById(imagesrc).src = imagepath;
 }
 
 

@@ -7,13 +7,10 @@
         <div style="padding:15px;">
             <ul>
                 <li>
-                    <a href="{{URL::to('/')}}/tib">Introduction<span class="caret"></span></a>
-                    <ul>
-                        <li><a href="{{URL::to('/')}}/purpose3">Purpose</span></a> </li>
-                    </ul>
+                    <a href="{{URL::to('/')}}/intro_tib">Introduction</a>
                 </li>
 
-                <li><a href="{{URL::to('/')}}/plans3">Details<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/products">Products<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost3">Membership Cost</a></li>
                         <li><a href="{{URL::to('/')}}/benefits3">Member Benefits</a></li>

@@ -19,5 +19,5 @@ $(document).ready(function() {
 //   document.getElementById(imagesrc).src = imagepath;
     }
 
-}
+});
 

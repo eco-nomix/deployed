@@ -9,13 +9,13 @@
             <tr>
             <td width="300px">
                 <table width="100%" height="750px" border="1">
-                    <tr height="50%">
+                    <tr >
                         <td style="vertical-align: top;">
                         <img src="../images/fchamgang 1.jpeg" width="300" height="375"  />
                         </td>
 
                     </tr>
-                    <tr height="50%">
+                    <tr >
                          <td style="vertical-align: top;">
                           <img src="../images/fchamgang 1.jpeg" width="300" height="375" />
 
@@ -25,14 +25,14 @@
             </td>
             <td width="300px">
                 <table width="100%" height="750px" border="1">
-                    <tr height="50%">
+                    <tr >
                        <td style="vertical-align: top;">
                              <img src="../images/fchamgang 1.jpeg" width="300" height="375"/>
                                                   ;
                        </td>
 
                    </tr>
-                   <tr height="50%">
+                   <tr >
                         <td style="vertical-align: top;">
                               <img src="../images/fchamgang 1.jpeg" width="300" height="375" />
 

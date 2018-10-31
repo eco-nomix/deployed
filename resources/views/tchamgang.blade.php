@@ -6,9 +6,32 @@
 <div class="container-fluid">
     <div class="row">
         <table width="100%" height="600px" border="1">
-            <td></td>
-            <td></td>
-            <td></td>
+            <tr>
+            <td>
+                <table width="100%" height="300px" border="1">
+                    <tr>
+
+                    </tr>
+                    <tr>
+
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table width="100%" height="300px" border="1">
+                    <tr>
+
+                    </tr>
+                    <tr>
+
+                    </tr>
+                </table>
+
+            </td>
+            <td>
+
+            </td>
+            </tr>
         </table>
 
     </div>

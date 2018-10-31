@@ -34,7 +34,7 @@
                    </tr>
                    <tr height="50%">
                         <td>
-                              <img src="../images/fchamgang 4.jpeg" width="350" height="370" />
+                              <img src="../images/fchamgang 4.jpeg" width="300" height="370" />
 
                         </td>
                    </tr>

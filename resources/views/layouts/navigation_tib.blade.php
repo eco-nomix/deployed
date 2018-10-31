@@ -15,20 +15,32 @@
 
                 <li><a href="{{URL::to('/')}}/plans3">Details<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/membercost3">Books</a></li>
-                        <li><a href="{{URL::to('/')}}/benefits3">Movies</a></li>
-                        <li><a href="{{URL::to('/')}}/mem_agreement3">Design</a></li>
-                        <li><a href="{{URL::to('/')}}/mem_terms3">Jewelry</a></li>
-                        <li><a href="{{URL::to('/')}}/autoship3">Fashion</a></li>
-                        <li><a href="{{URL::to('/')}}/returns3">Nutrition</a></li>
-                        <li><a href="{{URL::to('/')}}/privacy3">Herbal Supplements</a></li>
-                        <li><a href="{{URL::to('/')}}/policies3">Music</a></li>
-                        <li><a href="{{URL::to('/')}}/privacy3">Beauty Products</a></li>
-                        <li><a href="{{URL::to('/')}}/policies3">African Art</a></li>
+                        <li><a href="{{URL::to('/')}}/membercost3">Membership Cost</a></li>
+                        <li><a href="{{URL::to('/')}}/benefits3">Member Benefits</a></li>
+                        <li><a href="{{URL::to('/')}}/mem_agreement3">Membership Agreement</a></li>
+                        <li><a href="{{URL::to('/')}}/mem_terms3">Membership Terms and Conditions</a></li>
+                        <li><a href="{{URL::to('/')}}/autoship3">Auto-Ship Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/returns3">Return Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/privacy3">Privacy Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/policies3">General Policy and Procedures</a></li>
                     </ul>
 
                 </li>
+                <li><a href="{{URL::to('/')}}/opportunities3">Opportunities<span class="caret"></span></a>
+                    <ul>
+                         <li><a href="{{URL::to('/')}}/tib">Introduction to TIB Foundation</a></li>
 
+                    </ul>
+                </li>
+
+
+
+                <li><a href="{{URL::to('/')}}/traininglinks3">Training<span class="caret"></span></a>
+                    <ul>
+                        {{--<li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Power Point</a></li>--}}
+                        <li><a href="{{URL::to('/')}}/present3">TIB Foundation Presentation</a></li>
+                    </ul>
+                </li>
             </ul>
 
             <ul class="pull-right">

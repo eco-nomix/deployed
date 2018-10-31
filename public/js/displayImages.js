@@ -10,7 +10,9 @@
 
     function changeImage() {
         ctr = ctr+1;
-        if (ctr>4) ctr=1;
+        if (ctr>4) {
+            ctr=1;
+        }
         //var imageno = Math.floor(Math.random() * (4))+1;
         var imageno = ctr;
         var imagesrc = 'img' + imageno;

@@ -1,8 +1,8 @@
 
     <div class="navcontainer3" >
-        <div class="navbar-brand brand-image">
-             <a href="{{URL::to('/')}}"><sp class="tibSm">TCHAMGANG</sp></a>
-        </div>
+        {{--<div class="navbar-brand brand-image">--}}
+             {{--<a href="{{URL::to('/')}}"><sp class="tibSm">TCHAMGANG</sp></a>--}}
+        {{--</div>--}}
 
         <div style="padding:15px;">
             <ul>

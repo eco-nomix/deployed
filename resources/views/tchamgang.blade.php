@@ -43,6 +43,8 @@
 </div>
 <div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
        <p id="demo"></p>
+
+       <input id="clickMe" type="button" value="clickme" onclick="changeImage();" />
 </div>
 
 @endsection

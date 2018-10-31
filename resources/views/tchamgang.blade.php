@@ -48,6 +48,8 @@
 <script>
 var imageno = Math.floor(Math.random() * (4+1));
 var imagesrc = 'img'+imageno;
-document.getElementById(imagesrc).src = "../images/fchamgang 5.jpeg"
+var newimageno = Math.floor(Math.random() * (36+1));
+var imagepath = "../images/fchamgang "+newimageno+".jpeg";
+document.getElementById(imagesrc).src = imagepath;
 </script>
 @endsection

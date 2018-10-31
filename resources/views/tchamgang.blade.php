@@ -10,20 +10,20 @@
             <td>
                 <table width="100%" height="300px" border="1">
                     <tr>
-
+                        &nbsp;
                     </tr>
                     <tr>
-
+                         &nbsp;
                     </tr>
                 </table>
             </td>
             <td>
                 <table width="100%" height="300px" border="1">
                     <tr>
-
+                         &nbsp;
                     </tr>
                     <tr>
-
+                         &nbsp;
                     </tr>
                 </table>
 

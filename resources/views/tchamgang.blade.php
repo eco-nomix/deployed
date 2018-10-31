@@ -7,10 +7,10 @@
     <div class="row">
         <table width="100%" height="600px" border="1">
             <td></td>
-
-
+            <td></td>
+            <td></td>
         </table>
-       
+
     </div>
 </div>
 </div>

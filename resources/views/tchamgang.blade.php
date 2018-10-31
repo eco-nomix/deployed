@@ -49,7 +49,7 @@
 var myVar;
 
 function myFunction() {
-    myVar = setInterval(changeImage, 2000);
+    myVar = setInterval(changeImage, 3000);
 }
 
 function changeImage() {

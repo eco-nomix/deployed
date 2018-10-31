@@ -7,7 +7,7 @@
     <div class="row">
         <table width="100%" height="600px" border="1">
             <tr>
-            <td>
+            <td width="33%">
                 <table width="100%" height="300px" border="1">
                     <tr>
                         &nbsp;
@@ -17,7 +17,7 @@
                     </tr>
                 </table>
             </td>
-            <td>
+            <td width="33%">
                 <table width="100%" height="300px" border="1">
                     <tr>
                          &nbsp;
@@ -28,7 +28,7 @@
                 </table>
 
             </td>
-            <td>
+            <td width="33%">
 
             </td>
             </tr>

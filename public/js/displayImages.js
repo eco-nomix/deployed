@@ -3,7 +3,7 @@
 
 
     var myVar;
-    var ctr;
+    var ctr = 0;
     function myFunction() {
         myVar = setInterval(changeImage, 3000);
     }

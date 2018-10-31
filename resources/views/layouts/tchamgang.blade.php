@@ -13,6 +13,7 @@
     @yield('header')
     <script src="/js/jquery-1.12.1.min.js"></script>
     <script src="/js/editing.js"></script>
+    <script src="/js/displayImages.js"></script>
 
 </head>
 <body class="KineticGoldbody">

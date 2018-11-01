@@ -42,6 +42,8 @@
 
 </div>
 <div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
-    </div>
+    <center><h1>TCHAMGANG</h1></center>
+
+</div>
 
 @endsection

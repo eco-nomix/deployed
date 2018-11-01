@@ -3,7 +3,10 @@
 
 
     var myVar;
+    var imagesrc = '';
+    var imagepath = '';
     var ctr = 0;
+    var pagevar = 1;
 
 $(document).ready(function() {
     setInterval(function () {
@@ -18,11 +21,16 @@ $(document).ready(function() {
         if (ctr>4) {
             ctr=1;
         }
+        pagevar = pagevar+1;
+        if (pagevar>36) {
+            pagevar=1;
+        }
         //var imageno = Math.floor(Math.random() * (4))+1;
-        var imageno = ctr;
-        var imagesrc = 'img' + imageno;
-        var newimageno = Math.floor(Math.random() * (36))+1;
-        var imagepath = "../images/fchamgang " + newimageno + ".jpeg";
+
+        imagesrc = 'img' + imageno;
+
+        imagepath = "../images/fchamgang " + pagevar + ".jpeg";
+        
         document.getElementById(imagesrc).src = imagepath;
     }
 

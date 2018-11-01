@@ -6,7 +6,7 @@
     var imagesrc = '';
     var imagepath = '';
     var ctr = 0;
-    var pagevar = 1;
+    var pagevar = 5;
 
 $(document).ready(function() {
     setInterval(function () {
@@ -27,10 +27,10 @@ $(document).ready(function() {
         }
         //var imageno = Math.floor(Math.random() * (4))+1;
 
-        imagesrc = 'img' + imageno;
+        imagesrc = 'img' + ctr;
 
         imagepath = "../images/fchamgang " + pagevar + ".jpeg";
-        
+
         document.getElementById(imagesrc).src = imagepath;
     }
 

@@ -6,9 +6,10 @@
     var ctr = 0;
 
 $(document).ready(function() {
-    function myFunction() {
-        myVar = setInterval(changeImage, 3000);
-    }
+    setInterval(function () {
+        console.log('it works' + new Date());
+        changeImage();
+    },3000);
 });
 
 $(document).ready(function(){

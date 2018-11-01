@@ -23,9 +23,7 @@ $(document).ready(function() {
         var imagesrc = 'img' + imageno;
         var newimageno = Math.floor(Math.random() * (36))+1;
         var imagepath = "../images/fchamgang " + newimageno + ".jpeg";
-      
-       document.getElementById("demo").innerHTML = imagesrc+"  "+imagepath;
-       document.getElementById(imagesrc).src = imagepath;
+        document.getElementById(imagesrc).src = imagepath;
     }
 
 

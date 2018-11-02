@@ -41,7 +41,7 @@
 
 
 </div>
-<div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
+<div style="position:absolute; left: 600px; top:52px; z-index:-1; height:750px">
     <center><h1>WELCOME TO TCHAMGANG</h1></center>
 <br>
  <div class="col-md-10 col-md-offset-1">

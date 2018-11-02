@@ -16,7 +16,7 @@
     <script src="/js/displayImages.js"></script>
 
 </head>
-<body class="KineticGoldbody">
+<body class="tchamgangbody">
 
     @include('layouts.navigation_tchamgang')
     @yield('content')

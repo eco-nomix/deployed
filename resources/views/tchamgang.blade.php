@@ -44,7 +44,7 @@
 <div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
     <center><h1>WELCOME TO TCHAMGANG</h1></center>
 <br>
- <div class="col-md-8 col-md-offset-2">
+ <div class="col-md-10 col-md-offset-1">
 <p>
 <h2>Our goal is to provide you with an excellent source of amazing products that speak to
 your inner roots.  We have a wide range of products available including Books, Movies, Design

@@ -48,7 +48,7 @@
 
 <h2>Our goal is to provide you with an excellent source of amazing products that speak to
 your inner roots. <br><br>We have a wide range of products available including Books, Movies, Design
-Jewelry, Fashion, Nutrition, Herbal Supplements, Music, Beauty Products and even African Art
+Jewelry, Fashion, Nutrition, Herbal Supplements, Music, Beauty Products and even African Art.
 <br><br>
 Please click on Products to view each category and select the category you are interested in.</h2>
 

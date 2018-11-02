@@ -45,13 +45,13 @@
     <center><h1>WELCOME TO TCHAMGANG</h1></center>
 <br>
  <div class="col-md-10 col-md-offset-1">
-<p>
+
 <h2>Our goal is to provide you with an excellent source of amazing products that speak to
-your inner roots.  We have a wide range of products available including Books, Movies, Design
+your inner roots. <br><br>We have a wide range of products available including Books, Movies, Design
 Jewelry, Fashion, Nutrition, Herbal Supplements, Music, Beauty Products and even African Art
-<br>
+<br><br>
 Please click on Products to view each category and select the category you are interested in.</h2>
-</p>
+
 </div>
 </div>
 

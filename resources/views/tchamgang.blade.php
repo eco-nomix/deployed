@@ -9,13 +9,13 @@
             <tr>
 
 
-                <td width="300px" height="375" style="vertical-align: top;">
-                <img id="img1" src="../images/fchamgang 1.jpeg" width="300" height="375"  />
+                <td width="250px" height="375" style="vertical-align: top;">
+                <img id="img1" src="../images/fchamgang 1.jpeg" width="250" height="375"  />
                 </td>
 
 
-                 <td width="300px" height="375" style="vertical-align: top;">
-                  <img id="img2" src="../images/fchamgang 2.jpeg" width="300" height="375" />
+                 <td width="250px" height="375" style="vertical-align: top;">
+                  <img id="img2" src="../images/fchamgang 2.jpeg" width="250" height="375" />
 
                  </td>
 
@@ -24,13 +24,13 @@
              <tr>
 
 
-                <td width="300px" height="375" style="vertical-align: top;">
-                <img id="img3" src="../images/fchamgang 3.jpeg" width="300" height="375"  />
+                <td width="250px" height="375" style="vertical-align: top;">
+                <img id="img3" src="../images/fchamgang 3.jpeg" width="250" height="375"  />
                 </td>
 
 
-                 <td width="300px" height="375" style="vertical-align: top;">
-                  <img id="img4" src="../images/fchamgang 4.jpeg" width="300" height="375" />
+                 <td width="250px" height="375" style="vertical-align: top;">
+                  <img id="img4" src="../images/fchamgang 4.jpeg" width="250" height="375" />
 
                  </td>
 

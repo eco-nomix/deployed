@@ -42,8 +42,13 @@
 
 </div>
 <div style="border:red 1px solid; position:absolute; left: 600px; top:52px; z-index:-1; width:800px; height:750px">
-    <center><h1>TCHAMGANG</h1></center>
-
+    <center><h1>WELCOME TO TCHAMGANG</h1></center>
+<br>
+<h2>Our goal is to provide you with an excellent source of amazing products that speak to
+your inner roots.  We have a wide range of products available including Books, Movies, Design
+Jewelry, Fashion, Nutrition, Herbal Supplements, Music, Beauty Products and even African Art
+<br>
+Please click on Products to view each category and select the category you are interested in.</h2>
 </div>
 
 @endsection

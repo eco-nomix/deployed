@@ -5,17 +5,17 @@
 <div style="position:absolute; top:52px; z-index:-1; width:600">
 
 
-        <table width="600" height="750" border="1">
+        <table width="560" height="750" border="1">
             <tr>
 
 
-                <td width="250px" height="375" style="vertical-align: top;">
-                <img id="img1" src="../images/fchamgang 1.jpeg" width="250" height="375"  />
+                <td width="280px" height="375" style="vertical-align: top;">
+                <img id="img1" src="../images/fchamgang 1.jpeg" width="280" height="375"  />
                 </td>
 
 
-                 <td width="250px" height="375" style="vertical-align: top;">
-                  <img id="img2" src="../images/fchamgang 2.jpeg" width="250" height="375" />
+                 <td width="280px" height="375" style="vertical-align: top;">
+                  <img id="img2" src="../images/fchamgang 2.jpeg" width="280" height="375" />
 
                  </td>
 
@@ -24,13 +24,13 @@
              <tr>
 
 
-                <td width="250px" height="375" style="vertical-align: top;">
-                <img id="img3" src="../images/fchamgang 3.jpeg" width="250" height="375"  />
+                <td width="280px" height="375" style="vertical-align: top;">
+                <img id="img3" src="../images/fchamgang 3.jpeg" width="280" height="375"  />
                 </td>
 
 
-                 <td width="250px" height="375" style="vertical-align: top;">
-                  <img id="img4" src="../images/fchamgang 4.jpeg" width="250" height="375" />
+                 <td width="280px" height="375" style="vertical-align: top;">
+                  <img id="img4" src="../images/fchamgang 4.jpeg" width="280" height="375" />
 
                  </td>
 

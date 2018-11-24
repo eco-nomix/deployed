@@ -18,7 +18,7 @@
 </head>
 <body class="cbd">
 
-    @include('layouts.navigation_cbd')
+    @include('layouts.navigation_tib')
     @yield('content')
     @yield('footer')
 

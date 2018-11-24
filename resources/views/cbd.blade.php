@@ -2,12 +2,12 @@
 
 
 @section('content')
-<div style="position:absolute; text-align:center; top:52px; z-index:-1; width:100%; height:75px">
-    CBD Care Group
-    
+<div style="position:absolute; text-align:center; top:52px; z-index:-1; width:100%">
+    <h1>CBD Care Group</h1>
+
 </div>
 
-<div style="position:absolute; top:52px; z-index:-1; width:600">
+<div style="z-index:-1; width:100%">
 
 
         <table width="560" height="750" border="1">

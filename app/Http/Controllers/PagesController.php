@@ -61,17 +61,25 @@ class PagesController extends Controller
         $data = $this->userData($request);
         $name = $request->root();
         \Log::info("root = $name");
-        if($name == 'http://golddiggerz.org' || $name == 'http://www.golddiggerz.org'){
+        if(stristr($name,"golddiggerz")){
+//        if($name == 'http://golddiggerz.org' || $name == 'http://www.golddiggerz.org'){
             $data = $this->userData($request);
             $data['title'] = 'GoldDiggers';
             $data['description'] = 'Introduction';
             return view('info',$data);
         }
-        if($name == 'http://www.tibfoundation.org' || $name == 'http://www.tibfoundation.com' || $name == 'http://tibfoundation.org' || $name == 'http://tibfoundation.com' || $name == 'http://45.55.41.46'){
+        if(stristr($name,"tibfoundation")){
+//        if($name == 'http://www.tibfoundation.org' || $name == 'http://www.tibfoundation.com' || $name == 'http://tibfoundation.org' || $name == 'http://tibfoundation.com' || $name == 'http://45.55.41.46'){
             $data = $this->userData($request);
             $data['title'] = 'TIBFoundation';
             $data['description'] = 'Introduction';
             return view('tib',$data);
+        }
+        if(stristr($name,"cbdcaregroup")){
+            $data = $this->userData($request);
+            $data['title'] = 'CBD Care Group';
+            $data['description'] = 'Introduction';
+            return view('cbd',$data);
         }
         if(stristr($name,"tchamgang")){
 //            $ch = curl_init('https://textbelt.com/text');

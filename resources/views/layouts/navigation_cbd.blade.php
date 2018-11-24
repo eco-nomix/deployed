@@ -6,11 +6,8 @@
 
         <div style="padding:15px;">
             <ul>
-                <li>
-                    <a href="{{URL::to('/')}}/intro_tib">Home</a>
-                </li>
 
-                <li><a href="{{URL::to('/')}}/products">Shop<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/shop">Shop<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/Gummies">Gummies</a></li>
                         <li><a href="{{URL::to('/')}}/HempOil">Hemp Oil</a></li>

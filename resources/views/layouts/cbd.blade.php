@@ -3,8 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
    <meta content="True" name="HandheldFriendly">
-   <meta name="viewport" content="width=device-width, initial-scale=0.666667, maximum-scale=0.666667, user-scalable=1">
-   <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, aximum-scale=1.0, user-scalable=1">
+
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>{{ $title }}</title>
      <meta name="description" content="@if($description){{$description}}@endif">

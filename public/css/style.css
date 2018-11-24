@@ -11,15 +11,7 @@
     background:ivory;
 }
 
-.navcontainer {
-    background:darkgreen;
-    height:52px;
-    top:0;
-    z-index:10;
-    font-size:16px;
-    width:100%;
-    position:fixed;
-}
+
 .navcontainer3 {
     background:goldenrod;
     height:52px;
@@ -259,11 +251,7 @@ td {
 }
 
 
-.navcontainer ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
+
 .navcontainer3 ul {
       list-style: none;
       padding: 0px;
@@ -312,9 +300,21 @@ td {
 .navcontainer3 ul .top10{
     margin:10px;
 }
+.navcontainer {
+    background:darkgreen;
+    height:52px;
+    top:0;
+    z-index:10;
+    font-size:18px;
+    width:100%;
+    position:fixed;
+}
 
-
-
+.navcontainer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
 .navcontainer ul li {
     display: block;
     position: relative;

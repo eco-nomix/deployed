@@ -25,7 +25,7 @@
 
             </ul>
 
-            <ul class="nav-right">
+            <ul class="pull-right">
                 <li><a href="{{URL::to('/')}}/about4">About</a></li>
 
 

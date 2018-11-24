@@ -263,6 +263,9 @@ td {
     min-width:200px;
     max-width:200px;
 }
+.navcontainer {
+    font-size:16px;
+}
 
 .navcontainer ul {
     list-style: none;

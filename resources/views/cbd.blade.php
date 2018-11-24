@@ -2,6 +2,14 @@
 
 
 @section('content')
+<div style="position:absolute; left: 600px; top:52px; z-index:-1; height:750px">
+    <center><h1>CBD Care Group</h1></center>
+     <div class="col-md-10 col-md-offset-1">
+
+    <h2>
+    </div>
+</div>
+
 <div style="position:absolute; top:52px; z-index:-1; width:600">
 
 
@@ -41,13 +49,6 @@
 
 
 </div>
-<div style="position:absolute; left: 600px; top:52px; z-index:-1; height:750px">
-    <center><h1>CBD Care Group</h1></center>
-<br>
- <div class="col-md-10 col-md-offset-1">
 
-<h2>
-</div>
-</div>
 
 @endsection

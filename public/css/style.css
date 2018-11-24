@@ -16,6 +16,7 @@
     height:52px;
     top:0;
     z-index:10;
+    font-size:16px;
     width:100%;
     position:fixed;
 }
@@ -27,14 +28,7 @@
     width:100%;
     position:fixed;
 }
-.navcontainer4 {
-    background:darkgreen;
-    height:52px;
-    top:0;
-    z-index:10;
-    width:100%;
-    position:fixed;
-}
+
 .skip {
     display:block;
     float:left;
@@ -263,9 +257,7 @@ td {
     min-width:200px;
     max-width:200px;
 }
-.navcontainer {
-    font-size:16px;
-}
+
 
 .navcontainer ul {
     list-style: none;

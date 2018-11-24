@@ -2,12 +2,9 @@
 
 
 @section('content')
-<div style="position:absolute; left: 600px; top:52px; z-index:-1; height:750px">
-    <center><h1>CBD Care Group</h1></center>
-     <div class="col-md-10 col-md-offset-1">
-
-    <h2>
-    </div>
+<div style="position:absolute; text-align:center; top:52px; z-index:-1; width:100%; height:75px">
+    CBD Care Group
+    
 </div>
 
 <div style="position:absolute; top:52px; z-index:-1; width:600">

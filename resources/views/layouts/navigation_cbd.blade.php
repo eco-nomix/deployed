@@ -4,7 +4,7 @@
              {{--<a href="{{URL::to('/')}}"><sp class="tibSm">TCHAMGANG</sp></a>--}}
         {{--</div>--}}
 
-        <div style="padding:15px;">
+        {{--<div style="padding:15px;">--}}
             <ul>
 
                 <li><a href="{{URL::to('/')}}/shop">Shop<span class="caret"></span></a>
@@ -67,6 +67,6 @@
                 @endif
             </ul>
 
-        </div>
+        {{--</div>--}}
 
     </div>

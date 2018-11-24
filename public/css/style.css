@@ -327,7 +327,7 @@ td {
 .navcontainer ul li a {
     display: block;
     background: darkgreen;
-    padding: 5px 15px 5px 15px;
+    padding: 0px 15px 2px 15px;
     text-decoration: none;
     white-space: nowrap;
     color: #FFF;
@@ -353,7 +353,7 @@ td {
 
 .navcontainer.nav-right{
     right: 0;
-    left: auto;;
+    left: auto;
 }
 .navcontainer ul .top10{
     margin:10px;

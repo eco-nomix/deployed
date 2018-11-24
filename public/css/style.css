@@ -281,7 +281,7 @@ td {
 .navcontainer3 ul li a {
     display: block;
     background: darkgreen;
-    padding: 5px 15px 10px 15px;
+    padding: 5px 15px 15px 15px;
     text-decoration: none;
     white-space: nowrap;
     color: #FFF;
@@ -327,7 +327,7 @@ td {
 .navcontainer ul li a {
     display: block;
     background: darkgreen;
-    padding: 5px 15px 10px 15px;
+    padding: 5px 15px 5px 15px;
     text-decoration: none;
     white-space: nowrap;
     color: #FFF;

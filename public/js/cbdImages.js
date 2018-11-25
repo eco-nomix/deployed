@@ -29,7 +29,7 @@ $(document).ready(function() {
 
         imagesrc = 'img' + ctr;
 
-        imagepath = "../images/cbd " + pagevar + ".jpeg";
+        imagepath = "../images/fchamgang " + pagevar + ".jpeg";
 
         document.getElementById(imagesrc).src = imagepath;
     }

@@ -24,6 +24,8 @@ p{
 }
 #div0{
   width:100%;text-align:center;
+  position:absolute;
+  top:40px;
 }
 #div1{
   text-align:center; margin:10px;
@@ -65,7 +67,7 @@ p{
 
 </div>
 <div id="div3" >
-    <div  style="float: left; width: 25%;  ">
+    <div  style="float: right; width: 25%;  ">
         <img id="img3" src="../images/fchamgang 3.jpeg" style="width:100%"  />
      </div>
      <p>
@@ -75,7 +77,7 @@ p{
 
 </div>
 <div id="div4" >
-    <div  style="float: right; width: 25%;  ">
+    <div  style="float: left; width: 25%;  ">
         <img id="img4" src="../images/fchamgang 4.jpeg" style="width:100%"  />
      </div>
      <p>

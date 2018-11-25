@@ -10,7 +10,7 @@
 
 $(document).ready(function() {
     setInterval(function () {
-        console.log('it works' + new Date());
+
         changeImage();
     },2000);
 });

@@ -289,7 +289,7 @@ p{
      <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
 
-            <div class="kinetic400">
+            <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1">
                 ICO
             </div>
     </div>

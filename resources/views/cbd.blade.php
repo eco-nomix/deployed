@@ -22,7 +22,6 @@ p{
 div{
     width:100%;
     background: #ccc;
-    padding: 10px;
     text-align: justify;
 
 }

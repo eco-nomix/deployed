@@ -12,6 +12,9 @@
      <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
      </p>
+</div>
+<div style="z-index:-1; width:100%;position;background: #ccc; padding: 10px; text-align: justify">
+
      <img id="img2" src="../images/fchamgang 2.jpeg"  style="float: left; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;" />
 
      {{--<div style="float: right; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;">my div 2</div>--}}
@@ -19,6 +22,9 @@
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
     </p>
+</div>
+<div style="z-index:-1; width:100%;position;background: #ccc; padding: 10px; text-align: justify">
+
      <img id="img3" src="../images/fchamgang 3.jpeg"  style="float: right; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;" />
 
      <p>

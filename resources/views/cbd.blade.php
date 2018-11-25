@@ -19,6 +19,9 @@ p{
     font-size:3.5vw;
     max-font-size:24px;
 }
+.navcontainer{
+      max-font-size:24px;
+}
 #div0{
   width:100%;text-align:center;
 }

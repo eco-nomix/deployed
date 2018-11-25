@@ -20,10 +20,10 @@ p{
     max-font-size:16px;
 }
 #div0{
-  width:100%;text-align:center; border:1px solid red;
+  width:100%;text-align:center;
 }
 #div1{
-  text-align:center; margin:10px; border:1px solid blue;
+  text-align:center; margin:10px;
 }
 
 </style>
@@ -33,7 +33,7 @@ p{
 </div>
 
 <div id="div1" >
-    <div  style="float: right; width: 20%;  ">
+    <div  style="float: right; width: 25%;  ">
         <img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />
      </div>
      <p>

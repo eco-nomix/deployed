@@ -20,6 +20,11 @@ p{
     font-size:3.5vw;
     max-font-size:24px;
 }
+
+li{
+   font-size:3.5vw;
+    max-font-size:24px;
+}
 .navcontainer{
       max-font-size:12px;
 }

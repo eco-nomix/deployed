@@ -248,9 +248,11 @@ td {
 
 .navcontainer3 {
     background:goldenrod;
-    height:52px;
+    height:8vw;
+    max-height:40px;
     top:0;
     z-index:10;
+    font-size:5vw;
     width:100%;
     position:fixed;
 }

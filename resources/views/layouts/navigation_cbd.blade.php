@@ -1,4 +1,50 @@
+<style>
+h1{
+    font-size:5.7vw;
+}
+h2{
+    font-size:4.0vw;
+}
+h3{
+    font-size:3.2vw;
+}
+h4{
+    font-size:2.5vw;
+}
+p{
+    font-size:3.5vw;
+    max-font-size:24px;
+}
+.navcontainer{
+      max-font-size:24px;
+}
+#main{
+  width:100%;text-align:center;
+  position:absolute;
+  top:-30px;
 
+}
+#div0{
+  text-align:center; margin:10px;
+}
+#div1{
+  margin:10px;
+  text-align:justify;
+}
+
+#div2{
+    margin:10px;
+     text-align:justify;
+ }
+ #div3{
+   margin:10px;
+    text-align:justify;
+ }
+ #div4{
+    margin:10px;
+     text-align:justify;
+ }
+</style>
     <div class="navcontainer" >
         {{--<div class="navbar-brand brand-image">--}}
              {{--<a href="{{URL::to('/')}}"><sp class="tibSm">TCHAMGANG</sp></a>--}}

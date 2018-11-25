@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
    <meta content="True" name="HandheldFriendly">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, aximum-scale=1.0, user-scalable=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
 
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>{{ $title }}</title>
@@ -20,10 +20,11 @@
 
 </head>
 <body class="cbd">
-
-    @include('layouts.navigation_cbd')
-    @yield('content')
-    @yield('footer')
+    <div style="width:100%">
+        @include('layouts.navigation_cbd')
+        @yield('content')
+        @yield('footer')
+    </div>
 
 </body>
 </html>

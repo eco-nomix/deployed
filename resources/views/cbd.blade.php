@@ -8,7 +8,7 @@
 </div>
 
 <div style="z-index:-1; width:100%;position:absolute;top:92px;background: #ccc; padding: 10px; text-align: justify; font-size:14px;">
-     <img id="img1" src="../images/fchamgang 1.jpeg"  style="float: right; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;" />
+     <img id="img1" src="../images/fchamgang 1.jpeg"  style="float: right; margin-top: 10px; background-color: #ff0000; width: 20%;  margin: 10px;" />
      <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
      </p>
@@ -20,8 +20,8 @@
      </p>
 </div>
 <div style="z-index:-1; width:100%;position:absolute;top:400px;background: #ccc; padding: 10px; text-align: justify; font-size:14px;">
-     <img id="img2" src="../images/fchamgang 2.jpeg"  style="float: left; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;" />
-     <p>
+     <img id="img2" src="../images/fchamgang 2.jpeg"  style="float: left; margin-top: 10px; background-color: #ff0000; width: 20%;  margin: 10px;" />
+             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
      </p>
      <p>

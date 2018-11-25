@@ -26,6 +26,7 @@ p{
   width:100%;text-align:center;
   position:absolute;
   top:40px;
+  border:1px solid blue;
 }
 #div0{
   text-align:center; margin:10px;

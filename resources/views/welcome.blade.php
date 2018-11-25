@@ -63,14 +63,14 @@ p{
 
     </div>
      <div class="skip">&nbsp;</div>
-             <div class="center" style="width:100%;display:block;float:left;">
-                <div class="kinetic600">
-                     Kinetic Gold
-                </div>
-            </div>
+     <div class="center" style="width:100%;display:block;float:left;">
+        <div class="kinetic600">
+             Kinetic Gold
+        </div>
+    </div>
 
 
-    <div class="trans display  back-white col-md-10 col-md-offset-1" >
+    <div class="trans display  back-white col-sm-10 col-sm-offset-1" >
             <p>Kinetic Gold is a new banking platform and cryptocurrency that is in its Pre-Launch phase.  </p>
             <p>Unlike other cryptocurrenciences, Kinetic Gold has been designed to be utilized like a standard bank account
                on a regular basis for normal banking activities.

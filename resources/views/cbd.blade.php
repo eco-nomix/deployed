@@ -33,16 +33,20 @@ p{
 }
 #div1{
   margin:10px;
+  text-align:justify;
 }
 
 #div2{
     margin:10px;
+     text-align:justify;
  }
  #div3{
    margin:10px;
+    text-align:justify;
  }
  #div4{
     margin:10px;
+     text-align:justify; 
  }
 </style>
 <div id="main">

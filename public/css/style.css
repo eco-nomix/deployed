@@ -306,11 +306,11 @@ td {
 .navcontainer {
     background:darkgreen;
     height:52px;
-    /*top:0;*/
+    top:0;
     z-index:10;
     font-size:32px;
     width:100%;
-    /*position:fixed;*/
+    position:fixed;
 }
 
 .navcontainer ul {

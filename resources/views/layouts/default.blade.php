@@ -21,11 +21,11 @@
 
     @include('layouts.navigation3')
     <div style="width:100%; border:solid 1px black; top:40; position:absolute; ">
-
-    @yield('content')
-    @yield('footer')
+        <div style="z-index:-5; overflow-y:scroll; height: 100cv; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
+            @yield('content')
+            @yield('footer')
+        </div>
+    </div>
     <script src="./js/mm-fontsize.js" type="text/javascript"></script>
-
-
 </body>
 </html>

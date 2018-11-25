@@ -3,86 +3,26 @@
 
 
 @section('content')
-<style>
-h1{
-    font-size:5.7vw;
-}
-h2{
-    font-size:4.0vw;
-}
-h3{
-    font-size:3.2vw;
-}
-h4{
-    font-size:2.5vw;
-}
-p{
-    font-size:3.5vw;
-    max-font-size:24px;
-}
 
-li{
-   font-size:3.5vw;
-    max-font-size:24px;
-}
-.navcontainer{
-      max-font-size:12px;
-}
-.navcontainer ul li a {
-    display: block;
-    background: darkgreen;
-    padding: 0px 5px 0px 5px;
-    text-decoration: none;
-    white-space: nowrap;
-    color: #FFF;
-}
-#main{
-  width:100%;text-align:center;
-  position:absolute;
-  top:-30px;
-
-}
-.kinetic400{
-    max-font-size:35px;
-}
-.kinetic600{
-    max-font-size:35px;
-}
-
-</style>
-   <div style="z-index:-5; overflow-y:scroll; height: 100cv; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
-    <div >
-        <p>&nbsp;</p>
-      </div>
-      <div >
-        <p>&nbsp;</p>
-      </div>
-
-
-
-    <div class="skip">&nbsp;</div>
+   <div class="skip">&nbsp;</div>
        <div class="center" style="width:100%;display:block;float:left;">
            <div class="kinetic400">
                 Your Bank?
            </div>
        </div>
-    <div class="trans highdisplay  back-white col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2" >
-
-        <p>Does your bank give you a 10% Reward for Every Deposit?</p>
-        <p>Does your bank give you 6% Interest on Your Savings?</p>
-        <p>Does your bank give EVERY Account Holder the Opportunity for Profit-Sharing?</p>
-        <p>If not, It's time to check out Kinetic Gold</p>
-
-    </div>
-     <div class="skip">&nbsp;</div>
-     <div class="center" style="width:100%;display:block;float:left;">
-        <div class="kinetic600">
-             Kinetic Gold
+        <div class="trans highdisplay  back-white col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2" >
+            <p>Does your bank give you a 10% Reward for Every Deposit?</p>
+            <p>Does your bank give you 6% Interest on Your Savings?</p>
+            <p>Does your bank give EVERY Account Holder the Opportunity for Profit-Sharing?</p>
+            <p>If not, It's time to check out Kinetic Gold</p>
         </div>
-    </div>
-
-
-    <div class="trans display  back-white col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
+            <div class="kinetic600">
+                 Kinetic Gold
+            </div>
+        </div>
+        <div class="trans display  back-white col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
             <p>Kinetic Gold is a new banking platform and cryptocurrency that is in its Pre-Launch phase.  </p>
             <p>Unlike other cryptocurrenciences, Kinetic Gold has been designed to be utilized like a standard bank account
                on a regular basis for normal banking activities.
@@ -97,21 +37,20 @@ li{
                located outside of any bank server that can be hacked.  Transactions can take place having no
                regards to national borders or transaction amounts.  In addition all data within the blockchain is encrypted
                for your privacy.</p>
-
             <p>By its design, Kinetic Gold is designed to be a benefit to the small account holder, allowing them to receive the
                same benefits as the large account holder.  The Rewards and Profit Sharing applies for all account holders.
                Just by using Kinetic Gold like your standard bank account you automatically qualify for significant amount
                of Rewards.  Without changing your income or spending habits, you can see large immediate benefits.  The Rewards alone can
                add up to hundreds of dollars worth of Gold to your account on a monthly basis.
                </p>
-    </div>
-     <div class="skip">&nbsp;</div>
-         <div class="center" style="width:100%;display:block;float:left;">
+        </div>
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
             <div class="kinetic600">
-                 Gold Diggers Association
+              Gold Diggers Association
             </div>
         </div>
-    <div class="trans display back-white  col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
+        <div class="trans display back-white  col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
             <p>Gold Diggers is an Association whose members can participate in the KineticGold Banking platform. </p>
             <p>Some Kinetic Gold benefits and features will only be accessible to members of the Gold Diggers Association.</p>
             <p>Your membership in the Gold Diggers Association will do the following for you:
@@ -168,20 +107,18 @@ li{
                         </ul>
                     </li>
                     <li>There is a one-time fee of $39.95 for becoming a member of the Gold Diggers Association</li>
-
-
-                </ul></p>
-
-    </div>
-         <div class="skip">&nbsp;</div>
-     <div class="center" style="width:100%;display:block;float:left;">
-        <div class="kinetic600">
-             Kinetic Gold's Coin
-
+                </ul>
+            </p>
         </div>
-    </div>
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
+            <div class="kinetic600">
+                Kinetic Gold's Coin
 
-    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
+            </div>
+        </div>
+
+        <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by
                requiring that before any coin can be issued that there is at least one ounce of Gold
                in our insured vaults that is not guaranteeing any other coin.  The coin technically represents
@@ -198,15 +135,14 @@ li{
             <p>Unlike other cryptocurrencies, the value of the coin is not determined by scarcity as additional
                coins are being added continuously along with additional gold deposits.  It is always tied directly to the spot price of
                gold for either purchases or transfers.</p>
-    </div>
-     <div class="skip">&nbsp;</div>
-     <div class="center" style="width:100%;display:block;float:left;">
-
-        <div class="kinetic600">
-            Blockchain
         </div>
-    </div>
-    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
+            <div class="kinetic600">
+                Blockchain
+            </div>
+        </div>
+        <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's blockchain is one of the fastest block chains available.</p>
             <p>Transaction times are in the millisecond range, making transactions seem almost instantaneous from any
                two points in the world.</p>
@@ -217,31 +153,29 @@ li{
                and profit sharing.  This ensures that each members account if safe, secure and that all appropriate rewards and profit sharing is automatically
                credited to those accounts that earn it.</p>
 
-    </div>
+        </div>
         <div class="skip">&nbsp;</div>
         <div class="center" style="width:100%;display:block;float:left;">
-
             <div class="kinetic600">
-            Vaulted Storage
+                Vaulted Storage
             </div>
-    </div>
-     <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
-                <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
-                <p>The initial vault will be located in Dubai.</p>
-                <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</p>
-                <p>The Vaulted Storage will interface with the Off-shore Banking system to convert Gold back into fiat currency
-                   when needed to cover banking transactions of the account holders.  Only when Coins are converted into fiat currency and are removed
-                   from the system can the equivalent amount of Gold be sold</p>
-                <p>All Transactions are controlled by the blockchain.</p>
-     </div>
-     <div class="skip">&nbsp;</div>
-    <div class="center" style="width:100%;display:block;float:left;">
-
+        </div>
+        <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
+            <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
+            <p>The initial vault will be located in Dubai.</p>
+            <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</p>
+            <p>The Vaulted Storage will interface with the Off-shore Banking system to convert Gold back into fiat currency
+               when needed to cover banking transactions of the account holders.  Only when Coins are converted into fiat currency and are removed
+               from the system can the equivalent amount of Gold be sold</p>
+            <p>All Transactions are controlled by the blockchain.</p>
+        </div>
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
             <div class="kinetic600">
                 Off-shore Banking
             </div>
-    </div>
-    <div class="trans display back-white  col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
+        </div>
+        <div class="trans display back-white  col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
             <p>During the ICO phase an off-shore bank will be obtained on the island of Nevis.</p>
             <p>This bank will have full on-line banking capabilities for our members accounts.</p>
             <p>This bank will also provide <b>Debit Card</b> access and processing for our members accounts.</p>
@@ -252,15 +186,14 @@ li{
             <p>Coins in the cryptocurrency account can be converted to fiat currency or physical gold, quickly and easily</p>
             <p>All transactions are controlled by the blockchain.</p>
             <p>The blockchain is outside of the control of any country in the world.</p>
-    </div>
-    <div class="skip">&nbsp;</div>
-   <div class="center" style="width:100%;display:block;float:left;">
-
-        <div class="kinetic600">
-               Pre-Launch
         </div>
-    </div>
-    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
+            <div class="kinetic600">
+               Pre-Launch
+            </div>
+        </div>
+        <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
           <p>During the Pre-Launch Phase:</p>
           <ul>
             <li>Members will be accepted into Gold Diggers Association.</li>
@@ -297,47 +230,44 @@ li{
             <li>Promotion of Membership of the Kinetic Gold's member association will continue through the ICO</li>
           </ul>
 
-    </div>
-     <div class="skip">&nbsp;</div>
-     <div class="center" style="width:100%;display:block;float:left;">
-
+        </div>
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
             <div class="kinetic600">
                 ICO
             </div>
-    </div>
-    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
-         <p>Final Testing of block-chain will completed</p>
-         <p>Transfer of Mining Organization to blockchain</p>
-         <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
-         <p>Kinetic Gold will make an initial deposit into the insured vaults a minimum of 1000 kg of hallmarked gold prior to Launch.
-            This base amount of Gold is used during the deposit process to set the initial value of new coins.</p>
-         <p></p>
-         <p>Coins purchased during the ICO will be purchased at a discount below spot price.  The amount of the discount is determined
-            by the number of Coins purchased.  The ICO amount will be used to purchase the Gold represented by the ICO funds.  The gold
-            from the ICO will be used to back the coins issued once Kinetic Gold is launched.
-            This backing lasts only during the period that the fiat currency of the deposit is used to purchase additional gold.  Once
-            the additional gold is deposited the backing is no longer needed.  This backing period will be completed within 6 months and
-            then the Coins for the ICO will be issued.</p>
-         <p>Release of ICO coins are controlled by the blockchain.</p>
-         <p>Kinetic Gold's profit sharing will paid through ACH until the Off-Shore bank is operating and the accounts have been put into place.</p>
-
-
-    </div>
-     <div class="skip">&nbsp;</div>
-    <div class="center" style="width:100%;display:block;float:left;">
+        </div>
+        <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
+             <p>Final Testing of block-chain will completed</p>
+             <p>Transfer of Mining Organization to blockchain</p>
+             <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
+             <p>Kinetic Gold will make an initial deposit into the insured vaults a minimum of 1000 kg of hallmarked gold prior to Launch.
+                This base amount of Gold is used during the deposit process to set the initial value of new coins.</p>
+             <p></p>
+             <p>Coins purchased during the ICO will be purchased at a discount below spot price.  The amount of the discount is determined
+                by the number of Coins purchased.  The ICO amount will be used to purchase the Gold represented by the ICO funds.  The gold
+                from the ICO will be used to back the coins issued once Kinetic Gold is launched.
+                This backing lasts only during the period that the fiat currency of the deposit is used to purchase additional gold.  Once
+                the additional gold is deposited the backing is no longer needed.  This backing period will be completed within 6 months and
+                then the Coins for the ICO will be issued.</p>
+             <p>Release of ICO coins are controlled by the blockchain.</p>
+             <p>Kinetic Gold's profit sharing will paid through ACH until the Off-Shore bank is operating and the accounts have been put into place.</p>
+        </div>
+        <div class="skip">&nbsp;</div>
+        <div class="center" style="width:100%;display:block;float:left;">
             <div class="kinetic600">
                 Launch
             </div>
-    </div>
-    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
-        <p>Deposits will commence (Coins issued)</p>
-        <p>Off-Shore bank in place with debit card</p>
-        <p>Remaining Mining results from Kinetic Gold's member association previous organization development will be deposited in accounts. </p>
-        <p>Deposits and Mining results will result in additional gold on deposit in the vaults.</p>
-        <p>All transactions are controlled and recorded by the blockchain</p>
-        <p>All designed features are now in place and functional for all members.</p>
-    </div>
-     <div class="skip">&nbsp;</div>
-     <div class="skip">&nbsp;</div>
-    </div>
+        </div>
+        <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
+            <p>Deposits will commence (Coins issued)</p>
+            <p>Off-Shore bank in place with debit card</p>
+            <p>Remaining Mining results from Kinetic Gold's member association previous organization development will be deposited in accounts. </p>
+            <p>Deposits and Mining results will result in additional gold on deposit in the vaults.</p>
+            <p>All transactions are controlled and recorded by the blockchain</p>
+            <p>All designed features are now in place and functional for all members.</p>
+        </div>
+        <div class="skip">&nbsp;</div>
+        <div class="skip">&nbsp;</div>
+   </div>
 @stop

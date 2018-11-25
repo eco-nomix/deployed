@@ -20,10 +20,10 @@ p{
       max-font-size:24px;
 }
 .kinetic400{
-     max-font-size:40px;
+     max-font-size:36px;
 }
 .kinetic600{
-     max-font-size:40px;
+     max-font-size:36px;
 }
 #main{
   width:100%;text-align:center;

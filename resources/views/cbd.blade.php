@@ -17,22 +17,22 @@ h4{
 }
 p{
     font-size:3.5vw;
+    max-font-size:16px;
 }
-
-div{
-    width:100%;
-    background: #ccc;
-    text-align: justify;
-
+#div0{
+  text-align:center; position:absolute;top:100px; border:1px solid red;
+}
+#div1{
+  text-align:center; position:absolute;top:calc(100px+20vw); border:1px solid blue;
 }
 
 </style>
-<div style="text-align:center; position:absolute;top:100px; border:1px solid red;">
+<div id="div0" >
     <h1>CBD Care Group</h1>
 
 </div>
 
-<div style="position:absolute;top:calc(100px+20vw); border:1px solid blue;">
+<div id="div1" >
     <div  style="float: right; width: 20%;  ">
         <img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />
      </div>

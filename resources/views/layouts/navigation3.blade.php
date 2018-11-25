@@ -53,6 +53,11 @@ p{
                     {{--<ul>--}}
                         {{--<li><a href="{{URL::to('/')}}/purpose">Purpose</span></a></li>--}}
                     {{--</ul>--}}
+                     <ul>
+                          <li><a href="{{URL::to('/')}}/purpose">Purpose</span></a></li>
+                          <li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Power Point</a></li>
+                          <li><a href="{{URL::to('/')}}/present">Presentation</a></li>
+                     </ul>
                 </li>
 
                 <li><a href="{{URL::to('/')}}/plans">Details<span class="caret"></span></a>
@@ -84,12 +89,6 @@ p{
                     </ul>
                 </li>
 
-                <li><a href="{{URL::to('/')}}/traininglinks">Training<span class="caret"></span></a>
-                    <ul>
-                        <li><a href="{{URL::to('/')}}/KineticGoldOverview/index.html">Power Point</a></li>
-                        <li><a href="{{URL::to('/')}}/present">Presentation</a></li>
-                    </ul>
-                </li>
             </ul>
 
             <ul class="pull-right">

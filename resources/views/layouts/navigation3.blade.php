@@ -16,6 +16,10 @@ p{
     font-size:3.5vw;
     max-font-size:24px;
 }
+l1{
+    font-size:3.5vw;
+    max-font-size:24px;
+}
 .navcontainer3{
       max-font-size:24px;
 }

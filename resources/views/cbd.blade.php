@@ -7,7 +7,7 @@
 
 </div>
 
-<div style="z-index:-1; width:100%;position:absolute;top:100px;background: #ccc; padding: 10px; text-align: justify; font-size:10cw;">
+<div style="z-index:-1; width:100%;position:absolute;top:100px;background: #ccc; padding: 10px; text-align: justify; font-size:6cw;">
     <div  style="float: right; margin-top: 10px; background-color: #ff0000; width: 20%;  margin: 10px;">
      <img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />
      </div>

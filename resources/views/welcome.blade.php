@@ -163,7 +163,7 @@ p{
     </div>
          <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
-        <div class="kinetic400">
+        <div class="kinetic600">
              Kinetic Gold's Coin
 
         </div>
@@ -190,7 +190,7 @@ p{
      <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
 
-        <div class="kinetic400">
+        <div class="kinetic600">
             Blockchain
         </div>
     </div>
@@ -209,7 +209,7 @@ p{
         <div class="skip">&nbsp;</div>
         <div class="center" style="width:100%;display:block;float:left;">
 
-            <div class="kinetic400">
+            <div class="kinetic600">
             Vaulted Storage
             </div>
     </div>
@@ -225,7 +225,7 @@ p{
      <div class="skip">&nbsp;</div>
     <div class="center" style="width:100%;display:block;float:left;">
 
-            <div class="kinetic400">
+            <div class="kinetic600">
                 Off-shore Banking
             </div>
     </div>
@@ -244,7 +244,7 @@ p{
     <div class="skip">&nbsp;</div>
    <div class="center" style="width:100%;display:block;float:left;">
 
-        <div class="kinetic400">
+        <div class="kinetic600">
                Pre-Launch
         </div>
     </div>
@@ -289,7 +289,7 @@ p{
      <div class="skip">&nbsp;</div>
      <div class="center" style="width:100%;display:block;float:left;">
 
-            <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1">
+            <div class="kinetic600">
                 ICO
             </div>
     </div>
@@ -313,7 +313,7 @@ p{
     </div>
      <div class="skip">&nbsp;</div>
     <div class="center" style="width:100%;display:block;float:left;">
-            <div class="kinetic400">
+            <div class="kinetic600">
                 Launch
             </div>
     </div>

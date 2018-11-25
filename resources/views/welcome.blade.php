@@ -23,6 +23,14 @@ p{
 .navcontainer{
       max-font-size:12px;
 }
+.navcontainer ul li a {
+    display: block;
+    background: darkgreen;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #FFF;
+}
 #main{
   width:100%;text-align:center;
   position:absolute;

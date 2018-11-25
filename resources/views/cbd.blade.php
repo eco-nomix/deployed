@@ -30,8 +30,14 @@ p{
 }
 
 #div2{
-  text-align:center; margin:10px;
-}
+   text-align:center; margin:10px;
+ }
+ #div3{
+   text-align:center; margin:10px;
+ }
+ #div4{
+   text-align:center; margin:10px;
+ }
 </style>
 <div id="div0" >
     <h1>CBD Care Group</h1>
@@ -58,6 +64,27 @@ p{
 
 
 </div>
+<div id="div3" >
+    <div  style="float: left; width: 25%;  ">
+        <img id="img3" src="../images/fchamgang 3.jpeg" style="width:100%"  />
+     </div>
+     <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
+     </p>
+
+
+</div>
+<div id="div4" >
+    <div  style="float: right; width: 25%;  ">
+        <img id="img4" src="../images/fchamgang 4.jpeg" style="width:100%"  />
+     </div>
+     <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
+     </p>
+
+
+</div>
+
 
 {{--<div style="z-index:2; width:100%;background: #ccc; padding: 10px; text-align: justify; font-size:14px;">--}}
     {{--<div  style="float: left; margin-top: 10px; background-color: #ff0000; width: 20%;  margin: 10px;">--}}

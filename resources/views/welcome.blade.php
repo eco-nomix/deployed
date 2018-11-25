@@ -37,6 +37,10 @@ p{
   top:-30px;
 
 }
+.kinetic400{
+    max-font-size:35px;
+}
+
 </style>
    <div style="z-index:-5; overflow-y:scroll; height: 100cv; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
     <div >

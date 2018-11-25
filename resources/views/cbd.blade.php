@@ -27,7 +27,7 @@ div{
 }
 
 </style>
-<div style="text-align:center; top:100px; border:1px solid red;">
+<div style="text-align:center; position:absolute;top:100px; border:1px solid red;">
     <h1>CBD Care Group</h1>
 
 </div>

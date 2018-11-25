@@ -25,7 +25,7 @@ p{
 #main{
   width:100%;text-align:center;
   position:absolute;
-  top:0px;
+  top:-10px;
   border:1px solid blue;
 }
 #div0{

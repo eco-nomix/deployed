@@ -46,7 +46,7 @@ p{
  }
  #div4{
     margin:10px;
-     text-align:justify; 
+     text-align:justify;
  }
 </style>
 <div id="main">
@@ -56,7 +56,7 @@ p{
     </div>
 
     <div id="div1" >
-      <div  style="float: right; width: 25%;  ">
+      <div  style="float: right; width: 25%; margin:10px; ">
         <img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />
          </div>
          <p>
@@ -66,7 +66,7 @@ p{
 
     </div>
     <div id="div2" >
-        <div  style="float: left; width: 25%;  ">
+        <div  style="float: left; width: 25%; margin:10px; ">
         <img id="img2" src="../images/fchamgang 2.jpeg" style="width:100%"  />
          </div>
          <p>
@@ -76,7 +76,7 @@ p{
 
     </div>
     <div id="div3" >
-       <div  style="float: right; width: 25%;  ">
+       <div  style="float: right; width: 25%; margin:10px; ">
         <img id="img3" src="../images/fchamgang 3.jpeg" style="width:100%"  />
       </div>
       <p>
@@ -86,7 +86,7 @@ p{
 
     </div>
     <div id="div4" >
-      <div  style="float: left; width: 25%;  ">
+      <div  style="float: left; width: 25%; margin:10px; ">
         <img id="img4" src="../images/fchamgang 4.jpeg" style="width:100%"  />
        </div>
       <p>

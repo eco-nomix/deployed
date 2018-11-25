@@ -21,7 +21,7 @@ p{
     max-font-size:24px;
 }
 .navcontainer{
-      max-font-size:24px;
+      max-font-size:12px;
 }
 #main{
   width:100%;text-align:center;

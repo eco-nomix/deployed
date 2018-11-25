@@ -19,7 +19,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
      </p>
 </div>
-<div style="z-index:-1; width:100%;position:absolute;top:400px;background: #bbb; padding: 10px; text-align: justify; font-size:14px;">
+<div style="z-index:-1; width:100%;background: #bbb; padding: 10px; text-align: justify; font-size:14px;">
      <img id="img2" src="../images/fchamgang 2.jpeg"  style="float: left; margin-top: 10px; background-color: #ff0000; width: 20%;  margin: 10px;" />
      <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.

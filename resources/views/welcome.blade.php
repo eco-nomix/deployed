@@ -54,7 +54,7 @@ p{
                 Your Bank?
            </div>
        </div>
-    <div class="trans highdisplay  back-white col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" >
+    <div class="trans highdisplay  back-white col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2" >
 
         <p>Does your bank give you a 10% Reward for Every Deposit?</p>
         <p>Does your bank give you 6% Interest on Your Savings?</p>

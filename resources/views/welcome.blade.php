@@ -40,10 +40,10 @@ p{
 </style>
    <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
     <div >
-        <p>nbsp;</p>
+        <p>&nbsp;</p>
       </div>
       <div >
-        <p>nbsp;</p>
+        <p>&nbsp;</p>
       </div>
 
 

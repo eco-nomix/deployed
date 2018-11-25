@@ -23,7 +23,7 @@ p{
   width:100%;text-align:center; position:absolute;top:55px; border:1px solid red;
 }
 #div1{
-  text-align:center; position:absolute; margin:10px; border:1px solid blue;
+  text-align:center; margin:10px; border:1px solid blue;
 }
 
 </style>

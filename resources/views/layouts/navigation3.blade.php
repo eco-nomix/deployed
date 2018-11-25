@@ -59,8 +59,8 @@ p{
                           <li><a href="{{URL::to('/')}}/present">Presentation</a></li>
                      </ul>
                 </li>
-
-                <li><a href="{{URL::to('/')}}/plans">Details<span class="caret"></span></a>
+            {{--<span class="caret">--}}
+                <li><a href="{{URL::to('/')}}/plans">Details</a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/membercost">Membership Cost</a></li>
                         <li><a href="http://golddiggerz.org">Gold Diggers Association</a></li>

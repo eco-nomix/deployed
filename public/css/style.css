@@ -15,7 +15,18 @@
     background:ivory;
 }
 
-
+.vh1{
+    font-size:5.7vw;
+}
+.vh2{
+    font-size:4.0vw;
+}
+.vh3{
+    font-size:3.2vw;
+}
+.vp{
+    font-size:2.8vw;
+}
 .navcontainer3 {
     background:goldenrod;
     height:52px;

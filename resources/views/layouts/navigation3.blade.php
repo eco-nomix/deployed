@@ -19,6 +19,12 @@ p{
 .navcontainer3{
       max-font-size:24px;
 }
+.kinetic400{
+     max-font-size:24px;
+}
+.kinetic600{
+     max-font-size:24px;
+}
 #main{
   width:100%;text-align:center;
   position:absolute;

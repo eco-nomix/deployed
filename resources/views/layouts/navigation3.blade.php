@@ -16,7 +16,7 @@ p{
     font-size:3.5vw;
     max-font-size:24px;
 }
-l1{
+p ul li{
     font-size:3.5vw;
     max-font-size:24px;
 }

@@ -54,7 +54,7 @@ p{
                 Your Bank?
            </div>
        </div>
-    <div class="trans highdisplay  back-white col-md-8 col-md-offset-2" >
+    <div class="trans highdisplay  back-white col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" >
 
         <p>Does your bank give you a 10% Reward for Every Deposit?</p>
         <p>Does your bank give you 6% Interest on Your Savings?</p>
@@ -99,7 +99,7 @@ p{
                  Gold Diggers Association
             </div>
         </div>
-    <div class="trans display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
             <p>Gold Diggers is an Association whose members can participate in the KineticGold Banking platform. </p>
             <p>Some Kinetic Gold benefits and features will only be accessible to members of the Gold Diggers Association.</p>
             <p>Your membership in the Gold Diggers Association will do the following for you:
@@ -169,7 +169,7 @@ p{
         </div>
     </div>
 
-    <div class="trans display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's coin is equivalent to 1 oz of fine gold at spot value.  This is established by
                requiring that before any coin can be issued that there is at least one ounce of Gold
                in our insured vaults that is not guaranteeing any other coin.  The coin technically represents
@@ -194,7 +194,7 @@ p{
             Blockchain
         </div>
     </div>
-    <div class="trans display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
             <p>Kinetic Gold's blockchain is one of the fastest block chains available.</p>
             <p>Transaction times are in the millisecond range, making transactions seem almost instantaneous from any
                two points in the world.</p>
@@ -213,7 +213,7 @@ p{
             Vaulted Storage
             </div>
     </div>
-     <div class="trans display back-white  col-md-10 col-md-offset-1" >
+     <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
                 <p>At the minimum there will be no less than one ounce of Gold on deposit and insured for every coin issued.</p>
                 <p>The initial vault will be located in Dubai.</p>
                 <p>Insurance for all depositors for the full amount of deposit will be provided by Lloyds of London.</p>
@@ -229,7 +229,7 @@ p{
                 Off-shore Banking
             </div>
     </div>
-    <div class="trans display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white  col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1" >
             <p>During the ICO phase an off-shore bank will be obtained on the island of Nevis.</p>
             <p>This bank will have full on-line banking capabilities for our members accounts.</p>
             <p>This bank will also provide <b>Debit Card</b> access and processing for our members accounts.</p>
@@ -248,7 +248,7 @@ p{
                Pre-Launch
         </div>
     </div>
-    <div class="trans display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
           <p>During the Pre-Launch Phase:</p>
           <ul>
             <li>Members will be accepted into Gold Diggers Association.</li>
@@ -293,7 +293,7 @@ p{
                 ICO
             </div>
     </div>
-    <div class="trans display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
          <p>Final Testing of block-chain will completed</p>
          <p>Transfer of Mining Organization to blockchain</p>
          <p>Kinetic Gold will also obtain an off-shore bank that will provide the on-line access and Debit card access to the account.</p>
@@ -317,7 +317,7 @@ p{
                 Launch
             </div>
     </div>
-    <div class="trans display back-white  col-md-10 col-md-offset-1" >
+    <div class="trans display back-white col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1" >
         <p>Deposits will commence (Coins issued)</p>
         <p>Off-Shore bank in place with debit card</p>
         <p>Remaining Mining results from Kinetic Gold's member association previous organization development will be deposited in accounts. </p>

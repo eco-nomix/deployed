@@ -20,10 +20,10 @@ p{
     max-font-size:16px;
 }
 #div0{
-  text-align:center; position:absolute;top:100px; border:1px solid red;
+  text-align:center; position:absolute;top:55px; border:1px solid red;
 }
 #div1{
-  text-align:center; position:absolute;top:calc(100px+20vw); border:1px solid blue;
+  text-align:center; position:absolute; margin:10px; border:1px solid blue;
 }
 
 </style>

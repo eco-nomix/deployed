@@ -29,6 +29,9 @@ p{
   text-align:center; margin:10px;
 }
 
+#div2{
+  text-align:center; margin:10px;
+}
 </style>
 <div id="div0" >
     <h1>CBD Care Group</h1>
@@ -46,7 +49,7 @@ p{
 
 </div>
 <div id="div2" >
-    <div  style="float: right; width: 25%;  ">
+    <div  style="float: left; width: 25%;  ">
         <img id="img2" src="../images/fchamgang 2.jpeg" style="width:100%"  />
      </div>
      <p>

@@ -3,16 +3,16 @@
 
 @section('content')
 <style>
-.h1{
+h1{
     font-size:5.7vw;
 }
-.h2{
+h2{
     font-size:4.0vw;
 }
-.h3{
+h3{
     font-size:3.2vw;
 }
-.p{
+p{
     font-size:2.8vw;
 }
 

@@ -24,6 +24,8 @@
 
     @yield('content')
     @yield('footer')
+    <script src="./js/mm-fontsize.js" type="text/javascript"></script>
+
 
 </body>
 </html>

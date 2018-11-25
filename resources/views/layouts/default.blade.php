@@ -21,7 +21,12 @@
 
     @include('layouts.navigation3')
     <div style="width:100%; border:solid 1px black; top:40; position:absolute; ">
-        <div style="z-index:-5; overflow-y:scroll; height: 100cv; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
+        <div style="z-index:-5;
+            overflow-y:scroll;
+            height: 100cv;
+            background-size:cover;
+            background-attachment:fixed;
+            background-image:url('/images/denmark.jpeg');">
             @yield('content')
             @yield('footer')
         </div>

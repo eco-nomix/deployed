@@ -1,7 +1,4 @@
 @extends('layouts.default')
-
-
-
 @section('content')
 
    <div class="skip">&nbsp;</div>

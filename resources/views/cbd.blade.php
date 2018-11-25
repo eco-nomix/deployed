@@ -32,7 +32,7 @@ div{
 
 </div>
 
-<div style="position:absolute;top:calc(100px+10vw); border:1px solid blue;">
+<div style="position:absolute;top:calc(100px+20vw); border:1px solid blue;">
     <div  style="float: right; width: 20%;  ">
         <img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />
      </div>

@@ -306,7 +306,7 @@ td {
 .navcontainer {
     background:darkgreen;
     height:8vw;
-    max-height:38px;
+    max-height:40px;
     /*top:0;*/
     z-index:10;
     font-size:5vw;

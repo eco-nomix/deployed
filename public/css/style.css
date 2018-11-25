@@ -148,11 +148,11 @@
 
 .kinetic400{
     color:goldenrod;
-    font-size: 35px;
+    font-size: 6vw;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 8vw;
     width: 66vw;
     height: 50px;
     background-color: black;
@@ -164,11 +164,11 @@
 
 .kinetic600{
     color:goldenrod;
-    font-size: 35px;
+    font-size: 6vw;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 8vw;
     width: 80vw;
     height: 50px;
     background-color: black;

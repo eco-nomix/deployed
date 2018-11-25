@@ -9,6 +9,7 @@
 
 <div style="z-index:-1; width:100%;position:absolute;top:92px;background: #ccc; padding: 10px; text-align: justify">
      <img id="img1" src="../images/fchamgang 1.jpeg"  style="float: right; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;" />
+     </br>
      <img id="img2" src="../images/fchamgang 2.jpeg"  style="float: left; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;" />
 
      {{--<div style="float: right; margin-top: 10px; background-color: #ff0000; width: 30%;  margin: 10px;">my div 2</div>--}}

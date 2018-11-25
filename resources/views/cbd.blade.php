@@ -17,7 +17,7 @@ h4{
 }
 p{
     font-size:3.5vw;
- 
+    max-font-size:16px;
 }
 #div0{
   width:100%;text-align:center;

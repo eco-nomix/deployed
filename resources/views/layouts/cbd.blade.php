@@ -20,7 +20,7 @@
 
 </head>
 <body class="cbd">
-    <div style="width:100%">
+    <div style="width:100%; border:solid 1px black">
         @include('layouts.navigation_cbd')
         @yield('content')
         @yield('footer')

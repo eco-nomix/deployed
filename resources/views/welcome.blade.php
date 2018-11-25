@@ -3,6 +3,33 @@
 
 
 @section('content')
+<style>
+h1{
+    font-size:5.7vw;
+}
+h2{
+    font-size:4.0vw;
+}
+h3{
+    font-size:3.2vw;
+}
+h4{
+    font-size:2.5vw;
+}
+p{
+    font-size:3.5vw;
+    max-font-size:24px;
+}
+.navcontainer{
+      max-font-size:24px;
+}
+#main{
+  width:100%;text-align:center;
+  position:absolute;
+  top:-30px;
+
+}
+</style>
    <div style="z-index:-5; overflow-y:scroll; height: 100%; background-size:cover; background-attachment:fixed;  background-image:url('/images/denmark.jpeg');">
     <div >
         <p>nbsp;</p>

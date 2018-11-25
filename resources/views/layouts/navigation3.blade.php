@@ -1,8 +1,8 @@
 
     <div class="navcontainer" >
-        <div class="navbar-brand brand-image">
-             <a href="{{URL::to('/')}}"><sp class="kineticSm">KineticGold</sp></a>
-        </div>
+        {{--<div class="navbar-brand brand-image">--}}
+             {{--<a href="{{URL::to('/')}}"><sp class="kineticSm">KineticGold</sp></a>--}}
+        {{--</div>--}}
         {{--<div class="referral" >--}}
         {{--@if(!isset($referral_link))--}}
             {{--Your Referral Link: <br>--}}
@@ -12,7 +12,7 @@
             {{--{{$referral_link}}--}}
         {{--@endif--}}
         {{--</div>--}}
-        <div style="padding:15px;">
+        <div style="padding:2px;">
             <ul>
                 <li>
                     <a href="{{URL::to('/')}}/intro">Introduction<span class="caret"></span></a>

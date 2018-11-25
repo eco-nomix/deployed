@@ -20,6 +20,8 @@
 <body class="KineticGoldbody">
 
     @include('layouts.navigation3')
+    <div style="width:100%; border:solid 1px black; top:40; position:absolute; ">
+
     @yield('content')
     @yield('footer')
 

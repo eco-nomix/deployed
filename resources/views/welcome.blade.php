@@ -39,7 +39,9 @@ p{
 }
 .kinetic400{
     max-font-size:35px;
-
+}
+.kinetic600{
+    max-font-size:35px;
 }
 
 </style>

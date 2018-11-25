@@ -72,7 +72,7 @@
                            </ul>
                         </li>
                     @endif
-                    <li><a href="{{URL::to('/')}}/register">Register</a></li>
+                    {{--<li><a href="{{URL::to('/')}}/register">Register</a></li>--}}
                 @else
 
                     <li><a href="{{URL::to('/')}}/homepage/{{$user_id}}">{{$user_name}}<span class="caret"></span></a>

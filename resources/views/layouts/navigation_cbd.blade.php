@@ -24,6 +24,11 @@ p{
   top:-30px;
 
 }
+#img0{
+
+    width:100vw;
+     height:calc(100vw/3);
+}
 #div0{
   text-align:center; margin:10px;
 }

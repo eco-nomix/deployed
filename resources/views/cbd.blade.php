@@ -6,7 +6,7 @@
 <div id="main">
     <div STYLE="position:absolute; top:calc(0px-8vw); left:0px; border:1 px solid blue;">
 
-    <img src="../images/freedom.jpeg" alt="" title="freedom" width="100vw" height=cal(100vw/3) />
+    <img id="img0" src="../images/freedom.jpeg" alt="" title="freedom" />
 
      <div STYLE="position:absolute; top:5vw; left:40vw; width:50vw; height:20vh">
     <h1 style="color:white;">CBD Care Group</h1>

@@ -2,11 +2,11 @@
 h1{
     font-size:5.7vw;
 
-    margin:vw;
+   
 }
 h2{
     font-size:4.0vw;
-    margin:5vw;
+
 }
 h3{
     font-size:3.2vw;

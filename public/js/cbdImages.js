@@ -27,6 +27,7 @@ $(document).ready(function() {
         if (ctr2>4) {
             ctr2=1;
         }
+     
         document.getElementById("text1").innerHTML = text1[ctr2];
     }
 
@@ -45,7 +46,7 @@ $(document).ready(function() {
         if (pagevar>36) {
             pagevar=1;
         }
-        id = 'text'+ctr;
+
 
         //var imageno = Math.floor(Math.random() * (4))+1;
 

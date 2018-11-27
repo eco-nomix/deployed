@@ -83,19 +83,19 @@ p{
 
                 <li><a href="{{URL::to('/')}}/shop">Income<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/Gummies">Member Benefit</a></li>
-                        <li><a href="{{URL::to('/')}}/Gummies">Member Cost</a></li>
+                        <li><a href="{{URL::to('/')}}/benefits3">Member Benefit</a></li>
+                        <li><a href="{{URL::to('/')}}/membercost3">Member Cost</a></li>
                         <li><a href="{{URL::to('/')}}/HempOil">Profit Sharing</a></li>
                         <li><a href="{{URL::to('/')}}/capsules">Referral Links</a></li>
-                        <li><a href="{{URL::to('/')}}/topical">Limitations on Sponsoring</a></li>
-                        <li><a href="{{URL::to('/')}}/vape">On-Line Accounting</a></li>
+                        <li><a href="{{URL::to('/')}}/limitations">Limitations on Sponsoring</a></li>
+                        <li><a href="{{URL::to('/')}}/accounting">On-Line Accounting</a></li>
                         <li><a href="{{URL::to('/')}}/Balms">Member Requirements</a></li>
-                        <li><a href="{{URL::to('/')}}/skincare">Member Agreement</a></li>
-                        <li><a href="{{URL::to('/')}}/cbdoils">Member Terms and Conditions</li>
-                        <li><a href="{{URL::to('/')}}/papin">Auto-Ship Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/edibles">Return Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/edibles">Privacy Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/edibles">General Policies and Procedures</a></li>
+                        <li><a href="{{URL::to('/')}}/mem_agreement3">Member Agreement</a></li>
+                        <li><a href="{{URL::to('/')}}/memberterms3">Member Terms and Conditions</li>
+                        <li><a href="{{URL::to('/')}}/autoship3">Auto-Ship Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/returns3">Return Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/privacy3">Privacy Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/policies3">General Policies and Procedures</a></li>
                     </ul>
 
                 </li>

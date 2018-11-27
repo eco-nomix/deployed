@@ -1,7 +1,7 @@
 <style>
 h1{
     font-size:5.7vw;
-    line-height:7vw;
+    line-height:6vw;
 }
 h2{
     font-size:4.0vw;

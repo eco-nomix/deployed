@@ -6,9 +6,9 @@
 <div id="main">
     <div STYLE="position:absolute; top:50px; left:0px;>
 
-    <img src="../images/freedom.jpg" alt="" title="freedom" width="1200" height="400" >
+    <img src="../images/freedom.jpeg" alt="" title="freedom" width="1200" height="400" />
 
-     <div STYLE="position:absolute; top:250px; left:20px; width:200px; height:25px">
+     <div STYLE="position:absolute; top:50px; left:20px; width:200px; height:25px">
     <h1">CBD Care Group</h1>
      </div>
 

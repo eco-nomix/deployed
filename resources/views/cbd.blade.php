@@ -8,9 +8,9 @@
 
     <img src="../images/freedom.jpg" alt="" title="freedom" width="1200" height="400" data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
-     <DIV STYLE="position:absolute; top:250px; left:20px; width:200px; height:25px">
-    <f1">CBD Care Group</f1>
-     </DIV>
+     <div STYLE="position:absolute; top:250px; left:20px; width:200px; height:25px">
+    <h1">CBD Care Group</h1>
+     </div>
 
     </div>
 

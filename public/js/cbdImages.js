@@ -28,7 +28,7 @@ $(document).ready(function() {
         text1[3] = "Reduce Stress";
         text2[4] = "Polariztion and Micro-Encapsulation";
         text2[1] = "Chronic, arthritis and cancer treatment pain relief";
-        text2[2] = "100 Vegan, no mineral oils, dypes, sulfates or propylene glycol"
+        text2[2] = "100% Vegan, no mineral oils, dypes, sulfates or propylene glycol"
         text2[3] = "Triggers the release of pleasure hormones that relax the mind";
         ctr = ctr+1;
         if (ctr>4) {

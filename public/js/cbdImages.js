@@ -22,14 +22,14 @@ $(document).ready(function() {
     }
 
     function changeImage() {
-        text1[4] = "Latest Technology";
-        text1[1] = "Reduce Pain";
-        text1[2] = "Natural Ingredients";
-        text1[3] = "Reduce Stress";
-        text2[4] = "Polariztion and Micro-Encapsulation";
-        text2[1] = "Chronic, arthritis and cancer treatment pain relief";
-        text2[2] = "100% Vegan, no mineral oils, dypes, sulfates or propylene glycol"
-        text2[3] = "Triggers the release of pleasure hormones that relax the mind";
+        text14 = "Latest Technology";
+        text11 = "Reduce Pain";
+        text12 = "Natural Ingredients";
+        text13 = "Reduce Stress";
+        text24 = "Polariztion and Micro-Encapsulation";
+        text21 = "Chronic, arthritis and cancer treatment pain relief";
+        text22 = "100% Vegan, no mineral oils, dypes, sulfates or propylene glycol"
+        text23 = "Triggers the release of pleasure hormones that relax the mind";
         ctr = ctr+1;
         if (ctr>4) {
             ctr=1;
@@ -40,8 +40,8 @@ $(document).ready(function() {
             pagevar=1;
         }
 
-        document.getElementById("text1").innerHTML = text1[ctr];
-        document.getElementById("text2").innerHTML = text2[ctr];
+        document.getElementById("text1").innerHTML = text1+ctr;
+        document.getElementById("text2").innerHTML = text2+ctr;
         //var imageno = Math.floor(Math.random() * (4))+1;
 
         imagesrc = 'img' + ctr;

@@ -11,9 +11,14 @@
      <div STYLE="position:absolute; top:5vw; left:40vw; width:50vw; height:20vh">
     <h1 style="color:white;">CBD Care Group</h1>
      </div>
-     <div STYLE="position:absolute; top:15vw; left:40vw; width:50vw; height:20vh">
-         <h2 style="color:white;">latest technology</h2>
-          </div>
+    <div STYLE="position:absolute; top:15vw; left:40vw; width:50vw; height:20vh">
+        <h2 style="color:white;">latest technology</h2>
+    </div>
+    <div STYLE="position:absolute; top:15vw; left:40vw; width:50vw; height:20vh">
+      <h3 style="color:white;">CBD Daily is 100% vegan, cruelty-free, and uses natural ingredients - no mineral oils, dyes, sulfates, propylene glycol, phthalates, or parabens. </h3>
+    </div>
+
+
 
     </div>
 

@@ -15,7 +15,7 @@
         <h2 style="color:white;">latest technology</h2>
     </div>
     <div STYLE="position:absolute; top:20vw; left:40vw; width:50vw; height:20vh">
-      <p style="color:white;">CBD Daily is 100% vegan, cruelty-free, and uses natural ingredients - no mineral oils, dyes, sulfates, propylene glycol, phthalates, or parabens. </p>
+      <p style="color:white;">micro-encapsulation and polarizing</p>
     </div>
 
 

@@ -23,7 +23,6 @@ $(document).ready(function() {
         text1[2] = "Reduce Pain";
         text1[3] = "Natural Ingredients";
         text1[4] = "Reduce Stress";
-
         ctr2 = ctr2+1;
         if (ctr2>4) {
             ctr2=1;
@@ -32,6 +31,15 @@ $(document).ready(function() {
     }
 
     function changeImage() {
+        text1[1] = "Latest Technology";
+        text1[2] = "Reduce Pain";
+        text1[3] = "Natural Ingredients";
+        text1[4] = "Reduce Stress";
+
+        ctr = ctr+1;
+        if (ctr>4) {
+            ctr=1;
+        }
 
         pagevar = pagevar+1;
         if (pagevar>36) {

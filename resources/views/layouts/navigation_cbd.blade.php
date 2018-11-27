@@ -21,7 +21,7 @@ p{
 #main{
   width:100%;text-align:center;
   position:absolute;
-  top:-10px+1vw;
+  top:0px;
 
 }
 #div0{

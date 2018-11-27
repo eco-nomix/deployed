@@ -12,10 +12,10 @@
     <h1 style="color:white;">CBD Care Group</h1>
      </div>
     <div STYLE="position:absolute; top:15vw; left:40vw; width:50vw; height:20vh">
-        <h2 id="text1" style="color:white;">latest technology</h2>
+        <h2 id="text1" style="color:white;">Latest Technology</h2>
     </div>
     <div STYLE="position:absolute; top:25vw; left:40vw; width:50vw; height:20vh">
-      <p id="text2" style="color:white;">micro-encapsulation and polarizing</p>
+      <p id="text2" style="color:white;">Micro-encapsulation and Polarizing</p>
     </div>
 
 

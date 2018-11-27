@@ -13,20 +13,26 @@ $(document).ready(function() {
 
         changeImage();
     },2000);
+    setInterval(function () {
+
+        changeText();
+    },4000);
 });
-
-
-    function changeImage() {
+    function changeText() {
         text1[1] = "Latest Technology";
         text1[2] = "Reduce Pain";
         text1[3] = "Natural Ingredients";
         text1[4] = "Reduce Stress";
 
-        ctr = ctr+1;
-        if (ctr>4) {
-            ctr=1;
+        ctr2 = ctr2+1;
+        if (ctr2>4) {
+            ctr2=1;
         }
-        document.getElementById("text1").innerHTML = text1[ctr];
+        document.getElementById("text1").innerHTML = text1[ctr2];
+    }
+
+    function changeImage() {
+
         pagevar = pagevar+1;
         if (pagevar>36) {
             pagevar=1;

@@ -1,11 +1,12 @@
 <style>
 h1{
     font-size:5.7vw;
-    line-height:6vw;
+
+    margin:vw;
 }
 h2{
     font-size:4.0vw;
-    line-height:5vw;
+    margin:5vw;
 }
 h3{
     font-size:3.2vw;

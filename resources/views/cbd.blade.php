@@ -8,8 +8,8 @@
 
     <img src="../images/freedom.jpeg" alt="" title="freedom" width="100%" height=cal(100%/3) />
 
-     <div STYLE="position:absolute; top:0; left:40vw; width:50vw; height:20vh">
-    <h1 style="font-color:white">CBD Care Group</h1>
+     <div STYLE="position:absolute; top:10vh; left:40vw; width:50vw; height:20vh">
+    <h1 style="color:white;">CBD Care Group</h1>
      </div>
 
     </div>

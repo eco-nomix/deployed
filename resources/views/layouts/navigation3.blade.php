@@ -2,6 +2,7 @@
 h1{
     font-size:5.7vw;
     max-font-size:40px;
+
 }
 h2{
     font-size:4.0vw;

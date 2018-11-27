@@ -40,8 +40,10 @@ $(document).ready(function() {
             pagevar=1;
         }
 
-        document.getElementById("text1").innerHTML = text1+ctr;
-        document.getElementById("text2").innerHTML = text2+ctr;
+        document.getElementById("text1").innerHTML = "text1";
+
+        document.getElementById("text2").innerHTML = "text2";
+        
         //var imageno = Math.floor(Math.random() * (4))+1;
 
         imagesrc = 'img' + ctr;

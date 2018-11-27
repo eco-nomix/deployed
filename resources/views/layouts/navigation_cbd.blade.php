@@ -79,6 +79,25 @@ p{
                 </li>
 
             </ul>
+             <ul>
+
+                <li><a href="{{URL::to('/')}}/shop">Income<span class="caret"></span></a>
+                    <ul>
+                        <li><a href="{{URL::to('/')}}/Gummies">Gummies</a></li>
+                        <li><a href="{{URL::to('/')}}/HempOil">Hemp Oil</a></li>
+                        <li><a href="{{URL::to('/')}}/capsules">Capsules</a></li>
+                        <li><a href="{{URL::to('/')}}/topical">Topical</a></li>
+                        <li><a href="{{URL::to('/')}}/vape">Vapes</a></li>
+                        <li><a href="{{URL::to('/')}}/Balms">Balms</a></li>
+                        <li><a href="{{URL::to('/')}}/skincare">Skin Care</a></li>
+                        <li><a href="{{URL::to('/')}}/cbdoils">CBD Oils</a></li>
+                        <li><a href="{{URL::to('/')}}/papin">Pain Treatment</a></li>
+                        <li><a href="{{URL::to('/')}}/edibles">Edibles</a></li>
+                    </ul>
+
+                </li>
+
+                        </ul>
 
             <ul class="pull-right">
                 <li><a href="{{URL::to('/')}}/about4">About</a></li>

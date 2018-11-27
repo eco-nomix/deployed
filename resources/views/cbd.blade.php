@@ -14,7 +14,7 @@
     <div STYLE="position:absolute; top:15vw; left:40vw; width:50vw; height:20vh">
         <h2 style="color:white;">latest technology</h2>
     </div>
-    <div STYLE="position:absolute; top:20vw; left:40vw; width:50vw; height:20vh">
+    <div STYLE="position:absolute; top:25vw; left:40vw; width:50vw; height:20vh">
       <p style="color:white;">micro-encapsulation and polarizing</p>
     </div>
 

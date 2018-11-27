@@ -2,7 +2,7 @@
 h1{
     font-size:5.7vw;
 
-   
+
 }
 h2{
     font-size:4.0vw;

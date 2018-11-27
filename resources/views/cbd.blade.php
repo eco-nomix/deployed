@@ -7,15 +7,16 @@
     <div >
 
     <img id="img0" src="../images/freedom.jpeg" alt="" title="freedom" />
-
-     <div STYLE="position:absolute; top:5vw; left:40vw; width:50vw; height:20vh">
+    <div STYLE="position:absolute; top:5vw;  left:40vw; width:50vw; height:20vh">
+     <div ">
     <h1 style="color:white;">CBD Care Group</h1>
      </div>
-    <div STYLE="position:absolute; top:10vw; left:40vw; width:50vw; height:20vh">
+    <div >
         <h2 id="text1" style="color:white;">Latest Technology</h2>
     </div>
-    <div STYLE="position:absolute; top:20vw; left:40vw; width:50vw; height:20vh">
+    <div >
       <p id="text2" style="color:white;">Micro-encapsulation and Polarizing</p>
+    </div>
     </div>
 
 

@@ -50,7 +50,7 @@ $(document).ready(function() {
 
         imagepath = "../images/fchamgang " + pagevar + ".jpeg";
 
-        document.getElementById(imagesrc).src = imagepath;
+        //document.getElementById(imagesrc).src = imagepath;
     }
 
 

@@ -11,6 +11,9 @@
      <div STYLE="position:absolute; top:5vw; left:40vw; width:50vw; height:20vh">
     <h1 style="color:white;">CBD Care Group</h1>
      </div>
+     <div STYLE="position:absolute; top:10vw; left:40vw; width:50vw; height:20vh">
+         <h1 style="color:white;">latest technology</h1>
+          </div>
 
     </div>
 

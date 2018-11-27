@@ -42,7 +42,7 @@ $(document).ready(function() {
 
         $("#text1").text(text1[ctr]);
         $("#text2").text(text2[ctr]);
-      
+
 
         //var imageno = Math.floor(Math.random() * (4))+1;
 

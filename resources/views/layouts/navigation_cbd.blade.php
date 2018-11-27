@@ -83,16 +83,19 @@ p{
 
                 <li><a href="{{URL::to('/')}}/shop">Income<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/Gummies">Gummies</a></li>
-                        <li><a href="{{URL::to('/')}}/HempOil">Hemp Oil</a></li>
-                        <li><a href="{{URL::to('/')}}/capsules">Capsules</a></li>
-                        <li><a href="{{URL::to('/')}}/topical">Topical</a></li>
-                        <li><a href="{{URL::to('/')}}/vape">Vapes</a></li>
-                        <li><a href="{{URL::to('/')}}/Balms">Balms</a></li>
-                        <li><a href="{{URL::to('/')}}/skincare">Skin Care</a></li>
-                        <li><a href="{{URL::to('/')}}/cbdoils">CBD Oils</a></li>
-                        <li><a href="{{URL::to('/')}}/papin">Pain Treatment</a></li>
-                        <li><a href="{{URL::to('/')}}/edibles">Edibles</a></li>
+                        <li><a href="{{URL::to('/')}}/Gummies">Member Benefit</a></li>
+                        <li><a href="{{URL::to('/')}}/Gummies">Member Cost</a></li>
+                        <li><a href="{{URL::to('/')}}/HempOil">Profit Sharing</a></li>
+                        <li><a href="{{URL::to('/')}}/capsules">Referral Links</a></li>
+                        <li><a href="{{URL::to('/')}}/topical">Limitations on Sponsoring</a></li>
+                        <li><a href="{{URL::to('/')}}/vape">On-Line Accounting</a></li>
+                        <li><a href="{{URL::to('/')}}/Balms">Member Requirements</a></li>
+                        <li><a href="{{URL::to('/')}}/skincare">Member Agreement</a></li>
+                        <li><a href="{{URL::to('/')}}/cbdoils">Member Terms and Conditions</li>
+                        <li><a href="{{URL::to('/')}}/papin">Auto-Ship Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/edibles">Return Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/edibles">Privacy Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/edibles">General Policies and Procedures</a></li>
                     </ul>
 
                 </li>

@@ -102,7 +102,7 @@
         </p>
         </div>
         <div>
-        <img style="float:left; padding:0px 3px 3px 0px;  width:30vw; height:20vw" src="https://nganic.com/wp-content/uploads/2018/03/is-cheaper-cbd-oil-ok-to-buy.jpg"
+        <img style="float:left; padding:0px 3px 3px 0px;  width:30vw; height:20vw" src="./images/discount.jpeg"
           alt="is cheaper cbd oil ok to buy" />
          <p><strong>Is Cheaper Always Better?</strong></p>
         <p>When it comes to CBD oil, cheaper is most certainly not always better because the

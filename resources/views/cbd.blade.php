@@ -59,7 +59,12 @@
         know that your CBD comes from organically grown hemp that can be tracked to its
         US-grown source. In addition through testing should be preformed on all products you could ingest.
         You don't need your CBD to have accumulated
-        toxic substances such as pesticides, herbicides, or heavy metals. </p>
+        toxic substances such as pesticides, herbicides, or heavy metals. These substances have been linked to various
+         cancers such as Leukemia, Myeloma, lymphoma and cancers of the skin, lip, stomach, brain and prostate.</p>
+        </div>
+        <div><p><strong>How much THC is in the CBD product?</strong></p>
+        <p>In order to qualify as a legal hemp product, CBD products must contain less than 0.03% THC.  Make sure your products have low levels, or zero, THC in them. </p>
+        <p>Remember even small amounts of THC can cause you to fail a drug test or have mind-altering affects.</p>
         </div>
     </div>
     <div id="div2" >

@@ -110,8 +110,8 @@
         production of quality CBD just isn’t cheap. CO<sub>2</sub> extraction utilizes
         complex equipment and a high level of expertise as opposed to the cheaper and easier
         chemical extraction processes that can leave residue from toxic solvents like butane,
-        propane, and ethanol in the CBD. While the CO<sub>2</sub> extraction will generally
-        lead to a higher price tag, it does insure quality, purity, and potency – especially when
+        propane, and ethanol in the CBD. While the CO<sub>2</sub> extraction might be more expensive
+        , it does insure quality, purity, and potency – especially when
         used to extract CBD from hemp that has been organically grown in the United States.</p>
         <p><strong>Reasons Higher-Quality CBD May Cost More</strong></p>
         <ul>
@@ -123,36 +123,19 @@
         <li>Made from high-quality, full-spectrum extract, so other beneficial compounds are present</li>
         </ul>
         </div>
+        <div>
+        <p><strong>Additional Things to Look For</strong></p>
+        <p>The CBD product can be enhanced in a number of ways.</p>
+        <p>* There could be additional herbal supplements that can both amplify the effects of the CBD alone and the CBD can impact the delivery of the herbal suppliment.</p>
+        <p>* The CBD product can be micro-encapsulated.  This impacts the absorption of the CBD.  If the product is treated this way, you can find that a smaller dosage can be more effective</p>
+        <p>* The CBD Product can be polarized.  This also assists in the delivery of the CBD.
+        </p>
+        </div>
 
     </div>
-    <div id="div2" >
-        {{--<div  style="float: left; width: 25%; margin:10px; ">--}}
-        {{--<img id="img2" src="../images/fchamgang 2.jpeg" style="width:100%"  />--}}
-         {{--</div>--}}
 
 
 
-    </div>
-    <div id="div3" >
-       {{--<div  style="float: right; width: 25%; margin:10px; ">--}}
-        {{--<img id="img3" src="../images/fchamgang 3.jpeg" style="width:100%"  />--}}
-      {{--</div>--}}
-      <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
-      </p>
-
-
-    </div>
-    <div id="div4" >
-      {{--<div  style="float: left; width: 25%; margin:10px; ">--}}
-        {{--<img id="img4" src="../images/fchamgang 4.jpeg" style="width:100%"  />--}}
-       {{--</div>--}}
-      <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna tortor, tincidunt ac tristique sit amet, condimentum ut erat. Mauris sem mi, ultrices et hendrerit vitae, hendrerit non tortor. Aliquam erat volutpat. Morbi eget leo lorem, ut placerat nisl. Aenean auctor volutpat condimentum. Morbi adipiscing leo et felis faucibus suscipit nec at odio. Pellentesque convallis turpis non sapien facilisis quis volutpat magna venenatis. Etiam nisi metus, imperdiet vitae lobortis sit amet, pharetra ut leo.
-         </p>
-
-
-    </div>
 </div>
 
 @endsection

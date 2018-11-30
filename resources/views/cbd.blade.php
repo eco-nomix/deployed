@@ -50,7 +50,7 @@
         is created equal, meaning it is critical to find the right CBD product for you particular situation.
         </p>
         <div>
-        <img style="float:left; padding:0px 3px 3px 0px;"src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
+        <img style="float:left; padding:0px 3px 3px 0px;" src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
         alt="cbd hemp growing in a field" width="300" height="200" />
         <p><strong>Where Was the Hemp Grown
         and What Could Be In It?</strong></p>
@@ -100,6 +100,28 @@
         tremendous promise of CBD helping people in pretty remarkable ways,
         legitimate CBD companies will refrain from making any direct medical claims.
         </p>
+        </div>
+        <div>
+        <img style="float:left; padding:0px 3px 3px 0px;" src="https://nganic.com/wp-content/uploads/2018/03/is-cheaper-cbd-oil-ok-to-buy.jpg"
+         sizes="(max-width: 300px) 100vw, 300px" alt="is cheaper cbd oil ok to buy" width="300"
+         height="212" />
+         <p><strong><Is Cheaper Always Better?</strong></p>
+        <p>When it comes to CBD oil, cheaper is most certainly not always better because the
+        production of quality CBD just isn’t cheap. CO<sub>2</sub> extraction utilizes
+        complex equipment and a high level of expertise as opposed to the cheaper and easier
+        chemical extraction processes that can leave residue from toxic solvents like butane,
+        propane, and ethanol in the CBD. While the CO<sub>2</sub> extraction will generally
+        lead to a higher price tag, it does insure quality, purity, and potency – especially when
+        used to extract CBD from hemp that has been organically grown in the United States.</p>
+        <p><strong>Reasons Higher-Quality CBD May Cost More</strong></p>
+        <ul>
+        <li>Organically grown</li>
+        <li>Extracted using CO<sub>2</sub> method</li>
+        <li>Higher concentrations of CBD</li>
+        <li>Grown in the United States</li>
+        <li>Tested in third-party labs</li>
+        <li>Made from high-quality, full-spectrum extract, so other beneficial compounds are present</li>
+        </ul>
         </div>
 
     </div>

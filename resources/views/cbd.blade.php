@@ -79,7 +79,11 @@
         <p><strong>How is the CBD Being Extracted?</strong></p>
         <p>Getting CBD from hemp is a complicated process. The cheapest and easiest ways
         to extract CBD from hemp commonly involve harsh solvents that can leave chemical
-        residue in the CBD. The best, and most reliable extraction method, uses carbon dioxide (CO<sub>2</sub>) under high pressure and extremely low temperatures to pull out as much CBD as possible without introducing contaminants. Once the CO<sub>2</sub> is no longer under intense pressure, it simply evaporates, leaving virtually no trace of extraction on the CBD oil.</p>
+        residue in the CBD. The best, and most reliable extraction method, uses carbon dioxide
+        (CO<sub>2</sub>) under high pressure and extremely low temperatures to pull out as
+        much CBD as possible without introducing contaminants. The CO<sub>2</sub> simply evaporates
+        once the pressure is released, leaving virtually no trace of
+        extraction on the CBD.</p>
         <p><strong>Benefits of CO<sub>2</sub> Extraction:</strong></p>
         <ul>
         <li>Ensures high quality</li>
@@ -87,6 +91,16 @@
         <li>Free of butane &amp; propane, and ethanol</li>
         <li>It’s a safe and proven solvent, widely used for foods and dietary supplements</li>
         </ul>
+        </div>
+        <div>
+        <p><strong> What Claims are Being Made?</strong></p>
+        <p>It is a violation of the FDA DSHEA guidelines
+        to make medical claims about the efficacy of CBD products in the treatment of
+        any medical condition or symptom. Although preliminary research has shown
+        tremendous promise of CBD helping people in pretty remarkable ways,
+        legitimate CBD companies will refrain from making any direct medical claims.
+        Be very wary of companies that defy this guideline, because if they disregard
+        this particular rule, what other rules are they willing to ignore?</p>
         </div>
 
     </div>

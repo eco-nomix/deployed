@@ -50,8 +50,8 @@
         is created equal, meaning it is critical to find the right CBD product for you particular situation.
         </p>
         <div>
-        <img style="float:left; padding:0px 3px 3px 0px;" src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
-        alt="cbd hemp growing in a field" width="30vw" height="20vw" />
+        <img style="float:left; padding:0px 3px 3px 0px; width:30vw; height:20vw" src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
+        alt="cbd hemp growing in a field" />
         <p><strong>Where Was the Hemp Grown
         and What Could Be In It?</strong></p>
         <p>Hemp is capable of absorbing both the good and the bad

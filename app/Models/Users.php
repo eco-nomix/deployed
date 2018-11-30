@@ -18,13 +18,12 @@ class Users extends Model
 
     public function checkForRegistration(Request $request)
     {
-        return Users::where('email',$request->input('email'))
+        return Users::where('email', $request->input('email'))
             ->first();
     }
     public function checkForUserName(Request $request)
     {
-        return Users::where('user_name',$request->input('username'))
+        return Users::where('user_name', $request->input('username'))
             ->first();
     }
-
 }

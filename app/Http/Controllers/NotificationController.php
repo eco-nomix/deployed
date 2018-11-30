@@ -32,5 +32,4 @@ class NotificationController extends Controller
             //$message->getSwiftMessage();
         });
     }
-
 }

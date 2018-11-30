@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request as HttpRequest;
 use Symfony\Component\HttpFoundation\File\File as FileInfo;
 
-
 class Documents extends Controller
 {
     public $request;
@@ -27,7 +26,7 @@ class Documents extends Controller
         return Response::download($file);
     }
 
-    public function downloadAll($requestId,Index $index)
+    public function downloadAll($requestId, Index $index)
     {
         $documents = $index->getData($requestId);
         return json_encode($documents->toArray());
@@ -64,5 +63,4 @@ class Documents extends Controller
     {
         return redirect()->away($document->path);
     }
-
 }

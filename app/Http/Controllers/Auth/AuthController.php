@@ -23,26 +23,27 @@ class AuthController extends Controller
     |
     */
 
-    use AuthenticatesAndRegistersUsers, ThrottlesLogins;
+    use AuthenticatesAndRegistersUsers;
+use ThrottlesLogins;
 
     /**
      * Where to redirect users after login / registration.
      *
      * @var string
      */
-    protected $redirectTo = '/';
+protected $redirectTo = '/';
 
-    protected $loginPath = '/login';
+protected $loginPath = '/login';
 
     /**
      * Create a new authentication controller instance.
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('guest', ['except' => 'logout']);
-    }
+public function __construct()
+{
+    $this->middleware('guest', ['except' => 'logout']);
+}
 
     /**
      * Get a validator for an incoming registration request.
@@ -50,15 +51,15 @@ class AuthController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    protected function validator(array $data)
-    {
-        return Validator::make($data, [
-            'last_name' => 'required|max:64',
-            'first_name' => 'required|max:64',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|confirmed|min:6',
-        ]);
-    }
+protected function validator(array $data)
+{
+    return Validator::make($data, [
+    'last_name' => 'required|max:64',
+    'first_name' => 'required|max:64',
+    'email' => 'required|email|max:255|unique:users',
+    'password' => 'required|confirmed|min:6',
+    ]);
+}
 
     /**
      * Create a new user instance after a valid registration.
@@ -66,20 +67,20 @@ class AuthController extends Controller
      * @param  array  $data
      * @return User
      */
-    protected function create(array $data)
-    {
-        return User::create([
-            'first_name' => $data['first_name'],
-            'last_name' => $data['last_name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
-    }
+protected function create(array $data)
+{
+    return User::create([
+    'first_name' => $data['first_name'],
+    'last_name' => $data['last_name'],
+    'email' => $data['email'],
+    'password' => bcrypt($data['password']),
+    ]);
+}
 
-    public function authenticate()
-    {
-        if (Auth::attempt(['email' => $email, 'password' => $password])) {
-            // Authentication passed...
-            return redirect()->intended('dashboard');
+public function authenticate()
+{
+    if (Auth::attempt(['email' => $email, 'password' => $password])) {
+        // Authentication passed...
+        return redirect()->intended('dashboard');
     }
 }

@@ -66,7 +66,7 @@ return [
             'engine'    => null,
         ],
 
-        'services' => array(
+        'services' => [
             'driver'    => 'mysql',
             'host'      => getenv('SERVICES_DB_HOST'),
             'database'  => getenv('SERVICES_DB_DATABASE'),
@@ -75,9 +75,9 @@ return [
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
-        ),
+        ],
 
-        'geonames' => array(
+        'geonames' => [
             'driver'    => 'mysql',
             'host'      => getenv('GEONAMES_DB_HOST'),
             'database'  => getenv('GEONAMES_DB_DATABASE'),
@@ -86,7 +86,7 @@ return [
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
-        ),
+        ],
 
         'pgsql' => [
             'driver'   => 'pgsql',

@@ -14,8 +14,8 @@ class ShoppingCarts extends Model
     public function addToCart($userId, $productId)
     {
         $item = ShoppingCartItems::where('shopping_cart_id', $this->id)
-            ->where('product_id',$productId)->first();
-        if(!$item){
+            ->where('product_id', $productId)->first();
+        if (!$item) {
             $item = new ShoppingCartItems;
             $item->shopping_cart_id = $this->id;
             $item->product_id = $productId;
@@ -27,11 +27,11 @@ class ShoppingCarts extends Model
 
     public function getItemCount($userId)
     {
-        $cartId= ShoppingCarts::where('user_id',$userId)->first();
-        if(!$cartId){
+        $cartId= ShoppingCarts::where('user_id', $userId)->first();
+        if (!$cartId) {
             return 0;
         }
-        return ShoppingCartItems::where('shopping_cart_id',$cartId->id)
-            ->where('quantity','>',0)->count();
+        return ShoppingCartItems::where('shopping_cart_id', $cartId->id)
+            ->where('quantity', '>', 0)->count();
     }
 }

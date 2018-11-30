@@ -24,13 +24,13 @@ class AdminController extends Controller
     public function addProduct($productId, Request $request)
     {
         $data = $this->userData($request);
-        return view('addProduct',$data);
+        return view('addProduct', $data);
     }
     public function config(Request $request)
     {
         $data = $this->userData($request);
         $data['selectNames'] = '';
-        return view('configuration',$data);
+        return view('configuration', $data);
     }
 
     public function configSearch(Request $request)
@@ -39,13 +39,13 @@ class AdminController extends Controller
         \Log::info("in search");
         $lastName = $request->input('last_name');
         \Log::info("lastname=$lastName");
-        $users = Users::where('last_name','like',$lastName.'%')
-            ->orWhere('first_name',$lastName)
+        $users = Users::where('last_name', 'like', $lastName.'%')
+            ->orWhere('first_name', $lastName)
             ->get();
 
 
         $result = "<option value=''>select User</option>";
-        foreach($users as $user){
+        foreach ($users as $user) {
             $result .= "<option value='$user->id'>$user->first_name $user->last_name</option>";
         }
 
@@ -53,16 +53,16 @@ class AdminController extends Controller
         $data['selectNames'] = $result;
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('configuration',$data);
+        return view('configuration', $data);
     }
 
-    public function configUser($userId,Request $request)
+    public function configUser($userId, Request $request)
     {
         $data = $this->userData($request);
         $editUser = Users::find($userId);
         \Log::info("inside configUser for $userId");
-        $userRoles = UserRoles::where('user_id',$userId)->get();
-        if($editUser) {
+        $userRoles = UserRoles::where('user_id', $userId)->get();
+        if ($editUser) {
             $data['user_id'] = $userId;
             $data['first_name'] = $editUser->first_name;
             $data['last_name'] = $editUser->last_name;
@@ -72,8 +72,8 @@ class AdminController extends Controller
             $result = "<option value=''>select Roles</option>";
             foreach ($roles as $role) {
                 $selected = '';
-                foreach ($userRoles as $userRole){
-                    if ($role->id == $userRole->role_id){
+                foreach ($userRoles as $userRole) {
+                    if ($role->id == $userRole->role_id) {
                         $selected = 'selected';
                     }
                 }
@@ -84,21 +84,21 @@ class AdminController extends Controller
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
             return view('configUser', $data);
-        }else{
+        } else {
             $data['selectNames'] = '';
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
-            return view('configuration',$data);
+            return view('configuration', $data);
         }
     }
 
-    public function updateConfigUser($userId,Request $request)
+    public function updateConfigUser($userId, Request $request)
     {
-      $memberRoles =   $request->input('member_roles');
+        $memberRoles =   $request->input('member_roles');
         $newSponserId = $request->input('sponsor_id');
         $editUser = Users::find($userId);
-        $editRoles = UserRoles::where('user_id',$userId)->delete();
-        foreach($memberRoles as $memberRole){
+        $editRoles = UserRoles::where('user_id', $userId)->delete();
+        foreach ($memberRoles as $memberRole) {
             $userRole = new UserRoles;
             $userRole->user_id = $userId;
             $userRole->role_id = $memberRole;
@@ -118,14 +118,14 @@ class AdminController extends Controller
         $data['selectNames'] = '';
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('configuration',$data);
+        return view('configuration', $data);
     }
 
     public function updateDownStream($userId)
     {
         $editUser = Users::find($userId);
-        $seconds = Users::where('sponsor_id',$userId)->get();
-        foreach($seconds as $second){
+        $seconds = Users::where('sponsor_id', $userId)->get();
+        foreach ($seconds as $second) {
             $second->second_id = $editUser->sponsor_id;
             $second->third_id = $editUser->second_id;
             $second->fourth_id = $editUser->third_id;
@@ -138,35 +138,41 @@ class AdminController extends Controller
     public function updateDownStream2($userId)
     {
         $editUser = Users::find($userId);
-        $seconds = Users::where('sponsor_id',$userId)->get();
-        foreach($seconds as $second){
+        $seconds = Users::where('sponsor_id', $userId)->get();
+        foreach ($seconds as $second) {
             \Log::info("updating second=$second->id");
             $second->second_id = $editUser->sponsor_id;
             $second->third_id = $editUser->second_id;
             $second->fourth_id = $editUser->third_id;
             $second->fifth_id = $editUser->fourth_id;
             $second->save();
-            $thirds = Users::where('sponsor_id',$second->id)->get();
-            if(!$thirds) \Log::info("didn't find any thirds");
-            foreach($thirds as $third){
+            $thirds = Users::where('sponsor_id', $second->id)->get();
+            if (!$thirds) {
+                \Log::info("didn't find any thirds");
+            }
+            foreach ($thirds as $third) {
                 \Log::info("third=$third->id");
                 $third->second_id = $second->sponsor_id;
                 $third->third_id = $second->second_id;
                 $third->fourth_id = $second->third_id;
                 $third->fifth_id = $second->fourth_id;
                 $third->save();
-                $fourths = Users::where('sponsor_id',$third->id)->get();
-                if(!$fourths) \Log::info("didn't find any fourths");
-                foreach($fourths as $fourth){
+                $fourths = Users::where('sponsor_id', $third->id)->get();
+                if (!$fourths) {
+                    \Log::info("didn't find any fourths");
+                }
+                foreach ($fourths as $fourth) {
                     \Log::info("fourth=$fourth->id");
                     $fourth->second_id = $third->sponsor_id;
                     $fourth->third_id = $third->second_id;
                     $fourth->fourth_id = $third->third_id;
                     $fourth->fifth_id = $third->fourth_id;
                     $fourth->save();
-                    $fifths = Users::where('sponsor_id',$fourth->id)->get();
-                    if(!$fifths) \Log::info("didn't find any fifths");
-                    foreach($fifths as $fifth){
+                    $fifths = Users::where('sponsor_id', $fourth->id)->get();
+                    if (!$fifths) {
+                        \Log::info("didn't find any fifths");
+                    }
+                    foreach ($fifths as $fifth) {
                         \Log::info("fifth=$fifth->id");
                         $fifth->second_id = $fourth->sponsor_id;
                         $fifth->third_id = $fourth->second_id;
@@ -180,11 +186,11 @@ class AdminController extends Controller
     }
 
 
-    public function editUser($userId,Request $request)
+    public function editUser($userId, Request $request)
     {
         $data = $this->userData($request);
         $editUser = Users::find($userId);
-        if($editUser) {
+        if ($editUser) {
             $data['user_id'] = $userId;
             $data['username'] = $editUser->user_name;
             $data['password'] = $editUser->password;
@@ -216,20 +222,20 @@ class AdminController extends Controller
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
             return view('editUser', $data);
-        }else{
+        } else {
             $data['selectNames'] = '';
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
-            return view('management',$data);
+            return view('management', $data);
         }
     }
 
-    public function updateUser($userId,Request $request)
+    public function updateUser($userId, Request $request)
     {
 
-        if($request->input('Delete')){
+        if ($request->input('Delete')) {
             Users::find($userId)->delete();
-        }else {
+        } else {
             $editUser = Users::find($userId);
             $editUser->user_name = $request->input('username');
             $editUser->password = $request->input('password');
@@ -252,7 +258,7 @@ class AdminController extends Controller
         $data['selectNames'] = '';
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('management',$data);
+        return view('management', $data);
     }
 
     public function search(Request $request)
@@ -260,13 +266,13 @@ class AdminController extends Controller
         \Log::info("in search");
         $lastName = $request->input('last_name');
         \Log::info("lastname=$lastName");
-        $users = Users::where('last_name','like',$lastName.'%')
-                    ->orWhere('first_name',$lastName)
+        $users = Users::where('last_name', 'like', $lastName.'%')
+                    ->orWhere('first_name', $lastName)
                     ->get();
 
 
         $result = "<option value=''>select User</option>";
-        foreach($users as $user){
+        foreach ($users as $user) {
             $result .= "<option value='$user->id'>$user->first_name $user->last_name</option>";
         }
 
@@ -274,7 +280,7 @@ class AdminController extends Controller
         $data['selectNames'] = $result;
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('management',$data);
+        return view('management', $data);
     }
 
     public function management(Request $request)
@@ -283,7 +289,7 @@ class AdminController extends Controller
         $data['selectNames'] = '';
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('management',$data);
+        return view('management', $data);
     }
 
     public function userData($request)
@@ -300,10 +306,10 @@ class AdminController extends Controller
         \Log::info("username3 = $username");
         $data['user_id'] =$request->session()->get('user_id');
 
-        $user = Users::find($data['user_id'] );
-        if($user){
+        $user = Users::find($data['user_id']);
+        if ($user) {
             $referralLink = "http://KineticGold.org/referred/$user->id";
-        }else{
+        } else {
             $referralLink = "Not Logged in";
         }
         $data['referral_link'] = $referralLink;
@@ -317,17 +323,17 @@ class AdminController extends Controller
     }
     public function productsStart(Request $request)
     {
-          return $this->productList(0,0,$request);
+          return $this->productList(0, 0, $request);
     }
 
-    public function productList($productGroup, $subGroup,$request)
+    public function productList($productGroup, $subGroup, $request)
     {
         $data = $this->userData($request);
         $data['ProductGroups'] = $this->productGroups($productGroup);
-        $data['ProductSubgroups'] = $this->productSubgroups($productGroup,$subGroup);
+        $data['ProductSubgroups'] = $this->productSubgroups($productGroup, $subGroup);
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('books',$data);
+        return view('books', $data);
     }
     public function products(Request $request)
     {
@@ -335,22 +341,22 @@ class AdminController extends Controller
         $productGroup = $request->input('ProductGroupList')?:1;
         $data['ProductGroups'] = $this->productGroups($productGroup);
         $subGroup = $request->input('SubGroupList')?:9;
-        $data['ProductSubgroups'] = $this->productSubgroups($productGroup,$subGroup);
+        $data['ProductSubgroups'] = $this->productSubgroups($productGroup, $subGroup);
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('books',$data);
+        return view('books', $data);
     }
 
     public function productGroups($selected)
     {
-        $productGroups= ProductGroups::where('Parent_id',$selected)->orderBy('group_order')->lists('name','id');
-        $select = $this->groupSelect($productGroups,$selected);
+        $productGroups= ProductGroups::where('Parent_id', $selected)->orderBy('group_order')->pluck('name', 'id');
+        $select = $this->groupSelect($productGroups, $selected);
         return $select;
     }
 
     public function productSubgroups($productGroup, $selected)
     {
-        $productGroups= ProductGroups::where('Parent_id',$productGroup)->orderBy('group_order')->lists('name','id');
+        $productGroups= ProductGroups::where('Parent_id', $productGroup)->orderBy('group_order')->pluck('name', 'id');
         $select = $this->prepareSelect($productGroups, $selected);
         return $select;
     }
@@ -358,7 +364,7 @@ class AdminController extends Controller
     {
         $results = "<select name='ProductGroupList' style='width:300px;' onchange='this.form.submit()' > ";
         $selectField = ($selected == 0)?'selected':'';
-        foreach($productGroups as $id=>$productGroup){
+        foreach ($productGroups as $id => $productGroup) {
             $selectField = ($id == $selected)?'selected':'';
             $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
         }
@@ -372,13 +378,11 @@ class AdminController extends Controller
         $selectField = ($selected == 0)?'selected':'';
         $results .= "<option value = '99999' $selectField>New SubGroup</option>";
 
-        foreach($productGroups as $id=>$productGroup){
+        foreach ($productGroups as $id => $productGroup) {
             $selectField = ($id == $selected)?'selected':'';
             $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
         }
         $results .="</select>";
         return $results;
     }
-
-
 }

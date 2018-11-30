@@ -41,9 +41,9 @@ class PagesController extends Controller
         $user = Users::find($userId);
         $name = $request->root();
         \Log::info("root = $name");
-        if($user){
+        if ($user) {
             $referralLink = "http://kineticgold.org/referred/$user->id";
-        }else{
+        } else {
             $referralLink = "Not Logged in";
         }
         $data['referral_link']= $referralLink;
@@ -61,27 +61,27 @@ class PagesController extends Controller
         $data = $this->userData($request);
         $name = $request->root();
         \Log::info("root = $name");
-        if(stristr($name,"golddiggerz")){
+        if (stristr($name, "golddiggerz")) {
 //        if($name == 'http://golddiggerz.org' || $name == 'http://www.golddiggerz.org'){
             $data = $this->userData($request);
             $data['title'] = 'GoldDiggers';
             $data['description'] = 'Introduction';
-            return view('info',$data);
+            return view('info', $data);
         }
-        if(stristr($name,"tibfoundation")){
+        if (stristr($name, "tibfoundation")) {
 //        if($name == 'http://www.tibfoundation.org' || $name == 'http://www.tibfoundation.com' || $name == 'http://tibfoundation.org' || $name == 'http://tibfoundation.com' || $name == 'http://45.55.41.46'){
             $data = $this->userData($request);
             $data['title'] = 'TIBFoundation';
             $data['description'] = 'Introduction';
-            return view('tib',$data);
+            return view('tib', $data);
         }
-        if(stristr($name,"cbdcaregroup")){
+        if (stristr($name, "cbdcaregroup")) {
             $data = $this->userData($request);
             $data['title'] = 'CBD Care Group';
             $data['description'] = 'Introduction';
-            return view('cbd',$data);
+            return view('cbd', $data);
         }
-        if(stristr($name,"tchamgang")){
+        if (stristr($name, "tchamgang")) {
 //            $ch = curl_init('https://textbelt.com/text');
 //            $data = array(
 //                'phone' => '8646085404',
@@ -98,34 +98,34 @@ class PagesController extends Controller
             $data = $this->userData($request);
             $data['title'] = 'tchamgang';
             $data['description'] = 'tchamgang';
-            return view('tchamgang',$data);
+            return view('tchamgang', $data);
         }
 
         $data['title'] = 'KineticGold';
         $data['imageUrl'] = '../images/denmark.jpg';
         $data['description'] = 'cryptocurrency banking system';
-        return view('welcome',$data);
+        return view('welcome', $data);
     }
     public function test(Request $request)
     {
 
         $data = $this->userData($request);
-        $random = rand(1,4);
-        if($random == 1) {
+        $random = rand(1, 4);
+        if ($random == 1) {
             $data['imageUrl'] = '../images/EarthRise.jpg';
             $data['message'] = 'kinetic-nomix\'s purpose is to provide the highest
             quality products to its customers that will help them improve
             their lives physically, emotionally, spirtually and economically.';
-        }elseif ($random == 2){
+        } elseif ($random == 2) {
             $data['imageUrl'] = '../images/MustardTree.jpg';
             $data['message'] = 'What we choose to do today will start out small
             like a seedling, but over time can become great for all the world to
             see.';
-        }elseif($random == 3){
+        } elseif ($random == 3) {
             $data['imageUrl'] = '../images/HandsPlant.jpg';
             $data['message'] = 'Our future is something to be planned for, prepared
             for and even nutured.  ';
-        }else{
+        } else {
             $data['imageUrl'] = '../images/Grass.jpg';
             $data['message'] = 'The decisions we make daily in what products
             that we choose to purchase will impact not only our own lives, but
@@ -134,7 +134,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold';
         $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
 
-        return view('welcome2',$data);
+        return view('welcome2', $data);
     }
     public function about(Request $request)
     {
@@ -142,7 +142,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold';
         $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
 
-        return view('about',$data);
+        return view('about', $data);
     }
     public function about2(Request $request)
     {
@@ -150,7 +150,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers ';
         $data['description'] = '';
 
-        return view('about2',$data);
+        return view('about2', $data);
     }
     public function about3(Request $request)
     {
@@ -158,7 +158,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation ';
         $data['description'] = '';
 
-        return view('about3',$data);
+        return view('about3', $data);
     }
     public function accounting(Request $request)
     {
@@ -166,7 +166,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Accounting';
         $data['description'] = 'Accounting';
 
-        return view('accounting',$data);
+        return view('accounting', $data);
     }
 
 
@@ -176,7 +176,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Autoship';
         $data['description'] = 'Autoship Policy';
 
-        return view('autoship',$data);
+        return view('autoship', $data);
     }
     public function autoship2(Request $request)
     {
@@ -184,7 +184,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Autoship';
         $data['description'] = 'Autoship Policy';
 
-        return view('autoship2',$data);
+        return view('autoship2', $data);
     }
     public function autoship3(Request $request)
     {
@@ -192,7 +192,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation Autoship';
         $data['description'] = 'Autoship Policy';
 
-        return view('autoship3',$data);
+        return view('autoship3', $data);
     }
 
     public function info(Request $request)
@@ -201,7 +201,7 @@ class PagesController extends Controller
         $data['title'] = 'GoldDiggers';
         $data['description'] = 'Introduction';
 
-        return view('info',$data);
+        return view('info', $data);
     }
     public function tib(Request $request)
     {
@@ -209,7 +209,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation';
         $data['description'] = 'Introduction';
 
-        return view('tib',$data);
+        return view('tib', $data);
     }
 
     public function present(Request $request)
@@ -218,7 +218,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Presentation';
         $data['description'] = 'Presentation';
 
-        return view('presentation',$data);
+        return view('presentation', $data);
     }
 
     public function benefits(Request $request)
@@ -227,7 +227,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Member Benefits';
         $data['description'] = 'KineticGold Member Benefits';
 
-        return view('benefits',$data);
+        return view('benefits', $data);
     }
     public function benefits2(Request $request)
     {
@@ -235,7 +235,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Digger Member Benefits';
         $data['description'] = 'Gold Digger Member Benefits';
 
-        return view('benefits2',$data);
+        return view('benefits2', $data);
     }
     public function benefits3(Request $request)
     {
@@ -243,7 +243,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation Member Benefits';
         $data['description'] = 'TIB Foundation Member Benefits';
 
-        return view('benefits3',$data);
+        return view('benefits3', $data);
     }
 
     public function businesscards(Request $request)
@@ -252,7 +252,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Business Cards';
         $data['description'] = 'KineticGold Business Cards';
 
-        return view('businesscards',$data);
+        return view('businesscards', $data);
     }
     public function cryptocurrency(Request $request)
     {
@@ -260,7 +260,7 @@ class PagesController extends Controller
         $data['title'] = 'Cryptocurrency';
         $data['description'] = 'Details of KineticGold Cryptocurrency';
 
-        return view('cryptocurrency',$data);
+        return view('cryptocurrency', $data);
     }
 
     public function ewallet(Request $request)
@@ -269,7 +269,7 @@ class PagesController extends Controller
         $data['title'] = 'Ewallet';
         $data['description'] = 'Details of KineticGold Ewallet';
 
-        return view('ewallet',$data);
+        return view('ewallet', $data);
     }
 
     public function bankinterface(Request $request)
@@ -278,16 +278,16 @@ class PagesController extends Controller
         $data['title'] = 'Kinetic Golds Interface';
         $data['description'] = 'KineticGold unique Interface between Cryptocurrency and the Off-Shore Bank';
 
-        return view('bankinterface',$data);
+        return view('bankinterface', $data);
     }
 
-       public function offshorebank(Request $request)
+    public function offshorebank(Request $request)
     {
         $data = $this->userData($request);
         $data['title'] = 'Kinetic Golds Offshore bank';
         $data['description'] = 'KineticGold Offshore Bank';
 
-        return view('offshorebank',$data);
+        return view('offshorebank', $data);
     }
     public function rewards(Request $request)
     {
@@ -295,7 +295,7 @@ class PagesController extends Controller
         $data['title'] = 'Kinetic Golds Rewards Program';
         $data['description'] = 'KineticGold Rewards Program';
 
-        return view('rewards',$data);
+        return view('rewards', $data);
     }
 
     public function profitsharing(Request $request)
@@ -304,7 +304,7 @@ class PagesController extends Controller
         $data['title'] = 'Kinetic Golds Profit Sharing Program';
         $data['description'] = 'KineticGold Profit Sharing Program';
 
-        return view('profitsharing',$data);
+        return view('profitsharing', $data);
     }
 
 
@@ -316,16 +316,16 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Startup Package';
         $data['description'] = 'KineticGold Startup Package';
 
-        return view('startup',$data);
+        return view('startup', $data);
     }
 
     public function referrallinks(Request $request)
     {
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
-        if($user){
+        if ($user) {
             $referralLink = "kineticgold.org/referred/$user->id";
-        }else{
+        } else {
             $referralLink = "Need to login to see your referral link";
         }
         $data = $this->userData($request);
@@ -333,7 +333,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Referral Links';
         $data['description'] = 'KineticGold Referral Links';
 
-        return view('referrallinks',$data);
+        return view('referrallinks', $data);
     }
 
     public function selfreliance(Request $request)
@@ -342,12 +342,12 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Self Reliance';
         $data['description'] = 'KineticGold Self Reliance';
 
-        return view('self_reliance',$data);
+        return view('self_reliance', $data);
     }
-    public function addBlanks($results,$modd)
+    public function addBlanks($results, $modd)
     {
-        if($modd >0){
-            for($modd;$modd<6;$modd++){
+        if ($modd >0) {
+            for ($modd; $modd<6; $modd++) {
                // if($modd % 2){
                //     $cl = "class = 'eighth'";
               //  }else{
@@ -364,12 +364,12 @@ class PagesController extends Controller
     {
         $data = $this->userData($request);
         $subGroup = $request->input('ProductGroupList')?:23;
-        $data['Categories'] = $this->productCategories(7,$subGroup);
+        $data['Categories'] = $this->productCategories(7, $subGroup);
         $data['productSummary'] = $this->productSummary($subGroup);
         $data['title'] = 'KineticGold Books';
         $data['description'] = 'KineticGold Books';
 
-        return view('books',$data);
+        return view('books', $data);
     }
 
     public function stores($productGroup, Request $request)
@@ -377,32 +377,28 @@ class PagesController extends Controller
         $data = $this->userData($request);
         $data['stores'] = $this->storeList($productGroup);
         $data['product_group'] = $productGroup;
-        if($productGroup == 38) {
+        if ($productGroup == 38) {
             $data['title'] = 'Boutiques';
             $data['store_type'] = 'Boutique';
             $data['description'] = 'Member Boutiques';
-        }
-        elseif($productGroup == 39){
+        } elseif ($productGroup == 39) {
             $data['title'] = 'Art Galleries';
             $data['store_type'] = 'Art Gallery';
             $data['description'] = 'Member Art Galleries';
-        }
-        elseif($productGroup == 40){
+        } elseif ($productGroup == 40) {
             $data['title'] = 'Estate Sales';
             $data['store_type'] = 'Estate Sale';
             $data['description'] = 'Estate Sales';
-        }
-        elseif($productGroup == 41){
+        } elseif ($productGroup == 41) {
             $data['title'] = 'Services';
             $data['store_type'] = 'Services';
             $data['description'] = 'Member Services';
-        }
-        elseif($productGroup == 42){
+        } elseif ($productGroup == 42) {
             $data['title'] = 'Stores';
             $data['store_type'] = 'Stores';
             $data['description'] = 'Member Stores';
         }
-        return view('stores',$data);
+        return view('stores', $data);
     }
     public function camping(Request $request)
     {
@@ -410,7 +406,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Camping Products';
         $data['description'] = 'KineticGold Camping Products';
 
-        return view('camping',$data);
+        return view('camping', $data);
     }
     public function charities(Request $request)
     {
@@ -418,7 +414,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Charitable Donations';
         $data['description'] = 'KineticGold Charitable Donations';
 
-        return view('charities',$data);
+        return view('charities', $data);
     }
     public function cooking(Request $request)
     {
@@ -426,7 +422,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Cooking Products';
         $data['description'] = 'KineticGold Cooking Products';
 
-        return view('cooking',$data);
+        return view('cooking', $data);
     }
 
     public function comparison(Request $request)
@@ -435,7 +431,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Multi-Level Comparison';
         $data['description'] = 'KineticGold Multi-Level Comparison';
 
-        return view('comparison',$data);
+        return view('comparison', $data);
     }
     public function contact(Request $request)
     {
@@ -443,7 +439,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Contact';
         $data['description'] = 'KineticGold Contact';
 
-        return view('contact',$data);
+        return view('contact', $data);
     }
     public function contact2(Request $request)
     {
@@ -451,7 +447,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Contact';
         $data['description'] = 'Gold Diggers Contact';
 
-        return view('contact2',$data);
+        return view('contact2', $data);
     }
     public function returns3(Request $request)
     {
@@ -459,7 +455,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation Returns';
         $data['description'] = 'Returns';
 
-        return view('returns3',$data);
+        return view('returns3', $data);
     }
     public function debitcards(Request $request)
     {
@@ -467,7 +463,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Payroll Cards';
         $data['description'] = 'KineticGold Payroll Cards';
 
-        return view('debitcards',$data);
+        return view('debitcards', $data);
     }
 
     public function discount(Request $request)
@@ -476,7 +472,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Member Discount';
         $data['description'] = 'KineticGold Member Discount';
 
-        return view('discount',$data);
+        return view('discount', $data);
     }
 
     public function donations(Request $request)
@@ -485,7 +481,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Charitable Donations';
         $data['description'] = 'KineticGold Charitable Donations';
 
-        return view('donations',$data);
+        return view('donations', $data);
     }
     public function kineticnomically(Request $request)
     {
@@ -493,7 +489,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold economical benefit';
         $data['description'] = 'KineticGold Business Cards';
 
-        return view('kineticnomically',$data);
+        return view('kineticnomically', $data);
     }
     public function emotionally(Request $request)
     {
@@ -501,7 +497,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Emotional Benefits';
         $data['description'] = 'KineticGold Emotional Benefits';
 
-        return view('emotionally',$data);
+        return view('emotionally', $data);
     }
     public function energy(Request $request)
     {
@@ -509,7 +505,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Energy Products';
         $data['description'] = 'KineticGold Energy Products';
 
-        return view('energy',$data);
+        return view('energy', $data);
     }
     public function experiences(Request $request)
     {
@@ -517,7 +513,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Member Experiences';
         $data['description'] = 'KineticGold Member Experiences';
 
-        return view('experiences',$data);
+        return view('experiences', $data);
     }
     public function food(Request $request)
     {
@@ -525,7 +521,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Food Products';
         $data['description'] = 'KineticGold Food Products';
 
-        return view('food',$data);
+        return view('food', $data);
     }
     public function founders(Request $request)
     {
@@ -533,7 +529,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Founders';
         $data['description'] = 'KineticGold Founders';
 
-        return view('founders',$data);
+        return view('founders', $data);
     }
     public function groups(Request $request)
     {
@@ -541,7 +537,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Sponsored Groups';
         $data['description'] = 'KineticGold Sponsored Groups';
 
-        return view('groups',$data);
+        return view('groups', $data);
     }
     public function health(Request $request)
     {
@@ -549,7 +545,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Health Products';
         $data['description'] = 'KineticGold Health Products';
 
-        return view('health',$data);
+        return view('health', $data);
     }
 
     public function house(Request $request)
@@ -558,7 +554,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Household Products';
         $data['description'] = 'KineticGold Household Products';
 
-        return view('house',$data);
+        return view('house', $data);
     }
     public function editHomepage(Request $request)
     {
@@ -580,7 +576,7 @@ class PagesController extends Controller
         $editUser->member_story = $request->input('member_story');
         $editUser->social_security = $request->input('social_security');
         $picture = $this->addImage($userId, $request);
-        if($picture > '') {
+        if ($picture > '') {
             $editUser->picture = $picture;
         }
         $editUser->save();
@@ -595,7 +591,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Member Personal Information';
         $data['description'] = 'KineticGold Personal Information';
         $data = $this->userData($request);
-        if($editUser) {
+        if ($editUser) {
             $data['user_id'] = $userId;
             $data['username'] = $editUser->user_name;
             $data['password'] = $editUser->password;
@@ -615,14 +611,13 @@ class PagesController extends Controller
             $data['picture'] = $editUser->picture;
             $status = RegistrationStatus::where('member_status', $editUser->member)->first();
             $data['MemberStatus'] = $status->description;
-            return view('homepage',$data);
-        }else{
+            return view('homepage', $data);
+        } else {
             $data['selectNames'] = '';
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
-            return view('management',$data);
+            return view('management', $data);
         }
-
     }
 
     public function itemCount(Request $request)
@@ -637,12 +632,12 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Limitations on Marketing';
         $data['description'] = 'KineticGold Limitations on Marketing';
 
-        return view('limitations',$data);
+        return view('limitations', $data);
     }
     public function logout(Request $request)
     {
         $data = $this->userData($request);
-        return view('logout',$data);
+        return view('logout', $data);
     }
     public function members(Request $request)
     {
@@ -650,7 +645,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Members';
         $data['description'] = 'KineticGold Members';
 
-        return view('members',$data);
+        return view('members', $data);
     }
 
     public function memberagreement(Request $request)
@@ -659,7 +654,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Member Agreement';
         $data['description'] = 'KineticGold Member Agreement';
 
-        return view('mem_agreement',$data);
+        return view('mem_agreement', $data);
     }
 
     public function memberagreement2(Request $request)
@@ -668,7 +663,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Member Agreement';
         $data['description'] = 'Gold DiggersMember Agreement';
 
-        return view('mem_agreement2',$data);
+        return view('mem_agreement2', $data);
     }
     public function memberagreement3(Request $request)
     {
@@ -676,7 +671,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation Member Agreement';
         $data['description'] = 'TIB Foundation Member Agreement';
 
-        return view('mem_agreement3',$data);
+        return view('mem_agreement3', $data);
     }
 
     public function membercost(Request $request)
@@ -686,7 +681,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Member Cost';
         $data['description'] = 'KineticGold Member Cost';
 
-        return view('membercost',$data);
+        return view('membercost', $data);
     }
     public function membercost2(Request $request)
     {
@@ -695,7 +690,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Member Cost';
         $data['description'] = 'KineticGold Member Cost';
 
-        return view('membercost2',$data);
+        return view('membercost2', $data);
     }
     public function membercost3(Request $request)
     {
@@ -704,7 +699,7 @@ class PagesController extends Controller
         $data['title'] = 'TIB Foundation Member Cost';
         $data['description'] = 'TIB Foundation Member Cost';
 
-        return view('membercost3',$data);
+        return view('membercost3', $data);
     }
     public function memberterms(Request $request)
     {
@@ -712,7 +707,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Member Agreement Terms and Conditions';
         $data['description'] = 'KineticGold Member Agreement Terms and Conditions';
 
-        return view('memberterms',$data);
+        return view('memberterms', $data);
     }
     public function memberterms2(Request $request)
     {
@@ -734,7 +729,7 @@ class PagesController extends Controller
     public function money(Request $request)
     {
         $data = $this->userData($request);
-        return view('money',$data);
+        return view('money', $data);
     }
 
     public function people(Request $request)
@@ -743,7 +738,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold People Involved';
         $data['description'] = 'KineticGold People Involved';
 
-        return view('people',$data);
+        return view('people', $data);
     }
     public function physically(Request $request)
     {
@@ -751,7 +746,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Physical Benefits';
         $data['description'] = 'KineticGold Physical Benefits';
 
-        return view('physically',$data);
+        return view('physically', $data);
     }
     public function plans(Request $request)
     {
@@ -759,7 +754,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Business Plan';
         $data['description'] = 'KineticGold Business Plan';
 
-        return view('plans',$data);
+        return view('plans', $data);
     }
     public function plans2(Request $request)
     {
@@ -767,7 +762,7 @@ class PagesController extends Controller
         $data['title'] = 'Details';
         $data['description'] = 'Gold Diggers Association Details';
 
-        return view('plans2',$data);
+        return view('plans2', $data);
     }
     public function plans3(Request $request)
     {
@@ -775,7 +770,7 @@ class PagesController extends Controller
         $data['title'] = 'Details';
         $data['description'] = 'TIB Foundation Details';
 
-        return view('plans3',$data);
+        return view('plans3', $data);
     }
     public function potential(Request $request)
     {
@@ -783,7 +778,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Potential Income';
         $data['description'] = 'KineticGold Potential Income';
 
-        return view('potential',$data);
+        return view('potential', $data);
     }
 
     public function product($productId, Request $request)
@@ -795,7 +790,7 @@ class PagesController extends Controller
         $data['title'] = $product->product_name.' - '.$product->Author;
         $data['description'] = $product->description;
 
-        return view($product->display_page,$data);
+        return view($product->display_page, $data);
     }
     public function products(Request $request)
     {
@@ -803,7 +798,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Products';
         $data['description'] = 'KineticGold Products';
 
-        return view('products',$data);
+        return view('products', $data);
     }
     public function productsSum(Request $request)
     {
@@ -811,7 +806,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Products';
         $data['description'] = 'KineticGold Products';
 
-        return view('productsSum',$data);
+        return view('productsSum', $data);
     }
 
     public function prepareSelect($productGroups, $selected)
@@ -820,7 +815,7 @@ class PagesController extends Controller
         $selectField = ($selected == 0)?'selected':'';
       //  $results .= "<option value = '0' $selectField>All Users</option>";
 
-        foreach($productGroups as $id=>$productGroup){
+        foreach ($productGroups as $id => $productGroup) {
             $selectField = ($id == $selected)?'selected':'';
             $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
         }
@@ -830,7 +825,7 @@ class PagesController extends Controller
 
     public function productCategories($productGroup, $selected)
     {
-        $productGroups= ProductGroups::where('Parent_id',$productGroup)->orderBy('group_order')->lists('name','id');
+        $productGroups= ProductGroups::where('Parent_id', $productGroup)->orderBy('group_order')->pluck('name', 'id');
         $select = $this->prepareSelect($productGroups, $selected);
         return $select;
     }
@@ -840,29 +835,29 @@ class PagesController extends Controller
     {
         $results = '';
 
-        $products = Products::where('product_group',$subGroup)->orderBy('group_order')->get();
+        $products = Products::where('product_group', $subGroup)->orderBy('group_order')->get();
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
-        if(count($products)==0){
+        if (count($products)==0) {
             $results .= "<td>No books in this category, Coming Soon</td>";
             $ctr = 8;
         }
 
-        foreach($products as $product){
+        foreach ($products as $product) {
             $results .= "<td class='eighth'><a href=\"product/$product->id\"><img src=\"images\\$product->image\" width=\"135px;\"></a></td>";
             $results .= "<td ><a href=\"product/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->Author."</b><br>".$product->display_description;
-            $results .= substr($description,0,260)."...</a></td>";
+            $results .= substr($description, 0, 260)."...</a></td>";
             $ctr++;
             $ctr++;
             $modd = $ctr % 6;
             \Log::info("ctr=$ctr  mod=$modd");
-            if($modd == 0){
+            if ($modd == 0) {
                 $results .= "</tr><tr>";
             }
         }
-        $results = $this->addBlanks($results,$modd);
+        $results = $this->addBlanks($results, $modd);
         $results .= "</tr>";
         return $results;
     }
@@ -872,7 +867,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Purpose';
         $data['description'] = 'Spiritual, Economic, Physical, Emotional';
 
-        return view('purpose',$data);
+        return view('purpose', $data);
     }
     public function purpose2(Request $request)
     {
@@ -880,7 +875,7 @@ class PagesController extends Controller
         $data['title'] ='Gold Diggers Purpose';
         $data['description'] = 'Spiritual, Economic, Physical, Emotional';
 
-        return view('purpose2',$data);
+        return view('purpose2', $data);
     }
     public function purpose3(Request $request)
     {
@@ -888,28 +883,28 @@ class PagesController extends Controller
         $data['title'] ='TIB Foundations Purpose';
         $data['description'] = 'Beat the Banks at their own game';
 
-        return view('purpose3',$data);
+        return view('purpose3', $data);
     }
     public function policies(Request $request)
     {
         $data = $this->userData($request);
         $data['title'] = 'KineticGold Policies and Procedures';
         $data['description'] = 'Policies and Procedures';
-        return view('policies',$data);
+        return view('policies', $data);
     }
     public function policies2(Request $request)
     {
         $data = $this->userData($request);
         $data['title'] = 'Gold Digger Policies and Procedures';
         $data['description'] = 'Policies and Procedures';
-        return view('policies2',$data);
+        return view('policies2', $data);
     }
     public function policies3(Request $request)
     {
         $data = $this->userData($request);
         $data['title'] = 'TIB Foundation Policies and Procedures';
         $data['description'] = 'Policies and Procedures';
-        return view('policies3',$data);
+        return view('policies3', $data);
     }
 
     public function privacy(Request $request)
@@ -917,21 +912,21 @@ class PagesController extends Controller
         $data = $this->userData($request);
         $data['title'] = 'KineticGold Privacy Policy';
         $data['description'] = 'Privacy Policy';
-        return view('privacy',$data);
+        return view('privacy', $data);
     }
     public function privacy2(Request $request)
     {
         $data = $this->userData($request);
         $data['title'] = 'Gold Diggers Privacy Policy';
         $data['description'] = 'Privacy Policy';
-        return view('privacy2',$data);
+        return view('privacy2', $data);
     }
     public function privacy3(Request $request)
     {
         $data = $this->userData($request);
         $data['title'] = 'TIB Privacy Policy';
         $data['description'] = 'Privacy Policy';
-        return view('privacy3',$data);
+        return view('privacy3', $data);
     }
     public function recycling(Request $request)
     {
@@ -939,7 +934,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Recycling Products';
         $data['description'] = 'KineticGold Recycling Products';
 
-        return view('recycling',$data);
+        return view('recycling', $data);
     }
     public function referral(Request $request)
     {
@@ -947,7 +942,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Referral Bonuses';
         $data['description'] = 'KineticGold Referral Bonuses';
 
-        return view('referral',$data);
+        return view('referral', $data);
     }
 
     public function returns(Request $request)
@@ -956,7 +951,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Return Policy';
         $data['description'] = 'KineticGold Return Policy';
 
-        return view('returns',$data);
+        return view('returns', $data);
     }
     public function returns2(Request $request)
     {
@@ -964,7 +959,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Return Policy';
         $data['description'] = 'Gold Diggers Return Policy';
 
-        return view('returns2',$data);
+        return view('returns2', $data);
     }
     public function requirements(Request $request)
     {
@@ -972,7 +967,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Requirements for Bonuses';
         $data['description'] = 'KineticGold Requirements for Bonuses';
 
-        return view('requirements',$data);
+        return view('requirements', $data);
     }
     public function requirements2(Request $request)
     {
@@ -980,7 +975,7 @@ class PagesController extends Controller
         $data['title'] = 'Gold Diggers Association Requirements';
         $data['description'] = 'Gold Diggers Association Requirements';
 
-        return view('requirements2',$data);
+        return view('requirements2', $data);
     }
 
     public function selection(Request $request)
@@ -989,7 +984,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Product Selection';
         $data['description'] = 'KineticGold Product Selection';
 
-        return view('selection',$data);
+        return view('selection', $data);
     }
     public function spiritually(Request $request)
     {
@@ -997,7 +992,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Spiritual Benefits';
         $data['description'] = 'KineticGold Spiritual Benefits';
 
-        return view('spiritually',$data);
+        return view('spiritually', $data);
     }
     public function training(Request $request)
     {
@@ -1005,7 +1000,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Training Products';
         $data['description'] = 'KineticGold Training Products';
 
-        return view('training',$data);
+        return view('training', $data);
     }
 
     public function transfers(Request $request)
@@ -1014,7 +1009,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Immediate Transfer of Funds';
         $data['description'] = 'KineticGold Immediate Transfer of Funds';
 
-        return view('transfers',$data);
+        return view('transfers', $data);
     }
     public function water(Request $request)
     {
@@ -1022,7 +1017,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Water Purification Products';
         $data['description'] = 'KineticGold Water Purification Products';
 
-        return view('water',$data);
+        return view('water', $data);
     }
     public function linksfood(Request $request)
     {
@@ -1030,7 +1025,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Food Production';
         $data['description'] = 'KineticGold Video Food Production';
 
-        return view('linksfood',$data);
+        return view('linksfood', $data);
     }
     public function linkswater(Request $request)
     {
@@ -1038,7 +1033,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Water Purification';
         $data['description'] = 'KineticGold Video Water Purification';
 
-        return view('linkswater',$data);
+        return view('linkswater', $data);
     }
     public function linksenergy(Request $request)
     {
@@ -1046,7 +1041,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Energy Production';
         $data['description'] = 'Solar, Water, Bio-gas Videos';
 
-        return view('linksenergy',$data);
+        return view('linksenergy', $data);
     }
     public function linksrecycling(Request $request)
     {
@@ -1054,7 +1049,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Recycling';
         $data['description'] = 'KineticGold Video Recycling';
 
-        return view('linksrecycling',$data);
+        return view('linksrecycling', $data);
     }
     public function linkscamping(Request $request)
     {
@@ -1062,7 +1057,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Camping and Survival';
         $data['description'] = 'Video Camping and Survival';
 
-        return view('linkscamping',$data);
+        return view('linkscamping', $data);
     }
     public function linkscooking(Request $request)
     {
@@ -1070,7 +1065,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Cooking Systems';
         $data['description'] = 'Cooking Systems';
 
-        return view('linkscooking',$data);
+        return view('linkscooking', $data);
     }
     public function linkshealth(Request $request)
     {
@@ -1078,7 +1073,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Healthy Lifestyles';
         $data['description'] = 'Video Health Lifestyles';
 
-        return view('linkshealth',$data);
+        return view('linkshealth', $data);
     }
     public function linkshouse(Request $request)
     {
@@ -1086,7 +1081,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Household Products';
         $data['description'] = 'Video Household Products';
 
-        return view('linkshouse',$data);
+        return view('linkshouse', $data);
     }
     public function traininglinks(Request $request)
     {
@@ -1094,7 +1089,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Training Links';
         $data['description'] = 'Video Training Links';
 
-        return view('traininglinks',$data);
+        return view('traininglinks', $data);
     }
     public function introduction(Request $request)
     {
@@ -1102,7 +1097,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Introduction to Marketing Plan';
         $data['description'] = 'Introduction to Marketing Plan';
 
-        return view('introduction',$data);
+        return view('introduction', $data);
     }
     public function introduction2(Request $request)
     {
@@ -1110,7 +1105,7 @@ class PagesController extends Controller
         $data['title'] = 'Introduction to Kinetic Gold';
         $data['description'] = 'Introduction to Kinetic Gold';
 
-        return view('introduction2',$data);
+        return view('introduction2', $data);
     }
     public function introduction9(Request $request)
     {
@@ -1118,7 +1113,7 @@ class PagesController extends Controller
         $data['title'] = 'Introduction to Kinetic Gold';
         $data['description'] = 'Introduction to Kinetic Gold';
 
-        return view('introduction9',$data);
+        return view('introduction9', $data);
     }
     public function linksgardening(Request $request)
     {
@@ -1126,7 +1121,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Gardening';
         $data['description'] = 'Video Gardening';
 
-        return view('linksgardening',$data);
+        return view('linksgardening', $data);
     }
     public function linksgreenhouses(Request $request)
     {
@@ -1134,7 +1129,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Greenhouses';
         $data['description'] = 'Video Greenhouses';
 
-        return view('linksgreenhouses',$data);
+        return view('linksgreenhouses', $data);
     }
 
     public function linkspoultry(Request $request)
@@ -1143,7 +1138,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Poultry Raising';
         $data['description'] = 'Video Poultry Raising';
 
-        return view('linkspoultry',$data);
+        return view('linkspoultry', $data);
     }
     public function linkslivestock(Request $request)
     {
@@ -1151,7 +1146,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Raising Livestock';
         $data['description'] = 'Raising Livestock';
 
-        return view('linkslivestock',$data);
+        return view('linkslivestock', $data);
     }
     public function linksprotection(Request $request)
     {
@@ -1159,7 +1154,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Home Protection';
         $data['description'] = 'Video Home Protection';
 
-        return view('linksprotection',$data);
+        return view('linksprotection', $data);
     }
     public function linksorchards(Request $request)
     {
@@ -1167,7 +1162,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Orchard Management';
         $data['description'] = 'Video Orchard Management';
 
-        return view('linksorchards',$data);
+        return view('linksorchards', $data);
     }
     public function linksaquaponics(Request $request)
     {
@@ -1175,7 +1170,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Aquaponics Systems';
         $data['description'] = 'Video Aquaponics Systems';
 
-        return view('linksaquaponics',$data);
+        return view('linksaquaponics', $data);
     }
 
     public function linksbeekeeping(Request $request)
@@ -1184,7 +1179,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Beekeeping';
         $data['description'] = 'Video Beekeeping';
 
-        return view('linksbeekeeping',$data);
+        return view('linksbeekeeping', $data);
     }
     public function linksbiogas(Request $request)
     {
@@ -1192,7 +1187,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold Video Bio-Gas Digestors';
         $data['description'] = 'Video Bio-Gas Digestors';
 
-        return view('linksbiogas',$data);
+        return view('linksbiogas', $data);
     }
 
     public function storeList($productGroup)
@@ -1202,17 +1197,23 @@ class PagesController extends Controller
 //        $data['description'] = 'Video Bio-Gas Digestors';
 //
 //        return view('linksbiogas',$data);
-        return UserStores::where('product_group',$productGroup)->orderBy('name')->get();
+        return UserStores::where('product_group', $productGroup)->orderBy('name')->get();
     }
     public function addImage($userId, Request $request)
     {
 
         $file = $request->file('file');
-        if(!is_object($file)) return 0;
+        if (!is_object($file)) {
+            return 0;
+        }
         $fileIsValid = $request->file('file')->isValid();
-        if(!$fileIsValid) return 0;
+        if (!$fileIsValid) {
+            return 0;
+        }
         $mimeType = $file->getMimeType();
-        if($mimeType != 'image/jpeg' and $mimeType != 'image/png') return 0;
+        if ($mimeType != 'image/jpeg' and $mimeType != 'image/png') {
+            return 0;
+        }
         //  dd($mimeType);
         $extension = ($mimeType == 'image/jpeg')?'.jpeg':'.png';
 
@@ -1222,5 +1223,4 @@ class PagesController extends Controller
 
         return $name;
     }
-
 }

@@ -50,10 +50,11 @@
         is created equal, meaning it is critical to find the right CBD product for you particular situation.
         </p>
         <div>
-        <img class="alignleft wp-image-2839 size-full" src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
-        alt="cbd hemp growing in a field" width="300" height="200" /><p><strong>1.  Where Was the Hemp Grown
+        <img style="float:left"src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
+        alt="cbd hemp growing in a field" width="300" height="200" />
+        <p><strong>1.  Where Was the Hemp Grown
         and What Might Be In It?</strong></p>
-        <p>Hemp is a bioaccumulator, meaning it is capable of absorbing both the good and the bad
+        Hemp is a bioaccumulator, meaning it is capable of absorbing both the good and the bad
         from the air, water, and soil in which it’s grown. This makes it all the more important to
         know that your CBD oil comes from organically grown hemp that can be tracked to its
         US-grown source. The last thing buyers want is for their CBD oil to have accumulated
@@ -63,7 +64,7 @@
         chemicals used to harm other species can also be harmful to our own species. That’s
         one big reason behind the global push to go organic. People are starting to prioritize
         organic crops, whether you’re talking about fruits, vegetables, grains, legumes, nuts,
-        livestock feed – even textiles like cotton, wool, and flax.</p>
+        livestock feed – even textiles like cotton, wool, and flax.
         </div>
     </div>
     <div id="div2" >

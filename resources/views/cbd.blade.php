@@ -51,7 +51,7 @@
         </p>
         <div>
         <img style="float:left; padding:0px 3px 3px 0px;" src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
-        alt="cbd hemp growing in a field" width="300" height="200" />
+        alt="cbd hemp growing in a field" width="30vw" height="20vw" />
         <p><strong>Where Was the Hemp Grown
         and What Could Be In It?</strong></p>
         <p>Hemp is capable of absorbing both the good and the bad
@@ -103,8 +103,8 @@
         </div>
         <div>
         <img style="float:left; padding:0px 3px 3px 0px;" src="https://nganic.com/wp-content/uploads/2018/03/is-cheaper-cbd-oil-ok-to-buy.jpg"
-         sizes="(max-width: 300px) 100vw, 300px" alt="is cheaper cbd oil ok to buy" width="300"
-         height="212" />
+         sizes="(max-width: 300px) 100vw, 300px" alt="is cheaper cbd oil ok to buy" width="30vw"
+         height="21vw" />
          <p><strong>Is Cheaper Always Better?</strong></p>
         <p>When it comes to CBD oil, cheaper is most certainly not always better because the
         production of quality CBD just isn’t cheap. CO<sub>2</sub> extraction utilizes

@@ -825,7 +825,7 @@ class PagesController extends Controller
 
     public function productCategories($productGroup, $selected)
     {
-        $productGroups= ProductGroups::where('Parent_id', $productGroup)->orderBy('group_order')->lists('name', 'id');
+        $productGroups= ProductGroups::where('Parent_id', $productGroup)->orderBy('group_order')->pluck('name', 'id');
         $select = $this->prepareSelect($productGroups, $selected);
         return $select;
     }

@@ -228,7 +228,7 @@ class StoreController extends Controller
 
         $user = Users::find($userId);
         \Log::info("in add store pg=$productGroup  UserId=$userId");
-        $stores = UserStores::where('product_group', $productGroup)->where('user_id', $userId)->orderBy('name')->lists('name', 'id');
+        $stores = UserStores::where('product_group', $productGroup)->where('user_id', $userId)->orderBy('name')->pluck('name', 'id');
         $data = $this->userData($request);
         $data['stores'] = $stores;
         $data['shippingTypes'] = $this->shipping();
@@ -272,7 +272,7 @@ class StoreController extends Controller
     {
         $store = UserStores::find($storeId);
         $user = Users::find($store->user_id);
-        $stores = UserStores::where('user_id', $user->id)->orderBy('name')->lists('name', 'id');
+        $stores = UserStores::where('user_id', $user->id)->orderBy('name')->pluck('name', 'id');
         $data = $this->userData($request);
 
         $data['stores'] = $stores;
@@ -330,7 +330,7 @@ class StoreController extends Controller
         if ($addProducts) {
             return $this->addProducts($storeId, $request);
         }
-        $stores = UserStores::where('user_id', $user->id)->orderBy('name')->lists('name', 'id');
+        $stores = UserStores::where('user_id', $user->id)->orderBy('name')->pluck('name', 'id');
         $data = $this->userData($request);
         $data['stores'] = $stores;
         $data['shippingTypes'] = $this->shipping();
@@ -408,7 +408,7 @@ class StoreController extends Controller
 
     public function storeCategories()
     {
-        return ProductCategories::orderBy('display_order')->lists('name', 'id');
+        return ProductCategories::orderBy('display_order')->pluck('name', 'id');
     }
 
     public function addProductImage(Request $request, $productId)
@@ -462,7 +462,7 @@ class StoreController extends Controller
 
     public function shipping()
     {
-        return ShippingTypes::orderBy('description')->lists('description', 'id');
+        return ShippingTypes::orderBy('description')->pluck('description', 'id');
     }
 
     public function storeProducts($storeId)

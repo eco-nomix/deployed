@@ -50,7 +50,7 @@
         is created equal, meaning it is critical to find the right CBD product for you particular situation.
         </p>
         <div>
-        <img style="float:left; margins:2px;"src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
+        <img style="float:left; padding:0px 3px 3px 0px;"src="https://nganic.com/wp-content/uploads/2018/03/cbd-hemp-growing-in-field-1.jpg"
         alt="cbd hemp growing in a field" width="300" height="200" />
         <p><strong>Where Was the Hemp Grown
         and What Could Be In It?</strong></p>

@@ -66,6 +66,15 @@
         <p>In order to qualify as a legal hemp product, CBD products must contain less than 0.03% THC.  Make sure your products have low levels, or zero, THC in them. </p>
         <p>Remember even small amounts of THC can cause you to fail a drug test or have mind-altering affects.</p>
         </div>
+
+        <div><p><strong>Is the CBD Potent and Pure?</strong></p>
+        <p><ul>The product should be free of
+        <li>Pesticides</li>
+        <li>Bacteria and Fungus</li>
+        <li>Residual Solvents</li>
+        <li>Heavy metals</li></ul></p>
+        </div>
+        
     </div>
     <div id="div2" >
         {{--<div  style="float: left; width: 25%; margin:10px; ">--}}

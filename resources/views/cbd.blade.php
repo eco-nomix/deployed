@@ -27,6 +27,7 @@
       {{--<div  style="float: right; width: 25%; margin:10px; ">--}}
         {{--<img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />--}}
          {{--</div>--}}
+         
         <p>Many people are now discovering the benefits of CBD oil. CBD is a cannabinoid which is basically chemicals found in the cannabis plant. Some of these cannabinoids contain traces of oil.</p>
         <p>One of the most well-known compounds of the cannabis plant is THC or tetrahydrocannabinol. Once the THC is broken down by heat and ingested, it can create a high. Although THC and CBD both come from the cannabis plant, it is only THC which is mind altering and gives you a high.</p>
         <p>Although more people are becoming aware of the health benefits of CBD oil, many still associate it with marijuana and getting high.</p>

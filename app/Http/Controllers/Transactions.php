@@ -13,10 +13,9 @@ class Transactions
     public function loadProductInTransaction($newTrans, $userId, $role, $productId)
     {
         $product = Products::find($productId);
-        if ($role ==1){
+        if ($role ==1) {
             $cost = $product->member;
-        }
-        else{
+        } else {
             $cost = $product->non_member;
         }
 
@@ -30,7 +29,7 @@ class Transactions
         $detail->pay_bonus = $pay_bonus;
         $detail->shipping = $product->shipping_handling;
         $detail->save();
-        $this->updateTransaction($newTrans,$detail);
+        $this->updateTransaction($newTrans, $detail);
         return $newTrans;
     }
 
@@ -39,11 +38,10 @@ class Transactions
             $trans->total_items += $detail->amount;
             $trans->total_shipping += $detail->shipping;
             $trans->total_order =  $trans->total_items + $trans->total_shipping;
-            if ($detail->pay_bonus ==1){
-                $trans->pay_bonus_on_amt += $detail->amount;
-            }
+        if ($detail->pay_bonus ==1) {
+            $trans->pay_bonus_on_amt += $detail->amount;
+        }
             $trans->save();
-
     }
 
     public function NewTransaction($userId)
@@ -57,7 +55,5 @@ class Transactions
         $sales_transaction->pay_bonus_on_amt = 0;
         $sales_transaction->save();
         return $sales_transaction;
-
     }
-
 }

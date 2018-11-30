@@ -16,222 +16,210 @@ use App\Models\Feedback;
 
 class AccountsController extends Controller
 {
-	public function user(){
-		$data = $this->userData(request());
+    public function user()
+    {
+        $data = $this->userData(request());
 
-		$data['referal_commission'] = Bonuses::where('payee_user_id',session()->get('user_id'))
-												->with('transactionDetails')
-												->has('transactionDetails')
-												->get();
+        $data['referal_commission'] = Bonuses::where('payee_user_id', session()->get('user_id'))
+                                                ->with('transactionDetails')
+                                                ->has('transactionDetails')
+                                                ->get();
 
-		$data['total_r_c'] = 0;
+        $data['total_r_c'] = 0;
 
-		foreach ($data['referal_commission'] as $rc) {
-			
-			$sales_details = SalesTransactionDetails::where('transaction_id',$rc->transaction_id)->first();
+        foreach ($data['referal_commission'] as $rc) {
+            $sales_details = SalesTransactionDetails::where('transaction_id', $rc->transaction_id)->first();
 
-			$product =Products::find($sales_details->product_id);
+            $product =Products::find($sales_details->product_id);
 
-			$rc->product_name = $product->product_name;
+            $rc->product_name = $product->product_name;
 
 
-			$rc->product_amt = $sales_details->amount;
+            $rc->product_amt = $sales_details->amount;
 
-			$temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s',$sales_details->date);
+            $temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $sales_details->date);
 
-			if( isset($temp_date) ){
-				$rc->date = $temp_date->format('m-d-Y');
-			}
-			else{
-				$rc->date = '-';
-			}
+            if (isset($temp_date)) {
+                $rc->date = $temp_date->format('m-d-Y');
+            } else {
+                $rc->date = '-';
+            }
 
-			$data['total_r_c'] += $rc->amount;
-		}
+            $data['total_r_c'] += $rc->amount;
+        }
 
-		$data['is_user_have_debit_card'] = EcoDebitCards::where('user_id',session()->get('user_id'))->first();
+        $data['is_user_have_debit_card'] = EcoDebitCards::where('user_id', session()->get('user_id'))->first();
 
-		return view('users-accounts',$data);
-	}
-	
-	public function productHistory(){
+        return view('users-accounts', $data);
+    }
+    
+    public function productHistory()
+    {
 
-		$data = $this->userData(request());
+        $data = $this->userData(request());
 
-		$user = \App\Models\Users::find(session()->get('user_id'));
+        $user = \App\Models\Users::find(session()->get('user_id'));
 
-		$data['history'] = false;
+        $data['history'] = false;
 
-		if( $user ){
+        if ($user) {
+            $shopping_cart = \App\Models\ShoppingCarts::where('user_id', $user->id)->first();
 
-			$shopping_cart = \App\Models\ShoppingCarts::where('user_id',$user->id)->first();
+            if ($shopping_cart) {
+                $items = \App\Models\SalesTransactionDetails::where('purchased_by', $user->id)
+                                                                ->orderBy('id', 'desc')
+                                                                ->get();
 
-			if( $shopping_cart ){
+                if (count($items) > 0) {
+                    $data['history'] = true;
 
-				$items = \App\Models\SalesTransactionDetails::where('purchased_by',$user->id)
-																->orderBy('id','desc')
-																->get();
+                    foreach ($items as $item) {
+                        $item->product_name = $item->product->product_name;
+                        $item->price = $item->amount;
 
-				if( count($items) > 0 ){
-					$data['history'] = true;
+                        if ($item->status == 2) {
+                            $item->status = 'Delievered';
+                        } elseif ($item->status == 1) {
+                            $item->status = 'Shipped';
+                        } else {
+                            $item->status = 'Pending';
+                        }
+                    }
 
-					foreach ($items as $item) {
+                    $data['items'] = $items;
+                }
+            }
+        }
 
-						$item->product_name = $item->product->product_name;
-						$item->price = $item->amount;
+        return view('user-product-history', $data);
+    }
 
-						if( $item->status == 2 ){
-							$item->status = 'Delievered';
-						}
-						elseif( $item->status == 1 ){
-							$item->status = 'Shipped';
-						}
-						else{
-							$item->status = 'Pending';
-						}
-					}
+    public function distributor()
+    {
+        $data = $this->userData(request());
 
-					$data['items'] = $items;
-				}
-			}
-		}
+        $data['is_user_have_debit_card'] = EcoDebitCards::where('user_id', session()->get('user_id'))->first();
 
-		return view('user-product-history',$data);
-	}
+        $temp_distributor_commission = DistributorCommission::where('user_id', session()->get('user_id'))->with('transactionDetails')->has('transactionDetails')->get();
 
-	public function distributor(){
-		$data = $this->userData(request());
+        $data['total_d_c'] = 0;
 
-		$data['is_user_have_debit_card'] = EcoDebitCards::where('user_id',session()->get('user_id'))->first();
+        foreach ($temp_distributor_commission as $tdc) {
+            if (!$tdc->transactionDetails) {
+                continue;
+            }
+            $product =Products::find($tdc->transactionDetails->product_id);
+            
+            if ($product) {
+                $tdc->product_name = $product->product_name;
+            } else {
+                $tdc->product_name = '';
+            }
 
-		$temp_distributor_commission = DistributorCommission::where('user_id',session()->get('user_id'))->with('transactionDetails')->has('transactionDetails')->get();
+            $temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $tdc->transactionDetails->date);
 
-		$data['total_d_c'] = 0;
+            if (isset($temp_date)) {
+                $tdc->date = $temp_date->format('m-d-Y');
+            } else {
+                $tdc->date = '-';
+            }
 
-		foreach ($temp_distributor_commission as $tdc) {
-			if( !$tdc->transactionDetails ){
-				continue;
-			}
-			$product =Products::find($tdc->transactionDetails->product_id);
-			
-			if( $product ){
-				$tdc->product_name = $product->product_name;
-			}
-			else{
-				$tdc->product_name = '';
-			} 
+            $data['total_d_c'] += $tdc->amount;
+        }
 
-			$temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s',$tdc->transactionDetails->date);
+        $data['distributor_commission'] = $temp_distributor_commission;
 
-			if( isset($temp_date) ){
-				$tdc->date = $temp_date->format('m-d-Y');
-			}
-			else{
-				$tdc->date = '-';
-			}
+        $data['referal_commission'] = Bonuses::where('payee_user_id', session()->get('user_id'))->get();
 
-			$data['total_d_c'] += $tdc->amount;
-		}
+        $data['total_r_c'] = 0;
 
-		$data['distributor_commission'] = $temp_distributor_commission;
+        foreach ($data['referal_commission'] as $rc) {
+            $sales_details = SalesTransactionDetails::where('transaction_id', $rc->transaction_id)->first();
 
-		$data['referal_commission'] = Bonuses::where('payee_user_id',session()->get('user_id'))->get();
+            $product =Products::find($sales_details->product_id);
 
-		$data['total_r_c'] = 0;
+            $rc->product_name = $product->product_name;
 
-		foreach ($data['referal_commission'] as $rc) {
-			
-			$sales_details = SalesTransactionDetails::where('transaction_id',$rc->transaction_id)->first();
 
-			$product =Products::find($sales_details->product_id);
+            $rc->product_amt = $sales_details->amount;
 
-			$rc->product_name = $product->product_name;
+            $temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $sales_details->date);
 
+            if (isset($temp_date)) {
+                $rc->date = $temp_date->format('m-d-Y');
+            } else {
+                $rc->date = '-';
+            }
 
-			$rc->product_amt = $sales_details->amount;
+            $data['total_r_c'] += $rc->amount;
+        }
 
-			$temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s',$sales_details->date);
+        return view('distributor-accounts', $data);
+    }
 
-			if( isset($temp_date) ){
-				$rc->date = $temp_date->format('m-d-Y');
-			}
-			else{
-				$rc->date = '-';
-			}
+    public function getComplaintPage()
+    {
+        $data = $this->userData(request());
 
-			$data['total_r_c'] += $rc->amount;
-		}
+        $user = \App\Models\Users::find(session()->get('user_id'));
 
-		return view('distributor-accounts',$data);
-	}
+        $data['history'] = false;
 
-	public function getComplaintPage(){
-		$data = $this->userData(request());
+        if ($user) {
+            $shopping_cart = \App\Models\ShoppingCarts::where('user_id', $user->id)->first();
 
-		$user = \App\Models\Users::find(session()->get('user_id'));
+            if ($shopping_cart) {
+                $items = \App\Models\SalesTransactionDetails::where('purchased_by', $user->id)
+                                                                ->orderBy('id', 'desc')
+                                                                ->get();
+                if (count($items) > 0) {
+                    $data['history'] = true;
+                    foreach ($items as $item) {
+                        $item->product_name = $item->product->product_name;
+                        $item->price = $item->amount;
+                    }
+                    $data['items'] = $items;
+                }
+            }
+        }
+                
+        return view('complaint_page', $data);
+    }
 
-		$data['history'] = false;
+    public function distributorProductHistory()
+    {
+        $data = $this->userData(request());
 
-		if( $user ){
+        $user = \App\Models\Users::find(session()->get('user_id'));
 
-			$shopping_cart = \App\Models\ShoppingCarts::where('user_id',$user->id)->first();
+        $data['history'] = false;
 
-			if( $shopping_cart ){
+        if ($user) {
+            $shopping_cart = \App\Models\ShoppingCarts::where('user_id', $user->id)->first();
 
-				$items = \App\Models\SalesTransactionDetails::where('purchased_by',$user->id)
-																->orderBy('id','desc')
-																->get();
-				if( count($items) > 0 ){
-					$data['history'] = true;
-					foreach ($items as $item) {
-						$item->product_name = $item->product->product_name;
-						$item->price = $item->amount;						
-					}
-					$data['items'] = $items;
-				}
-			}
-		}
-				
-		return view('complaint_page',$data);
-	}
+            if ($shopping_cart) {
+                $items = \App\Models\SalesTransactionDetails::where('purchased_by', $user->id)
+                                                                ->orderBy('id', 'desc')
+                                                                ->get();
 
-	public function distributorProductHistory(){
-		$data = $this->userData(request());
+                if (count($items) > 0) {
+                    $data['history'] = true;
 
-		$user = \App\Models\Users::find(session()->get('user_id'));
+                    foreach ($items as $item) {
+                        $item->product_name = $item->product->product_name;
+                        $item->price = $item->amount;
+                    }
 
-		$data['history'] = false;
+                    $data['items'] = $items;
+                }
+            }
+        }
 
-		if( $user ){
+        return view('user-product-history', $data);
+    }
 
-			$shopping_cart = \App\Models\ShoppingCarts::where('user_id',$user->id)->first();
-
-			if( $shopping_cart ){
-
-				$items = \App\Models\SalesTransactionDetails::where('purchased_by',$user->id)
-																->orderBy('id','desc')
-																->get();
-
-				if( count($items) > 0 ){
-					
-					$data['history'] = true;
-
-					foreach ($items as $item) {
-
-						$item->product_name = $item->product->product_name;
-						$item->price = $item->amount;
-						
-					}
-
-					$data['items'] = $items;
-				}
-			}
-		}
-
-		return view('user-product-history',$data);
-	}
-
-	public function userData($request){
+    public function userData($request)
+    {
         $ecosponsor = $request->cookie('ecosponsor');
         $data['ecosponsor'] = $ecosponsor;
         \Log::info("ecosponsor1 = $ecosponsor");
@@ -242,9 +230,9 @@ class AccountsController extends Controller
         \Log::info("username1 = $username");
         $data['user_id'] = $request->session()->get('user_id');
         $user = Users::find($data['user_id']);
-        if($user){
+        if ($user) {
             $referralLink = "http://KineticGold.org/referred/$user->id";
-        }else{
+        } else {
             $referralLink = "Not Logged in";
         }
         $data['referral_link'] = $referralLink;
@@ -257,456 +245,438 @@ class AccountsController extends Controller
         return $data;
     }
 
-    public function admin(){
-		$data = $this->userData(request());
+    public function admin()
+    {
+        $data = $this->userData(request());
 
-		$temp_distributor_commission = DistributorCommission::query();
+        $temp_distributor_commission = DistributorCommission::query();
 
-		if( (request()->get('type') == 'distributor') && request()->get('id') ){
-			$temp_distributor_commission->where('user_id',request()->get('id'));		
-		}
+        if ((request()->get('type') == 'distributor') && request()->get('id')) {
+            $temp_distributor_commission->where('user_id', request()->get('id'));
+        }
 
-		$temp_distributor_commission = $temp_distributor_commission->with('transactionDetails')
-																	->has('transactionDetails')
-																	->orderBy('id','desc')->get();
+        $temp_distributor_commission = $temp_distributor_commission->with('transactionDetails')
+                                                                    ->has('transactionDetails')
+                                                                    ->orderBy('id', 'desc')->get();
 
-		$data['total_d_c'] = 0;
+        $data['total_d_c'] = 0;
 
-		foreach ($temp_distributor_commission as $tdc) {
+        foreach ($temp_distributor_commission as $tdc) {
+            $product =Products::find($tdc->transactionDetails->product_id);
+            
+            if ($product) {
+                $tdc->product_name = $product->product_name;
+            } else {
+                $tdc->product_name = '';
+            }
 
-			$product =Products::find($tdc->transactionDetails->product_id);
-			
-			if( $product ){
-				$tdc->product_name = $product->product_name;
-			}
-			else{
-				$tdc->product_name = '';
-			} 
+            $temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $tdc->transactionDetails->date);
 
-			$temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s',$tdc->transactionDetails->date);
+            if (isset($temp_date)) {
+                $tdc->date = $temp_date->format('m-d-Y');
+            } else {
+                $tdc->date = '-';
+            }
 
-			if( isset($temp_date) ){
-				$tdc->date = $temp_date->format('m-d-Y');
-			}
-			else{
-				$tdc->date = '-';
-			}
+            $temp_owner = \App\Models\Users::find($tdc->user_id);
+            $tdc->owner = $temp_owner ? ($temp_owner->first_name.' '.$temp_owner->last_name):'';
 
-			$temp_owner = \App\Models\Users::find($tdc->user_id);
-			$tdc->owner = $temp_owner ? ($temp_owner->first_name.' '.$temp_owner->last_name):'';
+            $data['total_d_c'] += $tdc->amount;
+        }
 
-			$data['total_d_c'] += $tdc->amount;
-		}
+        $data['distributor_commission'] = $temp_distributor_commission;
 
-		$data['distributor_commission'] = $temp_distributor_commission;
+        $data['referal_commission'] = Bonuses::query();
 
-		$data['referal_commission'] = Bonuses::query();
+        if ((request()->get('type') == 'user') && request()->get('id')) {
+            $data['referal_commission']->where('payee_user_id', request()->get('id'));
+        }
 
-		if( (request()->get('type') == 'user') && request()->get('id') ){
-			$data['referal_commission']->where('payee_user_id',request()->get('id'));		
-		}
+        $data['referal_commission'] = $data['referal_commission']->with('transactionDetails')
+                                                                    ->has('transactionDetails')
+                                                                    ->orderBy('id', 'desc')->get();
 
-		$data['referal_commission'] = $data['referal_commission']->with('transactionDetails')
-																	->has('transactionDetails')
-																	->orderBy('id','desc')->get();
+        $data['total_r_c'] = 0;
 
-		$data['total_r_c'] = 0;
+        foreach ($data['referal_commission'] as $rc) {
+            $sales_details = SalesTransactionDetails::where('transaction_id', $rc->transaction_id)->first();
 
-		foreach ($data['referal_commission'] as $rc) {
+            $product =Products::find($sales_details->product_id);
 
-			$sales_details = SalesTransactionDetails::where('transaction_id',$rc->transaction_id)->first();
-
-			$product =Products::find($sales_details->product_id);
-
-			$rc->product_name = $product->product_name;
+            $rc->product_name = $product->product_name;
 
 
-			$rc->product_amt = $sales_details->amount;
+            $rc->product_amt = $sales_details->amount;
 
-			$temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s',$sales_details->date);
+            $temp_date = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $sales_details->date);
 
-			if( isset($temp_date) ){
-				$rc->date = $temp_date->format('m-d-Y');
-			}
-			else{
-				$rc->date = '-';
-			}
+            if (isset($temp_date)) {
+                $rc->date = $temp_date->format('m-d-Y');
+            } else {
+                $rc->date = '-';
+            }
 
-			$temp_owner = \App\Models\Users::find($rc->payee_user_id);
+            $temp_owner = \App\Models\Users::find($rc->payee_user_id);
 
-			$rc->owner = $temp_owner ? ($temp_owner->first_name .' '. $temp_owner->last_name) : '';
+            $rc->owner = $temp_owner ? ($temp_owner->first_name .' '. $temp_owner->last_name) : '';
 
-			$data['total_r_c'] += $rc->amount;
-		}
+            $data['total_r_c'] += $rc->amount;
+        }
 
-		// Distributor List
+        // Distributor List
 
-		$user_list = \App\Models\Users::all();
+        $user_list = \App\Models\Users::all();
 
-		$data['user_list'] = [];
-		$data['distributor_list'] = [];
+        $data['user_list'] = [];
+        $data['distributor_list'] = [];
 
-		foreach ($user_list as $l) {
-			$l_store = \App\Models\UserStores::where('user_id',$l->id)->first();
-			
-			if( $l_store ){
-				$data['distributor_list'][] = [
-					'id' => $l->id,
-					'name' => $l->first_name .' '. $l->last_name,
-				];
-			}
-			else{
-				$data['user_list'][] = [
-					'id' => $l->id,
-					'name' => $l->first_name .' '. $l->last_name,
-				];
-			}
-		}
+        foreach ($user_list as $l) {
+            $l_store = \App\Models\UserStores::where('user_id', $l->id)->first();
+            
+            if ($l_store) {
+                $data['distributor_list'][] = [
+                    'id' => $l->id,
+                    'name' => $l->first_name .' '. $l->last_name,
+                ];
+            } else {
+                $data['user_list'][] = [
+                    'id' => $l->id,
+                    'name' => $l->first_name .' '. $l->last_name,
+                ];
+            }
+        }
 
-		return view('admin-accounts',$data);
-	}
+        return view('admin-accounts', $data);
+    }
 
-	public function adminProductHistory(){
+    public function adminProductHistory()
+    {
 
-		$stores = \App\Models\UserStores::all();
+        $stores = \App\Models\UserStores::all();
 
-		$products = [];
+        $products = [];
 
-		foreach ($stores as $store) {
-			$product= Products::where('store_id',$store->id)->get();
+        foreach ($stores as $store) {
+            $product= Products::where('store_id', $store->id)->get();
 
-			foreach ($product as $p) {
-				$products[] = $p->id;
-			}
-		}
+            foreach ($product as $p) {
+                $products[] = $p->id;
+            }
+        }
 
-		// checked sold products
-		$temp_query = SalesTransactionDetails::query();
+        // checked sold products
+        $temp_query = SalesTransactionDetails::query();
 
-		if( request()->get('type') == 'distributor' ){
-			$temp_query->whereIn('product_id',$products);
-		}
-		elseif( request()->get('type') == 'website' ){
-			$temp_query->whereNotIn('product_id',$products);	
-		}
+        if (request()->get('type') == 'distributor') {
+            $temp_query->whereIn('product_id', $products);
+        } elseif (request()->get('type') == 'website') {
+            $temp_query->whereNotIn('product_id', $products);
+        }
 
-		if( request()->get('owner') ){
-			$req_user_id = request()->get('owner');
+        if (request()->get('owner')) {
+            $req_user_id = request()->get('owner');
 
-			$temp_query->whereHas('product',function($q) use($req_user_id){
-				$q->whereHas('store',function($r) use($req_user_id){
-					$r->where('user_id',$req_user_id);
-				});
-			});
-		}
+            $temp_query->whereHas('product', function ($q) use ($req_user_id) {
+                $q->whereHas('store', function ($r) use ($req_user_id) {
+                    $r->where('user_id', $req_user_id);
+                });
+            });
+        }
 
-		if( request()->get('purchaser') ){
-			$temp_query->where('purchased_by',request()->get('purchaser'));
-		}
+        if (request()->get('purchaser')) {
+            $temp_query->where('purchased_by', request()->get('purchaser'));
+        }
 
-		if( !is_null(request()->get('status')) ){
-			$temp_query->where('status',request()->get('status'));
-		}
+        if (!is_null(request()->get('status'))) {
+            $temp_query->where('status', request()->get('status'));
+        }
 
-		$data['total'] = $temp_query->count();
-		$data['sales_details'] = $temp_query->orderBy('id','desc')->paginate(10);
-		$data['purchaser'] = [];
+        $data['total'] = $temp_query->count();
+        $data['sales_details'] = $temp_query->orderBy('id', 'desc')->paginate(10);
+        $data['purchaser'] = [];
 
-		foreach ($data['sales_details'] as $s_d) {
+        foreach ($data['sales_details'] as $s_d) {
+            if (in_array($s_d->product_id, $products)) {
+                $s_d->flag = false;
+            } else {
+                $s_d->flag = true;
+            }
 
-			if( in_array($s_d->product_id, $products) ){
-				$s_d->flag = false;
-			}
-			else{
-				$s_d->flag = true;
-			}
+            $u = Users::find($s_d->purchased_by);
 
-			$u = Users::find($s_d->purchased_by);
+            if ($u) {
+                $s_d->purchaser = $u->first_name.' '.$u->last_name;
+            } else {
+                $s_d->purchaser = '';
+            }
 
-			if( $u ){
-				$s_d->purchaser = $u->first_name.' '.$u->last_name;
-			}
-			else{
-				$s_d->purchaser = '';
-			}
+            if ($u) {
+                if (!in_array($u->id, $data['purchaser'])) {
+                    $data['purchaser'][$u->id] = $s_d->purchaser;
+                }
+            }
 
-			if( $u ){
-				if( !in_array($u->id, $data['purchaser']) ){
-					$data['purchaser'][$u->id] = $s_d->purchaser;
-				}
-			}
+            $p = Products::find($s_d->product_id);
 
-			$p = Products::find($s_d->product_id);
+            if ($p) {
+                $s_d->product_name = $p->product_name;
+                $s_d->qty = 1;
+                $s_d->price = $s_d->amount;
 
-			if( $p ){
-				$s_d->product_name = $p->product_name;
-				$s_d->qty = 1;
-				$s_d->price = $s_d->amount;
+                if ($p->store_id) {
+                    // find store of product
+                    $stor = \App\Models\UserStores::find($p->store_id);
+                    $stor_ow = \App\Models\Users::find($stor->user_id);
+                    $s_d->owner = $stor_ow->first_name.' '.$stor_ow->last_name;
+                } else {
+                    $s_d->owner = 'Website';
+                }
+            } else {
+                $s_d->product_name = '';
+                $s_d->qty = 1;
+                $s_d->price = $s_d->amount;
+            }
+        }
 
-				if( $p->store_id ){
-					// find store of product
-					$stor = \App\Models\UserStores::find($p->store_id);
-					$stor_ow = \App\Models\Users::find($stor->user_id);
-					$s_d->owner = $stor_ow->first_name.' '.$stor_ow->last_name;
-				}
-				else{
-					$s_d->owner = 'Website';
-				}
-			}
-			else{
-				$s_d->product_name = '';
-				$s_d->qty = 1;
-				$s_d->price = $s_d->amount;
-			}
-		}
-
-		$data['title'] = '';
-		$data['description'] = '';
-		$data['user_name'] = session()->get('user_name');
+        $data['title'] = '';
+        $data['description'] = '';
+        $data['user_name'] = session()->get('user_name');
         $data['username'] = session()->get('username');
 
-        $data['list_of_dist'] = Users::where('is_distributor','11')->get();
+        $data['list_of_dist'] = Users::where('is_distributor', '11')->get();
 
 
         // Pagination
-        if( !request()->get('page') || request()->get('page') <= 0 ){
-			$page_num = 1;
-		}
-		else{
-			$page_num = request()->get('page');
-		}
+        if (!request()->get('page') || request()->get('page') <= 0) {
+            $page_num = 1;
+        } else {
+            $page_num = request()->get('page');
+        }
 
-		if( $page_num ){
-			$data['start'] = ($page_num - 1) * 10 + 1;
-			$data['last'] = $data['start'] + count($data['sales_details']) - 1;
-		}
+        if ($page_num) {
+            $data['start'] = ($page_num - 1) * 10 + 1;
+            $data['last'] = $data['start'] + count($data['sales_details']) - 1;
+        }
 
-        return view('admin_sales_progress',$data);
-	}
+        return view('admin_sales_progress', $data);
+    }
 
-	public function withdrawal(){
+    public function withdrawal()
+    {
 
-		// Get logged in user ID
-		$id = session()->get('user_id'); 
+        // Get logged in user ID
+        $id = session()->get('user_id');
 
-		// Get User Details
-		$user = Users::find($id);	
+        // Get User Details
+        $user = Users::find($id);
 
-		$data['c_w'] = Withdrawals::where('user_id',$id)
-										->where('type','commission')
-										->get();
-		$data['r_w'] = Withdrawals::where('user_id',$id)
-										->where('type','referral')
-										->get();
+        $data['c_w'] = Withdrawals::where('user_id', $id)
+                                        ->where('type', 'commission')
+                                        ->get();
+        $data['r_w'] = Withdrawals::where('user_id', $id)
+                                        ->where('type', 'referral')
+                                        ->get();
 
-		$data['title'] = '';
-		$data['description'] = '';
-		$data['user_name'] = session()->get('user_name');
-		$data['username'] = session()->get('username');
-		$data['user_id'] = session()->get('user_id');
-		$data['userRoles'] = session()->get('userRoles');
+        $data['title'] = '';
+        $data['description'] = '';
+        $data['user_name'] = session()->get('user_name');
+        $data['username'] = session()->get('username');
+        $data['user_id'] = session()->get('user_id');
+        $data['userRoles'] = session()->get('userRoles');
 
-		// Check if user is distributor
-		$role_id = Roles::find($user->is_distributor);
+        // Check if user is distributor
+        $role_id = Roles::find($user->is_distributor);
 
-		$data['t_r'] = $user->bonuses->sum('amount');
-		$data['t_r_w'] = $data['r_w']->sum('amount');
+        $data['t_r'] = $user->bonuses->sum('amount');
+        $data['t_r_w'] = $data['r_w']->sum('amount');
 
-		// Check if user have debit card
-		$data['dCard'] = EcoDebitCards::where('user_id',$user->id)->first();
+        // Check if user have debit card
+        $data['dCard'] = EcoDebitCards::where('user_id', $user->id)->first();
 
-		if( $role_id && ($role_id->role_name == 'Distributor') ){
+        if ($role_id && ($role_id->role_name == 'Distributor')) {
+            $data['t_c'] = $user->distributorCommission->sum('amount');
+            $data['t_c_w'] = $data['c_w']->sum('amount');
 
-			$data['t_c'] = $user->distributorCommission->sum('amount');
-			$data['t_c_w'] = $data['c_w']->sum('amount');
+            return view('distributor_withdrawal_page', $data);
+        } else {
+            return view('user_withdrawal_page', $data);
+        }
+    }
 
-			return view('distributor_withdrawal_page',$data);
-		}
-		else{
-			return view('user_withdrawal_page',$data);
-		}
-	}
+    public function withdrawalRequest(Request $request)
+    {
 
-	public function withdrawalRequest(Request $request){
+        $flag = false;
+        $user = Users::find($request->get('userid'));
 
-		$flag = false;
-		$user = Users::find($request->get('userid'));
+        if ($request->get('userid') == session()->get('user_id')) {
+            if ($request->get('submit') == 'distributor_accounts_withdraw') {
+                $model = new Withdrawals;
+                $model->user_id = $request->get('userid');
+                $model->amount = $request->get('amount');
+                $model->type = $request->get('type');
+                $model->request_type = 'debit_card';
 
-		if( $request->get('userid') == session()->get('user_id') ){
+                if ($model->save()) {
+                    $this->__sendWithdrawalRequestMailToUser($request);
+                    $this->__sendWithdrawalRequestMailToAdmin($request);
+                }
 
-			if( $request->get('submit') == 'distributor_accounts_withdraw' ){
-				$model = new Withdrawals;
-				$model->user_id = $request->get('userid');
-				$model->amount = $request->get('amount');
-				$model->type = $request->get('type');
-				$model->request_type = 'debit_card';
+                return redirect()->route('distributor.accounts.history');
+            } elseif ($request->get('submit') == 'user_account_withdraw') {
+                $model = new Withdrawals;
+                $model->user_id = $request->get('userid');
+                $model->amount = $request->get('amount');
+                $model->type = $request->get('type');
+                $model->request_type = 'debit_card';
 
-				if( $model->save() ){
-					$this->__sendWithdrawalRequestMailToUser($request);
-					$this->__sendWithdrawalRequestMailToAdmin($request);
-				}
+                if ($model->save()) {
+                    $this->__sendWithdrawalRequestMailToUser($request);
+                    $this->__sendWithdrawalRequestMailToAdmin($request);
+                }
 
-				return redirect()->route('distributor.accounts.history');
-			}
-			elseif( $request->get('submit') == 'user_account_withdraw' ){
+                return redirect()->route('user.accounts.history');
+            } else {
+                $model = new Withdrawals;
+                $model->user_id = $request->get('userid');
+                $model->amount = $request->get('amount');
+                $model->type = $request->get('type');
+                $model->request_type = $request->get('payment_type');
 
-				$model = new Withdrawals;
-				$model->user_id = $request->get('userid');
-				$model->amount = $request->get('amount');
-				$model->type = $request->get('type');
-				$model->request_type = 'debit_card';
+                if ($model->save()) {
+                    $this->__sendWithdrawalRequestMailToUser($request);
+                    $this->__sendWithdrawalRequestMailToAdmin($request);
+                }
+            }
+        }
+            
+        return redirect()->route('distributor.withdrawal');
+    }
 
-				if( $model->save() ){
-					$this->__sendWithdrawalRequestMailToUser($request);
-					$this->__sendWithdrawalRequestMailToAdmin($request);
-				}
+    public function adminWithdrawalHistory()
+    {
 
-				return redirect()->route('user.accounts.history');
-			}
-			else{
-				$model = new Withdrawals;
-				$model->user_id = $request->get('userid');
-				$model->amount = $request->get('amount');
-				$model->type = $request->get('type');
-				$model->request_type = $request->get('payment_type');
+        $data['title'] = '';
+        $data['description'] = '';
+        $data['user_name'] = session()->get('user_name');
+        $data['username'] = session()->get('username');
+        $data['user_id'] = session()->get('user_id');
+        $data['userRoles'] = session()->get('userRoles');
 
-				if( $model->save() ){
-					$this->__sendWithdrawalRequestMailToUser($request);
-					$this->__sendWithdrawalRequestMailToAdmin($request);
-				}
-			}
-		}
-			
-		return redirect()->route('distributor.withdrawal');
+        $data['user_list'] = Users::where('is_distributor', 0)->get();
+        $data['dis_list'] = Users::where('is_distributor', 11)->get();
 
-	}
+        $query = Withdrawals::orderBy('created_at', 'desc');
 
-	public function adminWithdrawalHistory(){
+        if (request()->get('u')) {
+            $query->where('user_id', request()->get('u'));
+        }
+        if (request()->get('d')) {
+            $query->where('user_id', request()->get('d'));
+        }
+        if (request()->get('a')) {
+            $query->where('status', request()->get('a'));
+        }
 
-		$data['title'] = '';
-		$data['description'] = '';
-		$data['user_name'] = session()->get('user_name');
-		$data['username'] = session()->get('username');
-		$data['user_id'] = session()->get('user_id');
-		$data['userRoles'] = session()->get('userRoles');
+        $query = $query->with('user')
+                        ->has('user');
 
-		$data['user_list'] = Users::where('is_distributor',0)->get();
-		$data['dis_list'] = Users::where('is_distributor',11)->get();
+        $data['wr_count'] = $query->count();
 
-		$query = Withdrawals::orderBy('created_at','desc');
+        $data['wr_link'] = $query->paginate(3);
 
-		if( request()->get('u') ){
-			$query->where('user_id',request()->get('u'));
-		}
-		if( request()->get('d') ){
-			$query->where('user_id',request()->get('d'));
-		}
-		if( request()->get('a') ){
-			$query->where('status',request()->get('a'));
-		}
+        if (!request()->get('page') || request()->get('page') <= 0) {
+            $page_num = 1;
+        } else {
+            $page_num = request()->get('page');
+        }
 
-		$query = $query->with('user')
-						->has('user');
+        $data['wr_f'] = ($page_num - 1) * 3 + 1;
+        $data['wr_curr'] = $data['wr_f'] + count($data['wr_link']) - 1;
 
-		$data['wr_count'] = $query->count();
+        $data['withdrawal_request'] = Withdrawals::orderBy('created_at', 'desc');
 
-		$data['wr_link'] = $query->paginate(3);
+        if (request()->get('u')) {
+            $data['withdrawal_request']->where('user_id', request()->get('u'));
+        }
+        if (request()->get('d')) {
+            $data['withdrawal_request']->where('user_id', request()->get('d'));
+        }
+        if (!is_null(request()->get('a')) && in_array(request()->get('a'), [0,1,2,3])) {
+            $data['withdrawal_request']->where('status', request()->get('a'));
+        }
 
-		if( !request()->get('page') || request()->get('page') <= 0 ){
-			$page_num = 1;
-		}
-		else{
-			$page_num = request()->get('page');
-		}
+        $data['withdrawal_request'] = $data['withdrawal_request']->with('user')
+                                            ->has('user')
+                                            ->paginate(3)
+                                            ->map(function ($w) {
+                                                if ($w->type == 'commission') {
+                                                    $w->total_bal = DistributorCommission::where('user_id', $w->user_id)->get()->sum('amount');
+                                                } elseif ($w->type == 'referral') {
+                                                    $w->total_bal = Bonuses::where('payee_user_id', $w->user_id)->get()->sum('amount');
+                                                }
 
-		$data['wr_f'] = ($page_num - 1) * 3 + 1;
-		$data['wr_curr'] = $data['wr_f'] + count($data['wr_link']) - 1; 
+                                                return $w;
+                                            });
+        if (request()->get('ga-demo') == 'demo') {
+            return view('admin_withdrawal_page_demo', $data);
+        }
+        return view('admin_withdrawal_page', $data);
+    }
+    
+    public function adminUpdateWithdrawalStatus(Request $request)
+    {
 
-		$data['withdrawal_request'] = Withdrawals::orderBy('created_at','desc');
+        if ($request->get('id')) {
+            $wr = Withdrawals::find($request->get('id'));
 
-		if( request()->get('u') ){
-			$data['withdrawal_request']->where('user_id',request()->get('u'));
-		}
-		if( request()->get('d') ){
-			$data['withdrawal_request']->where('user_id',request()->get('d'));
-		}
-		if( !is_null(request()->get('a')) && in_array(request()->get('a'),[0,1,2,3]) ){
-			$data['withdrawal_request']->where('status',request()->get('a'));
-		}
+            if ($wr) {
+                if ($request->get('status')) {
+                    $wr->status = $request->get('status');
+                    $wr->processed_at = \Carbon\Carbon::now()->format('Y-m-d H:i:s');
+                    if ($wr->save()) {
+                        $this->__sendWithdrawalRequestProcessMail($wr);
+                    }
+                }
+            }
+        }
 
-		$data['withdrawal_request'] = $data['withdrawal_request']->with('user')
-											->has('user')
-											->paginate(3)
-											->map(function($w){
-												if( $w->type == 'commission' ){
-													$w->total_bal = DistributorCommission::where('user_id',$w->user_id)->get()->sum('amount');
-												}
-												elseif( $w->type == 'referral' ){
-													$w->total_bal = Bonuses::where('payee_user_id',$w->user_id)->get()->sum('amount');
-												}
+        return redirect()->back();
+    }
 
-												return $w;
-											});
-		if( request()->get('ga-demo') == 'demo' ){
-			return view('admin_withdrawal_page_demo',$data);
-		}	
-		return view('admin_withdrawal_page',$data);
-	}
-	
-	public function adminUpdateWithdrawalStatus(Request $request){
+    public function __sendWithdrawalRequestProcessMail($wr)
+    {
 
-		if( $request->get('id') ){
+        $user = Users::find($wr->user_id);
 
-			$wr = Withdrawals::find($request->get('id'));
+        if ($user) {
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
 
-			if( $wr ){
-				if( $request->get('status') ){
-					$wr->status = $request->get('status');
-					$wr->processed_at = \Carbon\Carbon::now()->format('Y-m-d H:i:s');
-					if( $wr->save() ){
-						$this->__sendWithdrawalRequestProcessMail($wr);
-					}
-				}
-			}
+            $subject = 'Withdrawal Processed';
 
-		}
+            $name = $user->first_name .' '. $user->last_name;
+            $name = ucwords($name);
+            $amt_req = $wr->amount;
 
-		return redirect()->back();
-	}
+            if ($wr->request_type) {
+                $trans_by=ucwords(str_ireplace('_', ' ', $wr->request_type));
+            } else {
+                $trans_by = 'Debit Card';
+            }
 
-	public function __sendWithdrawalRequestProcessMail($wr){
+            $is_user_have_debit_card = $user->debitCard ? 'Yes' : 'No';
 
-		$user = Users::find($wr->user_id);
+            $type = ( $user->is_distributor != 11 ) ? 'Distributor' : 'User';
 
-        if( $user ){
-        	$headers = "MIME-Version: 1.0" . "\r\n";
-	        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-	        $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
+            $prev_bal = $user->bonuses->sum('amount') - $user->withdrawal->sum('amount');
 
-	        $subject = 'Withdrawal Processed';
+            $remain_bal = $prev_bal - $amt_req;
 
-	        $name = $user->first_name .' '. $user->last_name; 
-	        $name = ucwords($name);
-	        $amt_req = $wr->amount;
+            $req_date = $wr->created_at->format('m/d/Y');
 
-	        if( $wr->request_type ){
-	        	$trans_by=ucwords(str_ireplace('_',' ',$wr->request_type));
-	        }
-	        else{
-	        	$trans_by = 'Debit Card';
-	        }
-
-	        $is_user_have_debit_card = $user->debitCard ? 'Yes' : 'No';
-
-	        $type = ( $user->is_distributor != 11 ) ? 'Distributor' : 'User';
-
-	        $prev_bal = $user->bonuses->sum('amount') - $user->withdrawal->sum('amount');
-
-	        $remain_bal = $prev_bal - $amt_req;
-
-	        $req_date = $wr->created_at->format('m/d/Y');
-
-	        $html = '<html>
+            $html = '<html>
 	        			<head>
 	        			</head>
 	        			<body>
@@ -734,33 +704,32 @@ class AccountsController extends Controller
 	        			</body>
 	        		</html>';
 
-	        mail($user->email, $subject, $html,$headers);
+            mail($user->email, $subject, $html, $headers);
         }
+    }
 
-	}
-
-	public function __sendWithdrawalRequestMailToUser($request){
+    public function __sendWithdrawalRequestMailToUser($request)
+    {
 
         $user = Users::find($request->get('userid'));
 
-        if( $user ){
-        	$headers = "MIME-Version: 1.0" . "\r\n";
-	        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-	        $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
+        if ($user) {
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
 
-	        $subject = 'Thanks for Requesting Withdrawal';
+            $subject = 'Thanks for Requesting Withdrawal';
 
-	        $name = $user->first_name .' '. $user->last_name; 
-	        $name = ucwords($name);
-	        $amount = $request->get('amount');
-	        if( $request->get('payment_type') ){
-	        	$payment_type = ucwords(str_ireplace('_', ' ', $request->get('payment_type')));
-	        }
-	        else{
-	        	$payment_type = 'Debit Card';
-	        }
+            $name = $user->first_name .' '. $user->last_name;
+            $name = ucwords($name);
+            $amount = $request->get('amount');
+            if ($request->get('payment_type')) {
+                $payment_type = ucwords(str_ireplace('_', ' ', $request->get('payment_type')));
+            } else {
+                $payment_type = 'Debit Card';
+            }
 
-	        $html = '<html>
+            $html = '<html>
 	        			<head>
 	        			</head>
 	        			<body>
@@ -778,41 +747,40 @@ class AccountsController extends Controller
 	        			</body>
 	        		</html>';
 
-	        mail($user->email, $subject, $html,$headers);
+            mail($user->email, $subject, $html, $headers);
         }
+    }
 
-	}
+    public function __sendWithdrawalRequestMailToAdmin($request)
+    {
+        $user = Users::find($request->get('userid'));
+        $admin = Users::find(1);
 
-	public function __sendWithdrawalRequestMailToAdmin($request){
-		$user = Users::find($request->get('userid'));
-		$admin = Users::find(1);
+        if ($user) {
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
 
-        if( $user ){
-        	$headers = "MIME-Version: 1.0" . "\r\n";
-	        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-	        $headers .= 'From: KineticGold<projectmanager24x7@gmail.com>' . "\r\n";
+            $subject = 'New Request for Withdrawal';
 
-	        $subject = 'New Request for Withdrawal';
+            $name = $user->first_name .' '. $user->last_name;
+            $name = ucwords($name);
+            $requested_amt = $request->get('amount');
+            if ($request->get('payment_type')) {
+                $transaction_type=ucwords(str_ireplace('_', ' ', $request->get('payment_type')));
+            } else {
+                $transaction_type = 'Debit Card';
+            }
 
-	        $name = $user->first_name .' '. $user->last_name; 
-	        $name = ucwords($name);
-	        $requested_amt = $request->get('amount');
-	        if( $request->get('payment_type') ){
-	        	$transaction_type=ucwords(str_ireplace('_',' ',$request->get('payment_type')));
-	        }
-	        else{
-	        	$transaction_type = 'Debit Card';
-	        }
+            $is_user_have_debit_card = $user->debitCard ? 'Yes' : 'No';
 
-	        $is_user_have_debit_card = $user->debitCard ? 'Yes' : 'No';
+            $type = ( $user->is_distributor != 11 ) ? 'Distributor' : 'User';
 
-	        $type = ( $user->is_distributor != 11 ) ? 'Distributor' : 'User';
+            $total_bal = $user->bonuses->sum('amount') - $user->withdrawal->sum('amount');
 
-	        $total_bal = $user->bonuses->sum('amount') - $user->withdrawal->sum('amount');
+            $request_date = \Carbon\Carbon::now()->format('m/d/Y');
 
-	        $request_date = \Carbon\Carbon::now()->format('m/d/Y');
-
-	        $html = '<html>
+            $html = '<html>
 	        			<head>
 	        			</head>
 	        			<body>
@@ -840,7 +808,7 @@ class AccountsController extends Controller
 	        			</body>
 	        		</html>';
 
-	        mail($admin->email, $subject, $html,$headers);
+            mail($admin->email, $subject, $html, $headers);
         }
-	}
+    }
 }

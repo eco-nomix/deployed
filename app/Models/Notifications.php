@@ -10,6 +10,4 @@ class Notifications extends Model
     protected $table = 'company_types';
 
     protected $primaryKey = 'id';
-
-
 }

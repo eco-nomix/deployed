@@ -15,5 +15,4 @@ class UserStores extends Model
     protected $fillable = ['name', 'gen_description', 'logo', 'user_id','detailed_description','owner_description','shipping_id','allow_custom_requests','handling_charge', 'product_group', 'store_type'];
 
     public $timestamps = false;
-
 }

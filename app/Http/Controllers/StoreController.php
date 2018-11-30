@@ -29,35 +29,35 @@ class StoreController extends Controller
         $data['owner'] = $userStore->owner_description;
         $data['description'] = 'Member Stores';
 
-        return view('store',$data);
+        return view('store', $data);
     }
     public function storeSummary($storeId)
     {
         $results = '';
 
-        $products = Products::where('store_id',$storeId)->orderBy('product_name')->get();
+        $products = Products::where('store_id', $storeId)->orderBy('product_name')->get();
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
-        if(count($products)==0){
+        if (count($products)==0) {
             $results .= "<td>No Products in this Store, Coming Soon</td>";
             $ctr = 8;
         }
 
-        foreach($products as $product){
+        foreach ($products as $product) {
             $results .= "<td class='eighth'><a href=\"$storeId/product/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
             $results .= "<td class='fifth' ><a href=\"$storeId/product/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
-            $results .= substr($description,0,260)."...</a></td>";
+            $results .= substr($description, 0, 260)."...</a></td>";
             $ctr++;
             $ctr++;
             $modd = $ctr % 6;
             \Log::info("ctr=$ctr  mod=$modd");
-            if($modd == 0){
+            if ($modd == 0) {
                 $results .= "</tr><tr>";
             }
         }
-        $results = $this->addBlanks($results,$modd);
+        $results = $this->addBlanks($results, $modd);
         $results .= "</tr>";
         return $results;
     }
@@ -65,29 +65,29 @@ class StoreController extends Controller
     {
         $results = '';
 
-        $products = Products::where('one_of_a_kind',1)->orderBy('product_name')->get();
+        $products = Products::where('one_of_a_kind', 1)->orderBy('product_name')->get();
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
-        if(count($products)==0){
+        if (count($products)==0) {
             $results .= "<td>No Products in One of a Kind, Coming Soon</td>";
             $ctr = 8;
         }
 
-        foreach($products as $product){
+        foreach ($products as $product) {
             $results .= "<td class='eighth'><a href=\"/onekind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
             $results .= "<td class='fifth' ><a href=\"/onekind/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
-            $results .= substr($description,0,260)."...</a></td>";
+            $results .= substr($description, 0, 260)."...</a></td>";
             $ctr++;
             $ctr++;
             $modd = $ctr % 6;
             \Log::info("ctr=$ctr  mod=$modd");
-            if($modd == 0){
+            if ($modd == 0) {
                 $results .= "</tr><tr>";
             }
         }
-        $results = $this->addBlanks($results,$modd);
+        $results = $this->addBlanks($results, $modd);
         $results .= "</tr>";
         return $results;
     }
@@ -97,45 +97,43 @@ class StoreController extends Controller
         $results = '';
         if ($productCategory > 0) {
             $products = Products::where('one_of_a_kind', 1)->where('product_category', $productCategory)->orderBy('product_name')->get();
-        }
-        else{
+        } else {
             $products = Products::where('one_of_a_kind', 1)->orderBy('product_name')->get();
-
         }
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
-        if(count($products)==0){
+        if (count($products)==0) {
             $results .= "<td>No Products in One of a Kind, Coming Soon</td>";
             $ctr = 8;
         }
 
-        foreach($products as $product){
+        foreach ($products as $product) {
             $results .= "<td class='eighth'><a href=\"/onekind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
             $results .= "<td class='fifth' ><a href=\"/onekind/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
-            $results .= substr($description,0,260)."...</a></td>";
+            $results .= substr($description, 0, 260)."...</a></td>";
             $ctr++;
             $ctr++;
             $modd = $ctr % 6;
             \Log::info("ctr=$ctr  mod=$modd");
-            if($modd == 0){
+            if ($modd == 0) {
                 $results .= "</tr><tr>";
             }
         }
-        $results = $this->addBlanks($results,$modd);
+        $results = $this->addBlanks($results, $modd);
         $results .= "</tr>";
         return $results;
     }
-    public function addBlanks($results,$modd)
+    public function addBlanks($results, $modd)
     {
-        if($modd >0){
-            for($modd;$modd<6;$modd++){
-                 if($modd % 2){
-                     $cl = "";
-                  }else{
-                     $cl = "class = 'eighth'";
-                 }
+        if ($modd >0) {
+            for ($modd; $modd<6; $modd++) {
+                if ($modd % 2) {
+                    $cl = "";
+                } else {
+                    $cl = "class = 'eighth'";
+                }
 
                 $results .= "<td $cl>&nbsp;";
             }
@@ -143,18 +141,18 @@ class StoreController extends Controller
         return $results;
     }
     public function displayproduct($storeId, $productId, Request $request)
-{
-    $userStore = UserStores::find($storeId);
-    $product = Products::find($productId);
-    $user = Users::find($userStore->user_id);
-    $data = $this->userData($request);
-    $data['store'] = $userStore;
-    $data['user'] = $user;
-    $data['ItemCount'] = $this->itemCount($request);
-    $data['title'] = $userStore->product_name;
-    $data['Product'] = $product;
-    return view('store_product',$data);
-}
+    {
+        $userStore = UserStores::find($storeId);
+        $product = Products::find($productId);
+        $user = Users::find($userStore->user_id);
+        $data = $this->userData($request);
+        $data['store'] = $userStore;
+        $data['user'] = $user;
+        $data['ItemCount'] = $this->itemCount($request);
+        $data['title'] = $userStore->product_name;
+        $data['Product'] = $product;
+        return view('store_product', $data);
+    }
     public function onekindproduct($productId, Request $request)
     {
 
@@ -168,23 +166,23 @@ class StoreController extends Controller
         $data['title'] = $store->product_name;
 
         $data['Product'] = $product;
-        $data['wholesale'] = number_format($product->member*.6,2);
-        return view('store_product',$data);
+        $data['wholesale'] = number_format($product->member*.6, 2);
+        return view('store_product', $data);
     }
     public function saveeditproduct($storeId, $productId, Request $request)
     {
         $store = UserStores::find($storeId);
         $product = Products::find($productId);
         $user = Users::find($store->user_id);
-        $image = $this->addProductImage( $request,$productId);
-        if($image > '') {
+        $image = $this->addProductImage($request, $productId);
+        if ($image > '') {
             $product->image = $image;
         }
         $product->product_name = $request->input('product_name');
         $product->description = $request->input('description');
         $wholesale = $request->input('wholesale');
-        $member = str_replace(',','',number_format(($wholesale/.6),2));
-        $nonmember = str_replace(',','',number_format(($wholesale/.5454),2));
+        $member = str_replace(',', '', number_format(($wholesale/.6), 2));
+        $nonmember = str_replace(',', '', number_format(($wholesale/.5454), 2));
       //  dd($wholesale, $member, $nonmember);
         $product->member = $member;
         $product->non_member = $nonmember;
@@ -199,13 +197,13 @@ class StoreController extends Controller
         $data = $this->userData($request);
         $data['store'] = $store;
         $data['Product'] = $product;
-        $data['wholesale'] = str_replace(',','',number_format($wholesale,2));
+        $data['wholesale'] = str_replace(',', '', number_format($wholesale, 2));
         $data['user'] = $user;
         $data['name']=$store->name;
         $data['categories']  = $this->storeCategories();
         $data['logo'] = $store->logo;
 
-        return view('store_edit_product',$data);
+        return view('store_edit_product', $data);
     }
     public function editproduct($storeId, $productId, Request $request)
     {
@@ -216,21 +214,21 @@ class StoreController extends Controller
         $data = $this->userData($request);
         $data['store'] = $store;
         $data['Product'] = $product;
-        $data['wholesale'] = str_replace(',','',number_format($product->member*.6,2));
+        $data['wholesale'] = str_replace(',', '', number_format($product->member*.6, 2));
         $data['user'] = $user;
         $data['name']=$store->name;
         $data['logo'] = $store->logo;
         $data['categories']  = $this->storeCategories();
 
-        return view('store_edit_product',$data);
+        return view('store_edit_product', $data);
     }
 
-    public function addStore($productGroup,$userId,Request $request)
+    public function addStore($productGroup, $userId, Request $request)
     {
 
         $user = Users::find($userId);
         \Log::info("in add store pg=$productGroup  UserId=$userId");
-        $stores = UserStores::where('product_group',$productGroup)->where('user_id',$userId)->orderBy('name')->lists('name','id');
+        $stores = UserStores::where('product_group', $productGroup)->where('user_id', $userId)->orderBy('name')->lists('name', 'id');
         $data = $this->userData($request);
         $data['stores'] = $stores;
         $data['shippingTypes'] = $this->shipping();
@@ -238,7 +236,7 @@ class StoreController extends Controller
         $data['product_group'] = $productGroup;
         $data['store_type'] = $this->storeType($productGroup);
         $data['description'] = 'Add New Store';
-        return view('store_add',$data);
+        return view('store_add', $data);
     }
 
     public function storeType($productGroup)
@@ -248,10 +246,10 @@ class StoreController extends Controller
         return $storeType->name;
     }
 
-    public function saveStore($productGroup,$userId, Request $request)
+    public function saveStore($productGroup, $userId, Request $request)
     {
-        if ($request->input('name')==''){
-            return $this->addStore($productGroup,$userId,$request);
+        if ($request->input('name')=='') {
+            return $this->addStore($productGroup, $userId, $request);
         }
         $store = UserStores::create(['name'=>$request->input('name'),
             'gen_description'=>$request->input('gen_description'),
@@ -267,14 +265,14 @@ class StoreController extends Controller
         $name = $this->addImage($userId, $request, $store->id);
         $store->logo = $name;
         $store->save();
-        return $this->addStore($productGroup,$userId,$request);
+        return $this->addStore($productGroup, $userId, $request);
     }
 
-    public function editStore($storeId,Request $request)
+    public function editStore($storeId, Request $request)
     {
         $store = UserStores::find($storeId);
         $user = Users::find($store->user_id);
-        $stores = UserStores::where('user_id',$user->id)->orderBy('name')->lists('name','id');
+        $stores = UserStores::where('user_id', $user->id)->orderBy('name')->lists('name', 'id');
         $data = $this->userData($request);
 
         $data['stores'] = $stores;
@@ -292,29 +290,28 @@ class StoreController extends Controller
         $data['owner_description'] = $store->owner_description;
         $data['allow_custom_requests'] = $store->allow_custom_requests;
         $data['handling_charge'] = $store->handling_charge;
-        return view('store_edit',$data);
-
+        return view('store_edit', $data);
     }
 
-    public function saveeditStore($storeId,Request $request)
+    public function saveeditStore($storeId, Request $request)
     {
         $addProducts = $request->input('addProducts');
         \Log::info("addProducts = $addProducts");
         \Log::info("storeId=$storeId");
         $store = UserStores::find($storeId);
-        if($request->input('Delete')){
+        if ($request->input('Delete')) {
             $productGroup = $store->product_group;
             $userId = $store->user_id;
             $store->delete();
-            return $this->addStore($productGroup,$userId,$request);
+            return $this->addStore($productGroup, $userId, $request);
         }
 
         $user = Users::find($store->user_id);
         $logo = $this->addImage($user->id, $request, $store->id);
-        if($logo > '') {
+        if ($logo > '') {
             $store->logo = $logo;
         }
-        if($request->input('name')> '') {
+        if ($request->input('name')> '') {
             $store->name = $request->input('name');
         }
         if ($request->input('gen_description')> '') {
@@ -333,7 +330,7 @@ class StoreController extends Controller
         if ($addProducts) {
             return $this->addProducts($storeId, $request);
         }
-        $stores = UserStores::where('user_id',$user->id)->orderBy('name')->lists('name','id');
+        $stores = UserStores::where('user_id', $user->id)->orderBy('name')->lists('name', 'id');
         $data = $this->userData($request);
         $data['stores'] = $stores;
         $data['shippingTypes'] = $this->shipping();
@@ -351,8 +348,7 @@ class StoreController extends Controller
         $data['allow_custom_requests'] = $store->allow_custom_requests;
         $data['handling_charge'] = $store->handling_charge;
 
-        return view('store_edit',$data);
-
+        return view('store_edit', $data);
     }
     public function itemCount(Request $request)
     {
@@ -360,7 +356,7 @@ class StoreController extends Controller
         $shoppingCart = new ShoppingCarts;
         return $shoppingCart->getItemCount($userId);
     }
-    public function addProduct($storeId,Request $request)
+    public function addProduct($storeId, Request $request)
     {
         $store = UserStores::find($storeId);
         $user = Users::find($store->user_id);
@@ -382,20 +378,20 @@ class StoreController extends Controller
         $product->product_category = $request->input('product_category');
         $product->save();
         $picture = $this->addProductImage($request, $product->id);
-        if($picture > '') {
+        if ($picture > '') {
             $product->image = $picture;
             $product->save();
         }
         return redirect("store/$store->id");
     }
 
-    Public function deleteProduct($storeId,$productId, Request $request)
+    public function deleteProduct($storeId, $productId, Request $request)
     {
         $product = Products::find($productId)->delete();
         return redirect("store/$storeId");
     }
 
-    Public function addProducts($storeId, Request $request)
+    public function addProducts($storeId, Request $request)
     {
         $store = UserStores::find($storeId);
         $user = Users::find($store->user_id);
@@ -407,24 +403,29 @@ class StoreController extends Controller
         $data['products'] = $this->storeProducts($storeId);
         $data['categories']  = $this->storeCategories();
 
-        return view('store_products',$data);
-
+        return view('store_products', $data);
     }
 
     public function storeCategories()
     {
-        return ProductCategories::orderBy('display_order')->lists('name','id');
+        return ProductCategories::orderBy('display_order')->lists('name', 'id');
     }
 
     public function addProductImage(Request $request, $productId)
     {
 
         $file = $request->file('file');
-        if(!is_object($file)) return 0;
+        if (!is_object($file)) {
+            return 0;
+        }
         $fileIsValid = $request->file('file')->isValid();
-        if(!$fileIsValid) return 0;
+        if (!$fileIsValid) {
+            return 0;
+        }
         $mimeType = $file->getMimeType();
-        if($mimeType != 'image/jpeg' and $mimeType != 'image/png') return 0;
+        if ($mimeType != 'image/jpeg' and $mimeType != 'image/png') {
+            return 0;
+        }
         //  dd($mimeType);
         $extension = ($mimeType == 'image/jpeg')?'.jpeg':'.png';
 
@@ -434,15 +435,21 @@ class StoreController extends Controller
         return $name;
     }
 
-    public function addImage($userId, Request $request,$storeId)
+    public function addImage($userId, Request $request, $storeId)
     {
 
         $file = $request->file('file');
-        if(!is_object($file)) return 0;
+        if (!is_object($file)) {
+            return 0;
+        }
         $fileIsValid = $request->file('file')->isValid();
-        if(!$fileIsValid) return 0;
+        if (!$fileIsValid) {
+            return 0;
+        }
         $mimeType = $file->getMimeType();
-        if($mimeType != 'image/jpeg' and $mimeType != 'image/png') return 0;
+        if ($mimeType != 'image/jpeg' and $mimeType != 'image/png') {
+            return 0;
+        }
       //  dd($mimeType);
         $extension = ($mimeType == 'image/jpeg')?'.jpeg':'.png';
 
@@ -450,27 +457,25 @@ class StoreController extends Controller
         $name = 'store_logo_'.$storeId.$extension;
         $file->move($destination, $name);
 
-       return $name;
+        return $name;
     }
 
     public function shipping()
     {
-        return ShippingTypes::orderBy('description')->lists('description','id');
+        return ShippingTypes::orderBy('description')->lists('description', 'id');
     }
 
     public function storeProducts($storeId)
     {
-        return Products::where('store_id',$storeId)->orderBy('product_name')->get();
-
+        return Products::where('store_id', $storeId)->orderBy('product_name')->get();
     }
 
     public function addStoreProduct($storeId)
     {
-
     }
     public function userData($request)
     {
-       $ecosponsor    = $request->cookie('ecosponsor');
+        $ecosponsor    = $request->cookie('ecosponsor');
         $data['ecosponsor'] = $ecosponsor;
         \Log::info("ecosponsor8 = $ecosponsor");
         $data['user_name'] =$request->session()->get('user_name');
@@ -480,9 +485,9 @@ class StoreController extends Controller
         \Log::info("username8 = $username");
         $data['user_id'] =$request->session()->get('user_id');
         $user = Users::find($data['user_id']);
-        if($user){
+        if ($user) {
             $referralLink = "http://KineticGold.org/referred/$user->id";
-        }else{
+        } else {
             $referralLink = "Not Logged in";
         }
         $data['referral_link'] = $referralLink;
@@ -503,9 +508,9 @@ class StoreController extends Controller
         $data['categories']  = $this->storeCategories();
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = 0;
-        return view('one_of_a_kind',$data);
+        return view('one_of_a_kind', $data);
     }
-    public function onekindSub($productCategory,Request $request)
+    public function onekindSub($productCategory, Request $request)
     {
         $data = $this->userData($request);
         $data['productSummary'] = $this->oneKindSummarySub($productCategory);
@@ -514,7 +519,7 @@ class StoreController extends Controller
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = $productCategory;
 
-        return view('one_of_a_kind',$data);
+        return view('one_of_a_kind', $data);
     }
     public function multiKind(Request $request)
     {
@@ -524,9 +529,9 @@ class StoreController extends Controller
         $data['categories']  = $this->storeCategories();
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = 0;
-        return view('multi_of_a_kind',$data);
+        return view('multi_of_a_kind', $data);
     }
-    public function multikindSub($productCategory,Request $request)
+    public function multikindSub($productCategory, Request $request)
     {
         $data = $this->userData($request);
         $data['productSummary'] = $this->multiKindSummarySub($productCategory);
@@ -535,35 +540,35 @@ class StoreController extends Controller
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = $productCategory;
 
-        return view('multi_of_a_kind',$data);
+        return view('multi_of_a_kind', $data);
     }
     public function multiKindSummary()
     {
         $results = '';
 
-        $products = Products::where('store_id','>',0)->orderBy('product_name')->get();
+        $products = Products::where('store_id', '>', 0)->orderBy('product_name')->get();
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
-        if(count($products)==0){
+        if (count($products)==0) {
             $results .= "<td>No Products, Coming Soon</td>";
             $ctr = 8;
         }
 
-        foreach($products as $product){
+        foreach ($products as $product) {
             $results .= "<td class='eighth'><a href={{URL::to('/')}}\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
             $results .= "<td class='fifth' ><a href={{URL::to('/')}}\"/multikind/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
-            $results .= substr($description,0,260)."...</a></td>";
+            $results .= substr($description, 0, 260)."...</a></td>";
             $ctr++;
             $ctr++;
             $modd = $ctr % 6;
             \Log::info("ctr=$ctr  mod=$modd");
-            if($modd == 0){
+            if ($modd == 0) {
                 $results .= "</tr><tr>";
             }
         }
-        $results = $this->addBlanks($results,$modd);
+        $results = $this->addBlanks($results, $modd);
         $results .= "</tr>";
         return $results;
     }
@@ -572,34 +577,32 @@ class StoreController extends Controller
     {
         $results = '';
         if ($productCategory > 0) {
-            $products = Products::where('store_id','>',0)->where('product_category', $productCategory)->orderBy('product_name')->get();
-        }
-        else{
-            $products = Products::where('store_id','>',0)->orderBy('product_name')->get();
-
+            $products = Products::where('store_id', '>', 0)->where('product_category', $productCategory)->orderBy('product_name')->get();
+        } else {
+            $products = Products::where('store_id', '>', 0)->orderBy('product_name')->get();
         }
         $results = '<tr>';
         $ctr= 0;
         $modd=0;
-        if(count($products)==0){
+        if (count($products)==0) {
             $results .= "<td>No Products in Product Category, Coming Soon</td>";
             $ctr = 8;
         }
 
-        foreach($products as $product){
+        foreach ($products as $product) {
             $results .= "<td class='eighth'><a href=\"/multikind/$product->id\"><img src=\"/images\\$product->image\" width=\"135px;\"></a></td>";
             $results .= "<td class='fifth' ><a href=\"/multikind/$product->id\">";
             $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->display_description;
-            $results .= substr($description,0,260)."...</a></td>";
+            $results .= substr($description, 0, 260)."...</a></td>";
             $ctr++;
             $ctr++;
             $modd = $ctr % 6;
             \Log::info("ctr=$ctr  mod=$modd");
-            if($modd == 0){
+            if ($modd == 0) {
                 $results .= "</tr><tr>";
             }
         }
-        $results = $this->addBlanks($results,$modd);
+        $results = $this->addBlanks($results, $modd);
         $results .= "</tr>";
         return $results;
     }
@@ -615,6 +618,6 @@ class StoreController extends Controller
         $data['ItemCount'] = $this->itemCount($request);
         $data['title'] = $store->product_name;
         $data['Product'] = $product;
-        return view('store_product',$data);
+        return view('store_product', $data);
     }
 }

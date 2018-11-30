@@ -35,9 +35,9 @@ class GoldPagesController extends Controller
         $data['user_id'] =$request->session()->get('user_id');
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
-        if($user){
+        if ($user) {
             $referralLink = "http://KineticGold.org/referred/$user->id";
-        }else{
+        } else {
             $referralLink = "Not Logged in";
         }
         $data['referral_link']= $referralLink;
@@ -56,7 +56,7 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Eco-Gold Blockchain';
 
-        return view('gold',$data);
+        return view('gold', $data);
     }
     public function whitepaper(Request $request)
     {
@@ -64,18 +64,20 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'White Paper';
 
-        return view('goldwhitepaper',$data);
+        return view('goldwhitepaper', $data);
     }
 
     public function downloadwhitepaper()
     {
 
-        return Response::download('Digital Gold2.pdf');;
+        return Response::download('Digital Gold2.pdf');
+        ;
     }
     public function downloadintroduction()
     {
 
-        return Response::download('MiningDigitalGold.pdf');;
+        return Response::download('MiningDigitalGold.pdf');
+        ;
     }
 
     public function introduction(Request $request)
@@ -84,7 +86,7 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Introduction';
 
-        return view('goldintroduction',$data);
+        return view('goldintroduction', $data);
     }
     public function crypto(Request $request)
     {
@@ -92,7 +94,7 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Cryptocurrency';
 
-        return view('goldcrypto',$data);
+        return view('goldcrypto', $data);
     }
 
     public function vue(Request $request)
@@ -101,7 +103,6 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Vue';
 
-        return view('goldvue',$data);
+        return view('goldvue', $data);
     }
-
 }

@@ -621,10 +621,10 @@ class CartController extends Controller
         //echo "<h2>Request</h2>";
         //print_r($envelope);
         
-        $header = array(
+        $header = [
         "Content-type:text/xml; charset=\"utf-8\"",
         "Accept: text/xml"
-        );
+        ];
 
         $MSAPI_Call = curl_init();
         //Change the following URL to point to production instead of integration
@@ -653,7 +653,7 @@ class CartController extends Controller
         $api_result->formatOutput = true;
         $api_result->loadXML($api_response);
         
-        $resp = array();
+        $resp = [];
         $resp['creditCard'] = $creditCard;
         $resp['credit_card'] = $creditCard;
         $resp['pay_method'] = "Credit/Debit Card";

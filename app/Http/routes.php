@@ -20,21 +20,21 @@ Route::get('/sitemap', function () {
     $file = public_path(). "/download/sitemap.xml";  // <- Replace with the path to your .xml file
     if (file_exists($file)) {
         $content = file_get_contents($file);
-        return Response::make($content, 200, array('content-type'=>'application/xml'));
+        return Response::make($content, 200, ['content-type'=>'application/xml']);
     }
 });
 Route::get('/sitemap.xml', function () {
     $file = public_path(). "/download/sitemap.xml";  // <- Replace with the path to your .xml file
     if (file_exists($file)) {
         $content = file_get_contents($file);
-        return Response::make($content, 200, array('content-type'=>'application/xml'));
+        return Response::make($content, 200, ['content-type'=>'application/xml']);
     }
 });
 Route::get('/google5692887e91ddc94b.html', function () {
     $file = public_path(). "/download/google5692887e91ddc94b.html";  // <- Replace with the path to your .xml file
     if (file_exists($file)) {
         $content = file_get_contents($file);
-        return Response::make($content, 200, array('content-type'=>'application/html'));
+        return Response::make($content, 200, ['content-type'=>'application/html']);
     }
 });
 Route::get('/jaylogs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

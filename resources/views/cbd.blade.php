@@ -27,15 +27,28 @@
       {{--<div  style="float: right; width: 25%; margin:10px; ">--}}
         {{--<img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />--}}
          {{--</div>--}}
-         <p>test3</p>
-        <p>Many people are now discovering the benefits of CBD oil. CBD is a cannabinoid which is basically chemicals found in the cannabis plant. Some of these cannabinoids contain traces of oil.</p>
-        <p>One of the most well-known compounds of the cannabis plant is THC or tetrahydrocannabinol. Once the THC is broken down by heat and ingested, it can create a high. Although THC and CBD both come from the cannabis plant, it is only THC which is mind altering and gives you a high.</p>
-        <p>Although more people are becoming aware of the health benefits of CBD oil, many still associate it with marijuana and getting high.</p>
-        <p>Some of the many known health benefits of CBD oil include pain relief, reducing inflammation, anti-acne, and an antidepressant.</p>
-        <p>CBD is typically extracted from the cannabis plant as an oil or a powder. The oil or powder can then be mixed with a gel or cream that can be rubbed onto the skin or ingested orally.</p>
-        <p>For first time buyers of CBD oil, it can be a bit of a challenge, as there are many things to consider as CBD oil can come in many different forms. There is also a vast number of different products and brands on the market.</p>
-        <p>In order to get the CBD oil that best suits your needs, the two most important things to consider are the strength and concentration. Other factors to consider include purity and the volume of CBD oil within the product itself.</p>
-        <p>Cannabidiol (CBD) oil has become increasingly popular as a natural way to help people try to manage pain, reduce inflammation, and cope with anxiety.* Though the number of prescriptions has risen sharply in the United States over the past 20 years, many Americans are trying to limit the number of prescribed drugs they take – instead, searching for all-natural solutions to the aches, pains, and discomfort they begin to face as they age. For many of them, CBD oil is the solution they’ve been looking for. But not all CBD oil is created equal, meaning finding the right CBD oil could just be the most important part of their journey.</p>
+  
+        <p>Many people are currently discovering the benefits of CBD.
+        CBD is one of the cannabinoids which is found in the cannabis plant. </p>
+        <p>One of the most well-known compounds of the cannabis plant is THC or
+        tetrahydrocannabinol. Once the THC is broken down by heat and ingested, it can create a
+        high. Although THC and CBD both come from the cannabis plant, CBD does not give you a high.</p>
+
+        <p>Some of the established health benefits of CBD include pain relief, reducing
+        inflammation, anti-acne, and an antidepressant.</p>
+
+        <p>CBD can be mixed with a gel or cream that can be rubbed onto the skin
+        or ingested orally.</p>
+        <p>There are many
+        things to consider when purchasing CBD as it can come in many different forms.
+       </p>
+        <p>In order to get the CBD that best suits your needs, two important
+        things to consider are the strength and concentration. Other factors to consider
+        include purity and the volume of CBD within the product itself.</p>
+        <p>CBD has become increasingly popular as a natural way to help
+        people try to manage pain, reduce inflammation, and cope with anxiety. But not all CBD oil
+        is created equal, meaning it is critical to find the right CBD product for you particular situation.
+        </p>
 
     </div>
     <div id="div2" >

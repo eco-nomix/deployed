@@ -105,7 +105,7 @@
         <img style="float:left; padding:0px 3px 3px 0px;" src="https://nganic.com/wp-content/uploads/2018/03/is-cheaper-cbd-oil-ok-to-buy.jpg"
          sizes="(max-width: 300px) 100vw, 300px" alt="is cheaper cbd oil ok to buy" width="300"
          height="212" />
-         <p><strong><Is Cheaper Always Better?</strong></p>
+         <p><strong>Is Cheaper Always Better?</strong></p>
         <p>When it comes to CBD oil, cheaper is most certainly not always better because the
         production of quality CBD just isn’t cheap. CO<sub>2</sub> extraction utilizes
         complex equipment and a high level of expertise as opposed to the cheaper and easier

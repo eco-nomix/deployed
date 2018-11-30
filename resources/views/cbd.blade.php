@@ -99,8 +99,7 @@
         any medical condition or symptom. Although preliminary research has shown
         tremendous promise of CBD helping people in pretty remarkable ways,
         legitimate CBD companies will refrain from making any direct medical claims.
-        Be very wary of companies that defy this guideline, because if they disregard
-        this particular rule, what other rules are they willing to ignore?</p>
+        </p>
         </div>
 
     </div>

@@ -68,13 +68,13 @@
         </div>
 
         <div><p><strong>Is the CBD Potent and Pure?</strong></p>
-        <p><ul>The product should be free of
+        <ul>The product should be free of
         <li>Pesticides</li>
         <li>Bacteria and Fungus</li>
         <li>Residual Solvents</li>
-        <li>Heavy metals</li></ul></p>
+        <li>Heavy metals</li></ul>
         </div>
-        
+
     </div>
     <div id="div2" >
         {{--<div  style="float: left; width: 25%; margin:10px; ">--}}

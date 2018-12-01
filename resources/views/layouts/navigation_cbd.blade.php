@@ -24,7 +24,7 @@ p{
 }
 #main{
   width:95vw;
-  border:2vw;
+  margin:2vw;
   text-align:center;
   position:absolute;
   top:-30px;

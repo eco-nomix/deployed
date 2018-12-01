@@ -86,6 +86,8 @@
         much CBD as possible without introducing contaminants. The CO<sub>2</sub> simply evaporates
         once the pressure is released, leaving virtually no trace of
         extraction on the CBD.</p>
+        </div>
+        <div>
         <p><strong>Benefits of CO<sub>2</sub> Extraction:</strong></p>
         <ul>
         <li>Ensures high quality</li>

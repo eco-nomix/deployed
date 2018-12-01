@@ -22,11 +22,11 @@
 
     <div id="div1" style="width:98vw" >
         <div class="col-md-8 col-md-offset-2">
-             <div style="width:100%;">
+             {{--<div style="width:100%;">--}}
                  <div class="cbd600">
                       Benefits
                  </div>
-             </div>
+             {{--</div>--}}
              <div class="panel panel-default cbddisplay">
                 <div class="panel-body">
                    <div class="form-group col-md-12 ">

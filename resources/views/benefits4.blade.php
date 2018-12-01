@@ -8,19 +8,16 @@
 
         <img id="img0" src="../images/freedom.jpeg" alt="" title="freedom" />
         <div STYLE="position:absolute; top:5vw;  left:40vw; width:50vw; height:20vw">
-             <div ">
-            <h1 style="color:white;">CBD Care Group</h1>
+             <div>
+                <h1 style="color:white;">CBD Care Group</h1>
              </div>
             <div >
                 <h2 id="text1" style="color:white;">Latest Technology</h2>
             </div>
             <div >
-              <p id="text2" style="color:white;">Micro-encapsulation and Polarizing</p>
+                <p id="text2" style="color:white;">Micro-encapsulation and Polarizing</p>
             </div>
         </div>
-
-
-
     </div>
 
     <div id="div1" style="width:98vw" >
@@ -71,12 +68,10 @@
                           them in court.  TIB Foundation is not a law firm, but can recommend firms that utilize the principles that are taught by the TIB Foundation</li>
                         </ul>
                     </div>
-             </div>
-         </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
 </div>
 
 @endsection

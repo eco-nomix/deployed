@@ -64,7 +64,7 @@ p{
         <div style="padding:2px;">
             <ul>
 
-                <li><a href="{{URL::to('/')}}/shop">Shop<span class="caret"></span></a>
+                <li>Shop<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/Gummies">Gummies</a></li>
                         <li><a href="{{URL::to('/')}}/HempOil">Hemp Oil</a></li>
@@ -83,9 +83,9 @@ p{
             </ul>
              <ul>
 
-                <li><a href="{{URL::to('/')}}/shop">Income<span class="caret"></span></a>
+                <li>Income<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/benefits3">Member Benefit</a></li>
+                        <li><a href="{{URL::to('/')}}/benefits4">Member Benefit</a></li>
                         <li><a href="{{URL::to('/')}}/membercost3">Member Cost</a></li>
                         <li><a href="{{URL::to('/')}}/HempOil">Profit Sharing</a></li>
                         <li><a href="{{URL::to('/')}}/capsules">Referral Links</a></li>

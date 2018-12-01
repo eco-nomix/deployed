@@ -27,6 +27,13 @@ p{
     color:darkgreen;
     line-heght:4vw;
  }
+ strong{
+    font-size:4.0vw;
+     font-weight:bolder;
+     max-font-size:22px;
+     color:darkgreen;
+     line-heght:4vw;
+ }
 .navcontainer{
       max-font-size:24px;
 }

@@ -23,7 +23,7 @@
 
     </div>
 
-    <div id="div1" style="width:92vw" >
+    <div id="div1" style="width:98vw" >
       {{--<div  style="float: right; width: 25%; margin:10px; ">--}}
         {{--<img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />--}}
          {{--</div>--}}

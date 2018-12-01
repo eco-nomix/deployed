@@ -62,14 +62,12 @@ class PagesController extends Controller
         $name = $request->root();
         \Log::info("root = $name");
         if (stristr($name, "golddiggerz")) {
-//        if($name == 'http://golddiggerz.org' || $name == 'http://www.golddiggerz.org'){
             $data = $this->userData($request);
             $data['title'] = 'GoldDiggers';
             $data['description'] = 'Introduction';
             return view('golddiggers.info', $data);
         }
         if (stristr($name, "tibfoundation")) {
-//        if($name == 'http://www.tibfoundation.org' || $name == 'http://www.tibfoundation.com' || $name == 'http://tibfoundation.org' || $name == 'http://tibfoundation.com' || $name == 'http://45.55.41.46'){
             $data = $this->userData($request);
             $data['title'] = 'TIBFoundation';
             $data['description'] = 'Introduction';
@@ -82,19 +80,6 @@ class PagesController extends Controller
             return view('CBD.cbd', $data);
         }
         if (stristr($name, "tchamgang")) {
-//            $ch = curl_init('https://textbelt.com/text');
-//            $data = array(
-//                'phone' => '8646085404',
-//                'message' => '11335577',
-//                'key' => 'textbelt',
-//            );
-//
-//            curl_setopt($ch, CURLOPT_POST, 1);
-//            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-//            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//
-//            $response = curl_exec($ch);
-//            curl_close($ch);
             $data = $this->userData($request);
             $data['title'] = 'tchamgang';
             $data['description'] = 'tchamgang';
@@ -136,6 +121,8 @@ class PagesController extends Controller
 
         return view('eco.welcome2', $data);
     }
+
+//    KineticGold
     public function about(Request $request)
     {
         $data = $this->userData($request);
@@ -144,32 +131,6 @@ class PagesController extends Controller
 
         return view('kineticgold.about', $data);
     }
-    public function about2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers ';
-        $data['description'] = '';
-
-        return view('golddiggers.about2', $data);
-    }
-    public function about3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation ';
-        $data['description'] = '';
-
-        return view('TIB.about3', $data);
-    }
-    public function accounting(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Accounting';
-        $data['description'] = 'Accounting';
-
-        return view('accounting', $data);
-    }
-
-
     public function autoship(Request $request)
     {
         $data = $this->userData($request);
@@ -178,49 +139,14 @@ class PagesController extends Controller
 
         return view('kineticgold.autoship', $data);
     }
-    public function autoship2(Request $request)
+    public function bankinterface(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers Autoship';
-        $data['description'] = 'Autoship Policy';
+        $data['title'] = 'Kinetic Golds Interface';
+        $data['description'] = 'KineticGold unique Interface between Cryptocurrency and the Off-Shore Bank';
 
-        return view('golddiggers.autoship2', $data);
+        return view('kineticgold.bankinterface', $data);
     }
-    public function autoship3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation Autoship';
-        $data['description'] = 'Autoship Policy';
-
-        return view('TIB.autoship3', $data);
-    }
-
-    public function info(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'GoldDiggers';
-        $data['description'] = 'Introduction';
-
-        return view('golddiggers.info', $data);
-    }
-    public function tib(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation';
-        $data['description'] = 'Introduction';
-
-        return view('TIB.tib', $data);
-    }
-
-    public function present(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Presentation';
-        $data['description'] = 'Presentation';
-
-        return view('kineticgold.presentation', $data);
-    }
-
     public function benefits(Request $request)
     {
         $data = $this->userData($request);
@@ -228,30 +154,6 @@ class PagesController extends Controller
         $data['description'] = 'KineticGold Member Benefits';
 
         return view('kineticgold.benefits', $data);
-    }
-    public function benefits2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Digger Member Benefits';
-        $data['description'] = 'Gold Digger Member Benefits';
-
-        return view('golddigger.benefits2', $data);
-    }
-    public function benefits3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation Member Benefits';
-        $data['description'] = 'TIB Foundation Member Benefits';
-
-        return view('TIB.benefits3', $data);
-    }
-    public function benefits4(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'CBD Share Group Benefits';
-        $data['description'] = 'CBD Share Group Benefits';
-
-        return view('CBD.benefits4', $data);
     }
     public function businesscards(Request $request)
     {
@@ -261,6 +163,14 @@ class PagesController extends Controller
 
         return view('kineticgold.businesscards', $data);
     }
+    public function contact(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Contact';
+        $data['description'] = 'KineticGold Contact';
+
+        return view('kineticgold.contact', $data);
+    }
     public function cryptocurrency(Request $request)
     {
         $data = $this->userData($request);
@@ -268,6 +178,14 @@ class PagesController extends Controller
         $data['description'] = 'Details of KineticGold Cryptocurrency';
 
         return view('kinetic.cryptocurrency', $data);
+    }
+    public function debitcards(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Payroll Cards';
+        $data['description'] = 'KineticGold Payroll Cards';
+
+        return view('kineticgold.debitcards', $data);
     }
 
     public function ewallet(Request $request)
@@ -278,14 +196,55 @@ class PagesController extends Controller
 
         return view('kineticgold.ewallet', $data);
     }
-
-    public function bankinterface(Request $request)
+    public function comparison(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Kinetic Golds Interface';
-        $data['description'] = 'KineticGold unique Interface between Cryptocurrency and the Off-Shore Bank';
+        $data['title'] = 'KineticGold Multi-Level Comparison';
+        $data['description'] = 'KineticGold Multi-Level Comparison';
 
-        return view('kineticgold.bankinterface', $data);
+        return view('kineticgold.comparison', $data);
+    }
+    public function introduction(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Introduction to Marketing Plan';
+        $data['description'] = 'Introduction to Marketing Plan';
+
+        return view('kineticgold.introduction', $data);
+    }
+    public function limitations(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Limitations on Marketing';
+        $data['description'] = 'KineticGold Limitations on Marketing';
+
+        return view('kineticgold.limitations', $data);
+    }
+
+    public function memberagreement(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Member Agreement';
+        $data['description'] = 'KineticGold Member Agreement';
+
+        return view('kineticgold.mem_agreement', $data);
+    }
+    public function membercost(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'KineticGold Member Cost';
+        $data['description'] = 'KineticGold Member Cost';
+
+        return view('kineticgold.membercost', $data);
+    }
+    public function memberterms(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Member Agreement Terms and Conditions';
+        $data['description'] = 'KineticGold Member Agreement Terms and Conditions';
+
+        return view('kineticgold.memberterms', $data);
     }
 
     public function offshorebank(Request $request)
@@ -296,15 +255,54 @@ class PagesController extends Controller
 
         return view('kineticgold.offshorebank', $data);
     }
-    public function rewards(Request $request)
+    public function plans(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'Kinetic Golds Rewards Program';
-        $data['description'] = 'KineticGold Rewards Program';
+        $data['title'] = 'KineticGold Business Plan';
+        $data['description'] = 'KineticGold Business Plan';
 
-        return view('kineticgold.rrewards', $data);
+        return view('kineticgold.plans', $data);
+    }
+    public function potential(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Potential Income';
+        $data['description'] = 'KineticGold Potential Income';
+
+        return view('kineticgold.potential', $data);
     }
 
+    public function policies(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Policies and Procedures';
+        $data['description'] = 'Policies and Procedures';
+        return view('kineticgold.policies', $data);
+    }
+
+    public function present(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Presentation';
+        $data['description'] = 'Presentation';
+
+        return view('kineticgold.presentation', $data);
+    }
+    public function privacy(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Privacy Policy';
+        $data['description'] = 'Privacy Policy';
+        return view('kineticgold.privacy', $data);
+    }
+    public function products(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Products';
+        $data['description'] = 'KineticGold Products';
+
+        return view('kineticgold.products', $data);
+    }
     public function profitsharing(Request $request)
     {
         $data = $this->userData($request);
@@ -313,17 +311,13 @@ class PagesController extends Controller
 
         return view('kineticgold.profitsharing', $data);
     }
-
-
-
-
-    public function startup(Request $request)
+    public function purpose(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'KineticGold Startup Package';
-        $data['description'] = 'KineticGold Startup Package';
+        $data['title'] = 'KineticGold Purpose';
+        $data['description'] = 'Spiritual, Economic, Physical, Emotional';
 
-        return view('eco.startup', $data);
+        return view('kineticgold.purpose', $data);
     }
 
     public function referrallinks(Request $request)
@@ -342,31 +336,300 @@ class PagesController extends Controller
 
         return view('kineticgold.referrallinks', $data);
     }
-
-    public function selfreliance(Request $request)
+    public function returns(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'KineticGold Self Reliance';
-        $data['description'] = 'KineticGold Self Reliance';
+        $data['title'] = 'KineticGold Return Policy';
+        $data['description'] = 'KineticGold Return Policy';
 
-        return view('eco.self_reliance', $data);
+        return view('kineticgold.returns', $data);
     }
-    public function addBlanks($results, $modd)
+    public function requirements(Request $request)
     {
-        if ($modd >0) {
-            for ($modd; $modd<6; $modd++) {
-               // if($modd % 2){
-               //     $cl = "class = 'eighth'";
-              //  }else{
-                    $cl = '';
-               // }
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Requirements for Bonuses';
+        $data['description'] = 'KineticGold Requirements for Bonuses';
 
-                $results .= "<td $cl>";
-            }
-        }
-        return $results;
+        return view('kineticgold.requirements', $data);
     }
 
+    public function rewards(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Kinetic Golds Rewards Program';
+        $data['description'] = 'KineticGold Rewards Program';
+
+        return view('kineticgold.rrewards', $data);
+    }
+    public function selection(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Product Selection';
+        $data['description'] = 'KineticGold Product Selection';
+
+        return view('kineticgold.selection', $data);
+    }
+
+
+
+
+
+
+//    GoldDiggers
+    public function about2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers ';
+        $data['description'] = '';
+
+        return view('golddiggers.about2', $data);
+    }
+    public function autoship2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Autoship';
+        $data['description'] = 'Autoship Policy';
+
+        return view('golddiggers.autoship2', $data);
+    }
+    public function benefits2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Digger Member Benefits';
+        $data['description'] = 'Gold Digger Member Benefits';
+
+        return view('golddigger.benefits2', $data);
+    }
+    public function contact2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Contact';
+        $data['description'] = 'Gold Diggers Contact';
+
+        return view('golddiggers.contact2', $data);
+    }
+
+    public function info(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'GoldDiggers';
+        $data['description'] = 'Introduction';
+
+        return view('golddiggers.info', $data);
+    }
+    public function introduction2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Introduction to Kinetic Gold';
+        $data['description'] = 'Introduction to Kinetic Gold';
+
+        return view('golddiggers.introduction2', $data);
+    }
+    public function memberagreement2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Member Agreement';
+        $data['description'] = 'Gold DiggersMember Agreement';
+
+        return view('golddiggers.mem_agreement2', $data);
+    }
+    public function membercost2(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'Gold Diggers Member Cost';
+        $data['description'] = 'KineticGold Member Cost';
+
+        return view('golddiggers.membercost2', $data);
+    }
+    public function memberterms2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Association Terms and Conditions';
+        $data['description'] = 'Gold Diggers Association Member Agreement Terms and Conditions';
+
+        return view('golddiggers.memberterms2', $data);
+    }
+    public function plans2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Details';
+        $data['description'] = 'Gold Diggers Association Details';
+
+        return view('golddiggers.plans2', $data);
+    }
+    public function policies2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Digger Policies and Procedures';
+        $data['description'] = 'Policies and Procedures';
+        return view('golddiggers.policies2', $data);
+    }
+    public function purpose2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] ='Gold Diggers Purpose';
+        $data['description'] = 'Spiritual, Economic, Physical, Emotional';
+
+        return view('golddiggers.purpose2', $data);
+    }
+    public function privacy2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Privacy Policy';
+        $data['description'] = 'Privacy Policy';
+        return view('golddiggers.privacy2', $data);
+    }
+    public function requirements2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Association Requirements';
+        $data['description'] = 'Gold Diggers Association Requirements';
+
+        return view('golddiggers.requirements2', $data);
+    }
+
+    public function returns2(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Gold Diggers Return Policy';
+        $data['description'] = 'Gold Diggers Return Policy';
+
+        return view('golddiggers.returns2', $data);
+    }
+
+
+
+
+//    TIB
+    public function about3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation ';
+        $data['description'] = '';
+
+        return view('TIB.about3', $data);
+    }
+    public function autoship3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Autoship';
+        $data['description'] = 'Autoship Policy';
+
+        return view('TIB.autoship3', $data);
+    }
+
+    public function benefits3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Member Benefits';
+        $data['description'] = 'TIB Foundation Member Benefits';
+
+        return view('TIB.benefits3', $data);
+    }
+    public function memberagreement3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Member Agreement';
+        $data['description'] = 'TIB Foundation Member Agreement';
+
+        return view('TIB.mem_agreement3', $data);
+    }
+    public function membercost3(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'TIB Foundation Member Cost';
+        $data['description'] = 'TIB Foundation Member Cost';
+
+        return view('TIB.membercost3', $data);
+    }
+    public function memberterms3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Terms and Conditions';
+        $data['description'] = 'TIB Foundation Member Agreement Terms and Conditions';
+
+        return view('TIB.memberterms3', $data);
+    }
+    public function plans3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Details';
+        $data['description'] = 'TIB Foundation Details';
+
+        return view('TIB.plans3', $data);
+    }
+
+    public function returns3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Returns';
+        $data['description'] = 'Returns';
+
+        return view('TIB.returns3', $data);
+    }
+    public function policies3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation Policies and Procedures';
+        $data['description'] = 'Policies and Procedures';
+        return view('TIB.policies3', $data);
+    }
+
+    public function purpose3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] ='TIB Foundations Purpose';
+        $data['description'] = 'Beat the Banks at their own game';
+
+        return view('TIB.purpose3', $data);
+    }
+    public function privacy3(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Privacy Policy';
+        $data['description'] = 'Privacy Policy';
+        return view('TIB.privacy3', $data);
+    }
+
+
+    public function tib(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'TIB Foundation';
+        $data['description'] = 'Introduction';
+
+        return view('TIB.tib', $data);
+    }
+
+
+
+
+
+//    CBD
+    public function benefits4(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'CBD Share Group Benefits';
+        $data['description'] = 'CBD Share Group Benefits';
+
+        return view('CBD.benefits4', $data);
+    }
+    public function membercost4(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'CBD Care Group Member Cost';
+        $data['description'] = 'CBD Care Group Member Cost';
+
+        return view('CBD.membercost4', $data);
+    }
+
+
+
+
+//    Economics
     public function books(Request $request)
     {
         $data = $this->userData($request);
@@ -377,35 +640,6 @@ class PagesController extends Controller
         $data['description'] = 'KineticGold Books';
 
         return view('eco.books', $data);
-    }
-
-    public function stores($productGroup, Request $request)
-    {
-        $data = $this->userData($request);
-        $data['stores'] = $this->storeList($productGroup);
-        $data['product_group'] = $productGroup;
-        if ($productGroup == 38) {
-            $data['title'] = 'Boutiques';
-            $data['store_type'] = 'Boutique';
-            $data['description'] = 'Member Boutiques';
-        } elseif ($productGroup == 39) {
-            $data['title'] = 'Art Galleries';
-            $data['store_type'] = 'Art Gallery';
-            $data['description'] = 'Member Art Galleries';
-        } elseif ($productGroup == 40) {
-            $data['title'] = 'Estate Sales';
-            $data['store_type'] = 'Estate Sale';
-            $data['description'] = 'Estate Sales';
-        } elseif ($productGroup == 41) {
-            $data['title'] = 'Services';
-            $data['store_type'] = 'Services';
-            $data['description'] = 'Member Services';
-        } elseif ($productGroup == 42) {
-            $data['title'] = 'Stores';
-            $data['store_type'] = 'Stores';
-            $data['description'] = 'Member Stores';
-        }
-        return view('eco.stores', $data);
     }
     public function camping(Request $request)
     {
@@ -431,48 +665,6 @@ class PagesController extends Controller
 
         return view('eco.cooking', $data);
     }
-
-    public function comparison(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Multi-Level Comparison';
-        $data['description'] = 'KineticGold Multi-Level Comparison';
-
-        return view('kineticgold.comparison', $data);
-    }
-    public function contact(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Contact';
-        $data['description'] = 'KineticGold Contact';
-
-        return view('kineticgold.contact', $data);
-    }
-    public function contact2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers Contact';
-        $data['description'] = 'Gold Diggers Contact';
-
-        return view('golddiggers.contact2', $data);
-    }
-    public function returns3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation Returns';
-        $data['description'] = 'Returns';
-
-        return view('TIB.returns3', $data);
-    }
-    public function debitcards(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Payroll Cards';
-        $data['description'] = 'KineticGold Payroll Cards';
-
-        return view('kineticgold.debitcards', $data);
-    }
-
     public function discount(Request $request)
     {
         $data = $this->userData($request);
@@ -481,7 +673,6 @@ class PagesController extends Controller
 
         return view('eco.discount', $data);
     }
-
     public function donations(Request $request)
     {
         $data = $this->userData($request);
@@ -554,42 +745,6 @@ class PagesController extends Controller
 
         return view('eco.health', $data);
     }
-
-    public function house(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Household Products';
-        $data['description'] = 'KineticGold Household Products';
-
-        return view('eco.house', $data);
-    }
-    public function editHomepage(Request $request)
-    {
-
-        $userId = $request->session()->get('user_id');
-        $editUser = Users::find($userId);
-        $editUser->password = $request->input('password');
-        $editUser->first_name = $request->input('first_name');
-        $editUser->last_name = $request->input('last_name');
-        $editUser->email= $request->input('email');
-        $editUser->home_phone = $request->input('home_phone');
-        $editUser->cell_phone = $request->input('cell_phone');
-        $editUser->addr1 = $request->input('addr1');
-        $editUser->addr2 = $request->input('addr2');
-        $editUser->city = $request->input('city');
-        $editUser->state = $request->input('state');
-        $editUser->postal_code = $request->input('postal_code');
-        $editUser->country = $request->input('country');
-        $editUser->member_story = $request->input('member_story');
-        $editUser->social_security = $request->input('social_security');
-        $picture = $this->addImage($userId, $request);
-        if ($picture > '') {
-            $editUser->picture = $picture;
-        }
-        $editUser->save();
-
-        return $this->homepage($request);
-    }
     public function homepage(Request $request)
     {
         $data = $this->userData($request);
@@ -626,502 +781,13 @@ class PagesController extends Controller
             return view('eco.management', $data);
         }
     }
-
-    public function itemCount(Request $request)
-    {
-        $userId = $request->session()->get('user_id');
-        $shoppingCart = new ShoppingCarts;
-        return $shoppingCart->getItemCount($userId);
-    }
-    public function limitations(Request $request)
+    public function house(Request $request)
     {
         $data = $this->userData($request);
-        $data['title'] = 'KineticGold Limitations on Marketing';
-        $data['description'] = 'KineticGold Limitations on Marketing';
+        $data['title'] = 'KineticGold Household Products';
+        $data['description'] = 'KineticGold Household Products';
 
-        return view('kineticgold.limitations', $data);
-    }
-    public function logout(Request $request)
-    {
-        $data = $this->userData($request);
-        return view('eco.logout', $data);
-    }
-    public function members(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Members';
-        $data['description'] = 'KineticGold Members';
-
-        return view('eco.members', $data);
-    }
-
-    public function memberagreement(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Member Agreement';
-        $data['description'] = 'KineticGold Member Agreement';
-
-        return view('kineticgold.mem_agreement', $data);
-    }
-
-    public function memberagreement2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers Member Agreement';
-        $data['description'] = 'Gold DiggersMember Agreement';
-
-        return view('golddiggers.mem_agreement2', $data);
-    }
-    public function memberagreement3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation Member Agreement';
-        $data['description'] = 'TIB Foundation Member Agreement';
-
-        return view('TIB.mem_agreement3', $data);
-    }
-
-    public function membercost(Request $request)
-    {
-        $data = $this->userData($request);
-
-        $data['title'] = 'KineticGold Member Cost';
-        $data['description'] = 'KineticGold Member Cost';
-
-        return view('kineticgold.membercost', $data);
-    }
-    public function membercost2(Request $request)
-    {
-        $data = $this->userData($request);
-
-        $data['title'] = 'Gold Diggers Member Cost';
-        $data['description'] = 'KineticGold Member Cost';
-
-        return view('golddiggers.membercost2', $data);
-    }
-    public function membercost3(Request $request)
-    {
-        $data = $this->userData($request);
-
-        $data['title'] = 'TIB Foundation Member Cost';
-        $data['description'] = 'TIB Foundation Member Cost';
-
-        return view('TIB.membercost3', $data);
-    }
-    public function membercost4(Request $request)
-    {
-        $data = $this->userData($request);
-
-        $data['title'] = 'CBD Care Group Member Cost';
-        $data['description'] = 'CBD Care Group Member Cost';
-
-        return view('CBD.membercost4', $data);
-    }
-    public function memberterms(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Member Agreement Terms and Conditions';
-        $data['description'] = 'KineticGold Member Agreement Terms and Conditions';
-
-        return view('kineticgold.memberterms', $data);
-    }
-    public function memberterms2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers Association Terms and Conditions';
-        $data['description'] = 'Gold Diggers Association Member Agreement Terms and Conditions';
-
-        return view('golddiggers.memberterms2', $data);
-    }
-    public function memberterms3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation Terms and Conditions';
-        $data['description'] = 'TIB Foundation Member Agreement Terms and Conditions';
-
-        return view('TIB.memberterms3', $data);
-    }
-
-    public function money(Request $request)
-    {
-        $data = $this->userData($request);
-        return view('eco.money', $data);
-    }
-
-    public function people(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold People Involved';
-        $data['description'] = 'KineticGold People Involved';
-
-        return view('eco.people', $data);
-    }
-    public function physically(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Physical Benefits';
-        $data['description'] = 'KineticGold Physical Benefits';
-
-        return view('eco.physically', $data);
-    }
-    public function plans(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Business Plan';
-        $data['description'] = 'KineticGold Business Plan';
-
-        return view('kineticgold.plans', $data);
-    }
-    public function plans2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Details';
-        $data['description'] = 'Gold Diggers Association Details';
-
-        return view('golddiggers.plans2', $data);
-    }
-    public function plans3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Details';
-        $data['description'] = 'TIB Foundation Details';
-
-        return view('TIB.plans3', $data);
-    }
-    public function potential(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Potential Income';
-        $data['description'] = 'KineticGold Potential Income';
-
-        return view('kineticgold.potential', $data);
-    }
-
-    public function product($productId, Request $request)
-    {
-        $data = $this->userData($request);
-        $product = Products::find($productId);
-        $data['ItemCount'] = $this->itemCount($request);
-        $data['Product'] = $product;
-        $data['title'] = $product->product_name.' - '.$product->Author;
-        $data['description'] = $product->description;
-
-        return view($product->display_page, $data);
-    }
-    public function products(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Products';
-        $data['description'] = 'KineticGold Products';
-
-        return view('kineticgold.products', $data);
-    }
-    public function productsSum(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Products';
-        $data['description'] = 'KineticGold Products';
-
-        return view('eco.productsSum', $data);
-    }
-
-    public function prepareSelect($productGroups, $selected)
-    {
-        $results = "<select name='ProductGroupList' style='width:300px;' onchange='this.form.submit()' > ";
-        $selectField = ($selected == 0)?'selected':'';
-      //  $results .= "<option value = '0' $selectField>All Users</option>";
-
-        foreach ($productGroups as $id => $productGroup) {
-            $selectField = ($id == $selected)?'selected':'';
-            $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
-        }
-        $results .="</select>";
-        return $results;
-    }
-
-    public function productCategories($productGroup, $selected)
-    {
-        $productGroups= ProductGroups::where('Parent_id', $productGroup)->orderBy('group_order')->pluck('name', 'id');
-        $select = $this->prepareSelect($productGroups, $selected);
-        return $select;
-    }
-
-
-    public function productSummary($subGroup)
-    {
-        $results = '';
-
-        $products = Products::where('product_group', $subGroup)->orderBy('group_order')->get();
-        $results = '<tr>';
-        $ctr= 0;
-        $modd=0;
-        if (count($products)==0) {
-            $results .= "<td>No books in this category, Coming Soon</td>";
-            $ctr = 8;
-        }
-
-        foreach ($products as $product) {
-            $results .= "<td class='eighth'><a href=\"product/$product->id\"><img src=\"images\\$product->image\" width=\"135px;\"></a></td>";
-            $results .= "<td ><a href=\"product/$product->id\">";
-            $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->Author."</b><br>".$product->display_description;
-            $results .= substr($description, 0, 260)."...</a></td>";
-            $ctr++;
-            $ctr++;
-            $modd = $ctr % 6;
-            \Log::info("ctr=$ctr  mod=$modd");
-            if ($modd == 0) {
-                $results .= "</tr><tr>";
-            }
-        }
-        $results = $this->addBlanks($results, $modd);
-        $results .= "</tr>";
-        return $results;
-    }
-    public function purpose(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Purpose';
-        $data['description'] = 'Spiritual, Economic, Physical, Emotional';
-
-        return view('kineticgold.purpose', $data);
-    }
-    public function purpose2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] ='Gold Diggers Purpose';
-        $data['description'] = 'Spiritual, Economic, Physical, Emotional';
-
-        return view('golddiggers.purpose2', $data);
-    }
-    public function purpose3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] ='TIB Foundations Purpose';
-        $data['description'] = 'Beat the Banks at their own game';
-
-        return view('TIB.purpose3', $data);
-    }
-    public function policies(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Policies and Procedures';
-        $data['description'] = 'Policies and Procedures';
-        return view('kineticgold.policies', $data);
-    }
-    public function policies2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Digger Policies and Procedures';
-        $data['description'] = 'Policies and Procedures';
-        return view('golddiggers.policies2', $data);
-    }
-    public function policies3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Foundation Policies and Procedures';
-        $data['description'] = 'Policies and Procedures';
-        return view('TIB.policies3', $data);
-    }
-
-    public function privacy(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Privacy Policy';
-        $data['description'] = 'Privacy Policy';
-        return view('kineticgold.privacy', $data);
-    }
-    public function privacy2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers Privacy Policy';
-        $data['description'] = 'Privacy Policy';
-        return view('golddiggers.privacy2', $data);
-    }
-    public function privacy3(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'TIB Privacy Policy';
-        $data['description'] = 'Privacy Policy';
-        return view('TIB.privacy3', $data);
-    }
-    public function recycling(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Recycling Products';
-        $data['description'] = 'KineticGold Recycling Products';
-
-        return view('eco.recycling', $data);
-    }
-    public function referral(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Referral Bonuses';
-        $data['description'] = 'KineticGold Referral Bonuses';
-
-        return view('eco.referral', $data);
-    }
-
-    public function returns(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Return Policy';
-        $data['description'] = 'KineticGold Return Policy';
-
-        return view('kineticgold.returns', $data);
-    }
-    public function returns2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers Return Policy';
-        $data['description'] = 'Gold Diggers Return Policy';
-
-        return view('golddiggers.returns2', $data);
-    }
-    public function requirements(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Requirements for Bonuses';
-        $data['description'] = 'KineticGold Requirements for Bonuses';
-
-        return view('kineticgold.requirements', $data);
-    }
-    public function requirements2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Gold Diggers Association Requirements';
-        $data['description'] = 'Gold Diggers Association Requirements';
-
-        return view('golddiggers.requirements2', $data);
-    }
-
-    public function selection(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Product Selection';
-        $data['description'] = 'KineticGold Product Selection';
-
-        return view('kineticgold.selection', $data);
-    }
-    public function spiritually(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Spiritual Benefits';
-        $data['description'] = 'KineticGold Spiritual Benefits';
-
-        return view('eco.spiritually', $data);
-    }
-    public function training(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Training Products';
-        $data['description'] = 'KineticGold Training Products';
-
-        return view('eco.training', $data);
-    }
-
-    public function transfers(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Immediate Transfer of Funds';
-        $data['description'] = 'KineticGold Immediate Transfer of Funds';
-
-        return view('eco.transfers', $data);
-    }
-    public function water(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Water Purification Products';
-        $data['description'] = 'KineticGold Water Purification Products';
-
-        return view('eco.water', $data);
-    }
-    public function linksfood(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Food Production';
-        $data['description'] = 'KineticGold Video Food Production';
-
-        return view('eco.linksfood', $data);
-    }
-    public function linkswater(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Water Purification';
-        $data['description'] = 'KineticGold Video Water Purification';
-
-        return view('eco.linkswater', $data);
-    }
-    public function linksenergy(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Energy Production';
-        $data['description'] = 'Solar, Water, Bio-gas Videos';
-
-        return view('eco.linksenergy', $data);
-    }
-    public function linksrecycling(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Recycling';
-        $data['description'] = 'KineticGold Video Recycling';
-
-        return view('eco.linksrecycling', $data);
-    }
-    public function linkscamping(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Camping and Survival';
-        $data['description'] = 'Video Camping and Survival';
-
-        return view('eco.linkscamping', $data);
-    }
-    public function linkscooking(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Cooking Systems';
-        $data['description'] = 'Cooking Systems';
-
-        return view('eco.linkscooking', $data);
-    }
-    public function linkshealth(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Healthy Lifestyles';
-        $data['description'] = 'Video Health Lifestyles';
-
-        return view('eco.linkshealth', $data);
-    }
-    public function linkshouse(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Household Products';
-        $data['description'] = 'Video Household Products';
-
-        return view('eco.linkshouse', $data);
-    }
-    public function traininglinks(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Video Training Links';
-        $data['description'] = 'Video Training Links';
-
-        return view('eco.traininglinks', $data);
-    }
-    public function introduction(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'KineticGold Introduction to Marketing Plan';
-        $data['description'] = 'Introduction to Marketing Plan';
-
-        return view('kineticgold.introduction', $data);
-    }
-    public function introduction2(Request $request)
-    {
-        $data = $this->userData($request);
-        $data['title'] = 'Introduction to Kinetic Gold';
-        $data['description'] = 'Introduction to Kinetic Gold';
-
-        return view('golddiggers.introduction2', $data);
+        return view('eco.house', $data);
     }
     public function introduction9(Request $request)
     {
@@ -1130,6 +796,14 @@ class PagesController extends Controller
         $data['description'] = 'Introduction to Kinetic Gold';
 
         return view('eco.introduction9', $data);
+    }
+    public function linksfood(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Food Production';
+        $data['description'] = 'KineticGold Video Food Production';
+
+        return view('eco.linksfood', $data);
     }
     public function linksgardening(Request $request)
     {
@@ -1205,14 +879,338 @@ class PagesController extends Controller
 
         return view('eco.linksbiogas', $data);
     }
+    public function linkswater(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Water Purification';
+        $data['description'] = 'KineticGold Video Water Purification';
+
+        return view('eco.linkswater', $data);
+    }
+    public function linksenergy(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Energy Production';
+        $data['description'] = 'Solar, Water, Bio-gas Videos';
+
+        return view('eco.linksenergy', $data);
+    }
+    public function linksrecycling(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Recycling';
+        $data['description'] = 'KineticGold Video Recycling';
+
+        return view('eco.linksrecycling', $data);
+    }
+    public function linkscamping(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Camping and Survival';
+        $data['description'] = 'Video Camping and Survival';
+
+        return view('eco.linkscamping', $data);
+    }
+    public function linkscooking(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Cooking Systems';
+        $data['description'] = 'Cooking Systems';
+
+        return view('eco.linkscooking', $data);
+    }
+    public function linkshealth(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Healthy Lifestyles';
+        $data['description'] = 'Video Health Lifestyles';
+
+        return view('eco.linkshealth', $data);
+    }
+    public function linkshouse(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Household Products';
+        $data['description'] = 'Video Household Products';
+
+        return view('eco.linkshouse', $data);
+    }
+
+    public function logout(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('eco.logout', $data);
+    }
+    public function members(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Members';
+        $data['description'] = 'KineticGold Members';
+
+        return view('eco.members', $data);
+    }
+    public function money(Request $request)
+    {
+        $data = $this->userData($request);
+        return view('eco.money', $data);
+    }
+
+    public function people(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold People Involved';
+        $data['description'] = 'KineticGold People Involved';
+
+        return view('eco.people', $data);
+    }
+    public function physically(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Physical Benefits';
+        $data['description'] = 'KineticGold Physical Benefits';
+
+        return view('eco.physically', $data);
+    }
+    public function productsSum(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Products';
+        $data['description'] = 'KineticGold Products';
+
+        return view('eco.productsSum', $data);
+    }
+    public function recycling(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Recycling Products';
+        $data['description'] = 'KineticGold Recycling Products';
+
+        return view('eco.recycling', $data);
+    }
+    public function referral(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Referral Bonuses';
+        $data['description'] = 'KineticGold Referral Bonuses';
+
+        return view('eco.referral', $data);
+    }
+    public function selfreliance(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Self Reliance';
+        $data['description'] = 'KineticGold Self Reliance';
+
+        return view('eco.self_reliance', $data);
+    }
+    public function spiritually(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Spiritual Benefits';
+        $data['description'] = 'KineticGold Spiritual Benefits';
+
+        return view('eco.spiritually', $data);
+    }
+    public function startup(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Startup Package';
+        $data['description'] = 'KineticGold Startup Package';
+
+        return view('eco.startup', $data);
+    }
+    public function stores($productGroup, Request $request)
+    {
+        $data = $this->userData($request);
+        $data['stores'] = $this->storeList($productGroup);
+        $data['product_group'] = $productGroup;
+        if ($productGroup == 38) {
+            $data['title'] = 'Boutiques';
+            $data['store_type'] = 'Boutique';
+            $data['description'] = 'Member Boutiques';
+        } elseif ($productGroup == 39) {
+            $data['title'] = 'Art Galleries';
+            $data['store_type'] = 'Art Gallery';
+            $data['description'] = 'Member Art Galleries';
+        } elseif ($productGroup == 40) {
+            $data['title'] = 'Estate Sales';
+            $data['store_type'] = 'Estate Sale';
+            $data['description'] = 'Estate Sales';
+        } elseif ($productGroup == 41) {
+            $data['title'] = 'Services';
+            $data['store_type'] = 'Services';
+            $data['description'] = 'Member Services';
+        } elseif ($productGroup == 42) {
+            $data['title'] = 'Stores';
+            $data['store_type'] = 'Stores';
+            $data['description'] = 'Member Stores';
+        }
+        return view('eco.stores', $data);
+    }
+    public function training(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Training Products';
+        $data['description'] = 'KineticGold Training Products';
+
+        return view('eco.training', $data);
+    }
+    public function traininglinks(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Video Training Links';
+        $data['description'] = 'Video Training Links';
+
+        return view('eco.traininglinks', $data);
+    }
+    public function transfers(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Immediate Transfer of Funds';
+        $data['description'] = 'KineticGold Immediate Transfer of Funds';
+
+        return view('eco.transfers', $data);
+    }
+    public function water(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Water Purification Products';
+        $data['description'] = 'KineticGold Water Purification Products';
+
+        return view('eco.water', $data);
+    }
+
+    // non module
+
+    public function accounting(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'KineticGold Accounting';
+        $data['description'] = 'Accounting';
+
+        return view('accounting', $data);
+    }
+
+
+    //non view
+
+   public function addBlanks($results, $modd)
+    {
+        if ($modd >0) {
+            for ($modd; $modd<6; $modd++) {
+               // if($modd % 2){
+               //     $cl = "class = 'eighth'";
+              //  }else{
+                    $cl = '';
+               // }
+
+                $results .= "<td $cl>";
+            }
+        }
+        return $results;
+    }
+
+
+    public function editHomepage(Request $request)
+    {
+
+        $userId = $request->session()->get('user_id');
+        $editUser = Users::find($userId);
+        $editUser->password = $request->input('password');
+        $editUser->first_name = $request->input('first_name');
+        $editUser->last_name = $request->input('last_name');
+        $editUser->email= $request->input('email');
+        $editUser->home_phone = $request->input('home_phone');
+        $editUser->cell_phone = $request->input('cell_phone');
+        $editUser->addr1 = $request->input('addr1');
+        $editUser->addr2 = $request->input('addr2');
+        $editUser->city = $request->input('city');
+        $editUser->state = $request->input('state');
+        $editUser->postal_code = $request->input('postal_code');
+        $editUser->country = $request->input('country');
+        $editUser->member_story = $request->input('member_story');
+        $editUser->social_security = $request->input('social_security');
+        $picture = $this->addImage($userId, $request);
+        if ($picture > '') {
+            $editUser->picture = $picture;
+        }
+        $editUser->save();
+
+        return $this->homepage($request);
+    }
+
+
+    public function itemCount(Request $request)
+    {
+        $userId = $request->session()->get('user_id');
+        $shoppingCart = new ShoppingCarts;
+        return $shoppingCart->getItemCount($userId);
+    }
+    public function product($productId, Request $request)
+    {
+        $data = $this->userData($request);
+        $product = Products::find($productId);
+        $data['ItemCount'] = $this->itemCount($request);
+        $data['Product'] = $product;
+        $data['title'] = $product->product_name.' - '.$product->Author;
+        $data['description'] = $product->description;
+
+        return view($product->display_page, $data);
+    }
+    public function prepareSelect($productGroups, $selected)
+    {
+        $results = "<select name='ProductGroupList' style='width:300px;' onchange='this.form.submit()' > ";
+        $selectField = ($selected == 0)?'selected':'';
+        //  $results .= "<option value = '0' $selectField>All Users</option>";
+
+        foreach ($productGroups as $id => $productGroup) {
+            $selectField = ($id == $selected)?'selected':'';
+            $results .= "<option value ='".$id."' $selectField>$productGroup</option>";
+        }
+        $results .="</select>";
+        return $results;
+    }
+
+    public function productCategories($productGroup, $selected)
+    {
+        $productGroups= ProductGroups::where('Parent_id', $productGroup)->orderBy('group_order')->pluck('name', 'id');
+        $select = $this->prepareSelect($productGroups, $selected);
+        return $select;
+    }
+    public function productSummary($subGroup)
+    {
+        $results = '';
+
+        $products = Products::where('product_group', $subGroup)->orderBy('group_order')->get();
+        $results = '<tr>';
+        $ctr= 0;
+        $modd=0;
+        if (count($products)==0) {
+            $results .= "<td>No books in this category, Coming Soon</td>";
+            $ctr = 8;
+        }
+
+        foreach ($products as $product) {
+            $results .= "<td class='eighth'><a href=\"product/$product->id\"><img src=\"images\\$product->image\" width=\"135px;\"></a></td>";
+            $results .= "<td ><a href=\"product/$product->id\">";
+            $description = "<b>".$product->product_name."</b><br>".$product->description."<br><b>".$product->Author."</b><br>".$product->display_description;
+            $results .= substr($description, 0, 260)."...</a></td>";
+            $ctr++;
+            $ctr++;
+            $modd = $ctr % 6;
+            \Log::info("ctr=$ctr  mod=$modd");
+            if ($modd == 0) {
+                $results .= "</tr><tr>";
+            }
+        }
+        $results = $this->addBlanks($results, $modd);
+        $results .= "</tr>";
+        return $results;
+    }
 
     public function storeList($productGroup)
     {
-//        $data = $this->userData($request);
-//        $data['title'] = 'KineticGold Video Bio-Gas Digestors';
-//        $data['description'] = 'Video Bio-Gas Digestors';
-//
-//        return view('linksbiogas',$data);
+
         return UserStores::where('product_group', $productGroup)->orderBy('name')->get();
     }
     public function addImage($userId, Request $request)

@@ -24,6 +24,7 @@ p{
     font-size:4.0vw;
     font-weight:bolder;
     max-font-size:22px;
+    color:blue;
     line-heght:4vw;
  }
 .navcontainer{

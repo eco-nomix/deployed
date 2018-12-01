@@ -72,7 +72,7 @@ p{
         <div style="padding:2px;">
             <ul>
 
-                <li>Shop<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/">Shop<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/Gummies">Gummies</a></li>
                         <li><a href="{{URL::to('/')}}/HempOil">Hemp Oil</a></li>

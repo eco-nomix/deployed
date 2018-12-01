@@ -91,7 +91,7 @@ p{
             </ul>
              <ul>
 
-                <li>Income<span class="caret"></span></a>
+                <li><a href="{{URL::to('/')}}/">Income<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/benefits4">Member Benefit</a></li>
                         <li><a href="{{URL::to('/')}}/membercost3">Member Cost</a></li>

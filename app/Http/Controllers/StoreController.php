@@ -29,7 +29,7 @@ class StoreController extends Controller
         $data['owner'] = $userStore->owner_description;
         $data['description'] = 'Member Stores';
 
-        return view('store', $data);
+        return view('ecostore.store', $data);
     }
     public function storeSummary($storeId)
     {
@@ -151,7 +151,7 @@ class StoreController extends Controller
         $data['ItemCount'] = $this->itemCount($request);
         $data['title'] = $userStore->product_name;
         $data['Product'] = $product;
-        return view('store_product', $data);
+        return view('ecostore.store_product', $data);
     }
     public function onekindproduct($productId, Request $request)
     {
@@ -167,7 +167,7 @@ class StoreController extends Controller
 
         $data['Product'] = $product;
         $data['wholesale'] = number_format($product->member*.6, 2);
-        return view('store_product', $data);
+        return view('ecostore.store_product', $data);
     }
     public function saveeditproduct($storeId, $productId, Request $request)
     {
@@ -203,7 +203,7 @@ class StoreController extends Controller
         $data['categories']  = $this->storeCategories();
         $data['logo'] = $store->logo;
 
-        return view('store_edit_product', $data);
+        return view('ecostore.store_edit_product', $data);
     }
     public function editproduct($storeId, $productId, Request $request)
     {
@@ -220,7 +220,7 @@ class StoreController extends Controller
         $data['logo'] = $store->logo;
         $data['categories']  = $this->storeCategories();
 
-        return view('store_edit_product', $data);
+        return view('ecostore.store_edit_product', $data);
     }
 
     public function addStore($productGroup, $userId, Request $request)
@@ -236,7 +236,7 @@ class StoreController extends Controller
         $data['product_group'] = $productGroup;
         $data['store_type'] = $this->storeType($productGroup);
         $data['description'] = 'Add New Store';
-        return view('store_add', $data);
+        return view('ecostore.store_add', $data);
     }
 
     public function storeType($productGroup)
@@ -290,7 +290,7 @@ class StoreController extends Controller
         $data['owner_description'] = $store->owner_description;
         $data['allow_custom_requests'] = $store->allow_custom_requests;
         $data['handling_charge'] = $store->handling_charge;
-        return view('store_edit', $data);
+        return view('ecostore.store_edit', $data);
     }
 
     public function saveeditStore($storeId, Request $request)
@@ -348,7 +348,7 @@ class StoreController extends Controller
         $data['allow_custom_requests'] = $store->allow_custom_requests;
         $data['handling_charge'] = $store->handling_charge;
 
-        return view('store_edit', $data);
+        return view('ecostore.store_edit', $data);
     }
     public function itemCount(Request $request)
     {
@@ -403,7 +403,7 @@ class StoreController extends Controller
         $data['products'] = $this->storeProducts($storeId);
         $data['categories']  = $this->storeCategories();
 
-        return view('store_products', $data);
+        return view('ecostore.store_products', $data);
     }
 
     public function storeCategories()
@@ -508,7 +508,7 @@ class StoreController extends Controller
         $data['categories']  = $this->storeCategories();
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = 0;
-        return view('one_of_a_kind', $data);
+        return view('ecostore.one_of_a_kind', $data);
     }
     public function onekindSub($productCategory, Request $request)
     {
@@ -519,7 +519,7 @@ class StoreController extends Controller
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = $productCategory;
 
-        return view('one_of_a_kind', $data);
+        return view('ecostore.one_of_a_kind', $data);
     }
     public function multiKind(Request $request)
     {
@@ -529,7 +529,7 @@ class StoreController extends Controller
         $data['categories']  = $this->storeCategories();
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = 0;
-        return view('multi_of_a_kind', $data);
+        return view('ecostore.multi_of_a_kind', $data);
     }
     public function multikindSub($productCategory, Request $request)
     {
@@ -540,7 +540,7 @@ class StoreController extends Controller
         $data['description'] = 'From All the Stores';
         $data['productCategory'] = $productCategory;
 
-        return view('multi_of_a_kind', $data);
+        return view('ecostore.multi_of_a_kind', $data);
     }
     public function multiKindSummary()
     {
@@ -618,6 +618,6 @@ class StoreController extends Controller
         $data['ItemCount'] = $this->itemCount($request);
         $data['title'] = $store->product_name;
         $data['Product'] = $product;
-        return view('store_product', $data);
+        return view('ecostore.store_product', $data);
     }
 }

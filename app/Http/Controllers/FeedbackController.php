@@ -26,7 +26,7 @@ class FeedbackController extends Controller
                 $data = $this->userData(request());
                 $data['s'] = $s;
 
-                return view('show_feedback_form', $data);
+                return view('ecofeedback.show_feedback_form', $data);
             } else {
                 return redirect()->route($invalid_route);
             }

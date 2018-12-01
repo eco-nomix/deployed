@@ -50,7 +50,7 @@ class AccountsController extends Controller
 
         $data['is_user_have_debit_card'] = EcoDebitCards::where('user_id', session()->get('user_id'))->first();
 
-        return view('users-accounts', $data);
+        return view('ecoaccounts.users-accounts', $data);
     }
     
     public function productHistory()
@@ -91,7 +91,7 @@ class AccountsController extends Controller
             }
         }
 
-        return view('user-product-history', $data);
+        return view('ecoaccounts.user-product-history', $data);
     }
 
     public function distributor()
@@ -154,7 +154,7 @@ class AccountsController extends Controller
             $data['total_r_c'] += $rc->amount;
         }
 
-        return view('distributor-accounts', $data);
+        return view('ecoaccounts.distributor-accounts', $data);
     }
 
     public function getComplaintPage()
@@ -183,7 +183,7 @@ class AccountsController extends Controller
             }
         }
                 
-        return view('complaint_page', $data);
+        return view('ecoaccounts.complaint_page', $data);
     }
 
     public function distributorProductHistory()
@@ -215,7 +215,7 @@ class AccountsController extends Controller
             }
         }
 
-        return view('user-product-history', $data);
+        return view('ecoaccounts.user-product-history', $data);
     }
 
     public function userData($request)
@@ -346,7 +346,7 @@ class AccountsController extends Controller
             }
         }
 
-        return view('admin-accounts', $data);
+        return view('ecoaccounts.admin-accounts', $data);
     }
 
     public function adminProductHistory()
@@ -458,7 +458,7 @@ class AccountsController extends Controller
             $data['last'] = $data['start'] + count($data['sales_details']) - 1;
         }
 
-        return view('admin_sales_progress', $data);
+        return view('ecoaccounts.admin_sales_progress', $data);
     }
 
     public function withdrawal()
@@ -497,9 +497,9 @@ class AccountsController extends Controller
             $data['t_c'] = $user->distributorCommission->sum('amount');
             $data['t_c_w'] = $data['c_w']->sum('amount');
 
-            return view('distributor_withdrawal_page', $data);
+            return view('ecoaccounts.distributor_withdrawal_page', $data);
         } else {
-            return view('user_withdrawal_page', $data);
+            return view('ecoaccounts.user_withdrawal_page', $data);
         }
     }
 
@@ -619,9 +619,9 @@ class AccountsController extends Controller
                                                 return $w;
                                             });
         if (request()->get('ga-demo') == 'demo') {
-            return view('admin_withdrawal_page_demo', $data);
+            return view('ecoaccounts.admin_withdrawal_page_demo', $data);
         }
-        return view('admin_withdrawal_page', $data);
+        return view('ecoaccounts.admin_withdrawal_page', $data);
     }
     
     public function adminUpdateWithdrawalStatus(Request $request)

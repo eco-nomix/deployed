@@ -64,7 +64,7 @@ class SalesController extends Controller
         $data['description'] = '';
         $data['user_name'] = session()->get('user_name');
         $data['username'] = session()->get('username');
-        return view('sales_progress', $data);
+        return view('ecosales.sales_progress', $data);
     }
 
 

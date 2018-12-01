@@ -32,7 +32,7 @@ class AuthenticationController extends Controller
         $data['errors'] = '';
         $data['title'] = '';
         $data['description'] = 'Login';
-        return view('login', $data);
+        return view('ecoauth.login', $data);
     }
 
     public function logout2(Request $request)
@@ -48,7 +48,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = '';
         $data['title'] = '';
         $data['description'] = 'Login';
-        return view('welcome', $data);
+        return view('kineticgold.welcome', $data);
     }
 
     public function verify(Request $request)
@@ -90,7 +90,7 @@ class AuthenticationController extends Controller
             $data['title'] = '';
             \Log::info("exit 1");
 
-            return view('welcome', $data);
+            return view('kineticgold.welcome', $data);
         }
     }
 
@@ -117,7 +117,7 @@ class AuthenticationController extends Controller
         $data['title'] = '';
         $data['description'] = 'Invalid';
         \Log::info("exit 2");
-        return view('login', $data);
+        return view('ecoauth.login', $data);
     }
 
 
@@ -153,7 +153,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = $user->id;
         $data['title'] = '';
         \Log::info("exit 1");
-        return view('welcome', $data);
+        return view('kineticgold.welcome', $data);
     }
 
     public function getUserRoles($userId)
@@ -195,7 +195,7 @@ class AuthenticationController extends Controller
 
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
-                    return view('register2', $data);
+                    return view('ecoauth.register2', $data);
                 }
                 if ($user->member == 3) {
                     $data = $this->basedata($request);
@@ -205,7 +205,7 @@ class AuthenticationController extends Controller
 
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
-                    return view('payment', $data);
+                    return view('ecoauth.payment', $data);
                 }
                 if ($user->member == 4) {
                     $data = $this->basedata($request);
@@ -215,7 +215,7 @@ class AuthenticationController extends Controller
                     $data['userRoles'] = $this->getUserRoles($user->id);
                     $data['userId'] = $user->id;
                     \Log::info("exit 1");
-                    return view('awaiting_payment', $data);
+                    return view('ecoauth.awaiting_payment', $data);
                 }
                 if ($user->member == 5) {
                     $data = $this->basedata($request);
@@ -224,12 +224,12 @@ class AuthenticationController extends Controller
                     $data['userRoles'] = $this->getUserRoles($user->id);
                     $data['user_id'] = $userId;
                     \Log::info("exit 1");
-                    return view('registration_complete', $data);
+                    return view('ecoauth.registration_complete', $data);
                 }
             }
         }
 
-        return view('register', $data);
+        return view('ecoauth.register', $data);
     }
 
 
@@ -256,7 +256,7 @@ class AuthenticationController extends Controller
             $data['title'] = '';
             $data['userRoles'] = $this->getUserRoles('x');
             $data['user_id'] = '';
-            return view('register', $data);
+            return view('ecoauth.register', $data);
         }
             //not registered -  verify email
             $user = $this->initialRegistration($request);
@@ -270,7 +270,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = '';
         $data['title'] = '';
         \Log::info("exit 1");
-        return view('register2', $data);
+        return view('ecoauth.register2', $data);
     }
 
     public function prepayment(Request $request)
@@ -325,7 +325,7 @@ class AuthenticationController extends Controller
                 \Log::info("exit 1");
                 $user->member = 4;
                 $user->save();
-                return view('awaiting_payment', $data);
+                return view('ecoauth.awaiting_payment', $data);
             }
             $data = $this->basedata($request);
             $data['username'] = '';
@@ -334,7 +334,7 @@ class AuthenticationController extends Controller
             $data['user_id'] = '';
             $data['title'] = '';
             \Log::info("exit 1");
-            return view('payment', $data);
+            return view('ecoauth.payment', $data);
         }
     }
 
@@ -374,7 +374,7 @@ class AuthenticationController extends Controller
             $data['username'] = $username;
             $data['email'] = $user->email;
             $data['title'] = '';
-            return view('thankyou', $data);
+            return view('ecoauth.thankyou', $data);
         }
     }
 
@@ -412,7 +412,7 @@ class AuthenticationController extends Controller
             $data['title'] = '';
             $data['description'] = 'Reset';
             \Log::info("exit 3");
-            return view('reset', $data);
+            return view('ecoauth.reset', $data);
         } else {
             \Log::info("No matching username = $userName");
             $data['user_name'] = '';
@@ -425,7 +425,7 @@ class AuthenticationController extends Controller
             $data['title'] = '';
             $data['description'] = 'Login';
             \Log::info("exit 4");
-            return view('login', $data);
+            return view('ecoauth.login', $data);
         }
     }
 
@@ -511,7 +511,7 @@ class AuthenticationController extends Controller
         $data['member_story'] = $user->member_story;
         $data['user_pic'] = $user->picture;
         $data['image2'] = '../images/red_down_arrow.png';
-        return view('action', $data);
+        return view('ecoauth.action', $data);
 
      //   $pages = new PagesController;
      //   \Log::info("cookie set to $userId");
@@ -536,7 +536,7 @@ class AuthenticationController extends Controller
                 $data['title'] = '';
                 $request->session()->set('user_id', $user->id);
                 $request->session()->save();
-                return view('email_verification_continue', $data);
+                return view('ecoauth.email_verification_continue', $data);
             } else {
                 //email link tweaked
                 $data= $this->basedata($request);
@@ -545,7 +545,7 @@ class AuthenticationController extends Controller
                 $data['userRoles'] = '';
                 $data['title'] = '';
                 $data['user_id'] = '';
-                return view('email_verification_bad', $data);
+                return view('ecoauth.email_verification_bad', $data);
             }
         } else {
             //email link tweaked
@@ -555,7 +555,7 @@ class AuthenticationController extends Controller
             $data['user_name'] = '';
             $data['userRoles'] = '';
             $data['user_id'] = '';
-            return view('email_verification_bad', $data);
+            return view('ecoauth.email_verification_bad', $data);
         }
     }
     public function emailConfirmation($user)
@@ -588,7 +588,7 @@ class AuthenticationController extends Controller
         $data['username'] = $username;
          $data['email'] = $user->email;
         \Log::info("already a full member");
-        return view('registration_complete', $data);
+        return view('ecoauth.registration_complete', $data);
     }
 
     public function initialRegistration(Request $request)
@@ -632,7 +632,7 @@ class AuthenticationController extends Controller
         $data['user_id'] = '';
         $data['title'] = '';
         $data['email'] = $user->email;
-        return view('email_verification', $data);
+        return view('ecoauth.email_verification', $data);
     }
 
 
@@ -704,7 +704,7 @@ class AuthenticationController extends Controller
                $data['total']['bonuses'] = number_format($data['firstLevelSelect']['bonuses']+$data['secondLevelSelect']['bonuses']+
                    $data['thirdLevelSelect']['bonuses']+$data['fourthLevelSelect']['bonuses']+$data['fifthLevelSelect']['bonuses'], 2);
             $data['description'] = 'Login';
-            return view('organization', $data);
+            return view('ecoauth.organization', $data);
         } else {
                 return $this->logout($request);
         }
@@ -930,6 +930,6 @@ class AuthenticationController extends Controller
         $data['userRoles'] = $request->session()->get('userRoles');
         $data['user_id'] = $request->session()->get('user_id');
         $data['title'] = '';
-        return view('myaccounting', $data);
+        return view('ecoauth.myaccounting', $data);
     }
 }

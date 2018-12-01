@@ -55,7 +55,7 @@ class CartController extends Controller
         $request->session()->set('totalShipping', $data['totalShipping']);
         $request->session()->set('grandTotal', $data['grandTotal']);
 
-        return view('shoppingcart', $data);
+        return view('ecocart.shoppingcart', $data);
     }
 
     public function userData($request)
@@ -288,7 +288,7 @@ class CartController extends Controller
         $request->session()->set('payPrice', $data['payPrice']);
         $request->session()->set('totalShipping', $data['totalShipping']);
         $request->session()->set('grandTotal', $data['grandTotal']);
-        return view('shoppingcart', $data);
+        return view('ecocart.shoppingcart', $data);
     }
 
     public function loadSelShipping($userId, $data, $request, $shipping_id)
@@ -325,7 +325,7 @@ class CartController extends Controller
     {
         if ($shippingId == -1) {
             $data = $this->userData($request);
-            return view('new_shipping_address', $data);
+            return view('ecocart.new_shipping_address', $data);
         }
 
             $data = $this->userData($request);
@@ -342,7 +342,7 @@ class CartController extends Controller
             $request->session()->set('payPrice', $data['payPrice']);
             $request->session()->set('totalShipping', $data['totalShipping']);
             $request->session()->set('grandTotal', $data['grandTotal']);
-            return view('shoppingcart', $data);
+            return view('ecocart.shoppingcart', $data);
     }
 
     public function shippingAddresses($user, $shippingadd)
@@ -404,7 +404,7 @@ class CartController extends Controller
         $request->session()->set('transactionTotalShipping', $request->session()->get('totalShipping'));
         $data['totalShipping'] = $request->session()->get('totalShipping');
         
-        return view('purchase', $data);
+        return view('ecocart.purchase', $data);
     }
 
     public function checkPurchase(Request $request)
@@ -424,7 +424,7 @@ class CartController extends Controller
             $data['credit_card'] = $approved['credit_card'];
             $data['pay_method'] = $approved['pay_method'];
             $this->reloadSales($request);
-            return view('transaction_denied', $data);
+            return view('ecocart.transaction_denied', $data);
         } else {
             $data['grand_total'] = $grandTotal;
             $data['approval_code'] = $approved['approval_code'];
@@ -438,7 +438,7 @@ class CartController extends Controller
             $request->session()->set('transactionGrandTotal', 0);
             $request->session()->set('transactionTotalWeightShipping', 0);
             $request->session()->set('transactionTotalShipping', 0);
-            return view('transaction_approved', $data);
+            return view('ecocart.transaction_approved', $data);
         }
     }
     public function cardPurchase(Request $request)
@@ -466,7 +466,7 @@ class CartController extends Controller
             $data['credit_card'] = $creditCard;
             $data['pay_method'] = $api_resp['pay_method'];
             $this->reloadSales($request);
-            return view('transaction_denied', $data);
+            return view('ecocart.transaction_denied', $data);
         } else {
             $data['grand_total'] = $grandTotal;
             $data['approval_code'] = isset($api_resp['response_code'])?$api_resp['response_code']:'';
@@ -483,7 +483,7 @@ class CartController extends Controller
             $request->session()->set('transactionTotalWeightShipping', 0);
             $request->session()->set('transactionTotalShipping', 0);
             
-            return view('transaction_approved', $data);
+            return view('ecocart.transaction_approved', $data);
         }
     }
     

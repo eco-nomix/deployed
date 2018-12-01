@@ -56,7 +56,7 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Eco-Gold Blockchain';
 
-        return view('gold', $data);
+        return view('ecogold.gold', $data);
     }
     public function whitepaper(Request $request)
     {
@@ -64,7 +64,7 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'White Paper';
 
-        return view('goldwhitepaper', $data);
+        return view('ecogold.goldwhitepaper', $data);
     }
 
     public function downloadwhitepaper()
@@ -86,7 +86,7 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Introduction';
 
-        return view('goldintroduction', $data);
+        return view('ecogold.goldintroduction', $data);
     }
     public function crypto(Request $request)
     {
@@ -94,7 +94,7 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Cryptocurrency';
 
-        return view('goldcrypto', $data);
+        return view('ecogold.goldcrypto', $data);
     }
 
     public function vue(Request $request)
@@ -103,6 +103,6 @@ class GoldPagesController extends Controller
         $data['title'] = 'Eco-Gold';
         $data['description'] = 'Vue';
 
-        return view('goldvue', $data);
+        return view('ecogold.goldvue', $data);
     }
 }

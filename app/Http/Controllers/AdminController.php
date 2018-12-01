@@ -30,7 +30,7 @@ class AdminController extends Controller
     {
         $data = $this->userData($request);
         $data['selectNames'] = '';
-        return view('configuration', $data);
+        return view('ecoadmin.configuration', $data);
     }
 
     public function configSearch(Request $request)
@@ -53,7 +53,7 @@ class AdminController extends Controller
         $data['selectNames'] = $result;
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('configuration', $data);
+        return view('ecoadmin.configuration', $data);
     }
 
     public function configUser($userId, Request $request)
@@ -83,12 +83,12 @@ class AdminController extends Controller
             $data['SponsorId'] = $editUser->sponsor_id;
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
-            return view('configUser', $data);
+            return view('ecoadmin.configUser', $data);
         } else {
             $data['selectNames'] = '';
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
-            return view('configuration', $data);
+            return view('ecoadmin.configuration', $data);
         }
     }
 
@@ -118,7 +118,7 @@ class AdminController extends Controller
         $data['selectNames'] = '';
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('configuration', $data);
+        return view('ecoadmin.configuration', $data);
     }
 
     public function updateDownStream($userId)
@@ -221,12 +221,12 @@ class AdminController extends Controller
             $data['MemberStatus'] = $result;
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
-            return view('editUser', $data);
+            return view('ecoadmin.editUser', $data);
         } else {
             $data['selectNames'] = '';
             $data['title'] = 'Admin';
             $data['description'] = 'Admin';
-            return view('management', $data);
+            return view('eco.management', $data);
         }
     }
 
@@ -258,7 +258,7 @@ class AdminController extends Controller
         $data['selectNames'] = '';
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('management', $data);
+        return view('eco.management', $data);
     }
 
     public function search(Request $request)
@@ -280,7 +280,7 @@ class AdminController extends Controller
         $data['selectNames'] = $result;
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('management', $data);
+        return view('eco.management', $data);
     }
 
     public function management(Request $request)
@@ -289,7 +289,7 @@ class AdminController extends Controller
         $data['selectNames'] = '';
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('management', $data);
+        return view('eco.management', $data);
     }
 
     public function userData($request)
@@ -333,7 +333,7 @@ class AdminController extends Controller
         $data['ProductSubgroups'] = $this->productSubgroups($productGroup, $subGroup);
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('books', $data);
+        return view('eco.books', $data);
     }
     public function products(Request $request)
     {
@@ -344,7 +344,7 @@ class AdminController extends Controller
         $data['ProductSubgroups'] = $this->productSubgroups($productGroup, $subGroup);
         $data['title'] = 'Admin';
         $data['description'] = 'Admin';
-        return view('books', $data);
+        return view('eco.books', $data);
     }
 
     public function productGroups($selected)

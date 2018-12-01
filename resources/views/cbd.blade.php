@@ -77,6 +77,8 @@
 
         <div>
         <p><strong>How is the CBD Being Extracted?</strong></p>
+        <img style="float:left; padding:0px 3px 3px 0px;  width:30vw; height:20vw" src="./images/apex.png"
+                  alt="apex co2 extraction" />
         <p>Getting CBD from hemp is a complicated process. The cheapest and easiest ways
         to extract CBD from hemp commonly involve harsh solvents that can leave chemical
         residue in the CBD. The best, and most reliable extraction method, uses carbon dioxide

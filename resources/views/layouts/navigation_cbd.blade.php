@@ -27,7 +27,7 @@ p{
   margin:2vw;
   text-align:center;
   position:absolute;
-  top:-10vw;
+  top:-5vw;
 
 }
 #img0{

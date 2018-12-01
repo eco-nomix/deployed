@@ -27,7 +27,7 @@
                       Benefits
                  </div>
              </div>
-             <div class="panel panel-default tibdisplay">
+             <div class="panel panel-default cbddisplay">
                 <div class="panel-body">
                    <div class="form-group col-md-12 ">
                          TIB Foundation is an association that is focused on making our members

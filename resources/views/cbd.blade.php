@@ -128,8 +128,8 @@
         <p><strong>Additional Things to Look For</strong></p>
         <p>The CBD product can be enhanced in a number of ways.</p>
         <p>* There could be additional herbal supplements that can both amplify the effects of the CBD alone and the CBD can impact the delivery of the herbal suppliment.</p>
-        <p>* The CBD product can be micro-encapsulated.  This impacts the absorption of the CBD.  If the product is treated this way, you can find that a smaller dosage can be more effective</p>
-        <p>* The CBD Product can be polarized.  This also assists in the delivery of the CBD to critical areas of the body.
+        <p>* The CBD product can be <strong>micro-encapsulated</strong>.  This impacts the absorption of the CBD.  If the product is treated this way, you can find that a smaller dosage can be more effective</p>
+        <p>* The CBD Product can be <strong>polarized</strong>.  This also assists in the delivery of the CBD to critical areas of the body.
         </p>
         </div>
 

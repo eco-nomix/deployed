@@ -402,6 +402,7 @@ td {
 .navcontainer ul li {
     display: block;
     position: relative;
+    padding: 0px 2vw 0px 2vw;
     float: left;
     border:1px solid darkgreen;
     color: #FFF;

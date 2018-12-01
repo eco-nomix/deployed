@@ -47,7 +47,7 @@
                     <strong>CBD Care Group Member Benefits are detailed as follows:</strong>
                     <ul>
                       <li>Members will receive the monthly CBD Care Group newsletter.</li>
-                      <li>Educational Videos helping our
+                      <li>Educational Videos will be produced to help our
                       members become aware of the benefits and risks associated with CBD products.  All
                       of the Videos produced
                          over the life of the program will be available on demand to our members.</li>

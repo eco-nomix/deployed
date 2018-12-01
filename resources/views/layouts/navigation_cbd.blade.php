@@ -18,7 +18,14 @@ p{
     font-size:3.5vw;
     max-font-size:18px;
     line-heght:4vw;
-}
+ }
+
+ p strong{
+    font-size:3.5vw;
+    font-weight:bolder;
+    max-font-size:18px;
+    line-heght:4vw;
+ }
 .navcontainer{
       max-font-size:24px;
 }

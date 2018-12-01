@@ -47,7 +47,7 @@
                          styles, limits and desires.
                     </div>
                     <div class="form-group col-md-12 ">
-                        TIB Foundation Benefits are detailed as follows:
+                        <strong>TIB Foundation Benefits are detailed as follows:</strong>
                         <ul>
                           <li>Members will receive the monthly TIB Foundation newsletter.</li>
                           <li>Educational Videos concerning the TIB Foundation goals of helping our

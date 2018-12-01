@@ -142,7 +142,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold';
         $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
 
-        return view('kineticgold/about', $data);
+        return view('kineticgold.about', $data);
     }
     public function about2(Request $request)
     {

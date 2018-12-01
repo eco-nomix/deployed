@@ -33,7 +33,7 @@
                <div class="form-group col-md-12 ">
                      The CBD Care Group is an association that is focused on making our members
                      aware of the benefits of CBD products and by making the best products available online for purchase.  It will do this in the form
-                     of a group of products in various categories and a monthly newsletter that is sent to all of it's members detailing
+                     of a group of products in various categories shown under the Shop tab and a monthly newsletter that is sent to all of it's members detailing
                      information about various opportunities, programs, their risks and potential rewards along with a
                      a detailed 'how-to' method to get involved if you are interested.
                 </div>

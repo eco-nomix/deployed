@@ -16,7 +16,7 @@ h4{
 }
 p{
     font-size:3.5vw;
-    max-font-size:24px;
+    max-font-size:18px;
     line-heght:4vw;
 }
 .navcontainer{

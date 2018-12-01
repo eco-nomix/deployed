@@ -51,6 +51,7 @@
                       members become aware of the benefits and risks associated with CBD products.  All
                       of the Videos produced
                          over the life of the program will be available on demand to our members.</li>
+
                       <li>Some of the programs offered to our Members will be exclusive to our
                       members, but that will not always be the case.</li>
                       <li>CBD Care Group will track 'sponsorship' of its members that can be

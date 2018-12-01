@@ -142,7 +142,7 @@ class PagesController extends Controller
         $data['title'] = 'KineticGold';
         $data['description'] = 'Improving lives physically, emotionally, spiritually, economically';
 
-        return view('about', $data);
+        return view('kineticgold/about', $data);
     }
     public function about2(Request $request)
     {
@@ -707,6 +707,15 @@ class PagesController extends Controller
         $data['description'] = 'TIB Foundation Member Cost';
 
         return view('membercost3', $data);
+    }
+    public function membercost4(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'CBD Care Group Member Cost';
+        $data['description'] = 'CBD Care Group Member Cost';
+
+        return view('membercost4', $data);
     }
     public function memberterms(Request $request)
     {

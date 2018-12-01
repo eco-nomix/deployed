@@ -245,7 +245,14 @@ class PagesController extends Controller
 
         return view('benefits3', $data);
     }
+    public function benefits4(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'CBD Share Group Benefits';
+        $data['description'] = 'CBD Share Group Benefits';
 
+        return view('benefits4', $data);
+    }
     public function businesscards(Request $request)
     {
         $data = $this->userData($request);

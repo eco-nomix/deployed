@@ -23,8 +23,8 @@ p{
       max-font-size:24px;
 }
 #main{
-  width:95vw;
-  margin:2vw;
+  width:98vw;
+  margin:0 0 0 2vw;
   text-align:center;
   position:absolute;
   top:-0vw;

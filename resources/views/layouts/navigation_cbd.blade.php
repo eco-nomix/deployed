@@ -23,7 +23,9 @@ p{
       max-font-size:24px;
 }
 #main{
-  width:100%;text-align:center;
+  width:95vw;
+  border:2vw;
+  text-align:center;
   position:absolute;
   top:-30px;
 

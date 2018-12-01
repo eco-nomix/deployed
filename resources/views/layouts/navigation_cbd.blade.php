@@ -32,8 +32,8 @@ p{
 }
 #img0{
 
-    width:100vw;
-     height:calc(100vw/3);
+    width:95vw;
+     height:calc(95vw/3);
 }
 #div0{
   text-align:center; margin:10px;

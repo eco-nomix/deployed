@@ -5,6 +5,7 @@
 .KineticGoldbody {
     background:lightblue;
 }
+
 .tibbody {
     background:lightblue;
 }
@@ -192,6 +193,75 @@
 }
 
 .kineticSm {
+    color:goldenrod;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+}
+.cbd {
+    color:green;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+.cbd400{
+    color:green;
+    font-size: 6vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    /*line-height: 8vw;*/
+    width: 66vw;
+    height: 5vw;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.cbd600{
+    color:green;
+    font-size: 6vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    /*line-height: 8vw;*/
+    width: 80vw;
+    height: 5vw;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.cbd800{
+    color:green;
+    font-size: 6vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+
+    width: 80vw;
+    height: 5vw;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.cbdbackground{
+    background-image:url("{{URL::asset('images/denmark.jpeg')}}");
+}
+
+.cbdSm {
     color:goldenrod;
     font-size: 35px;
     font-style: normal;

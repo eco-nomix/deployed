@@ -21,9 +21,9 @@ p{
  }
 
  p strong{
-    font-size:3.5vw;
+    font-size:4.0vw;
     font-weight:bolder;
-    max-font-size:18px;
+    max-font-size:22px;
     line-heght:4vw;
  }
 .navcontainer{

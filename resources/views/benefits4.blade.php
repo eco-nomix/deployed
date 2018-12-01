@@ -24,49 +24,41 @@
         <div class="col-md-10 col-md-offset-1">
              {{--<div style="width:100%;">--}}
                  <div class="cbd600">
-                      Benefits
+                      Member Benefits
                  </div>
         </div>
              {{--</div>--}}
          <div class="panel panel-default cbddisplay">
             <div class="panel-body">
                <div class="form-group col-md-12 ">
-                     TIB Foundation is an association that is focused on making our members
-                     aware of the processes associated with reducing or even eliminating
-                     home mortage costs.  It will do this in the form
-                     of a monthly newletter that is sent to all of it's members detailing
+                     The CBD Care Group is an association that is focused on making our members
+                     aware of the benefits of CBD products and by making the best products available.  It will do this in the form
+                     of a series of product categories and a monthly newletter that is sent to all of it's members detailing
                      information about various opportunities, programs, their risks and potential rewards along with a
                      a detailed 'how-to' method to get involved if you are interested.
                 </div>
                 <div class="form-group col-md-12 ">
-                     There are no requirements for members of the TIB Foundation to participate
-                     within any opportunity or program.  This information is provided as
-                     'information' only and is not
-                     to be construed as investment advise.  All member's need to do their own
-                     due diligence to determine if any particular opportunity fit's with your
-                     investment goals and/or
-                     styles, limits and desires.
+                     There are no requirements for members of the CBD Care Group to participate
+                     within any opportunity, program or make purchases of CBD Products.  All member's need to do their own
+                     due diligence to determine if any particular product or opportunity fit's with your
+                     investment goals and/or styles, limits and desires.
                 </div>
                 <div class="form-group col-md-12 ">
-                    <strong>TIB Foundation Benefits are detailed as follows:</strong>
+                    <strong>CBD Care Group Member Benefits are detailed as follows:</strong>
                     <ul>
-                      <li>Members will receive the monthly TIB Foundation newsletter.</li>
-                      <li>Educational Videos concerning the TIB Foundation goals of helping our
-                      members become financially more stable will be produced each month.  All
+                      <li>Members will receive the monthly CBD Care Group newsletter.</li>
+                      <li>Educational Videos concerning the CBD Care Group goals of helping our
+                      members become aware of the benefits and risks associated with CBD products.  All
                       of the Videos produced
                          over the life of the program will be available on demand to our members.</li>
                       <li>Some of the programs offered to our Members will be exclusive to our
                       members, but that will not always be the case.</li>
-                      <li>TIB Foundation will track 'sponsorship' of its members that can be
+                      <li>CBD Care Group will track 'sponsorship' of its members that can be
                       utilized by the various programs offered to it's members</li>
                       <li>Any financial benefits from participation within a program referred
-                      by TIB Foundation will be paid directly to the participants by the
-                      sponsoring program.
-                           TIB Foundation doesn't pay any benefits to its members.</li>
-                      <li>TIB Foundation will only be offering information and training to
-                      its members.</li>
-                      <li>Members may elect to contract for services with Attorneys to represent
-                      them in court.  TIB Foundation is not a law firm, but can recommend firms that utilize the principles that are taught by the TIB Foundation</li>
+                      by CBD Care Group will be paid directly to the participants by the
+                      sponsoring program.</li>
+                      <li>CBD Care Group has a multi-level affiliate program where member's can earn income from purchases made by other members that they have helped sponsor.</li>
                     </ul>
                 </div>
             </div>

@@ -7,7 +7,7 @@
     <div style="width:95vw">
 
         <img id="img0" src="../images/freedom.jpeg" alt="" title="freedom" />
-        <div STYLE="position:absolute; top:2vw;  left:40vw; width:50vw; height:20vw">
+        <div STYLE="position:absolute; top:5vw;  left:40vw; width:50vw; height:20vw">
              <div ">
             <h1 style="color:white;">CBD Care Group</h1>
              </div>

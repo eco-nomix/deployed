@@ -65,7 +65,7 @@
         </div>
         <div>
             <p><strong>How much THC is in the CBD product?</strong></p>
-            <p>In order to qualify as a legal hemp product, CBD products must contain less than 0.03% THC.  Make sure your products have low levels, or zero, THC in them. </p>
+            <p>In order to qualify as a legal hemp product, CBD products must contain less than 0.3% THC.  Make sure your products have low levels, or zero, THC in them. </p>
             <p>Remember even small amounts of THC can cause you to fail a drug test or have mind-altering affects.</p>
         </div>
 

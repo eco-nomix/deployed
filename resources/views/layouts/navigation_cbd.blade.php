@@ -81,16 +81,16 @@ p{
 
                 <li><a href="{{URL::to('/')}}/">Shop<span class="caret"></span></a>
                     <ul>
-                        <li><a href="{{URL::to('/')}}/Gummies">Gummies</a></li>
-                        <li><a href="{{URL::to('/')}}/HempOil">Hemp Oil</a></li>
-                        <li><a href="{{URL::to('/')}}/capsules">Capsules</a></li>
-                        <li><a href="{{URL::to('/')}}/topical">Topical</a></li>
-                        <li><a href="{{URL::to('/')}}/vape">Vapes</a></li>
-                        <li><a href="{{URL::to('/')}}/Balms">Balms</a></li>
-                        <li><a href="{{URL::to('/')}}/skincare">Skin Care</a></li>
-                        <li><a href="{{URL::to('/')}}/cbdoils">CBD Oils</a></li>
-                        <li><a href="{{URL::to('/')}}/papin">Pain Treatment</a></li>
-                        <li><a href="{{URL::to('/')}}/edibles">Edibles</a></li>
+                        <li><a href="{{URL::to('/')}}/">Gummies</a></li>
+                        <li><a href="{{URL::to('/')}}/">Hemp Oil</a></li>
+                        <li><a href="{{URL::to('/')}}/">Capsules</a></li>
+                        <li><a href="{{URL::to('/')}}/">Topical</a></li>
+                        <li><a href="{{URL::to('/')}}/">Vapes</a></li>
+                        <li><a href="{{URL::to('/')}}/">Balms</a></li>
+                        <li><a href="{{URL::to('/')}}/">Skin Care</a></li>
+                        <li><a href="{{URL::to('/')}}/">CBD Oils</a></li>
+                        <li><a href="{{URL::to('/')}}/">Pain Treatment</a></li>
+                        <li><a href="{{URL::to('/')}}/">Edibles</a></li>
                     </ul>
 
                 </li>
@@ -101,18 +101,18 @@ p{
                 <li><a href="{{URL::to('/')}}/">Income<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/benefits4">Member Benefit</a></li>
-                        <li><a href="{{URL::to('/')}}/membercost3">Member Cost</a></li>
-                        <li><a href="{{URL::to('/')}}/HempOil">Profit Sharing</a></li>
-                        <li><a href="{{URL::to('/')}}/capsules">Referral Links</a></li>
-                        <li><a href="{{URL::to('/')}}/limitations">Limitations on Sponsoring</a></li>
-                        <li><a href="{{URL::to('/')}}/accounting">On-Line Accounting</a></li>
-                        <li><a href="{{URL::to('/')}}/Balms">Member Requirements</a></li>
-                        <li><a href="{{URL::to('/')}}/mem_agreement3">Member Agreement</a></li>
-                        <li><a href="{{URL::to('/')}}/memberterms3">Member Terms and Conditions</li>
-                        <li><a href="{{URL::to('/')}}/autoship3">Auto-Ship Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/returns3">Return Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/privacy3">Privacy Policy</a></li>
-                        <li><a href="{{URL::to('/')}}/policies3">General Policies and Procedures</a></li>
+                        <li><a href="{{URL::to('/')}}/">Member Cost</a></li>
+                        <li><a href="{{URL::to('/')}}/">Profit Sharing</a></li>
+                        <li><a href="{{URL::to('/')}}/">Referral Links</a></li>
+                        <li><a href="{{URL::to('/')}}/">Limitations on Sponsoring</a></li>
+                        <li><a href="{{URL::to('/')}}/">On-Line Accounting</a></li>
+                        <li><a href="{{URL::to('/')}}/">Member Requirements</a></li>
+                        <li><a href="{{URL::to('/')}}/">Member Agreement</a></li>
+                        <li><a href="{{URL::to('/')}}/">Member Terms and Conditions</li>
+                        <li><a href="{{URL::to('/')}}/">Auto-Ship Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/">Return Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/">Privacy Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/">General Policies and Procedures</a></li>
                     </ul>
 
                 </li>
@@ -120,16 +120,16 @@ p{
                         </ul>
 
             <ul class="pull-right">
-                <li><a href="{{URL::to('/')}}/about4">About</a></li>
+                <li><a href="{{URL::to('/')}}/">About</a></li>
 
 
                 @if ($user_name == '' or $user_name == null )
                     @if($username == '')
-                        <li><a href="{{URL::to('/')}}/login4">Login</a></li>
+                        <li><a href="{{URL::to('/')}}/">Login</a></li>
                     @else
                         <li><a href="#">{{$username}}<span class="caret"></span></a>
                            <ul>
-                               <l1><a href="{{URL::to('/')}}/logout4">Logout</a></l1>
+                               <l1><a href="{{URL::to('/')}}/">Logout</a></l1>
                            </ul>
                         </li>
                     @endif
@@ -139,9 +139,9 @@ p{
 
                         <ul>
                             <li><a href="{{URL::to('/')}}/homepage4/{{$user_id}}">Personal Info</a></li>
-                            <li><a href="{{URL::to('/')}}/organization4">Organization</a></li>
-                            <li><a href="{{URL::to('/')}}/myaccounting4">Accounting</a></li>
-                            <li><a href="{{URL::to('/')}}/logout4">Logout</a></li>
+                            <li><a href="{{URL::to('/')}}/">Organization</a></li>
+                            <li><a href="{{URL::to('/')}}/">Accounting</a></li>
+                            <li><a href="{{URL::to('/')}}/">Logout</a></li>
                             @if($userRoles[6]=='yes')
                                 <li><a href="{{URL::to('/')}}/cbd/admin/financial">Finance</a></li>
                             @endif

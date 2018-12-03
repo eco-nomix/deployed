@@ -667,7 +667,7 @@ class PagesController extends Controller
         $data['title'] = 'CBD Care Group Requirements';
         $data['description'] = 'CBD Care Group Requirements';
 
-        return view('CBD.Requirements', $data);
+        return view('CBD.requirements', $data);
     }
 
 

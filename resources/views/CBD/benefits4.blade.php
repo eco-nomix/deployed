@@ -20,14 +20,11 @@
         </div>
     </div>
 
-    <div id="div1" style="width:98vw" >
-        <div class="col-md-10 col-md-offset-1">
-             {{--<div style="width:100%;">--}}
-                 <div class="cbd600">
-                      Member Benefits
-                 </div>
+    <div style="width:98vw">
+            <div class="cbdheader">
+                Member Benefits
+            </div>
         </div>
-    </div>
       <div class="panel panel-default cbddisplay">
             <div class="panel-body">
                <div class="form-group col-md-12 ">

@@ -608,6 +608,14 @@ class PagesController extends Controller
 
 
 //    CBD
+    public function active(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'CBD Share Group Active Members';
+        $data['description'] = 'CBD Share Group Active Members';
+
+        return view('CBD.active', $data);
+    }
     public function benefits4(Request $request)
     {
         $data = $this->userData($request);

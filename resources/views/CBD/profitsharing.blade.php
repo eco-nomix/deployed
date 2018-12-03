@@ -30,7 +30,7 @@
 
         <div class="panel-body">
             <div class="form-group col-md-12 ">
-                  All members of the CBD Care Group are eligible to receive Profit-Sharing.  This program is
+                  All <strong>Active</strong> members of the CBD Care Group are eligible to receive Profit-Sharing.  This program is
                   exclusively for members of the CBD Care Group.
              </div>
              <div class="form-group col-md-12 ">

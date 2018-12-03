@@ -4,7 +4,7 @@
 @section('content')
 
 <div id="main">
-    <div style="width:99vw">
+    <div style="width:100vw">
 
         <img id="img0" src="../images/freedom.jpeg" alt="" title="freedom" />
         <div STYLE="position:absolute; top:5vw;  left:40vw; width:50vw; height:20vw">

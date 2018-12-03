@@ -21,11 +21,11 @@
     </div>
 
     <div style="width:98vw">
-        <div class="col-md-10 col-md-offset-1">
+        {{--<div class="col-md-10 col-md-offset-1">--}}
              <div class="cbdheader">
                   Member Costs
              </div>
-        </div>
+        {{--</div>--}}
     </div>
      <div style="display:block;" class="cbddisplay">
 

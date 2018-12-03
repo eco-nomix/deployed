@@ -134,6 +134,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/bankinterface', ['as' => 'interface','uses'=>'PagesController@bankinterface']);
     Route::get('/rewards', ['as' => 'rewards','uses'=>'PagesController@rewards']);
     Route::get('/profitsharing', ['as' => 'profitsharing','uses'=>'PagesController@profitsharing']);
+    Route::get('/profitsharing4', ['as' => 'profitsharing4','uses'=>'PagesController@profitsharing4']);
     Route::get('/comparison', ['as' => 'comparison','uses'=>'PagesController@comparison']);
     Route::get('/debitcards', ['as' => 'debit','uses'=>'PagesController@debitcards']);
     Route::get('/experiences', ['as' => 'debit','uses'=>'PagesController@experiences']);

@@ -47,7 +47,7 @@ p{
 }
 #img0{
 
-    width:99vw;
+    width:100%;
      height:calc(99vw/3);
 }
 #div0{

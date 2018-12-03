@@ -44,7 +44,7 @@
                <div class="form-group">
                    <label class="col-md-4 control-label">Referral Link</label>
                    <div class="col-md-6">
-                       {{--{{$ReferralLink}}--}}
+                       {{$referral_link}}
                    </div>
                </div>
              <div class="form-group col-md-12 standout">

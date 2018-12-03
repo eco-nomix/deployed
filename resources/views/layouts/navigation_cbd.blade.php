@@ -105,7 +105,7 @@ p{
                         <li><a href="{{URL::to('/')}}/profitsharing4">Profit Sharing</a></li>
                         <li><a href="{{URL::to('/')}}/active">Active Membership</a></li>
                         <li><a href="{{URL::to('/')}}/referrallinks4">Referral Links</a></li>
-                        <li><a href="{{URL::to('/')}}/">Limitations on Sponsoring</a></li>
+                        <li><a href="{{URL::to('/')}}/limitations4">Limitations on Sponsoring</a></li>
                         <li><a href="{{URL::to('/')}}/">On-Line Accounting</a></li>
                         <li><a href="{{URL::to('/')}}/">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/">Member Agreement</a></li>

@@ -38,7 +38,7 @@ p{
       max-font-size:24px;
 }
 #main{
-  width:98vw;
+  width:100vw;
   margin:0 0 0 0;
   text-align:center;
   position:absolute;

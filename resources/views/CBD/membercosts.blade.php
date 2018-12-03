@@ -20,14 +20,14 @@
         </div>
     </div>
 
-    <div id="div1" style="width:98vw">
+    {{--<div id="div1" style="width:98vw">--}}
         <div class="col-md-10 col-md-offset-1">
              <div class="cbd600">
                   Member Costs
              </div>
         </div>
-    </div>
-     <div class="row panel panel-default cbddisplay">
+    {{--</div>--}}
+     <div class=" panel panel-default cbddisplay">
      KL LK LK LK LK LKJ LK
         {{--<div class="panel-body">--}}
             {{--<div class="form-group col-md-12 ">--}}

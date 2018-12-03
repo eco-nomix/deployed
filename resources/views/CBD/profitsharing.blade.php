@@ -138,11 +138,11 @@
                       <li>&nbsp;&nbsp;&nbsp;&nbsp;15 members in the 1st&nbsp; Generation -  a total of $&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,500 in purchases - $&nbsp;&nbsp;&nbsp;150/month in Profit-Sharing.</li>
                       <li>&nbsp;&nbsp;150 members in the 2nd Generation - a total of $&nbsp;&nbsp;&nbsp;&nbsp;15,000 in purchases - $&nbsp;&nbsp;&nbsp;600/month in Profit-Sharing.</li>
                       <li>&nbsp;&nbsp;750 members in the 3rd&nbsp; Generation - a total of $&nbsp;&nbsp;&nbsp;&nbsp;75,000 in purchases - $3,000/month in Profit-Sharing.</li>
-                      <li>2250 members in the 4th &nbsp;Generation - a total of $&nbsp;225,000 in purchases - $9,000/month in Profit-Sharing.</li>
+                      <li>2250 members in the 4th &nbsp;Generation - a total of $&nbsp;&nbsp;225,000 in purchases - $9,000/month in Profit-Sharing.</li>
                       <li>a total of $12,250 per month</li>
                    </ul>
                    And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.
-                   <br>
+                   <br><br>
                    Also notice how your potential income drastically increases as you picked up the 4th generation.  This is because you got the people you sponsored to duplicate what you were doing.
 
              </div>
@@ -171,9 +171,9 @@
              </div>
              <div class="form-group col-md-12 ">
                     <ul>
-                        <li>Become a member - cost</li>
-                        <li>Refer someone</li>
-                        <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
+                        <li>Become a member - NO cost</li>
+                        <li>Refer someone NO cost</li>
+                        <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on NO Cost</li>
                             <ul>
                                 <li>1+&nbsp;&nbsp; - 1st&nbsp; Generation Profit-Sharing - &nbsp;10% purchases</li>
                                 <li>5+&nbsp;&nbsp; - 2nd Generation Profit-Sharing - 4% purchases</li>

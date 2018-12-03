@@ -31,16 +31,26 @@
          <div class="panel panel-default cbddisplay">
             <div class="panel-body">
                <div class="form-group col-md-12 ">
-                            There are no initial, startup, annual, or monthly costs for CBD Card Group,
-                             or required products to purchase</div>
-               </div>
+                     There are no initial, startup, annual, or monthly costs for CBD Card Group,
+                      or required products to purchase</div>
+                </div>
                 <div class="form-group col-md-12 ">
-                Registration is a simple process just
+                       <strong>The only Requirement is that you are required to register</strong>
+                </div>
+                <div class="form-group col-md-12 ">
+                    Registration is a simple process just
                         <ul>
                             <li>Provide your basic information (name, email, desired username and password, verify your email,update and contact information)</li>
                             <li>Submit your registration Fee</li>
                         </ul>
                 </div>
+                  <div class="form-group col-md-12 ">
+                      Once you are registered
+                      <ul>
+                        <li>You may purchase products at the members discounted price.</li>
+                        <li>You may participate in CBD Card Group's Profit Sharing Program.</li>
+                      </ul>
+                  </div>
 
             </div>
         </div>

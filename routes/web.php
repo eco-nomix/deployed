@@ -167,6 +167,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/physically', ['as' => 'physically','uses'=>'PagesController@physically']);
     Route::get('/requirements', ['as' => 'requirements','uses'=>'PagesController@requirements']);
     Route::get('/requirements2', ['as' => 'requirements2','uses'=>'PagesController@requirements2']);
+    Route::get('/requirements4', ['as' => 'requirements4','uses'=>'PagesController@requirements4']);
     Route::get('/referrallinks', ['as' => 'requirements','uses'=>'PagesController@referrallinks']);
     Route::get('/referrallinks4', ['as' => 'requirements','uses'=>'PagesController@referrallinks4']);
     Route::get('/emotionally', ['as' => 'emotionally','uses'=>'PagesController@emotionally']);

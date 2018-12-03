@@ -660,6 +660,15 @@ class PagesController extends Controller
 
         return view('CBD.referrallinks', $data);
     }
+    public function requirements4(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'CBD Care Group Requirements';
+        $data['description'] = 'CBD Care Group Requirements';
+
+        return view('CBD.Requirements', $data);
+    }
 
 
 

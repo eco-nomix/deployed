@@ -30,7 +30,7 @@
 
         <div class="panel-body">
             <div class="form-group col-md-12 ">
-                   All KineticGold Members have the opportunity to refer new clients to the KineticGold family.
+                   All CBD Care Group Members have the opportunity to refer new clients to the CBD Care Group family.
                </div>
                <div class="form-group col-md-12 ">
                    Once registered and logged in the Referral Link below will show 'Your Referral Link'.
@@ -40,7 +40,7 @@
                    Simply encourage potential clients to initially access the site using your referral link.
                    When they do, the site knows who referred them and if they register, you will receive the
                    credit of 'Sponsoring' them . They will have full access to the site and can determine
-                   first if they want to complete their registeration or not. </div>
+                   first if they want to complete their registration or not. </div>
                <div class="form-group">
                    <label class="col-md-4 control-label">Referral Link</label>
                    <div class="col-md-6">
@@ -49,7 +49,8 @@
                </div>
              <div class="form-group col-md-12 standout">
                    Suggestions:  These links can be placed on business cards, added to emails,  facebook, tweets,
-                   anyway you want to get the word out.  If anyone uses one of these links.  You get to Mine Gold
+                   anyway you want to get the word out.  If anyone uses one of these links.  You will get the credit of sponsoring them.
+
              </div>
 
              <div class="form-group col-md-12 ">

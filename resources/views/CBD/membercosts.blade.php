@@ -20,13 +20,13 @@
         </div>
     </div>
 
-    {{--<div id="div1" style="width:98vw">--}}
+    <div style="width:98vw">
         <div class="col-md-10 col-md-offset-1">
              <div class="cbdheader">
                   Member Costs
              </div>
         </div>
-    {{--</div>--}}
+    </div>
      <div style="display:block;" class="cbddisplay">
 
      this was the last time

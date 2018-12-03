@@ -48,7 +48,8 @@
                       Once you are registered
                       <ul>
                         <li>You may purchase products at the members discounted price.</li>
-                        <li>You may participate in CBD Card Group's Profit Sharing Program.</li>
+                        <li>You may participate in CBD Care Group's Profit Sharing Program.</li>
+                        <li>To receive payments from the CBD Care Group's Profit Sharing Program you may be required to provide additional information.</li>
                       </ul>
                   </div>
 

@@ -36,7 +36,7 @@
              <div class="form-group col-md-12 ">
                  <ul>An active Member of CBD Care Group is benefiting the company in one of the following ways.
                     <li>The member personally purchases at least one CBD Care Group product that month.</li>
-                    <li>The member personally sponsors someone. (They register)</li>
+                    <li>The member personally sponsors someone. (Someone registers using the members referral link)</li>
                     <li>The member participates in a team building effort.
                         <ul>
                             <li>Attends a CBD Care Group Marketing Meeting.</li>

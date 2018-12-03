@@ -25,7 +25,7 @@
             Member Costs
         </div>
     </div>
-     <div style="display:block;" class="cbddisplay">
+     <div  class="panel panel-default cbddisplay">
 
 
         <div class="panel-body">

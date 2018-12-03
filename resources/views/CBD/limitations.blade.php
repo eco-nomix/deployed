@@ -22,40 +22,51 @@
 
     <div style="width:98vw">
         <div class="cbdheader">
-            Referral Links
+            Limitations on Sponsoring
         </div>
     </div>
      <div  class="panel panel-default cbddisplay">
 
 
         <div class="panel-body">
-            <div class="form-group col-md-12 ">
-                   All CBD Care Group Members have the opportunity to refer new clients to the CBD Care Group family.
-               </div>
-               <div class="form-group col-md-12 ">
-                   Once registered and logged in the Referral Link below will show 'Your Referral Link'.
-               </div>
               <div class="form-group col-md-12 ">
-                   Use the Referral Link below to help grow your organization and your income possibilities.
-                   Simply encourage potential clients to initially access the site using your referral link.
-                   When they do, the site knows who referred them and if they register, you will receive the
-                   credit of 'Sponsoring' them . They will have full access to the site and can determine
-                   first if they want to complete their registration or not. </div>
-               <div class="form-group">
-                   <label class="col-md-4 control-label">Referral Link</label>
-                   <div class="col-md-6">
-                       {{$referral_link}}
-                   </div>
-               </div>
-             <div class="form-group col-md-12 standout">
-                   Suggestions:  These links can be placed on business cards, added to emails,  facebook, tweets,
-                   anyway you want to get the word out.  If anyone uses one of these links.  You will get the credit of sponsoring them.
-
+                There are no limits to the number of clients you can personally sponsor.
+            </div>
+            <div class="form-group col-md-12 ">
+                Your personal organization depth is limited to 5 generations.
+            </div>
+            <div class="form-group col-md-12 ">
+                There are no limitations to the total number of people in your organization.
              </div>
-
+            <div class="form-group col-md-12 ">
+                Since there are no on-going costs required to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
+            </div>
+            <div class="form-group col-md-12 ">
+                Over time, your organization's total membership could grow to thousands of members.  Now how fast that occurs is determined by:
+            </div>
+            <div class="form-group col-md-12 ">
+                <ul>
+                    <li>How well you understand the opportunity of CBD Care Group. <br>Read and understand the contents of CBD Care Group's web-site.</li>
+                    <li>How consistent you are in spreading the word. <br>Keep your business cards with you.</li>
+                    <li>How many business cards and referral links you hand out.</li>
+                    <li>Encourage your down-line Members to do the same.</li>
+                </ul>
+            </div>
+            <div class="form-group col-md-12 ">
+                Become creative in how you get the word out,  your referral link is key to your success.
+            </div>
              <div class="form-group col-md-12 ">
-
+                Put your referral link in your email, ads, or notices.
              </div>
+             <div class="form-group col-md-12 ">
+                 Obviously, your organizations size alone will not create any income for you.  All Profit Sharing is earned
+                 from purchases that are made,  so encourage your down-line to know what works to spread the word, and to discover
+                 how they can be utilized.
+              </div>
+             <div class="form-group col-md-12 ">
+                 Remember that a great many people are highly motivated to become self-sufficient.  As these perilous times further unfold, more and more people will want to become such.
+             </div>
+
         </div>
     </div>
 

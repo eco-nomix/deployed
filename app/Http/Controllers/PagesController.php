@@ -642,6 +642,15 @@ class PagesController extends Controller
 
         return view('CBD.profitsharing', $data);
     }
+    public function referrallinks4(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'CBD Care Group Referral Links';
+        $data['description'] = 'CBD Care Group Referral Links';
+
+        return view('CBD.referrallinks', $data);
+    }
 
 
 

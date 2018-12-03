@@ -28,7 +28,8 @@
         </div>
     {{--</div>--}}
      <div style="display:block;" class="cbddisplay">
-     KL LK LK LK LK LKJ LK
+
+     this was the last time
         {{--<div class="panel-body">--}}
             {{--<div class="form-group col-md-12 ">--}}
                  {{--There are no initial, startup, annual, or monthly costs for CBD Card Group,--}}

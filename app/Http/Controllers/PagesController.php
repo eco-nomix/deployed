@@ -40,9 +40,9 @@ class PagesController extends Controller
         $userId = $request->session()->get('user_id');
         $user = Users::find($userId);
         $name = $request->root();
-        \Log::info("root = $name");
+        \Log::info("root = $name   userid=$userId");
         if ($user) {
-            $referralLink = "http://kineticgold.org/referred/$user->id";
+            $referralLink = "http://cbdusergroups.com/referred/$user->id";
         } else {
             $referralLink = "Not Logged in";
         }

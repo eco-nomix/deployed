@@ -22,12 +22,12 @@
 
     {{--<div id="div1" style="width:98vw">--}}
         <div class="col-md-10 col-md-offset-1">
-             <div class="cbd600">
+             <div class="cbdheader">
                   Member Costs
              </div>
         </div>
     {{--</div>--}}
-     <div >
+     <div class="cbddisplay">
      KL LK LK LK LK LKJ LK
         {{--<div class="panel-body">--}}
             {{--<div class="form-group col-md-12 ">--}}

@@ -215,25 +215,11 @@
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
+    text-align:justify;
     /*line-height: 4vw;*/
 }
-.cbd400{
-    color:white;
-    font-size: 6vw;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    /*line-height: 8vw;*/
-    width: 66vw;
-    height: 5vw;
-    background-color: darkgreen;
-    margin-left: auto;
-    margin-right:auto;
-    text-align:center;
-    vertical-align:middle;
-}
 
-.cbd600{
+.cbdheader{
     color:white;
     font-size: 4vw;
     font-style: normal;
@@ -249,21 +235,7 @@
     vertical-align:middle;
 }
 
-.cbd800{
-    color:white;
-    font-size: 6vw;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
 
-    width: 80vw;
-    height: 5vw;
-    background-color: darkgreen;
-    margin-left: auto;
-    margin-right:auto;
-    text-align:center;
-    vertical-align:middle;
-}
 
 .cbdbackground{
     background-image:url("{{URL::asset('images/denmark.jpeg')}}");

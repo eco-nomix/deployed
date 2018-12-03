@@ -41,10 +41,11 @@
                     <ul>
                         <li>Provide your basic information (name, email, desired username and password, verify your email,update and contact information)</li>
                         <li>Submit your registration Fee</li>
+                        <li>Registration setups up your login values</li>
                     </ul>
             </div>
             <div class="form-group col-md-12 ">
-              Once you are registered
+              Once you are Logged in
               <ul>
                 <li>You may purchase products at the members discounted price.</li>
                 <li>You may participate in CBD Care Group's Profit Sharing Program.</li>

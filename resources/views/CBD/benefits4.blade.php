@@ -38,8 +38,8 @@
                      a detailed 'how-to' method to get involved if you are interested.
                 </div>
                 <div class="form-group col-md-12 ">
-                     There are no requirements for members of the CBD Care Group to participate
-                     within any opportunity, program or make purchases of CBD Products.  All member's need to do their own
+                     There are no CBD Care Group requirements for members of the CBD Care Group to participate
+                     within any opportunity, program or make purchases of CBD Products.  An opportunity from a third party may have its own requirements to participate.  All member's need to do their own
                      due diligence to determine if any particular product or opportunity fit's with your health goals and
                      investment goals, styles, limits and desires.
                 </div>

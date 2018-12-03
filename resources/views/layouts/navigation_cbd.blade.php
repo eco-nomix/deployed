@@ -101,7 +101,7 @@ p{
                 <li><a href="{{URL::to('/')}}/">Income<span class="caret"></span></a>
                     <ul>
                         <li><a href="{{URL::to('/')}}/benefits4">Member Benefit</a></li>
-                        <li><a href="{{URL::to('/')}}/">Member Cost</a></li>
+                        <li><a href="{{URL::to('/')}}/membercosts4">Member Cost</a></li>
                         <li><a href="{{URL::to('/')}}/">Profit Sharing</a></li>
                         <li><a href="{{URL::to('/')}}/">Referral Links</a></li>
                         <li><a href="{{URL::to('/')}}/">Limitations on Sponsoring</a></li>

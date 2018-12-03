@@ -623,7 +623,7 @@ class PagesController extends Controller
         $data['title'] = 'CBD Care Group Member Cost';
         $data['description'] = 'CBD Care Group Member Cost';
 
-        return view('CBD.membercost4', $data);
+        return view('CBD.membercosts', $data);
     }
 
 

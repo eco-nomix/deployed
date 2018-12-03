@@ -27,7 +27,7 @@
              </div>
         </div>
     </div>
-     <div class="panel panel-default cbddisplay">
+     <div class="row panel panel-default cbddisplay">
      KL LK LK LK LK LKJ LK
         {{--<div class="panel-body">--}}
             {{--<div class="form-group col-md-12 ">--}}

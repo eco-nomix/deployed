@@ -22,10 +22,10 @@
 
     <div id="div1" style="width:98vw" >
         <div class="col-md-10 col-md-offset-1">
-             {{--<div style="width:100%;">--}}
-                 <div class="cbd600">
-                      Member Costs
-                 </div>
+
+             <div class="cbd600">
+                  Member Costs
+             </div>
         </div>
     </div>
      <div class="panel panel-default cbddisplay">

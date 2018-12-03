@@ -30,7 +30,7 @@
 
         <div class="panel-body">
             <div class="form-group col-md-12 ">
-                 There are no initial, startup, annual, or monthly costs for CBD Card Group,
+                 There are no initial, startup, annual, or monthly costs for membership in the CBD Care Group,
                   or required products to purchase
             </div>
             <div class="form-group col-md-12 ">

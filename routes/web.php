@@ -145,6 +145,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/people', ['as' => 'people','uses'=>'PagesController@people']);
     Route::get('/founders', ['as' => 'founders','uses'=>'PagesController@founders']);
     Route::get('/limitations', ['as' => 'limitations','uses'=>'PagesController@limitations']);
+    Route::get('/limitations4', ['as' => 'limitations4','uses'=>'PagesController@limitations4']);
     Route::get('/members', ['as' => 'members','uses'=>'PagesController@members']);
     Route::get('/membercost', ['as' => 'membercost','uses'=>'PagesController@membercost']);
     Route::get('/membercost2', ['as' => 'membercost2','uses'=>'PagesController@membercost2']);

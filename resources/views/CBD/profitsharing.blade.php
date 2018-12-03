@@ -110,7 +110,8 @@
              </div>
              <div class="form-group col-md-12 ">
                    The Profit Sharing you receive from 3nd Generation purchasers is only 4%, but this can start to add up fast.
-                   Lets assume that your sponsored members each sponsored 5 members to qualify for this Profit-Sharing and the 3nd Generation also sponsored 3 members each.
+                   Lets assume that your sponsored members each sponsored 5 members to qualify for
+                   this Profit-Sharing and the 2nd Generation also sponsored 3 members each.
                    Notice I reduced the average sponsored to allow for those that just won't do anything.
                      Let's assume that they average $100 per month in purchases.
                    <ul>
@@ -141,6 +142,9 @@
                       <li>a total of $12,250 per month</li>
                    </ul>
                    And remember that this Profit-Sharing came without any cost or obligation on your part beyond getting your potential members to the website.
+                   <br>
+                   Also notice how your potential income drastically increases as you picked up the 4th generation.  This is because you got the people you sponsored to duplicate what you were doing.
+
              </div>
              <div class="form-group col-md-12 ">
                     Once you have sponsored at least 20 members, you qualify for Profit-Sharing of the Fifth Generation purchasers.

@@ -102,7 +102,7 @@ p{
                     <ul>
                         <li><a href="{{URL::to('/')}}/benefits4">Member Benefit</a></li>
                         <li><a href="{{URL::to('/')}}/membercost4">Member Cost</a></li>
-                        <li><a href="{{URL::to('/')}}/">Profit Sharing</a></li>
+                        <li><a href="{{URL::to('/')}}/profitsharing4">Profit Sharing</a></li>
                         <li><a href="{{URL::to('/')}}/">Referral Links</a></li>
                         <li><a href="{{URL::to('/')}}/">Limitations on Sponsoring</a></li>
                         <li><a href="{{URL::to('/')}}/">On-Line Accounting</a></li>

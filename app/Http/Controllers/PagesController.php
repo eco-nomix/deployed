@@ -625,6 +625,15 @@ class PagesController extends Controller
 
         return view('CBD.membercosts', $data);
     }
+    public function profitsharing4(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'CBD Care Group Profit Sharing';
+        $data['description'] = 'CBD Care Group Profit Sharing';
+
+        return view('CBD.profitsharing', $data);
+    }
 
 
 

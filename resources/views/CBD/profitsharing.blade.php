@@ -35,11 +35,11 @@
              </div>
              <div class="form-group col-md-12 ">
 
-                  CBD Care Group Profit-Sharing program requires no knowledge of computers or upfront investment.
+                  The CBD Care Group Profit-Sharing program requires no knowledge of computers or upfront investment.
              </div>
              <div class="form-group col-md-12 ">
-                   When someone you refer joins as a member in the CBD Care Group,
-                   you receive Profit-Sharing.
+                   When someone you refer joins as a member in the CBD Care Group (registers),
+                   you can receive Profit-Sharing.
                    <ul>
                         <li>You sponsor them by getting them to the CBD Care Group website  (cbdcaregroups.com)
                         to learn about CBD Care Group.</li>
@@ -48,6 +48,7 @@
                         <li>Registration on the CBD Care Group website is linked to the profit-sharing database.</li>
                         <li>There are no products that you are selling.</li>
                         <li>You have no obligation beyond getting them to the website.  A true referral.</li>
+                        <li>Profit-Sharing is for Active members of the CBD Care Group.</li>
                    </ul>
              </div>
 
@@ -90,7 +91,7 @@
                  make their own purchases.
              </div>
              <div class="form-group col-md-12 ">
-                 The Profit Sharing you receive from 2nd Generation depositors is 4%, but this can start to add up fast.  Lets assume that your sponsored members each
+                 The Profit Sharing you receive from 2nd Generation Purchasers is 4%, but this can start to add up fast.  Lets assume that your sponsored members each
                  sponsored 5 members to qualify for this Profit-Sharing.  Let's assume that they average $100 per month in purchases.
                  <ul>
                     <li>&nbsp;&nbsp;5 members in the 1st Generation -  a total of $&nbsp;&nbsp;500 in purchases - $&nbsp;&nbsp;50/month in Profit-Sharing.</li>
@@ -108,7 +109,7 @@
                    should eventually start to purchase CBD Care Group Products.
              </div>
              <div class="form-group col-md-12 ">
-                   The Profit Sharing you receive from 3nd Generation depositors is only 4%, but this can start to add up fast.
+                   The Profit Sharing you receive from 3nd Generation purchasers is only 4%, but this can start to add up fast.
                    Lets assume that your sponsored members each sponsored 5 members to qualify for this Profit-Sharing and the 3nd Generation also sponsored 3 members each.
                    Notice I reduced the average sponsored to allow for those that just won't do anything.
                      Let's assume that they average $100 per month in purchases.
@@ -129,7 +130,7 @@
                    should eventually start to purchase CBD Care Group Products.
              </div>
              <div class="form-group col-md-12 ">
-                   The Profit Sharing you receive from 4th Generation depositors is only 4%, but this can start to add up fast.
+                   The Profit Sharing you receive from 4th Generation purchasers is only 4%, but this can start to add up fast.
                    Lets assume that your sponsored members followed your pattern.
                      Let's assume that they average $100 per month in purchases.
                    <ul>
@@ -150,7 +151,7 @@
                     should eventually start to purchase CBD Care Group Products.
              </div>
              <div class="form-group col-md-12 ">
-                    The Profit Sharing you receive from 5th Generation depositors is only 4%, but this can start to add up fast.
+                    The Profit Sharing you receive from 5th Generation purchasers is only 4%, but this can start to add up fast.
                     Lets assume that your sponsored members followed your pattern.
                       Let's assume that they average $100 per month in purchases.
                     <ul>

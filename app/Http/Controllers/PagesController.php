@@ -624,6 +624,14 @@ class PagesController extends Controller
 
         return view('CBD.active', $data);
     }
+    public function autoship4(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'Autoship Policy';
+        $data['description'] = 'Autoship Policy';
+
+        return view('CBD.autoship4', $data);
+    }
     public function benefits4(Request $request)
     {
         $data = $this->userData($request);

@@ -110,7 +110,7 @@ p{
                         <li><a href="{{URL::to('/')}}/requirements4">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/memagreement4">Member Agreement</a></li>
                         <li><a href="{{URL::to('/')}}/memberterms4">Member Terms and Conditions</li>
-                        <li><a href="{{URL::to('/')}}/">Auto-Ship Policy</a></li>
+                        <li><a href="{{URL::to('/')}}/autoship4">Auto-Ship Policy</a></li>
                         <li><a href="{{URL::to('/')}}/">Return Policy</a></li>
                         <li><a href="{{URL::to('/')}}/">Privacy Policy</a></li>
                         <li><a href="{{URL::to('/')}}/">General Policies and Procedures</a></li>

@@ -47,7 +47,7 @@
                  or otherwise protected material, unless the user owns the material, or the material is presented as “fair use” under
                  United States and/or California law.
                  <br><br>
-                 cbdcaregroups.comg does not allow any type of solicitation, including but not limited to advertisements, junk mail,
+                 cbdcaregroups.com does not allow any type of solicitation, including but not limited to advertisements, junk mail,
                  directed mail, “spam”, chain letters, or pyramid schemes, Ponzi schemes, or “multi-level marketing” beyond the official
                  site functionality of cbdcaregroups.com.
                  <br><br>

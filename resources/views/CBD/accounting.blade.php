@@ -41,7 +41,7 @@
                    If any one of those individuals makes a deposit into their account, no matter how big or small, that will result in profit sharing to you.
              </div>
              <div class="form-group col-md-12 ">
-                  2.  The ability to see where all of your Awards and Profit Sharing are coming from, and how much.
+                  2.  The ability to see where all of your Profit Sharing is coming from, and how much.
              </div>
 
              <div class="form-group col-md-12 ">

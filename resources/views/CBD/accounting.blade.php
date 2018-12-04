@@ -22,7 +22,7 @@
 
     <div style="width:98vw">
         <div class="cbdheader">
-            Member Requirements
+           Organization Accounting System
         </div>
     </div>
      <div  class="panel panel-default cbddisplay">
@@ -30,62 +30,33 @@
 
         <div class="panel-body">
              <div class="form-group col-md-12 ">
-                Individuals become members when they complete the Registration form, and verify their email.
+                When Members login they have a couple special items in their personal pull down menus -  Organization and Accounting.
              </div>
              <div class="form-group col-md-12 ">
-                All Members are eligible to earn Rewards and Profit Sharing by referring clients to CBD Care Group.
+               The Organization Module contains a number of sections that you will find very interesting
+             </div>
+             <div class="form-group col-md-12 ">
+                   1.  The ability to see who is in your complete down-line of referrals.
+                   Over time this could grow to be thousands of individuals.
+                   If any one of those individuals makes a deposit into their account, no matter how big or small, that will result in profit sharing to you.
+             </div>
+             <div class="form-group col-md-12 ">
+                  2.  The ability to see where all of your Awards and Profit Sharing are coming from, and how much.
              </div>
 
              <div class="form-group col-md-12 ">
-                    Now lets see what you don't have to do.
+                  3.  The ability to contact via email those in your down-line - through the KineticGold messaging system.
              </div>
              <div class="form-group col-md-12 ">
-                <ul>
-                    <li>No purchase requirements</li>
-                    <li>No Sponsoring requirements</li>
-                </ul>
+              The Accounting Module allows you to:
              </div>
              <div class="form-group col-md-12 ">
-                   What do you have to do to earn Profit Sharing?
+                  1.  The ability to check balances in your checking account, and savings account.
              </div>
              <div class="form-group col-md-12 ">
-                    <ul>
-                        <li>Become an Active member - no purchase required</li>
-                        <li>Refer someone</li>
-                        <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
-                            <ul>
-                                <li>1+  1st Generation</li>
-                                <li>5+  2nd Generation</li>
-                                <li>10+ 3rd Generation</li>
-                                <li>15+ 4th Generation</li>
-                                <li>20+ 5th Generation</li>
-                            </ul>
-                        <li>Someone within 5 generations (see above) of your referrals purchases a CBD Care Group product.</li>
-                        <l1>After all purchases are what drives the Profit Sharing.</l1>
-                    </ul>
-
+                 2.  A history of all deposits in your organization over time, income, and spending.
              </div>
 
-             <div class="form-group col-md-12 ">
-                    Now lets see what you don't have to do.
-             </div>
-             <div class="form-group col-md-12 ">
-                   <ul>
-                        <li>No minimum personal sales requirements</li>
-                        <li>No direct selling of products - all sales are done through CBD Care Group website</li>
-                        <li>No collecting of money</li>
-                        <li>No required marketing meetings</li>
-                        <li>No minimum number of sponsored members in your organization are required to 'qualify'</li>
-                        <li>No stocking of inventory</li>
-                        <li>No purchasing of product you don't want or need</li>
-                        <li>No confusing Marketing plan</li>
-                        <li>No Hidden Fees</li>
-                        <li>No hard sell - hand out a business card, let the site do the work for you</li>
-                   </ul>
-             </div>
-             <div class="form-group col-md-12 ">
-                    About the only way to not succeed with CBD Care Group is to do nothing at all.
-             </div>
 
         </div>
     </div>

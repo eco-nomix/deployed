@@ -41,11 +41,11 @@
                  defamatory, inaccurate, abusive, vulgar, hateful, harassing, obscene, profane, sexually oriented, threatening,
                  invasive of a person’s privacy, or otherwise objectionable.  In fact, "objectionable” is the default state of
                  all material on the internet, and each user of cbdcaregroups.com is expected to understand the same.  However, a
-                 user may not post any text or material that violates any United States or Tennessee law, or the policies of
+                 user may not post any text or material that violates any United States or California law, or the policies of
 
                  as explained herein.  Each user also explicitly agrees not to post to cbdcaregroups.com any copyrighted, trademarked,
                  or otherwise protected material, unless the user owns the material, or the material is presented as “fair use” under
-                 United States and/or Tennessee law.
+                 United States and/or California law.
                  <br><br>
                  cbdcaregroups.comg does not allow any type of solicitation, including but not limited to advertisements, junk mail,
                  directed mail, “spam”, chain letters, or pyramid schemes, Ponzi schemes, or “multi-level marketing” beyond the official

@@ -63,7 +63,7 @@
             <br><br>
             CANCELLATION/TERMINATION OF MEMBERSHIP<br>
             Any Registered User that is canceled/terminated by CBD Care Group will loose all benefits associated with CBD Care Group.  Any sponsored organization
-            be reassigned to cbdcaregroups.com.  The member will be allow to close out and receive all funds associated with the account.
+            be reassigned to cbdcaregroups.com.  The member will be allowed to close out and receive all funds associated with the account.
             <br><br>
             RELATIONSHIP OF PARTIES<br>
             While the parties shall work hand-in-hand for the benefit of both, the parties acknowledge and agree that the Registered User shall,
@@ -72,16 +72,16 @@
             terms.  The Registered Use has no authority to sign any document in behalf of CBD Care Group.
             <br><br>
             DISPUTES<br>
-            Agreements shall be interpreted under the the laws of the Nevis.  <br><br>
+            Agreements shall be interpreted under the the laws of the United States.  <br><br>
             COLATERIAL<br>
             All CBD Care Group logos, and graphics contained within cbdcaregroups.com are copyrighted.
              <br><br>
             USE<br>
-              Distribution or copyrighted CBD Care Group material is expressly prohibited.  cbdcaregroups.com provides Registered Users with approved KineticGold literature
+              Distribution or copyrighted CBD Care Group material is expressly prohibited.  cbdcaregroups.com provides Registered Users with approved CBD Care Group literature
               for marketing.  Any 3rd party or self-created CBD Care Group material must be first approved by cbdcaregroups.com before it may be used.
             <br><br>
             DAMAGING INTENT<br>
-            Any Registered User of CBD Care Group who engages in chat, email, posting of any material about CBD Care Group, or that could be damaging to KineticGold or KineticGold.org,
+            Any Registered User of CBD Care Group who engages in chat, email, posting of any material about CBD Care Group, or that could be damaging to CBD Care Group or cdbcaregroups.com,
             may be santioned by CBD Care Group  Depending on seriousness, CBD Care Group may deem it appropriate to take appropriate action.
             <br><br>
              UCE/UBE or SPAM<br>

@@ -608,6 +608,14 @@ class PagesController extends Controller
 
 
 //    CBD
+    public function accounting4(Request $request)
+    {
+        $data = $this->userData($request);
+        $data['title'] = 'CBD Share Group Accounting';
+        $data['description'] = 'CBD Share Group Accounting';
+
+        return view('CBD.accounting', $data);
+    }
     public function active(Request $request)
     {
         $data = $this->userData($request);

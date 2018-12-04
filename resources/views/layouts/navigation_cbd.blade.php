@@ -106,7 +106,7 @@ p{
                         <li><a href="{{URL::to('/')}}/active">Active Membership</a></li>
                         <li><a href="{{URL::to('/')}}/referrallinks4">Referral Links</a></li>
                         <li><a href="{{URL::to('/')}}/limitations4">Limitations on Sponsoring</a></li>
-                        <li><a href="{{URL::to('/')}}/">On-Line Accounting</a></li>
+                        <li><a href="{{URL::to('/')}}/accounting4">On-Line Accounting</a></li>
                         <li><a href="{{URL::to('/')}}/requirements4">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/">Member Agreement</a></li>
                         <li><a href="{{URL::to('/')}}/">Member Terms and Conditions</li>

@@ -88,7 +88,7 @@
                  Registered users can request that their benefits be cancelled at any time, without cost, through cbdcaregroups.com website.
                  <br><br>
                  This Registration Agreement shall be governed by, and construed and enforced in accordance with the laws of the
-                 country of Nevis without regard to conflicts of law, principles or provisions.
+                United States without regard to conflicts of law, principles or provisions.
 
 
              </div>

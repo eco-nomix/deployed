@@ -53,7 +53,7 @@
                  <br><br>
                  Each user understands and agrees that it is impossible for anyone associated with cbdcaregroups.com to
                  confirm the validity or provenance of any content posted by users of the site.  No person associated with
-                 cbdcaregroups.com monitors or is responsible for the posted content.   No person associated with
+                 cbdcaregroups.com monitors or is responsible for the posted content.   No person associated with CBD Care Groups
 
                  warrants the accuracy, completeness, or usefulness of any information presented.  To the contrary, it is more
                  likely that the information presented in each posting is inaccurate, incomplete, and/or useless.  The posted messages
@@ -65,7 +65,7 @@
                  information), without notice or explanation.
                  <br><br>
                  Each user is solely responsible for the content of the user’s posted text and materials.  Furthermore, by using
-                 cbdcaregroups.com, each user agrees to indemnify, defend, and hold hairless the owners and administrators of this
+                 cbdcaregroups.com, each user agrees to indemnify, defend, and hold harmless the owners and administrators of this
                  website for any claim related to the user’s posted text or material.
                  <br><br>
                  The owners and administrators of cbdcaregroups.com adhere to two written rules with respect to posted text and

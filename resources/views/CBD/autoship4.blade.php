@@ -43,7 +43,7 @@
                         <li>Member does not offer said products for resale.</li>
                         <li>Member can cancel the Auto-Shipping request at any time.</li>
                         <li>Member understands this is a convenience for them to remain an Active Member.</li>
-                        <li>If there are not sufficient funds then the project will not be Auto-Shipped.</li>
+                        <li>If there are not sufficient funds then the product will not be Auto-Shipped.</li>
                         </ul>
                       </div>
                      <div class="form-group col-md-12 ">

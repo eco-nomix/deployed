@@ -31,13 +31,12 @@
         <div class="panel-body">
             <div class="form-group col-md-12 ">
 
-            These Terms and Conditions exist for the benefit of cbdcaregroups.com and its registered trademark CBD Care Groupd,
+            These Terms and Conditions exist for the benefit of cbdcaregroups.com and its registered trademark. CBD Care Group,
             at its sole discretion, reserves the right to terminate the account of any registered user caught in violation
              of the Terms and Conditions without notice.
             <br><br>
             Cbdcaregroups.com reserves the right to change these terms and conditions at any time, and you agree to abide
-            by the most recent version of this Terms and Conditions Agreement each time you view and use the website CBD Care Group, CBD Care Group's
-             debit cards, and/or training material.  Do not use the business cards, debit cards and/or training material
+            by the most recent version of this Terms and Conditions Agreement each time you view and use the website CBD Care Group and/or training material.  Do not use the business cards and/or training material
              if you do not agree to all of these terms and conditions.
             <br><br>
             CBD Care Group reserves the right to update, modify, add or change these terms and conditions without notice.

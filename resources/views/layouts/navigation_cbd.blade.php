@@ -109,7 +109,7 @@ p{
                         <li><a href="{{URL::to('/')}}/accounting4">On-Line Accounting</a></li>
                         <li><a href="{{URL::to('/')}}/requirements4">Member Requirements</a></li>
                         <li><a href="{{URL::to('/')}}/memagreement4">Member Agreement</a></li>
-                        <li><a href="{{URL::to('/')}}/">Member Terms and Conditions</li>
+                        <li><a href="{{URL::to('/')}}/memberterms4">Member Terms and Conditions</li>
                         <li><a href="{{URL::to('/')}}/">Auto-Ship Policy</a></li>
                         <li><a href="{{URL::to('/')}}/">Return Policy</a></li>
                         <li><a href="{{URL::to('/')}}/">Privacy Policy</a></li>

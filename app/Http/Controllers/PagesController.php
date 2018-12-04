@@ -658,6 +658,15 @@ class PagesController extends Controller
 
         return view('CBD.membercosts', $data);
     }
+    public function memberterms4(Request $request)
+    {
+        $data = $this->userData($request);
+
+        $data['title'] = 'CBD Care Group Member Terms and Conditions';
+        $data['description'] = 'CBD Care Group Member Terms and Conditions';
+
+        return view('CBD.memberterms4', $data);
+    }
     public function profitsharing4(Request $request)
     {
         $data = $this->userData($request);

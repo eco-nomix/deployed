@@ -33,7 +33,7 @@
 
                  By registering with cbdcaregroups.com and using this website, each user agrees, understands, and warrants the following:
                  <br><br>
-                 CBD Care Group is a for-profit website created for the purpose of registering memberships and products.
+                 CBD Care Group is a for-profit website created for the purpose of registering memberships and selling products.
                  Access to cbdcaregroups.com is generally open to the public, with the only limitation being to
                  individualized pages that are accessible only through logging in.
                  <br><br>

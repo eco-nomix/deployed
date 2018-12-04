@@ -22,49 +22,69 @@
 
     <div style="width:98vw">
         <div class="cbdheader">
-            Limitations on Sponsoring
+            Member Requirements
         </div>
     </div>
      <div  class="panel panel-default cbddisplay">
 
 
         <div class="panel-body">
-              <div class="form-group col-md-12 ">
-                There are no limits to the number of clients you can personally sponsor.
-            </div>
-            <div class="form-group col-md-12 ">
-                Your personal organization depth is limited to 5 generations.
-            </div>
-            <div class="form-group col-md-12 ">
-                There are no limitations to the total number of people in your organization.
+             <div class="form-group col-md-12 ">
+                Individuals become members when they complete the Registration form, and verify their email.
              </div>
-            <div class="form-group col-md-12 ">
-                Since there are no on-going costs required to be a member, there is no reason for anyone in your down-line to quit, so your organization just keeps growing over time.
-            </div>
-            <div class="form-group col-md-12 ">
-                Over time, your organization's total membership could grow to thousands of members.  Now how fast that occurs is determined by:
-            </div>
-            <div class="form-group col-md-12 ">
+             <div class="form-group col-md-12 ">
+                All Members are eligible to earn Rewards and Profit Sharing by referring clients to CBD Care Group.
+             </div>
+
+             <div class="form-group col-md-12 ">
+                    Now lets see what you don't have to do.
+             </div>
+             <div class="form-group col-md-12 ">
                 <ul>
-                    <li>How well you understand the opportunity of CBD Care Group. <br>Read and understand the contents of CBD Care Group's web-site.</li>
-                    <li>How consistent you are in spreading the word. <br>Keep your business cards with you.</li>
-                    <li>How many business cards and referral links you hand out.</li>
-                    <li>Encourage your down-line Members to do the same.</li>
+                    <li>No purchase requirements</li>
+                    <li>No Sponsoring requirements</li>
                 </ul>
-            </div>
-            <div class="form-group col-md-12 ">
-                Become creative in how you get the word out,  your referral link is key to your success.
-            </div>
-             <div class="form-group col-md-12 ">
-                Put your referral link in your email, ads, or notices.
              </div>
              <div class="form-group col-md-12 ">
-                 Obviously, your organizations size alone will not create any income for you.  All Profit Sharing is earned
-                 from purchases that are made,  so encourage your down-line to know what works to spread the word, and to discover
-                 how they can be utilized.
-              </div>
+                   What do you have to do to earn Profit Sharing?
+             </div>
              <div class="form-group col-md-12 ">
-                 Remember that a great many people are highly motivated to become self-sufficient.  As these perilous times further unfold, more and more people will want to become such.
+                    <ul>
+                        <li>Become an Active member - no purchase required</li>
+                        <li>Refer someone</li>
+                        <li>The more people you Refer that become members increases the number of generations that profit sharing is paid on</li>
+                            <ul>
+                                <li>1+  1st Generation</li>
+                                <li>5+  2nd Generation</li>
+                                <li>10+ 3rd Generation</li>
+                                <li>15+ 4th Generation</li>
+                                <li>20+ 5th Generation</li>
+                            </ul>
+                        <li>Someone within 5 generations (see above) of your referrals purchases a CBD Care Group product.</li>
+                        <l1>After all purchases are what drives the Profit Sharing.</l1>
+                    </ul>
+
+             </div>
+
+             <div class="form-group col-md-12 ">
+                    Now lets see what you don't have to do.
+             </div>
+             <div class="form-group col-md-12 ">
+                   <ul>
+                        <li>No minimum personal sales requirements</li>
+                        <li>No direct selling of products - all sales are done through CBD Care Group website</li>
+                        <li>No collecting of money</li>
+                        <li>No required marketing meetings</li>
+                        <li>No minimum number of sponsored members in your organization are required to 'qualify'</li>
+                        <li>No stocking of inventory</li>
+                        <li>No purchasing of product you don't want or need</li>
+                        <li>No confusing Marketing plan</li>
+                        <li>No Hidden Fees</li>
+                        <li>No hard sell - hand out a business card, let the site do the work for you</li>
+                   </ul>
+             </div>
+             <div class="form-group col-md-12 ">
+                    About the only way to not succeed with CBD Care Group is to do nothing at all.
              </div>
 
         </div>

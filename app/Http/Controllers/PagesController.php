@@ -640,7 +640,15 @@ class PagesController extends Controller
 
         return view('CBD.limitations', $data);
     }
+    public function memberagreement4(Request $request)
+    {
+        $data = $this->userData($request);
 
+        $data['title'] = 'CBD Care Group Member Agreement';
+        $data['description'] = 'CBD Care Group Member Agreement';
+
+        return view('CBD.mem_agreement4', $data);
+    }
     public function membercost4(Request $request)
     {
         $data = $this->userData($request);

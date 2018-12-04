@@ -104,6 +104,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/about2', ['as' => 'about2','uses'=>'PagesController@about2']);
     Route::get('/about3', ['as' => 'about3','uses'=>'PagesController@about3']);
     Route::get('/accounting', ['as' => 'accounting','uses'=>'PagesController@accounting']);
+    Route::get('/accounting4', ['as' => 'accounting4','uses'=>'PagesController@accounting4']);
     Route::get('/products', ['as' => 'products','uses'=>'PagesController@products']);
     Route::get('/product/{productId}', ['as' => 'product','uses'=>'PagesController@product']);
     Route::get('/info', ['as' => 'info','uses'=>'PagesController@info']);

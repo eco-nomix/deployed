@@ -73,7 +73,7 @@
                  method that the user may promote their products through cbdcaregroups.com.  Any user that does not follow this basic
                  guideline may have their product descriptions edited or the products removed completely.
                  <br><br>
-                 Economics does not use any type of advertising or tracking software.
+                 CBD Care Group does not use any type of advertising or tracking software.
                  <br><br>
                  By joining and using cbdcaregroups.com, each user agrees, understands and warrants that, as with every use of
                  the internet, the User’s Anonymity cannot be protected.  To the contrary, Each user’s personally identifying

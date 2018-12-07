@@ -1,0 +1,192 @@
+<Response>
+	<status>
+		<_00> Success</_00>
+		<_20> Invalid username</_20>
+		<_21> Invalid transType or service not allowed</_21>
+		<_22> Invalid Currency Code</_22>
+		<_23> Invalid accountType</_23>
+		<_24> Invalid sourceEmail</_24>
+		<_25> Invalid firstName</_25>
+		<_26> Invalid mInitial</_26>
+		<_27> Invalid lastName</_27>
+		<_28> Invalid billAddr</_28>
+		<_29> Invalid aptNum</_29>
+		<_30> Invalid city</_30>
+		<_31> Invalid state</_31>
+		<_32> Invalid billZip</_32>
+		<_33> Invalid mailAddr</_33>
+		<_34> Invalid mailApt</_34>
+		<_35> Invalid mailCity</_35>
+		<_36> Invalid mailState</_36>
+		<_37> Invalid mailZip</_37>
+		<_38> Invalid dayPhone</_38>
+		<_39> Invalid evenPhone</_39>
+		<_40> Invalid ssn</_40>
+		<_41> Invalid dob</_41>
+		<_42> Invalid recEmail</_42>
+		<_43> Invalid knownAccount</_43>
+		<_44> Invalid amount</_44>
+		<_45> Invalid invNum</_45>
+		<_46> Invalid rtNum</_46>
+		<_47> Invalid accntNum</_47>
+		<_48> Invalid ccNum</_48>
+		<_49> Invalid expDate</_49>
+		<_50> Invalid cvv2</_50>
+		<_51> Invalid transNum or unavailable to act on transNum due to  funding</_51>
+		<_52> Invalid splitNum</_52>
+		<_53> A ProPay account with this e</_53>
+		<_54> A ProPay account with this social security number already exists</_54>
+		<_55> The email address provided does not correspond to a ProPay account.</_55>
+		<_56> Recipient’s e-mail address shouldn’t have a ProPay account and does</_56>
+		<_57> Cannot settle transaction because it already expired</_57>
+		<_58> Credit card declined (the responseCode element will provide info on the decline reason)</_58>
+		<_59> Invalid Credential or IP address not allowed</_59>
+		<_60> Credit card authorization timed out; retry at a later time</_60>
+		<_61> Amount exceeds single transaction limit</_61>
+		<_62> Amount exceeds monthly volume limit</_62>
+		<_63> Insufficient funds in account</_63>
+		<_64> Over credit card use limit</_64>
+		<_65> Miscellaneous error </_65>
+		<_66> Denied a ProPay account (Developer should display a descriptive message that guides a new user to fill out ProPay exceptions form and submit it.)</_66>
+		<_67> Unauthorized service requested</_67>
+		<_68> Account not affiliated</_68>
+		<_69> Duplicate invoice number (The same card was charged for the same amount with the same invoice number (including blank invoices) in a 1 minute period.  Details about the original transaction are included whenever a 69 response is returned.  These details include a repeat of the auth code, the original AVS response, and the original CVV response.)</_69>
+		<_70> Duplicate external ID</_70>
+		<_71> Account previously set up, but problem affiliating it with partner</_71>
+		<_72> The ProPay Account has already been upgraded to a Premium Account</_72>
+		<_73> Invalid Destination Account</_73>
+		<_74> Account or Trans Error</_74>
+		<_75> Money already pulled</_75>
+		<_76> Not Premium (used only for push/pull transactions) </_76>
+		<_77> Empty results</_77>
+		<_78> Invalid Authentication</_78>
+		<_79> Generic account status error</_79>
+		<_80> Invalid Password</_80>
+		<_81> AccountExpired </_81>
+		<_82> InvalidUserID </_82>
+		<_83> BatchTransCountError </_83>
+		<_84> InvalidBeginDate </_84>
+		<_85> InvalidEndDate </_85>
+		<_86> InvalidExternalID </_86>
+		<_87> DuplicateUserID </_87>
+		<_88> Invalid track 1</_88>
+		<_89> Invalid track 2</_89>
+		<_90> Transaction already refunded</_90>
+		<_91> Duplicate Batch ID</_91>
+		<_92> Duplicate Batch Transaction</_92>
+		<_93> Batch Transaction amount error</_93>
+		<_94> Unavailable Tier</_94>
+		<_95> Invalid Country Code</_95>
+		<_97> Account created in documentary status, but still must be validated.</_97>
+		<_98> Account created in documentary status, but still must be validated and paid for.</_98>
+		<_99> Account created successfully, but still must be paid for.</_99>
+		<_100> Transaction Already Refunded</_100>
+		<_101> Refund Exceeds Original Transaction</_101>
+		<_102> Invalid Payer Name</_102>
+		<_103> Transaction does not meet date criteria</_103>
+		<_104> Transaction could not be refunded due to current transaction state.</_104>
+		<_105> Direct deposit account not specified</_105>
+		<_106> Invalid SEC code</_106>
+		<_107> Invalid Account Name (ACH account)</_107>
+		<_108> Invalid x509 certificate</_108>
+		<_109> Invalid value for require CC refund </_109>
+		<_110> Required field is missing (This is returned only for edit ProPay account.  See response tag for field name.)</_110>
+		<_111> Invalid EIN</_111>
+		<_112> Invalid business legal name (DBA)</_112>
+		<_113> One of the business legal address fields is invalid</_113>
+		<_114> Business (legal) city is invalid</_114>
+		<_115> Business (legal) state is invalid</_115>
+		<_116> Business (legal) zip is invalid</_116>
+		<_117> Business (legal) country is invalid</_117>
+		<_118> Mailing address invalid</_118>
+		<_119> Business (legal) address is invalid</_119>
+		<_120> Incomplete business address</_120>
+		<_121> Amount Encumbered by enhanced Spendback</_121>
+		<_122> Invalid encrypting device type</_122>
+		<_123> Invalid key serial number</_123>
+		<_124> Invalid encrypted track data</_124>
+		<_125> You may not transfer money between these two accounts.  Sponsor bank transfer disallowed.</_125>
+		<_126> Currency code not allowed for this transaction</_126>
+		<_127> Currency code not permitted for this account</_127>
+		<_128> Requires Additional Validation</_128>
+		<_129> Multicurrency processing is not allowed for the account</_129>
+		<_130> Multicurrency processing is not supported for this bank processor </_130>
+		<_131> Capture amount exceeds allowed amount</_131>
+		<_132> Account setup does not allow capture for amount greater than authorization</_132>
+		<_133> Threat Metrix risk denied (no responseCode is returned)</_133>
+		<_134> Threat Metrix Invalid SessionId</_134>
+		<_135> Threat Metrix Invalid Account configuration</_135>
+		<_137> External Payment Provider not provided</_137>
+		<_138> External Payment Identifier not provided</_138>
+		<_139> External Payment Provider not valid</_139>
+		<_141> Inactive or blocked MCC Code</_141>
+		<_142> Invalid MCC Code (non-numeric or not in our database)</_142>
+	</status>
+	<responseCode>
+		<_0> Success</_0>
+		<_1> Transaction blocked by issuer</_1>
+		<_4> Pick up Card and deny transaction</_4>
+		<_5> Problem with the account</_5>
+		<_6> Customer requested stop to recurring payment</_6>
+		<_7> Customer requested stop to all recurring payments</_7>
+		<_8> Honor with ID only</_8>
+		<_9> Unpaid items on customer account</_9>
+		<_12> Invalid transaction</_12>
+		<_13> Amount Error</_13>
+		<_14> Invalid card number</_14>
+		<_15> No such issuer.  Could not route transaction</_15>
+		<_16> refund error</_16>
+		<_17> Over limit</_17>
+		<_19> re enter transaction or the merchant account may be boarded incorrectly</_19>
+		<_25> Invalid terminal</_25>
+		<_41> Lost card</_41>
+		<_43> Stolen card</_43>
+		<_51> Insufficient funds</_51>
+		<_52> No such account</_52>
+		<_54> Expired card</_54>
+		<_55> Incorrect PIN</_55>
+		<_57> Bank does not allow this type of purchase</_57>
+		<_58> Credit card network does not allow t his type of purchase for your merchant account.</_58>
+		<_61> Exceeds issuer withdrawal limit</_61>
+		<_62> Issuer does not allow this card to be charged for your business.</_62>
+		<_63> Security Violation</_63>
+		<_65> Activity limit exceeded</_65>
+		<_75> PIN tries exceeded</_75>
+		<_76> Unable to locate account</_76>
+		<_78> Account not recognized</_78>
+		<_80> Invalid Date</_80>
+		<_82>  Invalid CVV2</_82>
+		<_83> Cannot verify the PIN</_83>
+		<_85> Service not supported for this card</_85>
+		<_93> Cannot complete transaction.  Customer should call 800 number.</_93>
+		<_96> Issuer system malfunction or timeout.</_96>
+		<_97> Approved for a lesser amount.  ProPay will not settle and consider this a decline.</_97>
+		<_98> Failure HV</_98>
+		<_99> Unable to parse issuer response code.  Generic decline</_99>
+	</responseCode>
+	<CVV2Resp>
+		<_M> CVV2 Match</_M>
+		<_N> CVV2 No Match</_N>
+		<_P> Not Processed</_P>
+		<_S> Merchant has indicated that CVV2 is not present on card</_S>
+		<_U> Issuer is not certified and/or has not provided Visa encryption keys</_U>
+	</CVV2Resp>
+	<AVS>
+		<_A> Address Match</_A>
+		<_Z> Zip Match</_Z>
+		<_Y> Exact Match</_Y>
+		<_U> Verification Unavailable</_U>
+		<_G> Verification Unavailable</_G>
+		<_B> Address Match</_B>
+		<_C> Service Unavailable or offline</_C>
+		<_D> Exact Match</_D>
+		<_I> Verification Unavailable</_I>
+		<_M> Exact Match</_M>
+		<_P> Zip Match</_P>
+		<_S> Service Not Supported</_S>
+		<_R> Issuer System Unavailable</_R>
+		<_N> Zip code and Street do not match</_N>
+		<_T> Returned in the test environment</_T>
+	</AVS>
+</Response>
+

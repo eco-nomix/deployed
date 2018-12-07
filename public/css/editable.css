@@ -1,0 +1,156 @@
+body {
+    font-size:3vw;
+    max-font-size:18px;
+}
+
+h1 {
+
+    font-size:28px;
+    color: navy;
+}
+h2 {
+    font-size:24px;
+
+}
+
+.inline {
+    display: inline-block;
+}
+.editable, .editable-header, .edit,  .editCal, .revision, .factors, .justification {
+
+    font-style: italic;
+    cursor: pointer;
+    /*background: url("/assets/img/page_white_edit.png") no-repeat left;*/
+    /*padding-left:20px !important;*/
+}
+
+.ecaEditResponse, .ecaEditCal, .ecaEditText {
+    font-weight: bold;
+    font-style: italic;
+    color: navy;
+    cursor: pointer;
+}
+
+.revision {
+    margin:0 10px;
+    font-style:normal;
+
+}
+
+.padding-horizontal {
+    padding:0 10px;
+}
+
+.editable-date{
+
+    font-style: italic;
+    cursor: pointer;
+}
+
+.edited {
+    background-color:darkseagreen;
+}
+.edit-add{
+    background-color:#A0A0A0;
+    cursor: pointer;
+}
+.width5 {
+    width:5%;
+}
+.width100 {
+    width:150px;
+}
+
+.wid100{
+    min-width:100px;
+}
+
+
+.date {
+
+    height:30px;
+}
+#factors {
+    min-width:150px;
+}
+.selected {background-color:#ABDBff}
+.notselected {background-color:#bcd1e8 !important}
+.notselected:nth-child(even) {background-color:#bcd1e8 !important}
+.notselected:nth-child(odd) {background-color:#9daec2 !important}
+.recommended {background-color:#C6FF8C}
+.colwidth {width:10%}
+.Blue { color:navy !important;}
+.Black { color:#000000 !important;}
+.header {background-color: #0086ef;color:#fff;}
+.factors { font-style: italic;
+    cursor: pointer;}
+.justification { font-style: italic;
+    cursor: pointer;}
+#factorsSelector {position:absolute;
+    top:1600px;
+    left:1000px;
+    font-style: normal;
+    width:200px;
+    z-index:1;
+    cursor: pointer;
+}
+#justificationSelector {
+    cursor: pointer;
+    font-style: normal;
+}
+
+
+#newVal {
+    cursor: pointer;
+    font-style: normal;
+}
+
+.bold {
+    font-weight:bold !important;
+}
+.wrap {
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+}
+.subhead {
+    /*font-weight:bold;*/
+    font-size:larger;
+
+}
+
+.supplier {
+    color:navy;
+    font-weight:bold;
+}
+
+.admin {
+    color:green;
+    font-weight:bold;
+}
+
+.buyer {
+    color:red;
+    font-weight:bold;
+}
+
+.referral{
+    float:left;
+    font-weight:bold;
+    color:white;
+    padding:5px;
+    margin-top:2px;
+}
+
+.inline{
+    float:left;
+}
+.inline-right{
+    float:right;
+}
+
+.details{
+    color:black;
+    font-weight:normal;
+    font-size:12pt;
+}

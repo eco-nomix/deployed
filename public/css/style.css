@@ -1,0 +1,493 @@
+* {
+    box-sizing: border-box;
+}
+
+.KineticGoldbody {
+    background:lightblue;
+}
+
+.tibbody {
+    background:lightblue;
+}
+.tchamgangbody {
+    background:ivory;
+}
+.cbdbody {
+    background:ivory;
+}
+
+
+
+.skip {
+    display:block;
+    float:left;
+    height:70px;
+    width:100%;
+}
+
+.benefits {
+    font-weight:bold;
+    color:#000000;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+.message {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width:800px;
+    font-weight:bold;
+    color:#c0c0c0;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+
+
+
+
+}
+
+.action {
+     position: absolute;
+     left: 200px;
+     top: 50px;
+     width:800px;
+     font-weight:bold;
+     color:#c0c0c0;
+     font-family: 'Brush Script MT', cursive;
+     font-size: 35px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 500;
+     line-height: 23px;
+ }
+.action2 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width:700px;
+    font-weight:bold;
+    color:#000000;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 53px;
+}
+
+
+
+
+.message2 {
+    margin:10px;
+    font-weight:bold;
+    color:#000000;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+
+
+}
+.center {
+   text-align:center;
+}
+
+.trans {
+    opacity:0.8;
+}
+
+.display {
+      color:darkblue;
+      font-size: 22px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 24px;
+  }
+.tibdisplay {
+    color:black;
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.highdisplay {
+    color:darkblue;
+    font-size: 30px;
+    font-style: bold;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.kinetic {
+    color:goldenrod;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+.kinetic400{
+    color:goldenrod;
+    font-size: 6vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    /*line-height: 8vw;*/
+    width: 66vw;
+    height: 50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.kinetic600{
+    color:goldenrod;
+    font-size: 6vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    /*line-height: 8vw;*/
+    width: 80vw;
+    height: 50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.kinetic800{
+    color:goldenrod;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 40px;
+    width: 80vw;
+    height: 50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.kineticbackground{
+    background-image:url("{{URL::asset('images/denmark.jpeg')}}");
+}
+
+.kineticSm {
+    color:goldenrod;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+}
+.cbd {
+    color:black;
+    font-size: 3vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+
+
+
+}
+.cbddisplay {
+    color:black;
+    font-size: 2.5vwpx;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    text-align:justify;
+    /*line-height: 4vw;*/
+}
+
+.cbdheader{
+    color:white;
+    font-size: 4vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    /*line-height: 8vw;*/
+    width: 80vw;
+    height: 6vw;
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+}
+
+
+
+.cbdbackground{
+    background-image:url("{{URL::asset('images/denmark.jpeg')}}");
+}
+
+.cbdSm {
+    color:goldenrod;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+}
+.tibSm {
+    color:Black;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+}
+.eighth {
+    width: 12%;
+    max-width: 12%;
+}
+.fifth {
+    width: 20%;
+    max-width: 21%;
+}
+
+.summary {
+    color:black;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight:normal;
+    line-height: 16px;
+}
+
+.author {
+    color:darkgreen;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight:normal;
+    line-height: 19px;
+}
+
+td {
+    padding: 4px;
+}
+
+.back-white {
+    background-color:#FFFFFF;
+}
+
+.my200{
+    width:200px;
+    min-width:200px;
+    max-width:200px;
+}
+
+.navcontainer3 {
+    background:goldenrod;
+    height:8vw;
+    max-height:40px;
+    top:0;
+    z-index:10;
+    font-size:4.4vw;
+    width:100%;
+    position:fixed;
+}
+
+.navcontainer3 ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+  }
+.navcontainer3 ul li {
+    display: block;
+    position: relative;
+    float: left;
+    border:1px solid goldenrod
+}
+.navcontainer3 li ul {
+    display: none;
+}
+.navcontainer3 ul li a {
+    display: block;
+    background: goldenrod;
+    padding: 2px 7px 2px 7px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #FFF;
+}
+.navcontainer3 ul li a:hover {
+    background: lightgoldenrodyellow;
+    color:#000;
+    text-decoration: none;
+}
+.navcontainer3 li:hover ul {
+    display: block;
+    position: absolute;
+}
+.navcontainer3 li:hover li {
+    float: none;
+}
+.navcontainer3 li:hover a {
+    background: goldenrod;
+}
+.navcontainer3 li:hover li a:hover {
+    background:lightgoldenrodyellow;
+}
+
+.navcontainer3.nav-right{
+    right: 0;
+    left: auto;;
+}
+.navcontainer3 ul .top10{
+    margin:10px;
+}
+.navcontainer {
+    background:darkgreen;
+    height:8vw;
+    max-height:40px;
+    top:0;
+    z-index:10;
+    font-size:5vw;
+    width:100%;
+   position:fixed;
+}
+
+.navcontainer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navcontainer ul li {
+    display: block;
+    position: relative;
+    float: left;
+    border:1px solid darkgreen;
+    color: #FFF;
+}
+.navcontainer li ul {
+    display: none;
+}
+.navcontainer ul li a {
+    display: block;
+    background: darkgreen;
+    padding: 0px 2vw 0px 2vw;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #FFF;
+}
+.navcontainer ul li a:hover {
+    background: lightgreen;
+    color:#000;
+    text-decoration: none;
+}
+.navcontainer li:hover ul {
+    display: block;
+    position: absolute;
+}
+.navcontainer li:hover li {
+    float: none;
+}
+.navcontainer li:hover a {
+    background: green;
+}
+.navcontainer li:hover li a:hover {
+    background:lightgreen;
+}
+
+.navcontainer.nav-right{
+    right: 0;
+    left: auto;
+}
+.navcontainer ul .top10{
+    /*margin:10px;*/
+}
+.level {
+    background:lightgrey;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.addcart:hover {
+    background-color: #A0A0A0;
+    cursor:pointer;
+}
+
+
+
+.header {
+
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.standout {
+    background: aliceblue;
+    color:#0000FF;
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.noBorder {
+    border:0;
+}
+
+
+
+.hangingindent {
+    padding-left: 30px ;
+    text-indent: -30px ;
+}
+
+.indent {
+    padding-left:30px;
+}
+
+.w70 {
+    min-width:70px;
+    width:70px;
+    max-width:70px;
+}
+
+
+
+.trim{
+    max-height:900px;
+    overflow:hidden;
+}
+
+.pagecontainer {
+    max-height:92%;
+    overflow:auto;
+    text-align:center;
+    z-index:2;
+    width:100%;
+    position:fixed;
+
+}
+
+.pageoverlay {
+    z-index:10;
+    position:relative;
+}

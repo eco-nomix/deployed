@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="True" name="HandheldFriendly">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <title>{{ $title }}</title>
+     <meta name="description" content="@if($description){{$description}}@endif">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" type="text/css" href="/css/editable.css">
+    @yield('page_css')
+    @yield('header')
+    <script src="/js/jquery-1.12.1.min.js"></script>
+    <script src="/js/editing.js"></script>
+
+</head>
+<body class="KineticGoldbody">
+
+    @include('layouts.navigation3')
+    <div style="width:100%; border:solid 1px black; top:40; position:absolute; ">
+        <div style="z-index:-5;
+            overflow-y:scroll;
+            height: 100cv;
+            background-size:cover;
+            background-attachment:fixed;
+            background-image:url('/images/denmark.jpeg');">
+            @yield('content')
+            @yield('footer')
+        </div>
+    </div>
+    <script src="./js/mm-fontsize.js" type="text/javascript"></script>
+</body>
+</html>

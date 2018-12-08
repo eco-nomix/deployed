@@ -1855,6 +1855,51 @@
         "description": "Highlight PHP code in terminal"
     },
     {
+        "name": "laracasts/flash",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laracasts/flash.git",
+            "reference": "03eec812fd6ae948664ff51b4320785f6d15ee5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laracasts/flash/zipball/03eec812fd6ae948664ff51b4320785f6d15ee5d",
+            "reference": "03eec812fd6ae948664ff51b4320785f6d15ee5d",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "~5.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master"
+        },
+        "time": "2016-07-11T20:46:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Laracasts\\Flash": "src/"
+            },
+            "files": [
+                "src/Laracasts/Flash/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeffrey Way",
+                "email": "jeffrey@laracasts.com"
+            }
+        ],
+        "description": "Easy flash notifications"
+    },
+    {
         "name": "laravel/framework",
         "version": "v5.7.16",
         "version_normalized": "5.7.16.0",
@@ -2184,6 +2229,76 @@
             "laravel",
             "psysh"
         ]
+    },
+    {
+        "name": "laravelcollective/html",
+        "version": "v5.7.1",
+        "version_normalized": "5.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/LaravelCollective/html.git",
+            "reference": "777b6d390811ba249255ed5750bf17a019cd88a5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/LaravelCollective/html/zipball/777b6d390811ba249255ed5750bf17a019cd88a5",
+            "reference": "777b6d390811ba249255ed5750bf17a019cd88a5",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/http": "5.7.*",
+            "illuminate/routing": "5.7.*",
+            "illuminate/session": "5.7.*",
+            "illuminate/support": "5.7.*",
+            "illuminate/view": "5.7.*",
+            "php": ">=7.1.3"
+        },
+        "require-dev": {
+            "illuminate/database": "5.7.*",
+            "mockery/mockery": "~1.0",
+            "phpunit/phpunit": "~7.1"
+        },
+        "time": "2018-09-05T18:32:53+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.7-dev"
+            },
+            "laravel": {
+                "providers": [
+                    "Collective\\Html\\HtmlServiceProvider"
+                ],
+                "aliases": {
+                    "Form": "Collective\\Html\\FormFacade",
+                    "Html": "Collective\\Html\\HtmlFacade"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Collective\\Html\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylorotwell@gmail.com"
+            },
+            {
+                "name": "Adam Engebretson",
+                "email": "adam@laravelcollective.com"
+            }
+        ],
+        "description": "HTML and Form Builders for the Laravel Framework",
+        "homepage": "https://laravelcollective.com"
     },
     {
         "name": "lcobucci/jwt",
@@ -4121,6 +4236,54 @@
         ]
     },
     {
+        "name": "rap2hpoutre/laravel-log-viewer",
+        "version": "v0.5.3",
+        "version_normalized": "0.5.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rap2hpoutre/laravel-log-viewer.git",
+            "reference": "120ed1834f4be9b60cca3d2a5b80e408287874de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rap2hpoutre/laravel-log-viewer/zipball/120ed1834f4be9b60cca3d2a5b80e408287874de",
+            "reference": "120ed1834f4be9b60cca3d2a5b80e408287874de",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "4.2.*|5.*",
+            "php": ">=5.4.0"
+        },
+        "time": "2016-01-25T20:12:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/controllers"
+            ],
+            "psr-0": {
+                "Rap2hpoutre\\LaravelLogViewer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "rap2hpoutre",
+                "email": "raphael@ornikar.com"
+            }
+        ],
+        "description": "A Laravel log reader",
+        "keywords": [
+            "log",
+            "log-reader",
+            "log-viewer",
+            "logging"
+        ]
+    },
+    {
         "name": "sebastian/code-unit-reverse-lookup",
         "version": "1.0.1",
         "version_normalized": "1.0.1.0",
@@ -4909,27 +5072,27 @@
     },
     {
         "name": "symfony/css-selector",
-        "version": "v4.2.1",
-        "version_normalized": "4.2.1.0",
+        "version": "v3.1.10",
+        "version_normalized": "3.1.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/css-selector.git",
-            "reference": "aa9fa526ba1b2ec087ffdfb32753803d999fcfcd"
+            "reference": "722a87478a72d95dc2a3bcf41dc9c2d13fd4cb2d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/css-selector/zipball/aa9fa526ba1b2ec087ffdfb32753803d999fcfcd",
-            "reference": "aa9fa526ba1b2ec087ffdfb32753803d999fcfcd",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/722a87478a72d95dc2a3bcf41dc9c2d13fd4cb2d",
+            "reference": "722a87478a72d95dc2a3bcf41dc9c2d13fd4cb2d",
             "shasum": ""
         },
         "require": {
-            "php": "^7.1.3"
+            "php": ">=5.5.9"
         },
-        "time": "2018-11-11T19:52:12+00:00",
+        "time": "2017-01-02T20:31:54+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "4.2-dev"
+                "dev-master": "3.1-dev"
             }
         },
         "installation-source": "dist",
@@ -5018,6 +5181,64 @@
             }
         ],
         "description": "Symfony Debug Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/dom-crawler",
+        "version": "v3.1.10",
+        "version_normalized": "3.1.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dom-crawler.git",
+            "reference": "7eede2a901a19928494194f7d1815a77b9a473a0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/7eede2a901a19928494194f7d1815a77b9a473a0",
+            "reference": "7eede2a901a19928494194f7d1815a77b9a473a0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/css-selector": ""
+        },
+        "time": "2017-01-21T17:13:55+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\DomCrawler\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony DomCrawler Component",
         "homepage": "https://symfony.com"
     },
     {

@@ -4,7 +4,7 @@
    <div class="skip">&nbsp;</div>
        <div class="center" style="width:100%;display:block;float:left;">
            <div class="kinetic400">
-                Your Bank?  ?
+                Your Bank?  ?  sync test
            </div>
        </div>
         <div class="trans highdisplay  back-white col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2" >

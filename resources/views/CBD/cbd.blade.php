@@ -28,7 +28,7 @@
         {{--<img id="img1" src="../images/fchamgang 1.jpeg" style="width:100%"  />--}}
          {{--</div>--}}
 
-        <p>Many people are currently discovering the benefits of CBD.
+        <p>1 Many people are currently discovering the benefits of CBD.
         CBD is one of the cannabinoids which is found in the cannabis plant. </p>
         <p>One of the most well-known compounds of the cannabis plant is THC or
         tetrahydrocannabinol. Once the THC is broken down by heat and ingested, it can create a

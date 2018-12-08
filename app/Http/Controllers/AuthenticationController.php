@@ -70,9 +70,9 @@ class AuthenticationController extends Controller
         if ($user) {
             \Log::info("  userId=$user->id  member=$user->member");
             $username = $user->first_name.' '.$user->last_name;
-            $request->session()->set('username', $username);
-            $request->session()->set('user_id', $user->id);
-            $request->session()->set('user_link', $user->user_link);
+            $request->session()->put('username', $username);
+            $request->session()->put('user_id', $user->id);
+            $request->session()->put('user_link', $user->user_link);
 
             if ($user->member == 5) {
                 return $this->finishMemberLogin($user, $request);
@@ -140,9 +140,9 @@ class AuthenticationController extends Controller
         \Log::info("in finishMemberLogin");
         $username = $user->first_name.' '.$user->last_name;
         $roles = $this->getUserRoles($user->id);
-        $request->session()->set('user_name', $username);
-        $request->session()->set('user_id', $user->id);
-        $request->session()->set('userRoles', $roles);
+        $request->session()->put('user_name', $username);
+        $request->session()->put('user_id', $user->id);
+        $request->session()->put('userRoles', $roles);
         $request->session()->save();
 
         $data = $this->basedata($request);
@@ -362,8 +362,8 @@ class AuthenticationController extends Controller
             $user->save();
             $data = $this->basedata($request);
             $username = $user->first_name . ' ' . $user->last_name;
-            $request->session()->set('user_name', $username);
-            $request->session()->set('user_id', $user->id);
+            $request->session()->put('user_name', $username);
+            $request->session()->put('user_id', $user->id);
             $request->session()->save();
             $data = $this->basedata($request);
             $data['user_name'] = $username;
@@ -452,11 +452,11 @@ class AuthenticationController extends Controller
 
     public function clearSession(Request $request)
     {
-        $request->session()->set('user_name', '');
-        $request->session()->set('username', '');
-        $request->session()->set('user_id', '');
-        $request->session()->set('referralId', '');
-        $request->session()->set('userRoles', '');
+        $request->session()->put('user_name', '');
+        $request->session()->put('username', '');
+        $request->session()->put('user_id', '');
+        $request->session()->put('referralId', '');
+        $request->session()->put('userRoles', '');
         $request->session()->save();
     }
 
@@ -489,9 +489,9 @@ class AuthenticationController extends Controller
             Cookie::queue('ecosponsor', $userId, 2628000);
         }
         if ($user) {
-            $request->session()->set('referralId', $user->id);
+            $request->session()->put('referralId', $user->id);
         } else {
-            $request->session()->set('referralId', '');
+            $request->session()->put('referralId', '');
         }
         $userName = $request->input('user_name');
         $data['username']=$userName;
@@ -534,7 +534,7 @@ class AuthenticationController extends Controller
                 $data['userRoles'] = '';
                 $data['user_id'] = '';
                 $data['title'] = '';
-                $request->session()->set('user_id', $user->id);
+                $request->session()->put('user_id', $user->id);
                 $request->session()->save();
                 return view('ecoauth.email_verification_continue', $data);
             } else {
@@ -578,8 +578,8 @@ class AuthenticationController extends Controller
     {
         $data= $this->basedata($request);
         $username = $user->first_name.' '.$user->last_name;
-        $request->session()->set('user_name', $username);
-        $request->session()->set('user_id', $user->id);
+        $request->session()->put('user_name', $username);
+        $request->session()->put('user_id', $user->id);
         $request->session()->save();
         $data = $this->basedata($request);
         $data['user_name'] = $username;
@@ -618,8 +618,8 @@ class AuthenticationController extends Controller
         $user->save();
         $user->user_link =  md5($user->id);
         $user->save();
-        $request->session()->set('user_id', $user->id);
-        $request->session()->set('username', $user->first_name.' '.$user->last_name);
+        $request->session()->put('user_id', $user->id);
+        $request->session()->put('username', $user->first_name.' '.$user->last_name);
         return $user;
     }
 
@@ -811,8 +811,8 @@ class AuthenticationController extends Controller
         \Log::info('memberData');
         $username = $user->first_name.' '.$user->last_name;
         $roles = $this->getUserRoles($user->id);
-        $request->session()->set('user_name', $username);
-        $request->session()->set('user_id', $user->id);
+        $request->session()->put('user_name', $username);
+        $request->session()->put('user_id', $user->id);
         $userId = $user->id;
         $user = Users::find($userId);
         if ($user) {
@@ -821,7 +821,7 @@ class AuthenticationController extends Controller
             $referralLink = "Not Logged in";
         }
 
-        $request->session()->set('userRoles', $roles);
+        $request->session()->put('userRoles', $roles);
         $request->session()->save();
         $data = [];
         $data['firstId'] = 0;

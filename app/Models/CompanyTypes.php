@@ -11,4 +11,5 @@ class CompanyTypes extends Model
 
     protected $primaryKey = 'id';
     public $timestamps = false;
+
 }

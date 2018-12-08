@@ -8,8 +8,7 @@ class DistributorCommission extends Model
 {
     public $timestamps = false;
 
-    public function transactionDetails()
-    {
-        return $this->belongsTo(SalesTransactionDetails::class, 'sales_transaction_detail_id');
+    public function transactionDetails(){
+    	return $this->belongsTo(SalesTransactionDetails::class,'sales_transaction_detail_id');
     }
 }

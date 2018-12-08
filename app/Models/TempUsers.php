@@ -15,4 +15,5 @@ class TempUsers extends Model
     protected $primaryKey = 'id';
 
     protected $hidden = ['password'];
+
 }
